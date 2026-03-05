@@ -1,0 +1,343 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-BodyStructure-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-BodyStructure-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-BodyStructure-element-map-to-R4</b></p><a name=\"R5-BodyStructure-element-map-to-R4\"> </a><a name=\"hcR5-BodyStructure-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/BodyStructure|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/bodystructure.html\">BodyStructureversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>BodyStructure.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.meta</td><td>Element `BodyStructure.meta` is mapped to FHIR R4 element `BodyStructure.meta` as `Equivalent`.</td></tr><tr><td>BodyStructure.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.implicitRules</td><td>Element `BodyStructure.implicitRules` is mapped to FHIR R4 element `BodyStructure.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>BodyStructure.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.language</td><td>Element `BodyStructure.language` is mapped to FHIR R4 element `BodyStructure.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>BodyStructure.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.text</td><td>Element `BodyStructure.text` is mapped to FHIR R4 element `BodyStructure.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>BodyStructure.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.contained</td><td>Element `BodyStructure.contained` is mapped to FHIR R4 element `BodyStructure.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>BodyStructure.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.identifier</td><td>Element `BodyStructure.identifier` is mapped to FHIR R4 element `BodyStructure.identifier` as `Equivalent`.</td></tr><tr><td>BodyStructure.active (active)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.active</td><td>Element `BodyStructure.active` is mapped to FHIR R4 element `BodyStructure.active` as `Equivalent`.\nThis element is labeled as a modifier because it may be used to mark that the resource was created in error.</td></tr><tr><td>BodyStructure.morphology (morphology)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.morphology</td><td>Element `BodyStructure.morphology` is mapped to FHIR R4 element `BodyStructure.morphology` as `Equivalent`.\nThe minimum cardinality of 0 supports the use case of specifying a location without defining a morphology.</td></tr><tr><td>BodyStructure.includedStructure (includedStructure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td>BodyStructure</td><td>Element `BodyStructure.includedStructure` is mapped to FHIR R4 element `BodyStructure` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>BodyStructure.includedStructure.qualifier (qualifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.locationQualifier</td><td>Element `BodyStructure.includedStructure.qualifier` is mapped to FHIR R4 element `BodyStructure.locationQualifier` as `Equivalent`.</td></tr><tr><td>BodyStructure.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.description</td><td>Element `BodyStructure.description` is mapped to FHIR R4 element `BodyStructure.description` as `Equivalent`.\nThis description could include any visual markings used to orientate the viewer e.g. external reference points, special sutures, ink markings.</td></tr><tr><td>BodyStructure.image (image)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.image</td><td>Element `BodyStructure.image` is mapped to FHIR R4 element `BodyStructure.image` as `Equivalent`.</td></tr><tr><td>BodyStructure.patient (patient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>BodyStructure.patient</td><td>Element `BodyStructure.patient` is mapped to FHIR R4 element `BodyStructure.patient` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/BodyStructure|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>BodyStructure.includedStructure (includedStructure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure</td><td>Element `BodyStructure.includedStructure` is mapped to FHIR R4 element `BodyStructure` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>BodyStructure.includedStructure.structure (structure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.structure</td><td>Element `BodyStructure.includedStructure.structure` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.structure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.laterality (laterality)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.laterality</td><td>Element `BodyStructure.includedStructure.laterality` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.laterality` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation (bodyLandmarkOrientation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription (landmarkDescription)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:landmarkDescription</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition (clockFacePosition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:clockFacePosition</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark (distanceFromLandmark)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:distanceFromLandmark</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device (device)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark:device</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark:value</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation (surfaceOrientation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:surfaceOrientation</td><td>Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.includedStructure.spatialReference (spatialReference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.spatialReference</td><td>Element `BodyStructure.includedStructure.spatialReference` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.spatialReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BodyStructure.excludedStructure (excludedStructure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure</td><td>Element `BodyStructure.excludedStructure` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.excludedStructure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-BodyStructure-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-BodyStructure-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5BodyStructureElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 BodyStructure to FHIR R4 BodyStructure"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:46.7361527-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 BodyStructure to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/BodyStructure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/BodyStructure>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/BodyStructure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/BodyStructure>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "BodyStructure.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.meta" ] ;
+         fhir:display [ fhir:v "BodyStructure.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.meta` is mapped to FHIR R4 element `BodyStructure.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.implicitRules" ] ;
+         fhir:display [ fhir:v "BodyStructure.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.implicitRules` is mapped to FHIR R4 element `BodyStructure.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.language" ] ;
+         fhir:display [ fhir:v "BodyStructure.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.language` is mapped to FHIR R4 element `BodyStructure.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.text" ] ;
+         fhir:display [ fhir:v "BodyStructure.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.text` is mapped to FHIR R4 element `BodyStructure.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.contained" ] ;
+         fhir:display [ fhir:v "BodyStructure.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.contained` is mapped to FHIR R4 element `BodyStructure.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.identifier" ] ;
+         fhir:display [ fhir:v "BodyStructure.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.identifier` is mapped to FHIR R4 element `BodyStructure.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.active" ] ;
+         fhir:display [ fhir:v "BodyStructure.active" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.active` is mapped to FHIR R4 element `BodyStructure.active` as `Equivalent`.\nThis element is labeled as a modifier because it may be used to mark that the resource was created in error." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.morphology" ] ;
+       fhir:display [ fhir:v "morphology" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.morphology" ] ;
+         fhir:display [ fhir:v "BodyStructure.morphology" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.morphology` is mapped to FHIR R4 element `BodyStructure.morphology` as `Equivalent`.\nThe minimum cardinality of 0 supports the use case of specifying a location without defining a morphology." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure" ] ;
+       fhir:display [ fhir:v "includedStructure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure" ] ;
+         fhir:display [ fhir:v "BodyStructure" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure` is mapped to FHIR R4 element `BodyStructure` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.qualifier" ] ;
+       fhir:display [ fhir:v "qualifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.locationQualifier" ] ;
+         fhir:display [ fhir:v "BodyStructure.locationQualifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.qualifier` is mapped to FHIR R4 element `BodyStructure.locationQualifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.description" ] ;
+         fhir:display [ fhir:v "BodyStructure.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.description` is mapped to FHIR R4 element `BodyStructure.description` as `Equivalent`.\nThis description could include any visual markings used to orientate the viewer e.g. external reference points, special sutures, ink markings." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.image" ] ;
+       fhir:display [ fhir:v "image" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.image" ] ;
+         fhir:display [ fhir:v "BodyStructure.image" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.image` is mapped to FHIR R4 element `BodyStructure.image` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "BodyStructure.patient" ] ;
+         fhir:display [ fhir:v "BodyStructure.patient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.patient` is mapped to FHIR R4 element `BodyStructure.patient` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/BodyStructure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/BodyStructure>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "BodyStructure.includedStructure" ] ;
+       fhir:display [ fhir:v "includedStructure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure` is mapped to FHIR R4 element `BodyStructure` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.structure" ] ;
+       fhir:display [ fhir:v "structure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.structure" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.structure` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.structure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.laterality" ] ;
+       fhir:display [ fhir:v "laterality" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.laterality" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.laterality` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.laterality` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation" ] ;
+       fhir:display [ fhir:v "bodyLandmarkOrientation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription" ] ;
+       fhir:display [ fhir:v "landmarkDescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:landmarkDescription" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.landmarkDescription` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition" ] ;
+       fhir:display [ fhir:v "clockFacePosition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:clockFacePosition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.clockFacePosition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark" ] ;
+       fhir:display [ fhir:v "distanceFromLandmark" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:distanceFromLandmark" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark:device" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark:value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.distanceFromLandmark.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation" ] ;
+       fhir:display [ fhir:v "surfaceOrientation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation:surfaceOrientation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` is part of an existing definition because parent element `BodyStructure.includedStructure.bodyLandmarkOrientation` requires a cross-version extension.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.bodyLandmarkOrientation.surfaceOrientation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.includedStructure.spatialReference" ] ;
+       fhir:display [ fhir:v "spatialReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.spatialReference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.includedStructure.spatialReference` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.includedStructure.spatialReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "BodyStructure.excludedStructure" ] ;
+       fhir:display [ fhir:v "excludedStructure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `BodyStructure.excludedStructure` has a context of BodyStructure based on following the parent source element upwards and mapping to `BodyStructure`.\nElement `BodyStructure.excludedStructure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

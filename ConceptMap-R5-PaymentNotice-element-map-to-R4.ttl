@@ -1,0 +1,272 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-PaymentNotice-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-PaymentNotice-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-PaymentNotice-element-map-to-R4</b></p><a name=\"R5-PaymentNotice-element-map-to-R4\"> </a><a name=\"hcR5-PaymentNotice-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PaymentNotice|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/paymentnotice.html\">PaymentNoticeversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PaymentNotice.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.meta</td><td>Element `PaymentNotice.meta` is mapped to FHIR R4 element `PaymentNotice.meta` as `Equivalent`.</td></tr><tr><td>PaymentNotice.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.implicitRules</td><td>Element `PaymentNotice.implicitRules` is mapped to FHIR R4 element `PaymentNotice.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>PaymentNotice.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.language</td><td>Element `PaymentNotice.language` is mapped to FHIR R4 element `PaymentNotice.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>PaymentNotice.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.text</td><td>Element `PaymentNotice.text` is mapped to FHIR R4 element `PaymentNotice.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>PaymentNotice.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.contained</td><td>Element `PaymentNotice.contained` is mapped to FHIR R4 element `PaymentNotice.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>PaymentNotice.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.identifier</td><td>Element `PaymentNotice.identifier` is mapped to FHIR R4 element `PaymentNotice.identifier` as `Equivalent`.</td></tr><tr><td>PaymentNotice.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.status</td><td>Element `PaymentNotice.status` is mapped to FHIR R4 element `PaymentNotice.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>PaymentNotice.request (request)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.request</td><td>Element `PaymentNotice.request` is mapped to FHIR R4 element `PaymentNotice.request` as `Equivalent`.</td></tr><tr><td>PaymentNotice.response (response)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.response</td><td>Element `PaymentNotice.response` is mapped to FHIR R4 element `PaymentNotice.response` as `Equivalent`.</td></tr><tr><td>PaymentNotice.created (created)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.created</td><td>Element `PaymentNotice.created` is mapped to FHIR R4 element `PaymentNotice.created` as `Equivalent`.</td></tr><tr><td>PaymentNotice.reporter (reporter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.provider</td><td>Element `PaymentNotice.reporter` is mapped to FHIR R4 element `PaymentNotice.provider` as `Equivalent`.</td></tr><tr><td>PaymentNotice.payment (payment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.payment</td><td>Element `PaymentNotice.payment` is mapped to FHIR R4 element `PaymentNotice.payment` as `Equivalent`.</td></tr><tr><td>PaymentNotice.paymentDate (paymentDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.paymentDate</td><td>Element `PaymentNotice.paymentDate` is mapped to FHIR R4 element `PaymentNotice.paymentDate` as `Equivalent`.</td></tr><tr><td>PaymentNotice.payee (payee)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.payee</td><td>Element `PaymentNotice.payee` is mapped to FHIR R4 element `PaymentNotice.payee` as `Equivalent`.</td></tr><tr><td>PaymentNotice.recipient (recipient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.recipient</td><td>Element `PaymentNotice.recipient` is mapped to FHIR R4 element `PaymentNotice.recipient` as `Equivalent`.</td></tr><tr><td>PaymentNotice.amount (amount)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.amount</td><td>Element `PaymentNotice.amount` is mapped to FHIR R4 element `PaymentNotice.amount` as `Equivalent`.</td></tr><tr><td>PaymentNotice.paymentStatus (paymentStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>PaymentNotice.paymentStatus</td><td>Element `PaymentNotice.paymentStatus` is mapped to FHIR R4 element `PaymentNotice.paymentStatus` as `Equivalent`.\nTypically paid: payment sent, cleared: payment received.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-PaymentNotice-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-PaymentNotice-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5PaymentNoticeElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 PaymentNotice to FHIR R4 PaymentNotice"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:50.8728036-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 PaymentNotice to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PaymentNotice>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PaymentNotice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PaymentNotice>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PaymentNotice.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.meta" ] ;
+         fhir:display [ fhir:v "PaymentNotice.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.meta` is mapped to FHIR R4 element `PaymentNotice.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.implicitRules" ] ;
+         fhir:display [ fhir:v "PaymentNotice.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.implicitRules` is mapped to FHIR R4 element `PaymentNotice.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.language" ] ;
+         fhir:display [ fhir:v "PaymentNotice.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.language` is mapped to FHIR R4 element `PaymentNotice.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.text" ] ;
+         fhir:display [ fhir:v "PaymentNotice.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.text` is mapped to FHIR R4 element `PaymentNotice.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.contained" ] ;
+         fhir:display [ fhir:v "PaymentNotice.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.contained` is mapped to FHIR R4 element `PaymentNotice.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.identifier" ] ;
+         fhir:display [ fhir:v "PaymentNotice.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.identifier` is mapped to FHIR R4 element `PaymentNotice.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.status" ] ;
+         fhir:display [ fhir:v "PaymentNotice.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.status` is mapped to FHIR R4 element `PaymentNotice.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.request" ] ;
+         fhir:display [ fhir:v "PaymentNotice.request" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.request` is mapped to FHIR R4 element `PaymentNotice.request` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.response" ] ;
+         fhir:display [ fhir:v "PaymentNotice.response" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.response` is mapped to FHIR R4 element `PaymentNotice.response` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.created" ] ;
+         fhir:display [ fhir:v "PaymentNotice.created" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.created` is mapped to FHIR R4 element `PaymentNotice.created` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.reporter" ] ;
+       fhir:display [ fhir:v "reporter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.provider" ] ;
+         fhir:display [ fhir:v "PaymentNotice.provider" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.reporter` is mapped to FHIR R4 element `PaymentNotice.provider` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.payment" ] ;
+       fhir:display [ fhir:v "payment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.payment" ] ;
+         fhir:display [ fhir:v "PaymentNotice.payment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.payment` is mapped to FHIR R4 element `PaymentNotice.payment` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.paymentDate" ] ;
+       fhir:display [ fhir:v "paymentDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.paymentDate" ] ;
+         fhir:display [ fhir:v "PaymentNotice.paymentDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.paymentDate` is mapped to FHIR R4 element `PaymentNotice.paymentDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.payee" ] ;
+       fhir:display [ fhir:v "payee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.payee" ] ;
+         fhir:display [ fhir:v "PaymentNotice.payee" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.payee` is mapped to FHIR R4 element `PaymentNotice.payee` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.recipient" ] ;
+         fhir:display [ fhir:v "PaymentNotice.recipient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.recipient` is mapped to FHIR R4 element `PaymentNotice.recipient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.amount" ] ;
+         fhir:display [ fhir:v "PaymentNotice.amount" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.amount` is mapped to FHIR R4 element `PaymentNotice.amount` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PaymentNotice.paymentStatus" ] ;
+       fhir:display [ fhir:v "paymentStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "PaymentNotice.paymentStatus" ] ;
+         fhir:display [ fhir:v "PaymentNotice.paymentStatus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `PaymentNotice.paymentStatus` is mapped to FHIR R4 element `PaymentNotice.paymentStatus` as `Equivalent`.\nTypically paid: payment sent, cleared: payment received." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

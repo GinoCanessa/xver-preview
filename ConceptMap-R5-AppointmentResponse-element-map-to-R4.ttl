@@ -1,0 +1,307 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-AppointmentResponse-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-AppointmentResponse-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-AppointmentResponse-element-map-to-R4</b></p><a name=\"R5-AppointmentResponse-element-map-to-R4\"> </a><a name=\"hcR5-AppointmentResponse-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AppointmentResponse|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/appointmentresponse.html\">AppointmentResponseversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AppointmentResponse.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.meta</td><td>Element `AppointmentResponse.meta` is mapped to FHIR R4 element `AppointmentResponse.meta` as `Equivalent`.</td></tr><tr><td>AppointmentResponse.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.implicitRules</td><td>Element `AppointmentResponse.implicitRules` is mapped to FHIR R4 element `AppointmentResponse.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>AppointmentResponse.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.language</td><td>Element `AppointmentResponse.language` is mapped to FHIR R4 element `AppointmentResponse.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>AppointmentResponse.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.text</td><td>Element `AppointmentResponse.text` is mapped to FHIR R4 element `AppointmentResponse.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>AppointmentResponse.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.contained</td><td>Element `AppointmentResponse.contained` is mapped to FHIR R4 element `AppointmentResponse.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>AppointmentResponse.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.identifier</td><td>Element `AppointmentResponse.identifier` is mapped to FHIR R4 element `AppointmentResponse.identifier` as `Equivalent`.</td></tr><tr><td>AppointmentResponse.appointment (appointment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.appointment</td><td>Element `AppointmentResponse.appointment` is mapped to FHIR R4 element `AppointmentResponse.appointment` as `Equivalent`.</td></tr><tr><td>AppointmentResponse.start (start)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.start</td><td>Element `AppointmentResponse.start` is mapped to FHIR R4 element `AppointmentResponse.start` as `Equivalent`.\nThis may be either the same as the appointment request to confirm the details of the appointment, or alternately a new time to request a re-negotiation of the start time.</td></tr><tr><td>AppointmentResponse.end (end)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.end</td><td>Element `AppointmentResponse.end` is mapped to FHIR R4 element `AppointmentResponse.end` as `Equivalent`.</td></tr><tr><td>AppointmentResponse.participantType (participantType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.participantType</td><td>Element `AppointmentResponse.participantType` is mapped to FHIR R4 element `AppointmentResponse.participantType` as `Equivalent`.\nThe role of the participant can be used to declare what the actor will be doing in the scope of the referenced appointment.#xD;#xD;If the actor is not specified, then it is expected that the actor will be filled in at a later stage of planning.#xD;#xD;This value SHALL be the same as specified on the referenced Appointment so that they can be matched, and subsequently updated.</td></tr><tr><td>AppointmentResponse.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>AppointmentResponse.actor</td><td>Element `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `AppointmentResponse.actor` with unmapped reference targets: Group.</td></tr><tr><td>AppointmentResponse.participantStatus (participantStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>AppointmentResponse.participantStatus</td><td>Element `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus` as `SourceIsBroaderThanTarget`.\nThe target context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the participant as not currently valid.</td></tr><tr><td>AppointmentResponse.comment (comment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>AppointmentResponse.comment</td><td>Element `AppointmentResponse.comment` is mapped to FHIR R4 element `AppointmentResponse.comment` as `Equivalent`.\nThis comment is particularly important when the responder is declining, tentatively accepting or requesting another time to indicate the reasons why.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AppointmentResponse|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AppointmentResponse.proposedNewTime (proposedNewTime)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime</td><td>Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.proposedNewTime` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>AppointmentResponse.participantStatus (participantStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.participantStatus</td><td>Element `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus` as `SourceIsBroaderThanTarget`.\nThe target context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the participant as not currently valid.</td></tr><tr><td>AppointmentResponse.recurring (recurring)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring</td><td>Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.recurring` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen a recurring appointment is requested, the participant may choose to respond to each individual occurrence, in which case AppointmentResponse.recurring should be false.  If the participant chooses to respond the same way for all occurrences, they may instead use a single AppointmentResponse with recurring set to true.  These may be combined as the participant chooses.  For example, they may accept all occurrences (recurring = true), but then send a decline for a specific occurrence (recurring=false).</td></tr><tr><td>AppointmentResponse.occurrenceDate (occurrenceDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate</td><td>Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.occurrenceDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>AppointmentResponse.recurrenceId (recurrenceId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId</td><td>Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.recurrenceId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf the recurrence template was defined using the list of occurrenceDates then this property might not be used.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AppointmentResponse|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AppointmentResponse.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-AppointmentResponse-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-AppointmentResponse-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5AppointmentResponseElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 AppointmentResponse to FHIR R4 AppointmentResponse"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:46.1490784-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 AppointmentResponse to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AppointmentResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AppointmentResponse>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AppointmentResponse.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.meta" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.meta` is mapped to FHIR R4 element `AppointmentResponse.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.implicitRules" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.implicitRules` is mapped to FHIR R4 element `AppointmentResponse.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.language" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.language` is mapped to FHIR R4 element `AppointmentResponse.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.text" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.text` is mapped to FHIR R4 element `AppointmentResponse.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.contained" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.contained` is mapped to FHIR R4 element `AppointmentResponse.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.identifier" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.identifier` is mapped to FHIR R4 element `AppointmentResponse.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.appointment" ] ;
+       fhir:display [ fhir:v "appointment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.appointment" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.appointment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.appointment` is mapped to FHIR R4 element `AppointmentResponse.appointment` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.start" ] ;
+       fhir:display [ fhir:v "start" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.start" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.start" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.start` is mapped to FHIR R4 element `AppointmentResponse.start` as `Equivalent`.\nThis may be either the same as the appointment request to confirm the details of the appointment, or alternately a new time to request a re-negotiation of the start time." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.end" ] ;
+       fhir:display [ fhir:v "end" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.end" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.end" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.end` is mapped to FHIR R4 element `AppointmentResponse.end` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.participantType" ] ;
+       fhir:display [ fhir:v "participantType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.participantType" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.participantType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.participantType` is mapped to FHIR R4 element `AppointmentResponse.participantType` as `Equivalent`.\nThe role of the participant can be used to declare what the actor will be doing in the scope of the referenced appointment.\r\rIf the actor is not specified, then it is expected that the actor will be filled in at a later stage of planning.\r\rThis value SHALL be the same as specified on the referenced Appointment so that they can be matched, and subsequently updated." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.actor" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.actor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `AppointmentResponse.actor` with unmapped reference targets: Group." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.participantStatus" ] ;
+       fhir:display [ fhir:v "participantStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.participantStatus" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.participantStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus` as `SourceIsBroaderThanTarget`.\nThe target context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the participant as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "AppointmentResponse.comment" ] ;
+         fhir:display [ fhir:v "AppointmentResponse.comment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.comment` is mapped to FHIR R4 element `AppointmentResponse.comment` as `Equivalent`.\nThis comment is particularly important when the responder is declining, tentatively accepting or requesting another time to indicate the reasons why." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AppointmentResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AppointmentResponse.proposedNewTime" ] ;
+       fhir:display [ fhir:v "proposedNewTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.proposedNewTime` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.participantStatus" ] ;
+       fhir:display [ fhir:v "participantStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.participantStatus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus` as `SourceIsBroaderThanTarget`.\nThe target context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the participant as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.recurring" ] ;
+       fhir:display [ fhir:v "recurring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.recurring` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen a recurring appointment is requested, the participant may choose to respond to each individual occurrence, in which case AppointmentResponse.recurring should be false.  If the participant chooses to respond the same way for all occurrences, they may instead use a single AppointmentResponse with recurring set to true.  These may be combined as the participant chooses.  For example, they may accept all occurrences (recurring = true), but then send a decline for a specific occurrence (recurring=false)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.occurrenceDate" ] ;
+       fhir:display [ fhir:v "occurrenceDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.occurrenceDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AppointmentResponse.recurrenceId" ] ;
+       fhir:display [ fhir:v "recurrenceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.\nElement `AppointmentResponse.recurrenceId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf the recurrence template was defined using the list of occurrenceDates then this property might not be used." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AppointmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AppointmentResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AppointmentResponse.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

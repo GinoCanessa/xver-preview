@@ -1,0 +1,91 @@
+# MedicationIntendedPerformerRole - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## CodeSystem: MedicationIntendedPerformerRole 
+
+ 
+Medication Intended Performer Role 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [R5MedicationIntendedPerformerRoleForR4](ValueSet-R5-medication-intended-performer-role-for-R4.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "medication-intended-performer-role",
+  "extension" : [{
+    "extension" : [{
+      "url" : "packageId",
+      "valueId" : "hl7.fhir.uv.xver-r5.r4"
+    },
+    {
+      "url" : "version",
+      "valueString" : "0.1.0"
+    },
+    {
+      "url" : "uri",
+      "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "phx"
+  }],
+  "url" : "http://hl7.org/fhir/CodeSystem/medication-intended-performer-role",
+  "version" : "5.0.0",
+  "name" : "MedicationIntendedPerformerRole",
+  "title" : "Medication Intended Performer Role",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:18:28-06:00",
+  "publisher" : "Pharmacy",
+  "contact" : [{
+    "name" : "Pharmacy",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/medication"
+    }]
+  }],
+  "description" : "Medication Intended Performer Role",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "caseSensitive" : true,
+  "valueSet" : "http://hl7.org/fhir/ValueSet/medication-intended-performer-role",
+  "content" : "complete",
+  "concept" : [{
+    "code" : "registerednurse",
+    "display" : "Registered Nurse"
+  },
+  {
+    "code" : "oncologynurse",
+    "display" : "Oncology Nurse"
+  },
+  {
+    "code" : "paincontrolnurse",
+    "display" : "Pain Control Nurse"
+  },
+  {
+    "code" : "physician",
+    "display" : "Physician"
+  },
+  {
+    "code" : "pharmacist",
+    "display" : "Pharmacist"
+  }]
+}
+
+```

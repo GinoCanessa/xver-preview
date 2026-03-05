@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Specimen-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Specimen-element-map-to-R4</b></p><a name="R5-Specimen-element-map-to-R4"> </a><a name="hcR5-Specimen-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Specimen|5.0.0</code> to <a href="http://hl7.org/fhir/R4/specimen.html">Specimenversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Specimen.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.meta</td><td>Element `Specimen.meta` is mapped to FHIR R4 element `Specimen.meta` as `Equivalent`.</td></tr><tr><td>Specimen.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.implicitRules</td><td>Element `Specimen.implicitRules` is mapped to FHIR R4 element `Specimen.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Specimen.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.language</td><td>Element `Specimen.language` is mapped to FHIR R4 element `Specimen.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Specimen.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.text</td><td>Element `Specimen.text` is mapped to FHIR R4 element `Specimen.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Specimen.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.contained</td><td>Element `Specimen.contained` is mapped to FHIR R4 element `Specimen.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Specimen.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.identifier</td><td>Element `Specimen.identifier` is mapped to FHIR R4 element `Specimen.identifier` as `Equivalent`.</td></tr><tr><td>Specimen.accessionIdentifier (accessionIdentifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.accessionIdentifier</td><td>Element `Specimen.accessionIdentifier` is mapped to FHIR R4 element `Specimen.accessionIdentifier` as `Equivalent`.</td></tr><tr><td>Specimen.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.status</td><td>Element `Specimen.status` is mapped to FHIR R4 element `Specimen.status` as `Equivalent`.
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>Specimen.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.type</td><td>Element `Specimen.type` is mapped to FHIR R4 element `Specimen.type` as `Equivalent`.
+The type can change the way that a specimen is handled and drives what kind of analyses can properly be performed on the specimen. It is frequently used in diagnostic work flow decision making systems.</td></tr><tr><td>Specimen.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Specimen.subject</td><td>Element `Specimen.subject` is mapped to FHIR R4 element `Specimen.subject` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Specimen.subject` with unmapped reference targets: BiologicallyDerivedProduct.</td></tr><tr><td>Specimen.receivedTime (receivedTime)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.receivedTime</td><td>Element `Specimen.receivedTime` is mapped to FHIR R4 element `Specimen.receivedTime` as `Equivalent`.</td></tr><tr><td>Specimen.parent (parent)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.parent</td><td>Element `Specimen.parent` is mapped to FHIR R4 element `Specimen.parent` as `Equivalent`.
+The parent specimen could be the source from which the current specimen is derived by some processing step (e.g. an aliquot or isolate or extracted nucleic acids from clinical samples) or one of many specimens that were combined to create a pooled sample.</td></tr><tr><td>Specimen.request (request)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.request</td><td>Element `Specimen.request` is mapped to FHIR R4 element `Specimen.request` as `Equivalent`.
+The request may be explicit or implied such with a ServiceRequest that requires a blood draw.</td></tr><tr><td>Specimen.collection (collection)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Specimen.collection</td><td>Element `Specimen.collection` is mapped to FHIR R4 element `Specimen.collection` as `Equivalent`.</td></tr><tr><td>Specimen.collection.collector (collector)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Specimen.collection.collector</td><td>Element `Specimen.collection.collector` is mapped to FHIR R4 element `Specimen.collection.collector` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Specimen.collection.collector` with unmapped reference targets: Patient, RelatedPerson.</td></tr><tr><td>Specimen.collection.collected[x] (collected[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.collection.collected[x]</td><td>Element `Specimen.collection.collected[x]` is mapped to FHIR R4 element `Specimen.collection.collected[x]` as `Equivalent`.
+The target context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.</td></tr><tr><td>Specimen.collection.duration (duration)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.collection.duration</td><td>Element `Specimen.collection.duration` is mapped to FHIR R4 element `Specimen.collection.duration` as `Equivalent`.</td></tr><tr><td>Specimen.collection.quantity (quantity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.collection.quantity</td><td>Element `Specimen.collection.quantity` is mapped to FHIR R4 element `Specimen.collection.quantity` as `Equivalent`.</td></tr><tr><td>Specimen.collection.method (method)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.collection.method</td><td>Element `Specimen.collection.method` is mapped to FHIR R4 element `Specimen.collection.method` as `Equivalent`.</td></tr><tr><td>Specimen.collection.bodySite (bodySite)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Specimen.collection.bodySite</td><td>Element `Specimen.collection.bodySite` is mapped to FHIR R4 element `Specimen.collection.bodySite` as `SourceIsBroaderThanTarget`.
+The mappings for `Specimen.collection.bodySite` do not cover the following types: CodeableReference.
+The mappings for `Specimen.collection.bodySite` do not cover the following types based on type expansion: reference.
+Reasons for using BodyStructure reference include: 1.) Need to identify a specific site instance (e.g. a specific mole), 2.) a single pre-coordinated coded concept for the body site does not exist, 3.) a desire to represent bodySite using multiple attributes (e.g. modifiers).</td></tr><tr><td>Specimen.collection.fastingStatus[x] (fastingStatus[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.collection.fastingStatus[x]</td><td>Element `Specimen.collection.fastingStatus[x]` is mapped to FHIR R4 element `Specimen.collection.fastingStatus[x]` as `Equivalent`.
+The target context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.
+Representing fasting status using this element is preferred to representing it with an observation using a 'pre-coordinated code'  such as  LOINC 2005-7 (Calcium [Moles/​time] in 2 hour Urine --12 hours fasting), or  using  a component observation ` such as `Observation.component code`  = LOINC 49541-6 (Fasting status - Reported).</td></tr><tr><td>Specimen.processing (processing)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Specimen.processing</td><td>Element `Specimen.processing` is mapped to FHIR R4 element `Specimen.processing` as `Equivalent`.</td></tr><tr><td>Specimen.processing.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.processing.description</td><td>Element `Specimen.processing.description` is mapped to FHIR R4 element `Specimen.processing.description` as `Equivalent`.</td></tr><tr><td>Specimen.processing.method (method)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.processing.procedure</td><td>Element `Specimen.processing.method` is mapped to FHIR R4 element `Specimen.processing.procedure` as `Equivalent`.</td></tr><tr><td>Specimen.processing.additive (additive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.processing.additive</td><td>Element `Specimen.processing.additive` is mapped to FHIR R4 element `Specimen.processing.additive` as `Equivalent`.</td></tr><tr><td>Specimen.processing.time[x] (time[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.processing.time[x]</td><td>Element `Specimen.processing.time[x]` is mapped to FHIR R4 element `Specimen.processing.time[x]` as `Equivalent`.
+The target context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`.</td></tr><tr><td>Specimen.container (container)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Specimen.container</td><td>Element `Specimen.container` is mapped to FHIR R4 element `Specimen.container` as `Equivalent`.</td></tr><tr><td>Specimen.container.specimenQuantity (specimenQuantity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.container.specimenQuantity</td><td>Element `Specimen.container.specimenQuantity` is mapped to FHIR R4 element `Specimen.container.specimenQuantity` as `Equivalent`.</td></tr><tr><td>Specimen.condition (condition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.condition</td><td>Element `Specimen.condition` is mapped to FHIR R4 element `Specimen.condition` as `Equivalent`.
+Specimen condition is an observation made about the specimen.  It's a point-in-time assessment.  It can be used to assess its quality or appropriateness for a specific test.</td></tr><tr><td>Specimen.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Specimen.note</td><td>Element `Specimen.note` is mapped to FHIR R4 element `Specimen.note` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Specimen|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Specimen.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Specimen.collection.collector (collector)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Specimen|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Specimen.combined (combined)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined</td><td>Element `Specimen.combined` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.combined` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.role (role)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role</td><td>Element `Specimen.role` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.role` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.feature (feature)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature</td><td>Element `Specimen.feature` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.feature` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.feature.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:type</td><td>Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.
+Element `Specimen.feature.type` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.feature.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.feature.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:description</td><td>Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.
+Element `Specimen.feature.description` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.feature.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.collection.device (device)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device</td><td>Element `Specimen.collection.device` has a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.collection.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.collection.procedure (procedure)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.procedure</td><td>Element `Specimen.collection.procedure` has a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.collection.procedure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.collection.bodySite (bodySite)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.bodySite</td><td>Element `Specimen.collection.bodySite` is mapped to FHIR R4 element `Specimen.collection.bodySite` as `SourceIsBroaderThanTarget`.
+The mappings for `Specimen.collection.bodySite` do not cover the following types: CodeableReference.
+The mappings for `Specimen.collection.bodySite` do not cover the following types based on type expansion: reference.
+Reasons for using BodyStructure reference include: 1.) Need to identify a specific site instance (e.g. a specific mole), 2.) a single pre-coordinated coded concept for the body site does not exist, 3.) a desire to represent bodySite using multiple attributes (e.g. modifiers).</td></tr><tr><td>Specimen.container.device (device)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device</td><td>Element `Specimen.container.device` has a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.container.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Specimen.container.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location</td><td>Element `Specimen.container.location` has a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`.
+Element `Specimen.container.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Specimen-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5SpecimenElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Specimen to FHIR R4 Specimen"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6398051-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Specimen to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Specimen.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Specimen.meta"/>
+        <display value="Specimen.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.meta` is mapped to FHIR R4 element `Specimen.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Specimen.implicitRules"/>
+        <display value="Specimen.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.implicitRules` is mapped to FHIR R4 element `Specimen.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Specimen.language"/>
+        <display value="Specimen.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.language` is mapped to FHIR R4 element `Specimen.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Specimen.text"/>
+        <display value="Specimen.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.text` is mapped to FHIR R4 element `Specimen.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Specimen.contained"/>
+        <display value="Specimen.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.contained` is mapped to FHIR R4 element `Specimen.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Specimen.identifier"/>
+        <display value="Specimen.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.identifier` is mapped to FHIR R4 element `Specimen.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.accessionIdentifier"/>
+      <display value="accessionIdentifier"/>
+      <target>
+        <code value="Specimen.accessionIdentifier"/>
+        <display value="Specimen.accessionIdentifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.accessionIdentifier` is mapped to FHIR R4 element `Specimen.accessionIdentifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Specimen.status"/>
+        <display value="Specimen.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.status` is mapped to FHIR R4 element `Specimen.status` as `Equivalent`.&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Specimen.type"/>
+        <display value="Specimen.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.type` is mapped to FHIR R4 element `Specimen.type` as `Equivalent`.&#xA;The type can change the way that a specimen is handled and drives what kind of analyses can properly be performed on the specimen. It is frequently used in diagnostic work flow decision making systems."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="Specimen.subject"/>
+        <display value="Specimen.subject"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.subject` is mapped to FHIR R4 element `Specimen.subject` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Specimen.subject` with unmapped reference targets: BiologicallyDerivedProduct."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.receivedTime"/>
+      <display value="receivedTime"/>
+      <target>
+        <code value="Specimen.receivedTime"/>
+        <display value="Specimen.receivedTime"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.receivedTime` is mapped to FHIR R4 element `Specimen.receivedTime` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.parent"/>
+      <display value="parent"/>
+      <target>
+        <code value="Specimen.parent"/>
+        <display value="Specimen.parent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.parent` is mapped to FHIR R4 element `Specimen.parent` as `Equivalent`.&#xA;The parent specimen could be the source from which the current specimen is derived by some processing step (e.g. an aliquot or isolate or extracted nucleic acids from clinical samples) or one of many specimens that were combined to create a pooled sample."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.request"/>
+      <display value="request"/>
+      <target>
+        <code value="Specimen.request"/>
+        <display value="Specimen.request"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.request` is mapped to FHIR R4 element `Specimen.request` as `Equivalent`.&#xA;The request may be explicit or implied such with a ServiceRequest that requires a blood draw."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection"/>
+      <display value="collection"/>
+      <target>
+        <code value="Specimen.collection"/>
+        <display value="Specimen.collection"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.collection` is mapped to FHIR R4 element `Specimen.collection` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.collector"/>
+      <display value="collector"/>
+      <target>
+        <code value="Specimen.collection.collector"/>
+        <display value="Specimen.collection.collector"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.collection.collector` is mapped to FHIR R4 element `Specimen.collection.collector` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Specimen.collection.collector` with unmapped reference targets: Patient, RelatedPerson."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.collected[x]"/>
+      <display value="collected[x]"/>
+      <target>
+        <code value="Specimen.collection.collected[x]"/>
+        <display value="Specimen.collection.collected[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.collection.collected[x]` is mapped to FHIR R4 element `Specimen.collection.collected[x]` as `Equivalent`.&#xA;The target context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.duration"/>
+      <display value="duration"/>
+      <target>
+        <code value="Specimen.collection.duration"/>
+        <display value="Specimen.collection.duration"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.collection.duration` is mapped to FHIR R4 element `Specimen.collection.duration` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.quantity"/>
+      <display value="quantity"/>
+      <target>
+        <code value="Specimen.collection.quantity"/>
+        <display value="Specimen.collection.quantity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.collection.quantity` is mapped to FHIR R4 element `Specimen.collection.quantity` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.method"/>
+      <display value="method"/>
+      <target>
+        <code value="Specimen.collection.method"/>
+        <display value="Specimen.collection.method"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.collection.method` is mapped to FHIR R4 element `Specimen.collection.method` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="Specimen.collection.bodySite"/>
+        <display value="Specimen.collection.bodySite"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.collection.bodySite` is mapped to FHIR R4 element `Specimen.collection.bodySite` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Specimen.collection.bodySite` do not cover the following types: CodeableReference.&#xA;The mappings for `Specimen.collection.bodySite` do not cover the following types based on type expansion: reference.&#xA;Reasons for using BodyStructure reference include: 1.) Need to identify a specific site instance (e.g. a specific mole), 2.) a single pre-coordinated coded concept for the body site does not exist, 3.) a desire to represent bodySite using multiple attributes (e.g. modifiers)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.fastingStatus[x]"/>
+      <display value="fastingStatus[x]"/>
+      <target>
+        <code value="Specimen.collection.fastingStatus[x]"/>
+        <display value="Specimen.collection.fastingStatus[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.collection.fastingStatus[x]` is mapped to FHIR R4 element `Specimen.collection.fastingStatus[x]` as `Equivalent`.&#xA;The target context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.&#xA;Representing fasting status using this element is preferred to representing it with an observation using a 'pre-coordinated code'  such as  LOINC 2005-7 (Calcium [Moles/​time] in 2 hour Urine --12 hours fasting), or  using  a component observation ` such as `Observation.component code`  = LOINC 49541-6 (Fasting status - Reported)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.processing"/>
+      <display value="processing"/>
+      <target>
+        <code value="Specimen.processing"/>
+        <display value="Specimen.processing"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.processing` is mapped to FHIR R4 element `Specimen.processing` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.processing.description"/>
+      <display value="description"/>
+      <target>
+        <code value="Specimen.processing.description"/>
+        <display value="Specimen.processing.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.processing.description` is mapped to FHIR R4 element `Specimen.processing.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.processing.method"/>
+      <display value="method"/>
+      <target>
+        <code value="Specimen.processing.procedure"/>
+        <display value="Specimen.processing.procedure"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.processing.method` is mapped to FHIR R4 element `Specimen.processing.procedure` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.processing.additive"/>
+      <display value="additive"/>
+      <target>
+        <code value="Specimen.processing.additive"/>
+        <display value="Specimen.processing.additive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.processing.additive` is mapped to FHIR R4 element `Specimen.processing.additive` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.processing.time[x]"/>
+      <display value="time[x]"/>
+      <target>
+        <code value="Specimen.processing.time[x]"/>
+        <display value="Specimen.processing.time[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.processing.time[x]` is mapped to FHIR R4 element `Specimen.processing.time[x]` as `Equivalent`.&#xA;The target context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.container"/>
+      <display value="container"/>
+      <target>
+        <code value="Specimen.container"/>
+        <display value="Specimen.container"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.container` is mapped to FHIR R4 element `Specimen.container` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.container.specimenQuantity"/>
+      <display value="specimenQuantity"/>
+      <target>
+        <code value="Specimen.container.specimenQuantity"/>
+        <display value="Specimen.container.specimenQuantity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.container.specimenQuantity` is mapped to FHIR R4 element `Specimen.container.specimenQuantity` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.condition"/>
+      <display value="condition"/>
+      <target>
+        <code value="Specimen.condition"/>
+        <display value="Specimen.condition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.condition` is mapped to FHIR R4 element `Specimen.condition` as `Equivalent`.&#xA;Specimen condition is an observation made about the specimen.  It's a point-in-time assessment.  It can be used to assess its quality or appropriateness for a specific test."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.note"/>
+      <display value="note"/>
+      <target>
+        <code value="Specimen.note"/>
+        <display value="Specimen.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.note` is mapped to FHIR R4 element `Specimen.note` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Specimen.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.collector"/>
+      <display value="collector"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Specimen"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Specimen.combined"/>
+      <display value="combined"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.combined"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.combined` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.combined` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.role"/>
+      <display value="role"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.role"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.role` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.role` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.feature"/>
+      <display value="feature"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.feature` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.feature` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.feature.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.&#xA;Element `Specimen.feature.type` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.feature.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.feature.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature:description"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.&#xA;Element `Specimen.feature.description` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.feature.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.device"/>
+      <display value="device"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.collection.device` has a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.collection.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.procedure"/>
+      <display value="procedure"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.procedure"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.collection.procedure` has a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.collection.procedure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.collection.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.bodySite"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Specimen.collection.bodySite` is mapped to FHIR R4 element `Specimen.collection.bodySite` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Specimen.collection.bodySite` do not cover the following types: CodeableReference.&#xA;The mappings for `Specimen.collection.bodySite` do not cover the following types based on type expansion: reference.&#xA;Reasons for using BodyStructure reference include: 1.) Need to identify a specific site instance (e.g. a specific mole), 2.) a single pre-coordinated coded concept for the body site does not exist, 3.) a desire to represent bodySite using multiple attributes (e.g. modifiers)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.container.device"/>
+      <display value="device"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.container.device` has a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.container.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Specimen.container.location"/>
+      <display value="location"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Specimen.container.location` has a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`.&#xA;Element `Specimen.container.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,1380 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Contract-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Contract-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Contract-element-map-to-R4</b></p><a name=\"R5-Contract-element-map-to-R4\"> </a><a name=\"hcR5-Contract-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Contract|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/contract.html\">Contractversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Contract|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Contract|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Contract.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.meta</td><td style=\"border-left-width: 0px\">Contract.meta</td><td>Element `Contract.meta` is mapped to FHIR R4 element `Contract.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.implicitRules</td><td style=\"border-left-width: 0px\">Contract.implicitRules</td><td>Element `Contract.implicitRules` is mapped to FHIR R4 element `Contract.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.language</td><td style=\"border-left-width: 0px\">Contract.language</td><td>Element `Contract.language` is mapped to FHIR R4 element `Contract.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">Contract.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.text</td><td style=\"border-left-width: 0px\">Contract.text</td><td>Element `Contract.text` is mapped to FHIR R4 element `Contract.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contained</td><td style=\"border-left-width: 0px\">Contract.contained</td><td>Element `Contract.contained` is mapped to FHIR R4 element `Contract.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.identifier</td><td style=\"border-left-width: 0px\">Contract.identifier</td><td>Element `Contract.identifier` is mapped to FHIR R4 element `Contract.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.url</td><td style=\"border-left-width: 0px\">url</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.url</td><td style=\"border-left-width: 0px\">Contract.url</td><td>Element `Contract.url` is mapped to FHIR R4 element `Contract.url` as `Equivalent`.\nUsed in a domain that uses a supplied contract repository.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.version</td><td style=\"border-left-width: 0px\">Contract.version</td><td>Element `Contract.version` is mapped to FHIR R4 element `Contract.version` as `Equivalent`.\nNote -  This is a business versionId, not a resource version id (see discussion at [Versioning](https://hl7.org/fhir/resource..html#versions)) #xD;Comments - There may be different contract instances that have the same identifier but different versions. The version can be appended to the url in a reference to allow a reference to a particular business version of the plan definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td style=\"border-right-width: 0px\">Contract.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.status</td><td style=\"border-left-width: 0px\">Contract.status</td><td>Element `Contract.status` is mapped to FHIR R4 element `Contract.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the contract as not currently valid or active.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.legalState</td><td style=\"border-left-width: 0px\">legalState</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.legalState</td><td style=\"border-left-width: 0px\">Contract.legalState</td><td>Element `Contract.legalState` is mapped to FHIR R4 element `Contract.legalState` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.instantiatesCanonical</td><td style=\"border-left-width: 0px\">instantiatesCanonical</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.instantiatesCanonical</td><td style=\"border-left-width: 0px\">Contract.instantiatesCanonical</td><td>Element `Contract.instantiatesCanonical` is mapped to FHIR R4 element `Contract.instantiatesCanonical` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.instantiatesUri</td><td style=\"border-left-width: 0px\">instantiatesUri</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.instantiatesUri</td><td style=\"border-left-width: 0px\">Contract.instantiatesUri</td><td>Element `Contract.instantiatesUri` is mapped to FHIR R4 element `Contract.instantiatesUri` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDerivative</td><td style=\"border-left-width: 0px\">contentDerivative</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDerivative</td><td style=\"border-left-width: 0px\">Contract.contentDerivative</td><td>Element `Contract.contentDerivative` is mapped to FHIR R4 element `Contract.contentDerivative` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.issued</td><td style=\"border-left-width: 0px\">issued</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.issued</td><td style=\"border-left-width: 0px\">Contract.issued</td><td>Element `Contract.issued` is mapped to FHIR R4 element `Contract.issued` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.applies</td><td style=\"border-left-width: 0px\">applies</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.applies</td><td style=\"border-left-width: 0px\">Contract.applies</td><td>Element `Contract.applies` is mapped to FHIR R4 element `Contract.applies` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.expirationType</td><td style=\"border-left-width: 0px\">expirationType</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.expirationType</td><td style=\"border-left-width: 0px\">Contract.expirationType</td><td>Element `Contract.expirationType` is mapped to FHIR R4 element `Contract.expirationType` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.subject</td><td style=\"border-left-width: 0px\">Contract.subject</td><td>Element `Contract.subject` is mapped to FHIR R4 element `Contract.subject` as `Equivalent`.\nThe Contract.subject is an entity that has some role with respect to the Contract.topic and Contract.topic.term, which is of focal interest to the parties to the contract and likely impacted in a significant way by the Contract.action/Contract.action.reason and the Contract.term.action/Contract.action.reason. #xD;In many cases, the Contract.subject is a Contract.signer if the subject is an adult; has a legal interest in the contract; and incompetent to participate in the contract agreement.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.authority</td><td style=\"border-left-width: 0px\">authority</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.authority</td><td style=\"border-left-width: 0px\">Contract.authority</td><td>Element `Contract.authority` is mapped to FHIR R4 element `Contract.authority` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.domain</td><td style=\"border-left-width: 0px\">domain</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.domain</td><td style=\"border-left-width: 0px\">Contract.domain</td><td>Element `Contract.domain` is mapped to FHIR R4 element `Contract.domain` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.site</td><td style=\"border-left-width: 0px\">site</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.site</td><td style=\"border-left-width: 0px\">Contract.site</td><td>Element `Contract.site` is mapped to FHIR R4 element `Contract.site` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.name</td><td style=\"border-left-width: 0px\">Contract.name</td><td>Element `Contract.name` is mapped to FHIR R4 element `Contract.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.title</td><td style=\"border-left-width: 0px\">title</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.title</td><td style=\"border-left-width: 0px\">Contract.title</td><td>Element `Contract.title` is mapped to FHIR R4 element `Contract.title` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.subtitle</td><td style=\"border-left-width: 0px\">subtitle</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.subtitle</td><td style=\"border-left-width: 0px\">Contract.subtitle</td><td>Element `Contract.subtitle` is mapped to FHIR R4 element `Contract.subtitle` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.alias</td><td style=\"border-left-width: 0px\">alias</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.alias</td><td style=\"border-left-width: 0px\">Contract.alias</td><td>Element `Contract.alias` is mapped to FHIR R4 element `Contract.alias` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.author</td><td style=\"border-left-width: 0px\">author</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.author</td><td style=\"border-left-width: 0px\">Contract.author</td><td>Element `Contract.author` is mapped to FHIR R4 element `Contract.author` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.scope</td><td style=\"border-left-width: 0px\">scope</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.scope</td><td style=\"border-left-width: 0px\">Contract.scope</td><td>Element `Contract.scope` is mapped to FHIR R4 element `Contract.scope` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.topic[x]</td><td style=\"border-left-width: 0px\">topic[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.topic[x]</td><td style=\"border-left-width: 0px\">Contract.topic[x]</td><td>Element `Contract.topic[x]` is mapped to FHIR R4 element `Contract.topic[x]` as `Equivalent`.\nThe target context `Contract.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nContractual areas of concern are very broad. This element supports narrowing the area of concern to more specific term topics within this Contract. Given the wide range of contract topics, implementers need to be cognizant of the business use case for which they are designing a FHIR Contract, and narrowly specify the topic being represented with respect to the Contract.type and any specializing Contract.subtype. The same topic, e.g., an asset such as a good or service, such as a real property, medical supply, insurance, information, a procedure or employment, or a manner of conduct, such adherence to a privacy, trust, or security policy, may be the topic of multiple types of contracts. #xD;One way to determine the Contract.topic is to answer the question: \"What is the overall objective of this legal instrument?\". The Contract.topic is described with more detail by the terms of the Contract.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.type</td><td style=\"border-left-width: 0px\">Contract.type</td><td>Element `Contract.type` is mapped to FHIR R4 element `Contract.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.subType</td><td style=\"border-left-width: 0px\">subType</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.subType</td><td style=\"border-left-width: 0px\">Contract.subType</td><td>Element `Contract.subType` is mapped to FHIR R4 element `Contract.subType` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition</td><td style=\"border-left-width: 0px\">contentDefinition</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition</td><td style=\"border-left-width: 0px\">Contract.contentDefinition</td><td>Element `Contract.contentDefinition` is mapped to FHIR R4 element `Contract.contentDefinition` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition.type</td><td style=\"border-left-width: 0px\">Contract.contentDefinition.type</td><td>Element `Contract.contentDefinition.type` is mapped to FHIR R4 element `Contract.contentDefinition.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition.subType</td><td style=\"border-left-width: 0px\">subType</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition.subType</td><td style=\"border-left-width: 0px\">Contract.contentDefinition.subType</td><td>Element `Contract.contentDefinition.subType` is mapped to FHIR R4 element `Contract.contentDefinition.subType` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition.publisher</td><td style=\"border-left-width: 0px\">publisher</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition.publisher</td><td style=\"border-left-width: 0px\">Contract.contentDefinition.publisher</td><td>Element `Contract.contentDefinition.publisher` is mapped to FHIR R4 element `Contract.contentDefinition.publisher` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition.publicationDate</td><td style=\"border-left-width: 0px\">publicationDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition.publicationDate</td><td style=\"border-left-width: 0px\">Contract.contentDefinition.publicationDate</td><td>Element `Contract.contentDefinition.publicationDate` is mapped to FHIR R4 element `Contract.contentDefinition.publicationDate` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition.publicationStatus</td><td style=\"border-left-width: 0px\">publicationStatus</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition.publicationStatus</td><td style=\"border-left-width: 0px\">Contract.contentDefinition.publicationStatus</td><td>Element `Contract.contentDefinition.publicationStatus` is mapped to FHIR R4 element `Contract.contentDefinition.publicationStatus` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.contentDefinition.copyright</td><td style=\"border-left-width: 0px\">copyright</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.contentDefinition.copyright</td><td style=\"border-left-width: 0px\">Contract.contentDefinition.copyright</td><td>Element `Contract.contentDefinition.copyright` is mapped to FHIR R4 element `Contract.contentDefinition.copyright` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term</td><td style=\"border-left-width: 0px\">term</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term</td><td style=\"border-left-width: 0px\">Contract.term</td><td>Element `Contract.term` is mapped to FHIR R4 element `Contract.term` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.identifier</td><td style=\"border-left-width: 0px\">Contract.term.identifier</td><td>Element `Contract.term.identifier` is mapped to FHIR R4 element `Contract.term.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.issued</td><td style=\"border-left-width: 0px\">issued</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.issued</td><td style=\"border-left-width: 0px\">Contract.term.issued</td><td>Element `Contract.term.issued` is mapped to FHIR R4 element `Contract.term.issued` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.applies</td><td style=\"border-left-width: 0px\">applies</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.applies</td><td style=\"border-left-width: 0px\">Contract.term.applies</td><td>Element `Contract.term.applies` is mapped to FHIR R4 element `Contract.term.applies` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.topic[x]</td><td style=\"border-left-width: 0px\">topic[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.topic[x]</td><td style=\"border-left-width: 0px\">Contract.term.topic[x]</td><td>Element `Contract.term.topic[x]` is mapped to FHIR R4 element `Contract.term.topic[x]` as `Equivalent`.\nThe target context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.type</td><td style=\"border-left-width: 0px\">Contract.term.type</td><td>Element `Contract.term.type` is mapped to FHIR R4 element `Contract.term.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.subType</td><td style=\"border-left-width: 0px\">subType</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.subType</td><td style=\"border-left-width: 0px\">Contract.term.subType</td><td>Element `Contract.term.subType` is mapped to FHIR R4 element `Contract.term.subType` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.text</td><td style=\"border-left-width: 0px\">Contract.term.text</td><td>Element `Contract.term.text` is mapped to FHIR R4 element `Contract.term.text` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.securityLabel</td><td style=\"border-left-width: 0px\">securityLabel</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.securityLabel</td><td style=\"border-left-width: 0px\">Contract.term.securityLabel</td><td>Element `Contract.term.securityLabel` is mapped to FHIR R4 element `Contract.term.securityLabel` as `Equivalent`.\nWithin a Contract, a security label may apply to the one to many nested group of terms or to a term, whether inside a group or a singleton.  The security label on the entire set of term provision elements may be different from the security labels on a contained offer, asset, valuedItem, or data such as sensitive information, and must be the high water mark of all security labels within the term. Rationale is that a labelled term, which may be disaggregated from the Contract, and must persist the label on the term and on contained elements within other contexts. If more than one policy dictates a level of confidentiality of the term, then each applicable policy may be represented by a security label specific to its requirements.\n\nA Security Label is comprised of 1..1 confidentiality code and 0..* other security label codes (aka \"privacy tags\". A Security Label is metadata assigned (aka \"tagged\") to Resources and Resource elements, which specify the confidentiality and sensitivity of the Resource or element and their related attributes, the purposes for which tagged items may be collected, access, used or disclosed, any limitation on the type of entities authorized to engage in permitted purposes, and handling instructions that obligate or prohibit certain actions on the tagged items.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.securityLabel.number</td><td style=\"border-left-width: 0px\">number</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.securityLabel.number</td><td style=\"border-left-width: 0px\">Contract.term.securityLabel.number</td><td>Element `Contract.term.securityLabel.number` is mapped to FHIR R4 element `Contract.term.securityLabel.number` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.securityLabel.classification</td><td style=\"border-left-width: 0px\">classification</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.securityLabel.classification</td><td style=\"border-left-width: 0px\">Contract.term.securityLabel.classification</td><td>Element `Contract.term.securityLabel.classification` is mapped to FHIR R4 element `Contract.term.securityLabel.classification` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.securityLabel.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.securityLabel.category</td><td style=\"border-left-width: 0px\">Contract.term.securityLabel.category</td><td>Element `Contract.term.securityLabel.category` is mapped to FHIR R4 element `Contract.term.securityLabel.category` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.securityLabel.control</td><td style=\"border-left-width: 0px\">control</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.securityLabel.control</td><td style=\"border-left-width: 0px\">Contract.term.securityLabel.control</td><td>Element `Contract.term.securityLabel.control` is mapped to FHIR R4 element `Contract.term.securityLabel.control` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer</td><td style=\"border-left-width: 0px\">offer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.offer</td><td style=\"border-left-width: 0px\">Contract.term.offer</td><td>Element `Contract.term.offer` is mapped to FHIR R4 element `Contract.term.offer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.identifier</td><td style=\"border-left-width: 0px\">Contract.term.offer.identifier</td><td>Element `Contract.term.offer.identifier` is mapped to FHIR R4 element `Contract.term.offer.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.party</td><td style=\"border-left-width: 0px\">party</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.party</td><td style=\"border-left-width: 0px\">Contract.term.offer.party</td><td>Element `Contract.term.offer.party` is mapped to FHIR R4 element `Contract.term.offer.party` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.party.reference</td><td style=\"border-left-width: 0px\">reference</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.party.reference</td><td style=\"border-left-width: 0px\">Contract.term.offer.party.reference</td><td>Element `Contract.term.offer.party.reference` is mapped to FHIR R4 element `Contract.term.offer.party.reference` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.party.role</td><td style=\"border-left-width: 0px\">role</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.party.role</td><td style=\"border-left-width: 0px\">Contract.term.offer.party.role</td><td>Element `Contract.term.offer.party.role` is mapped to FHIR R4 element `Contract.term.offer.party.role` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.topic</td><td style=\"border-left-width: 0px\">topic</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.topic</td><td style=\"border-left-width: 0px\">Contract.term.offer.topic</td><td>Element `Contract.term.offer.topic` is mapped to FHIR R4 element `Contract.term.offer.topic` as `Equivalent`.\nThe Contract.topic may be an application for or offer of a policy or service (e.g., uri to a consent directive form or a health insurance policy), which becomes the Contract once accepted by both the grantor and grantee. #xD;The Contract Resource may function simply as the computable representation of the executed contract, which may be the attached to the Contract Resource as the “binding” or as the “friendly” electronic form.  For example, a Contract Resource may be automatically populated with the values expressed in a related QuestionnaireResponse. #xD;However, the Contract Resource may be considered the legally binding contract if it is the only “executed” form of this contract, and includes the signatures as *The Contract Resource may function as the computable representation of an application or offer in a pre-executed Contract if the grantor has not entered any values.  In this case, it is populated with values in a “legal” form of the application or offer or by the values in an associated Questionnaire.  If the grantor has filled in the legal form or the associated Questionnaire Response, then these values are used to populate a pre-executed Contract Resource.#xD;If the Contract.topic is considered an application or offer, then the policy is often required to be attached as the “legal” basis for the application to ensure “informed consent” to the contract, and that any discrepancy between the application and the policy are interpreted against the policy.  Implementers should check organizational and jurisdictional policies to determine the relationship among multiple representations of a contract pre- and post-execution.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.type</td><td style=\"border-left-width: 0px\">Contract.term.offer.type</td><td>Element `Contract.term.offer.type` is mapped to FHIR R4 element `Contract.term.offer.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.decision</td><td style=\"border-left-width: 0px\">decision</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.decision</td><td style=\"border-left-width: 0px\">Contract.term.offer.decision</td><td>Element `Contract.term.offer.decision` is mapped to FHIR R4 element `Contract.term.offer.decision` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.decisionMode</td><td style=\"border-left-width: 0px\">decisionMode</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.decisionMode</td><td style=\"border-left-width: 0px\">Contract.term.offer.decisionMode</td><td>Element `Contract.term.offer.decisionMode` is mapped to FHIR R4 element `Contract.term.offer.decisionMode` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.answer</td><td style=\"border-left-width: 0px\">answer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.answer</td><td style=\"border-left-width: 0px\">Contract.term.offer.answer</td><td>Element `Contract.term.offer.answer` is mapped to FHIR R4 element `Contract.term.offer.answer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.answer.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.answer.value[x]</td><td style=\"border-left-width: 0px\">Contract.term.offer.answer.value[x]</td><td>Element `Contract.term.offer.answer.value[x]` is mapped to FHIR R4 element `Contract.term.offer.answer.value[x]` as `RelatedTo`.\nThe target context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.text</td><td style=\"border-left-width: 0px\">Contract.term.offer.text</td><td>Element `Contract.term.offer.text` is mapped to FHIR R4 element `Contract.term.offer.text` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.linkId</td><td style=\"border-left-width: 0px\">linkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.linkId</td><td style=\"border-left-width: 0px\">Contract.term.offer.linkId</td><td>Element `Contract.term.offer.linkId` is mapped to FHIR R4 element `Contract.term.offer.linkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.offer.securityLabelNumber</td><td style=\"border-left-width: 0px\">securityLabelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.offer.securityLabelNumber</td><td style=\"border-left-width: 0px\">Contract.term.offer.securityLabelNumber</td><td>Element `Contract.term.offer.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.offer.securityLabelNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset</td><td style=\"border-left-width: 0px\">asset</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.asset</td><td style=\"border-left-width: 0px\">Contract.term.asset</td><td>Element `Contract.term.asset` is mapped to FHIR R4 element `Contract.term.asset` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.scope</td><td style=\"border-left-width: 0px\">scope</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.scope</td><td style=\"border-left-width: 0px\">Contract.term.asset.scope</td><td>Element `Contract.term.asset.scope` is mapped to FHIR R4 element `Contract.term.asset.scope` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.type</td><td style=\"border-left-width: 0px\">Contract.term.asset.type</td><td>Element `Contract.term.asset.type` is mapped to FHIR R4 element `Contract.term.asset.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.typeReference</td><td style=\"border-left-width: 0px\">typeReference</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.typeReference</td><td style=\"border-left-width: 0px\">Contract.term.asset.typeReference</td><td>Element `Contract.term.asset.typeReference` is mapped to FHIR R4 element `Contract.term.asset.typeReference` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.subtype</td><td style=\"border-left-width: 0px\">subtype</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.subtype</td><td style=\"border-left-width: 0px\">Contract.term.asset.subtype</td><td>Element `Contract.term.asset.subtype` is mapped to FHIR R4 element `Contract.term.asset.subtype` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.relationship</td><td style=\"border-left-width: 0px\">relationship</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.relationship</td><td style=\"border-left-width: 0px\">Contract.term.asset.relationship</td><td>Element `Contract.term.asset.relationship` is mapped to FHIR R4 element `Contract.term.asset.relationship` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.context</td><td style=\"border-left-width: 0px\">context</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.context</td><td style=\"border-left-width: 0px\">Contract.term.asset.context</td><td>Element `Contract.term.asset.context` is mapped to FHIR R4 element `Contract.term.asset.context` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.context.reference</td><td style=\"border-left-width: 0px\">reference</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.context.reference</td><td style=\"border-left-width: 0px\">Contract.term.asset.context.reference</td><td>Element `Contract.term.asset.context.reference` is mapped to FHIR R4 element `Contract.term.asset.context.reference` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.context.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.context.code</td><td style=\"border-left-width: 0px\">Contract.term.asset.context.code</td><td>Element `Contract.term.asset.context.code` is mapped to FHIR R4 element `Contract.term.asset.context.code` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.context.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.context.text</td><td style=\"border-left-width: 0px\">Contract.term.asset.context.text</td><td>Element `Contract.term.asset.context.text` is mapped to FHIR R4 element `Contract.term.asset.context.text` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.condition</td><td style=\"border-left-width: 0px\">condition</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.condition</td><td style=\"border-left-width: 0px\">Contract.term.asset.condition</td><td>Element `Contract.term.asset.condition` is mapped to FHIR R4 element `Contract.term.asset.condition` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.periodType</td><td style=\"border-left-width: 0px\">periodType</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.periodType</td><td style=\"border-left-width: 0px\">Contract.term.asset.periodType</td><td>Element `Contract.term.asset.periodType` is mapped to FHIR R4 element `Contract.term.asset.periodType` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.period</td><td style=\"border-left-width: 0px\">Contract.term.asset.period</td><td>Element `Contract.term.asset.period` is mapped to FHIR R4 element `Contract.term.asset.period` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.usePeriod</td><td style=\"border-left-width: 0px\">usePeriod</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.usePeriod</td><td style=\"border-left-width: 0px\">Contract.term.asset.usePeriod</td><td>Element `Contract.term.asset.usePeriod` is mapped to FHIR R4 element `Contract.term.asset.usePeriod` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.text</td><td style=\"border-left-width: 0px\">Contract.term.asset.text</td><td>Element `Contract.term.asset.text` is mapped to FHIR R4 element `Contract.term.asset.text` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.linkId</td><td style=\"border-left-width: 0px\">linkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.linkId</td><td style=\"border-left-width: 0px\">Contract.term.asset.linkId</td><td>Element `Contract.term.asset.linkId` is mapped to FHIR R4 element `Contract.term.asset.linkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.answer</td><td style=\"border-left-width: 0px\">answer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.answer</td><td style=\"border-left-width: 0px\">Contract.term.asset.answer</td><td>Element `Contract.term.asset.answer` is mapped to FHIR R4 element `Contract.term.asset.answer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.securityLabelNumber</td><td style=\"border-left-width: 0px\">securityLabelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.securityLabelNumber</td><td style=\"border-left-width: 0px\">Contract.term.asset.securityLabelNumber</td><td>Element `Contract.term.asset.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.securityLabelNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem</td><td style=\"border-left-width: 0px\">valuedItem</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem</td><td>Element `Contract.term.asset.valuedItem` is mapped to FHIR R4 element `Contract.term.asset.valuedItem` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.entity[x]</td><td style=\"border-left-width: 0px\">entity[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.entity[x]</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.entity[x]</td><td>Element `Contract.term.asset.valuedItem.entity[x]` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.entity[x]` as `Equivalent`.\nThe target context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.identifier</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.identifier</td><td>Element `Contract.term.asset.valuedItem.identifier` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.effectiveTime</td><td style=\"border-left-width: 0px\">effectiveTime</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.effectiveTime</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.effectiveTime</td><td>Element `Contract.term.asset.valuedItem.effectiveTime` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.effectiveTime` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.quantity</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.quantity</td><td>Element `Contract.term.asset.valuedItem.quantity` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.quantity` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.unitPrice</td><td style=\"border-left-width: 0px\">unitPrice</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.unitPrice</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.unitPrice</td><td>Element `Contract.term.asset.valuedItem.unitPrice` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.unitPrice` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.factor</td><td style=\"border-left-width: 0px\">factor</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.factor</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.factor</td><td>Element `Contract.term.asset.valuedItem.factor` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.factor` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.points</td><td style=\"border-left-width: 0px\">points</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.points</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.points</td><td>Element `Contract.term.asset.valuedItem.points` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.points` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.net</td><td style=\"border-left-width: 0px\">net</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.net</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.net</td><td>Element `Contract.term.asset.valuedItem.net` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.net` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.payment</td><td style=\"border-left-width: 0px\">payment</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.payment</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.payment</td><td>Element `Contract.term.asset.valuedItem.payment` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.payment` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.paymentDate</td><td style=\"border-left-width: 0px\">paymentDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.paymentDate</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.paymentDate</td><td>Element `Contract.term.asset.valuedItem.paymentDate` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.paymentDate` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.responsible</td><td style=\"border-left-width: 0px\">responsible</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.responsible</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.responsible</td><td>Element `Contract.term.asset.valuedItem.responsible` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.responsible` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.recipient</td><td style=\"border-left-width: 0px\">recipient</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.recipient</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.recipient</td><td>Element `Contract.term.asset.valuedItem.recipient` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.recipient` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.linkId</td><td style=\"border-left-width: 0px\">linkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.linkId</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.linkId</td><td>Element `Contract.term.asset.valuedItem.linkId` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.linkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.securityLabelNumber</td><td style=\"border-left-width: 0px\">securityLabelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.asset.valuedItem.securityLabelNumber</td><td style=\"border-left-width: 0px\">Contract.term.asset.valuedItem.securityLabelNumber</td><td>Element `Contract.term.asset.valuedItem.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.securityLabelNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action</td><td style=\"border-left-width: 0px\">action</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.action</td><td style=\"border-left-width: 0px\">Contract.term.action</td><td>Element `Contract.term.action` is mapped to FHIR R4 element `Contract.term.action` as `Equivalent`.\nSeveral agents may be associated (i.e. has some responsibility for an activity) with an activity and vice-versa.#xD;For example, in cases of actions initiated by one user for other users, or in events that involve more than one user, hardware device, software, or system process. However, only one user may be the initiator/requestor for the event.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.doNotPerform</td><td style=\"border-left-width: 0px\">doNotPerform</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.doNotPerform</td><td style=\"border-left-width: 0px\">Contract.term.action.doNotPerform</td><td>Element `Contract.term.action.doNotPerform` is mapped to FHIR R4 element `Contract.term.action.doNotPerform` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.type</td><td style=\"border-left-width: 0px\">Contract.term.action.type</td><td>Element `Contract.term.action.type` is mapped to FHIR R4 element `Contract.term.action.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.term.action.subject</td><td style=\"border-left-width: 0px\">Contract.term.action.subject</td><td>Element `Contract.term.action.subject` is mapped to FHIR R4 element `Contract.term.action.subject` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.subject.reference</td><td style=\"border-left-width: 0px\">reference</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.subject.reference</td><td style=\"border-left-width: 0px\">Contract.term.action.subject.reference</td><td>Element `Contract.term.action.subject.reference` is mapped to FHIR R4 element `Contract.term.action.subject.reference` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.subject.role</td><td style=\"border-left-width: 0px\">role</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.subject.role</td><td style=\"border-left-width: 0px\">Contract.term.action.subject.role</td><td>Element `Contract.term.action.subject.role` is mapped to FHIR R4 element `Contract.term.action.subject.role` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.intent</td><td style=\"border-left-width: 0px\">intent</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.intent</td><td style=\"border-left-width: 0px\">Contract.term.action.intent</td><td>Element `Contract.term.action.intent` is mapped to FHIR R4 element `Contract.term.action.intent` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.linkId</td><td style=\"border-left-width: 0px\">linkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.linkId</td><td style=\"border-left-width: 0px\">Contract.term.action.linkId</td><td>Element `Contract.term.action.linkId` is mapped to FHIR R4 element `Contract.term.action.linkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.status</td><td style=\"border-left-width: 0px\">Contract.term.action.status</td><td>Element `Contract.term.action.status` is mapped to FHIR R4 element `Contract.term.action.status` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.context</td><td style=\"border-left-width: 0px\">context</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.context</td><td style=\"border-left-width: 0px\">Contract.term.action.context</td><td>Element `Contract.term.action.context` is mapped to FHIR R4 element `Contract.term.action.context` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.contextLinkId</td><td style=\"border-left-width: 0px\">contextLinkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.contextLinkId</td><td style=\"border-left-width: 0px\">Contract.term.action.contextLinkId</td><td>Element `Contract.term.action.contextLinkId` is mapped to FHIR R4 element `Contract.term.action.contextLinkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.occurrence[x]</td><td style=\"border-left-width: 0px\">occurrence[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.occurrence[x]</td><td style=\"border-left-width: 0px\">Contract.term.action.occurrence[x]</td><td>Element `Contract.term.action.occurrence[x]` is mapped to FHIR R4 element `Contract.term.action.occurrence[x]` as `Equivalent`.\nThe target context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.requester</td><td style=\"border-left-width: 0px\">requester</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.requester</td><td style=\"border-left-width: 0px\">Contract.term.action.requester</td><td>Element `Contract.term.action.requester` is mapped to FHIR R4 element `Contract.term.action.requester` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.requesterLinkId</td><td style=\"border-left-width: 0px\">requesterLinkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.requesterLinkId</td><td style=\"border-left-width: 0px\">Contract.term.action.requesterLinkId</td><td>Element `Contract.term.action.requesterLinkId` is mapped to FHIR R4 element `Contract.term.action.requesterLinkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.performerType</td><td style=\"border-left-width: 0px\">performerType</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.performerType</td><td style=\"border-left-width: 0px\">Contract.term.action.performerType</td><td>Element `Contract.term.action.performerType` is mapped to FHIR R4 element `Contract.term.action.performerType` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.performerRole</td><td style=\"border-left-width: 0px\">performerRole</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.performerRole</td><td style=\"border-left-width: 0px\">Contract.term.action.performerRole</td><td>Element `Contract.term.action.performerRole` is mapped to FHIR R4 element `Contract.term.action.performerRole` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.performer</td><td style=\"border-left-width: 0px\">performer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.performer</td><td style=\"border-left-width: 0px\">Contract.term.action.performer</td><td>Element `Contract.term.action.performer` is mapped to FHIR R4 element `Contract.term.action.performer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.performerLinkId</td><td style=\"border-left-width: 0px\">performerLinkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.performerLinkId</td><td style=\"border-left-width: 0px\">Contract.term.action.performerLinkId</td><td>Element `Contract.term.action.performerLinkId` is mapped to FHIR R4 element `Contract.term.action.performerLinkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Contract.term.action.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.reason</td><td style=\"border-left-width: 0px\">Contract.term.action.reason</td><td>Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none; border-bottom-style: none\"/><td style=\"border-left-width: 0px; border-top-style: none; border-bottom-style: none\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.reasonCode</td><td style=\"border-left-width: 0px\">Contract.term.action.reasonCode</td><td>Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.reasonReference</td><td style=\"border-left-width: 0px\">Contract.term.action.reasonReference</td><td>Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.reasonLinkId</td><td style=\"border-left-width: 0px\">reasonLinkId</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.reasonLinkId</td><td style=\"border-left-width: 0px\">Contract.term.action.reasonLinkId</td><td>Element `Contract.term.action.reasonLinkId` is mapped to FHIR R4 element `Contract.term.action.reasonLinkId` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.note</td><td style=\"border-left-width: 0px\">Contract.term.action.note</td><td>Element `Contract.term.action.note` is mapped to FHIR R4 element `Contract.term.action.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.action.securityLabelNumber</td><td style=\"border-left-width: 0px\">securityLabelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.action.securityLabelNumber</td><td style=\"border-left-width: 0px\">Contract.term.action.securityLabelNumber</td><td>Element `Contract.term.action.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.action.securityLabelNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.term.group</td><td style=\"border-left-width: 0px\">group</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.term.group</td><td style=\"border-left-width: 0px\">Contract.term.group</td><td>Element `Contract.term.group` is mapped to FHIR R4 element `Contract.term.group` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.supportingInfo</td><td style=\"border-left-width: 0px\">supportingInfo</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.supportingInfo</td><td style=\"border-left-width: 0px\">Contract.supportingInfo</td><td>Element `Contract.supportingInfo` is mapped to FHIR R4 element `Contract.supportingInfo` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.relevantHistory</td><td style=\"border-left-width: 0px\">relevantHistory</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.relevantHistory</td><td style=\"border-left-width: 0px\">Contract.relevantHistory</td><td>Element `Contract.relevantHistory` is mapped to FHIR R4 element `Contract.relevantHistory` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.signer</td><td style=\"border-left-width: 0px\">signer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.signer</td><td style=\"border-left-width: 0px\">Contract.signer</td><td>Element `Contract.signer` is mapped to FHIR R4 element `Contract.signer` as `Equivalent`.\nSigners who are principal parties to the contract are bound by the Contract.activity related to the Contract.topic, and the Contract.term(s), which either extend or restrict the overall action on the topic by, for example, stipulating specific policies or obligations constraining actions, action reason, or agents with respect to some or all of the topic.#xD;For example, specifying how policies or obligations shall constrain actions and action reasons permitted or denied on all or a subset of the Contract.topic (e.g., all or a portion of property being transferred by the contract), agents (e.g., who can resell, assign interests, or alter the property being transferred by the contract), actions, and action reasons; or with respect to Contract.terms, stipulating, extending, or limiting the Contract.period of applicability or valuation of items under consideration.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.signer.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.signer.type</td><td style=\"border-left-width: 0px\">Contract.signer.type</td><td>Element `Contract.signer.type` is mapped to FHIR R4 element `Contract.signer.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.signer.party</td><td style=\"border-left-width: 0px\">party</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.signer.party</td><td style=\"border-left-width: 0px\">Contract.signer.party</td><td>Element `Contract.signer.party` is mapped to FHIR R4 element `Contract.signer.party` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.signer.signature</td><td style=\"border-left-width: 0px\">signature</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Contract.signer.signature</td><td style=\"border-left-width: 0px\">Contract.signer.signature</td><td>Element `Contract.signer.signature` is mapped to FHIR R4 element `Contract.signer.signature` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.friendly</td><td style=\"border-left-width: 0px\">friendly</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.friendly</td><td style=\"border-left-width: 0px\">Contract.friendly</td><td>Element `Contract.friendly` is mapped to FHIR R4 element `Contract.friendly` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.friendly.content[x]</td><td style=\"border-left-width: 0px\">content[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.friendly.content[x]</td><td style=\"border-left-width: 0px\">Contract.friendly.content[x]</td><td>Element `Contract.friendly.content[x]` is mapped to FHIR R4 element `Contract.friendly.content[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.friendly.content[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.friendly.content[x]` has unmapped reference types. While the target element `Contract.friendly.content[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.legal</td><td style=\"border-left-width: 0px\">legal</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.legal</td><td style=\"border-left-width: 0px\">Contract.legal</td><td>Element `Contract.legal` is mapped to FHIR R4 element `Contract.legal` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.legal.content[x]</td><td style=\"border-left-width: 0px\">content[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.legal.content[x]</td><td style=\"border-left-width: 0px\">Contract.legal.content[x]</td><td>Element `Contract.legal.content[x]` is mapped to FHIR R4 element `Contract.legal.content[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.legal.content[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.legal.content[x]` has unmapped reference types. While the target element `Contract.legal.content[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.rule</td><td style=\"border-left-width: 0px\">rule</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.rule</td><td style=\"border-left-width: 0px\">Contract.rule</td><td>Element `Contract.rule` is mapped to FHIR R4 element `Contract.rule` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.rule.content[x]</td><td style=\"border-left-width: 0px\">content[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.rule.content[x]</td><td style=\"border-left-width: 0px\">Contract.rule.content[x]</td><td>Element `Contract.rule.content[x]` is mapped to FHIR R4 element `Contract.rule.content[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.rule.content[x]` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.rule.content[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.rule.content[x]` has unmapped reference types. While the target element `Contract.rule.content[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it.</td></tr><tr><td style=\"border-right-width: 0px\">Contract.legallyBinding[x]</td><td style=\"border-left-width: 0px\">legallyBinding[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Contract.legallyBinding[x]</td><td style=\"border-left-width: 0px\">Contract.legallyBinding[x]</td><td>Element `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.legallyBinding[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.legallyBinding[x]` has unmapped reference types. While the target element `Contract.legallyBinding[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Contract|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Contract.term.action.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.action.reason</td><td>Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Contract|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Contract.friendly.content[x] (content[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Contract.legal.content[x] (content[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Contract.rule.content[x] (content[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Contract.legallyBinding[x] (legallyBinding[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Contract-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Contract-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ContractElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Contract to FHIR R4 Contract"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.6794896-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Contract to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Contract"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Contract>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Contract"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Contract>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Contract.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.meta" ] ;
+         fhir:display [ fhir:v "Contract.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.meta` is mapped to FHIR R4 element `Contract.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.implicitRules" ] ;
+         fhir:display [ fhir:v "Contract.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.implicitRules` is mapped to FHIR R4 element `Contract.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.language" ] ;
+         fhir:display [ fhir:v "Contract.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.language` is mapped to FHIR R4 element `Contract.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.text" ] ;
+         fhir:display [ fhir:v "Contract.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.text` is mapped to FHIR R4 element `Contract.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contained" ] ;
+         fhir:display [ fhir:v "Contract.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contained` is mapped to FHIR R4 element `Contract.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.identifier" ] ;
+         fhir:display [ fhir:v "Contract.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.identifier` is mapped to FHIR R4 element `Contract.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.url" ] ;
+         fhir:display [ fhir:v "Contract.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.url` is mapped to FHIR R4 element `Contract.url` as `Equivalent`.\nUsed in a domain that uses a supplied contract repository." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.version" ] ;
+         fhir:display [ fhir:v "Contract.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.version` is mapped to FHIR R4 element `Contract.version` as `Equivalent`.\nNote -  This is a business versionId, not a resource version id (see discussion at [Versioning](https://hl7.org/fhir/resource..html#versions)) \rComments - There may be different contract instances that have the same identifier but different versions. The version can be appended to the url in a reference to allow a reference to a particular business version of the plan definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.status" ] ;
+         fhir:display [ fhir:v "Contract.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.status` is mapped to FHIR R4 element `Contract.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the contract as not currently valid or active." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.legalState" ] ;
+       fhir:display [ fhir:v "legalState" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.legalState" ] ;
+         fhir:display [ fhir:v "Contract.legalState" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.legalState` is mapped to FHIR R4 element `Contract.legalState` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.instantiatesCanonical" ] ;
+         fhir:display [ fhir:v "Contract.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.instantiatesCanonical` is mapped to FHIR R4 element `Contract.instantiatesCanonical` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.instantiatesUri" ] ;
+         fhir:display [ fhir:v "Contract.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.instantiatesUri` is mapped to FHIR R4 element `Contract.instantiatesUri` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDerivative" ] ;
+       fhir:display [ fhir:v "contentDerivative" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDerivative" ] ;
+         fhir:display [ fhir:v "Contract.contentDerivative" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDerivative` is mapped to FHIR R4 element `Contract.contentDerivative` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.issued" ] ;
+       fhir:display [ fhir:v "issued" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.issued" ] ;
+         fhir:display [ fhir:v "Contract.issued" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.issued` is mapped to FHIR R4 element `Contract.issued` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.applies" ] ;
+       fhir:display [ fhir:v "applies" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.applies" ] ;
+         fhir:display [ fhir:v "Contract.applies" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.applies` is mapped to FHIR R4 element `Contract.applies` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.expirationType" ] ;
+       fhir:display [ fhir:v "expirationType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.expirationType" ] ;
+         fhir:display [ fhir:v "Contract.expirationType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.expirationType` is mapped to FHIR R4 element `Contract.expirationType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.subject" ] ;
+         fhir:display [ fhir:v "Contract.subject" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.subject` is mapped to FHIR R4 element `Contract.subject` as `Equivalent`.\nThe Contract.subject is an entity that has some role with respect to the Contract.topic and Contract.topic.term, which is of focal interest to the parties to the contract and likely impacted in a significant way by the Contract.action/Contract.action.reason and the Contract.term.action/Contract.action.reason. \rIn many cases, the Contract.subject is a Contract.signer if the subject is an adult; has a legal interest in the contract; and incompetent to participate in the contract agreement." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.authority" ] ;
+       fhir:display [ fhir:v "authority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.authority" ] ;
+         fhir:display [ fhir:v "Contract.authority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.authority` is mapped to FHIR R4 element `Contract.authority` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.domain" ] ;
+       fhir:display [ fhir:v "domain" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.domain" ] ;
+         fhir:display [ fhir:v "Contract.domain" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.domain` is mapped to FHIR R4 element `Contract.domain` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.site" ] ;
+       fhir:display [ fhir:v "site" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.site" ] ;
+         fhir:display [ fhir:v "Contract.site" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.site` is mapped to FHIR R4 element `Contract.site` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.name" ] ;
+         fhir:display [ fhir:v "Contract.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.name` is mapped to FHIR R4 element `Contract.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.title" ] ;
+         fhir:display [ fhir:v "Contract.title" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.title` is mapped to FHIR R4 element `Contract.title` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.subtitle" ] ;
+       fhir:display [ fhir:v "subtitle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.subtitle" ] ;
+         fhir:display [ fhir:v "Contract.subtitle" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.subtitle` is mapped to FHIR R4 element `Contract.subtitle` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.alias" ] ;
+       fhir:display [ fhir:v "alias" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.alias" ] ;
+         fhir:display [ fhir:v "Contract.alias" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.alias` is mapped to FHIR R4 element `Contract.alias` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.author" ] ;
+         fhir:display [ fhir:v "Contract.author" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.author` is mapped to FHIR R4 element `Contract.author` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.scope" ] ;
+       fhir:display [ fhir:v "scope" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.scope" ] ;
+         fhir:display [ fhir:v "Contract.scope" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.scope` is mapped to FHIR R4 element `Contract.scope` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.topic[x]" ] ;
+       fhir:display [ fhir:v "topic[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.topic[x]" ] ;
+         fhir:display [ fhir:v "Contract.topic[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.topic[x]` is mapped to FHIR R4 element `Contract.topic[x]` as `Equivalent`.\nThe target context `Contract.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nContractual areas of concern are very broad. This element supports narrowing the area of concern to more specific term topics within this Contract. Given the wide range of contract topics, implementers need to be cognizant of the business use case for which they are designing a FHIR Contract, and narrowly specify the topic being represented with respect to the Contract.type and any specializing Contract.subtype. The same topic, e.g., an asset such as a good or service, such as a real property, medical supply, insurance, information, a procedure or employment, or a manner of conduct, such adherence to a privacy, trust, or security policy, may be the topic of multiple types of contracts. \rOne way to determine the Contract.topic is to answer the question: \"What is the overall objective of this legal instrument?\". The Contract.topic is described with more detail by the terms of the Contract." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.type" ] ;
+         fhir:display [ fhir:v "Contract.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.type` is mapped to FHIR R4 element `Contract.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.subType" ] ;
+       fhir:display [ fhir:v "subType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.subType" ] ;
+         fhir:display [ fhir:v "Contract.subType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.subType` is mapped to FHIR R4 element `Contract.subType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition" ] ;
+       fhir:display [ fhir:v "contentDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition` is mapped to FHIR R4 element `Contract.contentDefinition` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition.type" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition.type` is mapped to FHIR R4 element `Contract.contentDefinition.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition.subType" ] ;
+       fhir:display [ fhir:v "subType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition.subType" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition.subType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition.subType` is mapped to FHIR R4 element `Contract.contentDefinition.subType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition.publisher" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition.publisher` is mapped to FHIR R4 element `Contract.contentDefinition.publisher` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition.publicationDate" ] ;
+       fhir:display [ fhir:v "publicationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition.publicationDate" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition.publicationDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition.publicationDate` is mapped to FHIR R4 element `Contract.contentDefinition.publicationDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition.publicationStatus" ] ;
+       fhir:display [ fhir:v "publicationStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition.publicationStatus" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition.publicationStatus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition.publicationStatus` is mapped to FHIR R4 element `Contract.contentDefinition.publicationStatus` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.contentDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.contentDefinition.copyright" ] ;
+         fhir:display [ fhir:v "Contract.contentDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.contentDefinition.copyright` is mapped to FHIR R4 element `Contract.contentDefinition.copyright` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term" ] ;
+       fhir:display [ fhir:v "term" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term" ] ;
+         fhir:display [ fhir:v "Contract.term" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term` is mapped to FHIR R4 element `Contract.term` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.identifier" ] ;
+         fhir:display [ fhir:v "Contract.term.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.identifier` is mapped to FHIR R4 element `Contract.term.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.issued" ] ;
+       fhir:display [ fhir:v "issued" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.issued" ] ;
+         fhir:display [ fhir:v "Contract.term.issued" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.issued` is mapped to FHIR R4 element `Contract.term.issued` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.applies" ] ;
+       fhir:display [ fhir:v "applies" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.applies" ] ;
+         fhir:display [ fhir:v "Contract.term.applies" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.applies` is mapped to FHIR R4 element `Contract.term.applies` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.topic[x]" ] ;
+       fhir:display [ fhir:v "topic[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.topic[x]" ] ;
+         fhir:display [ fhir:v "Contract.term.topic[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.topic[x]` is mapped to FHIR R4 element `Contract.term.topic[x]` as `Equivalent`.\nThe target context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.type" ] ;
+         fhir:display [ fhir:v "Contract.term.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.type` is mapped to FHIR R4 element `Contract.term.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.subType" ] ;
+       fhir:display [ fhir:v "subType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.subType" ] ;
+         fhir:display [ fhir:v "Contract.term.subType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.subType` is mapped to FHIR R4 element `Contract.term.subType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.text" ] ;
+         fhir:display [ fhir:v "Contract.term.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.text` is mapped to FHIR R4 element `Contract.term.text` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.securityLabel" ] ;
+       fhir:display [ fhir:v "securityLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.securityLabel" ] ;
+         fhir:display [ fhir:v "Contract.term.securityLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.securityLabel` is mapped to FHIR R4 element `Contract.term.securityLabel` as `Equivalent`.\nWithin a Contract, a security label may apply to the one to many nested group of terms or to a term, whether inside a group or a singleton.  The security label on the entire set of term provision elements may be different from the security labels on a contained offer, asset, valuedItem, or data such as sensitive information, and must be the high water mark of all security labels within the term. Rationale is that a labelled term, which may be disaggregated from the Contract, and must persist the label on the term and on contained elements within other contexts. If more than one policy dictates a level of confidentiality of the term, then each applicable policy may be represented by a security label specific to its requirements.\n\nA Security Label is comprised of 1..1 confidentiality code and 0..* other security label codes (aka \"privacy tags\". A Security Label is metadata assigned (aka \"tagged\") to Resources and Resource elements, which specify the confidentiality and sensitivity of the Resource or element and their related attributes, the purposes for which tagged items may be collected, access, used or disclosed, any limitation on the type of entities authorized to engage in permitted purposes, and handling instructions that obligate or prohibit certain actions on the tagged items." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.securityLabel.number" ] ;
+       fhir:display [ fhir:v "number" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.securityLabel.number" ] ;
+         fhir:display [ fhir:v "Contract.term.securityLabel.number" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.securityLabel.number` is mapped to FHIR R4 element `Contract.term.securityLabel.number` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.securityLabel.classification" ] ;
+       fhir:display [ fhir:v "classification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.securityLabel.classification" ] ;
+         fhir:display [ fhir:v "Contract.term.securityLabel.classification" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.securityLabel.classification` is mapped to FHIR R4 element `Contract.term.securityLabel.classification` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.securityLabel.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.securityLabel.category" ] ;
+         fhir:display [ fhir:v "Contract.term.securityLabel.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.securityLabel.category` is mapped to FHIR R4 element `Contract.term.securityLabel.category` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.securityLabel.control" ] ;
+       fhir:display [ fhir:v "control" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.securityLabel.control" ] ;
+         fhir:display [ fhir:v "Contract.term.securityLabel.control" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.securityLabel.control` is mapped to FHIR R4 element `Contract.term.securityLabel.control` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer" ] ;
+       fhir:display [ fhir:v "offer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer" ] ;
+         fhir:display [ fhir:v "Contract.term.offer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer` is mapped to FHIR R4 element `Contract.term.offer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.identifier" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.identifier` is mapped to FHIR R4 element `Contract.term.offer.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.party" ] ;
+       fhir:display [ fhir:v "party" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.party" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.party" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.party` is mapped to FHIR R4 element `Contract.term.offer.party` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.party.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.party.reference" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.party.reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.party.reference` is mapped to FHIR R4 element `Contract.term.offer.party.reference` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.party.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.party.role" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.party.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.party.role` is mapped to FHIR R4 element `Contract.term.offer.party.role` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.topic" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.topic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.topic` is mapped to FHIR R4 element `Contract.term.offer.topic` as `Equivalent`.\nThe Contract.topic may be an application for or offer of a policy or service (e.g., uri to a consent directive form or a health insurance policy), which becomes the Contract once accepted by both the grantor and grantee. \rThe Contract Resource may function simply as the computable representation of the executed contract, which may be the attached to the Contract Resource as the “binding” or as the “friendly” electronic form.  For example, a Contract Resource may be automatically populated with the values expressed in a related QuestionnaireResponse. \rHowever, the Contract Resource may be considered the legally binding contract if it is the only “executed” form of this contract, and includes the signatures as *The Contract Resource may function as the computable representation of an application or offer in a pre-executed Contract if the grantor has not entered any values.  In this case, it is populated with values in a “legal” form of the application or offer or by the values in an associated Questionnaire.  If the grantor has filled in the legal form or the associated Questionnaire Response, then these values are used to populate a pre-executed Contract Resource.\rIf the Contract.topic is considered an application or offer, then the policy is often required to be attached as the “legal” basis for the application to ensure “informed consent” to the contract, and that any discrepancy between the application and the policy are interpreted against the policy.  Implementers should check organizational and jurisdictional policies to determine the relationship among multiple representations of a contract pre- and post-execution." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.type" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.type` is mapped to FHIR R4 element `Contract.term.offer.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.decision" ] ;
+       fhir:display [ fhir:v "decision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.decision" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.decision" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.decision` is mapped to FHIR R4 element `Contract.term.offer.decision` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.decisionMode" ] ;
+       fhir:display [ fhir:v "decisionMode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.decisionMode" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.decisionMode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.decisionMode` is mapped to FHIR R4 element `Contract.term.offer.decisionMode` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.answer" ] ;
+       fhir:display [ fhir:v "answer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.answer" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.answer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.answer` is mapped to FHIR R4 element `Contract.term.offer.answer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.answer.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.answer.value[x]" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.answer.value[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.answer.value[x]` is mapped to FHIR R4 element `Contract.term.offer.answer.value[x]` as `RelatedTo`.\nThe target context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.text" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.text` is mapped to FHIR R4 element `Contract.term.offer.text` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.linkId" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.linkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.linkId` is mapped to FHIR R4 element `Contract.term.offer.linkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.offer.securityLabelNumber" ] ;
+       fhir:display [ fhir:v "securityLabelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.offer.securityLabelNumber" ] ;
+         fhir:display [ fhir:v "Contract.term.offer.securityLabelNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.offer.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.offer.securityLabelNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset" ] ;
+       fhir:display [ fhir:v "asset" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset" ] ;
+         fhir:display [ fhir:v "Contract.term.asset" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset` is mapped to FHIR R4 element `Contract.term.asset` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.scope" ] ;
+       fhir:display [ fhir:v "scope" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.scope" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.scope" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.scope` is mapped to FHIR R4 element `Contract.term.asset.scope` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.type" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.type` is mapped to FHIR R4 element `Contract.term.asset.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.typeReference" ] ;
+       fhir:display [ fhir:v "typeReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.typeReference" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.typeReference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.typeReference` is mapped to FHIR R4 element `Contract.term.asset.typeReference` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.subtype" ] ;
+       fhir:display [ fhir:v "subtype" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.subtype" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.subtype" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.subtype` is mapped to FHIR R4 element `Contract.term.asset.subtype` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.relationship" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.relationship" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.relationship` is mapped to FHIR R4 element `Contract.term.asset.relationship` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.context" ] ;
+       fhir:display [ fhir:v "context" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.context" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.context" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.context` is mapped to FHIR R4 element `Contract.term.asset.context` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.context.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.context.reference" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.context.reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.context.reference` is mapped to FHIR R4 element `Contract.term.asset.context.reference` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.context.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.context.code" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.context.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.context.code` is mapped to FHIR R4 element `Contract.term.asset.context.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.context.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.context.text" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.context.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.context.text` is mapped to FHIR R4 element `Contract.term.asset.context.text` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.condition" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.condition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.condition` is mapped to FHIR R4 element `Contract.term.asset.condition` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.periodType" ] ;
+       fhir:display [ fhir:v "periodType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.periodType" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.periodType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.periodType` is mapped to FHIR R4 element `Contract.term.asset.periodType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.period" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.period` is mapped to FHIR R4 element `Contract.term.asset.period` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.usePeriod" ] ;
+       fhir:display [ fhir:v "usePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.usePeriod" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.usePeriod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.usePeriod` is mapped to FHIR R4 element `Contract.term.asset.usePeriod` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.text" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.text` is mapped to FHIR R4 element `Contract.term.asset.text` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.linkId" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.linkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.linkId` is mapped to FHIR R4 element `Contract.term.asset.linkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.answer" ] ;
+       fhir:display [ fhir:v "answer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.answer" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.answer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.answer` is mapped to FHIR R4 element `Contract.term.asset.answer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.securityLabelNumber" ] ;
+       fhir:display [ fhir:v "securityLabelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.securityLabelNumber" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.securityLabelNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.securityLabelNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem" ] ;
+       fhir:display [ fhir:v "valuedItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem` is mapped to FHIR R4 element `Contract.term.asset.valuedItem` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.entity[x]" ] ;
+       fhir:display [ fhir:v "entity[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.entity[x]" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.entity[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.entity[x]` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.entity[x]` as `Equivalent`.\nThe target context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.identifier" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.identifier` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.effectiveTime" ] ;
+       fhir:display [ fhir:v "effectiveTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.effectiveTime" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.effectiveTime" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.effectiveTime` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.effectiveTime` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.quantity" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.quantity` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.quantity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.unitPrice" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.unitPrice` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.unitPrice` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.factor" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.factor" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.factor` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.factor` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.points" ] ;
+       fhir:display [ fhir:v "points" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.points" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.points" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.points` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.points` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.net" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.net" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.net` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.net` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.payment" ] ;
+       fhir:display [ fhir:v "payment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.payment" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.payment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.payment` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.payment` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.paymentDate" ] ;
+       fhir:display [ fhir:v "paymentDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.paymentDate" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.paymentDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.paymentDate` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.paymentDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.responsible" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.responsible" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.responsible` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.responsible` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.recipient" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.recipient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.recipient` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.recipient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.linkId" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.linkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.linkId` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.linkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.asset.valuedItem.securityLabelNumber" ] ;
+       fhir:display [ fhir:v "securityLabelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.asset.valuedItem.securityLabelNumber" ] ;
+         fhir:display [ fhir:v "Contract.term.asset.valuedItem.securityLabelNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.asset.valuedItem.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.securityLabelNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action" ] ;
+         fhir:display [ fhir:v "Contract.term.action" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action` is mapped to FHIR R4 element `Contract.term.action` as `Equivalent`.\nSeveral agents may be associated (i.e. has some responsibility for an activity) with an activity and vice-versa.\rFor example, in cases of actions initiated by one user for other users, or in events that involve more than one user, hardware device, software, or system process. However, only one user may be the initiator/requestor for the event." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.doNotPerform" ] ;
+       fhir:display [ fhir:v "doNotPerform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.doNotPerform" ] ;
+         fhir:display [ fhir:v "Contract.term.action.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.doNotPerform` is mapped to FHIR R4 element `Contract.term.action.doNotPerform` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.type" ] ;
+         fhir:display [ fhir:v "Contract.term.action.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.type` is mapped to FHIR R4 element `Contract.term.action.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.subject" ] ;
+         fhir:display [ fhir:v "Contract.term.action.subject" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.subject` is mapped to FHIR R4 element `Contract.term.action.subject` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.subject.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.subject.reference" ] ;
+         fhir:display [ fhir:v "Contract.term.action.subject.reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.subject.reference` is mapped to FHIR R4 element `Contract.term.action.subject.reference` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.subject.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.subject.role" ] ;
+         fhir:display [ fhir:v "Contract.term.action.subject.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.subject.role` is mapped to FHIR R4 element `Contract.term.action.subject.role` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.intent" ] ;
+         fhir:display [ fhir:v "Contract.term.action.intent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.intent` is mapped to FHIR R4 element `Contract.term.action.intent` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.linkId" ] ;
+         fhir:display [ fhir:v "Contract.term.action.linkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.linkId` is mapped to FHIR R4 element `Contract.term.action.linkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.status" ] ;
+         fhir:display [ fhir:v "Contract.term.action.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.status` is mapped to FHIR R4 element `Contract.term.action.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.context" ] ;
+       fhir:display [ fhir:v "context" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.context" ] ;
+         fhir:display [ fhir:v "Contract.term.action.context" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.context` is mapped to FHIR R4 element `Contract.term.action.context` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.contextLinkId" ] ;
+       fhir:display [ fhir:v "contextLinkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.contextLinkId" ] ;
+         fhir:display [ fhir:v "Contract.term.action.contextLinkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.contextLinkId` is mapped to FHIR R4 element `Contract.term.action.contextLinkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.occurrence[x]" ] ;
+         fhir:display [ fhir:v "Contract.term.action.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.occurrence[x]` is mapped to FHIR R4 element `Contract.term.action.occurrence[x]` as `Equivalent`.\nThe target context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.requester" ] ;
+         fhir:display [ fhir:v "Contract.term.action.requester" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.requester` is mapped to FHIR R4 element `Contract.term.action.requester` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.requesterLinkId" ] ;
+       fhir:display [ fhir:v "requesterLinkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.requesterLinkId" ] ;
+         fhir:display [ fhir:v "Contract.term.action.requesterLinkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.requesterLinkId` is mapped to FHIR R4 element `Contract.term.action.requesterLinkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.performerType" ] ;
+       fhir:display [ fhir:v "performerType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.performerType" ] ;
+         fhir:display [ fhir:v "Contract.term.action.performerType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.performerType` is mapped to FHIR R4 element `Contract.term.action.performerType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.performerRole" ] ;
+       fhir:display [ fhir:v "performerRole" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.performerRole" ] ;
+         fhir:display [ fhir:v "Contract.term.action.performerRole" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.performerRole` is mapped to FHIR R4 element `Contract.term.action.performerRole` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.performer" ] ;
+         fhir:display [ fhir:v "Contract.term.action.performer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.performer` is mapped to FHIR R4 element `Contract.term.action.performer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.performerLinkId" ] ;
+       fhir:display [ fhir:v "performerLinkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.performerLinkId" ] ;
+         fhir:display [ fhir:v "Contract.term.action.performerLinkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.performerLinkId` is mapped to FHIR R4 element `Contract.term.action.performerLinkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.reason" ] ;
+         fhir:display [ fhir:v "Contract.term.action.reason" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference." ]
+       ] [
+         fhir:code [ fhir:v "Contract.term.action.reasonCode" ] ;
+         fhir:display [ fhir:v "Contract.term.action.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference." ]
+       ] [
+         fhir:code [ fhir:v "Contract.term.action.reasonReference" ] ;
+         fhir:display [ fhir:v "Contract.term.action.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.reasonLinkId" ] ;
+       fhir:display [ fhir:v "reasonLinkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.reasonLinkId" ] ;
+         fhir:display [ fhir:v "Contract.term.action.reasonLinkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.reasonLinkId` is mapped to FHIR R4 element `Contract.term.action.reasonLinkId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.note" ] ;
+         fhir:display [ fhir:v "Contract.term.action.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.note` is mapped to FHIR R4 element `Contract.term.action.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.action.securityLabelNumber" ] ;
+       fhir:display [ fhir:v "securityLabelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.action.securityLabelNumber" ] ;
+         fhir:display [ fhir:v "Contract.term.action.securityLabelNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.action.securityLabelNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.term.group" ] ;
+       fhir:display [ fhir:v "group" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.term.group" ] ;
+         fhir:display [ fhir:v "Contract.term.group" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.group` is mapped to FHIR R4 element `Contract.term.group` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.supportingInfo" ] ;
+         fhir:display [ fhir:v "Contract.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.supportingInfo` is mapped to FHIR R4 element `Contract.supportingInfo` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.relevantHistory" ] ;
+       fhir:display [ fhir:v "relevantHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.relevantHistory" ] ;
+         fhir:display [ fhir:v "Contract.relevantHistory" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.relevantHistory` is mapped to FHIR R4 element `Contract.relevantHistory` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.signer" ] ;
+       fhir:display [ fhir:v "signer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.signer" ] ;
+         fhir:display [ fhir:v "Contract.signer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.signer` is mapped to FHIR R4 element `Contract.signer` as `Equivalent`.\nSigners who are principal parties to the contract are bound by the Contract.activity related to the Contract.topic, and the Contract.term(s), which either extend or restrict the overall action on the topic by, for example, stipulating specific policies or obligations constraining actions, action reason, or agents with respect to some or all of the topic.\rFor example, specifying how policies or obligations shall constrain actions and action reasons permitted or denied on all or a subset of the Contract.topic (e.g., all or a portion of property being transferred by the contract), agents (e.g., who can resell, assign interests, or alter the property being transferred by the contract), actions, and action reasons; or with respect to Contract.terms, stipulating, extending, or limiting the Contract.period of applicability or valuation of items under consideration." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.signer.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.signer.type" ] ;
+         fhir:display [ fhir:v "Contract.signer.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.signer.type` is mapped to FHIR R4 element `Contract.signer.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.signer.party" ] ;
+       fhir:display [ fhir:v "party" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.signer.party" ] ;
+         fhir:display [ fhir:v "Contract.signer.party" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.signer.party` is mapped to FHIR R4 element `Contract.signer.party` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.signer.signature" ] ;
+       fhir:display [ fhir:v "signature" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.signer.signature" ] ;
+         fhir:display [ fhir:v "Contract.signer.signature" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Contract.signer.signature` is mapped to FHIR R4 element `Contract.signer.signature` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.friendly" ] ;
+       fhir:display [ fhir:v "friendly" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.friendly" ] ;
+         fhir:display [ fhir:v "Contract.friendly" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.friendly` is mapped to FHIR R4 element `Contract.friendly` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.friendly.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.friendly.content[x]" ] ;
+         fhir:display [ fhir:v "Contract.friendly.content[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.friendly.content[x]` is mapped to FHIR R4 element `Contract.friendly.content[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.friendly.content[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.friendly.content[x]` has unmapped reference types. While the target element `Contract.friendly.content[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.legal" ] ;
+       fhir:display [ fhir:v "legal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.legal" ] ;
+         fhir:display [ fhir:v "Contract.legal" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.legal` is mapped to FHIR R4 element `Contract.legal` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.legal.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.legal.content[x]" ] ;
+         fhir:display [ fhir:v "Contract.legal.content[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.legal.content[x]` is mapped to FHIR R4 element `Contract.legal.content[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.legal.content[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.legal.content[x]` has unmapped reference types. While the target element `Contract.legal.content[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.rule" ] ;
+       fhir:display [ fhir:v "rule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.rule" ] ;
+         fhir:display [ fhir:v "Contract.rule" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.rule` is mapped to FHIR R4 element `Contract.rule` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.rule.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.rule.content[x]" ] ;
+         fhir:display [ fhir:v "Contract.rule.content[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.rule.content[x]` is mapped to FHIR R4 element `Contract.rule.content[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.rule.content[x]` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.rule.content[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.rule.content[x]` has unmapped reference types. While the target element `Contract.rule.content[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.legallyBinding[x]" ] ;
+       fhir:display [ fhir:v "legallyBinding[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Contract.legallyBinding[x]" ] ;
+         fhir:display [ fhir:v "Contract.legallyBinding[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Contract.legallyBinding[x]` with unmapped reference targets: DocumentReference.\nSource element `Contract.legallyBinding[x]` has unmapped reference types. While the target element `Contract.legallyBinding[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Contract"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Contract>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Contract.term.action.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.action.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference` as `SourceIsBroaderThanTarget`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Contract.term.action.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Contract"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Contract>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Contract.friendly.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.legal.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.rule.content[x]" ] ;
+       fhir:display [ fhir:v "content[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Contract.legallyBinding[x]" ] ;
+       fhir:display [ fhir:v "legallyBinding[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

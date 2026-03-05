@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-TestReport-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-TestReport-element-map-to-R4</b></p><a name="R5-TestReport-element-map-to-R4"> </a><a name="hcR5-TestReport-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TestReport|5.0.0</code> to <a href="http://hl7.org/fhir/R4/testreport.html">TestReportversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>TestReport.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.meta</td><td>Element `TestReport.meta` is mapped to FHIR R4 element `TestReport.meta` as `Equivalent`.</td></tr><tr><td>TestReport.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.implicitRules</td><td>Element `TestReport.implicitRules` is mapped to FHIR R4 element `TestReport.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>TestReport.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.language</td><td>Element `TestReport.language` is mapped to FHIR R4 element `TestReport.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>TestReport.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.text</td><td>Element `TestReport.text` is mapped to FHIR R4 element `TestReport.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>TestReport.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.contained</td><td>Element `TestReport.contained` is mapped to FHIR R4 element `TestReport.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>TestReport.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.identifier</td><td>Element `TestReport.identifier` is mapped to FHIR R4 element `TestReport.identifier` as `Equivalent`.</td></tr><tr><td>TestReport.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.name</td><td>Element `TestReport.name` is mapped to FHIR R4 element `TestReport.name` as `Equivalent`.
+Not expected to be globally unique.</td></tr><tr><td>TestReport.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.status</td><td>Element `TestReport.status` is mapped to FHIR R4 element `TestReport.status` as `Equivalent`.
+The status represents where the execution is currently within the test script execution life cycle.
+
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>TestReport.testScript (testScript)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.testScript</td><td>Element `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript` as `SourceIsBroaderThanTarget`.
+The mappings for `TestReport.testScript` do not cover the following types: canonical.
+The mappings for `TestReport.testScript` do not cover the following types based on type expansion: value.</td></tr><tr><td>TestReport.result (result)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.result</td><td>Element `TestReport.result` is mapped to FHIR R4 element `TestReport.result` as `Equivalent`.
+The pass and fail result represents a completed test script execution. The pending result represents a test script execution that has not yet started or is currently in progress.</td></tr><tr><td>TestReport.score (score)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.score</td><td>Element `TestReport.score` is mapped to FHIR R4 element `TestReport.score` as `Equivalent`.</td></tr><tr><td>TestReport.tester (tester)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.tester</td><td>Element `TestReport.tester` is mapped to FHIR R4 element `TestReport.tester` as `Equivalent`.
+Usually an organization, but may be an individual. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>TestReport.issued (issued)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.issued</td><td>Element `TestReport.issued` is mapped to FHIR R4 element `TestReport.issued` as `Equivalent`.
+Additional specific dates may be added as extensions.</td></tr><tr><td>TestReport.participant (participant)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.participant</td><td>Element `TestReport.participant` is mapped to FHIR R4 element `TestReport.participant` as `Equivalent`.</td></tr><tr><td>TestReport.participant.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.participant.type</td><td>Element `TestReport.participant.type` is mapped to FHIR R4 element `TestReport.participant.type` as `Equivalent`.</td></tr><tr><td>TestReport.participant.uri (uri)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.participant.uri</td><td>Element `TestReport.participant.uri` is mapped to FHIR R4 element `TestReport.participant.uri` as `Equivalent`.</td></tr><tr><td>TestReport.participant.display (display)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.participant.display</td><td>Element `TestReport.participant.display` is mapped to FHIR R4 element `TestReport.participant.display` as `Equivalent`.</td></tr><tr><td>TestReport.setup (setup)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.setup</td><td>Element `TestReport.setup` is mapped to FHIR R4 element `TestReport.setup` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.setup.action</td><td>Element `TestReport.setup.action` is mapped to FHIR R4 element `TestReport.setup.action` as `Equivalent`.
+An action should contain either an operation or an assertion but not both.  It can contain any number of variables.</td></tr><tr><td>TestReport.setup.action.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.setup.action.operation</td><td>Element `TestReport.setup.action.operation` is mapped to FHIR R4 element `TestReport.setup.action.operation` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.operation.result (result)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.setup.action.operation.result</td><td>Element `TestReport.setup.action.operation.result` is mapped to FHIR R4 element `TestReport.setup.action.operation.result` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.operation.message (message)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.setup.action.operation.message</td><td>Element `TestReport.setup.action.operation.message` is mapped to FHIR R4 element `TestReport.setup.action.operation.message` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.operation.detail (detail)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.setup.action.operation.detail</td><td>Element `TestReport.setup.action.operation.detail` is mapped to FHIR R4 element `TestReport.setup.action.operation.detail` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.assert (assert)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.setup.action.assert</td><td>Element `TestReport.setup.action.assert` is mapped to FHIR R4 element `TestReport.setup.action.assert` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.assert.result (result)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.setup.action.assert.result</td><td>Element `TestReport.setup.action.assert.result` is mapped to FHIR R4 element `TestReport.setup.action.assert.result` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.assert.message (message)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.setup.action.assert.message</td><td>Element `TestReport.setup.action.assert.message` is mapped to FHIR R4 element `TestReport.setup.action.assert.message` as `Equivalent`.</td></tr><tr><td>TestReport.setup.action.assert.detail (detail)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.setup.action.assert.detail</td><td>Element `TestReport.setup.action.assert.detail` is mapped to FHIR R4 element `TestReport.setup.action.assert.detail` as `Equivalent`.</td></tr><tr><td>TestReport.test (test)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.test</td><td>Element `TestReport.test` is mapped to FHIR R4 element `TestReport.test` as `Equivalent`.</td></tr><tr><td>TestReport.test.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.test.name</td><td>Element `TestReport.test.name` is mapped to FHIR R4 element `TestReport.test.name` as `Equivalent`.</td></tr><tr><td>TestReport.test.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.test.description</td><td>Element `TestReport.test.description` is mapped to FHIR R4 element `TestReport.test.description` as `Equivalent`.</td></tr><tr><td>TestReport.test.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.test.action</td><td>Element `TestReport.test.action` is mapped to FHIR R4 element `TestReport.test.action` as `Equivalent`.
+An action should contain either an operation or an assertion but not both.  It can contain any number of variables.</td></tr><tr><td>TestReport.test.action.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.test.action.operation</td><td>Element `TestReport.test.action.operation` is mapped to FHIR R4 element `TestReport.test.action.operation` as `Equivalent`.</td></tr><tr><td>TestReport.test.action.assert (assert)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.test.action.assert</td><td>Element `TestReport.test.action.assert` is mapped to FHIR R4 element `TestReport.test.action.assert` as `Equivalent`.</td></tr><tr><td>TestReport.teardown (teardown)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.teardown</td><td>Element `TestReport.teardown` is mapped to FHIR R4 element `TestReport.teardown` as `Equivalent`.</td></tr><tr><td>TestReport.teardown.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestReport.teardown.action</td><td>Element `TestReport.teardown.action` is mapped to FHIR R4 element `TestReport.teardown.action` as `Equivalent`.
+An action should contain either an operation or an assertion but not both.  It can contain any number of variables.</td></tr><tr><td>TestReport.teardown.action.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestReport.teardown.action.operation</td><td>Element `TestReport.teardown.action.operation` is mapped to FHIR R4 element `TestReport.teardown.action.operation` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TestReport|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>TestReport.testScript (testScript)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.testScript</td><td>Element `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript` as `SourceIsBroaderThanTarget`.
+The mappings for `TestReport.testScript` do not cover the following types: canonical.
+The mappings for `TestReport.testScript` do not cover the following types based on type expansion: value.</td></tr><tr><td>TestReport.setup.action.assert.requirement (requirement)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement</td><td>Element `TestReport.setup.action.assert.requirement` has a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.
+Element `TestReport.setup.action.assert.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements.</td></tr><tr><td>TestReport.setup.action.assert.requirement.link[x] (link[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement:link</td><td>Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.
+Element `TestReport.setup.action.assert.requirement.link[x]` has a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.
+Element `TestReport.setup.action.assert.requirement.link[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-TestReport-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5TestReportElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 TestReport to FHIR R4 TestReport"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:53.4077986-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 TestReport to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/TestReport"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/TestReport"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="TestReport.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="TestReport.meta"/>
+        <display value="TestReport.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.meta` is mapped to FHIR R4 element `TestReport.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="TestReport.implicitRules"/>
+        <display value="TestReport.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.implicitRules` is mapped to FHIR R4 element `TestReport.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.language"/>
+      <display value="language"/>
+      <target>
+        <code value="TestReport.language"/>
+        <display value="TestReport.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.language` is mapped to FHIR R4 element `TestReport.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.text"/>
+      <display value="text"/>
+      <target>
+        <code value="TestReport.text"/>
+        <display value="TestReport.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.text` is mapped to FHIR R4 element `TestReport.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="TestReport.contained"/>
+        <display value="TestReport.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.contained` is mapped to FHIR R4 element `TestReport.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="TestReport.identifier"/>
+        <display value="TestReport.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.identifier` is mapped to FHIR R4 element `TestReport.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TestReport.name"/>
+        <display value="TestReport.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.name` is mapped to FHIR R4 element `TestReport.name` as `Equivalent`.&#xA;Not expected to be globally unique."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.status"/>
+      <display value="status"/>
+      <target>
+        <code value="TestReport.status"/>
+        <display value="TestReport.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.status` is mapped to FHIR R4 element `TestReport.status` as `Equivalent`.&#xA;The status represents where the execution is currently within the test script execution life cycle.&#xA;&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.testScript"/>
+      <display value="testScript"/>
+      <target>
+        <code value="TestReport.testScript"/>
+        <display value="TestReport.testScript"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `TestReport.testScript` do not cover the following types: canonical.&#xA;The mappings for `TestReport.testScript` do not cover the following types based on type expansion: value."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.result"/>
+      <display value="result"/>
+      <target>
+        <code value="TestReport.result"/>
+        <display value="TestReport.result"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.result` is mapped to FHIR R4 element `TestReport.result` as `Equivalent`.&#xA;The pass and fail result represents a completed test script execution. The pending result represents a test script execution that has not yet started or is currently in progress."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.score"/>
+      <display value="score"/>
+      <target>
+        <code value="TestReport.score"/>
+        <display value="TestReport.score"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.score` is mapped to FHIR R4 element `TestReport.score` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.tester"/>
+      <display value="tester"/>
+      <target>
+        <code value="TestReport.tester"/>
+        <display value="TestReport.tester"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.tester` is mapped to FHIR R4 element `TestReport.tester` as `Equivalent`.&#xA;Usually an organization, but may be an individual. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.issued"/>
+      <display value="issued"/>
+      <target>
+        <code value="TestReport.issued"/>
+        <display value="TestReport.issued"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.issued` is mapped to FHIR R4 element `TestReport.issued` as `Equivalent`.&#xA;Additional specific dates may be added as extensions."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.participant"/>
+      <display value="participant"/>
+      <target>
+        <code value="TestReport.participant"/>
+        <display value="TestReport.participant"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.participant` is mapped to FHIR R4 element `TestReport.participant` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.participant.type"/>
+      <display value="type"/>
+      <target>
+        <code value="TestReport.participant.type"/>
+        <display value="TestReport.participant.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.participant.type` is mapped to FHIR R4 element `TestReport.participant.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.participant.uri"/>
+      <display value="uri"/>
+      <target>
+        <code value="TestReport.participant.uri"/>
+        <display value="TestReport.participant.uri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.participant.uri` is mapped to FHIR R4 element `TestReport.participant.uri` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.participant.display"/>
+      <display value="display"/>
+      <target>
+        <code value="TestReport.participant.display"/>
+        <display value="TestReport.participant.display"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.participant.display` is mapped to FHIR R4 element `TestReport.participant.display` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup"/>
+      <display value="setup"/>
+      <target>
+        <code value="TestReport.setup"/>
+        <display value="TestReport.setup"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.setup` is mapped to FHIR R4 element `TestReport.setup` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action"/>
+      <display value="action"/>
+      <target>
+        <code value="TestReport.setup.action"/>
+        <display value="TestReport.setup.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.setup.action` is mapped to FHIR R4 element `TestReport.setup.action` as `Equivalent`.&#xA;An action should contain either an operation or an assertion but not both.  It can contain any number of variables."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="TestReport.setup.action.operation"/>
+        <display value="TestReport.setup.action.operation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.setup.action.operation` is mapped to FHIR R4 element `TestReport.setup.action.operation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.operation.result"/>
+      <display value="result"/>
+      <target>
+        <code value="TestReport.setup.action.operation.result"/>
+        <display value="TestReport.setup.action.operation.result"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.setup.action.operation.result` is mapped to FHIR R4 element `TestReport.setup.action.operation.result` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.operation.message"/>
+      <display value="message"/>
+      <target>
+        <code value="TestReport.setup.action.operation.message"/>
+        <display value="TestReport.setup.action.operation.message"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.setup.action.operation.message` is mapped to FHIR R4 element `TestReport.setup.action.operation.message` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.operation.detail"/>
+      <display value="detail"/>
+      <target>
+        <code value="TestReport.setup.action.operation.detail"/>
+        <display value="TestReport.setup.action.operation.detail"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.setup.action.operation.detail` is mapped to FHIR R4 element `TestReport.setup.action.operation.detail` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.assert"/>
+      <display value="assert"/>
+      <target>
+        <code value="TestReport.setup.action.assert"/>
+        <display value="TestReport.setup.action.assert"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.setup.action.assert` is mapped to FHIR R4 element `TestReport.setup.action.assert` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.assert.result"/>
+      <display value="result"/>
+      <target>
+        <code value="TestReport.setup.action.assert.result"/>
+        <display value="TestReport.setup.action.assert.result"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.setup.action.assert.result` is mapped to FHIR R4 element `TestReport.setup.action.assert.result` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.assert.message"/>
+      <display value="message"/>
+      <target>
+        <code value="TestReport.setup.action.assert.message"/>
+        <display value="TestReport.setup.action.assert.message"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.setup.action.assert.message` is mapped to FHIR R4 element `TestReport.setup.action.assert.message` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.assert.detail"/>
+      <display value="detail"/>
+      <target>
+        <code value="TestReport.setup.action.assert.detail"/>
+        <display value="TestReport.setup.action.assert.detail"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.setup.action.assert.detail` is mapped to FHIR R4 element `TestReport.setup.action.assert.detail` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.test"/>
+      <display value="test"/>
+      <target>
+        <code value="TestReport.test"/>
+        <display value="TestReport.test"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.test` is mapped to FHIR R4 element `TestReport.test` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.test.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TestReport.test.name"/>
+        <display value="TestReport.test.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.test.name` is mapped to FHIR R4 element `TestReport.test.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.test.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestReport.test.description"/>
+        <display value="TestReport.test.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.test.description` is mapped to FHIR R4 element `TestReport.test.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.test.action"/>
+      <display value="action"/>
+      <target>
+        <code value="TestReport.test.action"/>
+        <display value="TestReport.test.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.test.action` is mapped to FHIR R4 element `TestReport.test.action` as `Equivalent`.&#xA;An action should contain either an operation or an assertion but not both.  It can contain any number of variables."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.test.action.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="TestReport.test.action.operation"/>
+        <display value="TestReport.test.action.operation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.test.action.operation` is mapped to FHIR R4 element `TestReport.test.action.operation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.test.action.assert"/>
+      <display value="assert"/>
+      <target>
+        <code value="TestReport.test.action.assert"/>
+        <display value="TestReport.test.action.assert"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.test.action.assert` is mapped to FHIR R4 element `TestReport.test.action.assert` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.teardown"/>
+      <display value="teardown"/>
+      <target>
+        <code value="TestReport.teardown"/>
+        <display value="TestReport.teardown"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.teardown` is mapped to FHIR R4 element `TestReport.teardown` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.teardown.action"/>
+      <display value="action"/>
+      <target>
+        <code value="TestReport.teardown.action"/>
+        <display value="TestReport.teardown.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.teardown.action` is mapped to FHIR R4 element `TestReport.teardown.action` as `Equivalent`.&#xA;An action should contain either an operation or an assertion but not both.  It can contain any number of variables."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.teardown.action.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="TestReport.teardown.action.operation"/>
+        <display value="TestReport.teardown.action.operation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.teardown.action.operation` is mapped to FHIR R4 element `TestReport.teardown.action.operation` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/TestReport"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="TestReport.testScript"/>
+      <display value="testScript"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.testScript"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `TestReport.testScript` do not cover the following types: canonical.&#xA;The mappings for `TestReport.testScript` do not cover the following types based on type expansion: value."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.assert.requirement"/>
+      <display value="requirement"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.setup.action.assert.requirement` has a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.&#xA;Element `TestReport.setup.action.assert.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestReport.setup.action.assert.requirement.link[x]"/>
+      <display value="link[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement:link"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.&#xA;Element `TestReport.setup.action.assert.requirement.link[x]` has a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`.&#xA;Element `TestReport.setup.action.assert.requirement.link[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

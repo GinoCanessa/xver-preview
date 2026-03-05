@@ -1,0 +1,404 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-HealthcareService-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-HealthcareService-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-HealthcareService-element-map-to-R4</b></p><a name=\"R5-HealthcareService-element-map-to-R4\"> </a><a name=\"hcR5-HealthcareService-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/HealthcareService|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/healthcareservice.html\">HealthcareServiceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/HealthcareService|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/HealthcareService|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.meta</td><td style=\"border-left-width: 0px\">HealthcareService.meta</td><td>Element `HealthcareService.meta` is mapped to FHIR R4 element `HealthcareService.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.implicitRules</td><td style=\"border-left-width: 0px\">HealthcareService.implicitRules</td><td>Element `HealthcareService.implicitRules` is mapped to FHIR R4 element `HealthcareService.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.language</td><td style=\"border-left-width: 0px\">HealthcareService.language</td><td>Element `HealthcareService.language` is mapped to FHIR R4 element `HealthcareService.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.text</td><td style=\"border-left-width: 0px\">HealthcareService.text</td><td>Element `HealthcareService.text` is mapped to FHIR R4 element `HealthcareService.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.contained</td><td style=\"border-left-width: 0px\">HealthcareService.contained</td><td>Element `HealthcareService.contained` is mapped to FHIR R4 element `HealthcareService.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.identifier</td><td style=\"border-left-width: 0px\">HealthcareService.identifier</td><td>Element `HealthcareService.identifier` is mapped to FHIR R4 element `HealthcareService.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.active</td><td style=\"border-left-width: 0px\">active</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.active</td><td style=\"border-left-width: 0px\">HealthcareService.active</td><td>Element `HealthcareService.active` is mapped to FHIR R4 element `HealthcareService.active` as `Equivalent`.\nThis element is labeled as a modifier because it may be used to mark that the resource was created in error.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.providedBy</td><td style=\"border-left-width: 0px\">providedBy</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.providedBy</td><td style=\"border-left-width: 0px\">HealthcareService.providedBy</td><td>Element `HealthcareService.providedBy` is mapped to FHIR R4 element `HealthcareService.providedBy` as `Equivalent`.\nThis property is recommended to be the same as the Location's managingOrganization, and if not provided should be interpreted as such. If the Location does not have a managing Organization, then this property should be populated.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.category</td><td style=\"border-left-width: 0px\">HealthcareService.category</td><td>Element `HealthcareService.category` is mapped to FHIR R4 element `HealthcareService.category` as `Equivalent`.\nSelecting a Service Category then determines the list of relevant service types that can be selected in the primary service type.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.type</td><td style=\"border-left-width: 0px\">HealthcareService.type</td><td>Element `HealthcareService.type` is mapped to FHIR R4 element `HealthcareService.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.specialty</td><td style=\"border-left-width: 0px\">specialty</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.specialty</td><td style=\"border-left-width: 0px\">HealthcareService.specialty</td><td>Element `HealthcareService.specialty` is mapped to FHIR R4 element `HealthcareService.specialty` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.location</td><td style=\"border-left-width: 0px\">HealthcareService.location</td><td>Element `HealthcareService.location` is mapped to FHIR R4 element `HealthcareService.location` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.name</td><td style=\"border-left-width: 0px\">HealthcareService.name</td><td>Element `HealthcareService.name` is mapped to FHIR R4 element `HealthcareService.name` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.comment</td><td style=\"border-left-width: 0px\">comment</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.comment</td><td style=\"border-left-width: 0px\">HealthcareService.comment</td><td>Element `HealthcareService.comment` is mapped to FHIR R4 element `HealthcareService.comment` as `Equivalent`.\nWould expect that a user would not see this information on a search results, and it would only be available when viewing the complete details of the service.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.extraDetails</td><td style=\"border-left-width: 0px\">extraDetails</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.extraDetails</td><td style=\"border-left-width: 0px\">HealthcareService.extraDetails</td><td>Element `HealthcareService.extraDetails` is mapped to FHIR R4 element `HealthcareService.extraDetails` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.photo</td><td style=\"border-left-width: 0px\">photo</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.photo</td><td style=\"border-left-width: 0px\">HealthcareService.photo</td><td>Element `HealthcareService.photo` is mapped to FHIR R4 element `HealthcareService.photo` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.coverageArea</td><td style=\"border-left-width: 0px\">coverageArea</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.coverageArea</td><td style=\"border-left-width: 0px\">HealthcareService.coverageArea</td><td>Element `HealthcareService.coverageArea` is mapped to FHIR R4 element `HealthcareService.coverageArea` as `Equivalent`.\nThe locations referenced by the coverage area can include both specific locations, including areas, and also conceptual domains too (mode = kind), such as a physical area (tri-state area) and some other attribute (covered by Example Care Organization). These types of Locations are often not managed by any specific organization. This could also include generic locations such as \"in-home\".</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.serviceProvisionCode</td><td style=\"border-left-width: 0px\">serviceProvisionCode</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.serviceProvisionCode</td><td style=\"border-left-width: 0px\">HealthcareService.serviceProvisionCode</td><td>Element `HealthcareService.serviceProvisionCode` is mapped to FHIR R4 element `HealthcareService.serviceProvisionCode` as `Equivalent`.\nThe provision means being commissioned by, contractually obliged or financially sourced. Types of costings that may apply to this healthcare service, such if the service may be available for free, some discounts available, or fees apply.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.eligibility</td><td style=\"border-left-width: 0px\">eligibility</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">HealthcareService.eligibility</td><td style=\"border-left-width: 0px\">HealthcareService.eligibility</td><td>Element `HealthcareService.eligibility` is mapped to FHIR R4 element `HealthcareService.eligibility` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.eligibility.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.eligibility.code</td><td style=\"border-left-width: 0px\">HealthcareService.eligibility.code</td><td>Element `HealthcareService.eligibility.code` is mapped to FHIR R4 element `HealthcareService.eligibility.code` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.eligibility.comment</td><td style=\"border-left-width: 0px\">comment</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.eligibility.comment</td><td style=\"border-left-width: 0px\">HealthcareService.eligibility.comment</td><td>Element `HealthcareService.eligibility.comment` is mapped to FHIR R4 element `HealthcareService.eligibility.comment` as `Equivalent`.\nThe description of service eligibility should, in general, not exceed one or two paragraphs. It should be sufficient for a prospective consumer to determine if they are likely to be eligible or not. Where eligibility requirements and conditions are complex, it may simply be noted that an eligibility assessment is required. Where eligibility is determined by an outside source, such as an Act of Parliament, this should be noted, preferably with a reference to a commonly available copy of the source document such as a web page.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.program</td><td style=\"border-left-width: 0px\">program</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.program</td><td style=\"border-left-width: 0px\">HealthcareService.program</td><td>Element `HealthcareService.program` is mapped to FHIR R4 element `HealthcareService.program` as `Equivalent`.\nPrograms are often defined externally to an Organization, commonly by governments; e.g. Home and Community Care Programs, Homeless Program, ….</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.characteristic</td><td style=\"border-left-width: 0px\">characteristic</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.characteristic</td><td style=\"border-left-width: 0px\">HealthcareService.characteristic</td><td>Element `HealthcareService.characteristic` is mapped to FHIR R4 element `HealthcareService.characteristic` as `Equivalent`.\nThese could be such things as is wheelchair accessible.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.communication</td><td style=\"border-left-width: 0px\">communication</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.communication</td><td style=\"border-left-width: 0px\">HealthcareService.communication</td><td>Element `HealthcareService.communication` is mapped to FHIR R4 element `HealthcareService.communication` as `Equivalent`.\nWhen using this property it indicates that the service is available with this language, it is not derived from the practitioners, and not all are required to use this language, just that this language is available while scheduling.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.referralMethod</td><td style=\"border-left-width: 0px\">referralMethod</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.referralMethod</td><td style=\"border-left-width: 0px\">HealthcareService.referralMethod</td><td>Element `HealthcareService.referralMethod` is mapped to FHIR R4 element `HealthcareService.referralMethod` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.appointmentRequired</td><td style=\"border-left-width: 0px\">appointmentRequired</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.appointmentRequired</td><td style=\"border-left-width: 0px\">HealthcareService.appointmentRequired</td><td>Element `HealthcareService.appointmentRequired` is mapped to FHIR R4 element `HealthcareService.appointmentRequired` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">HealthcareService.availability</td><td style=\"border-left-width: 0px; border-bottom-style: none\">availability</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.availableTime</td><td style=\"border-left-width: 0px\">HealthcareService.availableTime</td><td>Element `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.availableTime` as `Equivalent`.\nElement `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.notAvailable` as `Equivalent`.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".#xD;#xD;The NotAvailableTime(s) included indicate the general days/periods where the service is not available (for things such as public holidays).</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.notAvailable</td><td style=\"border-left-width: 0px\">HealthcareService.notAvailable</td><td>Element `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.availableTime` as `Equivalent`.\nElement `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.notAvailable` as `Equivalent`.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".#xD;#xD;The NotAvailableTime(s) included indicate the general days/periods where the service is not available (for things such as public holidays).</td></tr><tr><td style=\"border-right-width: 0px\">HealthcareService.endpoint</td><td style=\"border-left-width: 0px\">endpoint</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">HealthcareService.endpoint</td><td style=\"border-left-width: 0px\">HealthcareService.endpoint</td><td>Element `HealthcareService.endpoint` is mapped to FHIR R4 element `HealthcareService.endpoint` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/HealthcareService|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>HealthcareService.offeredIn (offeredIn)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.offeredIn</td><td>Element `HealthcareService.offeredIn` has a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`.\nElement `HealthcareService.offeredIn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor example, if there is a generic Radiology service that offers CT Scans, MRIs, etc.  You could have HealthcareService resources for the CT Scans and MRIs, which have an offeredIn reference to the Radiology HealthcareService.</td></tr><tr><td>HealthcareService.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact</td><td>Element `HealthcareService.contact` has a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`.\nElement `HealthcareService.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe address/telecom use code 'home' are not to be used. Note that these contacts are not the contact details of people who provide the service (that would be through PractitionerRole), these are official contacts for the HealthcareService itself for specific purposes. E.g. Mailing Addresses, Billing Addresses, Contact numbers for Booking or Billing Enquiries, general web address, web address for online bookings etc.\n\nIf this is empty (or the type of interest is empty), refer to the location's contacts.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-HealthcareService-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-HealthcareService-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5HealthcareServiceElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 HealthcareService to FHIR R4 HealthcareService"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:48.8910113-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 HealthcareService to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/HealthcareService>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/HealthcareService>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "HealthcareService.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.meta" ] ;
+         fhir:display [ fhir:v "HealthcareService.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.meta` is mapped to FHIR R4 element `HealthcareService.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.implicitRules" ] ;
+         fhir:display [ fhir:v "HealthcareService.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.implicitRules` is mapped to FHIR R4 element `HealthcareService.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.language" ] ;
+         fhir:display [ fhir:v "HealthcareService.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.language` is mapped to FHIR R4 element `HealthcareService.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.text" ] ;
+         fhir:display [ fhir:v "HealthcareService.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.text` is mapped to FHIR R4 element `HealthcareService.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.contained" ] ;
+         fhir:display [ fhir:v "HealthcareService.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.contained` is mapped to FHIR R4 element `HealthcareService.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.identifier" ] ;
+         fhir:display [ fhir:v "HealthcareService.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.identifier` is mapped to FHIR R4 element `HealthcareService.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.active" ] ;
+         fhir:display [ fhir:v "HealthcareService.active" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.active` is mapped to FHIR R4 element `HealthcareService.active` as `Equivalent`.\nThis element is labeled as a modifier because it may be used to mark that the resource was created in error." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.providedBy" ] ;
+       fhir:display [ fhir:v "providedBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.providedBy" ] ;
+         fhir:display [ fhir:v "HealthcareService.providedBy" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.providedBy` is mapped to FHIR R4 element `HealthcareService.providedBy` as `Equivalent`.\nThis property is recommended to be the same as the Location's managingOrganization, and if not provided should be interpreted as such. If the Location does not have a managing Organization, then this property should be populated." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.category" ] ;
+         fhir:display [ fhir:v "HealthcareService.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.category` is mapped to FHIR R4 element `HealthcareService.category` as `Equivalent`.\nSelecting a Service Category then determines the list of relevant service types that can be selected in the primary service type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.type" ] ;
+         fhir:display [ fhir:v "HealthcareService.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.type` is mapped to FHIR R4 element `HealthcareService.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.specialty" ] ;
+         fhir:display [ fhir:v "HealthcareService.specialty" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.specialty` is mapped to FHIR R4 element `HealthcareService.specialty` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.location" ] ;
+         fhir:display [ fhir:v "HealthcareService.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.location` is mapped to FHIR R4 element `HealthcareService.location` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.name" ] ;
+         fhir:display [ fhir:v "HealthcareService.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.name` is mapped to FHIR R4 element `HealthcareService.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.comment" ] ;
+         fhir:display [ fhir:v "HealthcareService.comment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.comment` is mapped to FHIR R4 element `HealthcareService.comment` as `Equivalent`.\nWould expect that a user would not see this information on a search results, and it would only be available when viewing the complete details of the service." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.extraDetails" ] ;
+       fhir:display [ fhir:v "extraDetails" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.extraDetails" ] ;
+         fhir:display [ fhir:v "HealthcareService.extraDetails" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.extraDetails` is mapped to FHIR R4 element `HealthcareService.extraDetails` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.photo" ] ;
+       fhir:display [ fhir:v "photo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.photo" ] ;
+         fhir:display [ fhir:v "HealthcareService.photo" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.photo` is mapped to FHIR R4 element `HealthcareService.photo` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.coverageArea" ] ;
+       fhir:display [ fhir:v "coverageArea" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.coverageArea" ] ;
+         fhir:display [ fhir:v "HealthcareService.coverageArea" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.coverageArea` is mapped to FHIR R4 element `HealthcareService.coverageArea` as `Equivalent`.\nThe locations referenced by the coverage area can include both specific locations, including areas, and also conceptual domains too (mode = kind), such as a physical area (tri-state area) and some other attribute (covered by Example Care Organization). These types of Locations are often not managed by any specific organization. This could also include generic locations such as \"in-home\"." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.serviceProvisionCode" ] ;
+       fhir:display [ fhir:v "serviceProvisionCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.serviceProvisionCode" ] ;
+         fhir:display [ fhir:v "HealthcareService.serviceProvisionCode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.serviceProvisionCode` is mapped to FHIR R4 element `HealthcareService.serviceProvisionCode` as `Equivalent`.\nThe provision means being commissioned by, contractually obliged or financially sourced. Types of costings that may apply to this healthcare service, such if the service may be available for free, some discounts available, or fees apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.eligibility" ] ;
+       fhir:display [ fhir:v "eligibility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.eligibility" ] ;
+         fhir:display [ fhir:v "HealthcareService.eligibility" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility` is mapped to FHIR R4 element `HealthcareService.eligibility` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.eligibility.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.eligibility.code" ] ;
+         fhir:display [ fhir:v "HealthcareService.eligibility.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility.code` is mapped to FHIR R4 element `HealthcareService.eligibility.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.eligibility.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.eligibility.comment" ] ;
+         fhir:display [ fhir:v "HealthcareService.eligibility.comment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.eligibility.comment` is mapped to FHIR R4 element `HealthcareService.eligibility.comment` as `Equivalent`.\nThe description of service eligibility should, in general, not exceed one or two paragraphs. It should be sufficient for a prospective consumer to determine if they are likely to be eligible or not. Where eligibility requirements and conditions are complex, it may simply be noted that an eligibility assessment is required. Where eligibility is determined by an outside source, such as an Act of Parliament, this should be noted, preferably with a reference to a commonly available copy of the source document such as a web page." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.program" ] ;
+       fhir:display [ fhir:v "program" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.program" ] ;
+         fhir:display [ fhir:v "HealthcareService.program" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.program` is mapped to FHIR R4 element `HealthcareService.program` as `Equivalent`.\nPrograms are often defined externally to an Organization, commonly by governments; e.g. Home and Community Care Programs, Homeless Program, …." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.characteristic" ] ;
+         fhir:display [ fhir:v "HealthcareService.characteristic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.characteristic` is mapped to FHIR R4 element `HealthcareService.characteristic` as `Equivalent`.\nThese could be such things as is wheelchair accessible." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.communication" ] ;
+       fhir:display [ fhir:v "communication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.communication" ] ;
+         fhir:display [ fhir:v "HealthcareService.communication" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.communication` is mapped to FHIR R4 element `HealthcareService.communication` as `Equivalent`.\nWhen using this property it indicates that the service is available with this language, it is not derived from the practitioners, and not all are required to use this language, just that this language is available while scheduling." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.referralMethod" ] ;
+       fhir:display [ fhir:v "referralMethod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.referralMethod" ] ;
+         fhir:display [ fhir:v "HealthcareService.referralMethod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.referralMethod` is mapped to FHIR R4 element `HealthcareService.referralMethod` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.appointmentRequired" ] ;
+       fhir:display [ fhir:v "appointmentRequired" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.appointmentRequired" ] ;
+         fhir:display [ fhir:v "HealthcareService.appointmentRequired" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.appointmentRequired` is mapped to FHIR R4 element `HealthcareService.appointmentRequired` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.availability" ] ;
+       fhir:display [ fhir:v "availability" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.availableTime" ] ;
+         fhir:display [ fhir:v "HealthcareService.availableTime" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.availableTime` as `Equivalent`.\nElement `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.notAvailable` as `Equivalent`.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".\r\rThe NotAvailableTime(s) included indicate the general days/periods where the service is not available (for things such as public holidays)." ]
+       ] [
+         fhir:code [ fhir:v "HealthcareService.notAvailable" ] ;
+         fhir:display [ fhir:v "HealthcareService.notAvailable" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.availableTime` as `Equivalent`.\nElement `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.notAvailable` as `Equivalent`.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".\r\rThe NotAvailableTime(s) included indicate the general days/periods where the service is not available (for things such as public holidays)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "HealthcareService.endpoint" ] ;
+         fhir:display [ fhir:v "HealthcareService.endpoint" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.endpoint` is mapped to FHIR R4 element `HealthcareService.endpoint` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/HealthcareService"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/HealthcareService>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "HealthcareService.offeredIn" ] ;
+       fhir:display [ fhir:v "offeredIn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.offeredIn" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.offeredIn` has a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`.\nElement `HealthcareService.offeredIn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor example, if there is a generic Radiology service that offers CT Scans, MRIs, etc.  You could have HealthcareService resources for the CT Scans and MRIs, which have an offeredIn reference to the Radiology HealthcareService." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "HealthcareService.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.contact" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `HealthcareService.contact` has a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`.\nElement `HealthcareService.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe address/telecom use code 'home' are not to be used. Note that these contacts are not the contact details of people who provide the service (that would be through PractitionerRole), these are official contacts for the HealthcareService itself for specific purposes. E.g. Mailing Addresses, Billing Addresses, Contact numbers for Booking or Billing Enquiries, general web address, web address for online bookings etc.\n\nIf this is empty (or the type of interest is empty), refer to the location's contacts." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

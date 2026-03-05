@@ -1,0 +1,388 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Invoice-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Invoice-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Invoice-element-map-to-R4</b></p><a name=\"R5-Invoice-element-map-to-R4\"> </a><a name=\"hcR5-Invoice-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Invoice|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/invoice.html\">Invoiceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Invoice.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.meta</td><td>Element `Invoice.meta` is mapped to FHIR R4 element `Invoice.meta` as `Equivalent`.</td></tr><tr><td>Invoice.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.implicitRules</td><td>Element `Invoice.implicitRules` is mapped to FHIR R4 element `Invoice.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Invoice.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.language</td><td>Element `Invoice.language` is mapped to FHIR R4 element `Invoice.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Invoice.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.text</td><td>Element `Invoice.text` is mapped to FHIR R4 element `Invoice.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Invoice.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.contained</td><td>Element `Invoice.contained` is mapped to FHIR R4 element `Invoice.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Invoice.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.identifier</td><td>Element `Invoice.identifier` is mapped to FHIR R4 element `Invoice.identifier` as `Equivalent`.</td></tr><tr><td>Invoice.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.status</td><td>Element `Invoice.status` is mapped to FHIR R4 element `Invoice.status` as `Equivalent`.</td></tr><tr><td>Invoice.cancelledReason (cancelledReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.cancelledReason</td><td>Element `Invoice.cancelledReason` is mapped to FHIR R4 element `Invoice.cancelledReason` as `Equivalent`.\nDerived Profiles may choose to add invariants requiring this field to be populated if either priceOverride or factorOverride have been filled.</td></tr><tr><td>Invoice.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.type</td><td>Element `Invoice.type` is mapped to FHIR R4 element `Invoice.type` as `Equivalent`.</td></tr><tr><td>Invoice.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.subject</td><td>Element `Invoice.subject` is mapped to FHIR R4 element `Invoice.subject` as `Equivalent`.</td></tr><tr><td>Invoice.recipient (recipient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.recipient</td><td>Element `Invoice.recipient` is mapped to FHIR R4 element `Invoice.recipient` as `Equivalent`.</td></tr><tr><td>Invoice.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.date</td><td>Element `Invoice.date` is mapped to FHIR R4 element `Invoice.date` as `Equivalent`.</td></tr><tr><td>Invoice.participant (participant)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Invoice.participant</td><td>Element `Invoice.participant` is mapped to FHIR R4 element `Invoice.participant` as `Equivalent`.</td></tr><tr><td>Invoice.participant.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.participant.role</td><td>Element `Invoice.participant.role` is mapped to FHIR R4 element `Invoice.participant.role` as `Equivalent`.</td></tr><tr><td>Invoice.participant.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.participant.actor</td><td>Element `Invoice.participant.actor` is mapped to FHIR R4 element `Invoice.participant.actor` as `Equivalent`.</td></tr><tr><td>Invoice.issuer (issuer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.issuer</td><td>Element `Invoice.issuer` is mapped to FHIR R4 element `Invoice.issuer` as `Equivalent`.\nPractitioners and Devices can be associated with multiple organizations. It has to be made clear, on behalf of which Organization the services have been rendered.</td></tr><tr><td>Invoice.account (account)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.account</td><td>Element `Invoice.account` is mapped to FHIR R4 element `Invoice.account` as `Equivalent`.\nSystems posting the ChargeItems might not always be able to determine, which accounts the Items need to be places into. It is up to the potprocessing Financial System to apply internal rules to decide based on the Encounter/EpisodeOfCare/Patient/Coverage context and the type of ChargeItem, which Account is appropriate.</td></tr><tr><td>Invoice.lineItem (lineItem)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Invoice.lineItem</td><td>Element `Invoice.lineItem` is mapped to FHIR R4 element `Invoice.lineItem` as `Equivalent`.</td></tr><tr><td>Invoice.lineItem.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.lineItem.sequence</td><td>Element `Invoice.lineItem.sequence` is mapped to FHIR R4 element `Invoice.lineItem.sequence` as `Equivalent`.</td></tr><tr><td>Invoice.lineItem.chargeItem[x] (chargeItem[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.lineItem.chargeItem[x]</td><td>Element `Invoice.lineItem.chargeItem[x]` is mapped to FHIR R4 element `Invoice.lineItem.chargeItem[x]` as `Equivalent`.\nThe target context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`.</td></tr><tr><td>Invoice.lineItem.priceComponent (priceComponent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.lineItem.priceComponent</td><td>Element `Invoice.lineItem.priceComponent` is mapped to FHIR R4 element `Invoice.lineItem.priceComponent` as `Equivalent`.</td></tr><tr><td>Invoice.totalPriceComponent (totalPriceComponent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.totalPriceComponent</td><td>Element `Invoice.totalPriceComponent` is mapped to FHIR R4 element `Invoice.totalPriceComponent` as `Equivalent`.</td></tr><tr><td>Invoice.totalNet (totalNet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.totalNet</td><td>Element `Invoice.totalNet` is mapped to FHIR R4 element `Invoice.totalNet` as `Equivalent`.\nThere is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden.</td></tr><tr><td>Invoice.totalGross (totalGross)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.totalGross</td><td>Element `Invoice.totalGross` is mapped to FHIR R4 element `Invoice.totalGross` as `Equivalent`.\nThere is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden.</td></tr><tr><td>Invoice.paymentTerms (paymentTerms)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.paymentTerms</td><td>Element `Invoice.paymentTerms` is mapped to FHIR R4 element `Invoice.paymentTerms` as `Equivalent`.\nDerived Profiles may chose to add invariants requiring this field to be populated if either priceOverride or factorOverride have been filled.</td></tr><tr><td>Invoice.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Invoice.note</td><td>Element `Invoice.note` is mapped to FHIR R4 element `Invoice.note` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Invoice|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Invoice.creation (creation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.creation</td><td>Element `Invoice.creation` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.\nElement `Invoice.creation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe list of types may be constrained as appropriate for the type of charge item.</td></tr><tr><td>Invoice.period[x] (period[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period</td><td>Element `Invoice.period[x]` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.\nElement `Invoice.period[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Invoice.lineItem.serviced[x] (serviced[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced</td><td>Element `Invoice.lineItem.serviced[x]` has a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`.\nElement `Invoice.lineItem.serviced[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Invoice-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Invoice-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5InvoiceElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Invoice to FHIR R4 Invoice"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:49.8714794-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Invoice to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Invoice>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Invoice>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Invoice.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.meta" ] ;
+         fhir:display [ fhir:v "Invoice.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.meta` is mapped to FHIR R4 element `Invoice.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.implicitRules" ] ;
+         fhir:display [ fhir:v "Invoice.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.implicitRules` is mapped to FHIR R4 element `Invoice.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.language" ] ;
+         fhir:display [ fhir:v "Invoice.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.language` is mapped to FHIR R4 element `Invoice.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.text" ] ;
+         fhir:display [ fhir:v "Invoice.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.text` is mapped to FHIR R4 element `Invoice.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.contained" ] ;
+         fhir:display [ fhir:v "Invoice.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.contained` is mapped to FHIR R4 element `Invoice.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.identifier" ] ;
+         fhir:display [ fhir:v "Invoice.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.identifier` is mapped to FHIR R4 element `Invoice.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.status" ] ;
+         fhir:display [ fhir:v "Invoice.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.status` is mapped to FHIR R4 element `Invoice.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.cancelledReason" ] ;
+       fhir:display [ fhir:v "cancelledReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.cancelledReason" ] ;
+         fhir:display [ fhir:v "Invoice.cancelledReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.cancelledReason` is mapped to FHIR R4 element `Invoice.cancelledReason` as `Equivalent`.\nDerived Profiles may choose to add invariants requiring this field to be populated if either priceOverride or factorOverride have been filled." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.type" ] ;
+         fhir:display [ fhir:v "Invoice.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.type` is mapped to FHIR R4 element `Invoice.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.subject" ] ;
+         fhir:display [ fhir:v "Invoice.subject" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.subject` is mapped to FHIR R4 element `Invoice.subject` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.recipient" ] ;
+         fhir:display [ fhir:v "Invoice.recipient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.recipient` is mapped to FHIR R4 element `Invoice.recipient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.date" ] ;
+         fhir:display [ fhir:v "Invoice.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.date` is mapped to FHIR R4 element `Invoice.date` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.participant" ] ;
+         fhir:display [ fhir:v "Invoice.participant" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant` is mapped to FHIR R4 element `Invoice.participant` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.participant.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.participant.role" ] ;
+         fhir:display [ fhir:v "Invoice.participant.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.role` is mapped to FHIR R4 element `Invoice.participant.role` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.participant.actor" ] ;
+         fhir:display [ fhir:v "Invoice.participant.actor" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.participant.actor` is mapped to FHIR R4 element `Invoice.participant.actor` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.issuer" ] ;
+         fhir:display [ fhir:v "Invoice.issuer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.issuer` is mapped to FHIR R4 element `Invoice.issuer` as `Equivalent`.\nPractitioners and Devices can be associated with multiple organizations. It has to be made clear, on behalf of which Organization the services have been rendered." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.account" ] ;
+         fhir:display [ fhir:v "Invoice.account" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.account` is mapped to FHIR R4 element `Invoice.account` as `Equivalent`.\nSystems posting the ChargeItems might not always be able to determine, which accounts the Items need to be places into. It is up to the potprocessing Financial System to apply internal rules to decide based on the Encounter/EpisodeOfCare/Patient/Coverage context and the type of ChargeItem, which Account is appropriate." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem" ] ;
+       fhir:display [ fhir:v "lineItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.lineItem" ] ;
+         fhir:display [ fhir:v "Invoice.lineItem" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem` is mapped to FHIR R4 element `Invoice.lineItem` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.lineItem.sequence" ] ;
+         fhir:display [ fhir:v "Invoice.lineItem.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.sequence` is mapped to FHIR R4 element `Invoice.lineItem.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.chargeItem[x]" ] ;
+       fhir:display [ fhir:v "chargeItem[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.lineItem.chargeItem[x]" ] ;
+         fhir:display [ fhir:v "Invoice.lineItem.chargeItem[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.chargeItem[x]` is mapped to FHIR R4 element `Invoice.lineItem.chargeItem[x]` as `Equivalent`.\nThe target context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.priceComponent" ] ;
+       fhir:display [ fhir:v "priceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.lineItem.priceComponent" ] ;
+         fhir:display [ fhir:v "Invoice.lineItem.priceComponent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.priceComponent` is mapped to FHIR R4 element `Invoice.lineItem.priceComponent` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.totalPriceComponent" ] ;
+       fhir:display [ fhir:v "totalPriceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.totalPriceComponent" ] ;
+         fhir:display [ fhir:v "Invoice.totalPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalPriceComponent` is mapped to FHIR R4 element `Invoice.totalPriceComponent` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.totalNet" ] ;
+       fhir:display [ fhir:v "totalNet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.totalNet" ] ;
+         fhir:display [ fhir:v "Invoice.totalNet" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalNet` is mapped to FHIR R4 element `Invoice.totalNet` as `Equivalent`.\nThere is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.totalGross" ] ;
+       fhir:display [ fhir:v "totalGross" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.totalGross" ] ;
+         fhir:display [ fhir:v "Invoice.totalGross" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.totalGross` is mapped to FHIR R4 element `Invoice.totalGross` as `Equivalent`.\nThere is no reason to carry the price in the instance of a ChargeItem unless circumstances require a manual override. The list prices or are usually defined in a back catalogue of the billing codes  (see ChargeItem.definition). Derived profiles may require a ChargeItem.overrideReason to be provided if either factor or price are manually overridden." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.paymentTerms" ] ;
+       fhir:display [ fhir:v "paymentTerms" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.paymentTerms" ] ;
+         fhir:display [ fhir:v "Invoice.paymentTerms" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.paymentTerms` is mapped to FHIR R4 element `Invoice.paymentTerms` as `Equivalent`.\nDerived Profiles may chose to add invariants requiring this field to be populated if either priceOverride or factorOverride have been filled." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Invoice.note" ] ;
+         fhir:display [ fhir:v "Invoice.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.note` is mapped to FHIR R4 element `Invoice.note` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Invoice"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Invoice>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Invoice.creation" ] ;
+       fhir:display [ fhir:v "creation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.creation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.creation` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.\nElement `Invoice.creation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe list of types may be constrained as appropriate for the type of charge item." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.period[x]" ] ;
+       fhir:display [ fhir:v "period[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.period[x]` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.\nElement `Invoice.period[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Invoice.lineItem.serviced[x]" ] ;
+       fhir:display [ fhir:v "serviced[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Invoice.lineItem.serviced[x]` has a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`.\nElement `Invoice.lineItem.serviced[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Endpoint-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Endpoint-element-map-to-R4</b></p><a name="R5-Endpoint-element-map-to-R4"> </a><a name="hcR5-Endpoint-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Endpoint|5.0.0</code> to <a href="http://hl7.org/fhir/R4/endpoint.html">Endpointversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Endpoint.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.meta</td><td>Element `Endpoint.meta` is mapped to FHIR R4 element `Endpoint.meta` as `Equivalent`.</td></tr><tr><td>Endpoint.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.implicitRules</td><td>Element `Endpoint.implicitRules` is mapped to FHIR R4 element `Endpoint.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Endpoint.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.language</td><td>Element `Endpoint.language` is mapped to FHIR R4 element `Endpoint.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Endpoint.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.text</td><td>Element `Endpoint.text` is mapped to FHIR R4 element `Endpoint.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Endpoint.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.contained</td><td>Element `Endpoint.contained` is mapped to FHIR R4 element `Endpoint.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Endpoint.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.identifier</td><td>Element `Endpoint.identifier` is mapped to FHIR R4 element `Endpoint.identifier` as `Equivalent`.</td></tr><tr><td>Endpoint.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.status</td><td>Element `Endpoint.status` is mapped to FHIR R4 element `Endpoint.status` as `SourceIsNarrowerThanTarget`.
+The mappings for `Endpoint.status` do not allow expression of the necessary codes, per the bindings on the source and target.
+This element is labeled as a modifier because the status contains codes that mark the endpoint as not currently valid. Temporary downtimes or other unexpected short-term changes in availability would not be represented in this property.</td></tr><tr><td>Endpoint.connectionType (connectionType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Endpoint.connectionType</td><td>Element `Endpoint.connectionType` is mapped to FHIR R4 element `Endpoint.connectionType` as `SourceIsBroaderThanTarget`.
+The mappings for `Endpoint.connectionType` do not cover the following types: CodeableConcept.
+The mappings for `Endpoint.connectionType` do not cover the following types based on type expansion: text.
+For additional connectivity details for the protocol, extensions will be used at this point, as in the XDS example. If there are multiple payload types or mimetypes they are all applicable for all connection types, and all have the same status.</td></tr><tr><td>Endpoint.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.name</td><td>Element `Endpoint.name` is mapped to FHIR R4 element `Endpoint.name` as `Equivalent`.</td></tr><tr><td>Endpoint.managingOrganization (managingOrganization)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.managingOrganization</td><td>Element `Endpoint.managingOrganization` is mapped to FHIR R4 element `Endpoint.managingOrganization` as `Equivalent`.
+This property is not typically used when searching for Endpoint resources for usage. The typical usage is via the reference from an applicable Organization/Location/Practitioner resource, which is where the context is provided. Multiple Locations may reference a single endpoint, and don't have to be within the same organization resource, but most likely within the same organizational hierarchy.</td></tr><tr><td>Endpoint.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.contact</td><td>Element `Endpoint.contact` is mapped to FHIR R4 element `Endpoint.contact` as `Equivalent`.</td></tr><tr><td>Endpoint.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.period</td><td>Element `Endpoint.period` is mapped to FHIR R4 element `Endpoint.period` as `Equivalent`.
+Temporary downtimes or other short-term changes in availability would not be represented in this property.</td></tr><tr><td>Endpoint.payload (payload)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Endpoint</td><td>Element `Endpoint.payload` is mapped to FHIR R4 element `Endpoint` as `SourceIsNarrowerThanTarget`.
+Note that not all mimetypes or types will be listed under the one endpoint resource, there may be multiple instances that information for cases where other header data such as the endpoint address, active status/period etc. is different.</td></tr><tr><td>Endpoint.payload.mimeType (mimeType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.payloadMimeType</td><td>Element `Endpoint.payload.mimeType` is mapped to FHIR R4 element `Endpoint.payloadMimeType` as `Equivalent`.
+Sending the payload has obvious security consequences. The server is responsible for ensuring that the content is appropriately secured.</td></tr><tr><td>Endpoint.address (address)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.address</td><td>Element `Endpoint.address` is mapped to FHIR R4 element `Endpoint.address` as `Equivalent`.
+For rest-hook, and websocket, the end-point must be an http: or https: URL; for email, a mailto: url, for sms, a tel: url, and for message the endpoint can be in any form of url the server understands (usually, http: or mllp:). The URI is allowed to be relative; in which case, it is relative to the server end-point (since there may be more than one, clients should avoid using relative URIs)
+
+This address will be to the service base, without any parameters, or sub-services or resources tacked on.
+
+E.g. for a WADO-RS endpoint, the url should be &quot;https://pacs.hospital.org/wado-rs&quot;
+
+and not &quot;https://pacs.hospital.org/wado-rs/studies/1.2.250.1.59.40211.12345678.678910/series/1.2.250.1.59.40211.789001276.14556172.67789/instances/...&quot;.</td></tr><tr><td>Endpoint.header (header)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Endpoint.header</td><td>Element `Endpoint.header` is mapped to FHIR R4 element `Endpoint.header` as `Equivalent`.
+Exactly what these mean depends on the channel type. The can convey additional information to the recipient and/or meet security requirements.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Endpoint|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Endpoint.connectionType (connectionType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.connectionType</td><td>Element `Endpoint.connectionType` is mapped to FHIR R4 element `Endpoint.connectionType` as `SourceIsBroaderThanTarget`.
+The mappings for `Endpoint.connectionType` do not cover the following types: CodeableConcept.
+The mappings for `Endpoint.connectionType` do not cover the following types based on type expansion: text.
+For additional connectivity details for the protocol, extensions will be used at this point, as in the XDS example. If there are multiple payload types or mimetypes they are all applicable for all connection types, and all have the same status.</td></tr><tr><td>Endpoint.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description</td><td>Element `Endpoint.description` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.
+Element `Endpoint.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Endpoint.environmentType (environmentType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType</td><td>Element `Endpoint.environmentType` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.
+Element `Endpoint.environmentType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Endpoint.payload.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type</td><td>Element `Endpoint.payload.type` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.
+Element `Endpoint.payload.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The mimeType describes the serialization format of the data, where the payload.type indicates the specific document/schema that is being transferred; e.g. DischargeSummary or CarePlan.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Endpoint-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5EndpointElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Endpoint to FHIR R4 Endpoint"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:47.969111-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Endpoint to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Endpoint"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Endpoint"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Endpoint.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Endpoint.meta"/>
+        <display value="Endpoint.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.meta` is mapped to FHIR R4 element `Endpoint.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Endpoint.implicitRules"/>
+        <display value="Endpoint.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.implicitRules` is mapped to FHIR R4 element `Endpoint.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Endpoint.language"/>
+        <display value="Endpoint.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.language` is mapped to FHIR R4 element `Endpoint.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Endpoint.text"/>
+        <display value="Endpoint.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.text` is mapped to FHIR R4 element `Endpoint.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Endpoint.contained"/>
+        <display value="Endpoint.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.contained` is mapped to FHIR R4 element `Endpoint.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Endpoint.identifier"/>
+        <display value="Endpoint.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.identifier` is mapped to FHIR R4 element `Endpoint.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Endpoint.status"/>
+        <display value="Endpoint.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.status` is mapped to FHIR R4 element `Endpoint.status` as `SourceIsNarrowerThanTarget`.&#xA;The mappings for `Endpoint.status` do not allow expression of the necessary codes, per the bindings on the source and target.&#xA;This element is labeled as a modifier because the status contains codes that mark the endpoint as not currently valid. Temporary downtimes or other unexpected short-term changes in availability would not be represented in this property."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.connectionType"/>
+      <display value="connectionType"/>
+      <target>
+        <code value="Endpoint.connectionType"/>
+        <display value="Endpoint.connectionType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Endpoint.connectionType` is mapped to FHIR R4 element `Endpoint.connectionType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Endpoint.connectionType` do not cover the following types: CodeableConcept.&#xA;The mappings for `Endpoint.connectionType` do not cover the following types based on type expansion: text.&#xA;For additional connectivity details for the protocol, extensions will be used at this point, as in the XDS example. If there are multiple payload types or mimetypes they are all applicable for all connection types, and all have the same status."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.name"/>
+      <display value="name"/>
+      <target>
+        <code value="Endpoint.name"/>
+        <display value="Endpoint.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.name` is mapped to FHIR R4 element `Endpoint.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.managingOrganization"/>
+      <display value="managingOrganization"/>
+      <target>
+        <code value="Endpoint.managingOrganization"/>
+        <display value="Endpoint.managingOrganization"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.managingOrganization` is mapped to FHIR R4 element `Endpoint.managingOrganization` as `Equivalent`.&#xA;This property is not typically used when searching for Endpoint resources for usage. The typical usage is via the reference from an applicable Organization/Location/Practitioner resource, which is where the context is provided. Multiple Locations may reference a single endpoint, and don't have to be within the same organization resource, but most likely within the same organizational hierarchy."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="Endpoint.contact"/>
+        <display value="Endpoint.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.contact` is mapped to FHIR R4 element `Endpoint.contact` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Endpoint.period"/>
+        <display value="Endpoint.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.period` is mapped to FHIR R4 element `Endpoint.period` as `Equivalent`.&#xA;Temporary downtimes or other short-term changes in availability would not be represented in this property."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.payload"/>
+      <display value="payload"/>
+      <target>
+        <code value="Endpoint"/>
+        <display value="Endpoint"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Endpoint.payload` is mapped to FHIR R4 element `Endpoint` as `SourceIsNarrowerThanTarget`.&#xA;Note that not all mimetypes or types will be listed under the one endpoint resource, there may be multiple instances that information for cases where other header data such as the endpoint address, active status/period etc. is different."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.payload.mimeType"/>
+      <display value="mimeType"/>
+      <target>
+        <code value="Endpoint.payloadMimeType"/>
+        <display value="Endpoint.payloadMimeType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.payload.mimeType` is mapped to FHIR R4 element `Endpoint.payloadMimeType` as `Equivalent`.&#xA;Sending the payload has obvious security consequences. The server is responsible for ensuring that the content is appropriately secured."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.address"/>
+      <display value="address"/>
+      <target>
+        <code value="Endpoint.address"/>
+        <display value="Endpoint.address"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.address` is mapped to FHIR R4 element `Endpoint.address` as `Equivalent`.&#xA;For rest-hook, and websocket, the end-point must be an http: or https: URL; for email, a mailto: url, for sms, a tel: url, and for message the endpoint can be in any form of url the server understands (usually, http: or mllp:). The URI is allowed to be relative; in which case, it is relative to the server end-point (since there may be more than one, clients should avoid using relative URIs)&#xA;&#xA;This address will be to the service base, without any parameters, or sub-services or resources tacked on.&#xA;&#xA;E.g. for a WADO-RS endpoint, the url should be &quot;https://pacs.hospital.org/wado-rs&quot;&#xA;&#xA;and not &quot;https://pacs.hospital.org/wado-rs/studies/1.2.250.1.59.40211.12345678.678910/series/1.2.250.1.59.40211.789001276.14556172.67789/instances/...&quot;."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.header"/>
+      <display value="header"/>
+      <target>
+        <code value="Endpoint.header"/>
+        <display value="Endpoint.header"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.header` is mapped to FHIR R4 element `Endpoint.header` as `Equivalent`.&#xA;Exactly what these mean depends on the channel type. The can convey additional information to the recipient and/or meet security requirements."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Endpoint"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Endpoint.connectionType"/>
+      <display value="connectionType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.connectionType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.connectionType` is mapped to FHIR R4 element `Endpoint.connectionType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Endpoint.connectionType` do not cover the following types: CodeableConcept.&#xA;The mappings for `Endpoint.connectionType` do not cover the following types based on type expansion: text.&#xA;For additional connectivity details for the protocol, extensions will be used at this point, as in the XDS example. If there are multiple payload types or mimetypes they are all applicable for all connection types, and all have the same status."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Endpoint.description` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.&#xA;Element `Endpoint.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.environmentType"/>
+      <display value="environmentType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Endpoint.environmentType` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.&#xA;Element `Endpoint.environmentType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Endpoint.payload.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Endpoint.payload.type` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.&#xA;Element `Endpoint.payload.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The mimeType describes the serialization format of the data, where the payload.type indicates the specific document/schema that is being transferred; e.g. DischargeSummary or CarePlan."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-ChargeItemDefinition-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-ChargeItemDefinition-element-map-to-R4</b></p><a name="R5-ChargeItemDefinition-element-map-to-R4"> </a><a name="hcR5-ChargeItemDefinition-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition|5.0.0</code> to <a href="http://hl7.org/fhir/R4/chargeitemdefinition.html">ChargeItemDefinitionversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ChargeItemDefinition.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.meta</td><td>Element `ChargeItemDefinition.meta` is mapped to FHIR R4 element `ChargeItemDefinition.meta` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.implicitRules</td><td>Element `ChargeItemDefinition.implicitRules` is mapped to FHIR R4 element `ChargeItemDefinition.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>ChargeItemDefinition.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.language</td><td>Element `ChargeItemDefinition.language` is mapped to FHIR R4 element `ChargeItemDefinition.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>ChargeItemDefinition.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.text</td><td>Element `ChargeItemDefinition.text` is mapped to FHIR R4 element `ChargeItemDefinition.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>ChargeItemDefinition.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.contained</td><td>Element `ChargeItemDefinition.contained` is mapped to FHIR R4 element `ChargeItemDefinition.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>ChargeItemDefinition.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.url</td><td>Element `ChargeItemDefinition.url` is mapped to FHIR R4 element `ChargeItemDefinition.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>ChargeItemDefinition.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.identifier</td><td>Element `ChargeItemDefinition.identifier` is mapped to FHIR R4 element `ChargeItemDefinition.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this charge item definition outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>ChargeItemDefinition.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.version</td><td>Element `ChargeItemDefinition.version` is mapped to FHIR R4 element `ChargeItemDefinition.version` as `Equivalent`.
+There may be different charge item definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the charge item definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>ChargeItemDefinition.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.title</td><td>Element `ChargeItemDefinition.title` is mapped to FHIR R4 element `ChargeItemDefinition.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>ChargeItemDefinition.derivedFromUri (derivedFromUri)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.derivedFromUri</td><td>Element `ChargeItemDefinition.derivedFromUri` is mapped to FHIR R4 element `ChargeItemDefinition.derivedFromUri` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.partOf</td><td>Element `ChargeItemDefinition.partOf` is mapped to FHIR R4 element `ChargeItemDefinition.partOf` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.replaces (replaces)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.replaces</td><td>Element `ChargeItemDefinition.replaces` is mapped to FHIR R4 element `ChargeItemDefinition.replaces` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.status</td><td>Element `ChargeItemDefinition.status` is mapped to FHIR R4 element `ChargeItemDefinition.status` as `Equivalent`.
+Allows filtering of charge item definitions that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ChargeItemDefinition.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.experimental</td><td>Element `ChargeItemDefinition.experimental` is mapped to FHIR R4 element `ChargeItemDefinition.experimental` as `Equivalent`.
+Allows filtering of charge item definitions that are appropriate for use versus not.</td></tr><tr><td>ChargeItemDefinition.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.date</td><td>Element `ChargeItemDefinition.date` is mapped to FHIR R4 element `ChargeItemDefinition.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the charge item definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ChargeItemDefinition.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.publisher</td><td>Element `ChargeItemDefinition.publisher` is mapped to FHIR R4 element `ChargeItemDefinition.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the charge item definition is the organization or individual primarily responsible for the maintenance and upkeep of the charge item definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the charge item definition. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>ChargeItemDefinition.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.contact</td><td>Element `ChargeItemDefinition.contact` is mapped to FHIR R4 element `ChargeItemDefinition.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ChargeItemDefinition.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.description</td><td>Element `ChargeItemDefinition.description` is mapped to FHIR R4 element `ChargeItemDefinition.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the charge item definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the charge item definition is presumed to be the predominant language in the place the charge item definition was created).</td></tr><tr><td>ChargeItemDefinition.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.useContext</td><td>Element `ChargeItemDefinition.useContext` is mapped to FHIR R4 element `ChargeItemDefinition.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>ChargeItemDefinition.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.jurisdiction</td><td>Element `ChargeItemDefinition.jurisdiction` is mapped to FHIR R4 element `ChargeItemDefinition.jurisdiction` as `Equivalent`.
+Element `ChargeItemDefinition.jurisdiction` has been flagged as deprecated.
+It may be possible for the charge item definition to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>ChargeItemDefinition.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.copyright</td><td>Element `ChargeItemDefinition.copyright` is mapped to FHIR R4 element `ChargeItemDefinition.copyright` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.approvalDate (approvalDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.approvalDate</td><td>Element `ChargeItemDefinition.approvalDate` is mapped to FHIR R4 element `ChargeItemDefinition.approvalDate` as `Equivalent`.
+The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ChargeItemDefinition.lastReviewDate (lastReviewDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.lastReviewDate</td><td>Element `ChargeItemDefinition.lastReviewDate` is mapped to FHIR R4 element `ChargeItemDefinition.lastReviewDate` as `Equivalent`.
+If specified, this date follows the original approval date.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ChargeItemDefinition.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.code</td><td>Element `ChargeItemDefinition.code` is mapped to FHIR R4 element `ChargeItemDefinition.code` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.instance (instance)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ChargeItemDefinition.instance</td><td>Element `ChargeItemDefinition.instance` is mapped to FHIR R4 element `ChargeItemDefinition.instance` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `ChargeItemDefinition.instance` with unmapped reference targets: ActivityDefinition, DeviceDefinition, HealthcareService, PlanDefinition.
+In case of highly customized, individually produced or fitted devices/substances, the pricing information may be different for each instance of the product. This reference links pricing details to specific product instances.</td></tr><tr><td>ChargeItemDefinition.applicability (applicability)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ChargeItemDefinition.applicability</td><td>Element `ChargeItemDefinition.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.applicability` as `Equivalent`.
+The applicability conditions can be used to ascertain whether a billing item is allowed in a specific context. E.g. some billing codes may only be applicable in out-patient settings, only to male/female patients or only to children.</td></tr><tr><td>ChargeItemDefinition.propertyGroup (propertyGroup)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ChargeItemDefinition.propertyGroup</td><td>Element `ChargeItemDefinition.propertyGroup` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup` as `Equivalent`.</td></tr><tr><td>ChargeItemDefinition.propertyGroup.applicability (applicability)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.propertyGroup.applicability</td><td>Element `ChargeItemDefinition.propertyGroup.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup.applicability` as `Equivalent`.
+The applicability conditions can be used to ascertain whether a billing item is allowed in a specific context. E.g. some billing codes may only be applicable in out-patient settings, only to male/female patients or only to children.</td></tr><tr><td>ChargeItemDefinition.propertyGroup.priceComponent (priceComponent)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ChargeItemDefinition.propertyGroup.priceComponent</td><td>Element `ChargeItemDefinition.propertyGroup.priceComponent` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup.priceComponent` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ChargeItemDefinition.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.versionAlgorithm</td><td>Element `ChargeItemDefinition.versionAlgorithm[x]` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>ChargeItemDefinition.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.name</td><td>Element `ChargeItemDefinition.name` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>ChargeItemDefinition.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.purpose</td><td>Element `ChargeItemDefinition.purpose` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element does not describe the usage of the charge item definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this charge item definition.</td></tr><tr><td>ChargeItemDefinition.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.copyrightLabel</td><td>Element `ChargeItemDefinition.copyrightLabel` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>ChargeItemDefinition.applicability.condition (condition)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.condition</td><td>Element `ChargeItemDefinition.applicability.condition` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.applicability.condition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Please note that FHIRPath Expressions can only be evaluated in the scope of the current ChargeItem resource to which this definition is being applied.
+FHIRPath expressions can traverse into other resources linked from the ChargeItem resource, however, testing rules such as that a billing code may be billed only once per encounter need a wider scope. In such scenarios, CQL may be the appropriate choice.</td></tr><tr><td>ChargeItemDefinition.applicability.effectivePeriod (effectivePeriod)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.effectivePeriod</td><td>Element `ChargeItemDefinition.applicability.effectivePeriod` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.applicability.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The effective period for a charge item definition  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.</td></tr><tr><td>ChargeItemDefinition.applicability.relatedArtifact (relatedArtifact)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.relatedArtifact</td><td>Element `ChargeItemDefinition.applicability.relatedArtifact` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.
+Element `ChargeItemDefinition.applicability.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ChargeItemDefinition.instance (instance)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ChargeItemDefinition-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ChargeItemDefinitionElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 ChargeItemDefinition to FHIR R4 ChargeItemDefinition"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:46.7700949-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 ChargeItemDefinition to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="ChargeItemDefinition.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="ChargeItemDefinition.meta"/>
+        <display value="ChargeItemDefinition.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.meta` is mapped to FHIR R4 element `ChargeItemDefinition.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="ChargeItemDefinition.implicitRules"/>
+        <display value="ChargeItemDefinition.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.implicitRules` is mapped to FHIR R4 element `ChargeItemDefinition.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ChargeItemDefinition.language"/>
+        <display value="ChargeItemDefinition.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.language` is mapped to FHIR R4 element `ChargeItemDefinition.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.text"/>
+      <display value="text"/>
+      <target>
+        <code value="ChargeItemDefinition.text"/>
+        <display value="ChargeItemDefinition.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.text` is mapped to FHIR R4 element `ChargeItemDefinition.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="ChargeItemDefinition.contained"/>
+        <display value="ChargeItemDefinition.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.contained` is mapped to FHIR R4 element `ChargeItemDefinition.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.url"/>
+      <display value="url"/>
+      <target>
+        <code value="ChargeItemDefinition.url"/>
+        <display value="ChargeItemDefinition.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.url` is mapped to FHIR R4 element `ChargeItemDefinition.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="ChargeItemDefinition.identifier"/>
+        <display value="ChargeItemDefinition.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.identifier` is mapped to FHIR R4 element `ChargeItemDefinition.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this charge item definition outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ChargeItemDefinition.version"/>
+        <display value="ChargeItemDefinition.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.version` is mapped to FHIR R4 element `ChargeItemDefinition.version` as `Equivalent`.&#xA;There may be different charge item definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the charge item definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ChargeItemDefinition.title"/>
+        <display value="ChargeItemDefinition.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.title` is mapped to FHIR R4 element `ChargeItemDefinition.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.derivedFromUri"/>
+      <display value="derivedFromUri"/>
+      <target>
+        <code value="ChargeItemDefinition.derivedFromUri"/>
+        <display value="ChargeItemDefinition.derivedFromUri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.derivedFromUri` is mapped to FHIR R4 element `ChargeItemDefinition.derivedFromUri` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="ChargeItemDefinition.partOf"/>
+        <display value="ChargeItemDefinition.partOf"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.partOf` is mapped to FHIR R4 element `ChargeItemDefinition.partOf` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.replaces"/>
+      <display value="replaces"/>
+      <target>
+        <code value="ChargeItemDefinition.replaces"/>
+        <display value="ChargeItemDefinition.replaces"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.replaces` is mapped to FHIR R4 element `ChargeItemDefinition.replaces` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.status"/>
+      <display value="status"/>
+      <target>
+        <code value="ChargeItemDefinition.status"/>
+        <display value="ChargeItemDefinition.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.status` is mapped to FHIR R4 element `ChargeItemDefinition.status` as `Equivalent`.&#xA;Allows filtering of charge item definitions that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="ChargeItemDefinition.experimental"/>
+        <display value="ChargeItemDefinition.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.experimental` is mapped to FHIR R4 element `ChargeItemDefinition.experimental` as `Equivalent`.&#xA;Allows filtering of charge item definitions that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.date"/>
+      <display value="date"/>
+      <target>
+        <code value="ChargeItemDefinition.date"/>
+        <display value="ChargeItemDefinition.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.date` is mapped to FHIR R4 element `ChargeItemDefinition.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the charge item definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="ChargeItemDefinition.publisher"/>
+        <display value="ChargeItemDefinition.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.publisher` is mapped to FHIR R4 element `ChargeItemDefinition.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the charge item definition is the organization or individual primarily responsible for the maintenance and upkeep of the charge item definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the charge item definition. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="ChargeItemDefinition.contact"/>
+        <display value="ChargeItemDefinition.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.contact` is mapped to FHIR R4 element `ChargeItemDefinition.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ChargeItemDefinition.description"/>
+        <display value="ChargeItemDefinition.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.description` is mapped to FHIR R4 element `ChargeItemDefinition.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the charge item definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the charge item definition is presumed to be the predominant language in the place the charge item definition was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="ChargeItemDefinition.useContext"/>
+        <display value="ChargeItemDefinition.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.useContext` is mapped to FHIR R4 element `ChargeItemDefinition.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="ChargeItemDefinition.jurisdiction"/>
+        <display value="ChargeItemDefinition.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.jurisdiction` is mapped to FHIR R4 element `ChargeItemDefinition.jurisdiction` as `Equivalent`.&#xA;Element `ChargeItemDefinition.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the charge item definition to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="ChargeItemDefinition.copyright"/>
+        <display value="ChargeItemDefinition.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.copyright` is mapped to FHIR R4 element `ChargeItemDefinition.copyright` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.approvalDate"/>
+      <display value="approvalDate"/>
+      <target>
+        <code value="ChargeItemDefinition.approvalDate"/>
+        <display value="ChargeItemDefinition.approvalDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.approvalDate` is mapped to FHIR R4 element `ChargeItemDefinition.approvalDate` as `Equivalent`.&#xA;The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.lastReviewDate"/>
+      <display value="lastReviewDate"/>
+      <target>
+        <code value="ChargeItemDefinition.lastReviewDate"/>
+        <display value="ChargeItemDefinition.lastReviewDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.lastReviewDate` is mapped to FHIR R4 element `ChargeItemDefinition.lastReviewDate` as `Equivalent`.&#xA;If specified, this date follows the original approval date.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.code"/>
+      <display value="code"/>
+      <target>
+        <code value="ChargeItemDefinition.code"/>
+        <display value="ChargeItemDefinition.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.code` is mapped to FHIR R4 element `ChargeItemDefinition.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.instance"/>
+      <display value="instance"/>
+      <target>
+        <code value="ChargeItemDefinition.instance"/>
+        <display value="ChargeItemDefinition.instance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.instance` is mapped to FHIR R4 element `ChargeItemDefinition.instance` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `ChargeItemDefinition.instance` with unmapped reference targets: ActivityDefinition, DeviceDefinition, HealthcareService, PlanDefinition.&#xA;In case of highly customized, individually produced or fitted devices/substances, the pricing information may be different for each instance of the product. This reference links pricing details to specific product instances."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.applicability"/>
+      <display value="applicability"/>
+      <target>
+        <code value="ChargeItemDefinition.applicability"/>
+        <display value="ChargeItemDefinition.applicability"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.applicability` as `Equivalent`.&#xA;The applicability conditions can be used to ascertain whether a billing item is allowed in a specific context. E.g. some billing codes may only be applicable in out-patient settings, only to male/female patients or only to children."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.propertyGroup"/>
+      <display value="propertyGroup"/>
+      <target>
+        <code value="ChargeItemDefinition.propertyGroup"/>
+        <display value="ChargeItemDefinition.propertyGroup"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.propertyGroup` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.propertyGroup.applicability"/>
+      <display value="applicability"/>
+      <target>
+        <code value="ChargeItemDefinition.propertyGroup.applicability"/>
+        <display value="ChargeItemDefinition.propertyGroup.applicability"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.propertyGroup.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup.applicability` as `Equivalent`.&#xA;The applicability conditions can be used to ascertain whether a billing item is allowed in a specific context. E.g. some billing codes may only be applicable in out-patient settings, only to male/female patients or only to children."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.propertyGroup.priceComponent"/>
+      <display value="priceComponent"/>
+      <target>
+        <code value="ChargeItemDefinition.propertyGroup.priceComponent"/>
+        <display value="ChargeItemDefinition.propertyGroup.priceComponent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ChargeItemDefinition.propertyGroup.priceComponent` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup.priceComponent` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="ChargeItemDefinition.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.versionAlgorithm[x]` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.name"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.name` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.purpose"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.purpose` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element does not describe the usage of the charge item definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this charge item definition."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.copyrightLabel` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.applicability.condition"/>
+      <display value="condition"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.condition"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.applicability.condition` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.applicability.condition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Please note that FHIRPath Expressions can only be evaluated in the scope of the current ChargeItem resource to which this definition is being applied.&#xA;FHIRPath expressions can traverse into other resources linked from the ChargeItem resource, however, testing rules such as that a billing code may be billed only once per encounter need a wider scope. In such scenarios, CQL may be the appropriate choice."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.applicability.effectivePeriod"/>
+      <display value="effectivePeriod"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.effectivePeriod"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.applicability.effectivePeriod` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.applicability.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The effective period for a charge item definition  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015."/>
+      </target>
+    </element>
+    <element>
+      <code value="ChargeItemDefinition.applicability.relatedArtifact"/>
+      <display value="relatedArtifact"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.relatedArtifact"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ChargeItemDefinition.applicability.relatedArtifact` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.&#xA;Element `ChargeItemDefinition.applicability.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ChargeItemDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="ChargeItemDefinition.instance"/>
+      <display value="instance"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

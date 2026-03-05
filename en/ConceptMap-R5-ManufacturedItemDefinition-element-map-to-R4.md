@@ -1,0 +1,331 @@
+# R5ManufacturedItemDefinitionElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5ManufacturedItemDefinitionElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 ManufacturedItemDefinition to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-ManufacturedItemDefinition-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ManufacturedItemDefinition-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5ManufacturedItemDefinitionElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 ManufacturedItemDefinition to FHIR R4 Basic",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:49.8917921-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ManufacturedItemDefinition to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Basic",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "ManufacturedItemDefinition.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "Basic.meta",
+        "display" : "Basic.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.\nElement `ManufacturedItemDefinition.meta` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "Basic.implicitRules",
+        "display" : "Basic.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.\nElement `ManufacturedItemDefinition.implicitRules` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "Basic.language",
+        "display" : "Basic.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.\nElement `ManufacturedItemDefinition.language` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "Basic.text",
+        "display" : "Basic.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.\nElement `ManufacturedItemDefinition.text` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "Basic.contained",
+        "display" : "Basic.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.\nElement `ManufacturedItemDefinition.contained` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "Basic.identifier",
+        "display" : "Basic.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.\nElement `ManufacturedItemDefinition.identifier` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "ManufacturedItemDefinition.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.status",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.status` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows filtering of manufactured items that are appropriate for use versus not."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.name",
+      "display" : "name",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.name",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.name` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.manufacturedDoseForm",
+      "display" : "manufacturedDoseForm",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.manufacturedDoseForm",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.manufacturedDoseForm` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.manufacturedDoseForm` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.unitOfPresentation",
+      "display" : "unitOfPresentation",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.unitOfPresentation",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.unitOfPresentation` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.unitOfPresentation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.manufacturer",
+      "display" : "manufacturer",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.manufacturer",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.manufacturer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.marketingStatus",
+      "display" : "marketingStatus",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.marketingStatus",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.marketingStatus` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.marketingStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.ingredient",
+      "display" : "ingredient",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.ingredient",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.ingredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.ingredient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.property",
+      "display" : "property",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.property.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property:type",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.property.type` is part of an existing definition because parent element `ManufacturedItemDefinition.property` requires a cross-version extension.\nElement `ManufacturedItemDefinition.property.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.property.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.property.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property:value",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.property.value[x]` is part of an existing definition because parent element `ManufacturedItemDefinition.property` requires a cross-version extension.\nElement `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component",
+      "display" : "component",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component:type",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.type` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.function",
+      "display" : "function",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component:function",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.function` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.amount",
+      "display" : "amount",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component:amount",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.amount` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.amount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.constituent",
+      "display" : "constituent",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component:constituent",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.constituent` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.constituent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.constituent.amount",
+      "display" : "amount",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component.constituent:amount",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.constituent.amount` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.constituent.amount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.constituent.location",
+      "display" : "location",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component.constituent:location",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.constituent.location` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.location` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.constituent.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.constituent.function",
+      "display" : "function",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component.constituent:function",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.constituent.function` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.constituent.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.constituent.hasIngredient",
+      "display" : "hasIngredient",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component.constituent:hasIngredient",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.constituent.hasIngredient` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.hasIngredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.constituent.hasIngredient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.property",
+      "display" : "property",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component:property",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.property` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      },
+      {
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.property` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ManufacturedItemDefinition.component.component",
+      "display" : "component",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component:component",
+        "equivalence" : "wider",
+        "comment" : "Element `ManufacturedItemDefinition.component.component` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.\nElement `ManufacturedItemDefinition.component.component` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    }]
+  }]
+}
+
+```

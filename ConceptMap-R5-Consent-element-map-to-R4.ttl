@@ -1,0 +1,579 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Consent-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Consent-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Consent-element-map-to-R4</b></p><a name=\"R5-Consent-element-map-to-R4\"> </a><a name=\"hcR5-Consent-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/consent.html\">Consentversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Consent.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.meta</td><td>Element `Consent.meta` is mapped to FHIR R4 element `Consent.meta` as `Equivalent`.</td></tr><tr><td>Consent.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.implicitRules</td><td>Element `Consent.implicitRules` is mapped to FHIR R4 element `Consent.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Consent.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.language</td><td>Element `Consent.language` is mapped to FHIR R4 element `Consent.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Consent.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.text</td><td>Element `Consent.text` is mapped to FHIR R4 element `Consent.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Consent.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.contained</td><td>Element `Consent.contained` is mapped to FHIR R4 element `Consent.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Consent.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.identifier</td><td>Element `Consent.identifier` is mapped to FHIR R4 element `Consent.identifier` as `Equivalent`.\nThis identifier identifies this copy of the consent. Where this identifier is also used elsewhere as the identifier for a consent record (e.g. a CDA consent document) then the consent details are expected to be the same.</td></tr><tr><td>Consent.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.status</td><td>Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`.\nThe target context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the Consent as not currently valid.</td></tr><tr><td>Consent.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.category</td><td>Element `Consent.category` is mapped to FHIR R4 element `Consent.category` as `Equivalent`.</td></tr><tr><td>Consent.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.patient</td><td>Element `Consent.subject` is mapped to FHIR R4 element `Consent.patient` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Consent.subject` with unmapped reference targets: Group, Practitioner.</td></tr><tr><td>Consent.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td>Consent.dateTime</td><td>Element `Consent.date` is mapped to FHIR R4 element `Consent.dateTime` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>Consent.grantee (grantee)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.performer</td><td>Element `Consent.grantee` is mapped to FHIR R4 element `Consent.performer` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Consent.grantee` with unmapped reference targets: CareTeam, HealthcareService.\nIn a fully computable consent, both grantee and grantor  will be listed as actors within the consent. The Grantee and Grantor elements are for ease of search only.</td></tr><tr><td>Consent.sourceAttachment (sourceAttachment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.source[x]</td><td>Element `Consent.sourceAttachment` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`.\nThe target context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nThe source can be contained inline (Attachment), referenced directly (Consent), referenced in a consent repository (DocumentReference), or simply by an identifier (Identifier), e.g. a CDA document id.</td></tr><tr><td>Consent.sourceReference (sourceReference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.source[x]</td><td>Element `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Consent.sourceReference` with unmapped reference targets: DocumentReference.\nSource element `Consent.sourceReference` has unmapped reference types. While the target element `Consent.source[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it.\nThe source can be contained inline (Attachment), referenced directly (Consent), referenced in a consent repository (DocumentReference), or simply by an identifier (Identifier), e.g. a CDA document id.</td></tr><tr><td>Consent.regulatoryBasis (regulatoryBasis)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.policyRule</td><td>Element `Consent.regulatoryBasis` is mapped to FHIR R4 element `Consent.policyRule` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>Consent.policyBasis (policyBasis)</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td>Consent.policy</td><td>Element `Consent.policyBasis` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>Consent.policyBasis.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td>Consent.policy</td><td>Element `Consent.policyBasis.reference` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`.\nWhile any resource may be used, Consent, PlanDefinition and Contract would be most frequent</td></tr><tr><td>Consent.policyBasis.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td>Consent.policy</td><td>Element `Consent.policyBasis.url` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>Consent.verification (verification)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.verification</td><td>Element `Consent.verification` is mapped to FHIR R4 element `Consent.verification` as `Equivalent`.</td></tr><tr><td>Consent.verification.verified (verified)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.verification.verified</td><td>Element `Consent.verification.verified` is mapped to FHIR R4 element `Consent.verification.verified` as `Equivalent`.</td></tr><tr><td>Consent.verification.verifiedWith (verifiedWith)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.verification.verifiedWith</td><td>Element `Consent.verification.verifiedWith` is mapped to FHIR R4 element `Consent.verification.verifiedWith` as `Equivalent`.</td></tr><tr><td>Consent.verification.verificationDate (verificationDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.verification.verificationDate</td><td>Element `Consent.verification.verificationDate` is mapped to FHIR R4 element `Consent.verification.verificationDate` as `SourceIsBroaderThanTarget`.\nAllows for history of verification/validation.</td></tr><tr><td>Consent.provision (provision)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.provision</td><td>Element `Consent.provision` is mapped to FHIR R4 element `Consent.provision` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>Consent.provision.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.period</td><td>Element `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period` as `Equivalent`.\nThis is the bound effective time of the consent and should be in the base provision in the Consent resource.</td></tr><tr><td>Consent.provision.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.provision.actor</td><td>Element `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor` as `Equivalent`.</td></tr><tr><td>Consent.provision.actor.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.actor.role</td><td>Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role` as `Equivalent`.</td></tr><tr><td>Consent.provision.actor.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.actor.reference</td><td>Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference` as `Equivalent`.</td></tr><tr><td>Consent.provision.action (action)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.action</td><td>Element `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action` as `Equivalent`.\nNote that this is the direct action (not the grounds for the action covered in the purpose element). At present, the only action in the understood and tested scope of this resource is 'read'.</td></tr><tr><td>Consent.provision.securityLabel (securityLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.securityLabel</td><td>Element `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel` as `Equivalent`.\nIf the consent specifies a security label of \"R\" then it applies to all resources that are labeled \"R\" or lower. E.g. for Confidentiality, it's a high water mark. For other kinds of security labels, subsumption logic applies. When the purpose of use tag is on the data, access request purpose of use shall not conflict.</td></tr><tr><td>Consent.provision.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.purpose</td><td>Element `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose` as `Equivalent`.\nWhen the purpose of use tag is on the data, access request purpose of use shall not conflict.</td></tr><tr><td>Consent.provision.documentType (documentType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.class</td><td>Element `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`.\nMultiple types are or'ed together. The intention of the documentType element is that the codes refer to document types defined in a standard somewhere.</td></tr><tr><td>Consent.provision.resourceType (resourceType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.class</td><td>Element `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`.\nMultiple types are or'ed together. The intention of the resourceType element is that the codes refer to profiles or document types defined in a standard or an implementation guide somewhere.</td></tr><tr><td>Consent.provision.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.code</td><td>Element `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code` as `Equivalent`.</td></tr><tr><td>Consent.provision.dataPeriod (dataPeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.dataPeriod</td><td>Element `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod` as `Equivalent`.\nThis has a different sense to the Consent.period - that is when the consent agreement holds. This is the time period of the data that is controlled by the agreement.</td></tr><tr><td>Consent.provision.data (data)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Consent.provision.data</td><td>Element `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data` as `Equivalent`.</td></tr><tr><td>Consent.provision.data.meaning (meaning)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.data.meaning</td><td>Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning` as `Equivalent`.</td></tr><tr><td>Consent.provision.data.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.data.reference</td><td>Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference` as `Equivalent`.</td></tr><tr><td>Consent.provision.provision (provision)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Consent.provision.provision</td><td>Element `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Consent.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.status</td><td>Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`.\nThe target context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the Consent as not currently valid.</td></tr><tr><td>Consent.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.period</td><td>Element `Consent.period` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.grantor (grantor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.grantor</td><td>Element `Consent.grantor` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.grantor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.manager (manager)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.manager</td><td>Element `Consent.manager` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.manager` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.controller (controller)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.controller</td><td>Element `Consent.controller` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.controller` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.policyText (policyText)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.policyText</td><td>Element `Consent.policyText` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.policyText` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.verification.verificationType (verificationType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType</td><td>Element `Consent.verification.verificationType` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.verification.verificationType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis allows the verification element to hold multiple use cases including RelatedPerson verification of the Grantee decision and periodic re-validation of the consent.</td></tr><tr><td>Consent.verification.verifiedBy (verifiedBy)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verifiedBy</td><td>Element `Consent.verification.verifiedBy` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.verification.verifiedBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.decision (decision)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.decision</td><td>Element `Consent.decision` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.decision` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Consent.provision.expression (expression)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression</td><td>Element `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.provision.expression` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nConstraining the expression type for a specific implementation via profile is recommended</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Consent|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Consent.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Consent.grantee (grantee)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Consent.sourceReference (sourceReference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Consent-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Consent-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ConsentElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Consent to FHIR R4 Consent"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.6681246-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Consent to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Consent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Consent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Consent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Consent>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Consent.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.meta" ] ;
+         fhir:display [ fhir:v "Consent.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.meta` is mapped to FHIR R4 element `Consent.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.implicitRules" ] ;
+         fhir:display [ fhir:v "Consent.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.implicitRules` is mapped to FHIR R4 element `Consent.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.language" ] ;
+         fhir:display [ fhir:v "Consent.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.language` is mapped to FHIR R4 element `Consent.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.text" ] ;
+         fhir:display [ fhir:v "Consent.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.text` is mapped to FHIR R4 element `Consent.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.contained" ] ;
+         fhir:display [ fhir:v "Consent.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.contained` is mapped to FHIR R4 element `Consent.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.identifier" ] ;
+         fhir:display [ fhir:v "Consent.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.identifier` is mapped to FHIR R4 element `Consent.identifier` as `Equivalent`.\nThis identifier identifies this copy of the consent. Where this identifier is also used elsewhere as the identifier for a consent record (e.g. a CDA consent document) then the consent details are expected to be the same." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.status" ] ;
+         fhir:display [ fhir:v "Consent.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`.\nThe target context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the Consent as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.category" ] ;
+         fhir:display [ fhir:v "Consent.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.category` is mapped to FHIR R4 element `Consent.category` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.patient" ] ;
+         fhir:display [ fhir:v "Consent.patient" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.subject` is mapped to FHIR R4 element `Consent.patient` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Consent.subject` with unmapped reference targets: Group, Practitioner." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.dateTime" ] ;
+         fhir:display [ fhir:v "Consent.dateTime" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Consent.date` is mapped to FHIR R4 element `Consent.dateTime` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.grantee" ] ;
+       fhir:display [ fhir:v "grantee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.performer" ] ;
+         fhir:display [ fhir:v "Consent.performer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantee` is mapped to FHIR R4 element `Consent.performer` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Consent.grantee` with unmapped reference targets: CareTeam, HealthcareService.\nIn a fully computable consent, both grantee and grantor  will be listed as actors within the consent. The Grantee and Grantor elements are for ease of search only." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.sourceAttachment" ] ;
+       fhir:display [ fhir:v "sourceAttachment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.source[x]" ] ;
+         fhir:display [ fhir:v "Consent.source[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.sourceAttachment` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`.\nThe target context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nThe source can be contained inline (Attachment), referenced directly (Consent), referenced in a consent repository (DocumentReference), or simply by an identifier (Identifier), e.g. a CDA document id." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.sourceReference" ] ;
+       fhir:display [ fhir:v "sourceReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.source[x]" ] ;
+         fhir:display [ fhir:v "Consent.source[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Consent.sourceReference` with unmapped reference targets: DocumentReference.\nSource element `Consent.sourceReference` has unmapped reference types. While the target element `Consent.source[x]` is a choice type and does not allow extensions, the `alternate-reference` extension can be applied to Reference values within it.\nThe source can be contained inline (Attachment), referenced directly (Consent), referenced in a consent repository (DocumentReference), or simply by an identifier (Identifier), e.g. a CDA document id." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.regulatoryBasis" ] ;
+       fhir:display [ fhir:v "regulatoryBasis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.policyRule" ] ;
+         fhir:display [ fhir:v "Consent.policyRule" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.regulatoryBasis` is mapped to FHIR R4 element `Consent.policyRule` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyBasis" ] ;
+       fhir:display [ fhir:v "policyBasis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.policy" ] ;
+         fhir:display [ fhir:v "Consent.policy" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyBasis.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.policy" ] ;
+         fhir:display [ fhir:v "Consent.policy" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis.reference` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`.\nWhile any resource may be used, Consent, PlanDefinition and Contract would be most frequent" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyBasis.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.policy" ] ;
+         fhir:display [ fhir:v "Consent.policy" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyBasis.url` is mapped to FHIR R4 element `Consent.policy` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification" ] ;
+       fhir:display [ fhir:v "verification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.verification" ] ;
+         fhir:display [ fhir:v "Consent.verification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification` is mapped to FHIR R4 element `Consent.verification` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verified" ] ;
+       fhir:display [ fhir:v "verified" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.verification.verified" ] ;
+         fhir:display [ fhir:v "Consent.verification.verified" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verified` is mapped to FHIR R4 element `Consent.verification.verified` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verifiedWith" ] ;
+       fhir:display [ fhir:v "verifiedWith" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.verification.verifiedWith" ] ;
+         fhir:display [ fhir:v "Consent.verification.verifiedWith" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedWith` is mapped to FHIR R4 element `Consent.verification.verifiedWith` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verificationDate" ] ;
+       fhir:display [ fhir:v "verificationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.verification.verificationDate" ] ;
+         fhir:display [ fhir:v "Consent.verification.verificationDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationDate` is mapped to FHIR R4 element `Consent.verification.verificationDate` as `SourceIsBroaderThanTarget`.\nAllows for history of verification/validation." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision" ] ;
+       fhir:display [ fhir:v "provision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision" ] ;
+         fhir:display [ fhir:v "Consent.provision" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision` is mapped to FHIR R4 element `Consent.provision` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.period" ] ;
+         fhir:display [ fhir:v "Consent.provision.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period` as `Equivalent`.\nThis is the bound effective time of the consent and should be in the base provision in the Consent resource." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.actor" ] ;
+         fhir:display [ fhir:v "Consent.provision.actor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.actor.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.actor.role" ] ;
+         fhir:display [ fhir:v "Consent.provision.actor.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.actor.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.actor.reference" ] ;
+         fhir:display [ fhir:v "Consent.provision.actor.reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.action" ] ;
+       fhir:display [ fhir:v "action" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.action" ] ;
+         fhir:display [ fhir:v "Consent.provision.action" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action` as `Equivalent`.\nNote that this is the direct action (not the grounds for the action covered in the purpose element). At present, the only action in the understood and tested scope of this resource is 'read'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.securityLabel" ] ;
+       fhir:display [ fhir:v "securityLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.securityLabel" ] ;
+         fhir:display [ fhir:v "Consent.provision.securityLabel" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel` as `Equivalent`.\nIf the consent specifies a security label of \"R\" then it applies to all resources that are labeled \"R\" or lower. E.g. for Confidentiality, it's a high water mark. For other kinds of security labels, subsumption logic applies. When the purpose of use tag is on the data, access request purpose of use shall not conflict." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.purpose" ] ;
+         fhir:display [ fhir:v "Consent.provision.purpose" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose` as `Equivalent`.\nWhen the purpose of use tag is on the data, access request purpose of use shall not conflict." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.documentType" ] ;
+       fhir:display [ fhir:v "documentType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.class" ] ;
+         fhir:display [ fhir:v "Consent.provision.class" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`.\nMultiple types are or'ed together. The intention of the documentType element is that the codes refer to document types defined in a standard somewhere." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.resourceType" ] ;
+       fhir:display [ fhir:v "resourceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.class" ] ;
+         fhir:display [ fhir:v "Consent.provision.class" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class` as `Equivalent`.\nMultiple types are or'ed together. The intention of the resourceType element is that the codes refer to profiles or document types defined in a standard or an implementation guide somewhere." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.code" ] ;
+         fhir:display [ fhir:v "Consent.provision.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.dataPeriod" ] ;
+       fhir:display [ fhir:v "dataPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.dataPeriod" ] ;
+         fhir:display [ fhir:v "Consent.provision.dataPeriod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod` as `Equivalent`.\nThis has a different sense to the Consent.period - that is when the consent agreement holds. This is the time period of the data that is controlled by the agreement." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.data" ] ;
+       fhir:display [ fhir:v "data" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.data" ] ;
+         fhir:display [ fhir:v "Consent.provision.data" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.data.meaning" ] ;
+       fhir:display [ fhir:v "meaning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.data.meaning" ] ;
+         fhir:display [ fhir:v "Consent.provision.data.meaning" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.data.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.data.reference" ] ;
+         fhir:display [ fhir:v "Consent.provision.data.reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.provision" ] ;
+       fhir:display [ fhir:v "provision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Consent.provision.provision" ] ;
+         fhir:display [ fhir:v "Consent.provision.provision" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Consent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Consent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Consent.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.status` is mapped to FHIR R4 element `Consent.status` as `SourceIsBroaderThanTarget`.\nThe target context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the codes rejected and entered-in-error that mark the Consent as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.period" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.period` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.grantor" ] ;
+       fhir:display [ fhir:v "grantor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.grantor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.grantor` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.grantor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.manager" ] ;
+       fhir:display [ fhir:v "manager" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.manager" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.manager` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.manager` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.controller" ] ;
+       fhir:display [ fhir:v "controller" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.controller" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.controller` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.controller` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.policyText" ] ;
+       fhir:display [ fhir:v "policyText" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.policyText" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.policyText` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.policyText` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verificationType" ] ;
+       fhir:display [ fhir:v "verificationType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verificationType` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.verification.verificationType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis allows the verification element to hold multiple use cases including RelatedPerson verification of the Grantee decision and periodic re-validation of the consent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.verification.verifiedBy" ] ;
+       fhir:display [ fhir:v "verifiedBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verifiedBy" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.verification.verifiedBy` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.verification.verifiedBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.decision" ] ;
+       fhir:display [ fhir:v "decision" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.decision" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Consent.decision` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.decision` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.provision.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.\nElement `Consent.provision.expression` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nConstraining the expression type for a specific implementation via profile is recommended" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Consent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Consent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Consent.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.grantee" ] ;
+       fhir:display [ fhir:v "grantee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Consent.sourceReference" ] ;
+       fhir:display [ fhir:v "sourceReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

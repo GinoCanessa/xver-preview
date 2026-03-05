@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-ExampleScenario-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-ExampleScenario-element-map-to-R4</b></p><a name="R5-ExampleScenario-element-map-to-R4"> </a><a name="hcR5-ExampleScenario-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ExampleScenario|5.0.0</code> to <a href="http://hl7.org/fhir/R4/examplescenario.html">ExampleScenarioversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ExampleScenario.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.meta</td><td>Element `ExampleScenario.meta` is mapped to FHIR R4 element `ExampleScenario.meta` as `Equivalent`.</td></tr><tr><td>ExampleScenario.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.implicitRules</td><td>Element `ExampleScenario.implicitRules` is mapped to FHIR R4 element `ExampleScenario.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>ExampleScenario.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.language</td><td>Element `ExampleScenario.language` is mapped to FHIR R4 element `ExampleScenario.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>ExampleScenario.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.text</td><td>Element `ExampleScenario.text` is mapped to FHIR R4 element `ExampleScenario.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>ExampleScenario.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.contained</td><td>Element `ExampleScenario.contained` is mapped to FHIR R4 element `ExampleScenario.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>ExampleScenario.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.url</td><td>Element `ExampleScenario.url` is mapped to FHIR R4 element `ExampleScenario.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>ExampleScenario.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.identifier</td><td>Element `ExampleScenario.identifier` is mapped to FHIR R4 element `ExampleScenario.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this example scenario outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>ExampleScenario.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.version</td><td>Element `ExampleScenario.version` is mapped to FHIR R4 element `ExampleScenario.version` as `Equivalent`.
+There may be different example scenario instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the example scenario with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>ExampleScenario.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.name</td><td>Element `ExampleScenario.name` is mapped to FHIR R4 element `ExampleScenario.name` as `Equivalent`.
+Not needed as code will never be generated from one of these</td></tr><tr><td>ExampleScenario.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.status</td><td>Element `ExampleScenario.status` is mapped to FHIR R4 element `ExampleScenario.status` as `Equivalent`.
+Allows filtering of example scenarios that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ExampleScenario.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.experimental</td><td>Element `ExampleScenario.experimental` is mapped to FHIR R4 element `ExampleScenario.experimental` as `Equivalent`.
+Allows filtering of example scenarios that are appropriate for use versus not.</td></tr><tr><td>ExampleScenario.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.date</td><td>Element `ExampleScenario.date` is mapped to FHIR R4 element `ExampleScenario.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the example scenario. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ExampleScenario.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.publisher</td><td>Element `ExampleScenario.publisher` is mapped to FHIR R4 element `ExampleScenario.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the example scenario is the organization or individual primarily responsible for the maintenance and upkeep of the example scenario. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the example scenario. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>ExampleScenario.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.contact</td><td>Element `ExampleScenario.contact` is mapped to FHIR R4 element `ExampleScenario.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ExampleScenario.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.useContext</td><td>Element `ExampleScenario.useContext` is mapped to FHIR R4 element `ExampleScenario.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>ExampleScenario.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.jurisdiction</td><td>Element `ExampleScenario.jurisdiction` is mapped to FHIR R4 element `ExampleScenario.jurisdiction` as `Equivalent`.
+Element `ExampleScenario.jurisdiction` has been flagged as deprecated.
+It may be possible for the example scenario to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>ExampleScenario.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.purpose</td><td>Element `ExampleScenario.purpose` is mapped to FHIR R4 element `ExampleScenario.purpose` as `Equivalent`.
+This element does not describe the usage of the example scenario. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this example scenario.</td></tr><tr><td>ExampleScenario.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.copyright</td><td>Element `ExampleScenario.copyright` is mapped to FHIR R4 element `ExampleScenario.copyright` as `Equivalent`.
+...</td></tr><tr><td>ExampleScenario.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.actor</td><td>Element `ExampleScenario.actor` is mapped to FHIR R4 element `ExampleScenario.actor` as `Equivalent`.</td></tr><tr><td>ExampleScenario.actor.key (key)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.actor.actorId</td><td>Element `ExampleScenario.actor.key` is mapped to FHIR R4 element `ExampleScenario.actor.actorId` as `Equivalent`.</td></tr><tr><td>ExampleScenario.actor.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.actor.type</td><td>Element `ExampleScenario.actor.type` is mapped to FHIR R4 element `ExampleScenario.actor.type` as `Equivalent`.</td></tr><tr><td>ExampleScenario.actor.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.actor.name</td><td>Element `ExampleScenario.actor.title` is mapped to FHIR R4 element `ExampleScenario.actor.name` as `Equivalent`.</td></tr><tr><td>ExampleScenario.actor.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.actor.description</td><td>Element `ExampleScenario.actor.description` is mapped to FHIR R4 element `ExampleScenario.actor.description` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance (instance)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.instance</td><td>Element `ExampleScenario.instance` is mapped to FHIR R4 element `ExampleScenario.instance` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.key (key)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.resourceId</td><td>Element `ExampleScenario.instance.key` is mapped to FHIR R4 element `ExampleScenario.instance.resourceId` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.structureType (structureType)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>ExampleScenario.instance.resourceType</td><td>Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType` as `RelatedTo`.
+The mappings for `ExampleScenario.instance.structureType` do not cover the following types: Coding.
+The mappings for `ExampleScenario.instance.structureType` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>ExampleScenario.instance.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.name</td><td>Element `ExampleScenario.instance.title` is mapped to FHIR R4 element `ExampleScenario.instance.name` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.description</td><td>Element `ExampleScenario.instance.description` is mapped to FHIR R4 element `ExampleScenario.instance.description` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.instance.version</td><td>Element `ExampleScenario.instance.version` is mapped to FHIR R4 element `ExampleScenario.instance.version` as `Equivalent`.
+Not used if an instance doesn't change</td></tr><tr><td>ExampleScenario.instance.version.key (key)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.version.versionId</td><td>Element `ExampleScenario.instance.version.key` is mapped to FHIR R4 element `ExampleScenario.instance.version.versionId` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.version.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.version.description</td><td>Element `ExampleScenario.instance.version.description` is mapped to FHIR R4 element `ExampleScenario.instance.version.description` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.containedInstance (containedInstance)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.instance.containedInstance</td><td>Element `ExampleScenario.instance.containedInstance` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.containedInstance.instanceReference (instanceReference)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.containedInstance.resourceId</td><td>Element `ExampleScenario.instance.containedInstance.instanceReference` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.resourceId` as `Equivalent`.</td></tr><tr><td>ExampleScenario.instance.containedInstance.versionReference (versionReference)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.instance.containedInstance.versionId</td><td>Element `ExampleScenario.instance.containedInstance.versionReference` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.versionId` as `Equivalent`.
+Required if the referenced instance has versions</td></tr><tr><td>ExampleScenario.process (process)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.process</td><td>Element `ExampleScenario.process` is mapped to FHIR R4 element `ExampleScenario.process` as `Equivalent`.
+Some scenarios might describe only one process.</td></tr><tr><td>ExampleScenario.process.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.title</td><td>Element `ExampleScenario.process.title` is mapped to FHIR R4 element `ExampleScenario.process.title` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.description</td><td>Element `ExampleScenario.process.description` is mapped to FHIR R4 element `ExampleScenario.process.description` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.preConditions (preConditions)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.preConditions</td><td>Element `ExampleScenario.process.preConditions` is mapped to FHIR R4 element `ExampleScenario.process.preConditions` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.postConditions (postConditions)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.postConditions</td><td>Element `ExampleScenario.process.postConditions` is mapped to FHIR R4 element `ExampleScenario.process.postConditions` as `Equivalent`.
+Alternate steps might not result in all post conditions holding</td></tr><tr><td>ExampleScenario.process.step (step)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.process.step</td><td>Element `ExampleScenario.process.step` is mapped to FHIR R4 element `ExampleScenario.process.step` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.process (process)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.process</td><td>Element `ExampleScenario.process.step.process` is mapped to FHIR R4 element `ExampleScenario.process.step.process` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>ExampleScenario.process.step.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.process.step.operation</td><td>Element `ExampleScenario.process.step.operation` is mapped to FHIR R4 element `ExampleScenario.process.step.operation` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.operation.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.process.step.operation.type</td><td>Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type` as `SourceIsBroaderThanTarget`.
+The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types: Coding.
+The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>ExampleScenario.process.step.operation.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.name</td><td>Element `ExampleScenario.process.step.operation.title` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.name` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.operation.initiator (initiator)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.initiator</td><td>Element `ExampleScenario.process.step.operation.initiator` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiator` as `Equivalent`.
+This must either be the 'key' of one of the actors defined in this scenario or the special keyword 'OTHER' if the initiator is not one of the actors defined for the scenario.  (Multiple references to 'OTHER' don't necessarily indicate the same actor.)</td></tr><tr><td>ExampleScenario.process.step.operation.receiver (receiver)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.receiver</td><td>Element `ExampleScenario.process.step.operation.receiver` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiver` as `Equivalent`.
+This must either be the 'key' of one of the actors defined in this scenario or the special keyword 'OTHER' if the receiver is not one of the actors defined for the scenario.  (Multiple references to 'OTHER' don't necessarily indicate the same actor.)  In some cases, receiver could be same as sender if representing a local operation</td></tr><tr><td>ExampleScenario.process.step.operation.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.description</td><td>Element `ExampleScenario.process.step.operation.description` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.description` as `Equivalent`.
+This should contain information not already present in the process step.  It's more of a description of what the operation in general does - if not already evident from the operation.type</td></tr><tr><td>ExampleScenario.process.step.operation.initiatorActive (initiatorActive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.initiatorActive</td><td>Element `ExampleScenario.process.step.operation.initiatorActive` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiatorActive` as `Equivalent`.
+De-activation of an actor means they have no further role until such time as they are the recipient of an operation.</td></tr><tr><td>ExampleScenario.process.step.operation.receiverActive (receiverActive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.receiverActive</td><td>Element `ExampleScenario.process.step.operation.receiverActive` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiverActive` as `Equivalent`.
+De-activation of an actor means they have no further role until such time as they are the recipient of an operation.</td></tr><tr><td>ExampleScenario.process.step.operation.request (request)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.request</td><td>Element `ExampleScenario.process.step.operation.request` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.operation.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.operation.response</td><td>Element `ExampleScenario.process.step.operation.response` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.alternative (alternative)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ExampleScenario.process.step.alternative</td><td>Element `ExampleScenario.process.step.alternative` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.alternative.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.alternative.title</td><td>Element `ExampleScenario.process.step.alternative.title` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.title` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.alternative.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.alternative.description</td><td>Element `ExampleScenario.process.step.alternative.description` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.description` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.alternative.step (step)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.alternative.step</td><td>Element `ExampleScenario.process.step.alternative.step` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.step` as `Equivalent`.</td></tr><tr><td>ExampleScenario.process.step.pause (pause)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ExampleScenario.process.step.pause</td><td>Element `ExampleScenario.process.step.pause` is mapped to FHIR R4 element `ExampleScenario.process.step.pause` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ExampleScenario|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ExampleScenario.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.versionAlgorithm</td><td>Element `ExampleScenario.versionAlgorithm[x]` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>ExampleScenario.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.title</td><td>Element `ExampleScenario.title` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>ExampleScenario.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.description</td><td>Element `ExampleScenario.description` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This description can be used to capture details such as comments about misuse. It is not a rendering of the ExampleScenario as conveyed in the 'text' field of the resource itself.</td></tr><tr><td>ExampleScenario.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.copyrightLabel</td><td>Element `ExampleScenario.copyrightLabel` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>ExampleScenario.instance.structureType (structureType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureType</td><td>Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType` as `RelatedTo`.
+The mappings for `ExampleScenario.instance.structureType` do not cover the following types: Coding.
+The mappings for `ExampleScenario.instance.structureType` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>ExampleScenario.instance.structureVersion (structureVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureVersion</td><td>Element `ExampleScenario.instance.structureVersion` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.instance.structureVersion` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ExampleScenario.instance.structureProfile[x] (structureProfile[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureProfile</td><td>Element `ExampleScenario.instance.structureProfile[x]` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.instance.structureProfile[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ExampleScenario.instance.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.content</td><td>Element `ExampleScenario.instance.content` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.instance.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If not conveying FHIR data or not using the same version of FHIR as this ExampleScenario instance, the reference must be to a Binary.</td></tr><tr><td>ExampleScenario.instance.version.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.title</td><td>Element `ExampleScenario.instance.version.title` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.instance.version.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ExampleScenario.instance.version.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.content</td><td>Element `ExampleScenario.instance.version.content` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.instance.version.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If not conveying FHIR data or not using the same version of FHIR as this ExampleScenario instance, the reference must be to a Binary.</td></tr><tr><td>ExampleScenario.process.step.number (number)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.number</td><td>Element `ExampleScenario.process.step.number` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.process.step.number` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If step numbers are simultaneous, they will be the same.  Numbers don't have to be numeric.  E.g. '2c)' is a valid step number</td></tr><tr><td>ExampleScenario.process.step.workflow (workflow)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.workflow</td><td>Element `ExampleScenario.process.step.workflow` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.
+Element `ExampleScenario.process.step.workflow` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ExampleScenario.process.step.operation.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.type</td><td>Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type` as `SourceIsBroaderThanTarget`.
+The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types: Coding.
+The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types based on type expansion: userSelected.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ExampleScenario-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ExampleScenarioElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 ExampleScenario to FHIR R4 ExampleScenario"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:48.282556-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 ExampleScenario to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ExampleScenario"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/ExampleScenario"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="ExampleScenario.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="ExampleScenario.meta"/>
+        <display value="ExampleScenario.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.meta` is mapped to FHIR R4 element `ExampleScenario.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="ExampleScenario.implicitRules"/>
+        <display value="ExampleScenario.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.implicitRules` is mapped to FHIR R4 element `ExampleScenario.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ExampleScenario.language"/>
+        <display value="ExampleScenario.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.language` is mapped to FHIR R4 element `ExampleScenario.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.text"/>
+      <display value="text"/>
+      <target>
+        <code value="ExampleScenario.text"/>
+        <display value="ExampleScenario.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.text` is mapped to FHIR R4 element `ExampleScenario.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="ExampleScenario.contained"/>
+        <display value="ExampleScenario.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.contained` is mapped to FHIR R4 element `ExampleScenario.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.url"/>
+      <display value="url"/>
+      <target>
+        <code value="ExampleScenario.url"/>
+        <display value="ExampleScenario.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.url` is mapped to FHIR R4 element `ExampleScenario.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="ExampleScenario.identifier"/>
+        <display value="ExampleScenario.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.identifier` is mapped to FHIR R4 element `ExampleScenario.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this example scenario outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ExampleScenario.version"/>
+        <display value="ExampleScenario.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.version` is mapped to FHIR R4 element `ExampleScenario.version` as `Equivalent`.&#xA;There may be different example scenario instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the example scenario with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ExampleScenario.name"/>
+        <display value="ExampleScenario.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.name` is mapped to FHIR R4 element `ExampleScenario.name` as `Equivalent`.&#xA;Not needed as code will never be generated from one of these"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.status"/>
+      <display value="status"/>
+      <target>
+        <code value="ExampleScenario.status"/>
+        <display value="ExampleScenario.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.status` is mapped to FHIR R4 element `ExampleScenario.status` as `Equivalent`.&#xA;Allows filtering of example scenarios that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="ExampleScenario.experimental"/>
+        <display value="ExampleScenario.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.experimental` is mapped to FHIR R4 element `ExampleScenario.experimental` as `Equivalent`.&#xA;Allows filtering of example scenarios that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.date"/>
+      <display value="date"/>
+      <target>
+        <code value="ExampleScenario.date"/>
+        <display value="ExampleScenario.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.date` is mapped to FHIR R4 element `ExampleScenario.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the example scenario. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="ExampleScenario.publisher"/>
+        <display value="ExampleScenario.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.publisher` is mapped to FHIR R4 element `ExampleScenario.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the example scenario is the organization or individual primarily responsible for the maintenance and upkeep of the example scenario. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the example scenario. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="ExampleScenario.contact"/>
+        <display value="ExampleScenario.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.contact` is mapped to FHIR R4 element `ExampleScenario.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="ExampleScenario.useContext"/>
+        <display value="ExampleScenario.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.useContext` is mapped to FHIR R4 element `ExampleScenario.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="ExampleScenario.jurisdiction"/>
+        <display value="ExampleScenario.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.jurisdiction` is mapped to FHIR R4 element `ExampleScenario.jurisdiction` as `Equivalent`.&#xA;Element `ExampleScenario.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the example scenario to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="ExampleScenario.purpose"/>
+        <display value="ExampleScenario.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.purpose` is mapped to FHIR R4 element `ExampleScenario.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the example scenario. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this example scenario."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="ExampleScenario.copyright"/>
+        <display value="ExampleScenario.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.copyright` is mapped to FHIR R4 element `ExampleScenario.copyright` as `Equivalent`.&#xA;..."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="ExampleScenario.actor"/>
+        <display value="ExampleScenario.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.actor` is mapped to FHIR R4 element `ExampleScenario.actor` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.actor.key"/>
+      <display value="key"/>
+      <target>
+        <code value="ExampleScenario.actor.actorId"/>
+        <display value="ExampleScenario.actor.actorId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.actor.key` is mapped to FHIR R4 element `ExampleScenario.actor.actorId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.actor.type"/>
+      <display value="type"/>
+      <target>
+        <code value="ExampleScenario.actor.type"/>
+        <display value="ExampleScenario.actor.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.actor.type` is mapped to FHIR R4 element `ExampleScenario.actor.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.actor.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ExampleScenario.actor.name"/>
+        <display value="ExampleScenario.actor.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.actor.title` is mapped to FHIR R4 element `ExampleScenario.actor.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.actor.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ExampleScenario.actor.description"/>
+        <display value="ExampleScenario.actor.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.actor.description` is mapped to FHIR R4 element `ExampleScenario.actor.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance"/>
+      <display value="instance"/>
+      <target>
+        <code value="ExampleScenario.instance"/>
+        <display value="ExampleScenario.instance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance` is mapped to FHIR R4 element `ExampleScenario.instance` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.key"/>
+      <display value="key"/>
+      <target>
+        <code value="ExampleScenario.instance.resourceId"/>
+        <display value="ExampleScenario.instance.resourceId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.key` is mapped to FHIR R4 element `ExampleScenario.instance.resourceId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.structureType"/>
+      <display value="structureType"/>
+      <target>
+        <code value="ExampleScenario.instance.resourceType"/>
+        <display value="ExampleScenario.instance.resourceType"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType` as `RelatedTo`.&#xA;The mappings for `ExampleScenario.instance.structureType` do not cover the following types: Coding.&#xA;The mappings for `ExampleScenario.instance.structureType` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ExampleScenario.instance.name"/>
+        <display value="ExampleScenario.instance.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.title` is mapped to FHIR R4 element `ExampleScenario.instance.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ExampleScenario.instance.description"/>
+        <display value="ExampleScenario.instance.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.description` is mapped to FHIR R4 element `ExampleScenario.instance.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ExampleScenario.instance.version"/>
+        <display value="ExampleScenario.instance.version"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.version` is mapped to FHIR R4 element `ExampleScenario.instance.version` as `Equivalent`.&#xA;Not used if an instance doesn't change"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.version.key"/>
+      <display value="key"/>
+      <target>
+        <code value="ExampleScenario.instance.version.versionId"/>
+        <display value="ExampleScenario.instance.version.versionId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.version.key` is mapped to FHIR R4 element `ExampleScenario.instance.version.versionId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.version.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ExampleScenario.instance.version.description"/>
+        <display value="ExampleScenario.instance.version.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.version.description` is mapped to FHIR R4 element `ExampleScenario.instance.version.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.containedInstance"/>
+      <display value="containedInstance"/>
+      <target>
+        <code value="ExampleScenario.instance.containedInstance"/>
+        <display value="ExampleScenario.instance.containedInstance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.containedInstance` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.containedInstance.instanceReference"/>
+      <display value="instanceReference"/>
+      <target>
+        <code value="ExampleScenario.instance.containedInstance.resourceId"/>
+        <display value="ExampleScenario.instance.containedInstance.resourceId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.containedInstance.instanceReference` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.resourceId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.containedInstance.versionReference"/>
+      <display value="versionReference"/>
+      <target>
+        <code value="ExampleScenario.instance.containedInstance.versionId"/>
+        <display value="ExampleScenario.instance.containedInstance.versionId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.instance.containedInstance.versionReference` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.versionId` as `Equivalent`.&#xA;Required if the referenced instance has versions"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process"/>
+      <display value="process"/>
+      <target>
+        <code value="ExampleScenario.process"/>
+        <display value="ExampleScenario.process"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process` is mapped to FHIR R4 element `ExampleScenario.process` as `Equivalent`.&#xA;Some scenarios might describe only one process."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ExampleScenario.process.title"/>
+        <display value="ExampleScenario.process.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.title` is mapped to FHIR R4 element `ExampleScenario.process.title` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ExampleScenario.process.description"/>
+        <display value="ExampleScenario.process.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.description` is mapped to FHIR R4 element `ExampleScenario.process.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.preConditions"/>
+      <display value="preConditions"/>
+      <target>
+        <code value="ExampleScenario.process.preConditions"/>
+        <display value="ExampleScenario.process.preConditions"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.preConditions` is mapped to FHIR R4 element `ExampleScenario.process.preConditions` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.postConditions"/>
+      <display value="postConditions"/>
+      <target>
+        <code value="ExampleScenario.process.postConditions"/>
+        <display value="ExampleScenario.process.postConditions"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.postConditions` is mapped to FHIR R4 element `ExampleScenario.process.postConditions` as `Equivalent`.&#xA;Alternate steps might not result in all post conditions holding"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step"/>
+      <display value="step"/>
+      <target>
+        <code value="ExampleScenario.process.step"/>
+        <display value="ExampleScenario.process.step"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process.step` is mapped to FHIR R4 element `ExampleScenario.process.step` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.process"/>
+      <display value="process"/>
+      <target>
+        <code value="ExampleScenario.process.step.process"/>
+        <display value="ExampleScenario.process.step.process"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.process` is mapped to FHIR R4 element `ExampleScenario.process.step.process` as `SourceIsNarrowerThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation"/>
+        <display value="ExampleScenario.process.step.operation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process.step.operation` is mapped to FHIR R4 element `ExampleScenario.process.step.operation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.type"/>
+      <display value="type"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.type"/>
+        <display value="ExampleScenario.process.step.operation.type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types: Coding.&#xA;The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.name"/>
+        <display value="ExampleScenario.process.step.operation.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.title` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.initiator"/>
+      <display value="initiator"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.initiator"/>
+        <display value="ExampleScenario.process.step.operation.initiator"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.initiator` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiator` as `Equivalent`.&#xA;This must either be the 'key' of one of the actors defined in this scenario or the special keyword 'OTHER' if the initiator is not one of the actors defined for the scenario.  (Multiple references to 'OTHER' don't necessarily indicate the same actor.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.receiver"/>
+      <display value="receiver"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.receiver"/>
+        <display value="ExampleScenario.process.step.operation.receiver"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.receiver` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiver` as `Equivalent`.&#xA;This must either be the 'key' of one of the actors defined in this scenario or the special keyword 'OTHER' if the receiver is not one of the actors defined for the scenario.  (Multiple references to 'OTHER' don't necessarily indicate the same actor.)  In some cases, receiver could be same as sender if representing a local operation"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.description"/>
+        <display value="ExampleScenario.process.step.operation.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.description` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.description` as `Equivalent`.&#xA;This should contain information not already present in the process step.  It's more of a description of what the operation in general does - if not already evident from the operation.type"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.initiatorActive"/>
+      <display value="initiatorActive"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.initiatorActive"/>
+        <display value="ExampleScenario.process.step.operation.initiatorActive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.initiatorActive` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiatorActive` as `Equivalent`.&#xA;De-activation of an actor means they have no further role until such time as they are the recipient of an operation."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.receiverActive"/>
+      <display value="receiverActive"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.receiverActive"/>
+        <display value="ExampleScenario.process.step.operation.receiverActive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.receiverActive` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiverActive` as `Equivalent`.&#xA;De-activation of an actor means they have no further role until such time as they are the recipient of an operation."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.request"/>
+      <display value="request"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.request"/>
+        <display value="ExampleScenario.process.step.operation.request"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.request` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.response"/>
+      <display value="response"/>
+      <target>
+        <code value="ExampleScenario.process.step.operation.response"/>
+        <display value="ExampleScenario.process.step.operation.response"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.response` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.alternative"/>
+      <display value="alternative"/>
+      <target>
+        <code value="ExampleScenario.process.step.alternative"/>
+        <display value="ExampleScenario.process.step.alternative"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process.step.alternative` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.alternative.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ExampleScenario.process.step.alternative.title"/>
+        <display value="ExampleScenario.process.step.alternative.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.alternative.title` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.title` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.alternative.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ExampleScenario.process.step.alternative.description"/>
+        <display value="ExampleScenario.process.step.alternative.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.alternative.description` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.alternative.step"/>
+      <display value="step"/>
+      <target>
+        <code value="ExampleScenario.process.step.alternative.step"/>
+        <display value="ExampleScenario.process.step.alternative.step"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.alternative.step` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.step` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.pause"/>
+      <display value="pause"/>
+      <target>
+        <code value="ExampleScenario.process.step.pause"/>
+        <display value="ExampleScenario.process.step.pause"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.pause` is mapped to FHIR R4 element `ExampleScenario.process.step.pause` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ExampleScenario"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="ExampleScenario.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.versionAlgorithm[x]` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.title"/>
+      <display value="title"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.title"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.title` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.description"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.description` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This description can be used to capture details such as comments about misuse. It is not a rendering of the ExampleScenario as conveyed in the 'text' field of the resource itself."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.copyrightLabel` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.structureType"/>
+      <display value="structureType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType` as `RelatedTo`.&#xA;The mappings for `ExampleScenario.instance.structureType` do not cover the following types: Coding.&#xA;The mappings for `ExampleScenario.instance.structureType` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.structureVersion"/>
+      <display value="structureVersion"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureVersion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.structureVersion` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.instance.structureVersion` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.structureProfile[x]"/>
+      <display value="structureProfile[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureProfile"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.structureProfile[x]` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.instance.structureProfile[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.content"/>
+      <display value="content"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.content"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.content` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.instance.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If not conveying FHIR data or not using the same version of FHIR as this ExampleScenario instance, the reference must be to a Binary."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.version.title"/>
+      <display value="title"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.title"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.version.title` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.instance.version.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.instance.version.content"/>
+      <display value="content"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.content"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.instance.version.content` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.instance.version.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If not conveying FHIR data or not using the same version of FHIR as this ExampleScenario instance, the reference must be to a Binary."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.number"/>
+      <display value="number"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.number"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process.step.number` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.process.step.number` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If step numbers are simultaneous, they will be the same.  Numbers don't have to be numeric.  E.g. '2c)' is a valid step number"/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.workflow"/>
+      <display value="workflow"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.workflow"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ExampleScenario.process.step.workflow` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.&#xA;Element `ExampleScenario.process.step.workflow` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ExampleScenario.process.step.operation.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types: Coding.&#xA;The mappings for `ExampleScenario.process.step.operation.type` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

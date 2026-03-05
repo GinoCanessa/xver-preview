@@ -1,0 +1,360 @@
+# R5ClinicalImpressionElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5ClinicalImpressionElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 ClinicalImpression to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-ClinicalImpression-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ClinicalImpression-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5ClinicalImpressionElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 ClinicalImpression to FHIR R4 ClinicalImpression",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:47.0966796-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ClinicalImpression to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "ClinicalImpression.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "ClinicalImpression.meta",
+        "display" : "ClinicalImpression.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.meta` is mapped to FHIR R4 element `ClinicalImpression.meta` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "ClinicalImpression.implicitRules",
+        "display" : "ClinicalImpression.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.implicitRules` is mapped to FHIR R4 element `ClinicalImpression.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "ClinicalImpression.language",
+        "display" : "ClinicalImpression.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.language` is mapped to FHIR R4 element `ClinicalImpression.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "ClinicalImpression.text",
+        "display" : "ClinicalImpression.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.text` is mapped to FHIR R4 element `ClinicalImpression.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "ClinicalImpression.contained",
+        "display" : "ClinicalImpression.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.contained` is mapped to FHIR R4 element `ClinicalImpression.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "ClinicalImpression.identifier",
+        "display" : "ClinicalImpression.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.identifier` is mapped to FHIR R4 element `ClinicalImpression.identifier` as `Equivalent`.\nThis is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "ClinicalImpression.status",
+        "display" : "ClinicalImpression.status",
+        "equivalence" : "wider",
+        "comment" : "Element `ClinicalImpression.status` is mapped to FHIR R4 element `ClinicalImpression.status` as `SourceIsBroaderThanTarget`.\nThe target context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the clinical impression as not currently valid."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.statusReason",
+      "display" : "statusReason",
+      "target" : [{
+        "code" : "ClinicalImpression.statusReason",
+        "display" : "ClinicalImpression.statusReason",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.statusReason` is mapped to FHIR R4 element `ClinicalImpression.statusReason` as `Equivalent`.\nThis is generally only used for \"exception\" statuses such as \"not-done\", \"on-hold\" or \"stopped\"."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.description",
+      "display" : "description",
+      "target" : [{
+        "code" : "ClinicalImpression.description",
+        "display" : "ClinicalImpression.description",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.description` is mapped to FHIR R4 element `ClinicalImpression.description` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "ClinicalImpression.subject",
+        "display" : "ClinicalImpression.subject",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.subject` is mapped to FHIR R4 element `ClinicalImpression.subject` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.encounter",
+      "display" : "encounter",
+      "target" : [{
+        "code" : "ClinicalImpression.encounter",
+        "display" : "ClinicalImpression.encounter",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.encounter` is mapped to FHIR R4 element `ClinicalImpression.encounter` as `Equivalent`.\nThis will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.effective[x]",
+      "display" : "effective[x]",
+      "target" : [{
+        "code" : "ClinicalImpression.effective[x]",
+        "display" : "ClinicalImpression.effective[x]",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.effective[x]` is mapped to FHIR R4 element `ClinicalImpression.effective[x]` as `Equivalent`.\nThe target context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`.\nThis SHOULD be accurate to at least the minute, though some assessments only have a known date."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.date",
+      "display" : "date",
+      "target" : [{
+        "code" : "ClinicalImpression.date",
+        "display" : "ClinicalImpression.date",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.date` is mapped to FHIR R4 element `ClinicalImpression.date` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.performer",
+      "display" : "performer",
+      "target" : [{
+        "code" : "ClinicalImpression.assessor",
+        "display" : "ClinicalImpression.assessor",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.performer` is mapped to FHIR R4 element `ClinicalImpression.assessor` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.previous",
+      "display" : "previous",
+      "target" : [{
+        "code" : "ClinicalImpression.previous",
+        "display" : "ClinicalImpression.previous",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.previous` is mapped to FHIR R4 element `ClinicalImpression.previous` as `Equivalent`.\nIt is always likely that multiple previous assessments exist for a patient. The point of quoting a previous assessment is that this assessment is relative to it (see resolved)."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.problem",
+      "display" : "problem",
+      "target" : [{
+        "code" : "ClinicalImpression.problem",
+        "display" : "ClinicalImpression.problem",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.problem` is mapped to FHIR R4 element `ClinicalImpression.problem` as `Equivalent`.\ne.g. The patient is a pregnant, has congestive heart failure, has an ‎Adenocarcinoma, and is allergic to penicillin."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.protocol",
+      "display" : "protocol",
+      "target" : [{
+        "code" : "ClinicalImpression.protocol",
+        "display" : "ClinicalImpression.protocol",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.protocol` is mapped to FHIR R4 element `ClinicalImpression.protocol` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.summary",
+      "display" : "summary",
+      "target" : [{
+        "code" : "ClinicalImpression.summary",
+        "display" : "ClinicalImpression.summary",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.summary` is mapped to FHIR R4 element `ClinicalImpression.summary` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.finding",
+      "display" : "finding",
+      "target" : [{
+        "code" : "ClinicalImpression.finding",
+        "display" : "ClinicalImpression.finding",
+        "equivalence" : "wider",
+        "comment" : "Element `ClinicalImpression.finding` is mapped to FHIR R4 element `ClinicalImpression.finding` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.finding.item",
+      "display" : "item",
+      "target" : [{
+        "code" : "ClinicalImpression.finding.itemCodeableConcept",
+        "display" : "ClinicalImpression.finding.itemCodeableConcept",
+        "equivalence" : "relatedto",
+        "comment" : "Element `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept` as `SourceIsBroaderThanTarget`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `ClinicalImpression.finding.item` do not cover the following types: CodeableReference."
+      },
+      {
+        "code" : "ClinicalImpression.finding.itemReference",
+        "display" : "ClinicalImpression.finding.itemReference",
+        "equivalence" : "relatedto",
+        "comment" : "Element `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept` as `SourceIsBroaderThanTarget`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `ClinicalImpression.finding.item` do not cover the following types: CodeableReference."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.finding.basis",
+      "display" : "basis",
+      "target" : [{
+        "code" : "ClinicalImpression.finding.basis",
+        "display" : "ClinicalImpression.finding.basis",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.finding.basis` is mapped to FHIR R4 element `ClinicalImpression.finding.basis` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.prognosisCodeableConcept",
+      "display" : "prognosisCodeableConcept",
+      "target" : [{
+        "code" : "ClinicalImpression.prognosisCodeableConcept",
+        "display" : "ClinicalImpression.prognosisCodeableConcept",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.prognosisCodeableConcept` is mapped to FHIR R4 element `ClinicalImpression.prognosisCodeableConcept` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.prognosisReference",
+      "display" : "prognosisReference",
+      "target" : [{
+        "code" : "ClinicalImpression.prognosisReference",
+        "display" : "ClinicalImpression.prognosisReference",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.prognosisReference` is mapped to FHIR R4 element `ClinicalImpression.prognosisReference` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.supportingInfo",
+      "display" : "supportingInfo",
+      "target" : [{
+        "code" : "ClinicalImpression.supportingInfo",
+        "display" : "ClinicalImpression.supportingInfo",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.supportingInfo` is mapped to FHIR R4 element `ClinicalImpression.supportingInfo` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.note",
+      "display" : "note",
+      "target" : [{
+        "code" : "ClinicalImpression.note",
+        "display" : "ClinicalImpression.note",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.note` is mapped to FHIR R4 element `ClinicalImpression.note` as `Equivalent`.\nDon't use this element for content that should more properly appear as one of the specific elements of the impression."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "ClinicalImpression.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.status",
+        "equivalence" : "equivalent",
+        "comment" : "Element `ClinicalImpression.status` is mapped to FHIR R4 element `ClinicalImpression.status` as `SourceIsBroaderThanTarget`.\nThe target context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the clinical impression as not currently valid."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.changePattern",
+      "display" : "changePattern",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern",
+        "equivalence" : "wider",
+        "comment" : "Element `ClinicalImpression.changePattern` has a context of ClinicalImpression based on following the parent source element upwards and mapping to `ClinicalImpression`.\nElement `ClinicalImpression.changePattern` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ClinicalImpression.finding.item",
+      "display" : "item",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.finding.item",
+        "equivalence" : "wider",
+        "comment" : "Element `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept` as `SourceIsBroaderThanTarget`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `ClinicalImpression.finding.item` do not cover the following types: CodeableReference."
+      }]
+    }]
+  }]
+}
+
+```

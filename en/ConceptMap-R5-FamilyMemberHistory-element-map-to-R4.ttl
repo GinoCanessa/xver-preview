@@ -1,0 +1,459 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-FamilyMemberHistory-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-FamilyMemberHistory-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-FamilyMemberHistory-element-map-to-R4</b></p><a name=\"R5-FamilyMemberHistory-element-map-to-R4\"> </a><a name=\"hcR5-FamilyMemberHistory-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/familymemberhistory.html\">FamilyMemberHistoryversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.meta</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.meta</td><td>Element `FamilyMemberHistory.meta` is mapped to FHIR R4 element `FamilyMemberHistory.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.implicitRules</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.implicitRules</td><td>Element `FamilyMemberHistory.implicitRules` is mapped to FHIR R4 element `FamilyMemberHistory.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.language</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.language</td><td>Element `FamilyMemberHistory.language` is mapped to FHIR R4 element `FamilyMemberHistory.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.text</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.text</td><td>Element `FamilyMemberHistory.text` is mapped to FHIR R4 element `FamilyMemberHistory.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.contained</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.contained</td><td>Element `FamilyMemberHistory.contained` is mapped to FHIR R4 element `FamilyMemberHistory.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.identifier</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.identifier</td><td>Element `FamilyMemberHistory.identifier` is mapped to FHIR R4 element `FamilyMemberHistory.identifier` as `Equivalent`.\nThis is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.instantiatesCanonical</td><td style=\"border-left-width: 0px\">instantiatesCanonical</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.instantiatesCanonical</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.instantiatesCanonical</td><td>Element `FamilyMemberHistory.instantiatesCanonical` is mapped to FHIR R4 element `FamilyMemberHistory.instantiatesCanonical` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.instantiatesUri</td><td style=\"border-left-width: 0px\">instantiatesUri</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.instantiatesUri</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.instantiatesUri</td><td>Element `FamilyMemberHistory.instantiatesUri` is mapped to FHIR R4 element `FamilyMemberHistory.instantiatesUri` as `Equivalent`.\nThis might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.status</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.status</td><td>Element `FamilyMemberHistory.status` is mapped to FHIR R4 element `FamilyMemberHistory.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.dataAbsentReason</td><td style=\"border-left-width: 0px\">dataAbsentReason</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.dataAbsentReason</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.dataAbsentReason</td><td>Element `FamilyMemberHistory.dataAbsentReason` is mapped to FHIR R4 element `FamilyMemberHistory.dataAbsentReason` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.patient</td><td style=\"border-left-width: 0px\">patient</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.patient</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.patient</td><td>Element `FamilyMemberHistory.patient` is mapped to FHIR R4 element `FamilyMemberHistory.patient` as `Equivalent`.\nThis is not the family member.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.date</td><td style=\"border-left-width: 0px\">date</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.date</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.date</td><td>Element `FamilyMemberHistory.date` is mapped to FHIR R4 element `FamilyMemberHistory.date` as `Equivalent`.\nThis should be captured even if the same as the date on the List aggregating the full family history.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.name</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.name</td><td>Element `FamilyMemberHistory.name` is mapped to FHIR R4 element `FamilyMemberHistory.name` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.relationship</td><td style=\"border-left-width: 0px\">relationship</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.relationship</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.relationship</td><td>Element `FamilyMemberHistory.relationship` is mapped to FHIR R4 element `FamilyMemberHistory.relationship` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.sex</td><td style=\"border-left-width: 0px\">sex</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.sex</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.sex</td><td>Element `FamilyMemberHistory.sex` is mapped to FHIR R4 element `FamilyMemberHistory.sex` as `Equivalent`.\nThis element should ideally reflect whether the individual is genetically male or female.  However, as reported information based on the knowledge of the patient or reporting friend/relative, there may be situations where the reported sex might not be totally accurate.  E.g. 'Aunt Sue' might be XY rather than XX.  Questions soliciting this information should be phrased to encourage capture of genetic sex where known.  However, systems performing analysis should also allow for the possibility of imprecision with this element.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.born[x]</td><td style=\"border-left-width: 0px\">born[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.born[x]</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.born[x]</td><td>Element `FamilyMemberHistory.born[x]` is mapped to FHIR R4 element `FamilyMemberHistory.born[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.born[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.age[x]</td><td style=\"border-left-width: 0px\">age[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.age[x]</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.age[x]</td><td>Element `FamilyMemberHistory.age[x]` is mapped to FHIR R4 element `FamilyMemberHistory.age[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.age[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory`.\nuse estimatedAge to indicate whether the age is actual or not.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.estimatedAge</td><td style=\"border-left-width: 0px\">estimatedAge</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.estimatedAge</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.estimatedAge</td><td>Element `FamilyMemberHistory.estimatedAge` is mapped to FHIR R4 element `FamilyMemberHistory.estimatedAge` as `Equivalent`.\nThis element is labeled as a modifier because the fact that age is estimated can/should change the results of any algorithm that calculates based on the specified age.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.deceased[x]</td><td style=\"border-left-width: 0px\">deceased[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.deceased[x]</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.deceased[x]</td><td>Element `FamilyMemberHistory.deceased[x]` is mapped to FHIR R4 element `FamilyMemberHistory.deceased[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">FamilyMemberHistory.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.reasonCode</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.reasonCode</td><td>Element `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `FamilyMemberHistory.reason` do not cover the following types: CodeableReference.\nTextual reasons can be captured using reasonCode.text.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.reasonReference</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.reasonReference</td><td>Element `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `FamilyMemberHistory.reason` do not cover the following types: CodeableReference.\nTextual reasons can be captured using reasonCode.text.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.note</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.note</td><td>Element `FamilyMemberHistory.note` is mapped to FHIR R4 element `FamilyMemberHistory.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition</td><td style=\"border-left-width: 0px\">condition</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.condition</td><td>Element `FamilyMemberHistory.condition` is mapped to FHIR R4 element `FamilyMemberHistory.condition` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.code</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.condition.code</td><td>Element `FamilyMemberHistory.condition.code` is mapped to FHIR R4 element `FamilyMemberHistory.condition.code` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.outcome</td><td style=\"border-left-width: 0px\">outcome</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.outcome</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.condition.outcome</td><td>Element `FamilyMemberHistory.condition.outcome` is mapped to FHIR R4 element `FamilyMemberHistory.condition.outcome` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.contributedToDeath</td><td style=\"border-left-width: 0px\">contributedToDeath</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.contributedToDeath</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.condition.contributedToDeath</td><td>Element `FamilyMemberHistory.condition.contributedToDeath` is mapped to FHIR R4 element `FamilyMemberHistory.condition.contributedToDeath` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.onset[x]</td><td style=\"border-left-width: 0px\">onset[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.onset[x]</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.condition.onset[x]</td><td>Element `FamilyMemberHistory.condition.onset[x]` is mapped to FHIR R4 element `FamilyMemberHistory.condition.onset[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory.condition`.</td></tr><tr><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">FamilyMemberHistory.condition.note</td><td style=\"border-left-width: 0px\">FamilyMemberHistory.condition.note</td><td>Element `FamilyMemberHistory.condition.note` is mapped to FHIR R4 element `FamilyMemberHistory.condition.note` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>FamilyMemberHistory.participant (participant)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.participant</td><td>Element `FamilyMemberHistory.participant` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.participant` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.participant.function (function)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.participant:function</td><td>Element `FamilyMemberHistory.participant.function` is part of an existing definition because parent element `FamilyMemberHistory.participant` requires a cross-version extension.\nElement `FamilyMemberHistory.participant.function` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.participant.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.participant.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.participant:actor</td><td>Element `FamilyMemberHistory.participant.actor` is part of an existing definition because parent element `FamilyMemberHistory.participant` requires a cross-version extension.\nElement `FamilyMemberHistory.participant.actor` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.participant.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.reason</td><td>Element `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `FamilyMemberHistory.reason` do not cover the following types: CodeableReference.\nTextual reasons can be captured using reasonCode.text.</td></tr><tr><td>FamilyMemberHistory.procedure (procedure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure</td><td>Element `FamilyMemberHistory.procedure` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.procedure.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:code</td><td>Element `FamilyMemberHistory.procedure.code` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.code` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.procedure.outcome (outcome)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:outcome</td><td>Element `FamilyMemberHistory.procedure.outcome` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.outcome` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.outcome` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.procedure.contributedToDeath (contributedToDeath)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:contributedToDeath</td><td>Element `FamilyMemberHistory.procedure.contributedToDeath` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.contributedToDeath` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.contributedToDeath` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.procedure.performed[x] (performed[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:performed</td><td>Element `FamilyMemberHistory.procedure.performed[x]` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.performed[x]` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.performed[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>FamilyMemberHistory.procedure.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:note</td><td>Element `FamilyMemberHistory.procedure.note` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.note` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-FamilyMemberHistory-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-FamilyMemberHistory-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5FamilyMemberHistoryElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 FamilyMemberHistory to FHIR R4 FamilyMemberHistory"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:48.3209902-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 FamilyMemberHistory to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "FamilyMemberHistory.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.meta" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.meta` is mapped to FHIR R4 element `FamilyMemberHistory.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.implicitRules" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.implicitRules` is mapped to FHIR R4 element `FamilyMemberHistory.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.language" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.language` is mapped to FHIR R4 element `FamilyMemberHistory.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.text" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.text` is mapped to FHIR R4 element `FamilyMemberHistory.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.contained" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.contained` is mapped to FHIR R4 element `FamilyMemberHistory.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.identifier" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.identifier` is mapped to FHIR R4 element `FamilyMemberHistory.identifier` as `Equivalent`.\nThis is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.instantiatesCanonical" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.instantiatesCanonical` is mapped to FHIR R4 element `FamilyMemberHistory.instantiatesCanonical` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.instantiatesUri" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.instantiatesUri` is mapped to FHIR R4 element `FamilyMemberHistory.instantiatesUri` as `Equivalent`.\nThis might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.status" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.status` is mapped to FHIR R4 element `FamilyMemberHistory.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.dataAbsentReason" ] ;
+       fhir:display [ fhir:v "dataAbsentReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.dataAbsentReason" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.dataAbsentReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.dataAbsentReason` is mapped to FHIR R4 element `FamilyMemberHistory.dataAbsentReason` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.patient" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.patient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.patient` is mapped to FHIR R4 element `FamilyMemberHistory.patient` as `Equivalent`.\nThis is not the family member." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.date" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.date` is mapped to FHIR R4 element `FamilyMemberHistory.date` as `Equivalent`.\nThis should be captured even if the same as the date on the List aggregating the full family history." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.name" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.name` is mapped to FHIR R4 element `FamilyMemberHistory.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.relationship" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.relationship" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.relationship` is mapped to FHIR R4 element `FamilyMemberHistory.relationship` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.sex" ] ;
+       fhir:display [ fhir:v "sex" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.sex" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.sex" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.sex` is mapped to FHIR R4 element `FamilyMemberHistory.sex` as `Equivalent`.\nThis element should ideally reflect whether the individual is genetically male or female.  However, as reported information based on the knowledge of the patient or reporting friend/relative, there may be situations where the reported sex might not be totally accurate.  E.g. 'Aunt Sue' might be XY rather than XX.  Questions soliciting this information should be phrased to encourage capture of genetic sex where known.  However, systems performing analysis should also allow for the possibility of imprecision with this element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.born[x]" ] ;
+       fhir:display [ fhir:v "born[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.born[x]" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.born[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.born[x]` is mapped to FHIR R4 element `FamilyMemberHistory.born[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.born[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.age[x]" ] ;
+       fhir:display [ fhir:v "age[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.age[x]" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.age[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.age[x]` is mapped to FHIR R4 element `FamilyMemberHistory.age[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.age[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory`.\nuse estimatedAge to indicate whether the age is actual or not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.estimatedAge" ] ;
+       fhir:display [ fhir:v "estimatedAge" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.estimatedAge" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.estimatedAge" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.estimatedAge` is mapped to FHIR R4 element `FamilyMemberHistory.estimatedAge` as `Equivalent`.\nThis element is labeled as a modifier because the fact that age is estimated can/should change the results of any algorithm that calculates based on the specified age." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.deceased[x]" ] ;
+       fhir:display [ fhir:v "deceased[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.deceased[x]" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.deceased[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.deceased[x]` is mapped to FHIR R4 element `FamilyMemberHistory.deceased[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.deceased[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.reasonCode" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `FamilyMemberHistory.reason` do not cover the following types: CodeableReference.\nTextual reasons can be captured using reasonCode.text." ]
+       ] [
+         fhir:code [ fhir:v "FamilyMemberHistory.reasonReference" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `FamilyMemberHistory.reason` do not cover the following types: CodeableReference.\nTextual reasons can be captured using reasonCode.text." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.note" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.note` is mapped to FHIR R4 element `FamilyMemberHistory.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.condition" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.condition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.condition` is mapped to FHIR R4 element `FamilyMemberHistory.condition` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.condition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.condition.code" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.condition.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.condition.code` is mapped to FHIR R4 element `FamilyMemberHistory.condition.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.condition.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.condition.outcome" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.condition.outcome" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.condition.outcome` is mapped to FHIR R4 element `FamilyMemberHistory.condition.outcome` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.condition.contributedToDeath" ] ;
+       fhir:display [ fhir:v "contributedToDeath" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.condition.contributedToDeath" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.condition.contributedToDeath" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.condition.contributedToDeath` is mapped to FHIR R4 element `FamilyMemberHistory.condition.contributedToDeath` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.condition.onset[x]" ] ;
+       fhir:display [ fhir:v "onset[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.condition.onset[x]" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.condition.onset[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.condition.onset[x]` is mapped to FHIR R4 element `FamilyMemberHistory.condition.onset[x]` as `Equivalent`.\nThe target context `FamilyMemberHistory.condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `FamilyMemberHistory.condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.condition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "FamilyMemberHistory.condition.note" ] ;
+         fhir:display [ fhir:v "FamilyMemberHistory.condition.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.condition.note` is mapped to FHIR R4 element `FamilyMemberHistory.condition.note` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "FamilyMemberHistory.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.participant" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.participant` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.participant` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.participant.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.participant:function" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.participant.function` is part of an existing definition because parent element `FamilyMemberHistory.participant` requires a cross-version extension.\nElement `FamilyMemberHistory.participant.function` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.participant.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.participant:actor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.participant.actor` is part of an existing definition because parent element `FamilyMemberHistory.participant` requires a cross-version extension.\nElement `FamilyMemberHistory.participant.actor` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.participant.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `FamilyMemberHistory.reason` is mapped to FHIR R4 element `FamilyMemberHistory.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `FamilyMemberHistory.reason` do not cover the following types: CodeableReference.\nTextual reasons can be captured using reasonCode.text." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.procedure" ] ;
+       fhir:display [ fhir:v "procedure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.procedure` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.procedure.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.procedure.code` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.code` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.procedure.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:outcome" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.procedure.outcome` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.outcome` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.outcome` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.procedure.contributedToDeath" ] ;
+       fhir:display [ fhir:v "contributedToDeath" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:contributedToDeath" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.procedure.contributedToDeath` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.contributedToDeath` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.contributedToDeath` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.procedure.performed[x]" ] ;
+       fhir:display [ fhir:v "performed[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:performed" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.procedure.performed[x]` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.performed[x]` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.performed[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FamilyMemberHistory.procedure.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure:note" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FamilyMemberHistory.procedure.note` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.note` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.\nElement `FamilyMemberHistory.procedure.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

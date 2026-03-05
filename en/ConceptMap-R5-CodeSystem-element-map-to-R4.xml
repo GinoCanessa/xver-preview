@@ -1,0 +1,755 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-CodeSystem-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-CodeSystem-element-map-to-R4</b></p><a name="R5-CodeSystem-element-map-to-R4"> </a><a name="hcR5-CodeSystem-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0</code> to <a href="http://hl7.org/fhir/R4/codesystem.html">CodeSystemversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CodeSystem.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.meta</td><td>Element `CodeSystem.meta` is mapped to FHIR R4 element `CodeSystem.meta` as `Equivalent`.</td></tr><tr><td>CodeSystem.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.implicitRules</td><td>Element `CodeSystem.implicitRules` is mapped to FHIR R4 element `CodeSystem.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>CodeSystem.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.language</td><td>Element `CodeSystem.language` is mapped to FHIR R4 element `CodeSystem.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>CodeSystem.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.text</td><td>Element `CodeSystem.text` is mapped to FHIR R4 element `CodeSystem.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>CodeSystem.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.contained</td><td>Element `CodeSystem.contained` is mapped to FHIR R4 element `CodeSystem.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>CodeSystem.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.url</td><td>Element `CodeSystem.url` is mapped to FHIR R4 element `CodeSystem.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>CodeSystem.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.identifier</td><td>Element `CodeSystem.identifier` is mapped to FHIR R4 element `CodeSystem.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this code system outside of FHIR, where it is not possible to use the logical URI.  Note that HL7 defines at least three identifiers for many of its code systems - the FHIR canonical URL, the OID and the V2 Table 0396 mnemonic code.</td></tr><tr><td>CodeSystem.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.version</td><td>Element `CodeSystem.version` is mapped to FHIR R4 element `CodeSystem.version` as `Equivalent`.
+There may be different code system instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the code system with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>CodeSystem.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.name</td><td>Element `CodeSystem.name` is mapped to FHIR R4 element `CodeSystem.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>CodeSystem.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.title</td><td>Element `CodeSystem.title` is mapped to FHIR R4 element `CodeSystem.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>CodeSystem.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.status</td><td>Element `CodeSystem.status` is mapped to FHIR R4 element `CodeSystem.status` as `Equivalent`.
+Allows filtering of code systems that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.experimental</td><td>Element `CodeSystem.experimental` is mapped to FHIR R4 element `CodeSystem.experimental` as `Equivalent`.
+Allows filtering of code systems that are appropriate for use versus not.</td></tr><tr><td>CodeSystem.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.date</td><td>Element `CodeSystem.date` is mapped to FHIR R4 element `CodeSystem.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the code system. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.publisher</td><td>Element `CodeSystem.publisher` is mapped to FHIR R4 element `CodeSystem.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the code system is the organization or individual primarily responsible for the maintenance and upkeep of the code system. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the code system. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>CodeSystem.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.contact</td><td>Element `CodeSystem.contact` is mapped to FHIR R4 element `CodeSystem.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.description</td><td>Element `CodeSystem.description` is mapped to FHIR R4 element `CodeSystem.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the code system as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the code system is presumed to be the predominant language in the place the code system was created).</td></tr><tr><td>CodeSystem.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.useContext</td><td>Element `CodeSystem.useContext` is mapped to FHIR R4 element `CodeSystem.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>CodeSystem.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.jurisdiction</td><td>Element `CodeSystem.jurisdiction` is mapped to FHIR R4 element `CodeSystem.jurisdiction` as `Equivalent`.
+Element `CodeSystem.jurisdiction` has been flagged as deprecated.
+It may be possible for the code system to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>CodeSystem.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.purpose</td><td>Element `CodeSystem.purpose` is mapped to FHIR R4 element `CodeSystem.purpose` as `Equivalent`.
+This element does not describe the usage of the code system. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this code system.</td></tr><tr><td>CodeSystem.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.copyright</td><td>Element `CodeSystem.copyright` is mapped to FHIR R4 element `CodeSystem.copyright` as `Equivalent`.
+... Sometimes, the copyright differs between the code system and the codes that are included. The copyright statement should clearly differentiate between these when required.</td></tr><tr><td>CodeSystem.caseSensitive (caseSensitive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.caseSensitive</td><td>Element `CodeSystem.caseSensitive` is mapped to FHIR R4 element `CodeSystem.caseSensitive` as `Equivalent`.
+If this value is missing, then it is not specified whether a code system is case sensitive or not. When the rule is not known, Postel's law should be followed: produce codes with the correct case, and accept codes in any case. This element is primarily provided to support validation software.</td></tr><tr><td>CodeSystem.valueSet (valueSet)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.valueSet</td><td>Element `CodeSystem.valueSet` is mapped to FHIR R4 element `CodeSystem.valueSet` as `Equivalent`.
+The definition of the value set SHALL include all codes from this code system, independent of concept status, and only codes from this code system. It SHALL be immutable, and operations SHOULD support validation of any allowed code compositions.</td></tr><tr><td>CodeSystem.hierarchyMeaning (hierarchyMeaning)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.hierarchyMeaning</td><td>Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4 element `CodeSystem.hierarchyMeaning` as `Equivalent`.
+Note that other representations might have a different hierarchy or none at all, and represent the information using properties.</td></tr><tr><td>CodeSystem.compositional (compositional)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.compositional</td><td>Element `CodeSystem.compositional` is mapped to FHIR R4 element `CodeSystem.compositional` as `Equivalent`.
+Note that the code system resource does not define what the compositional grammar is, only whether or not there is one.</td></tr><tr><td>CodeSystem.versionNeeded (versionNeeded)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.versionNeeded</td><td>Element `CodeSystem.versionNeeded` is mapped to FHIR R4 element `CodeSystem.versionNeeded` as `Equivalent`.
+Best practice is that code systems do not redefine concepts, or that if concepts are redefined, a new code system definition is created. But this is not always possible, so some code systems may be defined as 'versionNeeded'.
+
+Most code systems occasionally refine the displays defined for concepts between versions. Contexts in which the concept display values are validated may require that the version be specified for some code systems irrespective of the value of this property.</td></tr><tr><td>CodeSystem.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.content</td><td>Element `CodeSystem.content` is mapped to FHIR R4 element `CodeSystem.content` as `Equivalent`.</td></tr><tr><td>CodeSystem.supplements (supplements)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.supplements</td><td>Element `CodeSystem.supplements` is mapped to FHIR R4 element `CodeSystem.supplements` as `Equivalent`.
+The most common use of a code system supplement is to add additional language support.</td></tr><tr><td>CodeSystem.count (count)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.count</td><td>Element `CodeSystem.count` is mapped to FHIR R4 element `CodeSystem.count` as `Equivalent`.
+The count of concepts defined in this resource cannot be more than this value but may be less for several reasons - see the content element.</td></tr><tr><td>CodeSystem.filter (filter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CodeSystem.filter</td><td>Element `CodeSystem.filter` is mapped to FHIR R4 element `CodeSystem.filter` as `Equivalent`.
+Note that filters defined in code systems usually require custom code on the part of any terminology engine that will make them available for use in value set filters. For this reason, they are generally only seen in high value published terminologies.</td></tr><tr><td>CodeSystem.filter.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.filter.code</td><td>Element `CodeSystem.filter.code` is mapped to FHIR R4 element `CodeSystem.filter.code` as `Equivalent`.</td></tr><tr><td>CodeSystem.filter.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.filter.description</td><td>Element `CodeSystem.filter.description` is mapped to FHIR R4 element `CodeSystem.filter.description` as `Equivalent`.</td></tr><tr><td>CodeSystem.filter.operator (operator)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CodeSystem.filter.operator</td><td>Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>CodeSystem.filter.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.filter.value</td><td>Element `CodeSystem.filter.value` is mapped to FHIR R4 element `CodeSystem.filter.value` as `Equivalent`.</td></tr><tr><td>CodeSystem.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CodeSystem.property</td><td>Element `CodeSystem.property` is mapped to FHIR R4 element `CodeSystem.property` as `Equivalent`.
+Multiple occurrences of CodeSystem.concept.property may occur for a CodeSystem.property where     CodeSystem.concept.property.code is the same and CodeSystem.concept.property.value differs. For example: multiple designations for a single concept.</td></tr><tr><td>CodeSystem.property.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.property.code</td><td>Element `CodeSystem.property.code` is mapped to FHIR R4 element `CodeSystem.property.code` as `Equivalent`.</td></tr><tr><td>CodeSystem.property.uri (uri)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.property.uri</td><td>Element `CodeSystem.property.uri` is mapped to FHIR R4 element `CodeSystem.property.uri` as `Equivalent`.</td></tr><tr><td>CodeSystem.property.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.property.description</td><td>Element `CodeSystem.property.description` is mapped to FHIR R4 element `CodeSystem.property.description` as `Equivalent`.</td></tr><tr><td>CodeSystem.property.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.property.type</td><td>Element `CodeSystem.property.type` is mapped to FHIR R4 element `CodeSystem.property.type` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept (concept)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CodeSystem.concept</td><td>Element `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept` as `Equivalent`.
+If this is empty, it means that the code system resource does not represent the content of the code system.</td></tr><tr><td>CodeSystem.concept.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.code</td><td>Element `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept.display (display)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.display</td><td>Element `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept.definition (definition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.definition</td><td>Element `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept.designation (designation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CodeSystem.concept.designation</td><td>Element `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation` as `Equivalent`.
+Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of &quot;primary code&quot; and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language).</td></tr><tr><td>CodeSystem.concept.designation.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.designation.language</td><td>Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language` as `Equivalent`.
+In the absence of a language, the resource language applies.</td></tr><tr><td>CodeSystem.concept.designation.use (use)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.designation.use</td><td>Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use` as `Equivalent`.
+If no use is provided, the designation can be assumed to be suitable for general display to a human user.</td></tr><tr><td>CodeSystem.concept.designation.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.designation.value</td><td>Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CodeSystem.concept.property</td><td>Element `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept.property.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.property.code</td><td>Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code` as `Equivalent`.</td></tr><tr><td>CodeSystem.concept.property.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.property.value[x]</td><td>Element `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]` as `Equivalent`.
+The target context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.</td></tr><tr><td>CodeSystem.concept.concept (concept)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CodeSystem.concept.concept</td><td>Element `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CodeSystem|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CodeSystem.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionAlgorithm</td><td>Element `CodeSystem.versionAlgorithm[x]` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>CodeSystem.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.copyrightLabel</td><td>Element `CodeSystem.copyrightLabel` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>CodeSystem.approvalDate (approvalDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.approvalDate</td><td>Element `CodeSystem.approvalDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.lastReviewDate (lastReviewDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.lastReviewDate</td><td>Element `CodeSystem.lastReviewDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If specified, this date follows the original approval date.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.effectivePeriod (effectivePeriod)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.effectivePeriod</td><td>Element `CodeSystem.effectivePeriod` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The effective period for a CodeSystem  determines when the content is applicable for usage and is independent of publication and review dates. For example, a system intended to be used for the year 2016 might be published in 2015.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.topic (topic)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.topic</td><td>Element `CodeSystem.topic` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.topic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Element `CodeSystem.topic` has been flagged as deprecated.
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'topic' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#topic and useContext.valueCodeableConcept indicating the topic)</td></tr><tr><td>CodeSystem.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.author</td><td>Element `CodeSystem.author` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>CodeSystem.editor (editor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.editor</td><td>Element `CodeSystem.editor` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>CodeSystem.reviewer (reviewer)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.reviewer</td><td>Element `CodeSystem.reviewer` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.endorser (endorser)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser</td><td>Element `CodeSystem.endorser` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CodeSystem.relatedArtifact (relatedArtifact)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.relatedArtifact</td><td>Element `CodeSystem.relatedArtifact` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Each related artifact is either an attachment, or a reference to another resource, but not both.</td></tr><tr><td>CodeSystem.filter.operator (operator)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter.operator</td><td>Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>CodeSystem.concept.designation.additionalUse (additionalUse)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse</td><td>Element `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.
+Element `CodeSystem.concept.designation.additionalUse` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-CodeSystem-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5CodeSystemElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 CodeSystem to FHIR R4 CodeSystem"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:47.3666362-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 CodeSystem to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CodeSystem"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/CodeSystem"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="CodeSystem.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="CodeSystem.meta"/>
+        <display value="CodeSystem.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.meta` is mapped to FHIR R4 element `CodeSystem.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="CodeSystem.implicitRules"/>
+        <display value="CodeSystem.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.implicitRules` is mapped to FHIR R4 element `CodeSystem.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.language"/>
+      <display value="language"/>
+      <target>
+        <code value="CodeSystem.language"/>
+        <display value="CodeSystem.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.language` is mapped to FHIR R4 element `CodeSystem.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.text"/>
+      <display value="text"/>
+      <target>
+        <code value="CodeSystem.text"/>
+        <display value="CodeSystem.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.text` is mapped to FHIR R4 element `CodeSystem.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="CodeSystem.contained"/>
+        <display value="CodeSystem.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.contained` is mapped to FHIR R4 element `CodeSystem.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.url"/>
+      <display value="url"/>
+      <target>
+        <code value="CodeSystem.url"/>
+        <display value="CodeSystem.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.url` is mapped to FHIR R4 element `CodeSystem.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="CodeSystem.identifier"/>
+        <display value="CodeSystem.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.identifier` is mapped to FHIR R4 element `CodeSystem.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this code system outside of FHIR, where it is not possible to use the logical URI.  Note that HL7 defines at least three identifiers for many of its code systems - the FHIR canonical URL, the OID and the V2 Table 0396 mnemonic code."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.version"/>
+      <display value="version"/>
+      <target>
+        <code value="CodeSystem.version"/>
+        <display value="CodeSystem.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.version` is mapped to FHIR R4 element `CodeSystem.version` as `Equivalent`.&#xA;There may be different code system instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the code system with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.name"/>
+      <display value="name"/>
+      <target>
+        <code value="CodeSystem.name"/>
+        <display value="CodeSystem.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.name` is mapped to FHIR R4 element `CodeSystem.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.title"/>
+      <display value="title"/>
+      <target>
+        <code value="CodeSystem.title"/>
+        <display value="CodeSystem.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.title` is mapped to FHIR R4 element `CodeSystem.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.status"/>
+      <display value="status"/>
+      <target>
+        <code value="CodeSystem.status"/>
+        <display value="CodeSystem.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.status` is mapped to FHIR R4 element `CodeSystem.status` as `Equivalent`.&#xA;Allows filtering of code systems that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="CodeSystem.experimental"/>
+        <display value="CodeSystem.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.experimental` is mapped to FHIR R4 element `CodeSystem.experimental` as `Equivalent`.&#xA;Allows filtering of code systems that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.date"/>
+      <display value="date"/>
+      <target>
+        <code value="CodeSystem.date"/>
+        <display value="CodeSystem.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.date` is mapped to FHIR R4 element `CodeSystem.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the code system. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="CodeSystem.publisher"/>
+        <display value="CodeSystem.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.publisher` is mapped to FHIR R4 element `CodeSystem.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the code system is the organization or individual primarily responsible for the maintenance and upkeep of the code system. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the code system. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="CodeSystem.contact"/>
+        <display value="CodeSystem.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.contact` is mapped to FHIR R4 element `CodeSystem.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.description"/>
+      <display value="description"/>
+      <target>
+        <code value="CodeSystem.description"/>
+        <display value="CodeSystem.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.description` is mapped to FHIR R4 element `CodeSystem.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the code system as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the code system is presumed to be the predominant language in the place the code system was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="CodeSystem.useContext"/>
+        <display value="CodeSystem.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.useContext` is mapped to FHIR R4 element `CodeSystem.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="CodeSystem.jurisdiction"/>
+        <display value="CodeSystem.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.jurisdiction` is mapped to FHIR R4 element `CodeSystem.jurisdiction` as `Equivalent`.&#xA;Element `CodeSystem.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the code system to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="CodeSystem.purpose"/>
+        <display value="CodeSystem.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.purpose` is mapped to FHIR R4 element `CodeSystem.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the code system. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this code system."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="CodeSystem.copyright"/>
+        <display value="CodeSystem.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.copyright` is mapped to FHIR R4 element `CodeSystem.copyright` as `Equivalent`.&#xA;... Sometimes, the copyright differs between the code system and the codes that are included. The copyright statement should clearly differentiate between these when required."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.caseSensitive"/>
+      <display value="caseSensitive"/>
+      <target>
+        <code value="CodeSystem.caseSensitive"/>
+        <display value="CodeSystem.caseSensitive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.caseSensitive` is mapped to FHIR R4 element `CodeSystem.caseSensitive` as `Equivalent`.&#xA;If this value is missing, then it is not specified whether a code system is case sensitive or not. When the rule is not known, Postel's law should be followed: produce codes with the correct case, and accept codes in any case. This element is primarily provided to support validation software."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.valueSet"/>
+      <display value="valueSet"/>
+      <target>
+        <code value="CodeSystem.valueSet"/>
+        <display value="CodeSystem.valueSet"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.valueSet` is mapped to FHIR R4 element `CodeSystem.valueSet` as `Equivalent`.&#xA;The definition of the value set SHALL include all codes from this code system, independent of concept status, and only codes from this code system. It SHALL be immutable, and operations SHOULD support validation of any allowed code compositions."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.hierarchyMeaning"/>
+      <display value="hierarchyMeaning"/>
+      <target>
+        <code value="CodeSystem.hierarchyMeaning"/>
+        <display value="CodeSystem.hierarchyMeaning"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4 element `CodeSystem.hierarchyMeaning` as `Equivalent`.&#xA;Note that other representations might have a different hierarchy or none at all, and represent the information using properties."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.compositional"/>
+      <display value="compositional"/>
+      <target>
+        <code value="CodeSystem.compositional"/>
+        <display value="CodeSystem.compositional"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.compositional` is mapped to FHIR R4 element `CodeSystem.compositional` as `Equivalent`.&#xA;Note that the code system resource does not define what the compositional grammar is, only whether or not there is one."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.versionNeeded"/>
+      <display value="versionNeeded"/>
+      <target>
+        <code value="CodeSystem.versionNeeded"/>
+        <display value="CodeSystem.versionNeeded"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.versionNeeded` is mapped to FHIR R4 element `CodeSystem.versionNeeded` as `Equivalent`.&#xA;Best practice is that code systems do not redefine concepts, or that if concepts are redefined, a new code system definition is created. But this is not always possible, so some code systems may be defined as 'versionNeeded'.&#xA;&#xA;Most code systems occasionally refine the displays defined for concepts between versions. Contexts in which the concept display values are validated may require that the version be specified for some code systems irrespective of the value of this property."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.content"/>
+      <display value="content"/>
+      <target>
+        <code value="CodeSystem.content"/>
+        <display value="CodeSystem.content"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.content` is mapped to FHIR R4 element `CodeSystem.content` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.supplements"/>
+      <display value="supplements"/>
+      <target>
+        <code value="CodeSystem.supplements"/>
+        <display value="CodeSystem.supplements"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.supplements` is mapped to FHIR R4 element `CodeSystem.supplements` as `Equivalent`.&#xA;The most common use of a code system supplement is to add additional language support."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.count"/>
+      <display value="count"/>
+      <target>
+        <code value="CodeSystem.count"/>
+        <display value="CodeSystem.count"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.count` is mapped to FHIR R4 element `CodeSystem.count` as `Equivalent`.&#xA;The count of concepts defined in this resource cannot be more than this value but may be less for several reasons - see the content element."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.filter"/>
+      <display value="filter"/>
+      <target>
+        <code value="CodeSystem.filter"/>
+        <display value="CodeSystem.filter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.filter` is mapped to FHIR R4 element `CodeSystem.filter` as `Equivalent`.&#xA;Note that filters defined in code systems usually require custom code on the part of any terminology engine that will make them available for use in value set filters. For this reason, they are generally only seen in high value published terminologies."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.filter.code"/>
+      <display value="code"/>
+      <target>
+        <code value="CodeSystem.filter.code"/>
+        <display value="CodeSystem.filter.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.filter.code` is mapped to FHIR R4 element `CodeSystem.filter.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.filter.description"/>
+      <display value="description"/>
+      <target>
+        <code value="CodeSystem.filter.description"/>
+        <display value="CodeSystem.filter.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.filter.description` is mapped to FHIR R4 element `CodeSystem.filter.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.filter.operator"/>
+      <display value="operator"/>
+      <target>
+        <code value="CodeSystem.filter.operator"/>
+        <display value="CodeSystem.filter.operator"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.filter.value"/>
+      <display value="value"/>
+      <target>
+        <code value="CodeSystem.filter.value"/>
+        <display value="CodeSystem.filter.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.filter.value` is mapped to FHIR R4 element `CodeSystem.filter.value` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.property"/>
+      <display value="property"/>
+      <target>
+        <code value="CodeSystem.property"/>
+        <display value="CodeSystem.property"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.property` is mapped to FHIR R4 element `CodeSystem.property` as `Equivalent`.&#xA;Multiple occurrences of CodeSystem.concept.property may occur for a CodeSystem.property where     CodeSystem.concept.property.code is the same and CodeSystem.concept.property.value differs. For example: multiple designations for a single concept."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.property.code"/>
+      <display value="code"/>
+      <target>
+        <code value="CodeSystem.property.code"/>
+        <display value="CodeSystem.property.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.property.code` is mapped to FHIR R4 element `CodeSystem.property.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.property.uri"/>
+      <display value="uri"/>
+      <target>
+        <code value="CodeSystem.property.uri"/>
+        <display value="CodeSystem.property.uri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.property.uri` is mapped to FHIR R4 element `CodeSystem.property.uri` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.property.description"/>
+      <display value="description"/>
+      <target>
+        <code value="CodeSystem.property.description"/>
+        <display value="CodeSystem.property.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.property.description` is mapped to FHIR R4 element `CodeSystem.property.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.property.type"/>
+      <display value="type"/>
+      <target>
+        <code value="CodeSystem.property.type"/>
+        <display value="CodeSystem.property.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.property.type` is mapped to FHIR R4 element `CodeSystem.property.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept"/>
+      <display value="concept"/>
+      <target>
+        <code value="CodeSystem.concept"/>
+        <display value="CodeSystem.concept"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept` as `Equivalent`.&#xA;If this is empty, it means that the code system resource does not represent the content of the code system."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.code"/>
+      <display value="code"/>
+      <target>
+        <code value="CodeSystem.concept.code"/>
+        <display value="CodeSystem.concept.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.display"/>
+      <display value="display"/>
+      <target>
+        <code value="CodeSystem.concept.display"/>
+        <display value="CodeSystem.concept.display"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.definition"/>
+      <display value="definition"/>
+      <target>
+        <code value="CodeSystem.concept.definition"/>
+        <display value="CodeSystem.concept.definition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.designation"/>
+      <display value="designation"/>
+      <target>
+        <code value="CodeSystem.concept.designation"/>
+        <display value="CodeSystem.concept.designation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation` as `Equivalent`.&#xA;Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of &quot;primary code&quot; and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.designation.language"/>
+      <display value="language"/>
+      <target>
+        <code value="CodeSystem.concept.designation.language"/>
+        <display value="CodeSystem.concept.designation.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language` as `Equivalent`.&#xA;In the absence of a language, the resource language applies."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.designation.use"/>
+      <display value="use"/>
+      <target>
+        <code value="CodeSystem.concept.designation.use"/>
+        <display value="CodeSystem.concept.designation.use"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use` as `Equivalent`.&#xA;If no use is provided, the designation can be assumed to be suitable for general display to a human user."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.designation.value"/>
+      <display value="value"/>
+      <target>
+        <code value="CodeSystem.concept.designation.value"/>
+        <display value="CodeSystem.concept.designation.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.property"/>
+      <display value="property"/>
+      <target>
+        <code value="CodeSystem.concept.property"/>
+        <display value="CodeSystem.concept.property"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.property.code"/>
+      <display value="code"/>
+      <target>
+        <code value="CodeSystem.concept.property.code"/>
+        <display value="CodeSystem.concept.property.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.property.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="CodeSystem.concept.property.value[x]"/>
+        <display value="CodeSystem.concept.property.value[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]` as `Equivalent`.&#xA;The target context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.concept"/>
+      <display value="concept"/>
+      <target>
+        <code value="CodeSystem.concept.concept"/>
+        <display value="CodeSystem.concept.concept"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CodeSystem"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="CodeSystem.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.versionAlgorithm[x]` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.copyrightLabel` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.approvalDate"/>
+      <display value="approvalDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.approvalDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.approvalDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.lastReviewDate"/>
+      <display value="lastReviewDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.lastReviewDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.lastReviewDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If specified, this date follows the original approval date.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.effectivePeriod"/>
+      <display value="effectivePeriod"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.effectivePeriod"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.effectivePeriod` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The effective period for a CodeSystem  determines when the content is applicable for usage and is independent of publication and review dates. For example, a system intended to be used for the year 2016 might be published in 2015.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.topic"/>
+      <display value="topic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.topic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.topic` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.topic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Element `CodeSystem.topic` has been flagged as deprecated.&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'topic' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#topic and useContext.valueCodeableConcept indicating the topic)"/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.author"/>
+      <display value="author"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.author"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.author` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.editor"/>
+      <display value="editor"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.editor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.editor` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.reviewer"/>
+      <display value="reviewer"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.reviewer"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.reviewer` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.endorser"/>
+      <display value="endorser"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.endorser"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.endorser` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.relatedArtifact"/>
+      <display value="relatedArtifact"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.relatedArtifact"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.relatedArtifact` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Each related artifact is either an attachment, or a reference to another resource, but not both."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.filter.operator"/>
+      <display value="operator"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter.operator"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CodeSystem.concept.designation.additionalUse"/>
+      <display value="additionalUse"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.&#xA;Element `CodeSystem.concept.designation.additionalUse` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

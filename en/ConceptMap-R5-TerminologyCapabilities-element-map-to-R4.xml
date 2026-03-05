@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-TerminologyCapabilities-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-TerminologyCapabilities-element-map-to-R4</b></p><a name="R5-TerminologyCapabilities-element-map-to-R4"> </a><a name="hcR5-TerminologyCapabilities-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities|5.0.0</code> to <a href="http://hl7.org/fhir/R4/terminologycapabilities.html">TerminologyCapabilitiesversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>TerminologyCapabilities.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.meta</td><td>Element `TerminologyCapabilities.meta` is mapped to FHIR R4 element `TerminologyCapabilities.meta` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.implicitRules</td><td>Element `TerminologyCapabilities.implicitRules` is mapped to FHIR R4 element `TerminologyCapabilities.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>TerminologyCapabilities.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.language</td><td>Element `TerminologyCapabilities.language` is mapped to FHIR R4 element `TerminologyCapabilities.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>TerminologyCapabilities.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.text</td><td>Element `TerminologyCapabilities.text` is mapped to FHIR R4 element `TerminologyCapabilities.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>TerminologyCapabilities.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.contained</td><td>Element `TerminologyCapabilities.contained` is mapped to FHIR R4 element `TerminologyCapabilities.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>TerminologyCapabilities.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.url</td><td>Element `TerminologyCapabilities.url` is mapped to FHIR R4 element `TerminologyCapabilities.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>TerminologyCapabilities.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.version</td><td>Element `TerminologyCapabilities.version` is mapped to FHIR R4 element `TerminologyCapabilities.version` as `Equivalent`.
+There may be different terminology capabilities instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the terminology capabilities with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>TerminologyCapabilities.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.name</td><td>Element `TerminologyCapabilities.name` is mapped to FHIR R4 element `TerminologyCapabilities.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>TerminologyCapabilities.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.title</td><td>Element `TerminologyCapabilities.title` is mapped to FHIR R4 element `TerminologyCapabilities.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>TerminologyCapabilities.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.status</td><td>Element `TerminologyCapabilities.status` is mapped to FHIR R4 element `TerminologyCapabilities.status` as `Equivalent`.
+Allows filtering of terminology capabilitiess that are appropriate for use versus not.This is not intended for use with actual capability statements, but where capability statements are used to describe possible or desired systems.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>TerminologyCapabilities.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.experimental</td><td>Element `TerminologyCapabilities.experimental` is mapped to FHIR R4 element `TerminologyCapabilities.experimental` as `Equivalent`.
+Allows filtering of terminology capabilitiess that are appropriate for use versus not.</td></tr><tr><td>TerminologyCapabilities.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.date</td><td>Element `TerminologyCapabilities.date` is mapped to FHIR R4 element `TerminologyCapabilities.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the terminology capabilities. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>TerminologyCapabilities.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.publisher</td><td>Element `TerminologyCapabilities.publisher` is mapped to FHIR R4 element `TerminologyCapabilities.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the terminology capabilities is the organization or individual primarily responsible for the maintenance and upkeep of the terminology capabilities. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the terminology capabilities. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>TerminologyCapabilities.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.contact</td><td>Element `TerminologyCapabilities.contact` is mapped to FHIR R4 element `TerminologyCapabilities.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>TerminologyCapabilities.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.description</td><td>Element `TerminologyCapabilities.description` is mapped to FHIR R4 element `TerminologyCapabilities.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the terminology capabilities as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the terminology capabilities is presumed to be the predominant language in the place the terminology capabilities was created).This does not need to be populated if the description is adequately implied by the software or implementation details.</td></tr><tr><td>TerminologyCapabilities.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.useContext</td><td>Element `TerminologyCapabilities.useContext` is mapped to FHIR R4 element `TerminologyCapabilities.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>TerminologyCapabilities.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.jurisdiction</td><td>Element `TerminologyCapabilities.jurisdiction` is mapped to FHIR R4 element `TerminologyCapabilities.jurisdiction` as `Equivalent`.
+Element `TerminologyCapabilities.jurisdiction` has been flagged as deprecated.
+It may be possible for the terminology capabilities to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>TerminologyCapabilities.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.purpose</td><td>Element `TerminologyCapabilities.purpose` is mapped to FHIR R4 element `TerminologyCapabilities.purpose` as `Equivalent`.
+This element does not describe the usage of the terminology capabilities. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this terminology capabilities.</td></tr><tr><td>TerminologyCapabilities.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.copyright</td><td>Element `TerminologyCapabilities.copyright` is mapped to FHIR R4 element `TerminologyCapabilities.copyright` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.kind (kind)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.kind</td><td>Element `TerminologyCapabilities.kind` is mapped to FHIR R4 element `TerminologyCapabilities.kind` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.software (software)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.software</td><td>Element `TerminologyCapabilities.software` is mapped to FHIR R4 element `TerminologyCapabilities.software` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.software.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.software.name</td><td>Element `TerminologyCapabilities.software.name` is mapped to FHIR R4 element `TerminologyCapabilities.software.name` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.software.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.software.version</td><td>Element `TerminologyCapabilities.software.version` is mapped to FHIR R4 element `TerminologyCapabilities.software.version` as `Equivalent`.
+If possible, a version should be specified, as statements are likely to be different for different versions of software.</td></tr><tr><td>TerminologyCapabilities.implementation (implementation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.implementation</td><td>Element `TerminologyCapabilities.implementation` is mapped to FHIR R4 element `TerminologyCapabilities.implementation` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.implementation.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.implementation.description</td><td>Element `TerminologyCapabilities.implementation.description` is mapped to FHIR R4 element `TerminologyCapabilities.implementation.description` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.implementation.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.implementation.url</td><td>Element `TerminologyCapabilities.implementation.url` is mapped to FHIR R4 element `TerminologyCapabilities.implementation.url` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.lockedDate (lockedDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.lockedDate</td><td>Element `TerminologyCapabilities.lockedDate` is mapped to FHIR R4 element `TerminologyCapabilities.lockedDate` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem (codeSystem)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.codeSystem</td><td>Element `TerminologyCapabilities.codeSystem` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem` as `Equivalent`.
+The code system - identified by its system URL - may also be declared explicitly as a Code System Resource at /CodeSystem, but it might not be.</td></tr><tr><td>TerminologyCapabilities.codeSystem.uri (uri)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.uri</td><td>Element `TerminologyCapabilities.codeSystem.uri` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.uri` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.codeSystem.version</td><td>Element `TerminologyCapabilities.codeSystem.version` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version` as `Equivalent`.
+Language translations might not be available for all codes.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.version.code</td><td>Element `TerminologyCapabilities.codeSystem.version.code` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.code` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.isDefault (isDefault)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.version.isDefault</td><td>Element `TerminologyCapabilities.codeSystem.version.isDefault` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.isDefault` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.compositional (compositional)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.version.compositional</td><td>Element `TerminologyCapabilities.codeSystem.version.compositional` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.compositional` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.codeSystem.version.language</td><td>Element `TerminologyCapabilities.codeSystem.version.language` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.filter (filter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.codeSystem.version.filter</td><td>Element `TerminologyCapabilities.codeSystem.version.filter` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.filter.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.version.filter.code</td><td>Element `TerminologyCapabilities.codeSystem.version.filter.code` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.code` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.filter.op (op)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.version.filter.op</td><td>Element `TerminologyCapabilities.codeSystem.version.filter.op` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.op` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.version.property</td><td>Element `TerminologyCapabilities.codeSystem.version.property` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.property` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.subsumption (subsumption)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.codeSystem.subsumption</td><td>Element `TerminologyCapabilities.codeSystem.subsumption` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.subsumption` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion (expansion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.expansion</td><td>Element `TerminologyCapabilities.expansion` is mapped to FHIR R4 element `TerminologyCapabilities.expansion` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.hierarchical (hierarchical)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.expansion.hierarchical</td><td>Element `TerminologyCapabilities.expansion.hierarchical` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.hierarchical` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.paging (paging)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.expansion.paging</td><td>Element `TerminologyCapabilities.expansion.paging` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.paging` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.incomplete (incomplete)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.expansion.incomplete</td><td>Element `TerminologyCapabilities.expansion.incomplete` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.incomplete` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.expansion.parameter</td><td>Element `TerminologyCapabilities.expansion.parameter` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.parameter.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.expansion.parameter.name</td><td>Element `TerminologyCapabilities.expansion.parameter.name` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.name` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.parameter.documentation (documentation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.expansion.parameter.documentation</td><td>Element `TerminologyCapabilities.expansion.parameter.documentation` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.documentation` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.expansion.textFilter (textFilter)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.expansion.textFilter</td><td>Element `TerminologyCapabilities.expansion.textFilter` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.textFilter` as `Equivalent`.
+This documentation should cover things like case sensitivity,  use of punctuation if not ignored, what wild cards are supported (if any), whether text is starts with or contains, and whether word order matters.</td></tr><tr><td>TerminologyCapabilities.codeSearch (codeSearch)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.codeSearch</td><td>Element `TerminologyCapabilities.codeSearch` is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch` as `SourceIsBroaderThanTarget`.
+See notes on the [ValueSet](https://hl7.org/fhir/v.html#) resource.</td></tr><tr><td>TerminologyCapabilities.validateCode (validateCode)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.validateCode</td><td>Element `TerminologyCapabilities.validateCode` is mapped to FHIR R4 element `TerminologyCapabilities.validateCode` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.validateCode.translations (translations)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.validateCode.translations</td><td>Element `TerminologyCapabilities.validateCode.translations` is mapped to FHIR R4 element `TerminologyCapabilities.validateCode.translations` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.translation (translation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.translation</td><td>Element `TerminologyCapabilities.translation` is mapped to FHIR R4 element `TerminologyCapabilities.translation` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.translation.needsMap (needsMap)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.translation.needsMap</td><td>Element `TerminologyCapabilities.translation.needsMap` is mapped to FHIR R4 element `TerminologyCapabilities.translation.needsMap` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.closure (closure)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TerminologyCapabilities.closure</td><td>Element `TerminologyCapabilities.closure` is mapped to FHIR R4 element `TerminologyCapabilities.closure` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.closure.translation (translation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TerminologyCapabilities.closure.translation</td><td>Element `TerminologyCapabilities.closure.translation` is mapped to FHIR R4 element `TerminologyCapabilities.closure.translation` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>TerminologyCapabilities.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.identifier</td><td>Element `TerminologyCapabilities.identifier` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.
+Element `TerminologyCapabilities.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this terminology capabilities outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>TerminologyCapabilities.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.versionAlgorithm</td><td>Element `TerminologyCapabilities.versionAlgorithm[x]` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.
+Element `TerminologyCapabilities.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>TerminologyCapabilities.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.copyrightLabel</td><td>Element `TerminologyCapabilities.copyrightLabel` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.
+Element `TerminologyCapabilities.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>TerminologyCapabilities.codeSystem.version.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.version.language</td><td>Element `TerminologyCapabilities.codeSystem.version.language` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language` as `Equivalent`.</td></tr><tr><td>TerminologyCapabilities.codeSystem.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.content</td><td>Element `TerminologyCapabilities.codeSystem.content` has a context of TerminologyCapabilities.codeSystem based on following the parent source element upwards and mapping to `TerminologyCapabilities`.
+Element `TerminologyCapabilities.codeSystem.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>TerminologyCapabilities.codeSearch (codeSearch)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSearch</td><td>Element `TerminologyCapabilities.codeSearch` is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch` as `SourceIsBroaderThanTarget`.
+See notes on the [ValueSet](https://hl7.org/fhir/v.html#) resource.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-TerminologyCapabilities-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5TerminologyCapabilitiesElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 TerminologyCapabilities to FHIR R4 TerminologyCapabilities"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:53.1675508-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 TerminologyCapabilities to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="TerminologyCapabilities.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="TerminologyCapabilities.meta"/>
+        <display value="TerminologyCapabilities.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.meta` is mapped to FHIR R4 element `TerminologyCapabilities.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="TerminologyCapabilities.implicitRules"/>
+        <display value="TerminologyCapabilities.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.implicitRules` is mapped to FHIR R4 element `TerminologyCapabilities.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.language"/>
+      <display value="language"/>
+      <target>
+        <code value="TerminologyCapabilities.language"/>
+        <display value="TerminologyCapabilities.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.language` is mapped to FHIR R4 element `TerminologyCapabilities.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.text"/>
+      <display value="text"/>
+      <target>
+        <code value="TerminologyCapabilities.text"/>
+        <display value="TerminologyCapabilities.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.text` is mapped to FHIR R4 element `TerminologyCapabilities.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="TerminologyCapabilities.contained"/>
+        <display value="TerminologyCapabilities.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.contained` is mapped to FHIR R4 element `TerminologyCapabilities.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.url"/>
+      <display value="url"/>
+      <target>
+        <code value="TerminologyCapabilities.url"/>
+        <display value="TerminologyCapabilities.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.url` is mapped to FHIR R4 element `TerminologyCapabilities.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.version"/>
+      <display value="version"/>
+      <target>
+        <code value="TerminologyCapabilities.version"/>
+        <display value="TerminologyCapabilities.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.version` is mapped to FHIR R4 element `TerminologyCapabilities.version` as `Equivalent`.&#xA;There may be different terminology capabilities instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the terminology capabilities with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TerminologyCapabilities.name"/>
+        <display value="TerminologyCapabilities.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.name` is mapped to FHIR R4 element `TerminologyCapabilities.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.title"/>
+      <display value="title"/>
+      <target>
+        <code value="TerminologyCapabilities.title"/>
+        <display value="TerminologyCapabilities.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.title` is mapped to FHIR R4 element `TerminologyCapabilities.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.status"/>
+      <display value="status"/>
+      <target>
+        <code value="TerminologyCapabilities.status"/>
+        <display value="TerminologyCapabilities.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.status` is mapped to FHIR R4 element `TerminologyCapabilities.status` as `Equivalent`.&#xA;Allows filtering of terminology capabilitiess that are appropriate for use versus not.This is not intended for use with actual capability statements, but where capability statements are used to describe possible or desired systems.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="TerminologyCapabilities.experimental"/>
+        <display value="TerminologyCapabilities.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.experimental` is mapped to FHIR R4 element `TerminologyCapabilities.experimental` as `Equivalent`.&#xA;Allows filtering of terminology capabilitiess that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.date"/>
+      <display value="date"/>
+      <target>
+        <code value="TerminologyCapabilities.date"/>
+        <display value="TerminologyCapabilities.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.date` is mapped to FHIR R4 element `TerminologyCapabilities.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the terminology capabilities. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="TerminologyCapabilities.publisher"/>
+        <display value="TerminologyCapabilities.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.publisher` is mapped to FHIR R4 element `TerminologyCapabilities.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the terminology capabilities is the organization or individual primarily responsible for the maintenance and upkeep of the terminology capabilities. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the terminology capabilities. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="TerminologyCapabilities.contact"/>
+        <display value="TerminologyCapabilities.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.contact` is mapped to FHIR R4 element `TerminologyCapabilities.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TerminologyCapabilities.description"/>
+        <display value="TerminologyCapabilities.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.description` is mapped to FHIR R4 element `TerminologyCapabilities.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the terminology capabilities as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the terminology capabilities is presumed to be the predominant language in the place the terminology capabilities was created).This does not need to be populated if the description is adequately implied by the software or implementation details."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="TerminologyCapabilities.useContext"/>
+        <display value="TerminologyCapabilities.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.useContext` is mapped to FHIR R4 element `TerminologyCapabilities.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="TerminologyCapabilities.jurisdiction"/>
+        <display value="TerminologyCapabilities.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.jurisdiction` is mapped to FHIR R4 element `TerminologyCapabilities.jurisdiction` as `Equivalent`.&#xA;Element `TerminologyCapabilities.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the terminology capabilities to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="TerminologyCapabilities.purpose"/>
+        <display value="TerminologyCapabilities.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.purpose` is mapped to FHIR R4 element `TerminologyCapabilities.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the terminology capabilities. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this terminology capabilities."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="TerminologyCapabilities.copyright"/>
+        <display value="TerminologyCapabilities.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.copyright` is mapped to FHIR R4 element `TerminologyCapabilities.copyright` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.kind"/>
+      <display value="kind"/>
+      <target>
+        <code value="TerminologyCapabilities.kind"/>
+        <display value="TerminologyCapabilities.kind"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.kind` is mapped to FHIR R4 element `TerminologyCapabilities.kind` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.software"/>
+      <display value="software"/>
+      <target>
+        <code value="TerminologyCapabilities.software"/>
+        <display value="TerminologyCapabilities.software"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.software` is mapped to FHIR R4 element `TerminologyCapabilities.software` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.software.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TerminologyCapabilities.software.name"/>
+        <display value="TerminologyCapabilities.software.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.software.name` is mapped to FHIR R4 element `TerminologyCapabilities.software.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.software.version"/>
+      <display value="version"/>
+      <target>
+        <code value="TerminologyCapabilities.software.version"/>
+        <display value="TerminologyCapabilities.software.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.software.version` is mapped to FHIR R4 element `TerminologyCapabilities.software.version` as `Equivalent`.&#xA;If possible, a version should be specified, as statements are likely to be different for different versions of software."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.implementation"/>
+      <display value="implementation"/>
+      <target>
+        <code value="TerminologyCapabilities.implementation"/>
+        <display value="TerminologyCapabilities.implementation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.implementation` is mapped to FHIR R4 element `TerminologyCapabilities.implementation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.implementation.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TerminologyCapabilities.implementation.description"/>
+        <display value="TerminologyCapabilities.implementation.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.implementation.description` is mapped to FHIR R4 element `TerminologyCapabilities.implementation.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.implementation.url"/>
+      <display value="url"/>
+      <target>
+        <code value="TerminologyCapabilities.implementation.url"/>
+        <display value="TerminologyCapabilities.implementation.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.implementation.url` is mapped to FHIR R4 element `TerminologyCapabilities.implementation.url` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.lockedDate"/>
+      <display value="lockedDate"/>
+      <target>
+        <code value="TerminologyCapabilities.lockedDate"/>
+        <display value="TerminologyCapabilities.lockedDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.lockedDate` is mapped to FHIR R4 element `TerminologyCapabilities.lockedDate` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem"/>
+      <display value="codeSystem"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem"/>
+        <display value="TerminologyCapabilities.codeSystem"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem` as `Equivalent`.&#xA;The code system - identified by its system URL - may also be declared explicitly as a Code System Resource at /CodeSystem, but it might not be."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.uri"/>
+      <display value="uri"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.uri"/>
+        <display value="TerminologyCapabilities.codeSystem.uri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.uri` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.uri` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version"/>
+      <display value="version"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version"/>
+        <display value="TerminologyCapabilities.codeSystem.version"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version` as `Equivalent`.&#xA;Language translations might not be available for all codes."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.code"/>
+      <display value="code"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.code"/>
+        <display value="TerminologyCapabilities.codeSystem.version.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.code` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.isDefault"/>
+      <display value="isDefault"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.isDefault"/>
+        <display value="TerminologyCapabilities.codeSystem.version.isDefault"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.isDefault` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.isDefault` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.compositional"/>
+      <display value="compositional"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.compositional"/>
+        <display value="TerminologyCapabilities.codeSystem.version.compositional"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.compositional` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.compositional` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.language"/>
+      <display value="language"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.language"/>
+        <display value="TerminologyCapabilities.codeSystem.version.language"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.language` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.filter"/>
+      <display value="filter"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.filter"/>
+        <display value="TerminologyCapabilities.codeSystem.version.filter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.filter` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.filter.code"/>
+      <display value="code"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.filter.code"/>
+        <display value="TerminologyCapabilities.codeSystem.version.filter.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.filter.code` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.filter.op"/>
+      <display value="op"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.filter.op"/>
+        <display value="TerminologyCapabilities.codeSystem.version.filter.op"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.filter.op` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.op` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.property"/>
+      <display value="property"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.version.property"/>
+        <display value="TerminologyCapabilities.codeSystem.version.property"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.property` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.property` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.subsumption"/>
+      <display value="subsumption"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSystem.subsumption"/>
+        <display value="TerminologyCapabilities.codeSystem.subsumption"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.subsumption` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.subsumption` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion"/>
+      <display value="expansion"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion"/>
+        <display value="TerminologyCapabilities.expansion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.expansion` is mapped to FHIR R4 element `TerminologyCapabilities.expansion` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.hierarchical"/>
+      <display value="hierarchical"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.hierarchical"/>
+        <display value="TerminologyCapabilities.expansion.hierarchical"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.expansion.hierarchical` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.hierarchical` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.paging"/>
+      <display value="paging"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.paging"/>
+        <display value="TerminologyCapabilities.expansion.paging"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.expansion.paging` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.paging` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.incomplete"/>
+      <display value="incomplete"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.incomplete"/>
+        <display value="TerminologyCapabilities.expansion.incomplete"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.expansion.incomplete` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.incomplete` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.parameter"/>
+        <display value="TerminologyCapabilities.expansion.parameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.expansion.parameter` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.parameter.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.parameter.name"/>
+        <display value="TerminologyCapabilities.expansion.parameter.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.expansion.parameter.name` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.parameter.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.parameter.documentation"/>
+        <display value="TerminologyCapabilities.expansion.parameter.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.expansion.parameter.documentation` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.expansion.textFilter"/>
+      <display value="textFilter"/>
+      <target>
+        <code value="TerminologyCapabilities.expansion.textFilter"/>
+        <display value="TerminologyCapabilities.expansion.textFilter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.expansion.textFilter` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.textFilter` as `Equivalent`.&#xA;This documentation should cover things like case sensitivity,  use of punctuation if not ignored, what wild cards are supported (if any), whether text is starts with or contains, and whether word order matters."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSearch"/>
+      <display value="codeSearch"/>
+      <target>
+        <code value="TerminologyCapabilities.codeSearch"/>
+        <display value="TerminologyCapabilities.codeSearch"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.codeSearch` is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch` as `SourceIsBroaderThanTarget`.&#xA;See notes on the [ValueSet](https://hl7.org/fhir/v.html#) resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.validateCode"/>
+      <display value="validateCode"/>
+      <target>
+        <code value="TerminologyCapabilities.validateCode"/>
+        <display value="TerminologyCapabilities.validateCode"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.validateCode` is mapped to FHIR R4 element `TerminologyCapabilities.validateCode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.validateCode.translations"/>
+      <display value="translations"/>
+      <target>
+        <code value="TerminologyCapabilities.validateCode.translations"/>
+        <display value="TerminologyCapabilities.validateCode.translations"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.validateCode.translations` is mapped to FHIR R4 element `TerminologyCapabilities.validateCode.translations` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.translation"/>
+      <display value="translation"/>
+      <target>
+        <code value="TerminologyCapabilities.translation"/>
+        <display value="TerminologyCapabilities.translation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.translation` is mapped to FHIR R4 element `TerminologyCapabilities.translation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.translation.needsMap"/>
+      <display value="needsMap"/>
+      <target>
+        <code value="TerminologyCapabilities.translation.needsMap"/>
+        <display value="TerminologyCapabilities.translation.needsMap"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.translation.needsMap` is mapped to FHIR R4 element `TerminologyCapabilities.translation.needsMap` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.closure"/>
+      <display value="closure"/>
+      <target>
+        <code value="TerminologyCapabilities.closure"/>
+        <display value="TerminologyCapabilities.closure"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.closure` is mapped to FHIR R4 element `TerminologyCapabilities.closure` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.closure.translation"/>
+      <display value="translation"/>
+      <target>
+        <code value="TerminologyCapabilities.closure.translation"/>
+        <display value="TerminologyCapabilities.closure.translation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.closure.translation` is mapped to FHIR R4 element `TerminologyCapabilities.closure.translation` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="TerminologyCapabilities.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.identifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.identifier` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.&#xA;Element `TerminologyCapabilities.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this terminology capabilities outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.versionAlgorithm[x]` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.&#xA;Element `TerminologyCapabilities.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.copyrightLabel` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.&#xA;Element `TerminologyCapabilities.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.version.language"/>
+      <display value="language"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.version.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.version.language` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSystem.content"/>
+      <display value="content"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.content"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TerminologyCapabilities.codeSystem.content` has a context of TerminologyCapabilities.codeSystem based on following the parent source element upwards and mapping to `TerminologyCapabilities`.&#xA;Element `TerminologyCapabilities.codeSystem.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TerminologyCapabilities.codeSearch"/>
+      <display value="codeSearch"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSearch"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TerminologyCapabilities.codeSearch` is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch` as `SourceIsBroaderThanTarget`.&#xA;See notes on the [ValueSet](https://hl7.org/fhir/v.html#) resource."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

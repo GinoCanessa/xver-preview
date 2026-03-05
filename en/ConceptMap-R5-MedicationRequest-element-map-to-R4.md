@@ -1,0 +1,610 @@
+# R5MedicationRequestElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5MedicationRequestElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicationRequest to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-MedicationRequest-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationRequest-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5MedicationRequestElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 MedicationRequest to FHIR R4 MedicationRequest",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:50.1466189-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicationRequest to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "MedicationRequest.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "MedicationRequest.meta",
+        "display" : "MedicationRequest.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.meta` is mapped to FHIR R4 element `MedicationRequest.meta` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "MedicationRequest.implicitRules",
+        "display" : "MedicationRequest.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.implicitRules` is mapped to FHIR R4 element `MedicationRequest.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "MedicationRequest.language",
+        "display" : "MedicationRequest.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.language` is mapped to FHIR R4 element `MedicationRequest.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "MedicationRequest.text",
+        "display" : "MedicationRequest.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.text` is mapped to FHIR R4 element `MedicationRequest.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "MedicationRequest.contained",
+        "display" : "MedicationRequest.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.contained` is mapped to FHIR R4 element `MedicationRequest.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "MedicationRequest.identifier",
+        "display" : "MedicationRequest.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.identifier` is mapped to FHIR R4 element `MedicationRequest.identifier` as `Equivalent`.\nThis is a business identifier, not a resource identifier."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.basedOn",
+      "display" : "basedOn",
+      "target" : [{
+        "code" : "MedicationRequest.basedOn",
+        "display" : "MedicationRequest.basedOn",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.basedOn` is mapped to FHIR R4 element `MedicationRequest.basedOn` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.priorPrescription",
+      "display" : "priorPrescription",
+      "target" : [{
+        "code" : "MedicationRequest.priorPrescription",
+        "display" : "MedicationRequest.priorPrescription",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.priorPrescription` is mapped to FHIR R4 element `MedicationRequest.priorPrescription` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.groupIdentifier",
+      "display" : "groupIdentifier",
+      "target" : [{
+        "code" : "MedicationRequest.groupIdentifier",
+        "display" : "MedicationRequest.groupIdentifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.groupIdentifier` is mapped to FHIR R4 element `MedicationRequest.groupIdentifier` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "MedicationRequest.status",
+        "display" : "MedicationRequest.status",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.status` is mapped to FHIR R4 element `MedicationRequest.status` as `RelatedTo`.\nThe mappings for `MedicationRequest.status` do not allow expression of the necessary codes, per the bindings on the source and target.\nThe target context `MedicationRequest.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.\n\nClinical decision support systems should take the status into account when determining which medications to include in their algorithms."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.statusReason",
+      "display" : "statusReason",
+      "target" : [{
+        "code" : "MedicationRequest.statusReason",
+        "display" : "MedicationRequest.statusReason",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.statusReason` is mapped to FHIR R4 element `MedicationRequest.statusReason` as `Equivalent`.\nThis is generally only used for \"exception\" statuses such as \"suspended\" or \"cancelled\". The reason why the MedicationRequest was created at all is captured in reasonCode, not here."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.intent",
+      "display" : "intent",
+      "target" : [{
+        "code" : "MedicationRequest.intent",
+        "display" : "MedicationRequest.intent",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.intent` is mapped to FHIR R4 element `MedicationRequest.intent` as `Equivalent`.\nIt is expected that the type of requester will be restricted for different stages of a MedicationRequest.  For example, Proposals can be created by a patient, relatedPerson, Practitioner or Device.  Plans can be created by Practitioners, Patients, RelatedPersons and Devices.  Original orders can be created by a Practitioner only.\r\rAn instance-order is an instantiation of a request or order and may be used to populate Medication Administration Record.\r\rThis element is labeled as a modifier because the intent alters when and how the resource is actually applicable."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.category",
+      "display" : "category",
+      "target" : [{
+        "code" : "MedicationRequest.category",
+        "display" : "MedicationRequest.category",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.category` is mapped to FHIR R4 element `MedicationRequest.category` as `Equivalent`.\nThe category can be used to include where the medication is expected to be consumed or other types of requests.  The examplar value set represents where the meds are intended to be administered and is just one example of request categorization."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.priority",
+      "display" : "priority",
+      "target" : [{
+        "code" : "MedicationRequest.priority",
+        "display" : "MedicationRequest.priority",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.priority` is mapped to FHIR R4 element `MedicationRequest.priority` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.doNotPerform",
+      "display" : "doNotPerform",
+      "target" : [{
+        "code" : "MedicationRequest.doNotPerform",
+        "display" : "MedicationRequest.doNotPerform",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.doNotPerform` is mapped to FHIR R4 element `MedicationRequest.doNotPerform` as `Equivalent`.\nIf do not perform is not specified, the request is a positive request e.g. \"do perform\"."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.medication",
+      "display" : "medication",
+      "target" : [{
+        "code" : "MedicationRequest.medication[x]",
+        "display" : "MedicationRequest.medication[x]",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.medication` is mapped to FHIR R4 element `MedicationRequest.medication[x]` as `SourceIsBroaderThanTarget`.\nThe target context `MedicationRequest.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationRequest`.\nIf only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the Medication resource is recommended.  For example, if you require form or lot number or if the medication is compounded or extemporaneously prepared, then you must reference the Medication resource."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "MedicationRequest.subject",
+        "display" : "MedicationRequest.subject",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.subject` is mapped to FHIR R4 element `MedicationRequest.subject` as `Equivalent`.\nThe subject on a medication request is mandatory.  For the secondary use case where the actual subject is not provided, there still must be an anonymized subject specified."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.encounter",
+      "display" : "encounter",
+      "target" : [{
+        "code" : "MedicationRequest.encounter",
+        "display" : "MedicationRequest.encounter",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.encounter` is mapped to FHIR R4 element `MedicationRequest.encounter` as `Equivalent`.\nThis will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter.\"    If there is a need to link to episodes of care they will be handled with an extension."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.supportingInformation",
+      "display" : "supportingInformation",
+      "target" : [{
+        "code" : "MedicationRequest.supportingInformation",
+        "display" : "MedicationRequest.supportingInformation",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.supportingInformation` is mapped to FHIR R4 element `MedicationRequest.supportingInformation` as `Equivalent`.\nThis attribute can be used to reference a MedicationStatement about the patients' medication use."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.authoredOn",
+      "display" : "authoredOn",
+      "target" : [{
+        "code" : "MedicationRequest.authoredOn",
+        "display" : "MedicationRequest.authoredOn",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.authoredOn` is mapped to FHIR R4 element `MedicationRequest.authoredOn` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.requester",
+      "display" : "requester",
+      "target" : [{
+        "code" : "MedicationRequest.requester",
+        "display" : "MedicationRequest.requester",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.requester` is mapped to FHIR R4 element `MedicationRequest.requester` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.reported",
+      "display" : "reported",
+      "target" : [{
+        "code" : "MedicationRequest.reported[x]",
+        "display" : "MedicationRequest.reported[x]",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.reported` is mapped to FHIR R4 element `MedicationRequest.reported[x]` as `Equivalent`.\nThe target context `MedicationRequest.reported[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationRequest`.\nIf not populated, then assume that this is the original record and not reported"
+      }]
+    },
+    {
+      "code" : "MedicationRequest.performerType",
+      "display" : "performerType",
+      "target" : [{
+        "code" : "MedicationRequest.performerType",
+        "display" : "MedicationRequest.performerType",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.performerType` is mapped to FHIR R4 element `MedicationRequest.performerType` as `Equivalent`.\nIf specified without indicating a performer, this indicates that the performer must be of the specified type. If specified with a performer then it indicates the requirements of the performer if the designated performer is not available."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.performer",
+      "display" : "performer",
+      "target" : [{
+        "code" : "MedicationRequest.performer",
+        "display" : "MedicationRequest.performer",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.performer` is mapped to FHIR R4 element `MedicationRequest.performer` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationRequest.performer` with unmapped reference targets: DeviceDefinition, HealthcareService."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.recorder",
+      "display" : "recorder",
+      "target" : [{
+        "code" : "MedicationRequest.recorder",
+        "display" : "MedicationRequest.recorder",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.recorder` is mapped to FHIR R4 element `MedicationRequest.recorder` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.reason",
+      "display" : "reason",
+      "target" : [{
+        "code" : "MedicationRequest.reasonCode",
+        "display" : "MedicationRequest.reasonCode",
+        "equivalence" : "relatedto",
+        "comment" : "Element `MedicationRequest.reason` is mapped to FHIR R4 element `MedicationRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `MedicationRequest.reason` is mapped to FHIR R4 element `MedicationRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThis could be a diagnosis code. If a full condition record exists or additional detail is needed, use reasonReference."
+      },
+      {
+        "code" : "MedicationRequest.reasonReference",
+        "display" : "MedicationRequest.reasonReference",
+        "equivalence" : "relatedto",
+        "comment" : "Element `MedicationRequest.reason` is mapped to FHIR R4 element `MedicationRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `MedicationRequest.reason` is mapped to FHIR R4 element `MedicationRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThis could be a diagnosis code. If a full condition record exists or additional detail is needed, use reasonReference."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.courseOfTherapyType",
+      "display" : "courseOfTherapyType",
+      "target" : [{
+        "code" : "MedicationRequest.courseOfTherapyType",
+        "display" : "MedicationRequest.courseOfTherapyType",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.courseOfTherapyType` is mapped to FHIR R4 element `MedicationRequest.courseOfTherapyType` as `Equivalent`.\nThis attribute should not be confused with the protocol of the medication."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.insurance",
+      "display" : "insurance",
+      "target" : [{
+        "code" : "MedicationRequest.insurance",
+        "display" : "MedicationRequest.insurance",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.insurance` is mapped to FHIR R4 element `MedicationRequest.insurance` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.note",
+      "display" : "note",
+      "target" : [{
+        "code" : "MedicationRequest.note",
+        "display" : "MedicationRequest.note",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.note` is mapped to FHIR R4 element `MedicationRequest.note` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dosageInstruction",
+      "display" : "dosageInstruction",
+      "target" : [{
+        "code" : "MedicationRequest.dosageInstruction",
+        "display" : "MedicationRequest.dosageInstruction",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dosageInstruction` is mapped to FHIR R4 element `MedicationRequest.dosageInstruction` as `Equivalent`.\nThere are examples where a medication request may include the option of an oral dose or an Intravenous or Intramuscular dose.  For example, \"Ondansetron 8mg orally or IV twice a day as needed for nausea\" or \"Compazine® (prochlorperazine) 5-10mg PO or 25mg PR bid prn nausea or vomiting\".  In these cases, two medication requests would be created that could be grouped together.  The decision on which dose and route of administration to use is based on the patient's condition at the time the dose is needed. In general, each prescribed drug will be a separate Medication Request. \n\nWhen drug orders are grouped together at the time of order entry,  but each of the drugs can be manipulated independently e.g. changing the status of one order to \"completed\" or \"cancelled\", changing another order status to \"on-hold\", the method to \"group\" all of the medication requests together is to use  MedicationRequest.groupIdentifier element.  All of the orders grouped together in this manner will have the same groupIdentifier, and separately, each order in the group may have a unique identifier.  \n\nThere are cases that require grouping of Medication orders together when it is necessary to specify optionality e.g. order two drugs at one time, but stating either of these drugs may be used to treat the patient.  The use of a RequestOrchestration should be used as a parent for the Medication orders that require this type of grouping. An example when it may be necessary to group medication orders together is when you specify timing relationships e.g. order drug \"xyz\" with dose 123, then taper the same drug to a different dose after some interval of time\nprecedence:\ne.g. give drug \"abc\" followed by drug \"def\"\ne.g. give drug 30 minutes before some procedure was performed\nmore generically this supports - hierarchical groups of actions, where each specific action references the action to be performed (in terms of a Request resource), and each group describes additional behavior, relationships, and applicable conditions between the actions in the overall group.\nNote that one should NOT use the List or Composition resource to accomplish the above requirements.  You may use List or Composition for other business requirements, but not to address the specific requirements of grouping medication orders."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest",
+      "display" : "dispenseRequest",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest",
+        "display" : "MedicationRequest.dispenseRequest",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.dispenseRequest` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.initialFill",
+      "display" : "initialFill",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.initialFill",
+        "display" : "MedicationRequest.dispenseRequest.initialFill",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.dispenseRequest.initialFill` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.initialFill` as `Equivalent`.\nIf populating this element, either the quantity or the duration must be included."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.initialFill.quantity",
+      "display" : "quantity",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.initialFill.quantity",
+        "display" : "MedicationRequest.dispenseRequest.initialFill.quantity",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.initialFill.quantity` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.initialFill.quantity` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.initialFill.duration",
+      "display" : "duration",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.initialFill.duration",
+        "display" : "MedicationRequest.dispenseRequest.initialFill.duration",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.initialFill.duration` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.initialFill.duration` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.dispenseInterval",
+      "display" : "dispenseInterval",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.dispenseInterval",
+        "display" : "MedicationRequest.dispenseRequest.dispenseInterval",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.dispenseInterval` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.dispenseInterval` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.validityPeriod",
+      "display" : "validityPeriod",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.validityPeriod",
+        "display" : "MedicationRequest.dispenseRequest.validityPeriod",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.validityPeriod` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.validityPeriod` as `Equivalent`.\nIt reflects the prescribers' perspective for the validity of the prescription. Dispenses must not be made against the prescription outside of this period. The lower-bound of the Dispensing Window signifies the earliest date that the prescription can be filled for the first time. If an upper-bound is not specified then the Prescription is open-ended or will default to a stale-date based on regulations."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
+      "display" : "numberOfRepeatsAllowed",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
+        "display" : "MedicationRequest.dispenseRequest.numberOfRepeatsAllowed",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.numberOfRepeatsAllowed` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.numberOfRepeatsAllowed` as `Equivalent`.\nIf displaying \"number of authorized fills\", add 1 to this number."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.quantity",
+      "display" : "quantity",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.quantity",
+        "display" : "MedicationRequest.dispenseRequest.quantity",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.quantity` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.quantity` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.expectedSupplyDuration",
+      "display" : "expectedSupplyDuration",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.expectedSupplyDuration",
+        "display" : "MedicationRequest.dispenseRequest.expectedSupplyDuration",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.expectedSupplyDuration` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.expectedSupplyDuration` as `Equivalent`.\nIn some situations, this attribute may be used instead of quantity to identify the amount supplied by how long it is expected to last, rather than the physical quantity issued, e.g. 90 days supply of medication (based on an ordered dosage). When possible, it is always better to specify quantity, as this tends to be more precise. expectedSupplyDuration will always be an estimate that can be influenced by external factors."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.dispenser",
+      "display" : "dispenser",
+      "target" : [{
+        "code" : "MedicationRequest.dispenseRequest.performer",
+        "display" : "MedicationRequest.dispenseRequest.performer",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.dispenseRequest.dispenser` is mapped to FHIR R4 element `MedicationRequest.dispenseRequest.performer` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.substitution",
+      "display" : "substitution",
+      "target" : [{
+        "code" : "MedicationRequest.substitution",
+        "display" : "MedicationRequest.substitution",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.substitution` is mapped to FHIR R4 element `MedicationRequest.substitution` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.substitution.allowed[x]",
+      "display" : "allowed[x]",
+      "target" : [{
+        "code" : "MedicationRequest.substitution.allowed[x]",
+        "display" : "MedicationRequest.substitution.allowed[x]",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.substitution.allowed[x]` is mapped to FHIR R4 element `MedicationRequest.substitution.allowed[x]` as `Equivalent`.\nThe target context `MedicationRequest.substitution.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationRequest.substitution`.\nThis element is labeled as a modifier because whether substitution is allow or not, it cannot be ignored."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.substitution.reason",
+      "display" : "reason",
+      "target" : [{
+        "code" : "MedicationRequest.substitution.reason",
+        "display" : "MedicationRequest.substitution.reason",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.substitution.reason` is mapped to FHIR R4 element `MedicationRequest.substitution.reason` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.eventHistory",
+      "display" : "eventHistory",
+      "target" : [{
+        "code" : "MedicationRequest.eventHistory",
+        "display" : "MedicationRequest.eventHistory",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.eventHistory` is mapped to FHIR R4 element `MedicationRequest.eventHistory` as `Equivalent`.\nThis might not include provenances for all versions of the request – only those deemed \"relevant\" or important. This SHALL NOT include the provenance associated with this current version of the resource. (If that provenance is deemed to be a \"relevant\" change, it will need to be added as part of a later update. Until then, it can be queried directly as the provenance that points to this version using _revinclude All Provenances should have some historical version of this Request as their subject.)."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "MedicationRequest.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.status",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MedicationRequest.status` is mapped to FHIR R4 element `MedicationRequest.status` as `RelatedTo`.\nThe mappings for `MedicationRequest.status` do not allow expression of the necessary codes, per the bindings on the source and target.\nThe target context `MedicationRequest.status` is a modifier element, so this extension does not need to be defined as a modifier.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.\n\nClinical decision support systems should take the status into account when determining which medications to include in their algorithms."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.statusChanged",
+      "display" : "statusChanged",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.statusChanged",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.statusChanged` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.statusChanged` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.informationSource",
+      "display" : "informationSource",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.informationSource",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.informationSource` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.informationSource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.device",
+      "display" : "device",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.device",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.device` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.renderedDosageInstruction",
+      "display" : "renderedDosageInstruction",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.renderedDosageInstruction",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.renderedDosageInstruction` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.renderedDosageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.effectiveDosePeriod",
+      "display" : "effectiveDosePeriod",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.effectiveDosePeriod",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.effectiveDosePeriod` has a context of MedicationRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.effectiveDosePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.dispenserInstruction",
+      "display" : "dispenserInstruction",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenserInstruction",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.dispenseRequest.dispenserInstruction` has a context of MedicationRequest.dispenseRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.dispenseRequest.dispenserInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MedicationRequest.dispenseRequest.doseAdministrationAid",
+      "display" : "doseAdministrationAid",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.doseAdministrationAid",
+        "equivalence" : "wider",
+        "comment" : "Element `MedicationRequest.dispenseRequest.doseAdministrationAid` has a context of MedicationRequest.dispenseRequest based on following the parent source element upwards and mapping to `MedicationRequest`.\nElement `MedicationRequest.dispenseRequest.doseAdministrationAid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/MedicationRequest",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "targetVersion" : "5.2.0",
+    "element" : [{
+      "code" : "MedicationRequest.performer",
+      "display" : "performer",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "equivalent",
+        "comment" : "R5: additional references"
+      }]
+    }]
+  }]
+}
+
+```

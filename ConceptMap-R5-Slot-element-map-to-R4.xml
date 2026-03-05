@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Slot-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Slot-element-map-to-R4</b></p><a name="R5-Slot-element-map-to-R4"> </a><a name="hcR5-Slot-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Slot|5.0.0</code> to <a href="http://hl7.org/fhir/R4/slot.html">Slotversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Slot.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.meta</td><td>Element `Slot.meta` is mapped to FHIR R4 element `Slot.meta` as `Equivalent`.</td></tr><tr><td>Slot.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.implicitRules</td><td>Element `Slot.implicitRules` is mapped to FHIR R4 element `Slot.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Slot.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.language</td><td>Element `Slot.language` is mapped to FHIR R4 element `Slot.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Slot.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.text</td><td>Element `Slot.text` is mapped to FHIR R4 element `Slot.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Slot.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.contained</td><td>Element `Slot.contained` is mapped to FHIR R4 element `Slot.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Slot.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.identifier</td><td>Element `Slot.identifier` is mapped to FHIR R4 element `Slot.identifier` as `Equivalent`.</td></tr><tr><td>Slot.serviceCategory (serviceCategory)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.serviceCategory</td><td>Element `Slot.serviceCategory` is mapped to FHIR R4 element `Slot.serviceCategory` as `Equivalent`.</td></tr><tr><td>Slot.serviceType (serviceType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Slot.serviceType</td><td>Element `Slot.serviceType` is mapped to FHIR R4 element `Slot.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Slot.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Slot.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td>Slot.specialty (specialty)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.specialty</td><td>Element `Slot.specialty` is mapped to FHIR R4 element `Slot.specialty` as `Equivalent`.</td></tr><tr><td>Slot.appointmentType (appointmentType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.appointmentType</td><td>Element `Slot.appointmentType` is mapped to FHIR R4 element `Slot.appointmentType` as `SourceIsBroaderThanTarget`.
+A slot may be allow multiple appointment types, but when booked, would only be used for one of the given appointment types.</td></tr><tr><td>Slot.schedule (schedule)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.schedule</td><td>Element `Slot.schedule` is mapped to FHIR R4 element `Slot.schedule` as `Equivalent`.</td></tr><tr><td>Slot.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.status</td><td>Element `Slot.status` is mapped to FHIR R4 element `Slot.status` as `Equivalent`.</td></tr><tr><td>Slot.start (start)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.start</td><td>Element `Slot.start` is mapped to FHIR R4 element `Slot.start` as `Equivalent`.</td></tr><tr><td>Slot.end (end)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.end</td><td>Element `Slot.end` is mapped to FHIR R4 element `Slot.end` as `Equivalent`.</td></tr><tr><td>Slot.overbooked (overbooked)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.overbooked</td><td>Element `Slot.overbooked` is mapped to FHIR R4 element `Slot.overbooked` as `Equivalent`.</td></tr><tr><td>Slot.comment (comment)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Slot.comment</td><td>Element `Slot.comment` is mapped to FHIR R4 element `Slot.comment` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Slot|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Slot.serviceType (serviceType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.serviceType</td><td>Element `Slot.serviceType` is mapped to FHIR R4 element `Slot.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Slot.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Slot.serviceType` do not cover the following types based on type expansion: reference.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Slot-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5SlotElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Slot to FHIR R4 Slot"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6375912-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Slot to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Slot"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Slot"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Slot.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Slot.meta"/>
+        <display value="Slot.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.meta` is mapped to FHIR R4 element `Slot.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Slot.implicitRules"/>
+        <display value="Slot.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.implicitRules` is mapped to FHIR R4 element `Slot.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Slot.language"/>
+        <display value="Slot.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.language` is mapped to FHIR R4 element `Slot.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Slot.text"/>
+        <display value="Slot.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.text` is mapped to FHIR R4 element `Slot.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Slot.contained"/>
+        <display value="Slot.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.contained` is mapped to FHIR R4 element `Slot.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Slot.identifier"/>
+        <display value="Slot.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.identifier` is mapped to FHIR R4 element `Slot.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.serviceCategory"/>
+      <display value="serviceCategory"/>
+      <target>
+        <code value="Slot.serviceCategory"/>
+        <display value="Slot.serviceCategory"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.serviceCategory` is mapped to FHIR R4 element `Slot.serviceCategory` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="Slot.serviceType"/>
+        <display value="Slot.serviceType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Slot.serviceType` is mapped to FHIR R4 element `Slot.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Slot.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Slot.serviceType` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.specialty"/>
+      <display value="specialty"/>
+      <target>
+        <code value="Slot.specialty"/>
+        <display value="Slot.specialty"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.specialty` is mapped to FHIR R4 element `Slot.specialty` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.appointmentType"/>
+      <display value="appointmentType"/>
+      <target>
+        <code value="Slot.appointmentType"/>
+        <display value="Slot.appointmentType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.appointmentType` is mapped to FHIR R4 element `Slot.appointmentType` as `SourceIsBroaderThanTarget`.&#xA;A slot may be allow multiple appointment types, but when booked, would only be used for one of the given appointment types."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.schedule"/>
+      <display value="schedule"/>
+      <target>
+        <code value="Slot.schedule"/>
+        <display value="Slot.schedule"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.schedule` is mapped to FHIR R4 element `Slot.schedule` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Slot.status"/>
+        <display value="Slot.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.status` is mapped to FHIR R4 element `Slot.status` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.start"/>
+      <display value="start"/>
+      <target>
+        <code value="Slot.start"/>
+        <display value="Slot.start"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.start` is mapped to FHIR R4 element `Slot.start` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.end"/>
+      <display value="end"/>
+      <target>
+        <code value="Slot.end"/>
+        <display value="Slot.end"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.end` is mapped to FHIR R4 element `Slot.end` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.overbooked"/>
+      <display value="overbooked"/>
+      <target>
+        <code value="Slot.overbooked"/>
+        <display value="Slot.overbooked"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.overbooked` is mapped to FHIR R4 element `Slot.overbooked` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Slot.comment"/>
+      <display value="comment"/>
+      <target>
+        <code value="Slot.comment"/>
+        <display value="Slot.comment"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.comment` is mapped to FHIR R4 element `Slot.comment` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Slot"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Slot.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.serviceType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Slot.serviceType` is mapped to FHIR R4 element `Slot.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Slot.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Slot.serviceType` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,898 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Measure-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Measure-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Measure-element-map-to-R4</b></p><a name=\"R5-Measure-element-map-to-R4\"> </a><a name=\"hcR5-Measure-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Measure|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/measure.html\">Measureversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Measure.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.meta</td><td>Element `Measure.meta` is mapped to FHIR R4 element `Measure.meta` as `Equivalent`.</td></tr><tr><td>Measure.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.implicitRules</td><td>Element `Measure.implicitRules` is mapped to FHIR R4 element `Measure.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Measure.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.language</td><td>Element `Measure.language` is mapped to FHIR R4 element `Measure.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Measure.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.text</td><td>Element `Measure.text` is mapped to FHIR R4 element `Measure.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Measure.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.contained</td><td>Element `Measure.contained` is mapped to FHIR R4 element `Measure.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Measure.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.url</td><td>Element `Measure.url` is mapped to FHIR R4 element `Measure.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>Measure.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.identifier</td><td>Element `Measure.identifier` is mapped to FHIR R4 element `Measure.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this measure outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>Measure.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.version</td><td>Element `Measure.version` is mapped to FHIR R4 element `Measure.version` as `Equivalent`.\nThere may be different measure instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the measure with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>Measure.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.name</td><td>Element `Measure.name` is mapped to FHIR R4 element `Measure.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>Measure.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.title</td><td>Element `Measure.title` is mapped to FHIR R4 element `Measure.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>Measure.subtitle (subtitle)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.subtitle</td><td>Element `Measure.subtitle` is mapped to FHIR R4 element `Measure.subtitle` as `Equivalent`.</td></tr><tr><td>Measure.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.status</td><td>Element `Measure.status` is mapped to FHIR R4 element `Measure.status` as `Equivalent`.\nAllows filtering of measures that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.experimental</td><td>Element `Measure.experimental` is mapped to FHIR R4 element `Measure.experimental` as `Equivalent`.\nAllows filtering of measures that are appropriate for use versus not.</td></tr><tr><td>Measure.subject[x] (subject[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.subject[x]</td><td>Element `Measure.subject[x]` is mapped to FHIR R4 element `Measure.subject[x]` as `Equivalent`.\nThe target context `Measure.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Measure`.\nThe subject of the measure is critical in interpreting the criteria definitions, as the logic in the measures is evaluated with respect to a particular subject. This corresponds roughly to the notion of a Compartment in that it limits what content is available based on its relationship to the subject. In CQL, this corresponds to the context declaration.</td></tr><tr><td>Measure.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.date</td><td>Element `Measure.date` is mapped to FHIR R4 element `Measure.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the measure. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.publisher</td><td>Element `Measure.publisher` is mapped to FHIR R4 element `Measure.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the measure is the organization or individual primarily responsible for the maintenance and upkeep of the measure. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the measure. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>Measure.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.contact</td><td>Element `Measure.contact` is mapped to FHIR R4 element `Measure.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.description</td><td>Element `Measure.description` is mapped to FHIR R4 element `Measure.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the measure as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the measure is presumed to be the predominant language in the place the measure was created).</td></tr><tr><td>Measure.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.useContext</td><td>Element `Measure.useContext` is mapped to FHIR R4 element `Measure.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>Measure.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.jurisdiction</td><td>Element `Measure.jurisdiction` is mapped to FHIR R4 element `Measure.jurisdiction` as `Equivalent`.\nElement `Measure.jurisdiction` has been flagged as deprecated.\nIt may be possible for the measure to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>Measure.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.purpose</td><td>Element `Measure.purpose` is mapped to FHIR R4 element `Measure.purpose` as `Equivalent`.\nThis element does not describe the usage of the measure. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this measure.</td></tr><tr><td>Measure.usage (usage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.usage</td><td>Element `Measure.usage` is mapped to FHIR R4 element `Measure.usage` as `Equivalent`.\nThis metadata element was typically referred to as Guidance in HQMF</td></tr><tr><td>Measure.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.copyright</td><td>Element `Measure.copyright` is mapped to FHIR R4 element `Measure.copyright` as `Equivalent`.\nThe short copyright declaration (e.g. (c) '2015+ xyz organization' should be sent in the copyrightLabel element.</td></tr><tr><td>Measure.approvalDate (approvalDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.approvalDate</td><td>Element `Measure.approvalDate` is mapped to FHIR R4 element `Measure.approvalDate` as `Equivalent`.\nThe 'date' element may be more recent than the approval date because of minor changes or editorial corrections.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.lastReviewDate (lastReviewDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.lastReviewDate</td><td>Element `Measure.lastReviewDate` is mapped to FHIR R4 element `Measure.lastReviewDate` as `Equivalent`.\nIf specified, this date follows the original approval date.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.effectivePeriod (effectivePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.effectivePeriod</td><td>Element `Measure.effectivePeriod` is mapped to FHIR R4 element `Measure.effectivePeriod` as `Equivalent`.\nThe effective period for a measure determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.topic (topic)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.topic</td><td>Element `Measure.topic` is mapped to FHIR R4 element `Measure.topic` as `Equivalent`.\nElement `Measure.topic` has been flagged as deprecated.\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'topic' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#topic and useContext.valueCodeableConcept indicating the topic)</td></tr><tr><td>Measure.author (author)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.author</td><td>Element `Measure.author` is mapped to FHIR R4 element `Measure.author` as `Equivalent`.</td></tr><tr><td>Measure.editor (editor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.editor</td><td>Element `Measure.editor` is mapped to FHIR R4 element `Measure.editor` as `Equivalent`.</td></tr><tr><td>Measure.reviewer (reviewer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.reviewer</td><td>Element `Measure.reviewer` is mapped to FHIR R4 element `Measure.reviewer` as `Equivalent`.\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.endorser (endorser)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.endorser</td><td>Element `Measure.endorser` is mapped to FHIR R4 element `Measure.endorser` as `Equivalent`.\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Measure.relatedArtifact (relatedArtifact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.relatedArtifact</td><td>Element `Measure.relatedArtifact` is mapped to FHIR R4 element `Measure.relatedArtifact` as `Equivalent`.\nEach related artifact is either an attachment, or a reference to another resource, but not both.</td></tr><tr><td>Measure.library (library)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.library</td><td>Element `Measure.library` is mapped to FHIR R4 element `Measure.library` as `Equivalent`.</td></tr><tr><td>Measure.disclaimer (disclaimer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.disclaimer</td><td>Element `Measure.disclaimer` is mapped to FHIR R4 element `Measure.disclaimer` as `Equivalent`.</td></tr><tr><td>Measure.scoring (scoring)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.scoring</td><td>Element `Measure.scoring` is mapped to FHIR R4 element `Measure.scoring` as `Equivalent`.</td></tr><tr><td>Measure.compositeScoring (compositeScoring)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.compositeScoring</td><td>Element `Measure.compositeScoring` is mapped to FHIR R4 element `Measure.compositeScoring` as `Equivalent`.</td></tr><tr><td>Measure.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.type</td><td>Element `Measure.type` is mapped to FHIR R4 element `Measure.type` as `Equivalent`.</td></tr><tr><td>Measure.riskAdjustment (riskAdjustment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.riskAdjustment</td><td>Element `Measure.riskAdjustment` is mapped to FHIR R4 element `Measure.riskAdjustment` as `Equivalent`.\nDescribes the method of adjusting for clinical severity and conditions present at the start of care that can influence patient outcomes for making valid comparisons of outcome measures across providers. Indicates whether a measure is subject to the statistical process for reducing, removing, or clarifying the influences of confounding factors to allow for more useful comparisons.</td></tr><tr><td>Measure.rateAggregation (rateAggregation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.rateAggregation</td><td>Element `Measure.rateAggregation` is mapped to FHIR R4 element `Measure.rateAggregation` as `Equivalent`.\nThe measure rate for an organization or clinician is based upon the entities’ aggregate data and summarizes the performance of the entity over a given time period (e.g., monthly, quarterly, yearly). The aggregated data are derived from the results of a specific measure algorithm and, if appropriate, the application of specific risk adjustment models.  Can also be used to describe how to risk adjust the data based on supplemental data elements described in the eMeasure (e.g., pneumonia hospital measures antibiotic selection in the ICU versus non-ICU and then the roll-up of the two). This could be applied to aggregated cohort measure definitions (e.g., CDC's aggregate reporting for TB at the state level).</td></tr><tr><td>Measure.rationale (rationale)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.rationale</td><td>Element `Measure.rationale` is mapped to FHIR R4 element `Measure.rationale` as `Equivalent`.</td></tr><tr><td>Measure.clinicalRecommendationStatement (clinicalRecommendationStatement)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.clinicalRecommendationStatement</td><td>Element `Measure.clinicalRecommendationStatement` is mapped to FHIR R4 element `Measure.clinicalRecommendationStatement` as `Equivalent`.</td></tr><tr><td>Measure.improvementNotation (improvementNotation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.improvementNotation</td><td>Element `Measure.improvementNotation` is mapped to FHIR R4 element `Measure.improvementNotation` as `Equivalent`.</td></tr><tr><td>Measure.guidance (guidance)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.guidance</td><td>Element `Measure.guidance` is mapped to FHIR R4 element `Measure.guidance` as `Equivalent`.\nElement `Measure.guidance` has been flagged as deprecated.\nNOTE: This element is deprecated in favor of the usage element</td></tr><tr><td>Measure.group (group)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Measure.group</td><td>Element `Measure.group` is mapped to FHIR R4 element `Measure.group` as `Equivalent`.</td></tr><tr><td>Measure.group.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.code</td><td>Element `Measure.group.code` is mapped to FHIR R4 element `Measure.group.code` as `Equivalent`.</td></tr><tr><td>Measure.group.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.description</td><td>Element `Measure.group.description` is mapped to FHIR R4 element `Measure.group.description` as `Equivalent`.</td></tr><tr><td>Measure.group.population (population)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Measure.group.population</td><td>Element `Measure.group.population` is mapped to FHIR R4 element `Measure.group.population` as `Equivalent`.</td></tr><tr><td>Measure.group.population.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.population.code</td><td>Element `Measure.group.population.code` is mapped to FHIR R4 element `Measure.group.population.code` as `Equivalent`.</td></tr><tr><td>Measure.group.population.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.population.description</td><td>Element `Measure.group.population.description` is mapped to FHIR R4 element `Measure.group.population.description` as `Equivalent`.</td></tr><tr><td>Measure.group.population.criteria (criteria)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.population.criteria</td><td>Element `Measure.group.population.criteria` is mapped to FHIR R4 element `Measure.group.population.criteria` as `Equivalent`.\nIn the case of a continuous-variable or ratio measure, this may be the name of a function that calculates the value of the individual observation for each patient or event in the population. For these types of measures, individual observations are reported as observation resources included in the evaluatedResources bundle for each patient. See the MeasureReport resource or the Quality Reporting topic for more information.</td></tr><tr><td>Measure.group.stratifier (stratifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Measure.group.stratifier</td><td>Element `Measure.group.stratifier` is mapped to FHIR R4 element `Measure.group.stratifier` as `Equivalent`.</td></tr><tr><td>Measure.group.stratifier.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.stratifier.code</td><td>Element `Measure.group.stratifier.code` is mapped to FHIR R4 element `Measure.group.stratifier.code` as `Equivalent`.</td></tr><tr><td>Measure.group.stratifier.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.stratifier.description</td><td>Element `Measure.group.stratifier.description` is mapped to FHIR R4 element `Measure.group.stratifier.description` as `Equivalent`.</td></tr><tr><td>Measure.group.stratifier.criteria (criteria)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.stratifier.criteria</td><td>Element `Measure.group.stratifier.criteria` is mapped to FHIR R4 element `Measure.group.stratifier.criteria` as `Equivalent`.</td></tr><tr><td>Measure.group.stratifier.component (component)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Measure.group.stratifier.component</td><td>Element `Measure.group.stratifier.component` is mapped to FHIR R4 element `Measure.group.stratifier.component` as `Equivalent`.\nStratifiers are defined either as a single criteria, or as a set of component criteria.</td></tr><tr><td>Measure.group.stratifier.component.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.stratifier.component.code</td><td>Element `Measure.group.stratifier.component.code` is mapped to FHIR R4 element `Measure.group.stratifier.component.code` as `Equivalent`.</td></tr><tr><td>Measure.group.stratifier.component.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.stratifier.component.description</td><td>Element `Measure.group.stratifier.component.description` is mapped to FHIR R4 element `Measure.group.stratifier.component.description` as `Equivalent`.</td></tr><tr><td>Measure.group.stratifier.component.criteria (criteria)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.group.stratifier.component.criteria</td><td>Element `Measure.group.stratifier.component.criteria` is mapped to FHIR R4 element `Measure.group.stratifier.component.criteria` as `Equivalent`.</td></tr><tr><td>Measure.supplementalData (supplementalData)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Measure.supplementalData</td><td>Element `Measure.supplementalData` is mapped to FHIR R4 element `Measure.supplementalData` as `Equivalent`.\nNote that supplemental data are reported as resources for each patient and referenced in the supplementalData element of the MeasureReport. If the supplementalData expression results in a value other than a resource, it is reported using an Observation resource, typically contained in the resulting MeasureReport. See the MeasureReport resource and the Quality Reporting topic for more information.</td></tr><tr><td>Measure.supplementalData.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.supplementalData.code</td><td>Element `Measure.supplementalData.code` is mapped to FHIR R4 element `Measure.supplementalData.code` as `Equivalent`.</td></tr><tr><td>Measure.supplementalData.usage (usage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.supplementalData.usage</td><td>Element `Measure.supplementalData.usage` is mapped to FHIR R4 element `Measure.supplementalData.usage` as `Equivalent`.</td></tr><tr><td>Measure.supplementalData.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.supplementalData.description</td><td>Element `Measure.supplementalData.description` is mapped to FHIR R4 element `Measure.supplementalData.description` as `Equivalent`.</td></tr><tr><td>Measure.supplementalData.criteria (criteria)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Measure.supplementalData.criteria</td><td>Element `Measure.supplementalData.criteria` is mapped to FHIR R4 element `Measure.supplementalData.criteria` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Measure|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Measure.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.versionAlgorithm</td><td>Element `Measure.versionAlgorithm[x]` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>Measure.basis (basis)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.basis</td><td>Element `Measure.basis` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.basis` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor a subject-based measure, the population basis is simply boolean; all the criteria are expressed as true/false conditions that determine membership of an individual case in the population. For non-subject-based measures, the population basis can be any resource type, and the criteria are queries that return the subject's contribution to the population as a list of that resource type. For example, for a procedure-based measure, the population criteria would return lists of procedures that should be included in each population.</td></tr><tr><td>Measure.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.copyrightLabel</td><td>Element `Measure.copyrightLabel` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>Measure.scoringUnit (scoringUnit)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.scoringUnit</td><td>Element `Measure.scoringUnit` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.scoringUnit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen this element is specified, implementations are expected to report measure scores in the specified units. Note that this may involve unit conversion if the expected units are different than the units of the resulting score calculation. In this case, unit conversions SHALL be performed according to the unit conversion semantics specified by UCUM.</td></tr><tr><td>Measure.term (term)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term</td><td>Element `Measure.term` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.term` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Measure.term.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:code</td><td>Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.term.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Measure.term.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:definition</td><td>Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.term.definition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Measure.group.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.linkId</td><td>Element `Measure.group.linkId` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such</td></tr><tr><td>Measure.group.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.type</td><td>Element `Measure.group.type` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, defines the measure type for this specific group. If not specified, the measureType of the group is determined by the root type element</td></tr><tr><td>Measure.group.subject[x] (subject[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject</td><td>Element `Measure.group.subject[x]` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.subject[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe subject of the measure is critical in interpreting the criteria definitions, as the logic in the measures is evaluated with respect to a particular subject. This corresponds roughly to the notion of a Compartment in that it limits what content is available based on its relationship to the subject. In CQL, this corresponds to the context declaration.</td></tr><tr><td>Measure.group.basis (basis)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.basis</td><td>Element `Measure.group.basis` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.basis` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, defines the population basis for this specific group. If not specified, the basis for the group is determined by the root basis element</td></tr><tr><td>Measure.group.scoring (scoring)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoring</td><td>Element `Measure.group.scoring` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.scoring` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, defines the scoring for this specific group. If not specified, scoring for this group is determined by the root scoring element</td></tr><tr><td>Measure.group.scoringUnit (scoringUnit)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoringUnit</td><td>Element `Measure.group.scoringUnit` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.scoringUnit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, this defines the scoringUnit for this specific group. If not specified, the scoringUnit for this group is determined by the root scoringUnit element. As with the root element, when this element is specified, implementations are expected to report measure scores in the specified units. Note that this may involve unit conversion if the expected units are different than the units of the resulting score calculation. In this case, unit conversions SHALL be performed according to the unit conversion semantics specified by UCUM.</td></tr><tr><td>Measure.group.rateAggregation (rateAggregation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.rateAggregation</td><td>Element `Measure.group.rateAggregation` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.rateAggregation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe measure rate for an organization or clinician is based upon the entities’ aggregate data and summarizes the performance of the entity over a given time period (e.g., monthly, quarterly, yearly). The aggregated data are derived from the results of a specific measure algorithm and, if appropriate, the application of specific risk adjustment models.  Can also be used to describe how to risk adjust the data based on supplemental data elements described in the eMeasure (e.g., pneumonia hospital measures antibiotic selection in the ICU versus non-ICU and then the roll-up of the two). This could be applied to aggregated cohort measure definitions (e.g., CDC's aggregate reporting for TB at the state level).</td></tr><tr><td>Measure.group.improvementNotation (improvementNotation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.improvementNotation</td><td>Element `Measure.group.improvementNotation` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.improvementNotation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, this element defines the improvementNotation for this specific group. If not specified, improvementNotation for this group is determined by the root improvementNotation element</td></tr><tr><td>Measure.group.library (library)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.library</td><td>Element `Measure.group.library` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.library` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Measure.group.population.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.linkId</td><td>Element `Measure.group.population.linkId` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such</td></tr><tr><td>Measure.group.population.groupDefinition (groupDefinition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.groupDefinition</td><td>Element `Measure.group.population.groupDefinition` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.groupDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this approach can only be used for measures where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group resource SHALL be a definitional (as opposed to an actual) group.</td></tr><tr><td>Measure.group.population.inputPopulationId (inputPopulationId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.inputPopulationId</td><td>Element `Measure.group.population.inputPopulationId` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.inputPopulationId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Measure.group.population.aggregateMethod (aggregateMethod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.aggregateMethod</td><td>Element `Measure.group.population.aggregateMethod` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.aggregateMethod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Measure.group.stratifier.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.linkId</td><td>Element `Measure.group.stratifier.linkId` has a context of Measure.group.stratifier based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such</td></tr><tr><td>Measure.group.stratifier.groupDefinition (groupDefinition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.groupDefinition</td><td>Element `Measure.group.stratifier.groupDefinition` has a context of Measure.group.stratifier based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.groupDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this approach can only be used for measures where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group SHALL be a definitional (as opposed to an actual) group.</td></tr><tr><td>Measure.group.stratifier.component.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.linkId</td><td>Element `Measure.group.stratifier.component.linkId` has a context of Measure.group.stratifier.component based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.component.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such</td></tr><tr><td>Measure.group.stratifier.component.groupDefinition (groupDefinition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.groupDefinition</td><td>Element `Measure.group.stratifier.component.groupDefinition` has a context of Measure.group.stratifier.component based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.component.groupDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this approach can only be used for measures where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group SHALL be a definitional (as opposed to an actual) group.</td></tr><tr><td>Measure.supplementalData.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.linkId</td><td>Element `Measure.supplementalData.linkId` has a context of Measure.supplementalData based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.supplementalData.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Measure-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Measure-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5MeasureElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Measure to FHIR R4 Measure"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:50.1079438-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Measure to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Measure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Measure>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Measure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Measure>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Measure.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.meta" ] ;
+         fhir:display [ fhir:v "Measure.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.meta` is mapped to FHIR R4 element `Measure.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.implicitRules" ] ;
+         fhir:display [ fhir:v "Measure.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.implicitRules` is mapped to FHIR R4 element `Measure.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.language" ] ;
+         fhir:display [ fhir:v "Measure.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.language` is mapped to FHIR R4 element `Measure.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.text" ] ;
+         fhir:display [ fhir:v "Measure.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.text` is mapped to FHIR R4 element `Measure.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.contained" ] ;
+         fhir:display [ fhir:v "Measure.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.contained` is mapped to FHIR R4 element `Measure.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.url" ] ;
+         fhir:display [ fhir:v "Measure.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.url` is mapped to FHIR R4 element `Measure.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.identifier" ] ;
+         fhir:display [ fhir:v "Measure.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.identifier` is mapped to FHIR R4 element `Measure.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this measure outside of FHIR, where it is not possible to use the logical URI." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.version" ] ;
+         fhir:display [ fhir:v "Measure.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.version` is mapped to FHIR R4 element `Measure.version` as `Equivalent`.\nThere may be different measure instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the measure with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.name" ] ;
+         fhir:display [ fhir:v "Measure.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.name` is mapped to FHIR R4 element `Measure.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.title" ] ;
+         fhir:display [ fhir:v "Measure.title" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.title` is mapped to FHIR R4 element `Measure.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.subtitle" ] ;
+       fhir:display [ fhir:v "subtitle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.subtitle" ] ;
+         fhir:display [ fhir:v "Measure.subtitle" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subtitle` is mapped to FHIR R4 element `Measure.subtitle` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.status" ] ;
+         fhir:display [ fhir:v "Measure.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.status` is mapped to FHIR R4 element `Measure.status` as `Equivalent`.\nAllows filtering of measures that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.experimental" ] ;
+         fhir:display [ fhir:v "Measure.experimental" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.experimental` is mapped to FHIR R4 element `Measure.experimental` as `Equivalent`.\nAllows filtering of measures that are appropriate for use versus not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.subject[x]" ] ;
+         fhir:display [ fhir:v "Measure.subject[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.subject[x]` is mapped to FHIR R4 element `Measure.subject[x]` as `Equivalent`.\nThe target context `Measure.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Measure`.\nThe subject of the measure is critical in interpreting the criteria definitions, as the logic in the measures is evaluated with respect to a particular subject. This corresponds roughly to the notion of a Compartment in that it limits what content is available based on its relationship to the subject. In CQL, this corresponds to the context declaration." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.date" ] ;
+         fhir:display [ fhir:v "Measure.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.date` is mapped to FHIR R4 element `Measure.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the measure. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.publisher" ] ;
+         fhir:display [ fhir:v "Measure.publisher" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.publisher` is mapped to FHIR R4 element `Measure.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the measure is the organization or individual primarily responsible for the maintenance and upkeep of the measure. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the measure. This item SHOULD be populated unless the information is available from context." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.contact" ] ;
+         fhir:display [ fhir:v "Measure.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.contact` is mapped to FHIR R4 element `Measure.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.description" ] ;
+         fhir:display [ fhir:v "Measure.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.description` is mapped to FHIR R4 element `Measure.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the measure as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the measure is presumed to be the predominant language in the place the measure was created)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.useContext" ] ;
+         fhir:display [ fhir:v "Measure.useContext" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.useContext` is mapped to FHIR R4 element `Measure.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.jurisdiction" ] ;
+         fhir:display [ fhir:v "Measure.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.jurisdiction` is mapped to FHIR R4 element `Measure.jurisdiction` as `Equivalent`.\nElement `Measure.jurisdiction` has been flagged as deprecated.\nIt may be possible for the measure to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.purpose" ] ;
+         fhir:display [ fhir:v "Measure.purpose" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.purpose` is mapped to FHIR R4 element `Measure.purpose` as `Equivalent`.\nThis element does not describe the usage of the measure. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this measure." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.usage" ] ;
+         fhir:display [ fhir:v "Measure.usage" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.usage` is mapped to FHIR R4 element `Measure.usage` as `Equivalent`.\nThis metadata element was typically referred to as Guidance in HQMF" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.copyright" ] ;
+         fhir:display [ fhir:v "Measure.copyright" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.copyright` is mapped to FHIR R4 element `Measure.copyright` as `Equivalent`.\nThe short copyright declaration (e.g. (c) '2015+ xyz organization' should be sent in the copyrightLabel element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.approvalDate" ] ;
+         fhir:display [ fhir:v "Measure.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.approvalDate` is mapped to FHIR R4 element `Measure.approvalDate` as `Equivalent`.\nThe 'date' element may be more recent than the approval date because of minor changes or editorial corrections.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.lastReviewDate" ] ;
+         fhir:display [ fhir:v "Measure.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.lastReviewDate` is mapped to FHIR R4 element `Measure.lastReviewDate` as `Equivalent`.\nIf specified, this date follows the original approval date.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.effectivePeriod" ] ;
+         fhir:display [ fhir:v "Measure.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.effectivePeriod` is mapped to FHIR R4 element `Measure.effectivePeriod` as `Equivalent`.\nThe effective period for a measure determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.topic" ] ;
+       fhir:display [ fhir:v "topic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.topic" ] ;
+         fhir:display [ fhir:v "Measure.topic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.topic` is mapped to FHIR R4 element `Measure.topic` as `Equivalent`.\nElement `Measure.topic` has been flagged as deprecated.\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'topic' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#topic and useContext.valueCodeableConcept indicating the topic)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.author" ] ;
+         fhir:display [ fhir:v "Measure.author" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.author` is mapped to FHIR R4 element `Measure.author` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.editor" ] ;
+         fhir:display [ fhir:v "Measure.editor" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.editor` is mapped to FHIR R4 element `Measure.editor` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.reviewer" ] ;
+         fhir:display [ fhir:v "Measure.reviewer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.reviewer` is mapped to FHIR R4 element `Measure.reviewer` as `Equivalent`.\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.endorser" ] ;
+         fhir:display [ fhir:v "Measure.endorser" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.endorser` is mapped to FHIR R4 element `Measure.endorser` as `Equivalent`.\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.relatedArtifact" ] ;
+         fhir:display [ fhir:v "Measure.relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.relatedArtifact` is mapped to FHIR R4 element `Measure.relatedArtifact` as `Equivalent`.\nEach related artifact is either an attachment, or a reference to another resource, but not both." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.library" ] ;
+       fhir:display [ fhir:v "library" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.library" ] ;
+         fhir:display [ fhir:v "Measure.library" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.library` is mapped to FHIR R4 element `Measure.library` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.disclaimer" ] ;
+       fhir:display [ fhir:v "disclaimer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.disclaimer" ] ;
+         fhir:display [ fhir:v "Measure.disclaimer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.disclaimer` is mapped to FHIR R4 element `Measure.disclaimer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.scoring" ] ;
+       fhir:display [ fhir:v "scoring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.scoring" ] ;
+         fhir:display [ fhir:v "Measure.scoring" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.scoring` is mapped to FHIR R4 element `Measure.scoring` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.compositeScoring" ] ;
+       fhir:display [ fhir:v "compositeScoring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.compositeScoring" ] ;
+         fhir:display [ fhir:v "Measure.compositeScoring" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.compositeScoring` is mapped to FHIR R4 element `Measure.compositeScoring` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.type" ] ;
+         fhir:display [ fhir:v "Measure.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.type` is mapped to FHIR R4 element `Measure.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.riskAdjustment" ] ;
+       fhir:display [ fhir:v "riskAdjustment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.riskAdjustment" ] ;
+         fhir:display [ fhir:v "Measure.riskAdjustment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.riskAdjustment` is mapped to FHIR R4 element `Measure.riskAdjustment` as `Equivalent`.\nDescribes the method of adjusting for clinical severity and conditions present at the start of care that can influence patient outcomes for making valid comparisons of outcome measures across providers. Indicates whether a measure is subject to the statistical process for reducing, removing, or clarifying the influences of confounding factors to allow for more useful comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.rateAggregation" ] ;
+       fhir:display [ fhir:v "rateAggregation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.rateAggregation" ] ;
+         fhir:display [ fhir:v "Measure.rateAggregation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.rateAggregation` is mapped to FHIR R4 element `Measure.rateAggregation` as `Equivalent`.\nThe measure rate for an organization or clinician is based upon the entities’ aggregate data and summarizes the performance of the entity over a given time period (e.g., monthly, quarterly, yearly). The aggregated data are derived from the results of a specific measure algorithm and, if appropriate, the application of specific risk adjustment models.  Can also be used to describe how to risk adjust the data based on supplemental data elements described in the eMeasure (e.g., pneumonia hospital measures antibiotic selection in the ICU versus non-ICU and then the roll-up of the two). This could be applied to aggregated cohort measure definitions (e.g., CDC's aggregate reporting for TB at the state level)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.rationale" ] ;
+       fhir:display [ fhir:v "rationale" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.rationale" ] ;
+         fhir:display [ fhir:v "Measure.rationale" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.rationale` is mapped to FHIR R4 element `Measure.rationale` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.clinicalRecommendationStatement" ] ;
+       fhir:display [ fhir:v "clinicalRecommendationStatement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.clinicalRecommendationStatement" ] ;
+         fhir:display [ fhir:v "Measure.clinicalRecommendationStatement" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.clinicalRecommendationStatement` is mapped to FHIR R4 element `Measure.clinicalRecommendationStatement` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.improvementNotation" ] ;
+       fhir:display [ fhir:v "improvementNotation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.improvementNotation" ] ;
+         fhir:display [ fhir:v "Measure.improvementNotation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.improvementNotation` is mapped to FHIR R4 element `Measure.improvementNotation` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.guidance" ] ;
+       fhir:display [ fhir:v "guidance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.guidance" ] ;
+         fhir:display [ fhir:v "Measure.guidance" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.guidance` is mapped to FHIR R4 element `Measure.guidance` as `Equivalent`.\nElement `Measure.guidance` has been flagged as deprecated.\nNOTE: This element is deprecated in favor of the usage element" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group" ] ;
+       fhir:display [ fhir:v "group" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group" ] ;
+         fhir:display [ fhir:v "Measure.group" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group` is mapped to FHIR R4 element `Measure.group` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.code" ] ;
+         fhir:display [ fhir:v "Measure.group.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.code` is mapped to FHIR R4 element `Measure.group.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.description" ] ;
+         fhir:display [ fhir:v "Measure.group.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.description` is mapped to FHIR R4 element `Measure.group.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population" ] ;
+       fhir:display [ fhir:v "population" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.population" ] ;
+         fhir:display [ fhir:v "Measure.group.population" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population` is mapped to FHIR R4 element `Measure.group.population` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.population.code" ] ;
+         fhir:display [ fhir:v "Measure.group.population.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.code` is mapped to FHIR R4 element `Measure.group.population.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.population.description" ] ;
+         fhir:display [ fhir:v "Measure.group.population.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.description` is mapped to FHIR R4 element `Measure.group.population.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.population.criteria" ] ;
+         fhir:display [ fhir:v "Measure.group.population.criteria" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.criteria` is mapped to FHIR R4 element `Measure.group.population.criteria` as `Equivalent`.\nIn the case of a continuous-variable or ratio measure, this may be the name of a function that calculates the value of the individual observation for each patient or event in the population. For these types of measures, individual observations are reported as observation resources included in the evaluatedResources bundle for each patient. See the MeasureReport resource or the Quality Reporting topic for more information." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier" ] ;
+       fhir:display [ fhir:v "stratifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier` is mapped to FHIR R4 element `Measure.group.stratifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.code" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.code` is mapped to FHIR R4 element `Measure.group.stratifier.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.description" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.description` is mapped to FHIR R4 element `Measure.group.stratifier.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.criteria" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.criteria" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.criteria` is mapped to FHIR R4 element `Measure.group.stratifier.criteria` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.component" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component` is mapped to FHIR R4 element `Measure.group.stratifier.component` as `Equivalent`.\nStratifiers are defined either as a single criteria, or as a set of component criteria." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.component.code" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.component.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.code` is mapped to FHIR R4 element `Measure.group.stratifier.component.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.component.description" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.component.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.description` is mapped to FHIR R4 element `Measure.group.stratifier.component.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.group.stratifier.component.criteria" ] ;
+         fhir:display [ fhir:v "Measure.group.stratifier.component.criteria" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.criteria` is mapped to FHIR R4 element `Measure.group.stratifier.component.criteria` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData" ] ;
+       fhir:display [ fhir:v "supplementalData" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.supplementalData" ] ;
+         fhir:display [ fhir:v "Measure.supplementalData" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData` is mapped to FHIR R4 element `Measure.supplementalData` as `Equivalent`.\nNote that supplemental data are reported as resources for each patient and referenced in the supplementalData element of the MeasureReport. If the supplementalData expression results in a value other than a resource, it is reported using an Observation resource, typically contained in the resulting MeasureReport. See the MeasureReport resource and the Quality Reporting topic for more information." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.supplementalData.code" ] ;
+         fhir:display [ fhir:v "Measure.supplementalData.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.code` is mapped to FHIR R4 element `Measure.supplementalData.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.usage" ] ;
+       fhir:display [ fhir:v "usage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.supplementalData.usage" ] ;
+         fhir:display [ fhir:v "Measure.supplementalData.usage" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.usage` is mapped to FHIR R4 element `Measure.supplementalData.usage` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.supplementalData.description" ] ;
+         fhir:display [ fhir:v "Measure.supplementalData.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.description` is mapped to FHIR R4 element `Measure.supplementalData.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.criteria" ] ;
+       fhir:display [ fhir:v "criteria" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Measure.supplementalData.criteria" ] ;
+         fhir:display [ fhir:v "Measure.supplementalData.criteria" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.criteria` is mapped to FHIR R4 element `Measure.supplementalData.criteria` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Measure"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Measure>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Measure.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.versionAlgorithm[x]` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.basis" ] ;
+       fhir:display [ fhir:v "basis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.basis" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.basis` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.basis` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor a subject-based measure, the population basis is simply boolean; all the criteria are expressed as true/false conditions that determine membership of an individual case in the population. For non-subject-based measures, the population basis can be any resource type, and the criteria are queries that return the subject's contribution to the population as a list of that resource type. For example, for a procedure-based measure, the population criteria would return lists of procedures that should be included in each population." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.copyrightLabel` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.scoringUnit" ] ;
+       fhir:display [ fhir:v "scoringUnit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.scoringUnit" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.scoringUnit` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.scoringUnit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen this element is specified, implementations are expected to report measure scores in the specified units. Note that this may involve unit conversion if the expected units are different than the units of the resulting score calculation. In this case, unit conversions SHALL be performed according to the unit conversion semantics specified by UCUM." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.term" ] ;
+       fhir:display [ fhir:v "term" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.term` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.term.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term.code` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.code` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.term.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.term.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.term:definition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.term.definition` is part of an existing definition because parent element `Measure.term` requires a cross-version extension.\nElement `Measure.term.definition` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.term.definition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.linkId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.linkId` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.type` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, defines the measure type for this specific group. If not specified, the measureType of the group is determined by the root type element" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.subject[x]" ] ;
+       fhir:display [ fhir:v "subject[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.subject[x]` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.subject[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe subject of the measure is critical in interpreting the criteria definitions, as the logic in the measures is evaluated with respect to a particular subject. This corresponds roughly to the notion of a Compartment in that it limits what content is available based on its relationship to the subject. In CQL, this corresponds to the context declaration." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.basis" ] ;
+       fhir:display [ fhir:v "basis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.basis" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.basis` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.basis` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, defines the population basis for this specific group. If not specified, the basis for the group is determined by the root basis element" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.scoring" ] ;
+       fhir:display [ fhir:v "scoring" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoring" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.scoring` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.scoring` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, defines the scoring for this specific group. If not specified, scoring for this group is determined by the root scoring element" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.scoringUnit" ] ;
+       fhir:display [ fhir:v "scoringUnit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoringUnit" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.scoringUnit` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.scoringUnit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, this defines the scoringUnit for this specific group. If not specified, the scoringUnit for this group is determined by the root scoringUnit element. As with the root element, when this element is specified, implementations are expected to report measure scores in the specified units. Note that this may involve unit conversion if the expected units are different than the units of the resulting score calculation. In this case, unit conversions SHALL be performed according to the unit conversion semantics specified by UCUM." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.rateAggregation" ] ;
+       fhir:display [ fhir:v "rateAggregation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.rateAggregation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.rateAggregation` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.rateAggregation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe measure rate for an organization or clinician is based upon the entities’ aggregate data and summarizes the performance of the entity over a given time period (e.g., monthly, quarterly, yearly). The aggregated data are derived from the results of a specific measure algorithm and, if appropriate, the application of specific risk adjustment models.  Can also be used to describe how to risk adjust the data based on supplemental data elements described in the eMeasure (e.g., pneumonia hospital measures antibiotic selection in the ICU versus non-ICU and then the roll-up of the two). This could be applied to aggregated cohort measure definitions (e.g., CDC's aggregate reporting for TB at the state level)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.improvementNotation" ] ;
+       fhir:display [ fhir:v "improvementNotation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.improvementNotation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.improvementNotation` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.improvementNotation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen specified at the group level, this element defines the improvementNotation for this specific group. If not specified, improvementNotation for this group is determined by the root improvementNotation element" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.library" ] ;
+       fhir:display [ fhir:v "library" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.library" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.library` has a context of Measure.group based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.library` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.linkId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.linkId` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.groupDefinition" ] ;
+       fhir:display [ fhir:v "groupDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.groupDefinition` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.groupDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this approach can only be used for measures where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group resource SHALL be a definitional (as opposed to an actual) group." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.inputPopulationId" ] ;
+       fhir:display [ fhir:v "inputPopulationId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.inputPopulationId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.inputPopulationId` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.inputPopulationId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.population.aggregateMethod" ] ;
+       fhir:display [ fhir:v "aggregateMethod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.aggregateMethod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.population.aggregateMethod` has a context of Measure.group.population based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.population.aggregateMethod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.linkId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.linkId` has a context of Measure.group.stratifier based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.groupDefinition" ] ;
+       fhir:display [ fhir:v "groupDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.groupDefinition` has a context of Measure.group.stratifier based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.groupDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this approach can only be used for measures where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group SHALL be a definitional (as opposed to an actual) group." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.linkId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.linkId` has a context of Measure.group.stratifier.component based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.component.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.group.stratifier.component.groupDefinition" ] ;
+       fhir:display [ fhir:v "groupDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.groupDefinition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.group.stratifier.component.groupDefinition` has a context of Measure.group.stratifier.component based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.group.stratifier.component.groupDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this approach can only be used for measures where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group SHALL be a definitional (as opposed to an actual) group." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Measure.supplementalData.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.linkId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Measure.supplementalData.linkId` has a context of Measure.supplementalData based on following the parent source element upwards and mapping to `Measure`.\nElement `Measure.supplementalData.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

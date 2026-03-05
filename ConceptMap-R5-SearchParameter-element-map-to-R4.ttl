@@ -1,0 +1,482 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-SearchParameter-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-SearchParameter-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-SearchParameter-element-map-to-R4</b></p><a name=\"R5-SearchParameter-element-map-to-R4\"> </a><a name=\"hcR5-SearchParameter-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SearchParameter|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/searchparameter.html\">SearchParameterversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SearchParameter.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.meta</td><td>Element `SearchParameter.meta` is mapped to FHIR R4 element `SearchParameter.meta` as `Equivalent`.</td></tr><tr><td>SearchParameter.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.implicitRules</td><td>Element `SearchParameter.implicitRules` is mapped to FHIR R4 element `SearchParameter.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>SearchParameter.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.language</td><td>Element `SearchParameter.language` is mapped to FHIR R4 element `SearchParameter.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>SearchParameter.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.text</td><td>Element `SearchParameter.text` is mapped to FHIR R4 element `SearchParameter.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>SearchParameter.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.contained</td><td>Element `SearchParameter.contained` is mapped to FHIR R4 element `SearchParameter.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>SearchParameter.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.url</td><td>Element `SearchParameter.url` is mapped to FHIR R4 element `SearchParameter.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>SearchParameter.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.version</td><td>Element `SearchParameter.version` is mapped to FHIR R4 element `SearchParameter.version` as `Equivalent`.\nThere may be different search parameter instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the search parameter with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>SearchParameter.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.name</td><td>Element `SearchParameter.name` is mapped to FHIR R4 element `SearchParameter.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>SearchParameter.derivedFrom (derivedFrom)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.derivedFrom</td><td>Element `SearchParameter.derivedFrom` is mapped to FHIR R4 element `SearchParameter.derivedFrom` as `Equivalent`.\nThe intent of this is that a server can designate that it provides support for a search parameter defined in the specification itself (e.g.  [`value-quantity`](http://hl7.org/fhir/SearchParameter/Observation-value-quantity), but detail how it is supported by the server.</td></tr><tr><td>SearchParameter.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.status</td><td>Element `SearchParameter.status` is mapped to FHIR R4 element `SearchParameter.status` as `Equivalent`.\nAllows filtering of search parameters that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>SearchParameter.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.experimental</td><td>Element `SearchParameter.experimental` is mapped to FHIR R4 element `SearchParameter.experimental` as `Equivalent`.\nAllows filtering of search parameters that are appropriate for use versus not.</td></tr><tr><td>SearchParameter.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.date</td><td>Element `SearchParameter.date` is mapped to FHIR R4 element `SearchParameter.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the search parameter. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>SearchParameter.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.publisher</td><td>Element `SearchParameter.publisher` is mapped to FHIR R4 element `SearchParameter.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the search parameter is the organization or individual primarily responsible for the maintenance and upkeep of the search parameter. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the search parameter. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>SearchParameter.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.contact</td><td>Element `SearchParameter.contact` is mapped to FHIR R4 element `SearchParameter.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>SearchParameter.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.description</td><td>Element `SearchParameter.description` is mapped to FHIR R4 element `SearchParameter.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the search parameter as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the search parameter is presumed to be the predominant language in the place the search parameter was created).</td></tr><tr><td>SearchParameter.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.useContext</td><td>Element `SearchParameter.useContext` is mapped to FHIR R4 element `SearchParameter.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>SearchParameter.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.jurisdiction</td><td>Element `SearchParameter.jurisdiction` is mapped to FHIR R4 element `SearchParameter.jurisdiction` as `Equivalent`.\nElement `SearchParameter.jurisdiction` has been flagged as deprecated.\nIt may be possible for the search parameter to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>SearchParameter.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.purpose</td><td>Element `SearchParameter.purpose` is mapped to FHIR R4 element `SearchParameter.purpose` as `Equivalent`.\nThis element does not describe the usage of the search parameter. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this search parameter.</td></tr><tr><td>SearchParameter.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.code</td><td>Element `SearchParameter.code` is mapped to FHIR R4 element `SearchParameter.code` as `Equivalent`.\nFor maximum compatibility, use only lowercase ASCII characters. Note that HL7 will never define multiple search parameters with the same code.</td></tr><tr><td>SearchParameter.base (base)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.base</td><td>Element `SearchParameter.base` is mapped to FHIR R4 element `SearchParameter.base` as `SourceIsNarrowerThanTarget`.\nA search parameter must always apply to at least one resource type. When search parameters apply to more than one resource type, they can be used against any of the listed resource types, or in a cross-type search (see [Cross Resource Search](https://hl7.org/fhir/http.html#xr.html#xres-search)).</td></tr><tr><td>SearchParameter.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.type</td><td>Element `SearchParameter.type` is mapped to FHIR R4 element `SearchParameter.type` as `Equivalent`.</td></tr><tr><td>SearchParameter.expression (expression)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.expression</td><td>Element `SearchParameter.expression` is mapped to FHIR R4 element `SearchParameter.expression` as `Equivalent`.\nNote that the elements returned by the expression are sometimes complex elements where logic is required to determine quite how to handle them; e.g. CodeableConcepts may contain text and/or multiple codings, where the codings themselves contain a code and a system. For composite search parameters, the outcome of the expression must a collection of base elements from which the composites are derived.</td></tr><tr><td>SearchParameter.processingMode (processingMode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td>SearchParameter.xpathUsage</td><td>Element `SearchParameter.processingMode` is mapped to FHIR R4 element `SearchParameter.xpathUsage` as `RelatedTo`.\nThe mappings for `SearchParameter.processingMode` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td>SearchParameter.target (target)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.target</td><td>Element `SearchParameter.target` is mapped to FHIR R4 element `SearchParameter.target` as `SourceIsNarrowerThanTarget`.\nIn some cases, targets may exist for a search parameter that do not exist for the specified FHIRPath for all of the resources identified in SearchParameter.base.  For example, the core clinical-encounter search parameter allows both Encounter and EpisodeOfCare as targets, even though not all of the base resources have EpisodeOfCare as a valid target.\n\nHowever, the list of targets SHOULD cover all targets that might appear that are permitted by the specified FHIRPath.</td></tr><tr><td>SearchParameter.multipleOr (multipleOr)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.multipleOr</td><td>Element `SearchParameter.multipleOr` is mapped to FHIR R4 element `SearchParameter.multipleOr` as `Equivalent`.</td></tr><tr><td>SearchParameter.multipleAnd (multipleAnd)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.multipleAnd</td><td>Element `SearchParameter.multipleAnd` is mapped to FHIR R4 element `SearchParameter.multipleAnd` as `Equivalent`.</td></tr><tr><td>SearchParameter.comparator (comparator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.comparator</td><td>Element `SearchParameter.comparator` is mapped to FHIR R4 element `SearchParameter.comparator` as `Equivalent`.\nIf no comparators are listed, clients should not expect servers to support any comparators.</td></tr><tr><td>SearchParameter.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SearchParameter.modifier</td><td>Element `SearchParameter.modifier` is mapped to FHIR R4 element `SearchParameter.modifier` as `RelatedTo`.\nThe mappings for `SearchParameter.modifier` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td>SearchParameter.chain (chain)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.chain</td><td>Element `SearchParameter.chain` is mapped to FHIR R4 element `SearchParameter.chain` as `Equivalent`.\nNotes:\n\n* Not all systems will declare chain values.  If no chain values are specified at all, then no presumptions can be made about the degree of chaining support available\n* A server may use a single chain value of '*' to mean that all reference search types supported can be chained rather than enumerating all chain values\n*  If a particular reference search parameter is supported, but not subsequent chaining, then just list that search parameter name - e.g. for Patient.practitioner, the chain value would be ```practitioner```\n* If a particular reference search parameter is supported with unlimited chaining beneath it, then follow the search parameter name with '.'.  E.g. ```practitioner.```\n* If there are specific (not unlimited) chaining paths allowed they can be explicitly enumerated.  E.g. ```practitioner.organization```</td></tr><tr><td>SearchParameter.component (component)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SearchParameter.component</td><td>Element `SearchParameter.component` is mapped to FHIR R4 element `SearchParameter.component` as `Equivalent`.</td></tr><tr><td>SearchParameter.component.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.component.definition</td><td>Element `SearchParameter.component.definition` is mapped to FHIR R4 element `SearchParameter.component.definition` as `Equivalent`.</td></tr><tr><td>SearchParameter.component.expression (expression)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SearchParameter.component.expression</td><td>Element `SearchParameter.component.expression` is mapped to FHIR R4 element `SearchParameter.component.expression` as `Equivalent`.\nThis expression overrides the expression in the definition and extracts the index values from the outcome of the composite expression.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SearchParameter|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SearchParameter.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.identifier</td><td>Element `SearchParameter.identifier` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SearchParameter.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.versionAlgorithm</td><td>Element `SearchParameter.versionAlgorithm[x]` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>SearchParameter.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.title</td><td>Element `SearchParameter.title` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>SearchParameter.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.copyright</td><td>Element `SearchParameter.copyright` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\n...</td></tr><tr><td>SearchParameter.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.copyrightLabel</td><td>Element `SearchParameter.copyrightLabel` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>SearchParameter.processingMode (processingMode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.processingMode</td><td>Element `SearchParameter.processingMode` is mapped to FHIR R4 element `SearchParameter.xpathUsage` as `RelatedTo`.\nThe mappings for `SearchParameter.processingMode` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td>SearchParameter.constraint (constraint)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.constraint</td><td>Element `SearchParameter.constraint` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.constraint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SearchParameter.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.modifier</td><td>Element `SearchParameter.modifier` is mapped to FHIR R4 element `SearchParameter.modifier` as `RelatedTo`.\nThe mappings for `SearchParameter.modifier` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-SearchParameter-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-SearchParameter-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5SearchParameterElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 SearchParameter to FHIR R4 SearchParameter"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:51.6234695-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 SearchParameter to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SearchParameter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SearchParameter>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SearchParameter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SearchParameter>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SearchParameter.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.meta" ] ;
+         fhir:display [ fhir:v "SearchParameter.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.meta` is mapped to FHIR R4 element `SearchParameter.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.implicitRules" ] ;
+         fhir:display [ fhir:v "SearchParameter.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.implicitRules` is mapped to FHIR R4 element `SearchParameter.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.language" ] ;
+         fhir:display [ fhir:v "SearchParameter.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.language` is mapped to FHIR R4 element `SearchParameter.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.text" ] ;
+         fhir:display [ fhir:v "SearchParameter.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.text` is mapped to FHIR R4 element `SearchParameter.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.contained" ] ;
+         fhir:display [ fhir:v "SearchParameter.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.contained` is mapped to FHIR R4 element `SearchParameter.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.url" ] ;
+         fhir:display [ fhir:v "SearchParameter.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.url` is mapped to FHIR R4 element `SearchParameter.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.version" ] ;
+         fhir:display [ fhir:v "SearchParameter.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.version` is mapped to FHIR R4 element `SearchParameter.version` as `Equivalent`.\nThere may be different search parameter instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the search parameter with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.name" ] ;
+         fhir:display [ fhir:v "SearchParameter.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.name` is mapped to FHIR R4 element `SearchParameter.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.derivedFrom" ] ;
+         fhir:display [ fhir:v "SearchParameter.derivedFrom" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.derivedFrom` is mapped to FHIR R4 element `SearchParameter.derivedFrom` as `Equivalent`.\nThe intent of this is that a server can designate that it provides support for a search parameter defined in the specification itself (e.g.  [`value-quantity`](http://hl7.org/fhir/SearchParameter/Observation-value-quantity), but detail how it is supported by the server." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.status" ] ;
+         fhir:display [ fhir:v "SearchParameter.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.status` is mapped to FHIR R4 element `SearchParameter.status` as `Equivalent`.\nAllows filtering of search parameters that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.experimental" ] ;
+         fhir:display [ fhir:v "SearchParameter.experimental" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.experimental` is mapped to FHIR R4 element `SearchParameter.experimental` as `Equivalent`.\nAllows filtering of search parameters that are appropriate for use versus not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.date" ] ;
+         fhir:display [ fhir:v "SearchParameter.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.date` is mapped to FHIR R4 element `SearchParameter.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the search parameter. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.publisher" ] ;
+         fhir:display [ fhir:v "SearchParameter.publisher" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.publisher` is mapped to FHIR R4 element `SearchParameter.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the search parameter is the organization or individual primarily responsible for the maintenance and upkeep of the search parameter. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the search parameter. This item SHOULD be populated unless the information is available from context." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.contact" ] ;
+         fhir:display [ fhir:v "SearchParameter.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.contact` is mapped to FHIR R4 element `SearchParameter.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.description" ] ;
+         fhir:display [ fhir:v "SearchParameter.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.description` is mapped to FHIR R4 element `SearchParameter.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the search parameter as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the search parameter is presumed to be the predominant language in the place the search parameter was created)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.useContext" ] ;
+         fhir:display [ fhir:v "SearchParameter.useContext" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.useContext` is mapped to FHIR R4 element `SearchParameter.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.jurisdiction" ] ;
+         fhir:display [ fhir:v "SearchParameter.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.jurisdiction` is mapped to FHIR R4 element `SearchParameter.jurisdiction` as `Equivalent`.\nElement `SearchParameter.jurisdiction` has been flagged as deprecated.\nIt may be possible for the search parameter to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.purpose" ] ;
+         fhir:display [ fhir:v "SearchParameter.purpose" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.purpose` is mapped to FHIR R4 element `SearchParameter.purpose` as `Equivalent`.\nThis element does not describe the usage of the search parameter. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this search parameter." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.code" ] ;
+         fhir:display [ fhir:v "SearchParameter.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.code` is mapped to FHIR R4 element `SearchParameter.code` as `Equivalent`.\nFor maximum compatibility, use only lowercase ASCII characters. Note that HL7 will never define multiple search parameters with the same code." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.base" ] ;
+       fhir:display [ fhir:v "base" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.base" ] ;
+         fhir:display [ fhir:v "SearchParameter.base" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.base` is mapped to FHIR R4 element `SearchParameter.base` as `SourceIsNarrowerThanTarget`.\nA search parameter must always apply to at least one resource type. When search parameters apply to more than one resource type, they can be used against any of the listed resource types, or in a cross-type search (see [Cross Resource Search](https://hl7.org/fhir/http.html#xr.html#xres-search))." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.type" ] ;
+         fhir:display [ fhir:v "SearchParameter.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.type` is mapped to FHIR R4 element `SearchParameter.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.expression" ] ;
+         fhir:display [ fhir:v "SearchParameter.expression" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.expression` is mapped to FHIR R4 element `SearchParameter.expression` as `Equivalent`.\nNote that the elements returned by the expression are sometimes complex elements where logic is required to determine quite how to handle them; e.g. CodeableConcepts may contain text and/or multiple codings, where the codings themselves contain a code and a system. For composite search parameters, the outcome of the expression must a collection of base elements from which the composites are derived." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.processingMode" ] ;
+       fhir:display [ fhir:v "processingMode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.xpathUsage" ] ;
+         fhir:display [ fhir:v "SearchParameter.xpathUsage" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.processingMode` is mapped to FHIR R4 element `SearchParameter.xpathUsage` as `RelatedTo`.\nThe mappings for `SearchParameter.processingMode` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.target" ] ;
+         fhir:display [ fhir:v "SearchParameter.target" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.target` is mapped to FHIR R4 element `SearchParameter.target` as `SourceIsNarrowerThanTarget`.\nIn some cases, targets may exist for a search parameter that do not exist for the specified FHIRPath for all of the resources identified in SearchParameter.base.  For example, the core clinical-encounter search parameter allows both Encounter and EpisodeOfCare as targets, even though not all of the base resources have EpisodeOfCare as a valid target.\n\nHowever, the list of targets SHOULD cover all targets that might appear that are permitted by the specified FHIRPath." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.multipleOr" ] ;
+       fhir:display [ fhir:v "multipleOr" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.multipleOr" ] ;
+         fhir:display [ fhir:v "SearchParameter.multipleOr" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.multipleOr` is mapped to FHIR R4 element `SearchParameter.multipleOr` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.multipleAnd" ] ;
+       fhir:display [ fhir:v "multipleAnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.multipleAnd" ] ;
+         fhir:display [ fhir:v "SearchParameter.multipleAnd" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.multipleAnd` is mapped to FHIR R4 element `SearchParameter.multipleAnd` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.comparator" ] ;
+       fhir:display [ fhir:v "comparator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.comparator" ] ;
+         fhir:display [ fhir:v "SearchParameter.comparator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.comparator` is mapped to FHIR R4 element `SearchParameter.comparator` as `Equivalent`.\nIf no comparators are listed, clients should not expect servers to support any comparators." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.modifier" ] ;
+         fhir:display [ fhir:v "SearchParameter.modifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.modifier` is mapped to FHIR R4 element `SearchParameter.modifier` as `RelatedTo`.\nThe mappings for `SearchParameter.modifier` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.chain" ] ;
+       fhir:display [ fhir:v "chain" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.chain" ] ;
+         fhir:display [ fhir:v "SearchParameter.chain" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.chain` is mapped to FHIR R4 element `SearchParameter.chain` as `Equivalent`.\nNotes:\n\n* Not all systems will declare chain values.  If no chain values are specified at all, then no presumptions can be made about the degree of chaining support available\n* A server may use a single chain value of '*' to mean that all reference search types supported can be chained rather than enumerating all chain values\n*  If a particular reference search parameter is supported, but not subsequent chaining, then just list that search parameter name - e.g. for Patient.practitioner, the chain value would be ```practitioner```\n* If a particular reference search parameter is supported with unlimited chaining beneath it, then follow the search parameter name with '.'.  E.g. ```practitioner.```\n* If there are specific (not unlimited) chaining paths allowed they can be explicitly enumerated.  E.g. ```practitioner.organization```" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.component" ] ;
+         fhir:display [ fhir:v "SearchParameter.component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.component` is mapped to FHIR R4 element `SearchParameter.component` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.component.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.component.definition" ] ;
+         fhir:display [ fhir:v "SearchParameter.component.definition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.component.definition` is mapped to FHIR R4 element `SearchParameter.component.definition` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.component.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SearchParameter.component.expression" ] ;
+         fhir:display [ fhir:v "SearchParameter.component.expression" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.component.expression` is mapped to FHIR R4 element `SearchParameter.component.expression` as `Equivalent`.\nThis expression overrides the expression in the definition and extracts the index values from the outcome of the composite expression." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SearchParameter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SearchParameter>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SearchParameter.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.identifier` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.versionAlgorithm[x]` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.title" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.title` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.copyright" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.copyright` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\n..." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.copyrightLabel` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.processingMode" ] ;
+       fhir:display [ fhir:v "processingMode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.processingMode" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.processingMode` is mapped to FHIR R4 element `SearchParameter.xpathUsage` as `RelatedTo`.\nThe mappings for `SearchParameter.processingMode` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.constraint" ] ;
+       fhir:display [ fhir:v "constraint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.constraint" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.constraint` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.\nElement `SearchParameter.constraint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SearchParameter.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.modifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SearchParameter.modifier` is mapped to FHIR R4 element `SearchParameter.modifier` as `RelatedTo`.\nThe mappings for `SearchParameter.modifier` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

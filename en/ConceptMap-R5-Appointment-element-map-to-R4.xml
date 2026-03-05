@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Appointment-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Appointment-element-map-to-R4</b></p><a name="R5-Appointment-element-map-to-R4"> </a><a name="hcR5-Appointment-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</code> to <a href="http://hl7.org/fhir/R4/appointment.html">Appointmentversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Appointment|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">Appointment.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.meta</td><td style="border-left-width: 0px">Appointment.meta</td><td>Element `Appointment.meta` is mapped to FHIR R4 element `Appointment.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.implicitRules</td><td style="border-left-width: 0px">Appointment.implicitRules</td><td>Element `Appointment.implicitRules` is mapped to FHIR R4 element `Appointment.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">Appointment.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.language</td><td style="border-left-width: 0px">Appointment.language</td><td>Element `Appointment.language` is mapped to FHIR R4 element `Appointment.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">Appointment.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.text</td><td style="border-left-width: 0px">Appointment.text</td><td>Element `Appointment.text` is mapped to FHIR R4 element `Appointment.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">Appointment.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.contained</td><td style="border-left-width: 0px">Appointment.contained</td><td>Element `Appointment.contained` is mapped to FHIR R4 element `Appointment.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">Appointment.identifier</td><td style="border-left-width: 0px">identifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.identifier</td><td style="border-left-width: 0px">Appointment.identifier</td><td>Element `Appointment.identifier` is mapped to FHIR R4 element `Appointment.identifier` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.status</td><td style="border-left-width: 0px">Appointment.status</td><td>Element `Appointment.status` is mapped to FHIR R4 element `Appointment.status` as `Equivalent`.
+If the Appointment's status is &quot;cancelled&quot; then all participants are expected to have their calendars released for the appointment period, and as such any Slots that were marked as BUSY can be re-set to FREE.
+
+This element is labeled as a modifier because the status contains the code entered-in-error that mark the Appointment as not currently valid.</td></tr><tr><td style="border-right-width: 0px">Appointment.cancellationReason</td><td style="border-left-width: 0px">cancellationReason</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.cancelationReason</td><td style="border-left-width: 0px">Appointment.cancelationReason</td><td>Element `Appointment.cancellationReason` is mapped to FHIR R4 element `Appointment.cancelationReason` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.serviceCategory</td><td style="border-left-width: 0px">serviceCategory</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.serviceCategory</td><td style="border-left-width: 0px">Appointment.serviceCategory</td><td>Element `Appointment.serviceCategory` is mapped to FHIR R4 element `Appointment.serviceCategory` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.serviceType</td><td style="border-left-width: 0px">serviceType</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.serviceType</td><td style="border-left-width: 0px">Appointment.serviceType</td><td>Element `Appointment.serviceType` is mapped to FHIR R4 element `Appointment.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Appointment.serviceType` do not cover the following types based on type expansion: reference.
+For a provider to provider appointment the code &quot;FOLLOWUP&quot; may be appropriate, as this is expected to be discussing some patient that was seen in the past.</td></tr><tr><td style="border-right-width: 0px">Appointment.specialty</td><td style="border-left-width: 0px">specialty</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.specialty</td><td style="border-left-width: 0px">Appointment.specialty</td><td>Element `Appointment.specialty` is mapped to FHIR R4 element `Appointment.specialty` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.appointmentType</td><td style="border-left-width: 0px">appointmentType</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.appointmentType</td><td style="border-left-width: 0px">Appointment.appointmentType</td><td>Element `Appointment.appointmentType` is mapped to FHIR R4 element `Appointment.appointmentType` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">Appointment.reason</td><td style="border-left-width: 0px; border-bottom-style: none">reason</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">Appointment.reasonCode</td><td style="border-left-width: 0px">Appointment.reasonCode</td><td>Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">Appointment.reasonReference</td><td style="border-left-width: 0px">Appointment.reasonReference</td><td>Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px">Appointment.priority</td><td style="border-left-width: 0px">priority</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.priority</td><td style="border-left-width: 0px">Appointment.priority</td><td>Element `Appointment.priority` is mapped to FHIR R4 element `Appointment.priority` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.priority` do not cover the following types: CodeableConcept.
+The mappings for `Appointment.priority` do not cover the following types based on type expansion: coding, text.
+Seeking implementer feedback on this property and how interoperable it is.Using an extension to record a CodeableConcept for named values may be tested at a future connectathon.</td></tr><tr><td style="border-right-width: 0px">Appointment.description</td><td style="border-left-width: 0px">description</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.description</td><td style="border-left-width: 0px">Appointment.description</td><td>Element `Appointment.description` is mapped to FHIR R4 element `Appointment.description` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.supportingInformation</td><td style="border-left-width: 0px">supportingInformation</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.supportingInformation</td><td style="border-left-width: 0px">Appointment.supportingInformation</td><td>Element `Appointment.supportingInformation` is mapped to FHIR R4 element `Appointment.supportingInformation` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.start</td><td style="border-left-width: 0px">start</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.start</td><td style="border-left-width: 0px">Appointment.start</td><td>Element `Appointment.start` is mapped to FHIR R4 element `Appointment.start` as `Equivalent`.
+If actual start/end times are not known then the requested period start/end can be used.</td></tr><tr><td style="border-right-width: 0px">Appointment.end</td><td style="border-left-width: 0px">end</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.end</td><td style="border-left-width: 0px">Appointment.end</td><td>Element `Appointment.end` is mapped to FHIR R4 element `Appointment.end` as `Equivalent`.
+If actual start/end times are not known then the requested period start/end can be used.</td></tr><tr><td style="border-right-width: 0px">Appointment.minutesDuration</td><td style="border-left-width: 0px">minutesDuration</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.minutesDuration</td><td style="border-left-width: 0px">Appointment.minutesDuration</td><td>Element `Appointment.minutesDuration` is mapped to FHIR R4 element `Appointment.minutesDuration` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.requestedPeriod</td><td style="border-left-width: 0px">requestedPeriod</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.requestedPeriod</td><td style="border-left-width: 0px">Appointment.requestedPeriod</td><td>Element `Appointment.requestedPeriod` is mapped to FHIR R4 element `Appointment.requestedPeriod` as `Equivalent`.
+This does not introduce a capacity for recurring appointments.</td></tr><tr><td style="border-right-width: 0px">Appointment.slot</td><td style="border-left-width: 0px">slot</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.slot</td><td style="border-left-width: 0px">Appointment.slot</td><td>Element `Appointment.slot` is mapped to FHIR R4 element `Appointment.slot` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.created</td><td style="border-left-width: 0px">created</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.created</td><td style="border-left-width: 0px">Appointment.created</td><td>Element `Appointment.created` is mapped to FHIR R4 element `Appointment.created` as `Equivalent`.
+This property is required for many use cases where the age of an appointment is considered in processing workflows for scheduling and billing of appointments.</td></tr><tr><td style="border-right-width: 0px">Appointment.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.comment</td><td style="border-left-width: 0px">Appointment.comment</td><td>Element `Appointment.note` is mapped to FHIR R4 element `Appointment.comment` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.note` do not cover the following types: Annotation.
+The mappings for `Appointment.note` do not cover the following types based on type expansion: time.
+Additional text to aid in facilitating the appointment. For instance, a note might be, &quot;patient should proceed immediately to infusion room upon arrival&quot;Where this is a planned appointment and the start/end dates are not set then this field can be used to provide additional guidance on the details of the appointment request, including any restrictions on when to book it.Typically only the concept.text will be used, however occasionally a reference to some generic documentation (or specific) and also supports coded instructions if/when they are required.</td></tr><tr><td style="border-right-width: 0px">Appointment.patientInstruction</td><td style="border-left-width: 0px">patientInstruction</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.patientInstruction</td><td style="border-left-width: 0px">Appointment.patientInstruction</td><td>Element `Appointment.patientInstruction` is mapped to FHIR R4 element `Appointment.patientInstruction` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.patientInstruction` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px">Appointment.basedOn</td><td style="border-left-width: 0px">basedOn</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.basedOn</td><td style="border-left-width: 0px">Appointment.basedOn</td><td>Element `Appointment.basedOn` is mapped to FHIR R4 element `Appointment.basedOn` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Appointment.basedOn` with unmapped reference targets: CarePlan, DeviceRequest, MedicationRequest.</td></tr><tr><td style="border-right-width: 0px">Appointment.participant</td><td style="border-left-width: 0px">participant</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.participant</td><td style="border-left-width: 0px">Appointment.participant</td><td>Element `Appointment.participant` is mapped to FHIR R4 element `Appointment.participant` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.participant.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.participant.type</td><td style="border-left-width: 0px">Appointment.participant.type</td><td>Element `Appointment.participant.type` is mapped to FHIR R4 element `Appointment.participant.type` as `Equivalent`.
+The role of the participant can be used to declare what the actor will be doing in the scope of this appointment.If the actor is not specified, then it is expected that the actor will be filled in at a later stage of planning.This value SHALL be the same when creating an AppointmentResponse so that they can be matched, and subsequently update the Appointment.</td></tr><tr><td style="border-right-width: 0px">Appointment.participant.period</td><td style="border-left-width: 0px">period</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.participant.period</td><td style="border-left-width: 0px">Appointment.participant.period</td><td>Element `Appointment.participant.period` is mapped to FHIR R4 element `Appointment.participant.period` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Appointment.participant.actor</td><td style="border-left-width: 0px">actor</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.participant.actor</td><td style="border-left-width: 0px">Appointment.participant.actor</td><td>Element `Appointment.participant.actor` is mapped to FHIR R4 element `Appointment.participant.actor` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Appointment.participant.actor` with unmapped reference targets: CareTeam, Group.
+Where a CareTeam is provided, this does not imply that the entire team is included, just a single member from the group with the appropriate role. Where multiple members are required, please include the CareTeam the required number of times.</td></tr><tr><td style="border-right-width: 0px">Appointment.participant.required</td><td style="border-left-width: 0px">required</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Appointment.participant.required</td><td style="border-left-width: 0px">Appointment.participant.required</td><td>Element `Appointment.participant.required` is mapped to FHIR R4 element `Appointment.participant.required` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.participant.required` do not cover the following types: boolean.
+The mappings for `Appointment.participant.required` do not cover the following types based on type expansion: value.
+For the use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present include the patient in the subject field, but do not include them as a participant - this was formerly done prior to R5 with required='information-only'.</td></tr><tr><td style="border-right-width: 0px">Appointment.participant.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Appointment.participant.status</td><td style="border-left-width: 0px">Appointment.participant.status</td><td>Element `Appointment.participant.status` is mapped to FHIR R4 element `Appointment.participant.status` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Appointment.class (class)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class</td><td>Element `Appointment.class` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.class` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.serviceType (serviceType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.serviceType</td><td>Element `Appointment.serviceType` is mapped to FHIR R4 element `Appointment.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Appointment.serviceType` do not cover the following types based on type expansion: reference.
+For a provider to provider appointment the code &quot;FOLLOWUP&quot; may be appropriate, as this is expected to be discussing some patient that was seen in the past.</td></tr><tr><td>Appointment.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.reason</td><td>Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.reason` do not cover the following types: CodeableReference.</td></tr><tr><td>Appointment.priority (priority)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.priority</td><td>Element `Appointment.priority` is mapped to FHIR R4 element `Appointment.priority` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.priority` do not cover the following types: CodeableConcept.
+The mappings for `Appointment.priority` do not cover the following types based on type expansion: coding, text.
+Seeking implementer feedback on this property and how interoperable it is.Using an extension to record a CodeableConcept for named values may be tested at a future connectathon.</td></tr><tr><td>Appointment.replaces (replaces)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.replaces</td><td>Element `Appointment.replaces` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.replaces` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.virtualService (virtualService)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService</td><td>Element `Appointment.virtualService` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.virtualService` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+There are two types of virtual meetings that often exist:* a persistent, virtual meeting room that can only be used for a single purpose at a time, * and a dynamic virtual meeting room that is generated on demand for a specific purpose.Implementers may consider using Location.virtualService for persistent meeting rooms.If each participant would have a different meeting link, an extension using the VirtualServiceContactDetail  can be applied to the Appointment.participant BackboneElement.</td></tr><tr><td>Appointment.previousAppointment (previousAppointment)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.previousAppointment</td><td>Element `Appointment.previousAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.previousAppointment` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This property is intended for use when representing a series of related appointments.  For example, in a nuclear medicine procedure, where there is an appointment for the injection of the isotopes, and then a subsequent appointment for the scan, the scan appointment would refer to the injection appointment via Appointment.previousAppointment.  For representing recurring appointments, see the guidance on recurring vs. series appointments.</td></tr><tr><td>Appointment.originatingAppointment (originatingAppointment)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.originatingAppointment</td><td>Element `Appointment.originatingAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.originatingAppointment` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This property is intended for use when representing a recurring set of related appointments.For example, a patient undergoing physical therapy may have a recurring appointment every Tuesday and Thursday.  Each occurrence of the set will refer to the originating appointment, which contains the recurring template information.  For representing appointment series, see the guidance on recurring vs. series appointments.</td></tr><tr><td>Appointment.account (account)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.account</td><td>Element `Appointment.account` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.account` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The specified account(s) could be those identified during pre-registration workflows in preparation for an upcoming Encounter.</td></tr><tr><td>Appointment.cancellationDate (cancellationDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate</td><td>Element `Appointment.cancellationDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.cancellationDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If the appointment was cancelled multiple times, this would reflect the most recent cancellation.</td></tr><tr><td>Appointment.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.note</td><td>Element `Appointment.note` is mapped to FHIR R4 element `Appointment.comment` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.note` do not cover the following types: Annotation.
+The mappings for `Appointment.note` do not cover the following types based on type expansion: time.
+Additional text to aid in facilitating the appointment. For instance, a note might be, &quot;patient should proceed immediately to infusion room upon arrival&quot;Where this is a planned appointment and the start/end dates are not set then this field can be used to provide additional guidance on the details of the appointment request, including any restrictions on when to book it.Typically only the concept.text will be used, however occasionally a reference to some generic documentation (or specific) and also supports coded instructions if/when they are required.</td></tr><tr><td>Appointment.patientInstruction (patientInstruction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.patientInstruction</td><td>Element `Appointment.patientInstruction` is mapped to FHIR R4 element `Appointment.patientInstruction` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.patientInstruction` do not cover the following types: CodeableReference.</td></tr><tr><td>Appointment.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.subject</td><td>Element `Appointment.subject` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.participant.required (required)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.required</td><td>Element `Appointment.participant.required` is mapped to FHIR R4 element `Appointment.participant.required` as `SourceIsBroaderThanTarget`.
+The mappings for `Appointment.participant.required` do not cover the following types: boolean.
+The mappings for `Appointment.participant.required` do not cover the following types based on type expansion: value.
+For the use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present include the patient in the subject field, but do not include them as a participant - this was formerly done prior to R5 with required='information-only'.</td></tr><tr><td>Appointment.recurrenceId (recurrenceId)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId</td><td>Element `Appointment.recurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.occurrenceChanged (occurrenceChanged)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged</td><td>Element `Appointment.occurrenceChanged` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.occurrenceChanged` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+For example, if a patient has physical therapy appointments every Tuesday and Thursday, but due to a national holiday, a single occurrence was rescheduled to a different day, while the rest of the recurring series remained on Tuesday / Thursday.</td></tr><tr><td>Appointment.recurrenceTemplate (recurrenceTemplate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate</td><td>Element `Appointment.recurrenceTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.timezone (timezone)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:timezone</td><td>Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.timezone` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.timezone` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.recurrenceType (recurrenceType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:recurrenceType</td><td>Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.recurrenceType` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.recurrenceType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.lastOccurrenceDate (lastOccurrenceDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:lastOccurrenceDate</td><td>Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.lastOccurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.lastOccurrenceDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.occurrenceCount (occurrenceCount)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:occurrenceCount</td><td>Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.occurrenceCount` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.occurrenceCount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.occurrenceDate (occurrenceDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:occurrenceDate</td><td>Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.occurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.occurrenceDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate (weeklyTemplate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:weeklyTemplate</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.monday (monday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:monday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.tuesday (tuesday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:tuesday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.wednesday (wednesday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:wednesday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.thursday (thursday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:thursday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.friday (friday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:friday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.saturday (saturday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:saturday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.sunday (sunday)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:sunday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.weekInterval (weekInterval)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:weekInterval</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate (monthlyTemplate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:monthlyTemplate</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.monthlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.monthlyTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth (dayOfMonth)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:dayOfMonth</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth (nthWeekOfMonth)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:nthWeekOfMonth</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek (dayOfWeek)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:dayOfWeek</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This property is intended to be used with Appointment.recurrenceTemplate.monthly.nthWeek.</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.monthInterval (monthInterval)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:monthInterval</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.yearlyTemplate (yearlyTemplate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:yearlyTemplate</td><td>Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.yearlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.yearlyTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.yearlyTemplate.yearInterval (yearInterval)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate:yearInterval</td><td>Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Appointment.recurrenceTemplate.excludingDate (excludingDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:excludingDate</td><td>Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.excludingDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.excludingDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+excludingDate is an alternative to excludingRecurrenceId.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property.</td></tr><tr><td>Appointment.recurrenceTemplate.excludingRecurrenceId (excludingRecurrenceId)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:excludingRecurrenceId</td><td>Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.
+Element `Appointment.recurrenceTemplate.excludingRecurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.
+Element `Appointment.recurrenceTemplate.excludingRecurrenceId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+excludingRecurrenceId is an alternative to excludingDate.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Appointment.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Appointment.participant.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Appointment-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5AppointmentElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Appointment to FHIR R4 Appointment"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:46.1412384-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Appointment to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Appointment.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Appointment.meta"/>
+        <display value="Appointment.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.meta` is mapped to FHIR R4 element `Appointment.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Appointment.implicitRules"/>
+        <display value="Appointment.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.implicitRules` is mapped to FHIR R4 element `Appointment.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Appointment.language"/>
+        <display value="Appointment.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.language` is mapped to FHIR R4 element `Appointment.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Appointment.text"/>
+        <display value="Appointment.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.text` is mapped to FHIR R4 element `Appointment.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Appointment.contained"/>
+        <display value="Appointment.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.contained` is mapped to FHIR R4 element `Appointment.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Appointment.identifier"/>
+        <display value="Appointment.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.identifier` is mapped to FHIR R4 element `Appointment.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Appointment.status"/>
+        <display value="Appointment.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.status` is mapped to FHIR R4 element `Appointment.status` as `Equivalent`.&#xA;If the Appointment's status is &quot;cancelled&quot; then all participants are expected to have their calendars released for the appointment period, and as such any Slots that were marked as BUSY can be re-set to FREE.&#xA;&#xA;This element is labeled as a modifier because the status contains the code entered-in-error that mark the Appointment as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.cancellationReason"/>
+      <display value="cancellationReason"/>
+      <target>
+        <code value="Appointment.cancelationReason"/>
+        <display value="Appointment.cancelationReason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.cancellationReason` is mapped to FHIR R4 element `Appointment.cancelationReason` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.serviceCategory"/>
+      <display value="serviceCategory"/>
+      <target>
+        <code value="Appointment.serviceCategory"/>
+        <display value="Appointment.serviceCategory"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.serviceCategory` is mapped to FHIR R4 element `Appointment.serviceCategory` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="Appointment.serviceType"/>
+        <display value="Appointment.serviceType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.serviceType` is mapped to FHIR R4 element `Appointment.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Appointment.serviceType` do not cover the following types based on type expansion: reference.&#xA;For a provider to provider appointment the code &quot;FOLLOWUP&quot; may be appropriate, as this is expected to be discussing some patient that was seen in the past."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.specialty"/>
+      <display value="specialty"/>
+      <target>
+        <code value="Appointment.specialty"/>
+        <display value="Appointment.specialty"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.specialty` is mapped to FHIR R4 element `Appointment.specialty` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.appointmentType"/>
+      <display value="appointmentType"/>
+      <target>
+        <code value="Appointment.appointmentType"/>
+        <display value="Appointment.appointmentType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.appointmentType` is mapped to FHIR R4 element `Appointment.appointmentType` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="Appointment.reasonCode"/>
+        <display value="Appointment.reasonCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.reason` do not cover the following types: CodeableReference."/>
+      </target>
+      <target>
+        <code value="Appointment.reasonReference"/>
+        <display value="Appointment.reasonReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.reason` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="Appointment.priority"/>
+        <display value="Appointment.priority"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.priority` is mapped to FHIR R4 element `Appointment.priority` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.priority` do not cover the following types: CodeableConcept.&#xA;The mappings for `Appointment.priority` do not cover the following types based on type expansion: coding, text.&#xA;Seeking implementer feedback on this property and how interoperable it is.&#xD;&#xD;Using an extension to record a CodeableConcept for named values may be tested at a future connectathon."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.description"/>
+      <display value="description"/>
+      <target>
+        <code value="Appointment.description"/>
+        <display value="Appointment.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.description` is mapped to FHIR R4 element `Appointment.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.supportingInformation"/>
+      <display value="supportingInformation"/>
+      <target>
+        <code value="Appointment.supportingInformation"/>
+        <display value="Appointment.supportingInformation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.supportingInformation` is mapped to FHIR R4 element `Appointment.supportingInformation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.start"/>
+      <display value="start"/>
+      <target>
+        <code value="Appointment.start"/>
+        <display value="Appointment.start"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.start` is mapped to FHIR R4 element `Appointment.start` as `Equivalent`.&#xA;If actual start/end times are not known then the requested period start/end can be used."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.end"/>
+      <display value="end"/>
+      <target>
+        <code value="Appointment.end"/>
+        <display value="Appointment.end"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.end` is mapped to FHIR R4 element `Appointment.end` as `Equivalent`.&#xA;If actual start/end times are not known then the requested period start/end can be used."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.minutesDuration"/>
+      <display value="minutesDuration"/>
+      <target>
+        <code value="Appointment.minutesDuration"/>
+        <display value="Appointment.minutesDuration"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.minutesDuration` is mapped to FHIR R4 element `Appointment.minutesDuration` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.requestedPeriod"/>
+      <display value="requestedPeriod"/>
+      <target>
+        <code value="Appointment.requestedPeriod"/>
+        <display value="Appointment.requestedPeriod"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.requestedPeriod` is mapped to FHIR R4 element `Appointment.requestedPeriod` as `Equivalent`.&#xA;This does not introduce a capacity for recurring appointments."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.slot"/>
+      <display value="slot"/>
+      <target>
+        <code value="Appointment.slot"/>
+        <display value="Appointment.slot"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.slot` is mapped to FHIR R4 element `Appointment.slot` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.created"/>
+      <display value="created"/>
+      <target>
+        <code value="Appointment.created"/>
+        <display value="Appointment.created"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.created` is mapped to FHIR R4 element `Appointment.created` as `Equivalent`.&#xA;This property is required for many use cases where the age of an appointment is considered in processing workflows for scheduling and billing of appointments."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.note"/>
+      <display value="note"/>
+      <target>
+        <code value="Appointment.comment"/>
+        <display value="Appointment.comment"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.note` is mapped to FHIR R4 element `Appointment.comment` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.note` do not cover the following types: Annotation.&#xA;The mappings for `Appointment.note` do not cover the following types based on type expansion: time.&#xA;Additional text to aid in facilitating the appointment. For instance, a note might be, &quot;patient should proceed immediately to infusion room upon arrival&quot;&#xD;&#xD;Where this is a planned appointment and the start/end dates are not set then this field can be used to provide additional guidance on the details of the appointment request, including any restrictions on when to book it.&#xD;&#xD;Typically only the concept.text will be used, however occasionally a reference to some generic documentation (or specific) and also supports coded instructions if/when they are required."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.patientInstruction"/>
+      <display value="patientInstruction"/>
+      <target>
+        <code value="Appointment.patientInstruction"/>
+        <display value="Appointment.patientInstruction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.patientInstruction` is mapped to FHIR R4 element `Appointment.patientInstruction` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.patientInstruction` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="Appointment.basedOn"/>
+        <display value="Appointment.basedOn"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.basedOn` is mapped to FHIR R4 element `Appointment.basedOn` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Appointment.basedOn` with unmapped reference targets: CarePlan, DeviceRequest, MedicationRequest."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant"/>
+      <display value="participant"/>
+      <target>
+        <code value="Appointment.participant"/>
+        <display value="Appointment.participant"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.participant` is mapped to FHIR R4 element `Appointment.participant` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Appointment.participant.type"/>
+        <display value="Appointment.participant.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.participant.type` is mapped to FHIR R4 element `Appointment.participant.type` as `Equivalent`.&#xA;The role of the participant can be used to declare what the actor will be doing in the scope of this appointment.&#xD;&#xD;If the actor is not specified, then it is expected that the actor will be filled in at a later stage of planning.&#xD;&#xD;This value SHALL be the same when creating an AppointmentResponse so that they can be matched, and subsequently update the Appointment."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Appointment.participant.period"/>
+        <display value="Appointment.participant.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.participant.period` is mapped to FHIR R4 element `Appointment.participant.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="Appointment.participant.actor"/>
+        <display value="Appointment.participant.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.participant.actor` is mapped to FHIR R4 element `Appointment.participant.actor` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Appointment.participant.actor` with unmapped reference targets: CareTeam, Group.&#xA;Where a CareTeam is provided, this does not imply that the entire team is included, just a single member from the group with the appropriate role. Where multiple members are required, please include the CareTeam the required number of times."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.required"/>
+      <display value="required"/>
+      <target>
+        <code value="Appointment.participant.required"/>
+        <display value="Appointment.participant.required"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.participant.required` is mapped to FHIR R4 element `Appointment.participant.required` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.participant.required` do not cover the following types: boolean.&#xA;The mappings for `Appointment.participant.required` do not cover the following types based on type expansion: value.&#xA;For the use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present include the patient in the subject field, but do not include them as a participant - this was formerly done prior to R5 with required='information-only'."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Appointment.participant.status"/>
+        <display value="Appointment.participant.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.participant.status` is mapped to FHIR R4 element `Appointment.participant.status` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Appointment.class"/>
+      <display value="class"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.class` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.class` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.serviceType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.serviceType` is mapped to FHIR R4 element `Appointment.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Appointment.serviceType` do not cover the following types based on type expansion: reference.&#xA;For a provider to provider appointment the code &quot;FOLLOWUP&quot; may be appropriate, as this is expected to be discussing some patient that was seen in the past."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `Appointment.reason` is mapped to FHIR R4 element `Appointment.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.reason` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.priority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.priority` is mapped to FHIR R4 element `Appointment.priority` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.priority` do not cover the following types: CodeableConcept.&#xA;The mappings for `Appointment.priority` do not cover the following types based on type expansion: coding, text.&#xA;Seeking implementer feedback on this property and how interoperable it is.&#xD;&#xD;Using an extension to record a CodeableConcept for named values may be tested at a future connectathon."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.replaces"/>
+      <display value="replaces"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.replaces"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.replaces` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.replaces` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.virtualService"/>
+      <display value="virtualService"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.virtualService` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.virtualService` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;There are two types of virtual meetings that often exist:&#xD;&#xD;* a persistent, virtual meeting room that can only be used for a single purpose at a time, &#xD;* and a dynamic virtual meeting room that is generated on demand for a specific purpose.&#xD;&#xD;Implementers may consider using Location.virtualService for persistent meeting rooms.&#xD;&#xD;If each participant would have a different meeting link, an extension using the VirtualServiceContactDetail  can be applied to the Appointment.participant BackboneElement."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.previousAppointment"/>
+      <display value="previousAppointment"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.previousAppointment"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.previousAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.previousAppointment` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This property is intended for use when representing a series of related appointments.  For example, in a nuclear medicine procedure, where there is an appointment for the injection of the isotopes, and then a subsequent appointment for the scan, the scan appointment would refer to the injection appointment via Appointment.previousAppointment.  For representing recurring appointments, see the guidance on recurring vs. series appointments."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.originatingAppointment"/>
+      <display value="originatingAppointment"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.originatingAppointment"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.originatingAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.originatingAppointment` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This property is intended for use when representing a recurring set of related appointments.&#xD;&#xD;For example, a patient undergoing physical therapy may have a recurring appointment every Tuesday and Thursday.  Each occurrence of the set will refer to the originating appointment, which contains the recurring template information.  For representing appointment series, see the guidance on recurring vs. series appointments."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.account"/>
+      <display value="account"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.account"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.account` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.account` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The specified account(s) could be those identified during pre-registration workflows in preparation for an upcoming Encounter."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.cancellationDate"/>
+      <display value="cancellationDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.cancellationDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.cancellationDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If the appointment was cancelled multiple times, this would reflect the most recent cancellation."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.note"/>
+      <display value="note"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.note"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.note` is mapped to FHIR R4 element `Appointment.comment` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.note` do not cover the following types: Annotation.&#xA;The mappings for `Appointment.note` do not cover the following types based on type expansion: time.&#xA;Additional text to aid in facilitating the appointment. For instance, a note might be, &quot;patient should proceed immediately to infusion room upon arrival&quot;&#xD;&#xD;Where this is a planned appointment and the start/end dates are not set then this field can be used to provide additional guidance on the details of the appointment request, including any restrictions on when to book it.&#xD;&#xD;Typically only the concept.text will be used, however occasionally a reference to some generic documentation (or specific) and also supports coded instructions if/when they are required."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.patientInstruction"/>
+      <display value="patientInstruction"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.patientInstruction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.patientInstruction` is mapped to FHIR R4 element `Appointment.patientInstruction` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.patientInstruction` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.subject"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.subject` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.required"/>
+      <display value="required"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.required"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Appointment.participant.required` is mapped to FHIR R4 element `Appointment.participant.required` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Appointment.participant.required` do not cover the following types: boolean.&#xA;The mappings for `Appointment.participant.required` do not cover the following types based on type expansion: value.&#xA;For the use-case where two doctors need to meet to discuss the results for a specific patient, and the patient is not required to be present include the patient in the subject field, but do not include them as a participant - this was formerly done prior to R5 with required='information-only'."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceId"/>
+      <display value="recurrenceId"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.occurrenceChanged"/>
+      <display value="occurrenceChanged"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.occurrenceChanged` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.occurrenceChanged` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;For example, if a patient has physical therapy appointments every Tuesday and Thursday, but due to a national holiday, a single occurrence was rescheduled to a different day, while the rest of the recurring series remained on Tuesday / Thursday."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate"/>
+      <display value="recurrenceTemplate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.timezone"/>
+      <display value="timezone"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:timezone"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.timezone` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.timezone` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.recurrenceType"/>
+      <display value="recurrenceType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:recurrenceType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.recurrenceType` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.recurrenceType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.lastOccurrenceDate"/>
+      <display value="lastOccurrenceDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:lastOccurrenceDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.lastOccurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.lastOccurrenceDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.occurrenceCount"/>
+      <display value="occurrenceCount"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:occurrenceCount"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceCount` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.occurrenceCount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.occurrenceDate"/>
+      <display value="occurrenceDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:occurrenceDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.occurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.occurrenceDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate"/>
+      <display value="weeklyTemplate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:weeklyTemplate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.monday"/>
+      <display value="monday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:monday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.tuesday"/>
+      <display value="tuesday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:tuesday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.wednesday"/>
+      <display value="wednesday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:wednesday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.thursday"/>
+      <display value="thursday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:thursday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.friday"/>
+      <display value="friday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:friday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.saturday"/>
+      <display value="saturday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:saturday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.sunday"/>
+      <display value="sunday"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:sunday"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.weeklyTemplate.weekInterval"/>
+      <display value="weekInterval"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate:weekInterval"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.monthlyTemplate"/>
+      <display value="monthlyTemplate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:monthlyTemplate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth"/>
+      <display value="dayOfMonth"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:dayOfMonth"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth"/>
+      <display value="nthWeekOfMonth"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:nthWeekOfMonth"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek"/>
+      <display value="dayOfWeek"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:dayOfWeek"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This property is intended to be used with Appointment.recurrenceTemplate.monthly.nthWeek."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.monthlyTemplate.monthInterval"/>
+      <display value="monthInterval"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate:monthInterval"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.yearlyTemplate"/>
+      <display value="yearlyTemplate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:yearlyTemplate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.yearlyTemplate.yearInterval"/>
+      <display value="yearInterval"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate:yearInterval"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.excludingDate"/>
+      <display value="excludingDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:excludingDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.excludingDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;excludingDate is an alternative to excludingRecurrenceId.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property."/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.recurrenceTemplate.excludingRecurrenceId"/>
+      <display value="excludingRecurrenceId"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate:excludingRecurrenceId"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.&#xA;Element `Appointment.recurrenceTemplate.excludingRecurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.&#xA;Element `Appointment.recurrenceTemplate.excludingRecurrenceId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;excludingRecurrenceId is an alternative to excludingDate.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Appointment"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Appointment.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="Appointment.participant.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

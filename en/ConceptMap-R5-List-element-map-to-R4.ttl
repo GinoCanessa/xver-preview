@@ -1,0 +1,346 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-List-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-List-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-List-element-map-to-R4</b></p><a name=\"R5-List-element-map-to-R4\"> </a><a name=\"hcR5-List-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/List|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/list.html\">Listversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>List.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.meta</td><td>Element `List.meta` is mapped to FHIR R4 element `List.meta` as `Equivalent`.</td></tr><tr><td>List.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.implicitRules</td><td>Element `List.implicitRules` is mapped to FHIR R4 element `List.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>List.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.language</td><td>Element `List.language` is mapped to FHIR R4 element `List.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>List.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.text</td><td>Element `List.text` is mapped to FHIR R4 element `List.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>List.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.contained</td><td>Element `List.contained` is mapped to FHIR R4 element `List.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>List.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.identifier</td><td>Element `List.identifier` is mapped to FHIR R4 element `List.identifier` as `Equivalent`.</td></tr><tr><td>List.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.status</td><td>Element `List.status` is mapped to FHIR R4 element `List.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>List.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.mode</td><td>Element `List.mode` is mapped to FHIR R4 element `List.mode` as `Equivalent`.\nThis element is labeled as a modifier because a change list must not be misunderstood as a complete list.</td></tr><tr><td>List.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.title</td><td>Element `List.title` is mapped to FHIR R4 element `List.title` as `Equivalent`.</td></tr><tr><td>List.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.code</td><td>Element `List.code` is mapped to FHIR R4 element `List.code` as `Equivalent`.\nIf there is no code, the purpose of the list is implied where it is used, such as in a document section using Document.section.code.</td></tr><tr><td>List.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>List.subject</td><td>Element `List.subject` is mapped to FHIR R4 element `List.subject` as `SourceIsBroaderThanTarget`.\nThe mappings for `List.subject` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `List.subject` with unmapped reference targets: Resource.\nSome purely arbitrary lists do not have a common subject, so this is optional. Lists having multiple subjects may raise challenges for systems that base access control or other security considerations on linkages to 'subject'. E.g. if a List is associated with multiple Patient subjects, then it would be nominally part of multiple patient compartments, which might drive access rights.</td></tr><tr><td>List.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.encounter</td><td>Element `List.encounter` is mapped to FHIR R4 element `List.encounter` as `Equivalent`.</td></tr><tr><td>List.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.date</td><td>Element `List.date` is mapped to FHIR R4 element `List.date` as `Equivalent`.\nThe actual important date is the date of currency of the resources that were summarized, but it is usually assumed that these are current when the preparation occurs.</td></tr><tr><td>List.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>List.source</td><td>Element `List.source` is mapped to FHIR R4 element `List.source` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `List.source` with unmapped reference targets: CareTeam, Organization, RelatedPerson.\nThe primary source is the entity that made the decisions what items are in the list. This may be software or user.</td></tr><tr><td>List.orderedBy (orderedBy)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.orderedBy</td><td>Element `List.orderedBy` is mapped to FHIR R4 element `List.orderedBy` as `Equivalent`.\nApplications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order.</td></tr><tr><td>List.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.note</td><td>Element `List.note` is mapped to FHIR R4 element `List.note` as `Equivalent`.</td></tr><tr><td>List.entry (entry)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>List.entry</td><td>Element `List.entry` is mapped to FHIR R4 element `List.entry` as `Equivalent`.\nIf there are no entries in the list, an emptyReason SHOULD be provided.</td></tr><tr><td>List.entry.flag (flag)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.entry.flag</td><td>Element `List.entry.flag` is mapped to FHIR R4 element `List.entry.flag` as `Equivalent`.\nThe flag can only be understood in the context of the List.code. If the flag means that the entry has actually been deleted from the list, the deleted element SHALL be true</td></tr><tr><td>List.entry.deleted (deleted)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.entry.deleted</td><td>Element `List.entry.deleted` is mapped to FHIR R4 element `List.entry.deleted` as `Equivalent`.\nIf the flag means that the entry has actually been deleted from the list, the deleted element SHALL be true. A deleted entry should be displayed in narrative as deleted.  This element is labeled as a modifier because it indicates that an item is (to be) no longer in the list.</td></tr><tr><td>List.entry.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.entry.date</td><td>Element `List.entry.date` is mapped to FHIR R4 element `List.entry.date` as `Equivalent`.</td></tr><tr><td>List.entry.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.entry.item</td><td>Element `List.entry.item` is mapped to FHIR R4 element `List.entry.item` as `Equivalent`.</td></tr><tr><td>List.emptyReason (emptyReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>List.emptyReason</td><td>Element `List.emptyReason` is mapped to FHIR R4 element `List.emptyReason` as `Equivalent`.\nThe various reasons for an empty list make a significant interpretation to its interpretation. Note that this code is for use when the entire list has been suppressed, and not for when individual items are omitted - implementers may consider using a text note or a flag on an entry in these cases.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/List|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>List.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>List.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-List-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-List-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ListElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 List to FHIR R4 List"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:49.8853063-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 List to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/List"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/List>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/List"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/List>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "List.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.meta" ] ;
+         fhir:display [ fhir:v "List.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.meta` is mapped to FHIR R4 element `List.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.implicitRules" ] ;
+         fhir:display [ fhir:v "List.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.implicitRules` is mapped to FHIR R4 element `List.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.language" ] ;
+         fhir:display [ fhir:v "List.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.language` is mapped to FHIR R4 element `List.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.text" ] ;
+         fhir:display [ fhir:v "List.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.text` is mapped to FHIR R4 element `List.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.contained" ] ;
+         fhir:display [ fhir:v "List.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.contained` is mapped to FHIR R4 element `List.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.identifier" ] ;
+         fhir:display [ fhir:v "List.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.identifier` is mapped to FHIR R4 element `List.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.status" ] ;
+         fhir:display [ fhir:v "List.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.status` is mapped to FHIR R4 element `List.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.mode" ] ;
+         fhir:display [ fhir:v "List.mode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.mode` is mapped to FHIR R4 element `List.mode` as `Equivalent`.\nThis element is labeled as a modifier because a change list must not be misunderstood as a complete list." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.title" ] ;
+         fhir:display [ fhir:v "List.title" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.title` is mapped to FHIR R4 element `List.title` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.code" ] ;
+         fhir:display [ fhir:v "List.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.code` is mapped to FHIR R4 element `List.code` as `Equivalent`.\nIf there is no code, the purpose of the list is implied where it is used, such as in a document section using Document.section.code." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.subject" ] ;
+         fhir:display [ fhir:v "List.subject" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `List.subject` is mapped to FHIR R4 element `List.subject` as `SourceIsBroaderThanTarget`.\nThe mappings for `List.subject` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `List.subject` with unmapped reference targets: Resource.\nSome purely arbitrary lists do not have a common subject, so this is optional. Lists having multiple subjects may raise challenges for systems that base access control or other security considerations on linkages to 'subject'. E.g. if a List is associated with multiple Patient subjects, then it would be nominally part of multiple patient compartments, which might drive access rights." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.encounter" ] ;
+         fhir:display [ fhir:v "List.encounter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.encounter` is mapped to FHIR R4 element `List.encounter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.date" ] ;
+         fhir:display [ fhir:v "List.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.date` is mapped to FHIR R4 element `List.date` as `Equivalent`.\nThe actual important date is the date of currency of the resources that were summarized, but it is usually assumed that these are current when the preparation occurs." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.source" ] ;
+         fhir:display [ fhir:v "List.source" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `List.source` is mapped to FHIR R4 element `List.source` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `List.source` with unmapped reference targets: CareTeam, Organization, RelatedPerson.\nThe primary source is the entity that made the decisions what items are in the list. This may be software or user." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.orderedBy" ] ;
+       fhir:display [ fhir:v "orderedBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.orderedBy" ] ;
+         fhir:display [ fhir:v "List.orderedBy" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.orderedBy` is mapped to FHIR R4 element `List.orderedBy` as `Equivalent`.\nApplications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.note" ] ;
+         fhir:display [ fhir:v "List.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.note` is mapped to FHIR R4 element `List.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.entry" ] ;
+       fhir:display [ fhir:v "entry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.entry" ] ;
+         fhir:display [ fhir:v "List.entry" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `List.entry` is mapped to FHIR R4 element `List.entry` as `Equivalent`.\nIf there are no entries in the list, an emptyReason SHOULD be provided." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.entry.flag" ] ;
+       fhir:display [ fhir:v "flag" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.entry.flag" ] ;
+         fhir:display [ fhir:v "List.entry.flag" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.entry.flag` is mapped to FHIR R4 element `List.entry.flag` as `Equivalent`.\nThe flag can only be understood in the context of the List.code. If the flag means that the entry has actually been deleted from the list, the deleted element SHALL be true" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.entry.deleted" ] ;
+       fhir:display [ fhir:v "deleted" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.entry.deleted" ] ;
+         fhir:display [ fhir:v "List.entry.deleted" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.entry.deleted` is mapped to FHIR R4 element `List.entry.deleted` as `Equivalent`.\nIf the flag means that the entry has actually been deleted from the list, the deleted element SHALL be true. A deleted entry should be displayed in narrative as deleted.  This element is labeled as a modifier because it indicates that an item is (to be) no longer in the list." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.entry.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.entry.date" ] ;
+         fhir:display [ fhir:v "List.entry.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.entry.date` is mapped to FHIR R4 element `List.entry.date` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.entry.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.entry.item" ] ;
+         fhir:display [ fhir:v "List.entry.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.entry.item` is mapped to FHIR R4 element `List.entry.item` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.emptyReason" ] ;
+       fhir:display [ fhir:v "emptyReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "List.emptyReason" ] ;
+         fhir:display [ fhir:v "List.emptyReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `List.emptyReason` is mapped to FHIR R4 element `List.emptyReason` as `Equivalent`.\nThe various reasons for an empty list make a significant interpretation to its interpretation. Note that this code is for use when the entire list has been suppressed, and not for when individual items are omitted - implementers may consider using a text note or a flag on an entry in these cases." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/List"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/List>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "List.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "List.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

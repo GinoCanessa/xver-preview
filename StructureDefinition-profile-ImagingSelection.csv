@@ -1,0 +1,132 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping","Mapping: FiveWs Pattern Mapping"
+"Basic","Basic","","Z-resource
+Extension-resourceCustom-resource","",0,*,"","","","null {[]} {[]}
+","Resource for non-supported content","Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.","","","","","","","","","",,,,,"",,,,"Basic",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
+dom-3:If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource {contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()}dom-4:If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated {contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()}dom-5:If a resource is contained in another resource, it SHALL NOT have a security label {contained.meta.security.empty()}dom-6:A resource should have narrative for robust management {text.`div`.exists()}","Entity. Role, or Act","Act, Entity or Role"
+"Basic.id","Basic.id","","","",0,1,"","","Y","id {[]} {[]}
+","Logical id of this artifact","The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.","The only time that a resource does not have an id is when it is being submitted to the server using a create operation.","","","","","","","","",,,,,"",,,,"Resource.id",0,1,"",""
+"Basic.meta","Basic.meta","","","",0,1,"","","Y","Meta {[]} {[]}
+","Metadata about the resource","The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.","","","","","","","","","",,,,,"",,,,"Resource.meta",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.implicitRules","Basic.implicitRules","","","",0,1,"","Y","Y","uri {[]} {[]}
+","A set of rules under which this content was created","A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.","Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.","","","","","","","","",,,,,"",,,,"Resource.implicitRules",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.language","Basic.language","","","",0,1,"","","","code {[]} {[]}
+","Language of the resource content","The base language in which the resource is written.","Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).","","","","","","","","",,"preferred","A human language.","http://hl7.org/fhir/ValueSet/languages|4.0.1","",,,,"Resource.language",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.text","Basic.text","","narrative
+htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
+","Text summary of the resource, for human interpretation","A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it ""clinically safe"" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.","Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a ""text blob"" or where text is additionally entered raw or narrated and encoded information is added later.","","","","","","","","",,,,,"",,,,"DomainResource.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Act.text?"
+"Basic.contained","Basic.contained","","inline resources
+anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
+","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
+"Basic.extension","Basic.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:issued","Basic.extension","issued","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.issued|0.1.0]]} {[]}
+","R5: Date / Time when this imaging selection was created (new)","R5: `ImagingSelection.issued` (new:instant)","Element `ImagingSelection.issued` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.issued` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:performer","Basic.extension","performer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer|0.1.0]]} {[]}
+","R5: Selector of the instances (human or machine) (new)","R5: `ImagingSelection.performer` (new:BackboneElement)","Element `ImagingSelection.performer` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.performer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:basedOn","Basic.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.basedOn|0.1.0]]} {[]}
+","R5: Associated request (new)","R5: `ImagingSelection.basedOn` (new:Reference(CarePlan,ServiceRequest,Appointment,AppointmentResponse,Task))","Element `ImagingSelection.basedOn` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:category","Basic.extension","category","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.category|0.1.0]]} {[]}
+","R5: Classifies the imaging selection (new)","R5: `ImagingSelection.category` (new:CodeableConcept)","Element `ImagingSelection.category` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:code","Basic.extension","code","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.code|0.1.0]]} {[]}
+","R5: Imaging Selection purpose text or code (new)","R5: `ImagingSelection.code` (new:CodeableConcept)","Element `ImagingSelection.code` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:studyUid","Basic.extension","studyUid","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.studyUid|0.1.0]]} {[]}
+","R5: DICOM Study Instance UID (new)","R5: `ImagingSelection.studyUid` (new:id)","Element `ImagingSelection.studyUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.studyUid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See [DICOM PS3.3 C.7.2](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.2.html).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:derivedFrom","Basic.extension","derivedFrom","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.derivedFrom|0.1.0]]} {[]}
+","R5: The imaging study from which the imaging selection is derived (new)","R5: `ImagingSelection.derivedFrom` (new:Reference(ImagingStudy,DocumentReference))","Element `ImagingSelection.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:endpoint","Basic.extension","endpoint","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.endpoint|0.1.0]]} {[]}
+","R5: The network service providing retrieval for the images referenced in the imaging selection (new)","R5: `ImagingSelection.endpoint` (new:Reference(Endpoint))","Element `ImagingSelection.endpoint` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.endpoint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG) formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:seriesUid","Basic.extension","seriesUid","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesUid|0.1.0]]} {[]}
+","R5: DICOM Series Instance UID (new)","R5: `ImagingSelection.seriesUid` (new:id)","Element `ImagingSelection.seriesUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.seriesUid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See [DICOM PS3.3 C.7.3](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.3.html).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:seriesNumber","Basic.extension","seriesNumber","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesNumber|0.1.0]]} {[]}
+","R5: DICOM Series Number (new)","R5: `ImagingSelection.seriesNumber` (new:unsignedInt)","Element `ImagingSelection.seriesNumber` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.seriesNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See [DICOM PS3.3 C.7.3](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.3.html).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:frameOfReferenceUid","Basic.extension","frameOfReferenceUid","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.frameOfReferenceUid|0.1.0]]} {[]}
+","R5: The Frame of Reference UID for the selected images (new)","R5: `ImagingSelection.frameOfReferenceUid` (new:id)","Element `ImagingSelection.frameOfReferenceUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.frameOfReferenceUid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See [DICOM PS3.3 C.7.4.1](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.4.html).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:bodySite","Basic.extension","bodySite","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.bodySite|0.1.0]]} {[]}
+","R5: Body part examined (new)","R5: `ImagingSelection.bodySite` (new:CodeableReference(BodyStructure))","Element `ImagingSelection.bodySite` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.bodySite` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:focus","Basic.extension","focus","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.focus|0.1.0]]} {[]}
+","R5: Related resource that is the focus for the imaging selection (new)","R5: `ImagingSelection.focus` (new:Reference(ImagingSelection))","Element `ImagingSelection.focus` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+An imaging selection may reference a DICOM resource that itself references other DICOM resources.
+       e.g. a presentation state references a set of source images or frames.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:instance","Basic.extension","instance","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance|0.1.0]]} {[]}
+","R5: The selected instances (new)","R5: `ImagingSelection.instance` (new:BackboneElement)","Element `ImagingSelection.instance` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.instance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension","Basic.modifierExtension","","","",0,*,"","Y","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension:status","Basic.modifierExtension","status","","",1,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.status|0.1.0]]} {[]}
+","R5: available | entered-in-error | unknown (new)","R5: `ImagingSelection.status` (new:code)","Element `ImagingSelection.status` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.
+Element `ImagingSelection.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Unknown does not represent ""other"" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.","","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.identifier","Basic.identifier","","","",0,*,"","","Y","Identifier {[]} {[]}
+","Business identifier","Identifier assigned to the resource for business purposes, outside the context of FHIR.","","","","","","","","","",,,,,"",,,,"Basic.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./identifier","FiveWs.identifier"
+"Basic.code","Basic.code","","","",1,1,"","Y","Y","CodeableConcept {[]} {[]}
+","Kind of Resource","Identifies the 'type' of resource - equivalent to the resource name for other resources.","Because resource references will only be able to indicate 'Basic', the type of reference will need to be specified in a Profile identified as part of the resource.  Refer to the resource notes section for information on appropriate terminologies for this code.
+
+This element is labeled as a modifier because it defines the meaning of the resource and cannot be ignored.","Must be able to distinguish different types of Basic resources.","","","","","","","",,"example","Codes for identifying types of resources not yet defined by FHIR.","http://hl7.org/fhir/ValueSet/basic-resource-type|4.0.1","",,,,"Basic.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./code","FiveWs.what[x]"
+"Basic.subject","Basic.subject","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource|4.0.1]]}
+","Identifies the focus of this resource","Identifies the patient, practitioner, device or any other resource that is the ""focus"" of this resource.","Optional as not all potential resources will have subjects.  Resources associated with multiple subjects can handle this via extension.","Needed for partitioning the resource by Patient.","","","","","","","",,,,,"",,,,"Basic.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SBJ'] (possibly through a ControlAct and Role)","FiveWs.subject[x]","FiveWs.subject"
+"Basic.created","Basic.created","","","",0,1,"","","Y","date {[]} {[]}
+","When created","Identifies when the resource was first created.","","Allows ordering resource instances by time.","","","","","","","",,,,,"",,,,"Basic.created",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='AUT']/time (possibly through a ControlAct and Role)","FiveWs.recorded"
+"Basic.author","Basic.author","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+","Who created","Indicates who was responsible for creating the resource instance.","","Needed for partitioning the resource.","","","","","","","",,,,,"",,,,"Basic.author",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SUB'] (possibly through a ControlAct and Role)","FiveWs.author"

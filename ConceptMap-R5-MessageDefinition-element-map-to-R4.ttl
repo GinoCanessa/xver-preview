@@ -1,0 +1,469 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-MessageDefinition-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-MessageDefinition-element-map-to-R4</b></p><a name=\"R5-MessageDefinition-element-map-to-R4\"> </a><a name=\"hcR5-MessageDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/messagedefinition.html\">MessageDefinitionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageDefinition.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.meta</td><td>Element `MessageDefinition.meta` is mapped to FHIR R4 element `MessageDefinition.meta` as `Equivalent`.</td></tr><tr><td>MessageDefinition.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.implicitRules</td><td>Element `MessageDefinition.implicitRules` is mapped to FHIR R4 element `MessageDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>MessageDefinition.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.language</td><td>Element `MessageDefinition.language` is mapped to FHIR R4 element `MessageDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>MessageDefinition.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.text</td><td>Element `MessageDefinition.text` is mapped to FHIR R4 element `MessageDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>MessageDefinition.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.contained</td><td>Element `MessageDefinition.contained` is mapped to FHIR R4 element `MessageDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>MessageDefinition.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.url</td><td>Element `MessageDefinition.url` is mapped to FHIR R4 element `MessageDefinition.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>MessageDefinition.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.identifier</td><td>Element `MessageDefinition.identifier` is mapped to FHIR R4 element `MessageDefinition.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this message definition outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>MessageDefinition.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.version</td><td>Element `MessageDefinition.version` is mapped to FHIR R4 element `MessageDefinition.version` as `Equivalent`.\nThere may be different message definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the message definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>MessageDefinition.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.name</td><td>Element `MessageDefinition.name` is mapped to FHIR R4 element `MessageDefinition.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>MessageDefinition.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.title</td><td>Element `MessageDefinition.title` is mapped to FHIR R4 element `MessageDefinition.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>MessageDefinition.replaces (replaces)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.replaces</td><td>Element `MessageDefinition.replaces` is mapped to FHIR R4 element `MessageDefinition.replaces` as `Equivalent`.</td></tr><tr><td>MessageDefinition.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.status</td><td>Element `MessageDefinition.status` is mapped to FHIR R4 element `MessageDefinition.status` as `Equivalent`.\nAllows filtering of message definitions that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>MessageDefinition.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.experimental</td><td>Element `MessageDefinition.experimental` is mapped to FHIR R4 element `MessageDefinition.experimental` as `Equivalent`.\nAllows filtering of message definitions that are appropriate for use versus not.</td></tr><tr><td>MessageDefinition.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.date</td><td>Element `MessageDefinition.date` is mapped to FHIR R4 element `MessageDefinition.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the message definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>MessageDefinition.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.publisher</td><td>Element `MessageDefinition.publisher` is mapped to FHIR R4 element `MessageDefinition.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the message definition is the organization or individual primarily responsible for the maintenance and upkeep of the message definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the message definition. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>MessageDefinition.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.contact</td><td>Element `MessageDefinition.contact` is mapped to FHIR R4 element `MessageDefinition.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>MessageDefinition.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.description</td><td>Element `MessageDefinition.description` is mapped to FHIR R4 element `MessageDefinition.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the message definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the message definition is presumed to be the predominant language in the place the message definition was created).</td></tr><tr><td>MessageDefinition.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.useContext</td><td>Element `MessageDefinition.useContext` is mapped to FHIR R4 element `MessageDefinition.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>MessageDefinition.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.jurisdiction</td><td>Element `MessageDefinition.jurisdiction` is mapped to FHIR R4 element `MessageDefinition.jurisdiction` as `Equivalent`.\nElement `MessageDefinition.jurisdiction` has been flagged as deprecated.\nIt may be possible for the message definition to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>MessageDefinition.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.purpose</td><td>Element `MessageDefinition.purpose` is mapped to FHIR R4 element `MessageDefinition.purpose` as `Equivalent`.\nThis element does not describe the usage of the message definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this message definition.</td></tr><tr><td>MessageDefinition.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.copyright</td><td>Element `MessageDefinition.copyright` is mapped to FHIR R4 element `MessageDefinition.copyright` as `Equivalent`.</td></tr><tr><td>MessageDefinition.base (base)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.base</td><td>Element `MessageDefinition.base` is mapped to FHIR R4 element `MessageDefinition.base` as `Equivalent`.</td></tr><tr><td>MessageDefinition.parent (parent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.parent</td><td>Element `MessageDefinition.parent` is mapped to FHIR R4 element `MessageDefinition.parent` as `Equivalent`.\nIt should be possible to use MessageDefinition to describe a message to be used by certain steps in a particular protocol as part of a PlanDefinition or ActivityDefinition.</td></tr><tr><td>MessageDefinition.event[x] (event[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.event[x]</td><td>Element `MessageDefinition.event[x]` is mapped to FHIR R4 element `MessageDefinition.event[x]` as `Equivalent`.\nThe target context `MessageDefinition.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageDefinition`.</td></tr><tr><td>MessageDefinition.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.category</td><td>Element `MessageDefinition.category` is mapped to FHIR R4 element `MessageDefinition.category` as `Equivalent`.</td></tr><tr><td>MessageDefinition.focus (focus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>MessageDefinition.focus</td><td>Element `MessageDefinition.focus` is mapped to FHIR R4 element `MessageDefinition.focus` as `Equivalent`.</td></tr><tr><td>MessageDefinition.focus.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>MessageDefinition.focus.code</td><td>Element `MessageDefinition.focus.code` is mapped to FHIR R4 element `MessageDefinition.focus.code` as `RelatedTo`.\nThe mappings for `MessageDefinition.focus.code` do not allow expression of the necessary codes, per the bindings on the source and target.\nMultiple focuses addressing different resources may occasionally occur.  E.g. to link or unlink a resource from a particular account or encounter, etc.</td></tr><tr><td>MessageDefinition.focus.profile (profile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.focus.profile</td><td>Element `MessageDefinition.focus.profile` is mapped to FHIR R4 element `MessageDefinition.focus.profile` as `Equivalent`.\nThis should be present for most message definitions.  However, if the message focus is only a single resource and there is no need to include referenced resources or otherwise enforce the presence of particular elements, it can be omitted.</td></tr><tr><td>MessageDefinition.focus.min (min)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.focus.min</td><td>Element `MessageDefinition.focus.min` is mapped to FHIR R4 element `MessageDefinition.focus.min` as `Equivalent`.</td></tr><tr><td>MessageDefinition.focus.max (max)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.focus.max</td><td>Element `MessageDefinition.focus.max` is mapped to FHIR R4 element `MessageDefinition.focus.max` as `Equivalent`.</td></tr><tr><td>MessageDefinition.responseRequired (responseRequired)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.responseRequired</td><td>Element `MessageDefinition.responseRequired` is mapped to FHIR R4 element `MessageDefinition.responseRequired` as `Equivalent`.\nThis enables the capability currently available through MSH-16 (Application Level acknowledgement) in HL7 Version 2 to declare at a message instance level whether a response is required or only upon error or success, or never.</td></tr><tr><td>MessageDefinition.allowedResponse (allowedResponse)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>MessageDefinition.allowedResponse</td><td>Element `MessageDefinition.allowedResponse` is mapped to FHIR R4 element `MessageDefinition.allowedResponse` as `Equivalent`.\nThis indicates an application level response to \"close\" a transaction implicit in a particular request message.  To define a complete workflow scenario, look to the [[PlanDefinition]] resource which allows the definition of complex orchestrations, conditionality, etc.</td></tr><tr><td>MessageDefinition.allowedResponse.message (message)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.allowedResponse.message</td><td>Element `MessageDefinition.allowedResponse.message` is mapped to FHIR R4 element `MessageDefinition.allowedResponse.message` as `Equivalent`.</td></tr><tr><td>MessageDefinition.allowedResponse.situation (situation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.allowedResponse.situation</td><td>Element `MessageDefinition.allowedResponse.situation` is mapped to FHIR R4 element `MessageDefinition.allowedResponse.situation` as `Equivalent`.</td></tr><tr><td>MessageDefinition.graph (graph)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>MessageDefinition.graph</td><td>Element `MessageDefinition.graph` is mapped to FHIR R4 element `MessageDefinition.graph` as `SourceIsNarrowerThanTarget`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageDefinition.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.versionAlgorithm</td><td>Element `MessageDefinition.versionAlgorithm[x]` has a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.\nElement `MessageDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>MessageDefinition.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel</td><td>Element `MessageDefinition.copyrightLabel` has a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.\nElement `MessageDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>MessageDefinition.focus.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus.code</td><td>Element `MessageDefinition.focus.code` is mapped to FHIR R4 element `MessageDefinition.focus.code` as `RelatedTo`.\nThe mappings for `MessageDefinition.focus.code` do not allow expression of the necessary codes, per the bindings on the source and target.\nMultiple focuses addressing different resources may occasionally occur.  E.g. to link or unlink a resource from a particular account or encounter, etc.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5MessageDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 MessageDefinition to FHIR R4 MessageDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:50.1619105-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MessageDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageDefinition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.meta" ] ;
+         fhir:display [ fhir:v "MessageDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.meta` is mapped to FHIR R4 element `MessageDefinition.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.implicitRules" ] ;
+         fhir:display [ fhir:v "MessageDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.implicitRules` is mapped to FHIR R4 element `MessageDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.language" ] ;
+         fhir:display [ fhir:v "MessageDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.language` is mapped to FHIR R4 element `MessageDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.text" ] ;
+         fhir:display [ fhir:v "MessageDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.text` is mapped to FHIR R4 element `MessageDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.contained" ] ;
+         fhir:display [ fhir:v "MessageDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.contained` is mapped to FHIR R4 element `MessageDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.url" ] ;
+         fhir:display [ fhir:v "MessageDefinition.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.url` is mapped to FHIR R4 element `MessageDefinition.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). \n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.identifier" ] ;
+         fhir:display [ fhir:v "MessageDefinition.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.identifier` is mapped to FHIR R4 element `MessageDefinition.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this message definition outside of FHIR, where it is not possible to use the logical URI." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.version" ] ;
+         fhir:display [ fhir:v "MessageDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.version` is mapped to FHIR R4 element `MessageDefinition.version` as `Equivalent`.\nThere may be different message definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the message definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.name" ] ;
+         fhir:display [ fhir:v "MessageDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.name` is mapped to FHIR R4 element `MessageDefinition.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.title" ] ;
+         fhir:display [ fhir:v "MessageDefinition.title" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.title` is mapped to FHIR R4 element `MessageDefinition.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.replaces" ] ;
+       fhir:display [ fhir:v "replaces" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.replaces" ] ;
+         fhir:display [ fhir:v "MessageDefinition.replaces" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.replaces` is mapped to FHIR R4 element `MessageDefinition.replaces` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.status" ] ;
+         fhir:display [ fhir:v "MessageDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.status` is mapped to FHIR R4 element `MessageDefinition.status` as `Equivalent`.\nAllows filtering of message definitions that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.experimental" ] ;
+         fhir:display [ fhir:v "MessageDefinition.experimental" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.experimental` is mapped to FHIR R4 element `MessageDefinition.experimental` as `Equivalent`.\nAllows filtering of message definitions that are appropriate for use versus not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.date" ] ;
+         fhir:display [ fhir:v "MessageDefinition.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.date` is mapped to FHIR R4 element `MessageDefinition.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the message definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.publisher" ] ;
+         fhir:display [ fhir:v "MessageDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.publisher` is mapped to FHIR R4 element `MessageDefinition.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the message definition is the organization or individual primarily responsible for the maintenance and upkeep of the message definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the message definition. This item SHOULD be populated unless the information is available from context." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.contact" ] ;
+         fhir:display [ fhir:v "MessageDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.contact` is mapped to FHIR R4 element `MessageDefinition.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.description" ] ;
+         fhir:display [ fhir:v "MessageDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.description` is mapped to FHIR R4 element `MessageDefinition.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the message definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the message definition is presumed to be the predominant language in the place the message definition was created)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.useContext" ] ;
+         fhir:display [ fhir:v "MessageDefinition.useContext" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.useContext` is mapped to FHIR R4 element `MessageDefinition.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.jurisdiction" ] ;
+         fhir:display [ fhir:v "MessageDefinition.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.jurisdiction` is mapped to FHIR R4 element `MessageDefinition.jurisdiction` as `Equivalent`.\nElement `MessageDefinition.jurisdiction` has been flagged as deprecated.\nIt may be possible for the message definition to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.purpose" ] ;
+         fhir:display [ fhir:v "MessageDefinition.purpose" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.purpose` is mapped to FHIR R4 element `MessageDefinition.purpose` as `Equivalent`.\nThis element does not describe the usage of the message definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this message definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.copyright" ] ;
+         fhir:display [ fhir:v "MessageDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.copyright` is mapped to FHIR R4 element `MessageDefinition.copyright` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.base" ] ;
+       fhir:display [ fhir:v "base" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.base" ] ;
+         fhir:display [ fhir:v "MessageDefinition.base" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.base` is mapped to FHIR R4 element `MessageDefinition.base` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.parent" ] ;
+       fhir:display [ fhir:v "parent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.parent" ] ;
+         fhir:display [ fhir:v "MessageDefinition.parent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.parent` is mapped to FHIR R4 element `MessageDefinition.parent` as `Equivalent`.\nIt should be possible to use MessageDefinition to describe a message to be used by certain steps in a particular protocol as part of a PlanDefinition or ActivityDefinition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.event[x]" ] ;
+       fhir:display [ fhir:v "event[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.event[x]" ] ;
+         fhir:display [ fhir:v "MessageDefinition.event[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.event[x]` is mapped to FHIR R4 element `MessageDefinition.event[x]` as `Equivalent`.\nThe target context `MessageDefinition.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.category" ] ;
+         fhir:display [ fhir:v "MessageDefinition.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.category` is mapped to FHIR R4 element `MessageDefinition.category` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.focus" ] ;
+         fhir:display [ fhir:v "MessageDefinition.focus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.focus` is mapped to FHIR R4 element `MessageDefinition.focus` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.focus.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.focus.code" ] ;
+         fhir:display [ fhir:v "MessageDefinition.focus.code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.focus.code` is mapped to FHIR R4 element `MessageDefinition.focus.code` as `RelatedTo`.\nThe mappings for `MessageDefinition.focus.code` do not allow expression of the necessary codes, per the bindings on the source and target.\nMultiple focuses addressing different resources may occasionally occur.  E.g. to link or unlink a resource from a particular account or encounter, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.focus.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.focus.profile" ] ;
+         fhir:display [ fhir:v "MessageDefinition.focus.profile" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.focus.profile` is mapped to FHIR R4 element `MessageDefinition.focus.profile` as `Equivalent`.\nThis should be present for most message definitions.  However, if the message focus is only a single resource and there is no need to include referenced resources or otherwise enforce the presence of particular elements, it can be omitted." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.focus.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.focus.min" ] ;
+         fhir:display [ fhir:v "MessageDefinition.focus.min" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.focus.min` is mapped to FHIR R4 element `MessageDefinition.focus.min` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.focus.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.focus.max" ] ;
+         fhir:display [ fhir:v "MessageDefinition.focus.max" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.focus.max` is mapped to FHIR R4 element `MessageDefinition.focus.max` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.responseRequired" ] ;
+       fhir:display [ fhir:v "responseRequired" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.responseRequired" ] ;
+         fhir:display [ fhir:v "MessageDefinition.responseRequired" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.responseRequired` is mapped to FHIR R4 element `MessageDefinition.responseRequired` as `Equivalent`.\nThis enables the capability currently available through MSH-16 (Application Level acknowledgement) in HL7 Version 2 to declare at a message instance level whether a response is required or only upon error or success, or never." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.allowedResponse" ] ;
+       fhir:display [ fhir:v "allowedResponse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.allowedResponse" ] ;
+         fhir:display [ fhir:v "MessageDefinition.allowedResponse" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.allowedResponse` is mapped to FHIR R4 element `MessageDefinition.allowedResponse` as `Equivalent`.\nThis indicates an application level response to \"close\" a transaction implicit in a particular request message.  To define a complete workflow scenario, look to the [[PlanDefinition]] resource which allows the definition of complex orchestrations, conditionality, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.allowedResponse.message" ] ;
+       fhir:display [ fhir:v "message" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.allowedResponse.message" ] ;
+         fhir:display [ fhir:v "MessageDefinition.allowedResponse.message" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.allowedResponse.message` is mapped to FHIR R4 element `MessageDefinition.allowedResponse.message` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.allowedResponse.situation" ] ;
+       fhir:display [ fhir:v "situation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.allowedResponse.situation" ] ;
+         fhir:display [ fhir:v "MessageDefinition.allowedResponse.situation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.allowedResponse.situation` is mapped to FHIR R4 element `MessageDefinition.allowedResponse.situation` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.graph" ] ;
+       fhir:display [ fhir:v "graph" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "MessageDefinition.graph" ] ;
+         fhir:display [ fhir:v "MessageDefinition.graph" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.graph` is mapped to FHIR R4 element `MessageDefinition.graph` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.versionAlgorithm[x]` has a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.\nElement `MessageDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.copyrightLabel` has a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.\nElement `MessageDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageDefinition.focus.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageDefinition.focus.code` is mapped to FHIR R4 element `MessageDefinition.focus.code` as `RelatedTo`.\nThe mappings for `MessageDefinition.focus.code` do not allow expression of the necessary codes, per the bindings on the source and target.\nMultiple focuses addressing different resources may occasionally occur.  E.g. to link or unlink a resource from a particular account or encounter, etc." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

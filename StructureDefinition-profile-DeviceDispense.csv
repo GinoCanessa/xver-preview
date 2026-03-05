@@ -1,0 +1,147 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping","Mapping: FiveWs Pattern Mapping"
+"Basic","Basic","","Z-resource
+Extension-resourceCustom-resource","",0,*,"","","","null {[]} {[]}
+","Resource for non-supported content","Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.","","","","","","","","","",,,,,"",,,,"Basic",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
+dom-3:If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource {contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()}dom-4:If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated {contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()}dom-5:If a resource is contained in another resource, it SHALL NOT have a security label {contained.meta.security.empty()}dom-6:A resource should have narrative for robust management {text.`div`.exists()}","Entity. Role, or Act","Act, Entity or Role"
+"Basic.id","Basic.id","","","",0,1,"","","Y","id {[]} {[]}
+","Logical id of this artifact","The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.","The only time that a resource does not have an id is when it is being submitted to the server using a create operation.","","","","","","","","",,,,,"",,,,"Resource.id",0,1,"",""
+"Basic.meta","Basic.meta","","","",0,1,"","","Y","Meta {[]} {[]}
+","Metadata about the resource","The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.","","","","","","","","","",,,,,"",,,,"Resource.meta",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.implicitRules","Basic.implicitRules","","","",0,1,"","Y","Y","uri {[]} {[]}
+","A set of rules under which this content was created","A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.","Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.","","","","","","","","",,,,,"",,,,"Resource.implicitRules",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.language","Basic.language","","","",0,1,"","","","code {[]} {[]}
+","Language of the resource content","The base language in which the resource is written.","Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).","","","","","","","","",,"preferred","A human language.","http://hl7.org/fhir/ValueSet/languages|4.0.1","",,,,"Resource.language",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.text","Basic.text","","narrative
+htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
+","Text summary of the resource, for human interpretation","A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it ""clinically safe"" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.","Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a ""text blob"" or where text is additionally entered raw or narrated and encoded information is added later.","","","","","","","","",,,,,"",,,,"DomainResource.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Act.text?"
+"Basic.contained","Basic.contained","","inline resources
+anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
+","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
+"Basic.extension","Basic.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:basedOn","Basic.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.basedOn|0.1.0]]} {[]}
+","R5: The order or request that this dispense is fulfilling (new)","R5: `DeviceDispense.basedOn` (new:Reference(CarePlan,DeviceRequest))","Element `DeviceDispense.basedOn` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:partOf","Basic.extension","partOf","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.partOf|0.1.0]]} {[]}
+","R5: The bigger event that this dispense is a part of (new)","R5: `DeviceDispense.partOf` (new:Reference(Procedure))","Element `DeviceDispense.partOf` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.partOf` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:statusReason","Basic.extension","statusReason","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.statusReason|0.1.0]]} {[]}
+","R5: Why a dispense was or was not performed (new)","R5: `DeviceDispense.statusReason` (new:CodeableReference(DetectedIssue))","Element `DeviceDispense.statusReason` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.statusReason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:category","Basic.extension","category","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.category|0.1.0]]} {[]}
+","R5: Type of device dispense (new)","R5: `DeviceDispense.category` (new:CodeableConcept)","Element `DeviceDispense.category` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The category can be used to include where the device is expected to be consumed or other types of dispenses.  Invariants can be used to bind to different value sets when profiling to bind.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:device","Basic.extension","device","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.device|0.1.0]]} {[]}
+","R5: What device was supplied (new)","R5: `DeviceDispense.device` (new:CodeableReference(Device,DeviceDefinition))","Element `DeviceDispense.device` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:receiver","Basic.extension","receiver","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.receiver|0.1.0]]} {[]}
+","R5: Who collected the device or where the medication was delivered (new)","R5: `DeviceDispense.receiver` (new:Reference(Patient,Practitioner,RelatedPerson,Location,PractitionerRole))","Element `DeviceDispense.receiver` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.receiver` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:encounter","Basic.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.encounter|0.1.0]]} {[]}
+","R5: Encounter associated with event (new)","R5: `DeviceDispense.encounter` (new:Reference(Encounter))","Element `DeviceDispense.encounter` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:supportingInformation","Basic.extension","supportingInformation","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.supportingInformation|0.1.0]]} {[]}
+","R5: Information that supports the dispensing of the device (new)","R5: `DeviceDispense.supportingInformation` (new:Reference(Resource))","Element `DeviceDispense.supportingInformation` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.supportingInformation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:performer","Basic.extension","performer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer|0.1.0]]} {[]}
+","R5: Who performed event (new)","R5: `DeviceDispense.performer` (new:BackboneElement)","Element `DeviceDispense.performer` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.performer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:location","Basic.extension","location","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.location|0.1.0]]} {[]}
+","R5: Where the dispense occurred (new)","R5: `DeviceDispense.location` (new:Reference(Location))","Element `DeviceDispense.location` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:type","Basic.extension","type","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.type|0.1.0]]} {[]}
+","R5: Trial fill, partial fill, emergency fill, etc (new)","R5: `DeviceDispense.type` (new:CodeableConcept)","Element `DeviceDispense.type` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:quantity","Basic.extension","quantity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.quantity|0.1.0]]} {[]}
+","R5: Amount dispensed (new)","R5: `DeviceDispense.quantity` (new:Quantity[SimpleQuantity])","Element `DeviceDispense.quantity` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:preparedDate","Basic.extension","preparedDate","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.preparedDate|0.1.0]]} {[]}
+","R5: When product was packaged and reviewed (new)","R5: `DeviceDispense.preparedDate` (new:dateTime)","Element `DeviceDispense.preparedDate` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.preparedDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:whenHandedOver","Basic.extension","whenHandedOver","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.whenHandedOver|0.1.0]]} {[]}
+","R5: When product was given out (new)","R5: `DeviceDispense.whenHandedOver` (new:dateTime)","Element `DeviceDispense.whenHandedOver` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.whenHandedOver` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:destination","Basic.extension","destination","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.destination|0.1.0]]} {[]}
+","R5: Where the device was sent or should be sent (new)","R5: `DeviceDispense.destination` (new:Reference(Location))","Element `DeviceDispense.destination` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.destination` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:note","Basic.extension","note","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.note|0.1.0]]} {[]}
+","R5: Information about the dispense (new)","R5: `DeviceDispense.note` (new:Annotation)","Element `DeviceDispense.note` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:usageInstruction","Basic.extension","usageInstruction","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.usageInstruction|0.1.0]]} {[]}
+","R5: Full representation of the usage instructions (new)","R5: `DeviceDispense.usageInstruction` (new:markdown)","Element `DeviceDispense.usageInstruction` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.usageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The content of the renderedDosageInstructions must not be different than the dose represented in the dosageInstruction content.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:eventHistory","Basic.extension","eventHistory","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.eventHistory|0.1.0]]} {[]}
+","R5: A list of relevant lifecycle events (new)","R5: `DeviceDispense.eventHistory` (new:Reference(Provenance))","Element `DeviceDispense.eventHistory` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.eventHistory` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This might not include provenances for all versions of the request – only those deemed “relevant” or important. This SHALL NOT include the Provenance associated with this current version of the resource. (If that provenance is deemed to be a “relevant” change, it will need to be added as part of a later update. Until then, it can be queried directly as the Provenance that points to this version using _revinclude All Provenances should have some historical version of this Request as their subject.).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension","Basic.modifierExtension","","","",0,*,"","Y","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension:status","Basic.modifierExtension","status","","",1,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.status|0.1.0]]} {[]}
+","R5: preparation | in-progress | cancelled | on-hold | completed | entered-in-error | stopped | declined | unknown (new)","R5: `DeviceDispense.status` (new:code)","Element `DeviceDispense.status` is not mapped to FHIR R4, since FHIR R5 `DeviceDispense` is not mapped.
+Element `DeviceDispense.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.","","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.identifier","Basic.identifier","","","",0,*,"","","Y","Identifier {[]} {[]}
+","Business identifier","Identifier assigned to the resource for business purposes, outside the context of FHIR.","","","","","","","","","",,,,,"",,,,"Basic.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./identifier","FiveWs.identifier"
+"Basic.code","Basic.code","","","",1,1,"","Y","Y","CodeableConcept {[]} {[]}
+","Kind of Resource","Identifies the 'type' of resource - equivalent to the resource name for other resources.","Because resource references will only be able to indicate 'Basic', the type of reference will need to be specified in a Profile identified as part of the resource.  Refer to the resource notes section for information on appropriate terminologies for this code.
+
+This element is labeled as a modifier because it defines the meaning of the resource and cannot be ignored.","Must be able to distinguish different types of Basic resources.","","","","","","","",,"example","Codes for identifying types of resources not yet defined by FHIR.","http://hl7.org/fhir/ValueSet/basic-resource-type|4.0.1","",,,,"Basic.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./code","FiveWs.what[x]"
+"Basic.subject","Basic.subject","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource|4.0.1]]}
+","Identifies the focus of this resource","Identifies the patient, practitioner, device or any other resource that is the ""focus"" of this resource.","Optional as not all potential resources will have subjects.  Resources associated with multiple subjects can handle this via extension.","Needed for partitioning the resource by Patient.","","","","","","","",,,,,"",,,,"Basic.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SBJ'] (possibly through a ControlAct and Role)","FiveWs.subject[x]","FiveWs.subject"
+"Basic.created","Basic.created","","","",0,1,"","","Y","date {[]} {[]}
+","When created","Identifies when the resource was first created.","","Allows ordering resource instances by time.","","","","","","","",,,,,"",,,,"Basic.created",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='AUT']/time (possibly through a ControlAct and Role)","FiveWs.recorded"
+"Basic.author","Basic.author","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+","Who created","Indicates who was responsible for creating the resource instance.","","Needed for partitioning the resource.","","","","","","","",,,,,"",,,,"Basic.author",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SUB'] (possibly through a ControlAct and Role)","FiveWs.author"

@@ -1,0 +1,244 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping","Mapping: FiveWs Pattern Mapping"
+"Basic","Basic","","Z-resource
+Extension-resourceCustom-resource","",0,*,"","","","null {[]} {[]}
+","Resource for non-supported content","Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.","","","","","","","","","",,,,,"",,,,"Basic",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
+dom-3:If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource {contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()}dom-4:If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated {contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()}dom-5:If a resource is contained in another resource, it SHALL NOT have a security label {contained.meta.security.empty()}dom-6:A resource should have narrative for robust management {text.`div`.exists()}","Entity. Role, or Act","Act, Entity or Role"
+"Basic.id","Basic.id","","","",0,1,"","","Y","id {[]} {[]}
+","Logical id of this artifact","The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.","The only time that a resource does not have an id is when it is being submitted to the server using a create operation.","","","","","","","","",,,,,"",,,,"Resource.id",0,1,"",""
+"Basic.meta","Basic.meta","","","",0,1,"","","Y","Meta {[]} {[]}
+","Metadata about the resource","The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.","","","","","","","","","",,,,,"",,,,"Resource.meta",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.implicitRules","Basic.implicitRules","","","",0,1,"","Y","Y","uri {[]} {[]}
+","A set of rules under which this content was created","A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.","Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.","","","","","","","","",,,,,"",,,,"Resource.implicitRules",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.language","Basic.language","","","",0,1,"","","","code {[]} {[]}
+","Language of the resource content","The base language in which the resource is written.","Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).","","","","","","","","",,"preferred","A human language.","http://hl7.org/fhir/ValueSet/languages|4.0.1","",,,,"Resource.language",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.text","Basic.text","","narrative
+htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
+","Text summary of the resource, for human interpretation","A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it ""clinically safe"" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.","Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a ""text blob"" or where text is additionally entered raw or narrated and encoded information is added later.","","","","","","","","",,,,,"",,,,"DomainResource.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Act.text?"
+"Basic.contained","Basic.contained","","inline resources
+anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
+","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
+"Basic.extension","Basic.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:url","Basic.extension","url","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.url|0.1.0]]} {[]}
+","R5: Canonical identifier for this citation record, represented as a globally unique URI (new)","R5: `Citation.url` (new:uri)","Element `Citation.url` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the meta.source element to indicate where the current master source of the resource can be found.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:version","Basic.extension","version","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.version|0.1.0]]} {[]}
+","R5: Business version of the citation record (new)","R5: `Citation.version` (new:string)","Element `Citation.version` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+There may be different citation record instances that have the same identifier but different versions. The version can be appended to the url in a reference to allow a reference to a particular business version of the citation record with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:versionAlgorithm","Basic.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.versionAlgorithm|0.1.0]]} {[]}
+","R5: How to compare versions (new)","R5: `Citation.versionAlgorithm[x]` (new:Coding, string)","Element `Citation.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 is newer, and a 0 if the version ordering can't successfully be determined.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:name","Basic.extension","name","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.name|0.1.0]]} {[]}
+","R5: Name for this citation record (computer friendly) (new)","R5: `Citation.name` (new:string)","Element `Citation.name` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:title","Basic.extension","title","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.title|0.1.0]]} {[]}
+","R5: Name for this citation record (human friendly) (new)","R5: `Citation.title` (new:string)","Element `Citation.title` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc. Use this element if you have a need for naming the citation record for human use, such as a display name for the citation record that is used when selecting citations from a list.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:experimental","Basic.extension","experimental","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.experimental|0.1.0]]} {[]}
+","R5: For testing purposes, not real usage (new)","R5: `Citation.experimental` (new:boolean)","Element `Citation.experimental` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Allows filtering of citation records that are appropriate for use versus not.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:date","Basic.extension","date","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.date|0.1.0]]} {[]}
+","R5: Date last changed (new)","R5: `Citation.date` (new:dateTime)","Element `Citation.date` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.date` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the citation record. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:publisher","Basic.extension","publisher","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.publisher|0.1.0]]} {[]}
+","R5: The publisher of the citation record, not the publisher of the article or artifact being cited (new)","R5: `Citation.publisher` (new:string)","Element `Citation.publisher` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Usually an organization but may be an individual. The publisher (or steward) of the citation record is the organization or individual primarily responsible for the maintenance and upkeep of the citation record. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the citation record. This item SHOULD be populated unless the information is available from context.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:contact","Basic.extension","contact","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.contact|0.1.0]]} {[]}
+","R5: Contact details for the publisher of the citation record (new)","R5: `Citation.contact` (new:ContactDetail)","Element `Citation.contact` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:description","Basic.extension","description","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.description|0.1.0]]} {[]}
+","R5: Natural language description of the citation (new)","R5: `Citation.description` (new:markdown)","Element `Citation.description` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the citation as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the citation is presumed to be the predominant language in the place the citation was created).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:useContext","Basic.extension","useContext","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.useContext|0.1.0]]} {[]}
+","R5: The context that the citation record content is intended to support (new)","R5: `Citation.useContext` (new:UsageContext)","Element `Citation.useContext` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:jurisdiction","Basic.extension","jurisdiction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.jurisdiction|0.1.0]]} {[]}
+","R5: Intended jurisdiction for citation record (if applicable) (new)","R5: `Citation.jurisdiction` (new:CodeableConcept)","Element `Citation.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Element `Citation.jurisdiction` has been flagged as deprecated.
+It may be possible for the citation record to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:purpose","Basic.extension","purpose","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.purpose|0.1.0]]} {[]}
+","R5: Why this citation is defined (new)","R5: `Citation.purpose` (new:markdown)","Element `Citation.purpose` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element does not describe the usage of the citation. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this citation.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:copyright","Basic.extension","copyright","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.copyright|0.1.0]]} {[]}
+","R5: Use and/or publishing restrictions for the citation record, not for the cited artifact (new)","R5: `Citation.copyright` (new:markdown)","Element `Citation.copyright` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:copyrightLabel","Basic.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.copyrightLabel|0.1.0]]} {[]}
+","R5: Copyright holder and year(s) for the ciation record, not for the cited artifact (new)","R5: `Citation.copyrightLabel` (new:string)","Element `Citation.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:approvalDate","Basic.extension","approvalDate","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.approvalDate|0.1.0]]} {[]}
+","R5: When the citation record was approved by publisher (new)","R5: `Citation.approvalDate` (new:date)","Element `Citation.approvalDate` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:lastReviewDate","Basic.extension","lastReviewDate","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.lastReviewDate|0.1.0]]} {[]}
+","R5: When the citation record was last reviewed by the publisher (new)","R5: `Citation.lastReviewDate` (new:date)","Element `Citation.lastReviewDate` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If specified, this date follows the original approval date.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:effectivePeriod","Basic.extension","effectivePeriod","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.effectivePeriod|0.1.0]]} {[]}
+","R5: When the citation record is expected to be used (new)","R5: `Citation.effectivePeriod` (new:Period)","Element `Citation.effectivePeriod` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The effective period for a citation record determines when the content is applicable for usage and is independent of publication and review dates. For example, a citation intended to be used for the year 2016 might be published in 2015.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:author","Basic.extension","author","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.author|0.1.0]]} {[]}
+","R5: Who authored the citation record (new)","R5: `Citation.author` (new:ContactDetail)","Element `Citation.author` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+While the source element matches Basic element path `` (``), the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).
+The Citation.author element is structured to support a name (with a string datatype) and contact point information for the author/creator, and is not structured to support unique identifiers for the author. If detailed contributorship data is needed for the authorship of the citation record, then one can create a Citation Resource for the Citation Resource.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:editor","Basic.extension","editor","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.editor|0.1.0]]} {[]}
+","R5: Who edited the citation record (new)","R5: `Citation.editor` (new:ContactDetail)","Element `Citation.editor` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The Citation.editor element is structured to support a name (with a string datatype) and contact point information for the editor, and is not structured to support unique identifiers for the editor. If detailed contributorship data is needed for the editing of the citation record, then one can create a Citation Resource for the Citation Resource.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:reviewer","Basic.extension","reviewer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.reviewer|0.1.0]]} {[]}
+","R5: Who reviewed the citation record (new)","R5: `Citation.reviewer` (new:ContactDetail)","Element `Citation.reviewer` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The Citation.reviewer element is structured to support a name (with a string datatype) and contact point information for the reviewer, and is not structured to support unique identifiers for the reviewer. If detailed contributorship data is needed for the review of the citation record, then one can create a Citation Resource for the Citation Resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:endorser","Basic.extension","endorser","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.endorser|0.1.0]]} {[]}
+","R5: Who endorsed the citation record (new)","R5: `Citation.endorser` (new:ContactDetail)","Element `Citation.endorser` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The Citation.endorser element is structured to support a name (with a string datatype) and contact point information for the endorser, and is not structured to support unique identifiers for the endorser. If detailed contributorship data is needed for the endorsement of the citation record, then one can create a Citation Resource for the Citation Resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:summary","Basic.extension","summary","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.summary|0.1.0]]} {[]}
+","R5: A human-readable display of key concepts to represent the citation (new)","R5: `Citation.summary` (new:BackboneElement)","Element `Citation.summary` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.summary` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:classification","Basic.extension","classification","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.classification|0.1.0]]} {[]}
+","R5: The assignment to an organizing scheme (new)","R5: `Citation.classification` (new:BackboneElement)","Element `Citation.classification` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.classification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Use this element if you need to classify the citation record independently from classifying the cited artifact.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:note","Basic.extension","note","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.note|0.1.0]]} {[]}
+","R5: Used for general notes and annotations not coded elsewhere (new)","R5: `Citation.note` (new:Annotation)","Element `Citation.note` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:currentState","Basic.extension","currentState","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.currentState|0.1.0]]} {[]}
+","R5: The status of the citation record (new)","R5: `Citation.currentState` (new:CodeableConcept)","Element `Citation.currentState` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.currentState` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Use this if needed for reporting the state or status of the citation record, NOT FOR reporting the state or status of the cited article.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:statusDate","Basic.extension","statusDate","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.statusDate|0.1.0]]} {[]}
+","R5: An effective date or period for a status of the citation record (new)","R5: `Citation.statusDate` (new:BackboneElement)","Element `Citation.statusDate` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.statusDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Use this if needed for reporting the state or status of the citation record, NOT FOR reporting the state or status of the cited article.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:relatedArtifact","Basic.extension","relatedArtifact","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.relatedArtifact|0.1.0]]} {[]}
+","R5: Artifact related to the citation record (new)","R5: `Citation.relatedArtifact` (new:RelatedArtifact)","Element `Citation.relatedArtifact` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Use this if needed for reporting artifacts related to the citation record, NOT FOR reporting artifacts related to the cited article. For example, one may use this element to report the data source for generation of the Citation Resource instance if it was automatically generated, such as conversion from a citation repository.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:citedArtifact","Basic.extension","citedArtifact","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.citedArtifact|0.1.0]]} {[]}
+","R5: The article or artifact being described (new)","R5: `Citation.citedArtifact` (new:BackboneElement)","Element `Citation.citedArtifact` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.citedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension","Basic.modifierExtension","","","",0,*,"","Y","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension:status","Basic.modifierExtension","status","","",1,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation.status|0.1.0]]} {[]}
+","R5: draft | active | retired | unknown (new)","R5: `Citation.status` (new:code)","Element `Citation.status` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped.
+Element `Citation.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Allows filtering of summaries that are appropriate for use versus not. Use ""active"" when the citation record is the version for others to actively use, ""draft"" while you are developing the content, and ""retired"" when this record should no longer be used for any purpose.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.identifier","Basic.identifier","","","",0,*,"","","Y","Identifier {[]} {[]}
+","Business identifier","Identifier assigned to the resource for business purposes, outside the context of FHIR.","","","","","","","","","",,,,,"",,,,"Basic.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./identifier","FiveWs.identifier"
+"Basic.code","Basic.code","","","",1,1,"","Y","Y","CodeableConcept {[]} {[]}
+","Kind of Resource","Identifies the 'type' of resource - equivalent to the resource name for other resources.","Because resource references will only be able to indicate 'Basic', the type of reference will need to be specified in a Profile identified as part of the resource.  Refer to the resource notes section for information on appropriate terminologies for this code.
+
+This element is labeled as a modifier because it defines the meaning of the resource and cannot be ignored.","Must be able to distinguish different types of Basic resources.","","","","","","","",,"example","Codes for identifying types of resources not yet defined by FHIR.","http://hl7.org/fhir/ValueSet/basic-resource-type|4.0.1","",,,,"Basic.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./code","FiveWs.what[x]"
+"Basic.subject","Basic.subject","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource|4.0.1]]}
+","Identifies the focus of this resource","Identifies the patient, practitioner, device or any other resource that is the ""focus"" of this resource.","Optional as not all potential resources will have subjects.  Resources associated with multiple subjects can handle this via extension.","Needed for partitioning the resource by Patient.","","","","","","","",,,,,"",,,,"Basic.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SBJ'] (possibly through a ControlAct and Role)","FiveWs.subject[x]","FiveWs.subject"
+"Basic.created","Basic.created","","","",0,1,"","","Y","date {[]} {[]}
+","When created","Identifies when the resource was first created.","","Allows ordering resource instances by time.","","","","","","","",,,,,"",,,,"Basic.created",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='AUT']/time (possibly through a ControlAct and Role)","FiveWs.recorded"
+"Basic.author","Basic.author","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+","Who created","Indicates who was responsible for creating the resource instance.","","Needed for partitioning the resource.","","","","","","","",,,,,"",,,,"Basic.author",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SUB'] (possibly through a ControlAct and Role)","FiveWs.author"

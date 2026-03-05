@@ -1,0 +1,390 @@
+# R5ImagingSelectionElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5ImagingSelectionElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 ImagingSelection to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-ImagingSelection-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ImagingSelection-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5ImagingSelectionElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 ImagingSelection to FHIR R4 Basic",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:48.9003984-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ImagingSelection to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/ImagingSelection",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Basic",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "ImagingSelection.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "Basic.meta",
+        "display" : "Basic.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.\nElement `ImagingSelection.meta` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "Basic.implicitRules",
+        "display" : "Basic.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.\nElement `ImagingSelection.implicitRules` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "Basic.language",
+        "display" : "Basic.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.\nElement `ImagingSelection.language` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "Basic.text",
+        "display" : "Basic.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.\nElement `ImagingSelection.text` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "Basic.contained",
+        "display" : "Basic.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.\nElement `ImagingSelection.contained` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "Basic.identifier",
+        "display" : "Basic.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.\nElement `ImagingSelection.identifier` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis is a business identifier, not a resource identifier -- see discussion under [Business Identifiers](https://hl7.org/fhir/resource.htm#identifiers)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "Basic.subject",
+        "display" : "Basic.subject",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.subject` (`Basic.subject`), use that element instead.\nElement `ImagingSelection.subject` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/ImagingSelection",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "ImagingSelection.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.status",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.status` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nUnknown does not represent \"other\" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.issued",
+      "display" : "issued",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.issued",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.issued` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.issued` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.performer",
+      "display" : "performer",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.performer` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.performer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.performer.function",
+      "display" : "function",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:function",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.performer.function` is part of an existing definition because parent element `ImagingSelection.performer` requires a cross-version extension.\nElement `ImagingSelection.performer.function` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.performer.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.performer.actor",
+      "display" : "actor",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:actor",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.performer.actor` is part of an existing definition because parent element `ImagingSelection.performer` requires a cross-version extension.\nElement `ImagingSelection.performer.actor` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.performer.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.basedOn",
+      "display" : "basedOn",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.basedOn",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.basedOn` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.category",
+      "display" : "category",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.category",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.category` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.code",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.code` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\n*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.studyUid",
+      "display" : "studyUid",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.studyUid",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.studyUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.studyUid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.7.2](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.2.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.derivedFrom",
+      "display" : "derivedFrom",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.derivedFrom",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.endpoint",
+      "display" : "endpoint",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.endpoint",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.endpoint` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.endpoint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nTypical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG) formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.seriesUid",
+      "display" : "seriesUid",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesUid",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.seriesUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.seriesUid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.7.3](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.3.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.seriesNumber",
+      "display" : "seriesNumber",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesNumber",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.seriesNumber` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.seriesNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.7.3](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.3.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.frameOfReferenceUid",
+      "display" : "frameOfReferenceUid",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.frameOfReferenceUid",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.frameOfReferenceUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.frameOfReferenceUid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.7.4.1](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.4.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.bodySite",
+      "display" : "bodySite",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.bodySite",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.bodySite` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.bodySite` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.focus",
+      "display" : "focus",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.focus",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.focus` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAn imaging selection may reference a DICOM resource that itself references other DICOM resources.\n       e.g. a presentation state references a set of source images or frames."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance",
+      "display" : "instance",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.uid",
+      "display" : "uid",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:uid",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.uid` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.uid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.uid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.12.1](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.number",
+      "display" : "number",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:number",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.number` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.number` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.number` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.7.6.1](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.6.html#sect_C.7.6.1).\n       Note: A multiframe instance has a single instance number with each frame identified by a frame number."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.sopClass",
+      "display" : "sopClass",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:sopClass",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.sopClass` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.sopClass` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.sopClass` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.12.1](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.subset",
+      "display" : "subset",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:subset",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.subset` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.subset` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.subset` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.imageRegion2D",
+      "display" : "imageRegion2D",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:imageRegion2D",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.imageRegion2D` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.imageRegion2D` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.imageRegion2D.regionType",
+      "display" : "regionType",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:regionType",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.imageRegion2D.regionType` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion2D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.imageRegion2D.regionType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.10.5.1.2](https://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.10.5.html#sect_C.10.5.1.2)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.imageRegion2D.coordinate",
+      "display" : "coordinate",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:coordinate",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.imageRegion2D.coordinate` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion2D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion2D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.imageRegion2D.coordinate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor a description of how 2D coordinates are encoded, see [DICOM PS3.3 C.18.6](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.18.6.html)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.imageRegion3D",
+      "display" : "imageRegion3D",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:imageRegion3D",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.imageRegion3D` is part of an existing definition because parent element `ImagingSelection.instance` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.imageRegion3D` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.imageRegion3D.regionType",
+      "display" : "regionType",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:regionType",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.imageRegion3D.regionType` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion3D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.imageRegion3D.regionType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee [DICOM PS3.3 C.18.9.1.2](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.18.9.html#sect_C.18.9.1.2)."
+      }]
+    },
+    {
+      "code" : "ImagingSelection.instance.imageRegion3D.coordinate",
+      "display" : "coordinate",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:coordinate",
+        "equivalence" : "wider",
+        "comment" : "Element `ImagingSelection.instance.imageRegion3D.coordinate` is part of an existing definition because parent element `ImagingSelection.instance.imageRegion3D` requires a cross-version extension.\nElement `ImagingSelection.instance.imageRegion3D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped.\nElement `ImagingSelection.instance.imageRegion3D.coordinate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor a description of how 3D coordinates are encoded, see [DICOM PS3.3 C.18.9](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.18.9.html)."
+      }]
+    }]
+  }]
+}
+
+```

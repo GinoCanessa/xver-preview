@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Encounter-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Encounter-element-map-to-R4</b></p><a name="R5-Encounter-element-map-to-R4"> </a><a name="hcR5-Encounter-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</code> to <a href="http://hl7.org/fhir/R4/encounter.html">Encounterversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">Encounter.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.meta</td><td style="border-left-width: 0px">Encounter.meta</td><td>Element `Encounter.meta` is mapped to FHIR R4 element `Encounter.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.implicitRules</td><td style="border-left-width: 0px">Encounter.implicitRules</td><td>Element `Encounter.implicitRules` is mapped to FHIR R4 element `Encounter.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">Encounter.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.language</td><td style="border-left-width: 0px">Encounter.language</td><td>Element `Encounter.language` is mapped to FHIR R4 element `Encounter.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">Encounter.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.text</td><td style="border-left-width: 0px">Encounter.text</td><td>Element `Encounter.text` is mapped to FHIR R4 element `Encounter.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">Encounter.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.contained</td><td style="border-left-width: 0px">Encounter.contained</td><td>Element `Encounter.contained` is mapped to FHIR R4 element `Encounter.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">Encounter.identifier</td><td style="border-left-width: 0px">identifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.identifier</td><td style="border-left-width: 0px">Encounter.identifier</td><td>Element `Encounter.identifier` is mapped to FHIR R4 element `Encounter.identifier` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.status</td><td style="border-left-width: 0px">Encounter.status</td><td>Element `Encounter.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.
+The target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Note that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes).</td></tr><tr><td style="border-right-width: 0px">Encounter.class</td><td style="border-left-width: 0px">class</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.class</td><td style="border-left-width: 0px">Encounter.class</td><td>Element `Encounter.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.class` do not cover the following types: CodeableConcept.
+The mappings for `Encounter.class` do not cover the following types based on type expansion: text.</td></tr><tr><td style="border-right-width: 0px">Encounter.priority</td><td style="border-left-width: 0px">priority</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.priority</td><td style="border-left-width: 0px">Encounter.priority</td><td>Element `Encounter.priority` is mapped to FHIR R4 element `Encounter.priority` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.type</td><td style="border-left-width: 0px">Encounter.type</td><td>Element `Encounter.type` is mapped to FHIR R4 element `Encounter.type` as `Equivalent`.
+Since there are many ways to further classify encounters, this element is 0..*.</td></tr><tr><td style="border-right-width: 0px">Encounter.serviceType</td><td style="border-left-width: 0px">serviceType</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.serviceType</td><td style="border-left-width: 0px">Encounter.serviceType</td><td>Element `Encounter.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Encounter.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td style="border-right-width: 0px">Encounter.subject</td><td style="border-left-width: 0px">subject</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.subject</td><td style="border-left-width: 0px">Encounter.subject</td><td>Element `Encounter.subject` is mapped to FHIR R4 element `Encounter.subject` as `Equivalent`.
+While the encounter is always about the patient, the patient might not actually be known in all contexts of use, and there may be a group of patients that could be anonymous (such as in a group therapy for Alcoholics Anonymous - where the recording of the encounter could be used for billing on the number of people/staff and not important to the context of the specific patients) or alternately in veterinary care a herd of sheep receiving treatment (where the animals are not individually tracked).</td></tr><tr><td style="border-right-width: 0px">Encounter.episodeOfCare</td><td style="border-left-width: 0px">episodeOfCare</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.episodeOfCare</td><td style="border-left-width: 0px">Encounter.episodeOfCare</td><td>Element `Encounter.episodeOfCare` is mapped to FHIR R4 element `Encounter.episodeOfCare` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.basedOn</td><td style="border-left-width: 0px">basedOn</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.basedOn</td><td style="border-left-width: 0px">Encounter.basedOn</td><td>Element `Encounter.basedOn` is mapped to FHIR R4 element `Encounter.basedOn` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Encounter.basedOn` with unmapped reference targets: CarePlan, DeviceRequest, MedicationRequest.</td></tr><tr><td style="border-right-width: 0px">Encounter.partOf</td><td style="border-left-width: 0px">partOf</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.partOf</td><td style="border-left-width: 0px">Encounter.partOf</td><td>Element `Encounter.partOf` is mapped to FHIR R4 element `Encounter.partOf` as `Equivalent`.
+This is also used for associating a child's encounter back to the mother's encounter.Refer to the Notes section in the Patient resource for further details.</td></tr><tr><td style="border-right-width: 0px">Encounter.serviceProvider</td><td style="border-left-width: 0px">serviceProvider</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.serviceProvider</td><td style="border-left-width: 0px">Encounter.serviceProvider</td><td>Element `Encounter.serviceProvider` is mapped to FHIR R4 element `Encounter.serviceProvider` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.participant</td><td style="border-left-width: 0px">participant</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.participant</td><td style="border-left-width: 0px">Encounter.participant</td><td>Element `Encounter.participant` is mapped to FHIR R4 element `Encounter.participant` as `Equivalent`.
+Any Patient or Group present in the participation.actor must also be the subject, though the subject may be absent from the participation.actor for cases where the patient (or group) is not present, such as during a case review conference.</td></tr><tr><td style="border-right-width: 0px">Encounter.participant.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.participant.type</td><td style="border-left-width: 0px">Encounter.participant.type</td><td>Element `Encounter.participant.type` is mapped to FHIR R4 element `Encounter.participant.type` as `Equivalent`.
+The participant type indicates how an individual actor participates in an encounter. It includes non-practitioner participants, and for practitioners this is to describe the action type in the context of this encounter (e.g. Admitting Dr, Attending Dr, Translator, Consulting Dr). This is different to the practitioner roles which are functional roles, derived from terms of employment, education, licensing, etc.</td></tr><tr><td style="border-right-width: 0px">Encounter.participant.period</td><td style="border-left-width: 0px">period</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.participant.period</td><td style="border-left-width: 0px">Encounter.participant.period</td><td>Element `Encounter.participant.period` is mapped to FHIR R4 element `Encounter.participant.period` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.participant.actor</td><td style="border-left-width: 0px">actor</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.participant.individual</td><td style="border-left-width: 0px">Encounter.participant.individual</td><td>Element `Encounter.participant.actor` is mapped to FHIR R4 element `Encounter.participant.individual` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Encounter.participant.actor` with unmapped reference targets: Device, Group, HealthcareService, Patient.
+For planning purposes, Appointments may include a CareTeam participant to indicate that one specific person from the CareTeam will be assigned, but that assignment might not happen until the Encounter begins. Hence CareTeam is not included in Encounter.participant, as the specific individual should be assigned and represented as a Practitioner or other person resource.Similarly, Location can be included in Appointment.participant to assist with planning.  However, the patient location is tracked on the Encounter in the Encounter.location property to allow for additional metadata and history to be recorded.The role of the participant can be used to declare what the actor will be doing in the scope of this encounter participation.If the individual is not specified during planning, then it is expected that the individual will be filled in at a later stage prior to the encounter commencing.</td></tr><tr><td style="border-right-width: 0px">Encounter.appointment</td><td style="border-left-width: 0px">appointment</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.appointment</td><td style="border-left-width: 0px">Encounter.appointment</td><td>Element `Encounter.appointment` is mapped to FHIR R4 element `Encounter.appointment` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.actualPeriod</td><td style="border-left-width: 0px">actualPeriod</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.period</td><td style="border-left-width: 0px">Encounter.period</td><td>Element `Encounter.actualPeriod` is mapped to FHIR R4 element `Encounter.period` as `Equivalent`.
+If not (yet) known, the end of the Period may be omitted.</td></tr><tr><td style="border-right-width: 0px">Encounter.length</td><td style="border-left-width: 0px">length</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.length</td><td style="border-left-width: 0px">Encounter.length</td><td>Element `Encounter.length` is mapped to FHIR R4 element `Encounter.length` as `Equivalent`.
+If the precision on these values is low (e.g. to the day only) then this may be considered was an all day (or multi-day) encounter, unless the duration is included, where that amount of time occurred sometime during the interval.May differ from the time in `Encounter.period` due to leave of absence(s).</td></tr><tr><td style="border-right-width: 0px">Encounter.reason</td><td style="border-left-width: 0px">reason</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.reasonCode</td><td style="border-left-width: 0px">Encounter.reasonCode</td><td>Element `Encounter.reason` is mapped to FHIR R4 element `Encounter.reasonCode` as `Equivalent`.
+The reason communicates what medical problem the patient has that should be addressed during the episode of care.  This reason could be patient reported complaint, a clinical indication that was determined in a previous encounter or episode of care, or some planned care such as an immunization recommendation.  In the case where you have a primary reason, but are expecting to also address other problems, you can list the primary reason with a use code of 'Chief Complaint', while the other problems being addressed would have a use code of 'Reason for Visit'.Examples: * pregnancy would use HealthcareService or a coding as the reason * patient home monitoring could use Condition as the reason</td></tr><tr><td style="border-right-width: 0px">Encounter.reason.use</td><td style="border-left-width: 0px">use</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.reasonCode</td><td style="border-left-width: 0px">Encounter.reasonCode</td><td>Element `Encounter.reason.use` is mapped to FHIR R4 element `Encounter.reasonCode` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">Encounter.reason.value</td><td style="border-left-width: 0px; border-bottom-style: none">value</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">Encounter.reasonCode</td><td style="border-left-width: 0px">Encounter.reasonCode</td><td>Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.reason.value` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">Encounter.reasonReference</td><td style="border-left-width: 0px">Encounter.reasonReference</td><td>Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.reason.value` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px">Encounter.diagnosis</td><td style="border-left-width: 0px">diagnosis</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.diagnosis</td><td style="border-left-width: 0px">Encounter.diagnosis</td><td>Element `Encounter.diagnosis` is mapped to FHIR R4 element `Encounter.diagnosis` as `Equivalent`.
+Also note that for the purpose of billing, the diagnoses are recorded in the account where they can be ranked appropriately for how the invoicing/claiming documentation needs to be prepared.</td></tr><tr><td style="border-right-width: 0px">Encounter.diagnosis.condition</td><td style="border-left-width: 0px">condition</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.diagnosis.condition</td><td style="border-left-width: 0px">Encounter.diagnosis.condition</td><td>Element `Encounter.diagnosis.condition` is mapped to FHIR R4 element `Encounter.diagnosis.condition` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.diagnosis.condition` do not cover the following types: CodeableReference.
+The mappings for `Encounter.diagnosis.condition` do not cover the following types based on type expansion: concept.</td></tr><tr><td style="border-right-width: 0px">Encounter.diagnosis.use</td><td style="border-left-width: 0px">use</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.diagnosis.use</td><td style="border-left-width: 0px">Encounter.diagnosis.use</td><td>Element `Encounter.diagnosis.use` is mapped to FHIR R4 element `Encounter.diagnosis.use` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px">Encounter.account</td><td style="border-left-width: 0px">account</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.account</td><td style="border-left-width: 0px">Encounter.account</td><td>Element `Encounter.account` is mapped to FHIR R4 element `Encounter.account` as `Equivalent`.
+The billing system may choose to allocate billable items associated with the Encounter to different referenced Accounts based on internal business rules.</td></tr><tr><td style="border-right-width: 0px">Encounter.dietPreference</td><td style="border-left-width: 0px">dietPreference</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.dietPreference</td><td style="border-left-width: 0px">Encounter.hospitalization.dietPreference</td><td>Element `Encounter.dietPreference` is mapped to FHIR R4 element `Encounter.hospitalization.dietPreference` as `Equivalent`.
+For example, a patient may request both a dairy-free and nut-free diet preference (not mutually exclusive).</td></tr><tr><td style="border-right-width: 0px">Encounter.specialArrangement</td><td style="border-left-width: 0px">specialArrangement</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.specialArrangement</td><td style="border-left-width: 0px">Encounter.hospitalization.specialArrangement</td><td>Element `Encounter.specialArrangement` is mapped to FHIR R4 element `Encounter.hospitalization.specialArrangement` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.specialCourtesy</td><td style="border-left-width: 0px">specialCourtesy</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.specialCourtesy</td><td style="border-left-width: 0px">Encounter.hospitalization.specialCourtesy</td><td>Element `Encounter.specialCourtesy` is mapped to FHIR R4 element `Encounter.hospitalization.specialCourtesy` as `Equivalent`.
+Although the specialCourtesy property can contain values like VIP, the purpose of this field is intended to be used for flagging additional `benefits` that might occur for the patient during the encounter.It could include things like the patient is to have a private room, special room features, receive a friendly visit from hospital adminisitration, or should be briefed on treatment by senior staff during the stay.It is not specifically intended to be used for securing the specific record - that is the purpose of the security meta tag, and where appropriate, both fields could be used.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission</td><td style="border-left-width: 0px">admission</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.hospitalization</td><td style="border-left-width: 0px">Encounter.hospitalization</td><td>Element `Encounter.admission` is mapped to FHIR R4 element `Encounter.hospitalization` as `Equivalent`.
+An Encounter may cover more than just the inpatient stay. Contexts such as outpatients, community clinics, and aged care facilities are also included.The duration recorded in the period of this encounter covers the entire scope of this admission record.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission.preAdmissionIdentifier</td><td style="border-left-width: 0px">preAdmissionIdentifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.preAdmissionIdentifier</td><td style="border-left-width: 0px">Encounter.hospitalization.preAdmissionIdentifier</td><td>Element `Encounter.admission.preAdmissionIdentifier` is mapped to FHIR R4 element `Encounter.hospitalization.preAdmissionIdentifier` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission.origin</td><td style="border-left-width: 0px">origin</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.origin</td><td style="border-left-width: 0px">Encounter.hospitalization.origin</td><td>Element `Encounter.admission.origin` is mapped to FHIR R4 element `Encounter.hospitalization.origin` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission.admitSource</td><td style="border-left-width: 0px">admitSource</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.admitSource</td><td style="border-left-width: 0px">Encounter.hospitalization.admitSource</td><td>Element `Encounter.admission.admitSource` is mapped to FHIR R4 element `Encounter.hospitalization.admitSource` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission.reAdmission</td><td style="border-left-width: 0px">reAdmission</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.reAdmission</td><td style="border-left-width: 0px">Encounter.hospitalization.reAdmission</td><td>Element `Encounter.admission.reAdmission` is mapped to FHIR R4 element `Encounter.hospitalization.reAdmission` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission.destination</td><td style="border-left-width: 0px">destination</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.destination</td><td style="border-left-width: 0px">Encounter.hospitalization.destination</td><td>Element `Encounter.admission.destination` is mapped to FHIR R4 element `Encounter.hospitalization.destination` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.admission.dischargeDisposition</td><td style="border-left-width: 0px">dischargeDisposition</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.hospitalization.dischargeDisposition</td><td style="border-left-width: 0px">Encounter.hospitalization.dischargeDisposition</td><td>Element `Encounter.admission.dischargeDisposition` is mapped to FHIR R4 element `Encounter.hospitalization.dischargeDisposition` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.location</td><td style="border-left-width: 0px">location</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">Encounter.location</td><td style="border-left-width: 0px">Encounter.location</td><td>Element `Encounter.location` is mapped to FHIR R4 element `Encounter.location` as `Equivalent`.
+Virtual encounters can be recorded in the Encounter by specifying a location reference to a location of type &quot;kind&quot; such as &quot;client's home&quot; and an encounter.class = &quot;virtual&quot;.</td></tr><tr><td style="border-right-width: 0px">Encounter.location.location</td><td style="border-left-width: 0px">location</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.location.location</td><td style="border-left-width: 0px">Encounter.location.location</td><td>Element `Encounter.location.location` is mapped to FHIR R4 element `Encounter.location.location` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">Encounter.location.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.location.status</td><td style="border-left-width: 0px">Encounter.location.status</td><td>Element `Encounter.location.status` is mapped to FHIR R4 element `Encounter.location.status` as `Equivalent`.
+When the patient is no longer active at a location, then the period end date is entered, and the status may be changed to completed.</td></tr><tr><td style="border-right-width: 0px">Encounter.location.form</td><td style="border-left-width: 0px">form</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.location.physicalType</td><td style="border-left-width: 0px">Encounter.location.physicalType</td><td>Element `Encounter.location.form` is mapped to FHIR R4 element `Encounter.location.physicalType` as `Equivalent`.
+This information is de-normalized from the Location resource to support the easier understanding of the encounter resource and processing in messaging or query.
+
+There may be many levels in the hierachy, and this may only pic specific levels that are required for a specific usage scenario.</td></tr><tr><td style="border-right-width: 0px">Encounter.location.period</td><td style="border-left-width: 0px">period</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">Encounter.location.period</td><td style="border-left-width: 0px">Encounter.location.period</td><td>Element `Encounter.location.period` is mapped to FHIR R4 element `Encounter.location.period` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Encounter.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.status</td><td>Element `Encounter.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.
+The target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Note that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes).</td></tr><tr><td>Encounter.class (class)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.class</td><td>Element `Encounter.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.class` do not cover the following types: CodeableConcept.
+The mappings for `Encounter.class` do not cover the following types based on type expansion: text.</td></tr><tr><td>Encounter.serviceType (serviceType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.serviceType</td><td>Element `Encounter.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Encounter.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td>Encounter.subjectStatus (subjectStatus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus</td><td>Element `Encounter.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.
+Element `Encounter.subjectStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Different use-cases are likely to have different permitted transitions between states, such as an Emergency department could use `arrived` when the patient first presents, then `triaged` once has been assessed by a nurse, then `receiving-care` once treatment begins, however other sectors may use a different set of these values, or their own custom set in place of this example valueset provided.</td></tr><tr><td>Encounter.careTeam (careTeam)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.careTeam</td><td>Element `Encounter.careTeam` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.
+Element `Encounter.careTeam` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Encounter.virtualService (virtualService)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService</td><td>Element `Encounter.virtualService` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.
+Element `Encounter.virtualService` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+There are two types of virtual meetings that often exist:* a persistent, virtual meeting room that can only be used for a single purpose at a time, * and a dynamic virtual meeting room that is generated on demand for a specific purpose.Implementers may consider using Location.virtualService for persistent meeting rooms.If each participant would have a different meeting link, an extension using the VirtualServiceContactDetail  can be applied to the Encounter.participant BackboneElement.</td></tr><tr><td>Encounter.plannedStartDate (plannedStartDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate</td><td>Element `Encounter.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.
+Element `Encounter.plannedStartDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Encounter.plannedEndDate (plannedEndDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate</td><td>Element `Encounter.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.
+Element `Encounter.plannedEndDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Encounter.reason.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason.value</td><td>Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.reason.value` do not cover the following types: CodeableReference.</td></tr><tr><td>Encounter.diagnosis.condition (condition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition</td><td>Element `Encounter.diagnosis.condition` is mapped to FHIR R4 element `Encounter.diagnosis.condition` as `SourceIsBroaderThanTarget`.
+The mappings for `Encounter.diagnosis.condition` do not cover the following types: CodeableReference.
+The mappings for `Encounter.diagnosis.condition` do not cover the following types based on type expansion: concept.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Encounter.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Encounter.participant.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Encounter-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5EncounterElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Encounter to FHIR R4 Encounter"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:47.9533484-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Encounter to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Encounter.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Encounter.meta"/>
+        <display value="Encounter.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.meta` is mapped to FHIR R4 element `Encounter.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Encounter.implicitRules"/>
+        <display value="Encounter.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.implicitRules` is mapped to FHIR R4 element `Encounter.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Encounter.language"/>
+        <display value="Encounter.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.language` is mapped to FHIR R4 element `Encounter.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Encounter.text"/>
+        <display value="Encounter.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.text` is mapped to FHIR R4 element `Encounter.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Encounter.contained"/>
+        <display value="Encounter.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.contained` is mapped to FHIR R4 element `Encounter.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Encounter.identifier"/>
+        <display value="Encounter.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.identifier` is mapped to FHIR R4 element `Encounter.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Encounter.status"/>
+        <display value="Encounter.status"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.&#xA;The target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Note that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.class"/>
+      <display value="class"/>
+      <target>
+        <code value="Encounter.class"/>
+        <display value="Encounter.class"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.class` do not cover the following types: CodeableConcept.&#xA;The mappings for `Encounter.class` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="Encounter.priority"/>
+        <display value="Encounter.priority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.priority` is mapped to FHIR R4 element `Encounter.priority` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Encounter.type"/>
+        <display value="Encounter.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.type` is mapped to FHIR R4 element `Encounter.type` as `Equivalent`.&#xA;Since there are many ways to further classify encounters, this element is 0..*."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="Encounter.serviceType"/>
+        <display value="Encounter.serviceType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Encounter.serviceType` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="Encounter.subject"/>
+        <display value="Encounter.subject"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.subject` is mapped to FHIR R4 element `Encounter.subject` as `Equivalent`.&#xA;While the encounter is always about the patient, the patient might not actually be known in all contexts of use, and there may be a group of patients that could be anonymous (such as in a group therapy for Alcoholics Anonymous - where the recording of the encounter could be used for billing on the number of people/staff and not important to the context of the specific patients) or alternately in veterinary care a herd of sheep receiving treatment (where the animals are not individually tracked)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.episodeOfCare"/>
+      <display value="episodeOfCare"/>
+      <target>
+        <code value="Encounter.episodeOfCare"/>
+        <display value="Encounter.episodeOfCare"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.episodeOfCare` is mapped to FHIR R4 element `Encounter.episodeOfCare` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="Encounter.basedOn"/>
+        <display value="Encounter.basedOn"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.basedOn` is mapped to FHIR R4 element `Encounter.basedOn` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Encounter.basedOn` with unmapped reference targets: CarePlan, DeviceRequest, MedicationRequest."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="Encounter.partOf"/>
+        <display value="Encounter.partOf"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.partOf` is mapped to FHIR R4 element `Encounter.partOf` as `Equivalent`.&#xA;This is also used for associating a child's encounter back to the mother's encounter.&#xD;&#xD;Refer to the Notes section in the Patient resource for further details."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.serviceProvider"/>
+      <display value="serviceProvider"/>
+      <target>
+        <code value="Encounter.serviceProvider"/>
+        <display value="Encounter.serviceProvider"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.serviceProvider` is mapped to FHIR R4 element `Encounter.serviceProvider` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.participant"/>
+      <display value="participant"/>
+      <target>
+        <code value="Encounter.participant"/>
+        <display value="Encounter.participant"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.participant` is mapped to FHIR R4 element `Encounter.participant` as `Equivalent`.&#xA;Any Patient or Group present in the participation.actor must also be the subject, though the subject may be absent from the participation.actor for cases where the patient (or group) is not present, such as during a case review conference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.participant.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Encounter.participant.type"/>
+        <display value="Encounter.participant.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.participant.type` is mapped to FHIR R4 element `Encounter.participant.type` as `Equivalent`.&#xA;The participant type indicates how an individual actor participates in an encounter. It includes non-practitioner participants, and for practitioners this is to describe the action type in the context of this encounter (e.g. Admitting Dr, Attending Dr, Translator, Consulting Dr). This is different to the practitioner roles which are functional roles, derived from terms of employment, education, licensing, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.participant.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Encounter.participant.period"/>
+        <display value="Encounter.participant.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.participant.period` is mapped to FHIR R4 element `Encounter.participant.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.participant.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="Encounter.participant.individual"/>
+        <display value="Encounter.participant.individual"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.participant.actor` is mapped to FHIR R4 element `Encounter.participant.individual` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Encounter.participant.actor` with unmapped reference targets: Device, Group, HealthcareService, Patient.&#xA;For planning purposes, Appointments may include a CareTeam participant to indicate that one specific person from the CareTeam will be assigned, but that assignment might not happen until the Encounter begins. Hence CareTeam is not included in Encounter.participant, as the specific individual should be assigned and represented as a Practitioner or other person resource.&#xD;&#xD;Similarly, Location can be included in Appointment.participant to assist with planning.  However, the patient location is tracked on the Encounter in the Encounter.location property to allow for additional metadata and history to be recorded.&#xD;&#xD;The role of the participant can be used to declare what the actor will be doing in the scope of this encounter participation.&#xD;&#xD;If the individual is not specified during planning, then it is expected that the individual will be filled in at a later stage prior to the encounter commencing."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.appointment"/>
+      <display value="appointment"/>
+      <target>
+        <code value="Encounter.appointment"/>
+        <display value="Encounter.appointment"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.appointment` is mapped to FHIR R4 element `Encounter.appointment` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.actualPeriod"/>
+      <display value="actualPeriod"/>
+      <target>
+        <code value="Encounter.period"/>
+        <display value="Encounter.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.actualPeriod` is mapped to FHIR R4 element `Encounter.period` as `Equivalent`.&#xA;If not (yet) known, the end of the Period may be omitted."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.length"/>
+      <display value="length"/>
+      <target>
+        <code value="Encounter.length"/>
+        <display value="Encounter.length"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.length` is mapped to FHIR R4 element `Encounter.length` as `Equivalent`.&#xA;If the precision on these values is low (e.g. to the day only) then this may be considered was an all day (or multi-day) encounter, unless the duration is included, where that amount of time occurred sometime during the interval.&#xD;&#xD;May differ from the time in `Encounter.period` due to leave of absence(s)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="Encounter.reasonCode"/>
+        <display value="Encounter.reasonCode"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.reason` is mapped to FHIR R4 element `Encounter.reasonCode` as `Equivalent`.&#xA;The reason communicates what medical problem the patient has that should be addressed during the episode of care.  This reason could be patient reported complaint, a clinical indication that was determined in a previous encounter or episode of care, or some planned care such as an immunization recommendation.  In the case where you have a primary reason, but are expecting to also address other problems, you can list the primary reason with a use code of 'Chief Complaint', while the other problems being addressed would have a use code of 'Reason for Visit'.&#xD;&#xD;Examples:&#xD; * pregnancy would use HealthcareService or a coding as the reason&#xD; * patient home monitoring could use Condition as the reason"/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.reason.use"/>
+      <display value="use"/>
+      <target>
+        <code value="Encounter.reasonCode"/>
+        <display value="Encounter.reasonCode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.reason.use` is mapped to FHIR R4 element `Encounter.reasonCode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.reason.value"/>
+      <display value="value"/>
+      <target>
+        <code value="Encounter.reasonCode"/>
+        <display value="Encounter.reasonCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.reason.value` do not cover the following types: CodeableReference."/>
+      </target>
+      <target>
+        <code value="Encounter.reasonReference"/>
+        <display value="Encounter.reasonReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.reason.value` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.diagnosis"/>
+      <display value="diagnosis"/>
+      <target>
+        <code value="Encounter.diagnosis"/>
+        <display value="Encounter.diagnosis"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.diagnosis` is mapped to FHIR R4 element `Encounter.diagnosis` as `Equivalent`.&#xA;Also note that for the purpose of billing, the diagnoses are recorded in the account where they can be ranked appropriately for how the invoicing/claiming documentation needs to be prepared."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.diagnosis.condition"/>
+      <display value="condition"/>
+      <target>
+        <code value="Encounter.diagnosis.condition"/>
+        <display value="Encounter.diagnosis.condition"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.diagnosis.condition` is mapped to FHIR R4 element `Encounter.diagnosis.condition` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.diagnosis.condition` do not cover the following types: CodeableReference.&#xA;The mappings for `Encounter.diagnosis.condition` do not cover the following types based on type expansion: concept."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.diagnosis.use"/>
+      <display value="use"/>
+      <target>
+        <code value="Encounter.diagnosis.use"/>
+        <display value="Encounter.diagnosis.use"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.diagnosis.use` is mapped to FHIR R4 element `Encounter.diagnosis.use` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.account"/>
+      <display value="account"/>
+      <target>
+        <code value="Encounter.account"/>
+        <display value="Encounter.account"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.account` is mapped to FHIR R4 element `Encounter.account` as `Equivalent`.&#xA;The billing system may choose to allocate billable items associated with the Encounter to different referenced Accounts based on internal business rules."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.dietPreference"/>
+      <display value="dietPreference"/>
+      <target>
+        <code value="Encounter.hospitalization.dietPreference"/>
+        <display value="Encounter.hospitalization.dietPreference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.dietPreference` is mapped to FHIR R4 element `Encounter.hospitalization.dietPreference` as `Equivalent`.&#xA;For example, a patient may request both a dairy-free and nut-free diet preference (not mutually exclusive)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.specialArrangement"/>
+      <display value="specialArrangement"/>
+      <target>
+        <code value="Encounter.hospitalization.specialArrangement"/>
+        <display value="Encounter.hospitalization.specialArrangement"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.specialArrangement` is mapped to FHIR R4 element `Encounter.hospitalization.specialArrangement` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.specialCourtesy"/>
+      <display value="specialCourtesy"/>
+      <target>
+        <code value="Encounter.hospitalization.specialCourtesy"/>
+        <display value="Encounter.hospitalization.specialCourtesy"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.specialCourtesy` is mapped to FHIR R4 element `Encounter.hospitalization.specialCourtesy` as `Equivalent`.&#xA;Although the specialCourtesy property can contain values like VIP, the purpose of this field is intended to be used for flagging additional `benefits` that might occur for the patient during the encounter.&#xD;&#xD;It could include things like the patient is to have a private room, special room features, receive a friendly visit from hospital adminisitration, or should be briefed on treatment by senior staff during the stay.&#xD;&#xD;It is not specifically intended to be used for securing the specific record - that is the purpose of the security meta tag, and where appropriate, both fields could be used."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission"/>
+      <display value="admission"/>
+      <target>
+        <code value="Encounter.hospitalization"/>
+        <display value="Encounter.hospitalization"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.admission` is mapped to FHIR R4 element `Encounter.hospitalization` as `Equivalent`.&#xA;An Encounter may cover more than just the inpatient stay. Contexts such as outpatients, community clinics, and aged care facilities are also included.&#xD;&#xD;The duration recorded in the period of this encounter covers the entire scope of this admission record."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission.preAdmissionIdentifier"/>
+      <display value="preAdmissionIdentifier"/>
+      <target>
+        <code value="Encounter.hospitalization.preAdmissionIdentifier"/>
+        <display value="Encounter.hospitalization.preAdmissionIdentifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.admission.preAdmissionIdentifier` is mapped to FHIR R4 element `Encounter.hospitalization.preAdmissionIdentifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission.origin"/>
+      <display value="origin"/>
+      <target>
+        <code value="Encounter.hospitalization.origin"/>
+        <display value="Encounter.hospitalization.origin"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.admission.origin` is mapped to FHIR R4 element `Encounter.hospitalization.origin` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission.admitSource"/>
+      <display value="admitSource"/>
+      <target>
+        <code value="Encounter.hospitalization.admitSource"/>
+        <display value="Encounter.hospitalization.admitSource"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.admission.admitSource` is mapped to FHIR R4 element `Encounter.hospitalization.admitSource` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission.reAdmission"/>
+      <display value="reAdmission"/>
+      <target>
+        <code value="Encounter.hospitalization.reAdmission"/>
+        <display value="Encounter.hospitalization.reAdmission"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.admission.reAdmission` is mapped to FHIR R4 element `Encounter.hospitalization.reAdmission` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission.destination"/>
+      <display value="destination"/>
+      <target>
+        <code value="Encounter.hospitalization.destination"/>
+        <display value="Encounter.hospitalization.destination"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.admission.destination` is mapped to FHIR R4 element `Encounter.hospitalization.destination` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.admission.dischargeDisposition"/>
+      <display value="dischargeDisposition"/>
+      <target>
+        <code value="Encounter.hospitalization.dischargeDisposition"/>
+        <display value="Encounter.hospitalization.dischargeDisposition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.admission.dischargeDisposition` is mapped to FHIR R4 element `Encounter.hospitalization.dischargeDisposition` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.location"/>
+      <display value="location"/>
+      <target>
+        <code value="Encounter.location"/>
+        <display value="Encounter.location"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.location` is mapped to FHIR R4 element `Encounter.location` as `Equivalent`.&#xA;Virtual encounters can be recorded in the Encounter by specifying a location reference to a location of type &quot;kind&quot; such as &quot;client's home&quot; and an encounter.class = &quot;virtual&quot;."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.location.location"/>
+      <display value="location"/>
+      <target>
+        <code value="Encounter.location.location"/>
+        <display value="Encounter.location.location"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.location.location` is mapped to FHIR R4 element `Encounter.location.location` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.location.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Encounter.location.status"/>
+        <display value="Encounter.location.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.location.status` is mapped to FHIR R4 element `Encounter.location.status` as `Equivalent`.&#xA;When the patient is no longer active at a location, then the period end date is entered, and the status may be changed to completed."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.location.form"/>
+      <display value="form"/>
+      <target>
+        <code value="Encounter.location.physicalType"/>
+        <display value="Encounter.location.physicalType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.location.form` is mapped to FHIR R4 element `Encounter.location.physicalType` as `Equivalent`.&#xA;This information is de-normalized from the Location resource to support the easier understanding of the encounter resource and processing in messaging or query.&#xA;&#xA;There may be many levels in the hierachy, and this may only pic specific levels that are required for a specific usage scenario."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.location.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Encounter.location.period"/>
+        <display value="Encounter.location.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.location.period` is mapped to FHIR R4 element `Encounter.location.period` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Encounter.status"/>
+      <display value="status"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.&#xA;The target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Note that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.class"/>
+      <display value="class"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.class"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.class` do not cover the following types: CodeableConcept.&#xA;The mappings for `Encounter.class` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.serviceType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Encounter.serviceType` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.subjectStatus"/>
+      <display value="subjectStatus"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.&#xA;Element `Encounter.subjectStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Different use-cases are likely to have different permitted transitions between states, such as an Emergency department could use `arrived` when the patient first presents, then `triaged` once has been assessed by a nurse, then `receiving-care` once treatment begins, however other sectors may use a different set of these values, or their own custom set in place of this example valueset provided."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.careTeam"/>
+      <display value="careTeam"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.careTeam"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.careTeam` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.&#xA;Element `Encounter.careTeam` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.virtualService"/>
+      <display value="virtualService"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.virtualService` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.&#xA;Element `Encounter.virtualService` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;There are two types of virtual meetings that often exist:&#xD;&#xD;* a persistent, virtual meeting room that can only be used for a single purpose at a time, &#xD;* and a dynamic virtual meeting room that is generated on demand for a specific purpose.&#xD;&#xD;Implementers may consider using Location.virtualService for persistent meeting rooms.&#xD;&#xD;If each participant would have a different meeting link, an extension using the VirtualServiceContactDetail  can be applied to the Encounter.participant BackboneElement."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.plannedStartDate"/>
+      <display value="plannedStartDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.&#xA;Element `Encounter.plannedStartDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.plannedEndDate"/>
+      <display value="plannedEndDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.&#xA;Element `Encounter.plannedEndDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.reason.value"/>
+      <display value="value"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason.value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `Encounter.reason.value` is mapped to FHIR R4 element `Encounter.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.reason.value` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.diagnosis.condition"/>
+      <display value="condition"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Encounter.diagnosis.condition` is mapped to FHIR R4 element `Encounter.diagnosis.condition` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Encounter.diagnosis.condition` do not cover the following types: CodeableReference.&#xA;The mappings for `Encounter.diagnosis.condition` do not cover the following types based on type expansion: concept."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Encounter"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Encounter.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="Encounter.participant.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

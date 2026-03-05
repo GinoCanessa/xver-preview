@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-MessageHeader-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-MessageHeader-element-map-to-R4</b></p><a name="R5-MessageHeader-element-map-to-R4"> </a><a name="hcR5-MessageHeader-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href="http://hl7.org/fhir/R4/messageheader.html">MessageHeaderversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageHeader.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.meta</td><td>Element `MessageHeader.meta` is mapped to FHIR R4 element `MessageHeader.meta` as `Equivalent`.</td></tr><tr><td>MessageHeader.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.implicitRules</td><td>Element `MessageHeader.implicitRules` is mapped to FHIR R4 element `MessageHeader.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>MessageHeader.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.language</td><td>Element `MessageHeader.language` is mapped to FHIR R4 element `MessageHeader.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>MessageHeader.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.text</td><td>Element `MessageHeader.text` is mapped to FHIR R4 element `MessageHeader.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>MessageHeader.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.contained</td><td>Element `MessageHeader.contained` is mapped to FHIR R4 element `MessageHeader.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>MessageHeader.event[x] (event[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.event[x]</td><td>Element `MessageHeader.event[x]` is mapped to FHIR R4 element `MessageHeader.event[x]` as `Equivalent`.
+The target context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.
+The time of the event will be found in the focus resource. The time of the message will be found in [Bundle.timestamp](https://hl7.org/fhir/bundle-definition.html#Bundle.timestamp).</td></tr><tr><td>MessageHeader.destination (destination)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.destination</td><td>Element `MessageHeader.destination` is mapped to FHIR R4 element `MessageHeader.destination` as `Equivalent`.
+There SHOULD be at least one destination, but in some circumstances, the source system is unaware of any particular destination system.</td></tr><tr><td>MessageHeader.destination.endpoint[x] (endpoint[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.destination.endpoint</td><td>Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint` as `SourceIsBroaderThanTarget`.
+The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types: Reference.
+The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.
+The url may be a non-resolvable URI for systems that do not use standard network-based addresses.</td></tr><tr><td>MessageHeader.destination.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.destination.name</td><td>Element `MessageHeader.destination.name` is mapped to FHIR R4 element `MessageHeader.destination.name` as `Equivalent`.</td></tr><tr><td>MessageHeader.destination.target (target)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.destination.target</td><td>Element `MessageHeader.destination.target` is mapped to FHIR R4 element `MessageHeader.destination.target` as `Equivalent`.</td></tr><tr><td>MessageHeader.destination.receiver (receiver)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.destination.receiver</td><td>Element `MessageHeader.destination.receiver` is mapped to FHIR R4 element `MessageHeader.destination.receiver` as `Equivalent`.</td></tr><tr><td>MessageHeader.sender (sender)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.sender</td><td>Element `MessageHeader.sender` is mapped to FHIR R4 element `MessageHeader.sender` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MessageHeader.sender` with unmapped reference targets: Device.
+Use case is for where a (trusted) sending system is responsible for multiple organizations, and therefore cannot differentiate based on source endpoint / authentication alone. Proposing to remove and rely on Task to convey this information.</td></tr><tr><td>MessageHeader.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.author</td><td>Element `MessageHeader.author` is mapped to FHIR R4 element `MessageHeader.author` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MessageHeader.author` with unmapped reference targets: Device, Organization.
+Usually only for the request but can be used in a response.Proposing to remove and rely on Task to convey this information.</td></tr><tr><td>MessageHeader.source (source)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.source</td><td>Element `MessageHeader.source` is mapped to FHIR R4 element `MessageHeader.source` as `Equivalent`.</td></tr><tr><td>MessageHeader.source.endpoint[x] (endpoint[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.source.endpoint</td><td>Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint` as `SourceIsBroaderThanTarget`.
+The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types: Reference.
+The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.
+The url may be a non-resolvable URI for systems that do not use standard network-based addresses.</td></tr><tr><td>MessageHeader.source.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.source.name</td><td>Element `MessageHeader.source.name` is mapped to FHIR R4 element `MessageHeader.source.name` as `Equivalent`.</td></tr><tr><td>MessageHeader.source.software (software)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.source.software</td><td>Element `MessageHeader.source.software` is mapped to FHIR R4 element `MessageHeader.source.software` as `Equivalent`.</td></tr><tr><td>MessageHeader.source.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.source.version</td><td>Element `MessageHeader.source.version` is mapped to FHIR R4 element `MessageHeader.source.version` as `Equivalent`.</td></tr><tr><td>MessageHeader.source.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.source.contact</td><td>Element `MessageHeader.source.contact` is mapped to FHIR R4 element `MessageHeader.source.contact` as `Equivalent`.</td></tr><tr><td>MessageHeader.responsible (responsible)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.responsible</td><td>Element `MessageHeader.responsible` is mapped to FHIR R4 element `MessageHeader.responsible` as `Equivalent`.
+Usually only for the request but can be used in a response.Proposing to remove and rely on Task to convey this information.</td></tr><tr><td>MessageHeader.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.reason</td><td>Element `MessageHeader.reason` is mapped to FHIR R4 element `MessageHeader.reason` as `Equivalent`.</td></tr><tr><td>MessageHeader.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.response</td><td>Element `MessageHeader.response` is mapped to FHIR R4 element `MessageHeader.response` as `Equivalent`.</td></tr><tr><td>MessageHeader.response.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MessageHeader.response.identifier</td><td>Element `MessageHeader.response.identifier` is mapped to FHIR R4 element `MessageHeader.response.identifier` as `SourceIsBroaderThanTarget`.
+The mappings for `MessageHeader.response.identifier` do not cover the following types: Identifier.
+The mappings for `MessageHeader.response.identifier` do not cover the following types based on type expansion: assigner, period, system, type, use, value.</td></tr><tr><td>MessageHeader.response.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.response.code</td><td>Element `MessageHeader.response.code` is mapped to FHIR R4 element `MessageHeader.response.code` as `Equivalent`.
+This is a generic response to the request message. Specific data for the response will be found in MessageHeader.focus.</td></tr><tr><td>MessageHeader.response.details (details)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.response.details</td><td>Element `MessageHeader.response.details` is mapped to FHIR R4 element `MessageHeader.response.details` as `Equivalent`.
+This SHALL be contained in the bundle. If any of the issues are errors, the response code SHALL be an error.</td></tr><tr><td>MessageHeader.focus (focus)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.focus</td><td>Element `MessageHeader.focus` is mapped to FHIR R4 element `MessageHeader.focus` as `Equivalent`.
+The data is defined where the transaction type is defined. The transaction data is always included in the bundle that is the full message.  Only the root resource is specified.  The resources it references should be contained in the bundle but are not also listed here.  Multiple repetitions are allowed to cater for merges and other situations with multiple focal targets.</td></tr><tr><td>MessageHeader.definition (definition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MessageHeader.definition</td><td>Element `MessageHeader.definition` is mapped to FHIR R4 element `MessageHeader.definition` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageHeader.destination.endpoint[x] (endpoint[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint</td><td>Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint` as `SourceIsBroaderThanTarget`.
+The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types: Reference.
+The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.
+The url may be a non-resolvable URI for systems that do not use standard network-based addresses.</td></tr><tr><td>MessageHeader.source.endpoint[x] (endpoint[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint</td><td>Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint` as `SourceIsBroaderThanTarget`.
+The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types: Reference.
+The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.
+The url may be a non-resolvable URI for systems that do not use standard network-based addresses.</td></tr><tr><td>MessageHeader.response.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.identifier</td><td>Element `MessageHeader.response.identifier` is mapped to FHIR R4 element `MessageHeader.response.identifier` as `SourceIsBroaderThanTarget`.
+The mappings for `MessageHeader.response.identifier` do not cover the following types: Identifier.
+The mappings for `MessageHeader.response.identifier` do not cover the following types based on type expansion: assigner, period, system, type, use, value.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageHeader.sender (sender)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>MessageHeader.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageHeader-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5MessageHeaderElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 MessageHeader to FHIR R4 MessageHeader"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:50.1660112-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 MessageHeader to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="MessageHeader.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="MessageHeader.meta"/>
+        <display value="MessageHeader.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.meta` is mapped to FHIR R4 element `MessageHeader.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="MessageHeader.implicitRules"/>
+        <display value="MessageHeader.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.implicitRules` is mapped to FHIR R4 element `MessageHeader.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.language"/>
+      <display value="language"/>
+      <target>
+        <code value="MessageHeader.language"/>
+        <display value="MessageHeader.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.language` is mapped to FHIR R4 element `MessageHeader.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.text"/>
+      <display value="text"/>
+      <target>
+        <code value="MessageHeader.text"/>
+        <display value="MessageHeader.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.text` is mapped to FHIR R4 element `MessageHeader.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="MessageHeader.contained"/>
+        <display value="MessageHeader.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.contained` is mapped to FHIR R4 element `MessageHeader.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.event[x]"/>
+      <display value="event[x]"/>
+      <target>
+        <code value="MessageHeader.event[x]"/>
+        <display value="MessageHeader.event[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.event[x]` is mapped to FHIR R4 element `MessageHeader.event[x]` as `Equivalent`.&#xA;The target context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.&#xA;The time of the event will be found in the focus resource. The time of the message will be found in [Bundle.timestamp](https://hl7.org/fhir/bundle-definition.html#Bundle.timestamp)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.destination"/>
+      <display value="destination"/>
+      <target>
+        <code value="MessageHeader.destination"/>
+        <display value="MessageHeader.destination"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.destination` is mapped to FHIR R4 element `MessageHeader.destination` as `Equivalent`.&#xA;There SHOULD be at least one destination, but in some circumstances, the source system is unaware of any particular destination system."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.destination.endpoint[x]"/>
+      <display value="endpoint[x]"/>
+      <target>
+        <code value="MessageHeader.destination.endpoint"/>
+        <display value="MessageHeader.destination.endpoint"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types: Reference.&#xA;The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.&#xA;The url may be a non-resolvable URI for systems that do not use standard network-based addresses."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.destination.name"/>
+      <display value="name"/>
+      <target>
+        <code value="MessageHeader.destination.name"/>
+        <display value="MessageHeader.destination.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.destination.name` is mapped to FHIR R4 element `MessageHeader.destination.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.destination.target"/>
+      <display value="target"/>
+      <target>
+        <code value="MessageHeader.destination.target"/>
+        <display value="MessageHeader.destination.target"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.destination.target` is mapped to FHIR R4 element `MessageHeader.destination.target` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.destination.receiver"/>
+      <display value="receiver"/>
+      <target>
+        <code value="MessageHeader.destination.receiver"/>
+        <display value="MessageHeader.destination.receiver"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.destination.receiver` is mapped to FHIR R4 element `MessageHeader.destination.receiver` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.sender"/>
+      <display value="sender"/>
+      <target>
+        <code value="MessageHeader.sender"/>
+        <display value="MessageHeader.sender"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.sender` is mapped to FHIR R4 element `MessageHeader.sender` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MessageHeader.sender` with unmapped reference targets: Device.&#xA;Use case is for where a (trusted) sending system is responsible for multiple organizations, and therefore cannot differentiate based on source endpoint / authentication alone. Proposing to remove and rely on Task to convey this information."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.author"/>
+      <display value="author"/>
+      <target>
+        <code value="MessageHeader.author"/>
+        <display value="MessageHeader.author"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.author` is mapped to FHIR R4 element `MessageHeader.author` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MessageHeader.author` with unmapped reference targets: Device, Organization.&#xA;Usually only for the request but can be used in a response.Proposing to remove and rely on Task to convey this information."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source"/>
+      <display value="source"/>
+      <target>
+        <code value="MessageHeader.source"/>
+        <display value="MessageHeader.source"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.source` is mapped to FHIR R4 element `MessageHeader.source` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source.endpoint[x]"/>
+      <display value="endpoint[x]"/>
+      <target>
+        <code value="MessageHeader.source.endpoint"/>
+        <display value="MessageHeader.source.endpoint"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types: Reference.&#xA;The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.&#xA;The url may be a non-resolvable URI for systems that do not use standard network-based addresses."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source.name"/>
+      <display value="name"/>
+      <target>
+        <code value="MessageHeader.source.name"/>
+        <display value="MessageHeader.source.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.source.name` is mapped to FHIR R4 element `MessageHeader.source.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source.software"/>
+      <display value="software"/>
+      <target>
+        <code value="MessageHeader.source.software"/>
+        <display value="MessageHeader.source.software"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.source.software` is mapped to FHIR R4 element `MessageHeader.source.software` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source.version"/>
+      <display value="version"/>
+      <target>
+        <code value="MessageHeader.source.version"/>
+        <display value="MessageHeader.source.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.source.version` is mapped to FHIR R4 element `MessageHeader.source.version` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="MessageHeader.source.contact"/>
+        <display value="MessageHeader.source.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.source.contact` is mapped to FHIR R4 element `MessageHeader.source.contact` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.responsible"/>
+      <display value="responsible"/>
+      <target>
+        <code value="MessageHeader.responsible"/>
+        <display value="MessageHeader.responsible"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.responsible` is mapped to FHIR R4 element `MessageHeader.responsible` as `Equivalent`.&#xA;Usually only for the request but can be used in a response.Proposing to remove and rely on Task to convey this information."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="MessageHeader.reason"/>
+        <display value="MessageHeader.reason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.reason` is mapped to FHIR R4 element `MessageHeader.reason` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.response"/>
+      <display value="response"/>
+      <target>
+        <code value="MessageHeader.response"/>
+        <display value="MessageHeader.response"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.response` is mapped to FHIR R4 element `MessageHeader.response` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.response.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="MessageHeader.response.identifier"/>
+        <display value="MessageHeader.response.identifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.response.identifier` is mapped to FHIR R4 element `MessageHeader.response.identifier` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MessageHeader.response.identifier` do not cover the following types: Identifier.&#xA;The mappings for `MessageHeader.response.identifier` do not cover the following types based on type expansion: assigner, period, system, type, use, value."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.response.code"/>
+      <display value="code"/>
+      <target>
+        <code value="MessageHeader.response.code"/>
+        <display value="MessageHeader.response.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.response.code` is mapped to FHIR R4 element `MessageHeader.response.code` as `Equivalent`.&#xA;This is a generic response to the request message. Specific data for the response will be found in MessageHeader.focus."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.response.details"/>
+      <display value="details"/>
+      <target>
+        <code value="MessageHeader.response.details"/>
+        <display value="MessageHeader.response.details"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.response.details` is mapped to FHIR R4 element `MessageHeader.response.details` as `Equivalent`.&#xA;This SHALL be contained in the bundle. If any of the issues are errors, the response code SHALL be an error."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.focus"/>
+      <display value="focus"/>
+      <target>
+        <code value="MessageHeader.focus"/>
+        <display value="MessageHeader.focus"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.focus` is mapped to FHIR R4 element `MessageHeader.focus` as `Equivalent`.&#xA;The data is defined where the transaction type is defined. The transaction data is always included in the bundle that is the full message.  Only the root resource is specified.  The resources it references should be contained in the bundle but are not also listed here.  Multiple repetitions are allowed to cater for merges and other situations with multiple focal targets."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.definition"/>
+      <display value="definition"/>
+      <target>
+        <code value="MessageHeader.definition"/>
+        <display value="MessageHeader.definition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.definition` is mapped to FHIR R4 element `MessageHeader.definition` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="MessageHeader.destination.endpoint[x]"/>
+      <display value="endpoint[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.destination.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.destination.endpoint` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types: Reference.&#xA;The mappings for `MessageHeader.destination.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.&#xA;The url may be a non-resolvable URI for systems that do not use standard network-based addresses."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.source.endpoint[x]"/>
+      <display value="endpoint[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MessageHeader.source.endpoint[x]` is mapped to FHIR R4 element `MessageHeader.source.endpoint` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types: Reference.&#xA;The mappings for `MessageHeader.source.endpoint[x]` do not cover the following types based on type expansion: display, identifier, reference.&#xA;The url may be a non-resolvable URI for systems that do not use standard network-based addresses."/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.response.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MessageHeader.response.identifier` is mapped to FHIR R4 element `MessageHeader.response.identifier` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MessageHeader.response.identifier` do not cover the following types: Identifier.&#xA;The mappings for `MessageHeader.response.identifier` do not cover the following types based on type expansion: assigner, period, system, type, use, value."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MessageHeader"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="MessageHeader.sender"/>
+      <display value="sender"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="MessageHeader.author"/>
+      <display value="author"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

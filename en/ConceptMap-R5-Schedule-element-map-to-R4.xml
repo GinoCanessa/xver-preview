@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Schedule-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Schedule-element-map-to-R4</b></p><a name="R5-Schedule-element-map-to-R4"> </a><a name="hcR5-Schedule-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Schedule|5.0.0</code> to <a href="http://hl7.org/fhir/R4/schedule.html">Scheduleversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Schedule.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.meta</td><td>Element `Schedule.meta` is mapped to FHIR R4 element `Schedule.meta` as `Equivalent`.</td></tr><tr><td>Schedule.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.implicitRules</td><td>Element `Schedule.implicitRules` is mapped to FHIR R4 element `Schedule.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Schedule.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.language</td><td>Element `Schedule.language` is mapped to FHIR R4 element `Schedule.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Schedule.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.text</td><td>Element `Schedule.text` is mapped to FHIR R4 element `Schedule.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Schedule.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.contained</td><td>Element `Schedule.contained` is mapped to FHIR R4 element `Schedule.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Schedule.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.identifier</td><td>Element `Schedule.identifier` is mapped to FHIR R4 element `Schedule.identifier` as `Equivalent`.</td></tr><tr><td>Schedule.active (active)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.active</td><td>Element `Schedule.active` is mapped to FHIR R4 element `Schedule.active` as `Equivalent`.
+This element is labeled as a modifier because it may be used to mark that the resource was created in error.</td></tr><tr><td>Schedule.serviceCategory (serviceCategory)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.serviceCategory</td><td>Element `Schedule.serviceCategory` is mapped to FHIR R4 element `Schedule.serviceCategory` as `Equivalent`.</td></tr><tr><td>Schedule.serviceType (serviceType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Schedule.serviceType</td><td>Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Schedule.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Schedule.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td>Schedule.specialty (specialty)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.specialty</td><td>Element `Schedule.specialty` is mapped to FHIR R4 element `Schedule.specialty` as `Equivalent`.</td></tr><tr><td>Schedule.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Schedule.actor</td><td>Element `Schedule.actor` is mapped to FHIR R4 element `Schedule.actor` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Schedule.actor` with unmapped reference targets: CareTeam.
+The capacity to support multiple referenced resource types should be used in cases where the specific resources themselves cannot be scheduled without the other, and thus only make sense to the system exposing them as a group. Common examples of this are where the combination of a practitioner and a room (Location) are always required by a system.</td></tr><tr><td>Schedule.planningHorizon (planningHorizon)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.planningHorizon</td><td>Element `Schedule.planningHorizon` is mapped to FHIR R4 element `Schedule.planningHorizon` as `Equivalent`.</td></tr><tr><td>Schedule.comment (comment)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Schedule.comment</td><td>Element `Schedule.comment` is mapped to FHIR R4 element `Schedule.comment` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Schedule|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Schedule.serviceType (serviceType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.serviceType</td><td>Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType` as `SourceIsBroaderThanTarget`.
+The mappings for `Schedule.serviceType` do not cover the following types: CodeableReference.
+The mappings for `Schedule.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td>Schedule.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name</td><td>Element `Schedule.name` has a context of Schedule based on following the parent source element upwards and mapping to `Schedule`.
+Element `Schedule.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This MAY be used to describe what the schedule is for where it is clearer than just the name of the single actor.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Schedule|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Schedule.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Schedule-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ScheduleElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Schedule to FHIR R4 Schedule"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6212824-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Schedule to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Schedule"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Schedule"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Schedule.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Schedule.meta"/>
+        <display value="Schedule.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.meta` is mapped to FHIR R4 element `Schedule.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Schedule.implicitRules"/>
+        <display value="Schedule.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.implicitRules` is mapped to FHIR R4 element `Schedule.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Schedule.language"/>
+        <display value="Schedule.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.language` is mapped to FHIR R4 element `Schedule.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Schedule.text"/>
+        <display value="Schedule.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.text` is mapped to FHIR R4 element `Schedule.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Schedule.contained"/>
+        <display value="Schedule.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.contained` is mapped to FHIR R4 element `Schedule.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Schedule.identifier"/>
+        <display value="Schedule.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.identifier` is mapped to FHIR R4 element `Schedule.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.active"/>
+      <display value="active"/>
+      <target>
+        <code value="Schedule.active"/>
+        <display value="Schedule.active"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.active` is mapped to FHIR R4 element `Schedule.active` as `Equivalent`.&#xA;This element is labeled as a modifier because it may be used to mark that the resource was created in error."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.serviceCategory"/>
+      <display value="serviceCategory"/>
+      <target>
+        <code value="Schedule.serviceCategory"/>
+        <display value="Schedule.serviceCategory"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.serviceCategory` is mapped to FHIR R4 element `Schedule.serviceCategory` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="Schedule.serviceType"/>
+        <display value="Schedule.serviceType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Schedule.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Schedule.serviceType` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.specialty"/>
+      <display value="specialty"/>
+      <target>
+        <code value="Schedule.specialty"/>
+        <display value="Schedule.specialty"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.specialty` is mapped to FHIR R4 element `Schedule.specialty` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="Schedule.actor"/>
+        <display value="Schedule.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Schedule.actor` is mapped to FHIR R4 element `Schedule.actor` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Schedule.actor` with unmapped reference targets: CareTeam.&#xA;The capacity to support multiple referenced resource types should be used in cases where the specific resources themselves cannot be scheduled without the other, and thus only make sense to the system exposing them as a group. Common examples of this are where the combination of a practitioner and a room (Location) are always required by a system."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.planningHorizon"/>
+      <display value="planningHorizon"/>
+      <target>
+        <code value="Schedule.planningHorizon"/>
+        <display value="Schedule.planningHorizon"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.planningHorizon` is mapped to FHIR R4 element `Schedule.planningHorizon` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.comment"/>
+      <display value="comment"/>
+      <target>
+        <code value="Schedule.comment"/>
+        <display value="Schedule.comment"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.comment` is mapped to FHIR R4 element `Schedule.comment` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Schedule"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Schedule.serviceType"/>
+      <display value="serviceType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.serviceType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Schedule.serviceType` do not cover the following types: CodeableReference.&#xA;The mappings for `Schedule.serviceType` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Schedule.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.name"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Schedule.name` has a context of Schedule based on following the parent source element upwards and mapping to `Schedule`.&#xA;Element `Schedule.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This MAY be used to describe what the schedule is for where it is clearer than just the name of the single actor."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Schedule"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Schedule.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

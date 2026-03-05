@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-CompartmentDefinition-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-CompartmentDefinition-element-map-to-R4</b></p><a name="R5-CompartmentDefinition-element-map-to-R4"> </a><a name="hcR5-CompartmentDefinition-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CompartmentDefinition|5.0.0</code> to <a href="http://hl7.org/fhir/R4/compartmentdefinition.html">CompartmentDefinitionversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CompartmentDefinition.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.meta</td><td>Element `CompartmentDefinition.meta` is mapped to FHIR R4 element `CompartmentDefinition.meta` as `Equivalent`.</td></tr><tr><td>CompartmentDefinition.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.implicitRules</td><td>Element `CompartmentDefinition.implicitRules` is mapped to FHIR R4 element `CompartmentDefinition.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>CompartmentDefinition.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.language</td><td>Element `CompartmentDefinition.language` is mapped to FHIR R4 element `CompartmentDefinition.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>CompartmentDefinition.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.text</td><td>Element `CompartmentDefinition.text` is mapped to FHIR R4 element `CompartmentDefinition.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>CompartmentDefinition.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.contained</td><td>Element `CompartmentDefinition.contained` is mapped to FHIR R4 element `CompartmentDefinition.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>CompartmentDefinition.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.url</td><td>Element `CompartmentDefinition.url` is mapped to FHIR R4 element `CompartmentDefinition.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>CompartmentDefinition.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.version</td><td>Element `CompartmentDefinition.version` is mapped to FHIR R4 element `CompartmentDefinition.version` as `Equivalent`.
+There may be different compartment definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the compartment definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>CompartmentDefinition.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.name</td><td>Element `CompartmentDefinition.name` is mapped to FHIR R4 element `CompartmentDefinition.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.This is often the same as the code for the parameter, but does not need to be.</td></tr><tr><td>CompartmentDefinition.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.status</td><td>Element `CompartmentDefinition.status` is mapped to FHIR R4 element `CompartmentDefinition.status` as `Equivalent`.
+Allows filtering of compartment definitions that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CompartmentDefinition.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.experimental</td><td>Element `CompartmentDefinition.experimental` is mapped to FHIR R4 element `CompartmentDefinition.experimental` as `Equivalent`.
+Allows filtering of compartment definitions that are appropriate for use versus not.</td></tr><tr><td>CompartmentDefinition.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.date</td><td>Element `CompartmentDefinition.date` is mapped to FHIR R4 element `CompartmentDefinition.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the compartment definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CompartmentDefinition.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.publisher</td><td>Element `CompartmentDefinition.publisher` is mapped to FHIR R4 element `CompartmentDefinition.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the compartment definition is the organization or individual primarily responsible for the maintenance and upkeep of the compartment definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the compartment definition. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>CompartmentDefinition.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.contact</td><td>Element `CompartmentDefinition.contact` is mapped to FHIR R4 element `CompartmentDefinition.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>CompartmentDefinition.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.description</td><td>Element `CompartmentDefinition.description` is mapped to FHIR R4 element `CompartmentDefinition.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the compartment definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the compartment definition is presumed to be the predominant language in the place the compartment definition was created).</td></tr><tr><td>CompartmentDefinition.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.useContext</td><td>Element `CompartmentDefinition.useContext` is mapped to FHIR R4 element `CompartmentDefinition.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>CompartmentDefinition.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.purpose</td><td>Element `CompartmentDefinition.purpose` is mapped to FHIR R4 element `CompartmentDefinition.purpose` as `Equivalent`.
+This element does not describe the usage of the compartment definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this compartment definition.</td></tr><tr><td>CompartmentDefinition.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CompartmentDefinition.code</td><td>Element `CompartmentDefinition.code` is mapped to FHIR R4 element `CompartmentDefinition.code` as `SourceIsBroaderThanTarget`.
+Only the specification can define the compartments that can exist. Servers can choose to support them.</td></tr><tr><td>CompartmentDefinition.search (search)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.search</td><td>Element `CompartmentDefinition.search` is mapped to FHIR R4 element `CompartmentDefinition.search` as `Equivalent`.
+Servers may define and use compartments to manage logical access without implementing the compartment related syntax.</td></tr><tr><td>CompartmentDefinition.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CompartmentDefinition.resource</td><td>Element `CompartmentDefinition.resource` is mapped to FHIR R4 element `CompartmentDefinition.resource` as `Equivalent`.</td></tr><tr><td>CompartmentDefinition.resource.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>CompartmentDefinition.resource.code</td><td>Element `CompartmentDefinition.resource.code` is mapped to FHIR R4 element `CompartmentDefinition.resource.code` as `RelatedTo`.
+The mappings for `CompartmentDefinition.resource.code` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td>CompartmentDefinition.resource.param (param)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.resource.param</td><td>Element `CompartmentDefinition.resource.param` is mapped to FHIR R4 element `CompartmentDefinition.resource.param` as `Equivalent`.
+If no search parameters are listed, then the resource is not linked to the compartment.</td></tr><tr><td>CompartmentDefinition.resource.documentation (documentation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CompartmentDefinition.resource.documentation</td><td>Element `CompartmentDefinition.resource.documentation` is mapped to FHIR R4 element `CompartmentDefinition.resource.documentation` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CompartmentDefinition|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CompartmentDefinition.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.versionAlgorithm</td><td>Element `CompartmentDefinition.versionAlgorithm[x]` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.
+Element `CompartmentDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>CompartmentDefinition.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.title</td><td>Element `CompartmentDefinition.title` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.
+Element `CompartmentDefinition.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>CompartmentDefinition.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.code</td><td>Element `CompartmentDefinition.code` is mapped to FHIR R4 element `CompartmentDefinition.code` as `SourceIsBroaderThanTarget`.
+Only the specification can define the compartments that can exist. Servers can choose to support them.</td></tr><tr><td>CompartmentDefinition.resource.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.code</td><td>Element `CompartmentDefinition.resource.code` is mapped to FHIR R4 element `CompartmentDefinition.resource.code` as `RelatedTo`.
+The mappings for `CompartmentDefinition.resource.code` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td>CompartmentDefinition.resource.startParam (startParam)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.startParam</td><td>Element `CompartmentDefinition.resource.startParam` has a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`.
+Element `CompartmentDefinition.resource.startParam` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>CompartmentDefinition.resource.endParam (endParam)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.endParam</td><td>Element `CompartmentDefinition.resource.endParam` has a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`.
+Element `CompartmentDefinition.resource.endParam` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-CompartmentDefinition-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5CompartmentDefinitionElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 CompartmentDefinition to FHIR R4 CompartmentDefinition"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:47.3996227-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 CompartmentDefinition to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CompartmentDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/CompartmentDefinition"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="CompartmentDefinition.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="CompartmentDefinition.meta"/>
+        <display value="CompartmentDefinition.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.meta` is mapped to FHIR R4 element `CompartmentDefinition.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="CompartmentDefinition.implicitRules"/>
+        <display value="CompartmentDefinition.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.implicitRules` is mapped to FHIR R4 element `CompartmentDefinition.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.language"/>
+      <display value="language"/>
+      <target>
+        <code value="CompartmentDefinition.language"/>
+        <display value="CompartmentDefinition.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.language` is mapped to FHIR R4 element `CompartmentDefinition.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.text"/>
+      <display value="text"/>
+      <target>
+        <code value="CompartmentDefinition.text"/>
+        <display value="CompartmentDefinition.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.text` is mapped to FHIR R4 element `CompartmentDefinition.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="CompartmentDefinition.contained"/>
+        <display value="CompartmentDefinition.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.contained` is mapped to FHIR R4 element `CompartmentDefinition.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.url"/>
+      <display value="url"/>
+      <target>
+        <code value="CompartmentDefinition.url"/>
+        <display value="CompartmentDefinition.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.url` is mapped to FHIR R4 element `CompartmentDefinition.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.version"/>
+      <display value="version"/>
+      <target>
+        <code value="CompartmentDefinition.version"/>
+        <display value="CompartmentDefinition.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.version` is mapped to FHIR R4 element `CompartmentDefinition.version` as `Equivalent`.&#xA;There may be different compartment definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the compartment definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.name"/>
+      <display value="name"/>
+      <target>
+        <code value="CompartmentDefinition.name"/>
+        <display value="CompartmentDefinition.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.name` is mapped to FHIR R4 element `CompartmentDefinition.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.This is often the same as the code for the parameter, but does not need to be."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.status"/>
+      <display value="status"/>
+      <target>
+        <code value="CompartmentDefinition.status"/>
+        <display value="CompartmentDefinition.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.status` is mapped to FHIR R4 element `CompartmentDefinition.status` as `Equivalent`.&#xA;Allows filtering of compartment definitions that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="CompartmentDefinition.experimental"/>
+        <display value="CompartmentDefinition.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.experimental` is mapped to FHIR R4 element `CompartmentDefinition.experimental` as `Equivalent`.&#xA;Allows filtering of compartment definitions that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.date"/>
+      <display value="date"/>
+      <target>
+        <code value="CompartmentDefinition.date"/>
+        <display value="CompartmentDefinition.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.date` is mapped to FHIR R4 element `CompartmentDefinition.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the compartment definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="CompartmentDefinition.publisher"/>
+        <display value="CompartmentDefinition.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.publisher` is mapped to FHIR R4 element `CompartmentDefinition.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the compartment definition is the organization or individual primarily responsible for the maintenance and upkeep of the compartment definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the compartment definition. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="CompartmentDefinition.contact"/>
+        <display value="CompartmentDefinition.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.contact` is mapped to FHIR R4 element `CompartmentDefinition.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.description"/>
+      <display value="description"/>
+      <target>
+        <code value="CompartmentDefinition.description"/>
+        <display value="CompartmentDefinition.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.description` is mapped to FHIR R4 element `CompartmentDefinition.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the compartment definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the compartment definition is presumed to be the predominant language in the place the compartment definition was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="CompartmentDefinition.useContext"/>
+        <display value="CompartmentDefinition.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.useContext` is mapped to FHIR R4 element `CompartmentDefinition.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="CompartmentDefinition.purpose"/>
+        <display value="CompartmentDefinition.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.purpose` is mapped to FHIR R4 element `CompartmentDefinition.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the compartment definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this compartment definition."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.code"/>
+      <display value="code"/>
+      <target>
+        <code value="CompartmentDefinition.code"/>
+        <display value="CompartmentDefinition.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.code` is mapped to FHIR R4 element `CompartmentDefinition.code` as `SourceIsBroaderThanTarget`.&#xA;Only the specification can define the compartments that can exist. Servers can choose to support them."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.search"/>
+      <display value="search"/>
+      <target>
+        <code value="CompartmentDefinition.search"/>
+        <display value="CompartmentDefinition.search"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.search` is mapped to FHIR R4 element `CompartmentDefinition.search` as `Equivalent`.&#xA;Servers may define and use compartments to manage logical access without implementing the compartment related syntax."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="CompartmentDefinition.resource"/>
+        <display value="CompartmentDefinition.resource"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.resource` is mapped to FHIR R4 element `CompartmentDefinition.resource` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource.code"/>
+      <display value="code"/>
+      <target>
+        <code value="CompartmentDefinition.resource.code"/>
+        <display value="CompartmentDefinition.resource.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.resource.code` is mapped to FHIR R4 element `CompartmentDefinition.resource.code` as `RelatedTo`.&#xA;The mappings for `CompartmentDefinition.resource.code` do not allow expression of the necessary codes, per the bindings on the source and target."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource.param"/>
+      <display value="param"/>
+      <target>
+        <code value="CompartmentDefinition.resource.param"/>
+        <display value="CompartmentDefinition.resource.param"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.resource.param` is mapped to FHIR R4 element `CompartmentDefinition.resource.param` as `Equivalent`.&#xA;If no search parameters are listed, then the resource is not linked to the compartment."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="CompartmentDefinition.resource.documentation"/>
+        <display value="CompartmentDefinition.resource.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.resource.documentation` is mapped to FHIR R4 element `CompartmentDefinition.resource.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CompartmentDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="CompartmentDefinition.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.versionAlgorithm[x]` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.&#xA;Element `CompartmentDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.title"/>
+      <display value="title"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.title"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.title` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.&#xA;Element `CompartmentDefinition.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.code` is mapped to FHIR R4 element `CompartmentDefinition.code` as `SourceIsBroaderThanTarget`.&#xA;Only the specification can define the compartments that can exist. Servers can choose to support them."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CompartmentDefinition.resource.code` is mapped to FHIR R4 element `CompartmentDefinition.resource.code` as `RelatedTo`.&#xA;The mappings for `CompartmentDefinition.resource.code` do not allow expression of the necessary codes, per the bindings on the source and target."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource.startParam"/>
+      <display value="startParam"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.startParam"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.resource.startParam` has a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`.&#xA;Element `CompartmentDefinition.resource.startParam` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CompartmentDefinition.resource.endParam"/>
+      <display value="endParam"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.endParam"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CompartmentDefinition.resource.endParam` has a context of CompartmentDefinition.resource based on following the parent source element upwards and mapping to `CompartmentDefinition`.&#xA;Element `CompartmentDefinition.resource.endParam` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

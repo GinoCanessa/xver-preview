@@ -1,0 +1,577 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Task-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Task-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Task-element-map-to-R4</b></p><a name=\"R5-Task-element-map-to-R4\"> </a><a name=\"hcR5-Task-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Task|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/task.html\">Taskversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Task|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Task|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Task.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.meta</td><td style=\"border-left-width: 0px\">Task.meta</td><td>Element `Task.meta` is mapped to FHIR R4 element `Task.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.implicitRules</td><td style=\"border-left-width: 0px\">Task.implicitRules</td><td>Element `Task.implicitRules` is mapped to FHIR R4 element `Task.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">Task.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.language</td><td style=\"border-left-width: 0px\">Task.language</td><td>Element `Task.language` is mapped to FHIR R4 element `Task.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">Task.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.text</td><td style=\"border-left-width: 0px\">Task.text</td><td>Element `Task.text` is mapped to FHIR R4 element `Task.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">Task.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.contained</td><td style=\"border-left-width: 0px\">Task.contained</td><td>Element `Task.contained` is mapped to FHIR R4 element `Task.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">Task.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.identifier</td><td style=\"border-left-width: 0px\">Task.identifier</td><td>Element `Task.identifier` is mapped to FHIR R4 element `Task.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.instantiatesCanonical</td><td style=\"border-left-width: 0px\">instantiatesCanonical</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.instantiatesCanonical</td><td style=\"border-left-width: 0px\">Task.instantiatesCanonical</td><td>Element `Task.instantiatesCanonical` is mapped to FHIR R4 element `Task.instantiatesCanonical` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.instantiatesUri</td><td style=\"border-left-width: 0px\">instantiatesUri</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.instantiatesUri</td><td style=\"border-left-width: 0px\">Task.instantiatesUri</td><td>Element `Task.instantiatesUri` is mapped to FHIR R4 element `Task.instantiatesUri` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.basedOn</td><td style=\"border-left-width: 0px\">Task.basedOn</td><td>Element `Task.basedOn` is mapped to FHIR R4 element `Task.basedOn` as `Equivalent`.\nTask.basedOn is never the same as Task.focus.  Task.basedOn will typically not be present for 'please fulfill' Tasks as a distinct authorization is rarely needed to request fulfillment.  If the Task is seeking fulfillment of an order, the order to be fulfilled is always communicated using `focus`, never basedOn.  However, authorization may be needed to perform other types of Task actions.  As an example of when both would be present, a Task seeking suspension of a prescription might have a Task.basedOn pointing to the ServiceRequest ordering surgery (which is the driver for suspending the MedicationRequest - which would be the Task.focus).</td></tr><tr><td style=\"border-right-width: 0px\">Task.groupIdentifier</td><td style=\"border-left-width: 0px\">groupIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.groupIdentifier</td><td style=\"border-left-width: 0px\">Task.groupIdentifier</td><td>Element `Task.groupIdentifier` is mapped to FHIR R4 element `Task.groupIdentifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.partOf</td><td style=\"border-left-width: 0px\">partOf</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.partOf</td><td style=\"border-left-width: 0px\">Task.partOf</td><td>Element `Task.partOf` is mapped to FHIR R4 element `Task.partOf` as `Equivalent`.\nThis should usually be 0..1.</td></tr><tr><td style=\"border-right-width: 0px\">Task.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.status</td><td style=\"border-left-width: 0px\">Task.status</td><td>Element `Task.status` is mapped to FHIR R4 element `Task.status` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.statusReason</td><td style=\"border-left-width: 0px\">statusReason</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Task.statusReason</td><td style=\"border-left-width: 0px\">Task.statusReason</td><td>Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Task.statusReason` do not cover the following types: CodeableReference.\nThe mappings for `Task.statusReason` do not cover the following types based on type expansion: reference.\nThis applies to the current status.  Look at the history of the task to see reasons for past statuses.</td></tr><tr><td style=\"border-right-width: 0px\">Task.businessStatus</td><td style=\"border-left-width: 0px\">businessStatus</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.businessStatus</td><td style=\"border-left-width: 0px\">Task.businessStatus</td><td>Element `Task.businessStatus` is mapped to FHIR R4 element `Task.businessStatus` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.intent</td><td style=\"border-left-width: 0px\">intent</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.intent</td><td style=\"border-left-width: 0px\">Task.intent</td><td>Element `Task.intent` is mapped to FHIR R4 element `Task.intent` as `Equivalent`.\nThis element is immutable.  Proposed tasks, planned tasks, etc. must be distinct instances.\n\nIn most cases, Tasks will have an intent of \"order\".</td></tr><tr><td style=\"border-right-width: 0px\">Task.priority</td><td style=\"border-left-width: 0px\">priority</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.priority</td><td style=\"border-left-width: 0px\">Task.priority</td><td>Element `Task.priority` is mapped to FHIR R4 element `Task.priority` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.code</td><td style=\"border-left-width: 0px\">Task.code</td><td>Element `Task.code` is mapped to FHIR R4 element `Task.code` as `Equivalent`.\nThe title (eg \"My Tasks\", \"Outstanding Tasks for Patient X\") should go into the code.</td></tr><tr><td style=\"border-right-width: 0px\">Task.description</td><td style=\"border-left-width: 0px\">description</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.description</td><td style=\"border-left-width: 0px\">Task.description</td><td>Element `Task.description` is mapped to FHIR R4 element `Task.description` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.focus</td><td style=\"border-left-width: 0px\">focus</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.focus</td><td style=\"border-left-width: 0px\">Task.focus</td><td>Element `Task.focus` is mapped to FHIR R4 element `Task.focus` as `Equivalent`.\nIf multiple resources need to be manipulated, use sub-tasks.  (This ensures that status can be tracked independently for each referenced resource.).</td></tr><tr><td style=\"border-right-width: 0px\">Task.for</td><td style=\"border-left-width: 0px\">for</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.for</td><td style=\"border-left-width: 0px\">Task.for</td><td>Element `Task.for` is mapped to FHIR R4 element `Task.for` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.encounter</td><td style=\"border-left-width: 0px\">Task.encounter</td><td>Element `Task.encounter` is mapped to FHIR R4 element `Task.encounter` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.executionPeriod</td><td style=\"border-left-width: 0px\">executionPeriod</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.executionPeriod</td><td style=\"border-left-width: 0px\">Task.executionPeriod</td><td>Element `Task.executionPeriod` is mapped to FHIR R4 element `Task.executionPeriod` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.authoredOn</td><td style=\"border-left-width: 0px\">authoredOn</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.authoredOn</td><td style=\"border-left-width: 0px\">Task.authoredOn</td><td>Element `Task.authoredOn` is mapped to FHIR R4 element `Task.authoredOn` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.lastModified</td><td style=\"border-left-width: 0px\">lastModified</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.lastModified</td><td style=\"border-left-width: 0px\">Task.lastModified</td><td>Element `Task.lastModified` is mapped to FHIR R4 element `Task.lastModified` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.requester</td><td style=\"border-left-width: 0px\">requester</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.requester</td><td style=\"border-left-width: 0px\">Task.requester</td><td>Element `Task.requester` is mapped to FHIR R4 element `Task.requester` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.owner</td><td style=\"border-left-width: 0px\">owner</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.owner</td><td style=\"border-left-width: 0px\">Task.owner</td><td>Element `Task.owner` is mapped to FHIR R4 element `Task.owner` as `Equivalent`.\nTasks may be created with an owner not yet identified.</td></tr><tr><td style=\"border-right-width: 0px\">Task.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.location</td><td style=\"border-left-width: 0px\">Task.location</td><td>Element `Task.location` is mapped to FHIR R4 element `Task.location` as `Equivalent`.\nThis should only be specified when the Task to be/being performed happens or is expected to happen primarily within the bounds of a single Location.  Other locations (e.g. source, destination, etc.) would either be reflected on the 'basedOn' Request or be conveyed as distinct Task.input values.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Task.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Task.reasonCode</td><td style=\"border-left-width: 0px\">Task.reasonCode</td><td>Element `Task.reason` is mapped to FHIR R4 element `Task.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Task.reason` is mapped to FHIR R4 element `Task.reasonReference` as `SourceIsBroaderThanTarget`.\nThis will typically not be present for Tasks with a code of 'please fulfill' as, for those, the reason for action is conveyed on the Request pointed to by Task.focus.  Some types of tasks will not need a 'reason'.  E.g. a request to discharge a patient can be inferred to be 'because the patient is ready' and this would not need a reason to be stated on the Task.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Task.reasonReference</td><td style=\"border-left-width: 0px\">Task.reasonReference</td><td>Element `Task.reason` is mapped to FHIR R4 element `Task.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Task.reason` is mapped to FHIR R4 element `Task.reasonReference` as `SourceIsBroaderThanTarget`.\nThis will typically not be present for Tasks with a code of 'please fulfill' as, for those, the reason for action is conveyed on the Request pointed to by Task.focus.  Some types of tasks will not need a 'reason'.  E.g. a request to discharge a patient can be inferred to be 'because the patient is ready' and this would not need a reason to be stated on the Task.</td></tr><tr><td style=\"border-right-width: 0px\">Task.insurance</td><td style=\"border-left-width: 0px\">insurance</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.insurance</td><td style=\"border-left-width: 0px\">Task.insurance</td><td>Element `Task.insurance` is mapped to FHIR R4 element `Task.insurance` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.note</td><td style=\"border-left-width: 0px\">Task.note</td><td>Element `Task.note` is mapped to FHIR R4 element `Task.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.relevantHistory</td><td style=\"border-left-width: 0px\">relevantHistory</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.relevantHistory</td><td style=\"border-left-width: 0px\">Task.relevantHistory</td><td>Element `Task.relevantHistory` is mapped to FHIR R4 element `Task.relevantHistory` as `Equivalent`.\nThis element does not point to the Provenance associated with the *current* version of the resource - as it would be created after this version existed.  The Provenance for the current version can be retrieved with a _revinclude.</td></tr><tr><td style=\"border-right-width: 0px\">Task.restriction</td><td style=\"border-left-width: 0px\">restriction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Task.restriction</td><td style=\"border-left-width: 0px\">Task.restriction</td><td>Element `Task.restriction` is mapped to FHIR R4 element `Task.restriction` as `Equivalent`.\nTask.restriction can only be present if the Task is seeking fulfillment of another Request resource, and the restriction identifies what subset of the authorization conveyed by the request is supposed to be fulfilled by this Task. A possible example could be a standing order (the request) covering a significant time period and/or individuals, while the Task seeks fulfillment for only a subset of that time-period and a single individual.</td></tr><tr><td style=\"border-right-width: 0px\">Task.restriction.repetitions</td><td style=\"border-left-width: 0px\">repetitions</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.restriction.repetitions</td><td style=\"border-left-width: 0px\">Task.restriction.repetitions</td><td>Element `Task.restriction.repetitions` is mapped to FHIR R4 element `Task.restriction.repetitions` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.restriction.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.restriction.period</td><td style=\"border-left-width: 0px\">Task.restriction.period</td><td>Element `Task.restriction.period` is mapped to FHIR R4 element `Task.restriction.period` as `Equivalent`.\nThis is distinct from Task.executionPeriod. ExecutionPeriod indicates when the task needs to be initiated, while Task.restriction.period specifies the subset of the overall authorization that this period covers. For example, a MedicationRequest with an overall effective period of 1 year might have a Task whose restriction.period is 2 months (i.e. satisfy 2 months of medication therapy), while the execution period might be 'between now and 5 days from now' - i.e. If you say yes to this, then you're agreeing to supply medication for that 2 month period within the next 5 days.\n\nNote that period.high is the due date representing the time by which the task should be completed.</td></tr><tr><td style=\"border-right-width: 0px\">Task.restriction.recipient</td><td style=\"border-left-width: 0px\">recipient</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.restriction.recipient</td><td style=\"border-left-width: 0px\">Task.restriction.recipient</td><td>Element `Task.restriction.recipient` is mapped to FHIR R4 element `Task.restriction.recipient` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.input</td><td style=\"border-left-width: 0px\">input</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Task.input</td><td style=\"border-left-width: 0px\">Task.input</td><td>Element `Task.input` is mapped to FHIR R4 element `Task.input` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.input.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.input.type</td><td style=\"border-left-width: 0px\">Task.input.type</td><td>Element `Task.input.type` is mapped to FHIR R4 element `Task.input.type` as `Equivalent`.\nIf referencing a BPMN workflow or Protocol, the \"system\" is the URL for the workflow definition and the code is the \"name\" of the required input.</td></tr><tr><td style=\"border-right-width: 0px\">Task.input.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Task.input.value[x]</td><td style=\"border-left-width: 0px\">Task.input.value[x]</td><td>Element `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]` as `RelatedTo`.\nThe mappings for `Task.input.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.output</td><td style=\"border-left-width: 0px\">output</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Task.output</td><td style=\"border-left-width: 0px\">Task.output</td><td>Element `Task.output` is mapped to FHIR R4 element `Task.output` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.output.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Task.output.type</td><td style=\"border-left-width: 0px\">Task.output.type</td><td>Element `Task.output.type` is mapped to FHIR R4 element `Task.output.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Task.output.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Task.output.value[x]</td><td style=\"border-left-width: 0px\">Task.output.value[x]</td><td>Element `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]` as `RelatedTo`.\nThe mappings for `Task.output.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Task|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Task.statusReason (statusReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.statusReason</td><td>Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Task.statusReason` do not cover the following types: CodeableReference.\nThe mappings for `Task.statusReason` do not cover the following types based on type expansion: reference.\nThis applies to the current status.  Look at the history of the task to see reasons for past statuses.</td></tr><tr><td>Task.doNotPerform (doNotPerform)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform</td><td>Element `Task.doNotPerform` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.doNotPerform` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe attributes provided with the Task qualify what is not to be done. For example, if a requestedPeriod is provided, the 'do not' request only applies within the specified time. If a requestedPerformer is specified then the 'do not' request only applies to performers of that type. Qualifiers include: code, subject, occurrence, requestedPerformer and performer.\n\nIn some cases, the Request.code may pre-coordinate prohibition into the requested action. E.g. 'NPO' (nothing by mouth), 'DNR' (do not recussitate). If this happens, doNotPerform SHALL NOT be set to true. I.e. The resource shall not have double negation. (E.g. 'Do not DNR').\n\ndoNotPerform should ONLY be used with Tasks that are tightly bounded in time or process phase.  E.g. 'Do not fulfill the midnight dose of medication X tonight due to the early morning scheduled procedure, where the nurse could reasonably check off 'Med X not given at midnight as instructed'.  Similarly, a decision support proposal that a patient should not be given a standard intake questionnaire (because the patient is cognitively impaired) would be marked as 'complete' or 'rejected' when the clinician preps the CarePlan or order set after reviewing the decision support results.  If there is a need to create a standing order to not do something that can't be satisfied by a single 'non-action', but rather an ongoing refusal to perform the function, MedicationRequest, ServiceRequest or some other form of authorization should be used.</td></tr><tr><td>Task.requestedPeriod (requestedPeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod</td><td>Element `Task.requestedPeriod` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.requestedPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis is typically used when the Task is *not* seeking fulfillment of a focus Request, as in that case the period would be specified on the Request and/or in the Task.restriction.period.  Instead, it is used for stand-alone tasks.</td></tr><tr><td>Task.requestedPerformer (requestedPerformer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer</td><td>Element `Task.requestedPerformer` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.requestedPerformer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Task.performer (performer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer</td><td>Element `Task.performer` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.performer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Task.performer.function (function)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:function</td><td>Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.performer.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Task.performer.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:actor</td><td>Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.performer.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Task.input.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input.value</td><td>Element `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]` as `RelatedTo`.\nThe mappings for `Task.input.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.</td></tr><tr><td>Task.output.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output.value</td><td>Element `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]` as `RelatedTo`.\nThe mappings for `Task.output.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Task-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Task-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5TaskElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Task to FHIR R4 Task"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:53.1626437-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Task to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Task"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Task>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Task"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Task>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Task.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.meta" ] ;
+         fhir:display [ fhir:v "Task.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.meta` is mapped to FHIR R4 element `Task.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.implicitRules" ] ;
+         fhir:display [ fhir:v "Task.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.implicitRules` is mapped to FHIR R4 element `Task.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.language" ] ;
+         fhir:display [ fhir:v "Task.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.language` is mapped to FHIR R4 element `Task.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.text" ] ;
+         fhir:display [ fhir:v "Task.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.text` is mapped to FHIR R4 element `Task.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.contained" ] ;
+         fhir:display [ fhir:v "Task.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.contained` is mapped to FHIR R4 element `Task.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.identifier" ] ;
+         fhir:display [ fhir:v "Task.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.identifier` is mapped to FHIR R4 element `Task.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.instantiatesCanonical" ] ;
+         fhir:display [ fhir:v "Task.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.instantiatesCanonical` is mapped to FHIR R4 element `Task.instantiatesCanonical` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.instantiatesUri" ] ;
+         fhir:display [ fhir:v "Task.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.instantiatesUri` is mapped to FHIR R4 element `Task.instantiatesUri` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.basedOn" ] ;
+         fhir:display [ fhir:v "Task.basedOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.basedOn` is mapped to FHIR R4 element `Task.basedOn` as `Equivalent`.\nTask.basedOn is never the same as Task.focus.  Task.basedOn will typically not be present for 'please fulfill' Tasks as a distinct authorization is rarely needed to request fulfillment.  If the Task is seeking fulfillment of an order, the order to be fulfilled is always communicated using `focus`, never basedOn.  However, authorization may be needed to perform other types of Task actions.  As an example of when both would be present, a Task seeking suspension of a prescription might have a Task.basedOn pointing to the ServiceRequest ordering surgery (which is the driver for suspending the MedicationRequest - which would be the Task.focus)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.groupIdentifier" ] ;
+       fhir:display [ fhir:v "groupIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.groupIdentifier" ] ;
+         fhir:display [ fhir:v "Task.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.groupIdentifier` is mapped to FHIR R4 element `Task.groupIdentifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.partOf" ] ;
+         fhir:display [ fhir:v "Task.partOf" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.partOf` is mapped to FHIR R4 element `Task.partOf` as `Equivalent`.\nThis should usually be 0..1." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.status" ] ;
+         fhir:display [ fhir:v "Task.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.status` is mapped to FHIR R4 element `Task.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.statusReason" ] ;
+         fhir:display [ fhir:v "Task.statusReason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Task.statusReason` do not cover the following types: CodeableReference.\nThe mappings for `Task.statusReason` do not cover the following types based on type expansion: reference.\nThis applies to the current status.  Look at the history of the task to see reasons for past statuses." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.businessStatus" ] ;
+       fhir:display [ fhir:v "businessStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.businessStatus" ] ;
+         fhir:display [ fhir:v "Task.businessStatus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.businessStatus` is mapped to FHIR R4 element `Task.businessStatus` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.intent" ] ;
+         fhir:display [ fhir:v "Task.intent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.intent` is mapped to FHIR R4 element `Task.intent` as `Equivalent`.\nThis element is immutable.  Proposed tasks, planned tasks, etc. must be distinct instances.\n\nIn most cases, Tasks will have an intent of \"order\"." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.priority" ] ;
+         fhir:display [ fhir:v "Task.priority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.priority` is mapped to FHIR R4 element `Task.priority` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.code" ] ;
+         fhir:display [ fhir:v "Task.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.code` is mapped to FHIR R4 element `Task.code` as `Equivalent`.\nThe title (eg \"My Tasks\", \"Outstanding Tasks for Patient X\") should go into the code." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.description" ] ;
+         fhir:display [ fhir:v "Task.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.description` is mapped to FHIR R4 element `Task.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.focus" ] ;
+         fhir:display [ fhir:v "Task.focus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.focus` is mapped to FHIR R4 element `Task.focus` as `Equivalent`.\nIf multiple resources need to be manipulated, use sub-tasks.  (This ensures that status can be tracked independently for each referenced resource.)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.for" ] ;
+       fhir:display [ fhir:v "for" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.for" ] ;
+         fhir:display [ fhir:v "Task.for" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.for` is mapped to FHIR R4 element `Task.for` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.encounter" ] ;
+         fhir:display [ fhir:v "Task.encounter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.encounter` is mapped to FHIR R4 element `Task.encounter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.executionPeriod" ] ;
+       fhir:display [ fhir:v "executionPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.executionPeriod" ] ;
+         fhir:display [ fhir:v "Task.executionPeriod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.executionPeriod` is mapped to FHIR R4 element `Task.executionPeriod` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.authoredOn" ] ;
+       fhir:display [ fhir:v "authoredOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.authoredOn" ] ;
+         fhir:display [ fhir:v "Task.authoredOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.authoredOn` is mapped to FHIR R4 element `Task.authoredOn` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.lastModified" ] ;
+       fhir:display [ fhir:v "lastModified" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.lastModified" ] ;
+         fhir:display [ fhir:v "Task.lastModified" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.lastModified` is mapped to FHIR R4 element `Task.lastModified` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.requester" ] ;
+         fhir:display [ fhir:v "Task.requester" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.requester` is mapped to FHIR R4 element `Task.requester` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.owner" ] ;
+       fhir:display [ fhir:v "owner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.owner" ] ;
+         fhir:display [ fhir:v "Task.owner" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.owner` is mapped to FHIR R4 element `Task.owner` as `Equivalent`.\nTasks may be created with an owner not yet identified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.location" ] ;
+         fhir:display [ fhir:v "Task.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.location` is mapped to FHIR R4 element `Task.location` as `Equivalent`.\nThis should only be specified when the Task to be/being performed happens or is expected to happen primarily within the bounds of a single Location.  Other locations (e.g. source, destination, etc.) would either be reflected on the 'basedOn' Request or be conveyed as distinct Task.input values." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.reasonCode" ] ;
+         fhir:display [ fhir:v "Task.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.reason` is mapped to FHIR R4 element `Task.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Task.reason` is mapped to FHIR R4 element `Task.reasonReference` as `SourceIsBroaderThanTarget`.\nThis will typically not be present for Tasks with a code of 'please fulfill' as, for those, the reason for action is conveyed on the Request pointed to by Task.focus.  Some types of tasks will not need a 'reason'.  E.g. a request to discharge a patient can be inferred to be 'because the patient is ready' and this would not need a reason to be stated on the Task." ]
+       ] [
+         fhir:code [ fhir:v "Task.reasonReference" ] ;
+         fhir:display [ fhir:v "Task.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Task.reason` is mapped to FHIR R4 element `Task.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Task.reason` is mapped to FHIR R4 element `Task.reasonReference` as `SourceIsBroaderThanTarget`.\nThis will typically not be present for Tasks with a code of 'please fulfill' as, for those, the reason for action is conveyed on the Request pointed to by Task.focus.  Some types of tasks will not need a 'reason'.  E.g. a request to discharge a patient can be inferred to be 'because the patient is ready' and this would not need a reason to be stated on the Task." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.insurance" ] ;
+         fhir:display [ fhir:v "Task.insurance" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.insurance` is mapped to FHIR R4 element `Task.insurance` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.note" ] ;
+         fhir:display [ fhir:v "Task.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.note` is mapped to FHIR R4 element `Task.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.relevantHistory" ] ;
+       fhir:display [ fhir:v "relevantHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.relevantHistory" ] ;
+         fhir:display [ fhir:v "Task.relevantHistory" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.relevantHistory` is mapped to FHIR R4 element `Task.relevantHistory` as `Equivalent`.\nThis element does not point to the Provenance associated with the *current* version of the resource - as it would be created after this version existed.  The Provenance for the current version can be retrieved with a _revinclude." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction" ] ;
+       fhir:display [ fhir:v "restriction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.restriction" ] ;
+         fhir:display [ fhir:v "Task.restriction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction` is mapped to FHIR R4 element `Task.restriction` as `Equivalent`.\nTask.restriction can only be present if the Task is seeking fulfillment of another Request resource, and the restriction identifies what subset of the authorization conveyed by the request is supposed to be fulfilled by this Task. A possible example could be a standing order (the request) covering a significant time period and/or individuals, while the Task seeks fulfillment for only a subset of that time-period and a single individual." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction.repetitions" ] ;
+       fhir:display [ fhir:v "repetitions" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.restriction.repetitions" ] ;
+         fhir:display [ fhir:v "Task.restriction.repetitions" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.repetitions` is mapped to FHIR R4 element `Task.restriction.repetitions` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.restriction.period" ] ;
+         fhir:display [ fhir:v "Task.restriction.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.period` is mapped to FHIR R4 element `Task.restriction.period` as `Equivalent`.\nThis is distinct from Task.executionPeriod. ExecutionPeriod indicates when the task needs to be initiated, while Task.restriction.period specifies the subset of the overall authorization that this period covers. For example, a MedicationRequest with an overall effective period of 1 year might have a Task whose restriction.period is 2 months (i.e. satisfy 2 months of medication therapy), while the execution period might be 'between now and 5 days from now' - i.e. If you say yes to this, then you're agreeing to supply medication for that 2 month period within the next 5 days.\n\nNote that period.high is the due date representing the time by which the task should be completed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.restriction.recipient" ] ;
+       fhir:display [ fhir:v "recipient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.restriction.recipient" ] ;
+         fhir:display [ fhir:v "Task.restriction.recipient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.restriction.recipient` is mapped to FHIR R4 element `Task.restriction.recipient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input" ] ;
+       fhir:display [ fhir:v "input" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.input" ] ;
+         fhir:display [ fhir:v "Task.input" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.input` is mapped to FHIR R4 element `Task.input` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.input.type" ] ;
+         fhir:display [ fhir:v "Task.input.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.input.type` is mapped to FHIR R4 element `Task.input.type` as `Equivalent`.\nIf referencing a BPMN workflow or Protocol, the \"system\" is the URL for the workflow definition and the code is the \"name\" of the required input." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.input.value[x]" ] ;
+         fhir:display [ fhir:v "Task.input.value[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]` as `RelatedTo`.\nThe mappings for `Task.input.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output" ] ;
+       fhir:display [ fhir:v "output" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.output" ] ;
+         fhir:display [ fhir:v "Task.output" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.output` is mapped to FHIR R4 element `Task.output` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.output.type" ] ;
+         fhir:display [ fhir:v "Task.output.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.output.type` is mapped to FHIR R4 element `Task.output.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Task.output.value[x]" ] ;
+         fhir:display [ fhir:v "Task.output.value[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]` as `RelatedTo`.\nThe mappings for `Task.output.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Task"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Task>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Task.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.statusReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Task.statusReason` do not cover the following types: CodeableReference.\nThe mappings for `Task.statusReason` do not cover the following types based on type expansion: reference.\nThis applies to the current status.  Look at the history of the task to see reasons for past statuses." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.doNotPerform" ] ;
+       fhir:display [ fhir:v "doNotPerform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.doNotPerform` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.doNotPerform` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe attributes provided with the Task qualify what is not to be done. For example, if a requestedPeriod is provided, the 'do not' request only applies within the specified time. If a requestedPerformer is specified then the 'do not' request only applies to performers of that type. Qualifiers include: code, subject, occurrence, requestedPerformer and performer.\n\nIn some cases, the Request.code may pre-coordinate prohibition into the requested action. E.g. 'NPO' (nothing by mouth), 'DNR' (do not recussitate). If this happens, doNotPerform SHALL NOT be set to true. I.e. The resource shall not have double negation. (E.g. 'Do not DNR').\n\ndoNotPerform should ONLY be used with Tasks that are tightly bounded in time or process phase.  E.g. 'Do not fulfill the midnight dose of medication X tonight due to the early morning scheduled procedure, where the nurse could reasonably check off 'Med X not given at midnight as instructed'.  Similarly, a decision support proposal that a patient should not be given a standard intake questionnaire (because the patient is cognitively impaired) would be marked as 'complete' or 'rejected' when the clinician preps the CarePlan or order set after reviewing the decision support results.  If there is a need to create a standing order to not do something that can't be satisfied by a single 'non-action', but rather an ongoing refusal to perform the function, MedicationRequest, ServiceRequest or some other form of authorization should be used." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.requestedPeriod" ] ;
+       fhir:display [ fhir:v "requestedPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.requestedPeriod` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.requestedPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis is typically used when the Task is *not* seeking fulfillment of a focus Request, as in that case the period would be specified on the Request and/or in the Task.restriction.period.  Instead, it is used for stand-alone tasks." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.requestedPerformer" ] ;
+       fhir:display [ fhir:v "requestedPerformer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.requestedPerformer` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.requestedPerformer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.performer` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.performer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:function" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.performer.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer:actor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.actor` has a context of Task based on following the parent source element upwards and mapping to `Task`.\nElement `Task.performer.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.input.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]` as `RelatedTo`.\nThe mappings for `Task.input.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Task.output.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]` as `RelatedTo`.\nThe mappings for `Task.output.value[x]` do not cover the following types: Availability, CodeableReference, ExtendedContactDetail, RatioRange.\nThe target context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

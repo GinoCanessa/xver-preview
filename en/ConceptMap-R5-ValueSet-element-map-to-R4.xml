@@ -1,0 +1,1005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-ValueSet-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-ValueSet-element-map-to-R4</b></p><a name="R5-ValueSet-element-map-to-R4"> </a><a name="hcR5-ValueSet-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ValueSet|5.0.0</code> to <a href="http://hl7.org/fhir/R4/valueset.html">ValueSetversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ValueSet.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.meta</td><td>Element `ValueSet.meta` is mapped to FHIR R4 element `ValueSet.meta` as `Equivalent`.</td></tr><tr><td>ValueSet.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.implicitRules</td><td>Element `ValueSet.implicitRules` is mapped to FHIR R4 element `ValueSet.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>ValueSet.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.language</td><td>Element `ValueSet.language` is mapped to FHIR R4 element `ValueSet.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>ValueSet.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.text</td><td>Element `ValueSet.text` is mapped to FHIR R4 element `ValueSet.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>ValueSet.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.contained</td><td>Element `ValueSet.contained` is mapped to FHIR R4 element `ValueSet.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>ValueSet.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.url</td><td>Element `ValueSet.url` is mapped to FHIR R4 element `ValueSet.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>ValueSet.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.identifier</td><td>Element `ValueSet.identifier` is mapped to FHIR R4 element `ValueSet.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this value set outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>ValueSet.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.version</td><td>Element `ValueSet.version` is mapped to FHIR R4 element `ValueSet.version` as `Equivalent`.
+There may be different value set instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the value set with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>ValueSet.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.name</td><td>Element `ValueSet.name` is mapped to FHIR R4 element `ValueSet.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.A name should be provided unless the value set is a contained resource (e.g. an anonymous value set in a profile). Most registries will require a name.</td></tr><tr><td>ValueSet.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.title</td><td>Element `ValueSet.title` is mapped to FHIR R4 element `ValueSet.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>ValueSet.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.status</td><td>Element `ValueSet.status` is mapped to FHIR R4 element `ValueSet.status` as `Equivalent`.
+Allows filtering of value sets that are appropriate for use versus not.See also the [http://hl7.org/fhir/StructureDefinition/valueset-workflowStatusDescription](http://hl7.org/fhir/extensions/StructureDefinition-valueset-workflowStatusDescription.html) extension for additional status information related to the editorial process.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.experimental</td><td>Element `ValueSet.experimental` is mapped to FHIR R4 element `ValueSet.experimental` as `Equivalent`.
+Allows filtering of value sets that are appropriate for use versus not.</td></tr><tr><td>ValueSet.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.date</td><td>Element `ValueSet.date` is mapped to FHIR R4 element `ValueSet.date` as `Equivalent`.
+Note that this is not the same as the meta.lastUpdated which is specific to an instance of a value set resource on a server.  Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.publisher</td><td>Element `ValueSet.publisher` is mapped to FHIR R4 element `ValueSet.publisher` as `Equivalent`.
+Usually an organization but may be an individual. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the value set. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>ValueSet.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.contact</td><td>Element `ValueSet.contact` is mapped to FHIR R4 element `ValueSet.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.description</td><td>Element `ValueSet.description` is mapped to FHIR R4 element `ValueSet.description` as `Equivalent`.
+Description SHOULD contain instructions for clinical or administrative use and interpretation and information about misuse. Description SHOULD be populated unless the information is available from context. Description SHOULD be populated unless the value set is a contained resource (e.g. a value set defined solely in the context of a profile).</td></tr><tr><td>ValueSet.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.useContext</td><td>Element `ValueSet.useContext` is mapped to FHIR R4 element `ValueSet.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>ValueSet.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.jurisdiction</td><td>Element `ValueSet.jurisdiction` is mapped to FHIR R4 element `ValueSet.jurisdiction` as `Equivalent`.
+Element `ValueSet.jurisdiction` has been flagged as deprecated.
+It may be possible for the value set to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>ValueSet.immutable (immutable)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.immutable</td><td>Element `ValueSet.immutable` is mapped to FHIR R4 element `ValueSet.immutable` as `Equivalent`.
+Normally immutability is set to 'false', which is the default assumption if it is not populated.  Note that the implication is that if this is set to 'true', there may be only one ValueSet version for this definition. Immutability tends to be set to 'true' in one of two cases: - Where the value set, by the nature of its usage, cannot change.  For example &quot;All specializations of ACT in ActClassCode&quot; - Where there's no safe way to express the &quot;Purpose&quot; such that someone else could safely make changes to the value set definition. Source workflow control must guarantee that the same URI always yields the same definition.</td></tr><tr><td>ValueSet.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.purpose</td><td>Element `ValueSet.purpose` is mapped to FHIR R4 element `ValueSet.purpose` as `Equivalent`.
+This element does not describe the usage of the value set. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this value set.</td></tr><tr><td>ValueSet.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.copyright</td><td>Element `ValueSet.copyright` is mapped to FHIR R4 element `ValueSet.copyright` as `Equivalent`.
+Frequently, the copyright differs between the value set and the codes that are included. The copyright statement should clearly differentiate between these when required.</td></tr><tr><td>ValueSet.compose (compose)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.compose</td><td>Element `ValueSet.compose` is mapped to FHIR R4 element `ValueSet.compose` as `Equivalent`.</td></tr><tr><td>ValueSet.compose.lockedDate (lockedDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.lockedDate</td><td>Element `ValueSet.compose.lockedDate` is mapped to FHIR R4 element `ValueSet.compose.lockedDate` as `Equivalent`.
+With a defined lockedDate the value set is considered &quot;Locked&quot;. Otherwise, the value set may have different expansions as underlying code systems and/or value sets evolve.  The interpretation of lockedDate is often dependent on the context - e.g. a SNOMED CT derived value set with a lockedDate will have a different expansion in USA than in UK.  If a value set specifies a version for include and exclude statements, and also specifies a locked date, the specified versions need to be available that date, or the value set will not be usable.</td></tr><tr><td>ValueSet.compose.inactive (inactive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.inactive</td><td>Element `ValueSet.compose.inactive` is mapped to FHIR R4 element `ValueSet.compose.inactive` as `Equivalent`.
+Note that in the FHIR terminology framework, &quot;deprecated&quot; does not mean inactive, but in some code systems, e.g. LOINC, &quot;deprecated&quot; does mean inactive. Code systems should define what codes are considered to be inactive. If this is not clearly defined (including in the FHIR code system resource), then all codes are assumed to be active.
+
+The Value Set Definition specification defines an ActiveOnly element, which is the reverse of this element e.g. (ValueSet.compose.inactive=FALSE) is the same as (VSD.ActiveOnly=TRUE).</td></tr><tr><td>ValueSet.compose.include (include)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.compose.include</td><td>Element `ValueSet.compose.include` is mapped to FHIR R4 element `ValueSet.compose.include` as `Equivalent`.
+All the conditions in an include must be true. If a system is listed, all the codes from the system are listed. If one or more filters are listed, all of the filters must apply. If one or more value sets are listed, the codes must be in all the value sets. E.g. each include is 'include all the codes that meet all these conditions'.</td></tr><tr><td>ValueSet.compose.include.system (system)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.system</td><td>Element `ValueSet.compose.include.system` is mapped to FHIR R4 element `ValueSet.compose.include.system` as `Equivalent`.
+If there are no codes or filters, the entire code system is included. Note that the set of codes that are included may contain abstract codes. See ''Coding.system'' for further documentation about the correct value for the system element.</td></tr><tr><td>ValueSet.compose.include.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.version</td><td>Element `ValueSet.compose.include.version` is mapped to FHIR R4 element `ValueSet.compose.include.version` as `Equivalent`.
+This is used when selecting the descendants of a concept - they may change between versions. If no version is specified, then the exact contents of the value set might not be known until a context of use binds it to a particular version. The special value '*' means all versions; It is at server discretion regarding expansions and which versions must be supported.</td></tr><tr><td>ValueSet.compose.include.concept (concept)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.compose.include.concept</td><td>Element `ValueSet.compose.include.concept` is mapped to FHIR R4 element `ValueSet.compose.include.concept` as `Equivalent`.
+The list of concepts is considered ordered, though the order might not have any particular significance. Typically, the order of an expansion follows that defined in the compose element.</td></tr><tr><td>ValueSet.compose.include.concept.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.concept.code</td><td>Element `ValueSet.compose.include.concept.code` is mapped to FHIR R4 element `ValueSet.compose.include.concept.code` as `Equivalent`.
+Expressions are allowed if defined by the underlying code system.</td></tr><tr><td>ValueSet.compose.include.concept.display (display)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.concept.display</td><td>Element `ValueSet.compose.include.concept.display` is mapped to FHIR R4 element `ValueSet.compose.include.concept.display` as `Equivalent`.
+The value set resource allows for an alternative display to be specified for when this concept is used in this particular value set. See notes in the value set narrative about the correct use of this element.</td></tr><tr><td>ValueSet.compose.include.concept.designation (designation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.compose.include.concept.designation</td><td>Element `ValueSet.compose.include.concept.designation` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation` as `Equivalent`.
+Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of &quot;primary code&quot; and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language).</td></tr><tr><td>ValueSet.compose.include.concept.designation.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.concept.designation.language</td><td>Element `ValueSet.compose.include.concept.designation.language` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.language` as `Equivalent`.
+In the absence of a language, the resource language applies.</td></tr><tr><td>ValueSet.compose.include.concept.designation.use (use)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.concept.designation.use</td><td>Element `ValueSet.compose.include.concept.designation.use` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.use` as `Equivalent`.
+If no use is provided, the designation can be assumed to be suitable for general display to a human user.</td></tr><tr><td>ValueSet.compose.include.concept.designation.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.concept.designation.value</td><td>Element `ValueSet.compose.include.concept.designation.value` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.value` as `Equivalent`.</td></tr><tr><td>ValueSet.compose.include.filter (filter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.compose.include.filter</td><td>Element `ValueSet.compose.include.filter` is mapped to FHIR R4 element `ValueSet.compose.include.filter` as `Equivalent`.
+Selecting codes by specifying filters based on properties is only possible where the underlying code system defines appropriate properties. Note that in some cases, the underlying code system defines the logical concepts but not the literal codes for the concepts. In such cases, the literal definitions may be provided by a third party.</td></tr><tr><td>ValueSet.compose.include.filter.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.filter.property</td><td>Element `ValueSet.compose.include.filter.property` is mapped to FHIR R4 element `ValueSet.compose.include.filter.property` as `Equivalent`.</td></tr><tr><td>ValueSet.compose.include.filter.op (op)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.compose.include.filter.op</td><td>Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4 element `ValueSet.compose.include.filter.op` as `SourceIsBroaderThanTarget`.
+In case filter.property represents a property of the system, the operation applies to the selected property. In case filter.property represents a filter of the system, the operation SHALL match one of the CodeSystem.filter.operator values.</td></tr><tr><td>ValueSet.compose.include.filter.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.filter.value</td><td>Element `ValueSet.compose.include.filter.value` is mapped to FHIR R4 element `ValueSet.compose.include.filter.value` as `Equivalent`.
+Use regex matching with care - full regex matching on every SNOMED CT term is prohibitive, for example.</td></tr><tr><td>ValueSet.compose.include.valueSet (valueSet)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.include.valueSet</td><td>Element `ValueSet.compose.include.valueSet` is mapped to FHIR R4 element `ValueSet.compose.include.valueSet` as `Equivalent`.
+The value set URI is either a logical reference to a defined value set such as a [SNOMED CT reference set](https://terminology.hl7.org/SNOMEDCT.html), or a direct reference to a value set definition using ValueSet.url. The reference might not refer to an actual FHIR ValueSet resource; in this case, whatever is referred to is an implicit definition of a value set that needs to be clear about how versions are resolved.</td></tr><tr><td>ValueSet.compose.exclude (exclude)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.compose.exclude</td><td>Element `ValueSet.compose.exclude` is mapped to FHIR R4 element `ValueSet.compose.exclude` as `Equivalent`.
+Usually this is used to selectively exclude codes that were included by subsumption in the inclusions. Any display names specified for the codes are ignored.</td></tr><tr><td>ValueSet.expansion (expansion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.expansion</td><td>Element `ValueSet.expansion` is mapped to FHIR R4 element `ValueSet.expansion` as `Equivalent`.
+Expansion is performed to produce a collection of codes that are ready to use for data entry or validation. Value set expansions are always considered to be stateless - they are a record of the set of codes in the value set at a point in time under a given set of conditions, and are not subject to ongoing maintenance.
+
+Expansion.parameter is  a simplified list of parameters - a subset of the features of the [Parameters](https://hl7.org/fhir/parameters.html) resource.</td></tr><tr><td>ValueSet.expansion.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.identifier</td><td>Element `ValueSet.expansion.identifier` is mapped to FHIR R4 element `ValueSet.expansion.identifier` as `Equivalent`.
+Typically, this uri is a UUID (e.g. urn:uuid:8230ff20-c97a-4167-a59d-dc2cb9df16dd).</td></tr><tr><td>ValueSet.expansion.timestamp (timestamp)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.timestamp</td><td>Element `ValueSet.expansion.timestamp` is mapped to FHIR R4 element `ValueSet.expansion.timestamp` as `Equivalent`.
+This SHOULD be a fully populated instant, but in some circumstances, value sets are expanded by hand, and the expansion is published without that precision.</td></tr><tr><td>ValueSet.expansion.total (total)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.total</td><td>Element `ValueSet.expansion.total` is mapped to FHIR R4 element `ValueSet.expansion.total` as `Equivalent`.
+Paging only applies to flat expansions.</td></tr><tr><td>ValueSet.expansion.offset (offset)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.offset</td><td>Element `ValueSet.expansion.offset` is mapped to FHIR R4 element `ValueSet.expansion.offset` as `Equivalent`.
+Paging only applies to flat expansions. If a filter is applied, the count is the number of concepts that matched the filter, not the number of concepts in an unfiltered view of the expansion.</td></tr><tr><td>ValueSet.expansion.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.expansion.parameter</td><td>Element `ValueSet.expansion.parameter` is mapped to FHIR R4 element `ValueSet.expansion.parameter` as `Equivalent`.
+The server decides which parameters to include here, but at a minimum, the list SHOULD include all of the parameters that affect the $expand operation. If the expansion will be persisted all of these parameters SHALL be included. If the codeSystem on the server has a specified version then this version SHALL be provided as a parameter in the expansion (note that not all code systems have a version).</td></tr><tr><td>ValueSet.expansion.parameter.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.parameter.name</td><td>Element `ValueSet.expansion.parameter.name` is mapped to FHIR R4 element `ValueSet.expansion.parameter.name` as `Equivalent`.
+The names are assigned at the discretion of the server.</td></tr><tr><td>ValueSet.expansion.parameter.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.parameter.value[x]</td><td>Element `ValueSet.expansion.parameter.value[x]` is mapped to FHIR R4 element `ValueSet.expansion.parameter.value[x]` as `RelatedTo`.
+The target context `ValueSet.expansion.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ValueSet.expansion.parameter`.</td></tr><tr><td>ValueSet.expansion.contains (contains)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ValueSet.expansion.contains</td><td>Element `ValueSet.expansion.contains` is mapped to FHIR R4 element `ValueSet.expansion.contains` as `Equivalent`.</td></tr><tr><td>ValueSet.expansion.contains.system (system)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.system</td><td>Element `ValueSet.expansion.contains.system` is mapped to FHIR R4 element `ValueSet.expansion.contains.system` as `Equivalent`.</td></tr><tr><td>ValueSet.expansion.contains.abstract (abstract)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.abstract</td><td>Element `ValueSet.expansion.contains.abstract` is mapped to FHIR R4 element `ValueSet.expansion.contains.abstract` as `Equivalent`.
+This should not be understood to exclude its use for searching (e.g. by subsumption testing). The client should know whether it is appropriate for the user to select an abstract code or not.</td></tr><tr><td>ValueSet.expansion.contains.inactive (inactive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.inactive</td><td>Element `ValueSet.expansion.contains.inactive` is mapped to FHIR R4 element `ValueSet.expansion.contains.inactive` as `Equivalent`.
+This should only have a value if the concept is inactive.</td></tr><tr><td>ValueSet.expansion.contains.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.version</td><td>Element `ValueSet.expansion.contains.version` is mapped to FHIR R4 element `ValueSet.expansion.contains.version` as `Equivalent`.
+The exact value of the version string is specified by the system from which the code is derived.</td></tr><tr><td>ValueSet.expansion.contains.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.code</td><td>Element `ValueSet.expansion.contains.code` is mapped to FHIR R4 element `ValueSet.expansion.contains.code` as `Equivalent`.</td></tr><tr><td>ValueSet.expansion.contains.display (display)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.display</td><td>Element `ValueSet.expansion.contains.display` is mapped to FHIR R4 element `ValueSet.expansion.contains.display` as `Equivalent`.</td></tr><tr><td>ValueSet.expansion.contains.designation (designation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.designation</td><td>Element `ValueSet.expansion.contains.designation` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation` as `Equivalent`.
+The designations provided must be based on the value set and code system definitions.</td></tr><tr><td>ValueSet.expansion.contains.contains (contains)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ValueSet.expansion.contains.contains</td><td>Element `ValueSet.expansion.contains.contains` is mapped to FHIR R4 element `ValueSet.expansion.contains.contains` as `Equivalent`.
+If the expansion uses this element, there is  no implication about the logical relationship between them, and the  structure cannot be used for logical inferencing. The structure  exists to provide navigational assistance for helping human users to  locate codes in the expansion.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ValueSet|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ValueSet.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.versionAlgorithm</td><td>Element `ValueSet.versionAlgorithm[x]` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>ValueSet.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.copyrightLabel</td><td>Element `ValueSet.copyrightLabel` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>ValueSet.approvalDate (approvalDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.approvalDate</td><td>Element `ValueSet.approvalDate` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.lastReviewDate (lastReviewDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.lastReviewDate</td><td>Element `ValueSet.lastReviewDate` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If specified, this date follows the original approval date.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.effectivePeriod (effectivePeriod)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.effectivePeriod</td><td>Element `ValueSet.effectivePeriod` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The effective period for a ValueSet determines when the content is applicable for usage and is independent of publication and review dates. For example, a valueset intended to be used for the year 2016 might be published in 2015.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.topic (topic)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.topic</td><td>Element `ValueSet.topic` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.topic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Element `ValueSet.topic` has been flagged as deprecated.
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'topic' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#topic and useContext.valueCodeableConcept indicating the topic)</td></tr><tr><td>ValueSet.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.author</td><td>Element `ValueSet.author` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.editor (editor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.editor</td><td>Element `ValueSet.editor` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.reviewer (reviewer)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.reviewer</td><td>Element `ValueSet.reviewer` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.endorser (endorser)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.endorser</td><td>Element `ValueSet.endorser` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ValueSet.relatedArtifact (relatedArtifact)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.relatedArtifact</td><td>Element `ValueSet.relatedArtifact` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Each related artifact is either an attachment, or a reference to another resource, but not both.</td></tr><tr><td>ValueSet.compose.include.concept.designation.additionalUse (additionalUse)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.concept.designation.additionalUse</td><td>Element `ValueSet.compose.include.concept.designation.additionalUse` has a context of ValueSet.compose.include.concept.designation based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.compose.include.concept.designation.additionalUse` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility.</td></tr><tr><td>ValueSet.compose.include.filter.op (op)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.filter.op</td><td>Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4 element `ValueSet.compose.include.filter.op` as `SourceIsBroaderThanTarget`.
+In case filter.property represents a property of the system, the operation applies to the selected property. In case filter.property represents a filter of the system, the operation SHALL match one of the CodeSystem.filter.operator values.</td></tr><tr><td>ValueSet.compose.include.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright</td><td>Element `ValueSet.compose.include.copyright` has a context of ValueSet.compose.include based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.compose.include.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.compose.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.property</td><td>Element `ValueSet.compose.property` has a context of ValueSet.compose based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.compose.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Note that property names can clash, so using a URI is recommended.</td></tr><tr><td>ValueSet.expansion.next (next)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.next</td><td>Element `ValueSet.expansion.next` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.next` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Clients SHOULD use the next link, if present, to page through expansion results in preference to using the offset and count parameters. Due to the optional nature of the next link, its absence does not necessarily indicate that it is the last page of results. Instead, as the offset and count parameters SHALL be populated when paging, clients can reliably use the count/offset parameters to determine whether the whole expansion is returned.</td></tr><tr><td>ValueSet.expansion.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property</td><td>Element `ValueSet.expansion.property` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.property.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property:code</td><td>Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.
+Element `ValueSet.expansion.property.code` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.property.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.property.uri (uri)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property:uri</td><td>Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.
+Element `ValueSet.expansion.property.uri` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.property.uri` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.contains.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property</td><td>Element `ValueSet.expansion.contains.property` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.contains.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.contains.property.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:code</td><td>Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.
+Element `ValueSet.expansion.contains.property.code` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.contains.property.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.contains.property.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:value</td><td>Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.
+Element `ValueSet.expansion.contains.property.value[x]` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.contains.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.contains.property.subProperty (subProperty)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:subProperty</td><td>Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.
+Element `ValueSet.expansion.contains.property.subProperty` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.contains.property.subProperty` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.contains.property.subProperty.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property.subProperty:code</td><td>Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.
+Element `ValueSet.expansion.contains.property.subProperty.code` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.contains.property.subProperty.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.expansion.contains.property.subProperty.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property.subProperty:value</td><td>Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.
+Element `ValueSet.expansion.contains.property.subProperty.value[x]` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.expansion.contains.property.subProperty.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.scope (scope)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope</td><td>Element `ValueSet.scope` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.scope.inclusionCriteria (inclusionCriteria)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope:inclusionCriteria</td><td>Element `ValueSet.scope.inclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.
+Element `ValueSet.scope.inclusionCriteria` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.scope.inclusionCriteria` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ValueSet.scope.exclusionCriteria (exclusionCriteria)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope:exclusionCriteria</td><td>Element `ValueSet.scope.exclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.
+Element `ValueSet.scope.exclusionCriteria` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.
+Element `ValueSet.scope.exclusionCriteria` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ValueSet-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ValueSetElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 ValueSet to FHIR R4 ValueSet"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:53.6808517-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 ValueSet to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ValueSet"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/ValueSet"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="ValueSet.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="ValueSet.meta"/>
+        <display value="ValueSet.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.meta` is mapped to FHIR R4 element `ValueSet.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="ValueSet.implicitRules"/>
+        <display value="ValueSet.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.implicitRules` is mapped to FHIR R4 element `ValueSet.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ValueSet.language"/>
+        <display value="ValueSet.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.language` is mapped to FHIR R4 element `ValueSet.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.text"/>
+      <display value="text"/>
+      <target>
+        <code value="ValueSet.text"/>
+        <display value="ValueSet.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.text` is mapped to FHIR R4 element `ValueSet.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="ValueSet.contained"/>
+        <display value="ValueSet.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.contained` is mapped to FHIR R4 element `ValueSet.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.url"/>
+      <display value="url"/>
+      <target>
+        <code value="ValueSet.url"/>
+        <display value="ValueSet.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.url` is mapped to FHIR R4 element `ValueSet.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="ValueSet.identifier"/>
+        <display value="ValueSet.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.identifier` is mapped to FHIR R4 element `ValueSet.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this value set outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ValueSet.version"/>
+        <display value="ValueSet.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.version` is mapped to FHIR R4 element `ValueSet.version` as `Equivalent`.&#xA;There may be different value set instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the value set with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ValueSet.name"/>
+        <display value="ValueSet.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.name` is mapped to FHIR R4 element `ValueSet.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.A name should be provided unless the value set is a contained resource (e.g. an anonymous value set in a profile). Most registries will require a name."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ValueSet.title"/>
+        <display value="ValueSet.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.title` is mapped to FHIR R4 element `ValueSet.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.status"/>
+      <display value="status"/>
+      <target>
+        <code value="ValueSet.status"/>
+        <display value="ValueSet.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.status` is mapped to FHIR R4 element `ValueSet.status` as `Equivalent`.&#xA;Allows filtering of value sets that are appropriate for use versus not.See also the [http://hl7.org/fhir/StructureDefinition/valueset-workflowStatusDescription](http://hl7.org/fhir/extensions/StructureDefinition-valueset-workflowStatusDescription.html) extension for additional status information related to the editorial process.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="ValueSet.experimental"/>
+        <display value="ValueSet.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.experimental` is mapped to FHIR R4 element `ValueSet.experimental` as `Equivalent`.&#xA;Allows filtering of value sets that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.date"/>
+      <display value="date"/>
+      <target>
+        <code value="ValueSet.date"/>
+        <display value="ValueSet.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.date` is mapped to FHIR R4 element `ValueSet.date` as `Equivalent`.&#xA;Note that this is not the same as the meta.lastUpdated which is specific to an instance of a value set resource on a server.  Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="ValueSet.publisher"/>
+        <display value="ValueSet.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.publisher` is mapped to FHIR R4 element `ValueSet.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the value set. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="ValueSet.contact"/>
+        <display value="ValueSet.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.contact` is mapped to FHIR R4 element `ValueSet.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ValueSet.description"/>
+        <display value="ValueSet.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.description` is mapped to FHIR R4 element `ValueSet.description` as `Equivalent`.&#xA;Description SHOULD contain instructions for clinical or administrative use and interpretation and information about misuse. Description SHOULD be populated unless the information is available from context. Description SHOULD be populated unless the value set is a contained resource (e.g. a value set defined solely in the context of a profile)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="ValueSet.useContext"/>
+        <display value="ValueSet.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.useContext` is mapped to FHIR R4 element `ValueSet.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="ValueSet.jurisdiction"/>
+        <display value="ValueSet.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.jurisdiction` is mapped to FHIR R4 element `ValueSet.jurisdiction` as `Equivalent`.&#xA;Element `ValueSet.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the value set to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.immutable"/>
+      <display value="immutable"/>
+      <target>
+        <code value="ValueSet.immutable"/>
+        <display value="ValueSet.immutable"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.immutable` is mapped to FHIR R4 element `ValueSet.immutable` as `Equivalent`.&#xA;Normally immutability is set to 'false', which is the default assumption if it is not populated.  Note that the implication is that if this is set to 'true', there may be only one ValueSet version for this definition. Immutability tends to be set to 'true' in one of two cases: - Where the value set, by the nature of its usage, cannot change.  For example &quot;All specializations of ACT in ActClassCode&quot; - Where there's no safe way to express the &quot;Purpose&quot; such that someone else could safely make changes to the value set definition. Source workflow control must guarantee that the same URI always yields the same definition."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="ValueSet.purpose"/>
+        <display value="ValueSet.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.purpose` is mapped to FHIR R4 element `ValueSet.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the value set. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this value set."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="ValueSet.copyright"/>
+        <display value="ValueSet.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.copyright` is mapped to FHIR R4 element `ValueSet.copyright` as `Equivalent`.&#xA;Frequently, the copyright differs between the value set and the codes that are included. The copyright statement should clearly differentiate between these when required."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose"/>
+      <display value="compose"/>
+      <target>
+        <code value="ValueSet.compose"/>
+        <display value="ValueSet.compose"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose` is mapped to FHIR R4 element `ValueSet.compose` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.lockedDate"/>
+      <display value="lockedDate"/>
+      <target>
+        <code value="ValueSet.compose.lockedDate"/>
+        <display value="ValueSet.compose.lockedDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.lockedDate` is mapped to FHIR R4 element `ValueSet.compose.lockedDate` as `Equivalent`.&#xA;With a defined lockedDate the value set is considered &quot;Locked&quot;. Otherwise, the value set may have different expansions as underlying code systems and/or value sets evolve.  The interpretation of lockedDate is often dependent on the context - e.g. a SNOMED CT derived value set with a lockedDate will have a different expansion in USA than in UK.  If a value set specifies a version for include and exclude statements, and also specifies a locked date, the specified versions need to be available that date, or the value set will not be usable."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.inactive"/>
+      <display value="inactive"/>
+      <target>
+        <code value="ValueSet.compose.inactive"/>
+        <display value="ValueSet.compose.inactive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.inactive` is mapped to FHIR R4 element `ValueSet.compose.inactive` as `Equivalent`.&#xA;Note that in the FHIR terminology framework, &quot;deprecated&quot; does not mean inactive, but in some code systems, e.g. LOINC, &quot;deprecated&quot; does mean inactive. Code systems should define what codes are considered to be inactive. If this is not clearly defined (including in the FHIR code system resource), then all codes are assumed to be active.&#xA;&#xA;The Value Set Definition specification defines an ActiveOnly element, which is the reverse of this element e.g. (ValueSet.compose.inactive=FALSE) is the same as (VSD.ActiveOnly=TRUE)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include"/>
+      <display value="include"/>
+      <target>
+        <code value="ValueSet.compose.include"/>
+        <display value="ValueSet.compose.include"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include` is mapped to FHIR R4 element `ValueSet.compose.include` as `Equivalent`.&#xA;All the conditions in an include must be true. If a system is listed, all the codes from the system are listed. If one or more filters are listed, all of the filters must apply. If one or more value sets are listed, the codes must be in all the value sets. E.g. each include is 'include all the codes that meet all these conditions'."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.system"/>
+      <display value="system"/>
+      <target>
+        <code value="ValueSet.compose.include.system"/>
+        <display value="ValueSet.compose.include.system"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.system` is mapped to FHIR R4 element `ValueSet.compose.include.system` as `Equivalent`.&#xA;If there are no codes or filters, the entire code system is included. Note that the set of codes that are included may contain abstract codes. See ''Coding.system'' for further documentation about the correct value for the system element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ValueSet.compose.include.version"/>
+        <display value="ValueSet.compose.include.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.version` is mapped to FHIR R4 element `ValueSet.compose.include.version` as `Equivalent`.&#xA;This is used when selecting the descendants of a concept - they may change between versions. If no version is specified, then the exact contents of the value set might not be known until a context of use binds it to a particular version. The special value '*' means all versions; It is at server discretion regarding expansions and which versions must be supported."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept"/>
+      <display value="concept"/>
+      <target>
+        <code value="ValueSet.compose.include.concept"/>
+        <display value="ValueSet.compose.include.concept"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include.concept` is mapped to FHIR R4 element `ValueSet.compose.include.concept` as `Equivalent`.&#xA;The list of concepts is considered ordered, though the order might not have any particular significance. Typically, the order of an expansion follows that defined in the compose element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.code"/>
+      <display value="code"/>
+      <target>
+        <code value="ValueSet.compose.include.concept.code"/>
+        <display value="ValueSet.compose.include.concept.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.concept.code` is mapped to FHIR R4 element `ValueSet.compose.include.concept.code` as `Equivalent`.&#xA;Expressions are allowed if defined by the underlying code system."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.display"/>
+      <display value="display"/>
+      <target>
+        <code value="ValueSet.compose.include.concept.display"/>
+        <display value="ValueSet.compose.include.concept.display"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.concept.display` is mapped to FHIR R4 element `ValueSet.compose.include.concept.display` as `Equivalent`.&#xA;The value set resource allows for an alternative display to be specified for when this concept is used in this particular value set. See notes in the value set narrative about the correct use of this element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.designation"/>
+      <display value="designation"/>
+      <target>
+        <code value="ValueSet.compose.include.concept.designation"/>
+        <display value="ValueSet.compose.include.concept.designation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include.concept.designation` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation` as `Equivalent`.&#xA;Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of &quot;primary code&quot; and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.designation.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ValueSet.compose.include.concept.designation.language"/>
+        <display value="ValueSet.compose.include.concept.designation.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.concept.designation.language` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.language` as `Equivalent`.&#xA;In the absence of a language, the resource language applies."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.designation.use"/>
+      <display value="use"/>
+      <target>
+        <code value="ValueSet.compose.include.concept.designation.use"/>
+        <display value="ValueSet.compose.include.concept.designation.use"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.concept.designation.use` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.use` as `Equivalent`.&#xA;If no use is provided, the designation can be assumed to be suitable for general display to a human user."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.designation.value"/>
+      <display value="value"/>
+      <target>
+        <code value="ValueSet.compose.include.concept.designation.value"/>
+        <display value="ValueSet.compose.include.concept.designation.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.concept.designation.value` is mapped to FHIR R4 element `ValueSet.compose.include.concept.designation.value` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.filter"/>
+      <display value="filter"/>
+      <target>
+        <code value="ValueSet.compose.include.filter"/>
+        <display value="ValueSet.compose.include.filter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include.filter` is mapped to FHIR R4 element `ValueSet.compose.include.filter` as `Equivalent`.&#xA;Selecting codes by specifying filters based on properties is only possible where the underlying code system defines appropriate properties. Note that in some cases, the underlying code system defines the logical concepts but not the literal codes for the concepts. In such cases, the literal definitions may be provided by a third party."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.filter.property"/>
+      <display value="property"/>
+      <target>
+        <code value="ValueSet.compose.include.filter.property"/>
+        <display value="ValueSet.compose.include.filter.property"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.filter.property` is mapped to FHIR R4 element `ValueSet.compose.include.filter.property` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.filter.op"/>
+      <display value="op"/>
+      <target>
+        <code value="ValueSet.compose.include.filter.op"/>
+        <display value="ValueSet.compose.include.filter.op"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4 element `ValueSet.compose.include.filter.op` as `SourceIsBroaderThanTarget`.&#xA;In case filter.property represents a property of the system, the operation applies to the selected property. In case filter.property represents a filter of the system, the operation SHALL match one of the CodeSystem.filter.operator values."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.filter.value"/>
+      <display value="value"/>
+      <target>
+        <code value="ValueSet.compose.include.filter.value"/>
+        <display value="ValueSet.compose.include.filter.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.filter.value` is mapped to FHIR R4 element `ValueSet.compose.include.filter.value` as `Equivalent`.&#xA;Use regex matching with care - full regex matching on every SNOMED CT term is prohibitive, for example."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.valueSet"/>
+      <display value="valueSet"/>
+      <target>
+        <code value="ValueSet.compose.include.valueSet"/>
+        <display value="ValueSet.compose.include.valueSet"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.valueSet` is mapped to FHIR R4 element `ValueSet.compose.include.valueSet` as `Equivalent`.&#xA;The value set URI is either a logical reference to a defined value set such as a [SNOMED CT reference set](https://terminology.hl7.org/SNOMEDCT.html), or a direct reference to a value set definition using ValueSet.url. The reference might not refer to an actual FHIR ValueSet resource; in this case, whatever is referred to is an implicit definition of a value set that needs to be clear about how versions are resolved."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.exclude"/>
+      <display value="exclude"/>
+      <target>
+        <code value="ValueSet.compose.exclude"/>
+        <display value="ValueSet.compose.exclude"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.exclude` is mapped to FHIR R4 element `ValueSet.compose.exclude` as `Equivalent`.&#xA;Usually this is used to selectively exclude codes that were included by subsumption in the inclusions. Any display names specified for the codes are ignored."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion"/>
+      <display value="expansion"/>
+      <target>
+        <code value="ValueSet.expansion"/>
+        <display value="ValueSet.expansion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion` is mapped to FHIR R4 element `ValueSet.expansion` as `Equivalent`.&#xA;Expansion is performed to produce a collection of codes that are ready to use for data entry or validation. Value set expansions are always considered to be stateless - they are a record of the set of codes in the value set at a point in time under a given set of conditions, and are not subject to ongoing maintenance.&#xA;&#xA;Expansion.parameter is  a simplified list of parameters - a subset of the features of the [Parameters](https://hl7.org/fhir/parameters.html) resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="ValueSet.expansion.identifier"/>
+        <display value="ValueSet.expansion.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.identifier` is mapped to FHIR R4 element `ValueSet.expansion.identifier` as `Equivalent`.&#xA;Typically, this uri is a UUID (e.g. urn:uuid:8230ff20-c97a-4167-a59d-dc2cb9df16dd)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.timestamp"/>
+      <display value="timestamp"/>
+      <target>
+        <code value="ValueSet.expansion.timestamp"/>
+        <display value="ValueSet.expansion.timestamp"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.timestamp` is mapped to FHIR R4 element `ValueSet.expansion.timestamp` as `Equivalent`.&#xA;This SHOULD be a fully populated instant, but in some circumstances, value sets are expanded by hand, and the expansion is published without that precision."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.total"/>
+      <display value="total"/>
+      <target>
+        <code value="ValueSet.expansion.total"/>
+        <display value="ValueSet.expansion.total"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.total` is mapped to FHIR R4 element `ValueSet.expansion.total` as `Equivalent`.&#xA;Paging only applies to flat expansions."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.offset"/>
+      <display value="offset"/>
+      <target>
+        <code value="ValueSet.expansion.offset"/>
+        <display value="ValueSet.expansion.offset"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.offset` is mapped to FHIR R4 element `ValueSet.expansion.offset` as `Equivalent`.&#xA;Paging only applies to flat expansions. If a filter is applied, the count is the number of concepts that matched the filter, not the number of concepts in an unfiltered view of the expansion."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="ValueSet.expansion.parameter"/>
+        <display value="ValueSet.expansion.parameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.parameter` is mapped to FHIR R4 element `ValueSet.expansion.parameter` as `Equivalent`.&#xA;The server decides which parameters to include here, but at a minimum, the list SHOULD include all of the parameters that affect the $expand operation. If the expansion will be persisted all of these parameters SHALL be included. If the codeSystem on the server has a specified version then this version SHALL be provided as a parameter in the expansion (note that not all code systems have a version)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.parameter.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ValueSet.expansion.parameter.name"/>
+        <display value="ValueSet.expansion.parameter.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.parameter.name` is mapped to FHIR R4 element `ValueSet.expansion.parameter.name` as `Equivalent`.&#xA;The names are assigned at the discretion of the server."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.parameter.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="ValueSet.expansion.parameter.value[x]"/>
+        <display value="ValueSet.expansion.parameter.value[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.parameter.value[x]` is mapped to FHIR R4 element `ValueSet.expansion.parameter.value[x]` as `RelatedTo`.&#xA;The target context `ValueSet.expansion.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ValueSet.expansion.parameter`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains"/>
+      <display value="contains"/>
+      <target>
+        <code value="ValueSet.expansion.contains"/>
+        <display value="ValueSet.expansion.contains"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains` is mapped to FHIR R4 element `ValueSet.expansion.contains` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.system"/>
+      <display value="system"/>
+      <target>
+        <code value="ValueSet.expansion.contains.system"/>
+        <display value="ValueSet.expansion.contains.system"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.system` is mapped to FHIR R4 element `ValueSet.expansion.contains.system` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.abstract"/>
+      <display value="abstract"/>
+      <target>
+        <code value="ValueSet.expansion.contains.abstract"/>
+        <display value="ValueSet.expansion.contains.abstract"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.abstract` is mapped to FHIR R4 element `ValueSet.expansion.contains.abstract` as `Equivalent`.&#xA;This should not be understood to exclude its use for searching (e.g. by subsumption testing). The client should know whether it is appropriate for the user to select an abstract code or not."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.inactive"/>
+      <display value="inactive"/>
+      <target>
+        <code value="ValueSet.expansion.contains.inactive"/>
+        <display value="ValueSet.expansion.contains.inactive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.inactive` is mapped to FHIR R4 element `ValueSet.expansion.contains.inactive` as `Equivalent`.&#xA;This should only have a value if the concept is inactive."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ValueSet.expansion.contains.version"/>
+        <display value="ValueSet.expansion.contains.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.version` is mapped to FHIR R4 element `ValueSet.expansion.contains.version` as `Equivalent`.&#xA;The exact value of the version string is specified by the system from which the code is derived."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.code"/>
+      <display value="code"/>
+      <target>
+        <code value="ValueSet.expansion.contains.code"/>
+        <display value="ValueSet.expansion.contains.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.code` is mapped to FHIR R4 element `ValueSet.expansion.contains.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.display"/>
+      <display value="display"/>
+      <target>
+        <code value="ValueSet.expansion.contains.display"/>
+        <display value="ValueSet.expansion.contains.display"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.display` is mapped to FHIR R4 element `ValueSet.expansion.contains.display` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.designation"/>
+      <display value="designation"/>
+      <target>
+        <code value="ValueSet.expansion.contains.designation"/>
+        <display value="ValueSet.expansion.contains.designation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.designation` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation` as `Equivalent`.&#xA;The designations provided must be based on the value set and code system definitions."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.contains"/>
+      <display value="contains"/>
+      <target>
+        <code value="ValueSet.expansion.contains.contains"/>
+        <display value="ValueSet.expansion.contains.contains"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.expansion.contains.contains` is mapped to FHIR R4 element `ValueSet.expansion.contains.contains` as `Equivalent`.&#xA;If the expansion uses this element, there is  no implication about the logical relationship between them, and the  structure cannot be used for logical inferencing. The structure  exists to provide navigational assistance for helping human users to  locate codes in the expansion."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ValueSet"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="ValueSet.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.versionAlgorithm[x]` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.copyrightLabel` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.approvalDate"/>
+      <display value="approvalDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.approvalDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.approvalDate` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The 'date' element may be more recent than the approval date because of minor changes or editorial corrections.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.lastReviewDate"/>
+      <display value="lastReviewDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.lastReviewDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.lastReviewDate` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If specified, this date follows the original approval date.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.effectivePeriod"/>
+      <display value="effectivePeriod"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.effectivePeriod"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.effectivePeriod` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The effective period for a ValueSet determines when the content is applicable for usage and is independent of publication and review dates. For example, a valueset intended to be used for the year 2016 might be published in 2015.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.topic"/>
+      <display value="topic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.topic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.topic` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.topic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Element `ValueSet.topic` has been flagged as deprecated.&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'topic' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#topic and useContext.valueCodeableConcept indicating the topic)"/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.author"/>
+      <display value="author"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.author"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.author` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.editor"/>
+      <display value="editor"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.editor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.editor` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.reviewer"/>
+      <display value="reviewer"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.reviewer"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.reviewer` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.endorser"/>
+      <display value="endorser"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.endorser"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.endorser` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.relatedArtifact"/>
+      <display value="relatedArtifact"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.relatedArtifact"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.relatedArtifact` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Each related artifact is either an attachment, or a reference to another resource, but not both."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.concept.designation.additionalUse"/>
+      <display value="additionalUse"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.concept.designation.additionalUse"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include.concept.designation.additionalUse` has a context of ValueSet.compose.include.concept.designation based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.compose.include.concept.designation.additionalUse` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.filter.op"/>
+      <display value="op"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.filter.op"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4 element `ValueSet.compose.include.filter.op` as `SourceIsBroaderThanTarget`.&#xA;In case filter.property represents a property of the system, the operation applies to the selected property. In case filter.property represents a filter of the system, the operation SHALL match one of the CodeSystem.filter.operator values."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.include.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.include.copyright` has a context of ValueSet.compose.include based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.compose.include.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.compose.property"/>
+      <display value="property"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.property"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.compose.property` has a context of ValueSet.compose based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.compose.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Note that property names can clash, so using a URI is recommended."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.next"/>
+      <display value="next"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.next"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.next` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.next` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Clients SHOULD use the next link, if present, to page through expansion results in preference to using the offset and count parameters. Due to the optional nature of the next link, its absence does not necessarily indicate that it is the last page of results. Instead, as the offset and count parameters SHALL be populated when paging, clients can reliably use the count/offset parameters to determine whether the whole expansion is returned."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.property"/>
+      <display value="property"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.property` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.property.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property:code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.property.code` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.&#xA;Element `ValueSet.expansion.property.code` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.property.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.property.uri"/>
+      <display value="uri"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property:uri"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.property.uri` is part of an existing definition because parent element `ValueSet.expansion.property` requires a cross-version extension.&#xA;Element `ValueSet.expansion.property.uri` has a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.property.uri` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.property"/>
+      <display value="property"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains.property` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.contains.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.property.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains.property.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.&#xA;Element `ValueSet.expansion.contains.property.code` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.contains.property.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.property.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains.property.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.&#xA;Element `ValueSet.expansion.contains.property.value[x]` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.contains.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.property.subProperty"/>
+      <display value="subProperty"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property:subProperty"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains.property.subProperty` is part of an existing definition because parent element `ValueSet.expansion.contains.property` requires a cross-version extension.&#xA;Element `ValueSet.expansion.contains.property.subProperty` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.contains.property.subProperty` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.property.subProperty.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property.subProperty:code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains.property.subProperty.code` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.&#xA;Element `ValueSet.expansion.contains.property.subProperty.code` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.contains.property.subProperty.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.expansion.contains.property.subProperty.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property.subProperty:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.expansion.contains.property.subProperty.value[x]` is part of an existing definition because parent element `ValueSet.expansion.contains.property.subProperty` requires a cross-version extension.&#xA;Element `ValueSet.expansion.contains.property.subProperty.value[x]` has a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.expansion.contains.property.subProperty.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.scope"/>
+      <display value="scope"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.scope` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.scope.inclusionCriteria"/>
+      <display value="inclusionCriteria"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope:inclusionCriteria"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.scope.inclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.&#xA;Element `ValueSet.scope.inclusionCriteria` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.scope.inclusionCriteria` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ValueSet.scope.exclusionCriteria"/>
+      <display value="exclusionCriteria"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope:exclusionCriteria"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ValueSet.scope.exclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.&#xA;Element `ValueSet.scope.exclusionCriteria` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.&#xA;Element `ValueSet.scope.exclusionCriteria` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

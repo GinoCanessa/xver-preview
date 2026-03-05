@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-StructureMap-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-StructureMap-element-map-to-R4</b></p><a name="R5-StructureMap-element-map-to-R4"> </a><a name="hcR5-StructureMap-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureMap|5.0.0</code> to <a href="http://hl7.org/fhir/R4/structuremap.html">StructureMapversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureMap.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.meta</td><td>Element `StructureMap.meta` is mapped to FHIR R4 element `StructureMap.meta` as `Equivalent`.</td></tr><tr><td>StructureMap.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.implicitRules</td><td>Element `StructureMap.implicitRules` is mapped to FHIR R4 element `StructureMap.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>StructureMap.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.language</td><td>Element `StructureMap.language` is mapped to FHIR R4 element `StructureMap.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>StructureMap.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.text</td><td>Element `StructureMap.text` is mapped to FHIR R4 element `StructureMap.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>StructureMap.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.contained</td><td>Element `StructureMap.contained` is mapped to FHIR R4 element `StructureMap.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>StructureMap.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.url</td><td>Element `StructureMap.url` is mapped to FHIR R4 element `StructureMap.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>StructureMap.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.identifier</td><td>Element `StructureMap.identifier` is mapped to FHIR R4 element `StructureMap.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this structure map outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>StructureMap.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.version</td><td>Element `StructureMap.version` is mapped to FHIR R4 element `StructureMap.version` as `Equivalent`.
+There may be different structure map instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the structure map with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>StructureMap.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.name</td><td>Element `StructureMap.name` is mapped to FHIR R4 element `StructureMap.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>StructureMap.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.title</td><td>Element `StructureMap.title` is mapped to FHIR R4 element `StructureMap.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>StructureMap.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.status</td><td>Element `StructureMap.status` is mapped to FHIR R4 element `StructureMap.status` as `Equivalent`.
+Allows filtering of structure maps that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>StructureMap.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.experimental</td><td>Element `StructureMap.experimental` is mapped to FHIR R4 element `StructureMap.experimental` as `Equivalent`.
+Allows filtering of structure maps that are appropriate for use versus not.</td></tr><tr><td>StructureMap.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.date</td><td>Element `StructureMap.date` is mapped to FHIR R4 element `StructureMap.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the structure map. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>StructureMap.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.publisher</td><td>Element `StructureMap.publisher` is mapped to FHIR R4 element `StructureMap.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the structure map is the organization or individual primarily responsible for the maintenance and upkeep of the structure map. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the structure map. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>StructureMap.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.contact</td><td>Element `StructureMap.contact` is mapped to FHIR R4 element `StructureMap.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>StructureMap.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.description</td><td>Element `StructureMap.description` is mapped to FHIR R4 element `StructureMap.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the structure map as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the structure map is presumed to be the predominant language in the place the structure map was created).</td></tr><tr><td>StructureMap.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.useContext</td><td>Element `StructureMap.useContext` is mapped to FHIR R4 element `StructureMap.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>StructureMap.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.jurisdiction</td><td>Element `StructureMap.jurisdiction` is mapped to FHIR R4 element `StructureMap.jurisdiction` as `Equivalent`.
+Element `StructureMap.jurisdiction` has been flagged as deprecated.
+It may be possible for the structure map to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>StructureMap.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.purpose</td><td>Element `StructureMap.purpose` is mapped to FHIR R4 element `StructureMap.purpose` as `Equivalent`.
+This element does not describe the usage of the structure map. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this structure map.</td></tr><tr><td>StructureMap.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.copyright</td><td>Element `StructureMap.copyright` is mapped to FHIR R4 element `StructureMap.copyright` as `Equivalent`.
+...</td></tr><tr><td>StructureMap.structure (structure)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.structure</td><td>Element `StructureMap.structure` is mapped to FHIR R4 element `StructureMap.structure` as `Equivalent`.
+It is not necessary for a structure map to identify any dependent structures, though not listing them may restrict its usefulness.</td></tr><tr><td>StructureMap.structure.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.structure.url</td><td>Element `StructureMap.structure.url` is mapped to FHIR R4 element `StructureMap.structure.url` as `Equivalent`.</td></tr><tr><td>StructureMap.structure.mode (mode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.structure.mode</td><td>Element `StructureMap.structure.mode` is mapped to FHIR R4 element `StructureMap.structure.mode` as `Equivalent`.</td></tr><tr><td>StructureMap.structure.alias (alias)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.structure.alias</td><td>Element `StructureMap.structure.alias` is mapped to FHIR R4 element `StructureMap.structure.alias` as `Equivalent`.
+This is needed if both types have the same name (e.g. version conversion).</td></tr><tr><td>StructureMap.structure.documentation (documentation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.structure.documentation</td><td>Element `StructureMap.structure.documentation` is mapped to FHIR R4 element `StructureMap.structure.documentation` as `Equivalent`.</td></tr><tr><td>StructureMap.import (import)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.import</td><td>Element `StructureMap.import` is mapped to FHIR R4 element `StructureMap.import` as `Equivalent`.</td></tr><tr><td>StructureMap.group (group)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group</td><td>Element `StructureMap.group` is mapped to FHIR R4 element `StructureMap.group` as `Equivalent`.</td></tr><tr><td>StructureMap.group.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.name</td><td>Element `StructureMap.group.name` is mapped to FHIR R4 element `StructureMap.group.name` as `Equivalent`.</td></tr><tr><td>StructureMap.group.extends (extends)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.extends</td><td>Element `StructureMap.group.extends` is mapped to FHIR R4 element `StructureMap.group.extends` as `Equivalent`.</td></tr><tr><td>StructureMap.group.typeMode (typeMode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.typeMode</td><td>Element `StructureMap.group.typeMode` is mapped to FHIR R4 element `StructureMap.group.typeMode` as `SourceIsNarrowerThanTarget`.
+The mappings for `StructureMap.group.typeMode` do not allow expression of the necessary codes, per the bindings on the source and target.
+Not applicable if the underlying model is untyped. There can only be one default mapping for any particular type combination.</td></tr><tr><td>StructureMap.group.documentation (documentation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.documentation</td><td>Element `StructureMap.group.documentation` is mapped to FHIR R4 element `StructureMap.group.documentation` as `Equivalent`.</td></tr><tr><td>StructureMap.group.input (input)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.input</td><td>Element `StructureMap.group.input` is mapped to FHIR R4 element `StructureMap.group.input` as `Equivalent`.
+If no inputs are named, then the entry mappings are type based.</td></tr><tr><td>StructureMap.group.input.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.input.name</td><td>Element `StructureMap.group.input.name` is mapped to FHIR R4 element `StructureMap.group.input.name` as `Equivalent`.</td></tr><tr><td>StructureMap.group.input.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.input.type</td><td>Element `StructureMap.group.input.type` is mapped to FHIR R4 element `StructureMap.group.input.type` as `Equivalent`.</td></tr><tr><td>StructureMap.group.input.mode (mode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.input.mode</td><td>Element `StructureMap.group.input.mode` is mapped to FHIR R4 element `StructureMap.group.input.mode` as `Equivalent`.</td></tr><tr><td>StructureMap.group.input.documentation (documentation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.input.documentation</td><td>Element `StructureMap.group.input.documentation` is mapped to FHIR R4 element `StructureMap.group.input.documentation` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule (rule)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.rule</td><td>Element `StructureMap.group.rule` is mapped to FHIR R4 element `StructureMap.group.rule` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.name</td><td>Element `StructureMap.group.rule.name` is mapped to FHIR R4 element `StructureMap.group.rule.name` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source (source)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.rule.source</td><td>Element `StructureMap.group.rule.source` is mapped to FHIR R4 element `StructureMap.group.rule.source` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.context (context)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.context</td><td>Element `StructureMap.group.rule.source.context` is mapped to FHIR R4 element `StructureMap.group.rule.source.context` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.min (min)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.min</td><td>Element `StructureMap.group.rule.source.min` is mapped to FHIR R4 element `StructureMap.group.rule.source.min` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.max (max)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.max</td><td>Element `StructureMap.group.rule.source.max` is mapped to FHIR R4 element `StructureMap.group.rule.source.max` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.type</td><td>Element `StructureMap.group.rule.source.type` is mapped to FHIR R4 element `StructureMap.group.rule.source.type` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.defaultValue (defaultValue)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.defaultValue[x]</td><td>Element `StructureMap.group.rule.source.defaultValue` is mapped to FHIR R4 element `StructureMap.group.rule.source.defaultValue[x]` as `RelatedTo`.
+The target context `StructureMap.group.rule.source.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.source`.
+If there's a default value on an item that can repeat, it will only be used once.</td></tr><tr><td>StructureMap.group.rule.source.element (element)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.element</td><td>Element `StructureMap.group.rule.source.element` is mapped to FHIR R4 element `StructureMap.group.rule.source.element` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.listMode (listMode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.listMode</td><td>Element `StructureMap.group.rule.source.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.source.listMode` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.variable (variable)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.variable</td><td>Element `StructureMap.group.rule.source.variable` is mapped to FHIR R4 element `StructureMap.group.rule.source.variable` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.condition (condition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.condition</td><td>Element `StructureMap.group.rule.source.condition` is mapped to FHIR R4 element `StructureMap.group.rule.source.condition` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.check (check)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.check</td><td>Element `StructureMap.group.rule.source.check` is mapped to FHIR R4 element `StructureMap.group.rule.source.check` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.source.logMessage (logMessage)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.source.logMessage</td><td>Element `StructureMap.group.rule.source.logMessage` is mapped to FHIR R4 element `StructureMap.group.rule.source.logMessage` as `Equivalent`.
+This is typically used for recording that something Is not transformed to the target for some reason.</td></tr><tr><td>StructureMap.group.rule.target (target)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.rule.target</td><td>Element `StructureMap.group.rule.target` is mapped to FHIR R4 element `StructureMap.group.rule.target` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.context (context)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.target.context</td><td>Element `StructureMap.group.rule.target.context` is mapped to FHIR R4 element `StructureMap.group.rule.target.context` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>StructureMap.group.rule.target.element (element)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.target.element</td><td>Element `StructureMap.group.rule.target.element` is mapped to FHIR R4 element `StructureMap.group.rule.target.element` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.variable (variable)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.target.variable</td><td>Element `StructureMap.group.rule.target.variable` is mapped to FHIR R4 element `StructureMap.group.rule.target.variable` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.listMode (listMode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.target.listMode</td><td>Element `StructureMap.group.rule.target.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.target.listMode` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.listRuleId (listRuleId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.target.listRuleId</td><td>Element `StructureMap.group.rule.target.listRuleId` is mapped to FHIR R4 element `StructureMap.group.rule.target.listRuleId` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.transform (transform)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.target.transform</td><td>Element `StructureMap.group.rule.target.transform` is mapped to FHIR R4 element `StructureMap.group.rule.target.transform` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.rule.target.parameter</td><td>Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.target.parameter.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.rule.target.parameter.value[x]</td><td>Element `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`.
+The mappings for `StructureMap.group.rule.target.parameter.value[x]` do not cover the following types: date, dateTime, time.
+The target context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.</td></tr><tr><td>StructureMap.group.rule.rule (rule)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.rule</td><td>Element `StructureMap.group.rule.rule` is mapped to FHIR R4 element `StructureMap.group.rule.rule` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.dependent (dependent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureMap.group.rule.dependent</td><td>Element `StructureMap.group.rule.dependent` is mapped to FHIR R4 element `StructureMap.group.rule.dependent` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.dependent.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.dependent.name</td><td>Element `StructureMap.group.rule.dependent.name` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.name` as `Equivalent`.</td></tr><tr><td>StructureMap.group.rule.dependent.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#narrower" title="narrower">narrower</a></td><td>StructureMap.group.rule.dependent.variable</td><td>Element `StructureMap.group.rule.dependent.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.variable` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td>StructureMap.group.rule.documentation (documentation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureMap.group.rule.documentation</td><td>Element `StructureMap.group.rule.documentation` is mapped to FHIR R4 element `StructureMap.group.rule.documentation` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureMap|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureMap.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.versionAlgorithm</td><td>Element `StructureMap.versionAlgorithm[x]` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.
+Element `StructureMap.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>StructureMap.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.copyrightLabel</td><td>Element `StructureMap.copyrightLabel` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.
+Element `StructureMap.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>StructureMap.const (const)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const</td><td>Element `StructureMap.const` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.
+Element `StructureMap.const` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>StructureMap.const.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const:name</td><td>Element `StructureMap.const.name` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.
+Element `StructureMap.const.name` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.
+Element `StructureMap.const.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>StructureMap.const.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const:value</td><td>Element `StructureMap.const.value` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.
+Element `StructureMap.const.value` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.
+Element `StructureMap.const.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>StructureMap.group.rule.target.parameter.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.target.parameter.value</td><td>Element `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`.
+The mappings for `StructureMap.group.rule.target.parameter.value[x]` do not cover the following types: date, dateTime, time.
+The target context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-StructureMap-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5StructureMapElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 StructureMap to FHIR R4 StructureMap"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6541432-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 StructureMap to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/StructureMap"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/StructureMap"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="StructureMap.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="StructureMap.meta"/>
+        <display value="StructureMap.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.meta` is mapped to FHIR R4 element `StructureMap.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="StructureMap.implicitRules"/>
+        <display value="StructureMap.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.implicitRules` is mapped to FHIR R4 element `StructureMap.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.language"/>
+      <display value="language"/>
+      <target>
+        <code value="StructureMap.language"/>
+        <display value="StructureMap.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.language` is mapped to FHIR R4 element `StructureMap.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.text"/>
+      <display value="text"/>
+      <target>
+        <code value="StructureMap.text"/>
+        <display value="StructureMap.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.text` is mapped to FHIR R4 element `StructureMap.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="StructureMap.contained"/>
+        <display value="StructureMap.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.contained` is mapped to FHIR R4 element `StructureMap.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.url"/>
+      <display value="url"/>
+      <target>
+        <code value="StructureMap.url"/>
+        <display value="StructureMap.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.url` is mapped to FHIR R4 element `StructureMap.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="StructureMap.identifier"/>
+        <display value="StructureMap.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.identifier` is mapped to FHIR R4 element `StructureMap.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this structure map outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.version"/>
+      <display value="version"/>
+      <target>
+        <code value="StructureMap.version"/>
+        <display value="StructureMap.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.version` is mapped to FHIR R4 element `StructureMap.version` as `Equivalent`.&#xA;There may be different structure map instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the structure map with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureMap.name"/>
+        <display value="StructureMap.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.name` is mapped to FHIR R4 element `StructureMap.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.title"/>
+      <display value="title"/>
+      <target>
+        <code value="StructureMap.title"/>
+        <display value="StructureMap.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.title` is mapped to FHIR R4 element `StructureMap.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.status"/>
+      <display value="status"/>
+      <target>
+        <code value="StructureMap.status"/>
+        <display value="StructureMap.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.status` is mapped to FHIR R4 element `StructureMap.status` as `Equivalent`.&#xA;Allows filtering of structure maps that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="StructureMap.experimental"/>
+        <display value="StructureMap.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.experimental` is mapped to FHIR R4 element `StructureMap.experimental` as `Equivalent`.&#xA;Allows filtering of structure maps that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.date"/>
+      <display value="date"/>
+      <target>
+        <code value="StructureMap.date"/>
+        <display value="StructureMap.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.date` is mapped to FHIR R4 element `StructureMap.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the structure map. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="StructureMap.publisher"/>
+        <display value="StructureMap.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.publisher` is mapped to FHIR R4 element `StructureMap.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the structure map is the organization or individual primarily responsible for the maintenance and upkeep of the structure map. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the structure map. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="StructureMap.contact"/>
+        <display value="StructureMap.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.contact` is mapped to FHIR R4 element `StructureMap.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.description"/>
+      <display value="description"/>
+      <target>
+        <code value="StructureMap.description"/>
+        <display value="StructureMap.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.description` is mapped to FHIR R4 element `StructureMap.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the structure map as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the structure map is presumed to be the predominant language in the place the structure map was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="StructureMap.useContext"/>
+        <display value="StructureMap.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.useContext` is mapped to FHIR R4 element `StructureMap.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="StructureMap.jurisdiction"/>
+        <display value="StructureMap.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.jurisdiction` is mapped to FHIR R4 element `StructureMap.jurisdiction` as `Equivalent`.&#xA;Element `StructureMap.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the structure map to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="StructureMap.purpose"/>
+        <display value="StructureMap.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.purpose` is mapped to FHIR R4 element `StructureMap.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the structure map. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this structure map."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="StructureMap.copyright"/>
+        <display value="StructureMap.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.copyright` is mapped to FHIR R4 element `StructureMap.copyright` as `Equivalent`.&#xA;..."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.structure"/>
+      <display value="structure"/>
+      <target>
+        <code value="StructureMap.structure"/>
+        <display value="StructureMap.structure"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.structure` is mapped to FHIR R4 element `StructureMap.structure` as `Equivalent`.&#xA;It is not necessary for a structure map to identify any dependent structures, though not listing them may restrict its usefulness."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.structure.url"/>
+      <display value="url"/>
+      <target>
+        <code value="StructureMap.structure.url"/>
+        <display value="StructureMap.structure.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.structure.url` is mapped to FHIR R4 element `StructureMap.structure.url` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.structure.mode"/>
+      <display value="mode"/>
+      <target>
+        <code value="StructureMap.structure.mode"/>
+        <display value="StructureMap.structure.mode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.structure.mode` is mapped to FHIR R4 element `StructureMap.structure.mode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.structure.alias"/>
+      <display value="alias"/>
+      <target>
+        <code value="StructureMap.structure.alias"/>
+        <display value="StructureMap.structure.alias"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.structure.alias` is mapped to FHIR R4 element `StructureMap.structure.alias` as `Equivalent`.&#xA;This is needed if both types have the same name (e.g. version conversion)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.structure.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="StructureMap.structure.documentation"/>
+        <display value="StructureMap.structure.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.structure.documentation` is mapped to FHIR R4 element `StructureMap.structure.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.import"/>
+      <display value="import"/>
+      <target>
+        <code value="StructureMap.import"/>
+        <display value="StructureMap.import"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.import` is mapped to FHIR R4 element `StructureMap.import` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group"/>
+      <display value="group"/>
+      <target>
+        <code value="StructureMap.group"/>
+        <display value="StructureMap.group"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group` is mapped to FHIR R4 element `StructureMap.group` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureMap.group.name"/>
+        <display value="StructureMap.group.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.name` is mapped to FHIR R4 element `StructureMap.group.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.extends"/>
+      <display value="extends"/>
+      <target>
+        <code value="StructureMap.group.extends"/>
+        <display value="StructureMap.group.extends"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.extends` is mapped to FHIR R4 element `StructureMap.group.extends` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.typeMode"/>
+      <display value="typeMode"/>
+      <target>
+        <code value="StructureMap.group.typeMode"/>
+        <display value="StructureMap.group.typeMode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.typeMode` is mapped to FHIR R4 element `StructureMap.group.typeMode` as `SourceIsNarrowerThanTarget`.&#xA;The mappings for `StructureMap.group.typeMode` do not allow expression of the necessary codes, per the bindings on the source and target.&#xA;Not applicable if the underlying model is untyped. There can only be one default mapping for any particular type combination."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="StructureMap.group.documentation"/>
+        <display value="StructureMap.group.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.documentation` is mapped to FHIR R4 element `StructureMap.group.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.input"/>
+      <display value="input"/>
+      <target>
+        <code value="StructureMap.group.input"/>
+        <display value="StructureMap.group.input"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.input` is mapped to FHIR R4 element `StructureMap.group.input` as `Equivalent`.&#xA;If no inputs are named, then the entry mappings are type based."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.input.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureMap.group.input.name"/>
+        <display value="StructureMap.group.input.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.input.name` is mapped to FHIR R4 element `StructureMap.group.input.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.input.type"/>
+      <display value="type"/>
+      <target>
+        <code value="StructureMap.group.input.type"/>
+        <display value="StructureMap.group.input.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.input.type` is mapped to FHIR R4 element `StructureMap.group.input.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.input.mode"/>
+      <display value="mode"/>
+      <target>
+        <code value="StructureMap.group.input.mode"/>
+        <display value="StructureMap.group.input.mode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.input.mode` is mapped to FHIR R4 element `StructureMap.group.input.mode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.input.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="StructureMap.group.input.documentation"/>
+        <display value="StructureMap.group.input.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.input.documentation` is mapped to FHIR R4 element `StructureMap.group.input.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule"/>
+      <display value="rule"/>
+      <target>
+        <code value="StructureMap.group.rule"/>
+        <display value="StructureMap.group.rule"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.rule` is mapped to FHIR R4 element `StructureMap.group.rule` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureMap.group.rule.name"/>
+        <display value="StructureMap.group.rule.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.name` is mapped to FHIR R4 element `StructureMap.group.rule.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source"/>
+      <display value="source"/>
+      <target>
+        <code value="StructureMap.group.rule.source"/>
+        <display value="StructureMap.group.rule.source"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.rule.source` is mapped to FHIR R4 element `StructureMap.group.rule.source` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.context"/>
+      <display value="context"/>
+      <target>
+        <code value="StructureMap.group.rule.source.context"/>
+        <display value="StructureMap.group.rule.source.context"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.context` is mapped to FHIR R4 element `StructureMap.group.rule.source.context` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.min"/>
+      <display value="min"/>
+      <target>
+        <code value="StructureMap.group.rule.source.min"/>
+        <display value="StructureMap.group.rule.source.min"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.min` is mapped to FHIR R4 element `StructureMap.group.rule.source.min` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.max"/>
+      <display value="max"/>
+      <target>
+        <code value="StructureMap.group.rule.source.max"/>
+        <display value="StructureMap.group.rule.source.max"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.max` is mapped to FHIR R4 element `StructureMap.group.rule.source.max` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.type"/>
+      <display value="type"/>
+      <target>
+        <code value="StructureMap.group.rule.source.type"/>
+        <display value="StructureMap.group.rule.source.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.type` is mapped to FHIR R4 element `StructureMap.group.rule.source.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.defaultValue"/>
+      <display value="defaultValue"/>
+      <target>
+        <code value="StructureMap.group.rule.source.defaultValue[x]"/>
+        <display value="StructureMap.group.rule.source.defaultValue[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.defaultValue` is mapped to FHIR R4 element `StructureMap.group.rule.source.defaultValue[x]` as `RelatedTo`.&#xA;The target context `StructureMap.group.rule.source.defaultValue[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.source`.&#xA;If there's a default value on an item that can repeat, it will only be used once."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.element"/>
+      <display value="element"/>
+      <target>
+        <code value="StructureMap.group.rule.source.element"/>
+        <display value="StructureMap.group.rule.source.element"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.element` is mapped to FHIR R4 element `StructureMap.group.rule.source.element` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.listMode"/>
+      <display value="listMode"/>
+      <target>
+        <code value="StructureMap.group.rule.source.listMode"/>
+        <display value="StructureMap.group.rule.source.listMode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.source.listMode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.variable"/>
+      <display value="variable"/>
+      <target>
+        <code value="StructureMap.group.rule.source.variable"/>
+        <display value="StructureMap.group.rule.source.variable"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.variable` is mapped to FHIR R4 element `StructureMap.group.rule.source.variable` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.condition"/>
+      <display value="condition"/>
+      <target>
+        <code value="StructureMap.group.rule.source.condition"/>
+        <display value="StructureMap.group.rule.source.condition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.condition` is mapped to FHIR R4 element `StructureMap.group.rule.source.condition` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.check"/>
+      <display value="check"/>
+      <target>
+        <code value="StructureMap.group.rule.source.check"/>
+        <display value="StructureMap.group.rule.source.check"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.check` is mapped to FHIR R4 element `StructureMap.group.rule.source.check` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.source.logMessage"/>
+      <display value="logMessage"/>
+      <target>
+        <code value="StructureMap.group.rule.source.logMessage"/>
+        <display value="StructureMap.group.rule.source.logMessage"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.source.logMessage` is mapped to FHIR R4 element `StructureMap.group.rule.source.logMessage` as `Equivalent`.&#xA;This is typically used for recording that something Is not transformed to the target for some reason."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target"/>
+      <display value="target"/>
+      <target>
+        <code value="StructureMap.group.rule.target"/>
+        <display value="StructureMap.group.rule.target"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.rule.target` is mapped to FHIR R4 element `StructureMap.group.rule.target` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.context"/>
+      <display value="context"/>
+      <target>
+        <code value="StructureMap.group.rule.target.context"/>
+        <display value="StructureMap.group.rule.target.context"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.context` is mapped to FHIR R4 element `StructureMap.group.rule.target.context` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.element"/>
+      <display value="element"/>
+      <target>
+        <code value="StructureMap.group.rule.target.element"/>
+        <display value="StructureMap.group.rule.target.element"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.element` is mapped to FHIR R4 element `StructureMap.group.rule.target.element` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.variable"/>
+      <display value="variable"/>
+      <target>
+        <code value="StructureMap.group.rule.target.variable"/>
+        <display value="StructureMap.group.rule.target.variable"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.variable` is mapped to FHIR R4 element `StructureMap.group.rule.target.variable` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.listMode"/>
+      <display value="listMode"/>
+      <target>
+        <code value="StructureMap.group.rule.target.listMode"/>
+        <display value="StructureMap.group.rule.target.listMode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.listMode` is mapped to FHIR R4 element `StructureMap.group.rule.target.listMode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.listRuleId"/>
+      <display value="listRuleId"/>
+      <target>
+        <code value="StructureMap.group.rule.target.listRuleId"/>
+        <display value="StructureMap.group.rule.target.listRuleId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.listRuleId` is mapped to FHIR R4 element `StructureMap.group.rule.target.listRuleId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.transform"/>
+      <display value="transform"/>
+      <target>
+        <code value="StructureMap.group.rule.target.transform"/>
+        <display value="StructureMap.group.rule.target.transform"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.transform` is mapped to FHIR R4 element `StructureMap.group.rule.target.transform` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="StructureMap.group.rule.target.parameter"/>
+        <display value="StructureMap.group.rule.target.parameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.parameter.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="StructureMap.group.rule.target.parameter.value[x]"/>
+        <display value="StructureMap.group.rule.target.parameter.value[x]"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`.&#xA;The mappings for `StructureMap.group.rule.target.parameter.value[x]` do not cover the following types: date, dateTime, time.&#xA;The target context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.rule"/>
+      <display value="rule"/>
+      <target>
+        <code value="StructureMap.group.rule.rule"/>
+        <display value="StructureMap.group.rule.rule"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.rule` is mapped to FHIR R4 element `StructureMap.group.rule.rule` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.dependent"/>
+      <display value="dependent"/>
+      <target>
+        <code value="StructureMap.group.rule.dependent"/>
+        <display value="StructureMap.group.rule.dependent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.group.rule.dependent` is mapped to FHIR R4 element `StructureMap.group.rule.dependent` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.dependent.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureMap.group.rule.dependent.name"/>
+        <display value="StructureMap.group.rule.dependent.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.dependent.name` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.dependent.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="StructureMap.group.rule.dependent.variable"/>
+        <display value="StructureMap.group.rule.dependent.variable"/>
+        <equivalence value="narrower"/>
+        <comment value="Element `StructureMap.group.rule.dependent.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.variable` as `SourceIsNarrowerThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="StructureMap.group.rule.documentation"/>
+        <display value="StructureMap.group.rule.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.documentation` is mapped to FHIR R4 element `StructureMap.group.rule.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/StructureMap"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="StructureMap.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.versionAlgorithm[x]` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.&#xA;Element `StructureMap.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.copyrightLabel` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.&#xA;Element `StructureMap.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.const"/>
+      <display value="const"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.const` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.&#xA;Element `StructureMap.const` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.const.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const:name"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.const.name` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.&#xA;Element `StructureMap.const.name` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.&#xA;Element `StructureMap.const.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.const.value"/>
+      <display value="value"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureMap.const.value` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.&#xA;Element `StructureMap.const.value` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.&#xA;Element `StructureMap.const.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureMap.group.rule.target.parameter.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.target.parameter.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureMap.group.rule.target.parameter.value[x]` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter.value[x]` as `RelatedTo`.&#xA;The mappings for `StructureMap.group.rule.target.parameter.value[x]` do not cover the following types: date, dateTime, time.&#xA;The target context `StructureMap.group.rule.target.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `StructureMap.group.rule.target.parameter`."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

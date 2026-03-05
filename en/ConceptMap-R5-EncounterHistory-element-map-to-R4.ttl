@@ -1,0 +1,329 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-EncounterHistory-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-EncounterHistory-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-EncounterHistory-element-map-to-R4</b></p><a name=\"R5-EncounterHistory-element-map-to-R4\"> </a><a name=\"hcR5-EncounterHistory-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EncounterHistory|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/encounter.html\">Encounterversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>EncounterHistory.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.meta</td><td>Element `EncounterHistory.meta` is mapped to FHIR R4 element `Encounter.meta` as `Equivalent`.</td></tr><tr><td>EncounterHistory.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.implicitRules</td><td>Element `EncounterHistory.implicitRules` is mapped to FHIR R4 element `Encounter.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>EncounterHistory.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.language</td><td>Element `EncounterHistory.language` is mapped to FHIR R4 element `Encounter.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>EncounterHistory.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.text</td><td>Element `EncounterHistory.text` is mapped to FHIR R4 element `Encounter.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>EncounterHistory.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.contained</td><td>Element `EncounterHistory.contained` is mapped to FHIR R4 element `Encounter.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>EncounterHistory.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.identifier</td><td>Element `EncounterHistory.identifier` is mapped to FHIR R4 element `Encounter.identifier` as `Equivalent`.</td></tr><tr><td>EncounterHistory.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Encounter.status</td><td>Element `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.\nThe target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nNote that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes).</td></tr><tr><td>EncounterHistory.class (class)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Encounter.class</td><td>Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.class` do not cover the following types: CodeableConcept.\nThe mappings for `EncounterHistory.class` do not cover the following types based on type expansion: text.</td></tr><tr><td>EncounterHistory.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.type</td><td>Element `EncounterHistory.type` is mapped to FHIR R4 element `Encounter.type` as `Equivalent`.\nSince there are many ways to further classify encounters, this element is 0..*.</td></tr><tr><td>EncounterHistory.serviceType (serviceType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Encounter.serviceType</td><td>Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types: CodeableReference.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td>EncounterHistory.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.subject</td><td>Element `EncounterHistory.subject` is mapped to FHIR R4 element `Encounter.subject` as `Equivalent`.\nWhile the encounter is always about the patient, the patient might not actually be known in all contexts of use, and there may be a group of patients that could be anonymous (such as in a group therapy for Alcoholics Anonymous - where the recording of the encounter could be used for billing on the number of people/staff and not important to the context of the specific patients) or alternately in veterinary care a herd of sheep receiving treatment (where the animals are not individually tracked).</td></tr><tr><td>EncounterHistory.length (length)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.length</td><td>Element `EncounterHistory.length` is mapped to FHIR R4 element `Encounter.length` as `Equivalent`.\nIf the precision on these values is low (e.g. to the day only) then this may be considered was an all day (or multi-day) encounter, unless the duration is included, where that amount of time occurred sometime during the interval.#xD;#xD;May differ from the time in `Encounter.period` due to leave of absence(s).</td></tr><tr><td>EncounterHistory.location (location)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Encounter.location</td><td>Element `EncounterHistory.location` is mapped to FHIR R4 element `Encounter.location` as `Equivalent`.\nVirtual encounters can be recorded in the Encounter by specifying a location reference to a location of type \"kind\" such as \"client's home\" and an encounter.class = \"virtual\".</td></tr><tr><td>EncounterHistory.location.location (location)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Encounter.location.location</td><td>Element `EncounterHistory.location.location` is mapped to FHIR R4 element `Encounter.location.location` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EncounterHistory|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>EncounterHistory.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.encounter</td><td>Element `EncounterHistory.encounter` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis is also used for associating a child's encounter back to the mother's encounter.#xD;#xD;Refer to the Notes section in the Patient resource for further details.</td></tr><tr><td>EncounterHistory.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.status</td><td>Element `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.\nThe target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nNote that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes).</td></tr><tr><td>EncounterHistory.class (class)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.class</td><td>Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.class` do not cover the following types: CodeableConcept.\nThe mappings for `EncounterHistory.class` do not cover the following types based on type expansion: text.</td></tr><tr><td>EncounterHistory.serviceType (serviceType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.serviceType</td><td>Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types: CodeableReference.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types based on type expansion: reference.</td></tr><tr><td>EncounterHistory.subjectStatus (subjectStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.subjectStatus</td><td>Element `EncounterHistory.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.subjectStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>EncounterHistory.actualPeriod (actualPeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.actualPeriod</td><td>Element `EncounterHistory.actualPeriod` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.actualPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>EncounterHistory.plannedStartDate (plannedStartDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.plannedStartDate</td><td>Element `EncounterHistory.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.plannedStartDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>EncounterHistory.plannedEndDate (plannedEndDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.plannedEndDate</td><td>Element `EncounterHistory.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.plannedEndDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>EncounterHistory.location.form (form)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.location.form</td><td>Element `EncounterHistory.location.form` has a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.location.form` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis information is de-normalized from the Location resource to support the easier understanding of the encounter resource and processing in messaging or query.\n\nThere may be many levels in the hierachy, and this may only pic specific levels that are required for a specific usage scenario.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-EncounterHistory-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-EncounterHistory-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5EncounterHistoryElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 EncounterHistory to FHIR R4 Encounter"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.9619443-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 EncounterHistory to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EncounterHistory"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EncounterHistory>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Encounter>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "EncounterHistory.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.meta" ] ;
+         fhir:display [ fhir:v "Encounter.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.meta` is mapped to FHIR R4 element `Encounter.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.implicitRules" ] ;
+         fhir:display [ fhir:v "Encounter.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.implicitRules` is mapped to FHIR R4 element `Encounter.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.language" ] ;
+         fhir:display [ fhir:v "Encounter.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.language` is mapped to FHIR R4 element `Encounter.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.text" ] ;
+         fhir:display [ fhir:v "Encounter.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.text` is mapped to FHIR R4 element `Encounter.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.contained" ] ;
+         fhir:display [ fhir:v "Encounter.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.contained` is mapped to FHIR R4 element `Encounter.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.identifier" ] ;
+         fhir:display [ fhir:v "Encounter.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.identifier` is mapped to FHIR R4 element `Encounter.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.status" ] ;
+         fhir:display [ fhir:v "Encounter.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.\nThe target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nNote that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.class" ] ;
+         fhir:display [ fhir:v "Encounter.class" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.class` do not cover the following types: CodeableConcept.\nThe mappings for `EncounterHistory.class` do not cover the following types based on type expansion: text." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.type" ] ;
+         fhir:display [ fhir:v "Encounter.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.type` is mapped to FHIR R4 element `Encounter.type` as `Equivalent`.\nSince there are many ways to further classify encounters, this element is 0..*." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.serviceType" ] ;
+         fhir:display [ fhir:v "Encounter.serviceType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types: CodeableReference.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types based on type expansion: reference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.subject" ] ;
+         fhir:display [ fhir:v "Encounter.subject" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.subject` is mapped to FHIR R4 element `Encounter.subject` as `Equivalent`.\nWhile the encounter is always about the patient, the patient might not actually be known in all contexts of use, and there may be a group of patients that could be anonymous (such as in a group therapy for Alcoholics Anonymous - where the recording of the encounter could be used for billing on the number of people/staff and not important to the context of the specific patients) or alternately in veterinary care a herd of sheep receiving treatment (where the animals are not individually tracked)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.length" ] ;
+       fhir:display [ fhir:v "length" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.length" ] ;
+         fhir:display [ fhir:v "Encounter.length" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.length` is mapped to FHIR R4 element `Encounter.length` as `Equivalent`.\nIf the precision on these values is low (e.g. to the day only) then this may be considered was an all day (or multi-day) encounter, unless the duration is included, where that amount of time occurred sometime during the interval.\r\rMay differ from the time in `Encounter.period` due to leave of absence(s)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.location" ] ;
+         fhir:display [ fhir:v "Encounter.location" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.location` is mapped to FHIR R4 element `Encounter.location` as `Equivalent`.\nVirtual encounters can be recorded in the Encounter by specifying a location reference to a location of type \"kind\" such as \"client's home\" and an encounter.class = \"virtual\"." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.location.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Encounter.location.location" ] ;
+         fhir:display [ fhir:v "Encounter.location.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.location.location` is mapped to FHIR R4 element `Encounter.location.location` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EncounterHistory"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EncounterHistory>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "EncounterHistory.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.encounter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.encounter` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis is also used for associating a child's encounter back to the mother's encounter.\r\rRefer to the Notes section in the Patient resource for further details." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status` as `SourceIsBroaderThanTarget`.\nThe target context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nNote that internal business rules will determine the appropriate transitions that may occur between statuses (and also classes)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.class" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.class` do not cover the following types: CodeableConcept.\nThe mappings for `EncounterHistory.class` do not cover the following types based on type expansion: text." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.serviceType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType` as `SourceIsBroaderThanTarget`.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types: CodeableReference.\nThe mappings for `EncounterHistory.serviceType` do not cover the following types based on type expansion: reference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.subjectStatus" ] ;
+       fhir:display [ fhir:v "subjectStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.subjectStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.subjectStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.actualPeriod" ] ;
+       fhir:display [ fhir:v "actualPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.actualPeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.actualPeriod` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.actualPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.plannedStartDate" ] ;
+       fhir:display [ fhir:v "plannedStartDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.plannedStartDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.plannedStartDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.plannedEndDate" ] ;
+       fhir:display [ fhir:v "plannedEndDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.plannedEndDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.plannedEndDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EncounterHistory.location.form" ] ;
+       fhir:display [ fhir:v "form" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.location.form" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `EncounterHistory.location.form` has a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`.\nElement `EncounterHistory.location.form` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis information is de-normalized from the Location resource to support the easier understanding of the encounter resource and processing in messaging or query.\n\nThere may be many levels in the hierachy, and this may only pic specific levels that are required for a specific usage scenario." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

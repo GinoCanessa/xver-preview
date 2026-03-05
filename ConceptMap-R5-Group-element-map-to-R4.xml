@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Group-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Group-element-map-to-R4</b></p><a name="R5-Group-element-map-to-R4"> </a><a name="hcR5-Group-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <a href="http://hl7.org/fhir/R4/group.html">Groupversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Group.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.meta</td><td>Element `Group.meta` is mapped to FHIR R4 element `Group.meta` as `Equivalent`.</td></tr><tr><td>Group.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.implicitRules</td><td>Element `Group.implicitRules` is mapped to FHIR R4 element `Group.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Group.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.language</td><td>Element `Group.language` is mapped to FHIR R4 element `Group.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Group.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.text</td><td>Element `Group.text` is mapped to FHIR R4 element `Group.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Group.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.contained</td><td>Element `Group.contained` is mapped to FHIR R4 element `Group.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Group.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.identifier</td><td>Element `Group.identifier` is mapped to FHIR R4 element `Group.identifier` as `Equivalent`.
+Note: This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.</td></tr><tr><td>Group.active (active)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.active</td><td>Element `Group.active` is mapped to FHIR R4 element `Group.active` as `Equivalent`.</td></tr><tr><td>Group.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Group.type</td><td>Element `Group.type` is mapped to FHIR R4 element `Group.type` as `SourceIsBroaderThanTarget`.
+Group members SHALL be of the appropriate resource type (Patient for person or animal; or Practitioner, PractitionerRole, Device, CareTeam, HealthcareService, Location, Organization, RelatedPerson, or Specimen for the other types.), or a Group of the resources of the appropriate type.</td></tr><tr><td>Group.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.code</td><td>Element `Group.code` is mapped to FHIR R4 element `Group.code` as `Equivalent`.
+This would generally be omitted for Person resources.</td></tr><tr><td>Group.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.name</td><td>Element `Group.name` is mapped to FHIR R4 element `Group.name` as `Equivalent`.</td></tr><tr><td>Group.quantity (quantity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.quantity</td><td>Element `Group.quantity` is mapped to FHIR R4 element `Group.quantity` as `Equivalent`.
+Note that the quantity may be less than the number of members if some of the members are not active.</td></tr><tr><td>Group.managingEntity (managingEntity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.managingEntity</td><td>Element `Group.managingEntity` is mapped to FHIR R4 element `Group.managingEntity` as `Equivalent`.
+This does not strictly align with ownership of a herd or flock, but may suffice to represent that relationship in simple cases. More complex cases will require an extension.</td></tr><tr><td>Group.characteristic (characteristic)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Group.characteristic</td><td>Element `Group.characteristic` is mapped to FHIR R4 element `Group.characteristic` as `Equivalent`.
+All the identified characteristics must be true for an entity to a member of the group.</td></tr><tr><td>Group.characteristic.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.characteristic.code</td><td>Element `Group.characteristic.code` is mapped to FHIR R4 element `Group.characteristic.code` as `Equivalent`.</td></tr><tr><td>Group.characteristic.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.characteristic.value[x]</td><td>Element `Group.characteristic.value[x]` is mapped to FHIR R4 element `Group.characteristic.value[x]` as `Equivalent`.
+The target context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.
+For Range, it means members of the group have a value that falls somewhere within the specified range.</td></tr><tr><td>Group.characteristic.exclude (exclude)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.characteristic.exclude</td><td>Element `Group.characteristic.exclude` is mapped to FHIR R4 element `Group.characteristic.exclude` as `Equivalent`.
+This is labeled as &quot;Is Modifier&quot; because applications cannot wrongly include excluded members as included or vice versa.</td></tr><tr><td>Group.characteristic.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.characteristic.period</td><td>Element `Group.characteristic.period` is mapped to FHIR R4 element `Group.characteristic.period` as `Equivalent`.</td></tr><tr><td>Group.member (member)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Group.member</td><td>Element `Group.member` is mapped to FHIR R4 element `Group.member` as `Equivalent`.</td></tr><tr><td>Group.member.entity (entity)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Group.member.entity</td><td>Element `Group.member.entity` is mapped to FHIR R4 element `Group.member.entity` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Group.member.entity` with unmapped reference targets: CareTeam, HealthcareService, Location, Organization, RelatedPerson, Specimen.</td></tr><tr><td>Group.member.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.member.period</td><td>Element `Group.member.period` is mapped to FHIR R4 element `Group.member.period` as `Equivalent`.</td></tr><tr><td>Group.member.inactive (inactive)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Group.member.inactive</td><td>Element `Group.member.inactive` is mapped to FHIR R4 element `Group.member.inactive` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Group.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type</td><td>Element `Group.type` is mapped to FHIR R4 element `Group.type` as `SourceIsBroaderThanTarget`.
+Group members SHALL be of the appropriate resource type (Patient for person or animal; or Practitioner, PractitionerRole, Device, CareTeam, HealthcareService, Location, Organization, RelatedPerson, or Specimen for the other types.), or a Group of the resources of the appropriate type.</td></tr><tr><td>Group.membership (membership)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership</td><td>Element `Group.membership` has a context of Group based on following the parent source element upwards and mapping to `Group`.
+Element `Group.membership` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Group.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description</td><td>Element `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`.
+Element `Group.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Group.member.entity (entity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Group-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5GroupElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Group to FHIR R4 Group"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:48.8801126-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Group to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Group"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Group"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Group.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Group.meta"/>
+        <display value="Group.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.meta` is mapped to FHIR R4 element `Group.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Group.implicitRules"/>
+        <display value="Group.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.implicitRules` is mapped to FHIR R4 element `Group.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Group.language"/>
+        <display value="Group.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.language` is mapped to FHIR R4 element `Group.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Group.text"/>
+        <display value="Group.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.text` is mapped to FHIR R4 element `Group.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Group.contained"/>
+        <display value="Group.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.contained` is mapped to FHIR R4 element `Group.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Group.identifier"/>
+        <display value="Group.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.identifier` is mapped to FHIR R4 element `Group.identifier` as `Equivalent`.&#xA;Note: This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.active"/>
+      <display value="active"/>
+      <target>
+        <code value="Group.active"/>
+        <display value="Group.active"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.active` is mapped to FHIR R4 element `Group.active` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Group.type"/>
+        <display value="Group.type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Group.type` is mapped to FHIR R4 element `Group.type` as `SourceIsBroaderThanTarget`.&#xA;Group members SHALL be of the appropriate resource type (Patient for person or animal; or Practitioner, PractitionerRole, Device, CareTeam, HealthcareService, Location, Organization, RelatedPerson, or Specimen for the other types.), or a Group of the resources of the appropriate type."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.code"/>
+      <display value="code"/>
+      <target>
+        <code value="Group.code"/>
+        <display value="Group.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.code` is mapped to FHIR R4 element `Group.code` as `Equivalent`.&#xA;This would generally be omitted for Person resources."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.name"/>
+      <display value="name"/>
+      <target>
+        <code value="Group.name"/>
+        <display value="Group.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.name` is mapped to FHIR R4 element `Group.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.quantity"/>
+      <display value="quantity"/>
+      <target>
+        <code value="Group.quantity"/>
+        <display value="Group.quantity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.quantity` is mapped to FHIR R4 element `Group.quantity` as `Equivalent`.&#xA;Note that the quantity may be less than the number of members if some of the members are not active."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.managingEntity"/>
+      <display value="managingEntity"/>
+      <target>
+        <code value="Group.managingEntity"/>
+        <display value="Group.managingEntity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.managingEntity` is mapped to FHIR R4 element `Group.managingEntity` as `Equivalent`.&#xA;This does not strictly align with ownership of a herd or flock, but may suffice to represent that relationship in simple cases. More complex cases will require an extension."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.characteristic"/>
+      <display value="characteristic"/>
+      <target>
+        <code value="Group.characteristic"/>
+        <display value="Group.characteristic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Group.characteristic` is mapped to FHIR R4 element `Group.characteristic` as `Equivalent`.&#xA;All the identified characteristics must be true for an entity to a member of the group."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.characteristic.code"/>
+      <display value="code"/>
+      <target>
+        <code value="Group.characteristic.code"/>
+        <display value="Group.characteristic.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.characteristic.code` is mapped to FHIR R4 element `Group.characteristic.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.characteristic.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="Group.characteristic.value[x]"/>
+        <display value="Group.characteristic.value[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.characteristic.value[x]` is mapped to FHIR R4 element `Group.characteristic.value[x]` as `Equivalent`.&#xA;The target context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.&#xA;For Range, it means members of the group have a value that falls somewhere within the specified range."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.characteristic.exclude"/>
+      <display value="exclude"/>
+      <target>
+        <code value="Group.characteristic.exclude"/>
+        <display value="Group.characteristic.exclude"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.characteristic.exclude` is mapped to FHIR R4 element `Group.characteristic.exclude` as `Equivalent`.&#xA;This is labeled as &quot;Is Modifier&quot; because applications cannot wrongly include excluded members as included or vice versa."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.characteristic.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Group.characteristic.period"/>
+        <display value="Group.characteristic.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.characteristic.period` is mapped to FHIR R4 element `Group.characteristic.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.member"/>
+      <display value="member"/>
+      <target>
+        <code value="Group.member"/>
+        <display value="Group.member"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Group.member` is mapped to FHIR R4 element `Group.member` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.member.entity"/>
+      <display value="entity"/>
+      <target>
+        <code value="Group.member.entity"/>
+        <display value="Group.member.entity"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Group.member.entity` is mapped to FHIR R4 element `Group.member.entity` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Group.member.entity` with unmapped reference targets: CareTeam, HealthcareService, Location, Organization, RelatedPerson, Specimen."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.member.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Group.member.period"/>
+        <display value="Group.member.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.member.period` is mapped to FHIR R4 element `Group.member.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.member.inactive"/>
+      <display value="inactive"/>
+      <target>
+        <code value="Group.member.inactive"/>
+        <display value="Group.member.inactive"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.member.inactive` is mapped to FHIR R4 element `Group.member.inactive` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Group"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Group.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Group.type` is mapped to FHIR R4 element `Group.type` as `SourceIsBroaderThanTarget`.&#xA;Group members SHALL be of the appropriate resource type (Patient for person or animal; or Practitioner, PractitionerRole, Device, CareTeam, HealthcareService, Location, Organization, RelatedPerson, or Specimen for the other types.), or a Group of the resources of the appropriate type."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.membership"/>
+      <display value="membership"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Group.membership` has a context of Group based on following the parent source element upwards and mapping to `Group`.&#xA;Element `Group.membership` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Group.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`.&#xA;Element `Group.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Group"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Group.member.entity"/>
+      <display value="entity"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

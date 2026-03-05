@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Practitioner-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Practitioner-element-map-to-R4</b></p><a name="R5-Practitioner-element-map-to-R4"> </a><a name="hcR5-Practitioner-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0</code> to <a href="http://hl7.org/fhir/R4/practitioner.html">Practitionerversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Practitioner.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.meta</td><td>Element `Practitioner.meta` is mapped to FHIR R4 element `Practitioner.meta` as `Equivalent`.</td></tr><tr><td>Practitioner.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.implicitRules</td><td>Element `Practitioner.implicitRules` is mapped to FHIR R4 element `Practitioner.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Practitioner.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.language</td><td>Element `Practitioner.language` is mapped to FHIR R4 element `Practitioner.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Practitioner.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.text</td><td>Element `Practitioner.text` is mapped to FHIR R4 element `Practitioner.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Practitioner.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.contained</td><td>Element `Practitioner.contained` is mapped to FHIR R4 element `Practitioner.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Practitioner.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.identifier</td><td>Element `Practitioner.identifier` is mapped to FHIR R4 element `Practitioner.identifier` as `Equivalent`.</td></tr><tr><td>Practitioner.active (active)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.active</td><td>Element `Practitioner.active` is mapped to FHIR R4 element `Practitioner.active` as `Equivalent`.
+If the practitioner is not in use by one organization, then it should mark the period on the PractitonerRole with an end date (even if they are active) as they may be active in another role.</td></tr><tr><td>Practitioner.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.name</td><td>Element `Practitioner.name` is mapped to FHIR R4 element `Practitioner.name` as `Equivalent`.
+The selection of the use property should ensure that there is a single usual name specified, and others use the nickname (alias), old, or other values as appropriate.  In general, select the value to be used in the ResourceReference.display based on this:1. There is more than 1 name2. Use = usual3. Period is current to the date of the usage4. Use = official5. Other order as decided by internal business rules.</td></tr><tr><td>Practitioner.telecom (telecom)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.telecom</td><td>Element `Practitioner.telecom` is mapped to FHIR R4 element `Practitioner.telecom` as `Equivalent`.
+Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and to help with identification.  These typically will have home numbers, or mobile numbers that are not role specific.</td></tr><tr><td>Practitioner.gender (gender)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.gender</td><td>Element `Practitioner.gender` is mapped to FHIR R4 element `Practitioner.gender` as `Equivalent`.</td></tr><tr><td>Practitioner.birthDate (birthDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.birthDate</td><td>Element `Practitioner.birthDate` is mapped to FHIR R4 element `Practitioner.birthDate` as `Equivalent`.</td></tr><tr><td>Practitioner.address (address)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.address</td><td>Element `Practitioner.address` is mapped to FHIR R4 element `Practitioner.address` as `Equivalent`.
+The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address).</td></tr><tr><td>Practitioner.photo (photo)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.photo</td><td>Element `Practitioner.photo` is mapped to FHIR R4 element `Practitioner.photo` as `Equivalent`.</td></tr><tr><td>Practitioner.qualification (qualification)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Practitioner.qualification</td><td>Element `Practitioner.qualification` is mapped to FHIR R4 element `Practitioner.qualification` as `Equivalent`.
+The PractitionerRole.specialty defines the functional role that they are practicing at a given organization or location.  Those specialties may or might not require a qualification, and are not defined on the practitioner.</td></tr><tr><td>Practitioner.qualification.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.qualification.identifier</td><td>Element `Practitioner.qualification.identifier` is mapped to FHIR R4 element `Practitioner.qualification.identifier` as `Equivalent`.</td></tr><tr><td>Practitioner.qualification.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.qualification.code</td><td>Element `Practitioner.qualification.code` is mapped to FHIR R4 element `Practitioner.qualification.code` as `Equivalent`.</td></tr><tr><td>Practitioner.qualification.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.qualification.period</td><td>Element `Practitioner.qualification.period` is mapped to FHIR R4 element `Practitioner.qualification.period` as `Equivalent`.</td></tr><tr><td>Practitioner.qualification.issuer (issuer)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Practitioner.qualification.issuer</td><td>Element `Practitioner.qualification.issuer` is mapped to FHIR R4 element `Practitioner.qualification.issuer` as `Equivalent`.</td></tr><tr><td>Practitioner.communication (communication)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Practitioner.communication</td><td>Element `Practitioner.communication` is mapped to FHIR R4 element `Practitioner.communication` as `Equivalent`.
+If no language is specified, this *implies* that the default local language is spoken.  If you need to convey proficiency for multiple modes, then you need multiple Practitioner.Communication associations.For animals, language is not a relevant field, and should be absent from the instance.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Practitioner|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Practitioner.deceased[x] (deceased[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased</td><td>Element `Practitioner.deceased[x]` has a context of Practitioner based on following the parent source element upwards and mapping to `Practitioner`.
+Element `Practitioner.deceased[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If there's no value in the instance, it means there is no statement on whether or not the practitioner is deceased. Most systems will interpret the absence of a value as a sign of the person being alive.</td></tr><tr><td>Practitioner.communication.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication.language</td><td>Element `Practitioner.communication.language` has a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.
+Element `Practitioner.communication.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.</td></tr><tr><td>Practitioner.communication.preferred (preferred)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication.preferred</td><td>Element `Practitioner.communication.preferred` has a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.
+Element `Practitioner.communication.preferred` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This language is specifically identified for communicating directly with the practitioner (typically un-related to patient communications).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Practitioner-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5PractitionerElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Practitioner to FHIR R4 Practitioner"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.1368846-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Practitioner to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Practitioner.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Practitioner.meta"/>
+        <display value="Practitioner.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.meta` is mapped to FHIR R4 element `Practitioner.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Practitioner.implicitRules"/>
+        <display value="Practitioner.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.implicitRules` is mapped to FHIR R4 element `Practitioner.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Practitioner.language"/>
+        <display value="Practitioner.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.language` is mapped to FHIR R4 element `Practitioner.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Practitioner.text"/>
+        <display value="Practitioner.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.text` is mapped to FHIR R4 element `Practitioner.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Practitioner.contained"/>
+        <display value="Practitioner.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.contained` is mapped to FHIR R4 element `Practitioner.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Practitioner.identifier"/>
+        <display value="Practitioner.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.identifier` is mapped to FHIR R4 element `Practitioner.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.active"/>
+      <display value="active"/>
+      <target>
+        <code value="Practitioner.active"/>
+        <display value="Practitioner.active"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.active` is mapped to FHIR R4 element `Practitioner.active` as `Equivalent`.&#xA;If the practitioner is not in use by one organization, then it should mark the period on the PractitonerRole with an end date (even if they are active) as they may be active in another role."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.name"/>
+      <display value="name"/>
+      <target>
+        <code value="Practitioner.name"/>
+        <display value="Practitioner.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.name` is mapped to FHIR R4 element `Practitioner.name` as `Equivalent`.&#xA;The selection of the use property should ensure that there is a single usual name specified, and others use the nickname (alias), old, or other values as appropriate.  &#xD;&#xD;In general, select the value to be used in the ResourceReference.display based on this:&#xD;&#xD;1. There is more than 1 name&#xD;2. Use = usual&#xD;3. Period is current to the date of the usage&#xD;4. Use = official&#xD;5. Other order as decided by internal business rules."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.telecom"/>
+      <display value="telecom"/>
+      <target>
+        <code value="Practitioner.telecom"/>
+        <display value="Practitioner.telecom"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.telecom` is mapped to FHIR R4 element `Practitioner.telecom` as `Equivalent`.&#xA;Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently and to help with identification.  These typically will have home numbers, or mobile numbers that are not role specific."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.gender"/>
+      <display value="gender"/>
+      <target>
+        <code value="Practitioner.gender"/>
+        <display value="Practitioner.gender"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.gender` is mapped to FHIR R4 element `Practitioner.gender` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.birthDate"/>
+      <display value="birthDate"/>
+      <target>
+        <code value="Practitioner.birthDate"/>
+        <display value="Practitioner.birthDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.birthDate` is mapped to FHIR R4 element `Practitioner.birthDate` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.address"/>
+      <display value="address"/>
+      <target>
+        <code value="Practitioner.address"/>
+        <display value="Practitioner.address"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.address` is mapped to FHIR R4 element `Practitioner.address` as `Equivalent`.&#xA;The PractitionerRole does not have an address value on it, as it is expected that the location property be used for this purpose (which has an address)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.photo"/>
+      <display value="photo"/>
+      <target>
+        <code value="Practitioner.photo"/>
+        <display value="Practitioner.photo"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.photo` is mapped to FHIR R4 element `Practitioner.photo` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.qualification"/>
+      <display value="qualification"/>
+      <target>
+        <code value="Practitioner.qualification"/>
+        <display value="Practitioner.qualification"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Practitioner.qualification` is mapped to FHIR R4 element `Practitioner.qualification` as `Equivalent`.&#xA;The PractitionerRole.specialty defines the functional role that they are practicing at a given organization or location.  Those specialties may or might not require a qualification, and are not defined on the practitioner."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.qualification.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Practitioner.qualification.identifier"/>
+        <display value="Practitioner.qualification.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.qualification.identifier` is mapped to FHIR R4 element `Practitioner.qualification.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.qualification.code"/>
+      <display value="code"/>
+      <target>
+        <code value="Practitioner.qualification.code"/>
+        <display value="Practitioner.qualification.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.qualification.code` is mapped to FHIR R4 element `Practitioner.qualification.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.qualification.period"/>
+      <display value="period"/>
+      <target>
+        <code value="Practitioner.qualification.period"/>
+        <display value="Practitioner.qualification.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.qualification.period` is mapped to FHIR R4 element `Practitioner.qualification.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.qualification.issuer"/>
+      <display value="issuer"/>
+      <target>
+        <code value="Practitioner.qualification.issuer"/>
+        <display value="Practitioner.qualification.issuer"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Practitioner.qualification.issuer` is mapped to FHIR R4 element `Practitioner.qualification.issuer` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.communication"/>
+      <display value="communication"/>
+      <target>
+        <code value="Practitioner.communication"/>
+        <display value="Practitioner.communication"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Practitioner.communication` is mapped to FHIR R4 element `Practitioner.communication` as `Equivalent`.&#xA;If no language is specified, this *implies* that the default local language is spoken.  If you need to convey proficiency for multiple modes, then you need multiple Practitioner.Communication associations.&#xD;&#xD;For animals, language is not a relevant field, and should be absent from the instance."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Practitioner"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Practitioner.deceased[x]"/>
+      <display value="deceased[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Practitioner.deceased[x]` has a context of Practitioner based on following the parent source element upwards and mapping to `Practitioner`.&#xA;Element `Practitioner.deceased[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If there's no value in the instance, it means there is no statement on whether or not the practitioner is deceased. Most systems will interpret the absence of a value as a sign of the person being alive."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.communication.language"/>
+      <display value="language"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication.language"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Practitioner.communication.language` has a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.&#xA;Element `Practitioner.communication.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type."/>
+      </target>
+    </element>
+    <element>
+      <code value="Practitioner.communication.preferred"/>
+      <display value="preferred"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication.preferred"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Practitioner.communication.preferred` has a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.&#xA;Element `Practitioner.communication.preferred` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This language is specifically identified for communicating directly with the practitioner (typically un-related to patient communications)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

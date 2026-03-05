@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-BiologicallyDerivedProduct-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-BiologicallyDerivedProduct-element-map-to-R4</b></p><a name="R5-BiologicallyDerivedProduct-element-map-to-R4"> </a><a name="hcR5-BiologicallyDerivedProduct-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct|5.0.0</code> to <a href="http://hl7.org/fhir/R4/biologicallyderivedproduct.html">BiologicallyDerivedProductversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>BiologicallyDerivedProduct.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.meta</td><td>Element `BiologicallyDerivedProduct.meta` is mapped to FHIR R4 element `BiologicallyDerivedProduct.meta` as `Equivalent`.</td></tr><tr><td>BiologicallyDerivedProduct.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.implicitRules</td><td>Element `BiologicallyDerivedProduct.implicitRules` is mapped to FHIR R4 element `BiologicallyDerivedProduct.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>BiologicallyDerivedProduct.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.language</td><td>Element `BiologicallyDerivedProduct.language` is mapped to FHIR R4 element `BiologicallyDerivedProduct.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>BiologicallyDerivedProduct.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.text</td><td>Element `BiologicallyDerivedProduct.text` is mapped to FHIR R4 element `BiologicallyDerivedProduct.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>BiologicallyDerivedProduct.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.contained</td><td>Element `BiologicallyDerivedProduct.contained` is mapped to FHIR R4 element `BiologicallyDerivedProduct.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>BiologicallyDerivedProduct.productCategory (productCategory)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>BiologicallyDerivedProduct.productCategory</td><td>Element `BiologicallyDerivedProduct.productCategory` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory` as `SourceIsBroaderThanTarget`.
+The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types: Coding.
+The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>BiologicallyDerivedProduct.productCode (productCode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.productCode</td><td>Element `BiologicallyDerivedProduct.productCode` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCode` as `Equivalent`.</td></tr><tr><td>BiologicallyDerivedProduct.parent (parent)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.parent</td><td>Element `BiologicallyDerivedProduct.parent` is mapped to FHIR R4 element `BiologicallyDerivedProduct.parent` as `Equivalent`.
+For products that have multiple collections. For example Peripheral Blood Stem Cells may be collected over several days from a single donor and the donation split into in multiple containers which must be linked to the parent donation.</td></tr><tr><td>BiologicallyDerivedProduct.request (request)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.request</td><td>Element `BiologicallyDerivedProduct.request` is mapped to FHIR R4 element `BiologicallyDerivedProduct.request` as `Equivalent`.</td></tr><tr><td>BiologicallyDerivedProduct.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.identifier</td><td>Element `BiologicallyDerivedProduct.identifier` is mapped to FHIR R4 element `BiologicallyDerivedProduct.identifier` as `Equivalent`.
+This identifier should uniquely identify the product instance in the business domain.  Ideally it should be a globally unique identifier under the control of an ISO/IEC 15459 Issuing Agency.</td></tr><tr><td>BiologicallyDerivedProduct.productStatus (productStatus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>BiologicallyDerivedProduct.status</td><td>Element `BiologicallyDerivedProduct.productStatus` is mapped to FHIR R4 element `BiologicallyDerivedProduct.status` as `SourceIsBroaderThanTarget`.
+The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types: Coding.
+The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>BiologicallyDerivedProduct.collection (collection)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>BiologicallyDerivedProduct.collection</td><td>Element `BiologicallyDerivedProduct.collection` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection` as `Equivalent`.</td></tr><tr><td>BiologicallyDerivedProduct.collection.collector (collector)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.collection.collector</td><td>Element `BiologicallyDerivedProduct.collection.collector` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collector` as `Equivalent`.</td></tr><tr><td>BiologicallyDerivedProduct.collection.source (source)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.collection.source</td><td>Element `BiologicallyDerivedProduct.collection.source` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.source` as `Equivalent`.</td></tr><tr><td>BiologicallyDerivedProduct.collection.collected[x] (collected[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>BiologicallyDerivedProduct.collection.collected[x]</td><td>Element `BiologicallyDerivedProduct.collection.collected[x]` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collected[x]` as `Equivalent`.
+The target context `BiologicallyDerivedProduct.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `BiologicallyDerivedProduct.collection`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>BiologicallyDerivedProduct.productCategory (productCategory)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.productCategory</td><td>Element `BiologicallyDerivedProduct.productCategory` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory` as `SourceIsBroaderThanTarget`.
+The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types: Coding.
+The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>BiologicallyDerivedProduct.biologicalSourceEvent (biologicalSourceEvent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.biologicalSourceEvent</td><td>Element `BiologicallyDerivedProduct.biologicalSourceEvent` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.biologicalSourceEvent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Necessary to support mandatory requirements for traceability from donor/source to recipient and vice versa, while also satisfying donor anonymity requirements. The element is defined consistently across BiologicallyDerivedProduct, NutritionProduct, and Device.  The identifier references an event that links to a single biological entity such as a blood donor, or to multiple biological entities (e.g. when the product is an embryo or a pooled platelet product).  A single biologicalSourceEvent identifier may appear on multiple products of many types derived from a single donation event or source extraction.  As an example, a single donation event may provide 2 kidneys and a liver for organ transplantation, 2 corneas for eye surgery, heart valves and arterial tissue for cardiovascular surgery, multiple skin grafts, tendons, multiple shaped bone grafts and a large number of bone putty/paste products; and each of them may be assigned to the same biological source event identifier.</td></tr><tr><td>BiologicallyDerivedProduct.processingFacility (processingFacility)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.processingFacility</td><td>Element `BiologicallyDerivedProduct.processingFacility` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.processingFacility` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BiologicallyDerivedProduct.division (division)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.division</td><td>Element `BiologicallyDerivedProduct.division` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.division` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BiologicallyDerivedProduct.productStatus (productStatus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.productStatus</td><td>Element `BiologicallyDerivedProduct.productStatus` is mapped to FHIR R4 element `BiologicallyDerivedProduct.status` as `SourceIsBroaderThanTarget`.
+The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types: Coding.
+The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>BiologicallyDerivedProduct.expirationDate (expirationDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.expirationDate</td><td>Element `BiologicallyDerivedProduct.expirationDate` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.expirationDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>BiologicallyDerivedProduct.storageTempRequirements (storageTempRequirements)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.storageTempRequirements</td><td>Element `BiologicallyDerivedProduct.storageTempRequirements` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.storageTempRequirements` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+May be extracted from information held in the Product Description Code.</td></tr><tr><td>BiologicallyDerivedProduct.property (property)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property</td><td>Element `BiologicallyDerivedProduct.property` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Property can be used to provide information on a wide range of additional information specific to a particular biologicallyDerivedProduct.</td></tr><tr><td>BiologicallyDerivedProduct.property.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property:type</td><td>Element `BiologicallyDerivedProduct.property.type` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.
+Element `BiologicallyDerivedProduct.property.type` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.property.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The element is identified by name and system URI in the type. Some types may have multiple occurrences.</td></tr><tr><td>BiologicallyDerivedProduct.property.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property:value</td><td>Element `BiologicallyDerivedProduct.property.value[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.
+Element `BiologicallyDerivedProduct.property.value[x]` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.
+Element `BiologicallyDerivedProduct.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The value should be provided as a boolean, integer, CodeableConcept, period, quantity, range, ratio, or attachment. The description can be a string only when these others are not available. The type of value will depend on the property type and is specified in ST-027.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-BiologicallyDerivedProduct-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5BiologicallyDerivedProductElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 BiologicallyDerivedProduct to FHIR R4 BiologicallyDerivedProduct"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:46.4027896-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 BiologicallyDerivedProduct to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="BiologicallyDerivedProduct.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.meta"/>
+        <display value="BiologicallyDerivedProduct.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.meta` is mapped to FHIR R4 element `BiologicallyDerivedProduct.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.implicitRules"/>
+        <display value="BiologicallyDerivedProduct.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.implicitRules` is mapped to FHIR R4 element `BiologicallyDerivedProduct.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.language"/>
+      <display value="language"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.language"/>
+        <display value="BiologicallyDerivedProduct.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.language` is mapped to FHIR R4 element `BiologicallyDerivedProduct.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.text"/>
+      <display value="text"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.text"/>
+        <display value="BiologicallyDerivedProduct.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.text` is mapped to FHIR R4 element `BiologicallyDerivedProduct.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.contained"/>
+        <display value="BiologicallyDerivedProduct.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.contained` is mapped to FHIR R4 element `BiologicallyDerivedProduct.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.productCategory"/>
+      <display value="productCategory"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.productCategory"/>
+        <display value="BiologicallyDerivedProduct.productCategory"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.productCategory` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types: Coding.&#xA;The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.productCode"/>
+      <display value="productCode"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.productCode"/>
+        <display value="BiologicallyDerivedProduct.productCode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.productCode` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCode` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.parent"/>
+      <display value="parent"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.parent"/>
+        <display value="BiologicallyDerivedProduct.parent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.parent` is mapped to FHIR R4 element `BiologicallyDerivedProduct.parent` as `Equivalent`.&#xA;For products that have multiple collections. For example Peripheral Blood Stem Cells may be collected over several days from a single donor and the donation split into in multiple containers which must be linked to the parent donation."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.request"/>
+      <display value="request"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.request"/>
+        <display value="BiologicallyDerivedProduct.request"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.request` is mapped to FHIR R4 element `BiologicallyDerivedProduct.request` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.identifier"/>
+        <display value="BiologicallyDerivedProduct.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.identifier` is mapped to FHIR R4 element `BiologicallyDerivedProduct.identifier` as `Equivalent`.&#xA;This identifier should uniquely identify the product instance in the business domain.  Ideally it should be a globally unique identifier under the control of an ISO/IEC 15459 Issuing Agency."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.productStatus"/>
+      <display value="productStatus"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.status"/>
+        <display value="BiologicallyDerivedProduct.status"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.productStatus` is mapped to FHIR R4 element `BiologicallyDerivedProduct.status` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types: Coding.&#xA;The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.collection"/>
+      <display value="collection"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.collection"/>
+        <display value="BiologicallyDerivedProduct.collection"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.collection` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.collection.collector"/>
+      <display value="collector"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.collection.collector"/>
+        <display value="BiologicallyDerivedProduct.collection.collector"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.collection.collector` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collector` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.collection.source"/>
+      <display value="source"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.collection.source"/>
+        <display value="BiologicallyDerivedProduct.collection.source"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.collection.source` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.source` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.collection.collected[x]"/>
+      <display value="collected[x]"/>
+      <target>
+        <code value="BiologicallyDerivedProduct.collection.collected[x]"/>
+        <display value="BiologicallyDerivedProduct.collection.collected[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.collection.collected[x]` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collected[x]` as `Equivalent`.&#xA;The target context `BiologicallyDerivedProduct.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `BiologicallyDerivedProduct.collection`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="BiologicallyDerivedProduct.productCategory"/>
+      <display value="productCategory"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.productCategory"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `BiologicallyDerivedProduct.productCategory` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types: Coding.&#xA;The mappings for `BiologicallyDerivedProduct.productCategory` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.biologicalSourceEvent"/>
+      <display value="biologicalSourceEvent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.biologicalSourceEvent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.biologicalSourceEvent` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.biologicalSourceEvent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Necessary to support mandatory requirements for traceability from donor/source to recipient and vice versa, while also satisfying donor anonymity requirements. The element is defined consistently across BiologicallyDerivedProduct, NutritionProduct, and Device.  The identifier references an event that links to a single biological entity such as a blood donor, or to multiple biological entities (e.g. when the product is an embryo or a pooled platelet product).  A single biologicalSourceEvent identifier may appear on multiple products of many types derived from a single donation event or source extraction.  As an example, a single donation event may provide 2 kidneys and a liver for organ transplantation, 2 corneas for eye surgery, heart valves and arterial tissue for cardiovascular surgery, multiple skin grafts, tendons, multiple shaped bone grafts and a large number of bone putty/paste products; and each of them may be assigned to the same biological source event identifier."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.processingFacility"/>
+      <display value="processingFacility"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.processingFacility"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.processingFacility` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.processingFacility` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.division"/>
+      <display value="division"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.division"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.division` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.division` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.productStatus"/>
+      <display value="productStatus"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.productStatus"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.productStatus` is mapped to FHIR R4 element `BiologicallyDerivedProduct.status` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types: Coding.&#xA;The mappings for `BiologicallyDerivedProduct.productStatus` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.expirationDate"/>
+      <display value="expirationDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.expirationDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.expirationDate` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.expirationDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.storageTempRequirements"/>
+      <display value="storageTempRequirements"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.storageTempRequirements"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.storageTempRequirements` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.storageTempRequirements` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;May be extracted from information held in the Product Description Code."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.property"/>
+      <display value="property"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.property` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.property` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Property can be used to provide information on a wide range of additional information specific to a particular biologicallyDerivedProduct."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.property.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.property.type` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.&#xA;Element `BiologicallyDerivedProduct.property.type` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.property.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The element is identified by name and system URI in the type. Some types may have multiple occurrences."/>
+      </target>
+    </element>
+    <element>
+      <code value="BiologicallyDerivedProduct.property.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.property:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `BiologicallyDerivedProduct.property.value[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.&#xA;Element `BiologicallyDerivedProduct.property.value[x]` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`.&#xA;Element `BiologicallyDerivedProduct.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The value should be provided as a boolean, integer, CodeableConcept, period, quantity, range, ratio, or attachment. The description can be a string only when these others are not available. The type of value will depend on the property type and is specified in ST-027."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

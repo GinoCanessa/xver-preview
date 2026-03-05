@@ -1,0 +1,381 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-VisionPrescription-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-VisionPrescription-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-VisionPrescription-element-map-to-R4</b></p><a name=\"R5-VisionPrescription-element-map-to-R4\"> </a><a name=\"hcR5-VisionPrescription-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/VisionPrescription|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/visionprescription.html\">VisionPrescriptionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>VisionPrescription.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.meta</td><td>Element `VisionPrescription.meta` is mapped to FHIR R4 element `VisionPrescription.meta` as `Equivalent`.</td></tr><tr><td>VisionPrescription.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.implicitRules</td><td>Element `VisionPrescription.implicitRules` is mapped to FHIR R4 element `VisionPrescription.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>VisionPrescription.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.language</td><td>Element `VisionPrescription.language` is mapped to FHIR R4 element `VisionPrescription.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>VisionPrescription.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.text</td><td>Element `VisionPrescription.text` is mapped to FHIR R4 element `VisionPrescription.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>VisionPrescription.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.contained</td><td>Element `VisionPrescription.contained` is mapped to FHIR R4 element `VisionPrescription.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>VisionPrescription.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.identifier</td><td>Element `VisionPrescription.identifier` is mapped to FHIR R4 element `VisionPrescription.identifier` as `Equivalent`.</td></tr><tr><td>VisionPrescription.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.status</td><td>Element `VisionPrescription.status` is mapped to FHIR R4 element `VisionPrescription.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>VisionPrescription.created (created)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.created</td><td>Element `VisionPrescription.created` is mapped to FHIR R4 element `VisionPrescription.created` as `Equivalent`.</td></tr><tr><td>VisionPrescription.patient (patient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.patient</td><td>Element `VisionPrescription.patient` is mapped to FHIR R4 element `VisionPrescription.patient` as `Equivalent`.</td></tr><tr><td>VisionPrescription.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.encounter</td><td>Element `VisionPrescription.encounter` is mapped to FHIR R4 element `VisionPrescription.encounter` as `Equivalent`.</td></tr><tr><td>VisionPrescription.dateWritten (dateWritten)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.dateWritten</td><td>Element `VisionPrescription.dateWritten` is mapped to FHIR R4 element `VisionPrescription.dateWritten` as `Equivalent`.\nJurisdictions determine the valid lifetime of a prescription. Typically vision prescriptions are valid for two years from the date written.</td></tr><tr><td>VisionPrescription.prescriber (prescriber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.prescriber</td><td>Element `VisionPrescription.prescriber` is mapped to FHIR R4 element `VisionPrescription.prescriber` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification (lensSpecification)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>VisionPrescription.lensSpecification</td><td>Element `VisionPrescription.lensSpecification` is mapped to FHIR R4 element `VisionPrescription.lensSpecification` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.product (product)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.product</td><td>Element `VisionPrescription.lensSpecification.product` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.product` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.eye (eye)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.eye</td><td>Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.eye` as `Equivalent`.\nMay also appear on the paper claim form or in the Medical Records as as OD (oculus dexter) for the right eye and OS (oculus sinister) for the left eye.</td></tr><tr><td>VisionPrescription.lensSpecification.sphere (sphere)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.sphere</td><td>Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.sphere` as `Equivalent`.\nThe value is negative for near-sighted and positive for far sighted.\nOften insurance will not cover a lens with power between +75 and -75.</td></tr><tr><td>VisionPrescription.lensSpecification.cylinder (cylinder)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.cylinder</td><td>Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.cylinder` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.axis (axis)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.axis</td><td>Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.axis` as `Equivalent`.\nThe limits are +180 and -180 degrees.</td></tr><tr><td>VisionPrescription.lensSpecification.prism (prism)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>VisionPrescription.lensSpecification.prism</td><td>Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.prism.amount (amount)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.prism.amount</td><td>Element `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism.amount` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.prism.base (base)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.prism.base</td><td>Element `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism.base` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.add (add)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.add</td><td>Element `VisionPrescription.lensSpecification.add` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.add` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.power (power)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.power</td><td>Element `VisionPrescription.lensSpecification.power` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.power` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.backCurve (backCurve)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.backCurve</td><td>Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.backCurve` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.diameter (diameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.diameter</td><td>Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.diameter` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.duration (duration)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.duration</td><td>Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.duration` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.color (color)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.color</td><td>Element `VisionPrescription.lensSpecification.color` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.color` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.brand (brand)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.brand</td><td>Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.brand` as `Equivalent`.</td></tr><tr><td>VisionPrescription.lensSpecification.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>VisionPrescription.lensSpecification.note</td><td>Element `VisionPrescription.lensSpecification.note` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.note` as `Equivalent`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-VisionPrescription-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-VisionPrescription-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5VisionPrescriptionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 VisionPrescription to FHIR R4 VisionPrescription"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:53.6920297-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 VisionPrescription to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/VisionPrescription>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/VisionPrescription"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/VisionPrescription>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "VisionPrescription.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.meta" ] ;
+         fhir:display [ fhir:v "VisionPrescription.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.meta` is mapped to FHIR R4 element `VisionPrescription.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.implicitRules" ] ;
+         fhir:display [ fhir:v "VisionPrescription.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.implicitRules` is mapped to FHIR R4 element `VisionPrescription.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.language" ] ;
+         fhir:display [ fhir:v "VisionPrescription.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.language` is mapped to FHIR R4 element `VisionPrescription.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.text" ] ;
+         fhir:display [ fhir:v "VisionPrescription.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.text` is mapped to FHIR R4 element `VisionPrescription.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.contained" ] ;
+         fhir:display [ fhir:v "VisionPrescription.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.contained` is mapped to FHIR R4 element `VisionPrescription.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.identifier" ] ;
+         fhir:display [ fhir:v "VisionPrescription.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.identifier` is mapped to FHIR R4 element `VisionPrescription.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.status" ] ;
+         fhir:display [ fhir:v "VisionPrescription.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.status` is mapped to FHIR R4 element `VisionPrescription.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.created" ] ;
+         fhir:display [ fhir:v "VisionPrescription.created" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.created` is mapped to FHIR R4 element `VisionPrescription.created` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.patient" ] ;
+         fhir:display [ fhir:v "VisionPrescription.patient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.patient` is mapped to FHIR R4 element `VisionPrescription.patient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.encounter" ] ;
+         fhir:display [ fhir:v "VisionPrescription.encounter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.encounter` is mapped to FHIR R4 element `VisionPrescription.encounter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.dateWritten" ] ;
+       fhir:display [ fhir:v "dateWritten" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.dateWritten" ] ;
+         fhir:display [ fhir:v "VisionPrescription.dateWritten" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.dateWritten` is mapped to FHIR R4 element `VisionPrescription.dateWritten` as `Equivalent`.\nJurisdictions determine the valid lifetime of a prescription. Typically vision prescriptions are valid for two years from the date written." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.prescriber" ] ;
+       fhir:display [ fhir:v "prescriber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.prescriber" ] ;
+         fhir:display [ fhir:v "VisionPrescription.prescriber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.prescriber` is mapped to FHIR R4 element `VisionPrescription.prescriber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification" ] ;
+       fhir:display [ fhir:v "lensSpecification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification` is mapped to FHIR R4 element `VisionPrescription.lensSpecification` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.product" ] ;
+       fhir:display [ fhir:v "product" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.product" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.product" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.product` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.product` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.eye" ] ;
+       fhir:display [ fhir:v "eye" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.eye" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.eye" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.eye` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.eye` as `Equivalent`.\nMay also appear on the paper claim form or in the Medical Records as as OD (oculus dexter) for the right eye and OS (oculus sinister) for the left eye." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.sphere" ] ;
+       fhir:display [ fhir:v "sphere" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.sphere" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.sphere" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.sphere` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.sphere` as `Equivalent`.\nThe value is negative for near-sighted and positive for far sighted.\nOften insurance will not cover a lens with power between +75 and -75." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.cylinder" ] ;
+       fhir:display [ fhir:v "cylinder" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.cylinder" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.cylinder" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.cylinder` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.cylinder` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.axis" ] ;
+       fhir:display [ fhir:v "axis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.axis" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.axis" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.axis` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.axis` as `Equivalent`.\nThe limits are +180 and -180 degrees." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism" ] ;
+       fhir:display [ fhir:v "prism" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.prism" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism.amount" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.prism.amount" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism.amount` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism.amount` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism.base" ] ;
+       fhir:display [ fhir:v "base" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.prism.base" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.prism.base" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.prism.base` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.prism.base` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.add" ] ;
+       fhir:display [ fhir:v "add" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.add" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.add" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.add` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.add` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.power" ] ;
+       fhir:display [ fhir:v "power" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.power" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.power" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.power` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.power` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.backCurve" ] ;
+       fhir:display [ fhir:v "backCurve" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.backCurve" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.backCurve" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.backCurve` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.backCurve` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.diameter" ] ;
+       fhir:display [ fhir:v "diameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.diameter" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.diameter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.diameter` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.diameter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.duration" ] ;
+       fhir:display [ fhir:v "duration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.duration" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.duration" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.duration` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.duration` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.color" ] ;
+       fhir:display [ fhir:v "color" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.color" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.color" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.color` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.color` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.brand" ] ;
+       fhir:display [ fhir:v "brand" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.brand" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.brand" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.brand` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.brand` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "VisionPrescription.lensSpecification.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "VisionPrescription.lensSpecification.note" ] ;
+         fhir:display [ fhir:v "VisionPrescription.lensSpecification.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `VisionPrescription.lensSpecification.note` is mapped to FHIR R4 element `VisionPrescription.lensSpecification.note` as `Equivalent`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

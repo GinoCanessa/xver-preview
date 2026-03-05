@@ -1,0 +1,854 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-DeviceDefinition-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-DeviceDefinition-element-map-to-R4</b></p><a name=\"R5-DeviceDefinition-element-map-to-R4\"> </a><a name=\"hcR5-DeviceDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/devicedefinition.html\">DeviceDefinitionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceDefinition|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.meta</td><td style=\"border-left-width: 0px\">DeviceDefinition.meta</td><td>Element `DeviceDefinition.meta` is mapped to FHIR R4 element `DeviceDefinition.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.implicitRules</td><td style=\"border-left-width: 0px\">DeviceDefinition.implicitRules</td><td>Element `DeviceDefinition.implicitRules` is mapped to FHIR R4 element `DeviceDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.language</td><td style=\"border-left-width: 0px\">DeviceDefinition.language</td><td>Element `DeviceDefinition.language` is mapped to FHIR R4 element `DeviceDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.text</td><td style=\"border-left-width: 0px\">DeviceDefinition.text</td><td>Element `DeviceDefinition.text` is mapped to FHIR R4 element `DeviceDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.contained</td><td style=\"border-left-width: 0px\">DeviceDefinition.contained</td><td>Element `DeviceDefinition.contained` is mapped to FHIR R4 element `DeviceDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.identifier</td><td style=\"border-left-width: 0px\">DeviceDefinition.identifier</td><td>Element `DeviceDefinition.identifier` is mapped to FHIR R4 element `DeviceDefinition.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier</td><td style=\"border-left-width: 0px\">udiDeviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier</td><td style=\"border-left-width: 0px\">DeviceDefinition.udiDeviceIdentifier</td><td>Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.deviceIdentifier</td><td style=\"border-left-width: 0px\">deviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.deviceIdentifier</td><td style=\"border-left-width: 0px\">DeviceDefinition.udiDeviceIdentifier.deviceIdentifier</td><td>Element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.issuer</td><td style=\"border-left-width: 0px\">issuer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.issuer</td><td style=\"border-left-width: 0px\">DeviceDefinition.udiDeviceIdentifier.issuer</td><td>Element `DeviceDefinition.udiDeviceIdentifier.issuer` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.issuer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.jurisdiction</td><td style=\"border-left-width: 0px\">jurisdiction</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.jurisdiction</td><td style=\"border-left-width: 0px\">DeviceDefinition.udiDeviceIdentifier.jurisdiction</td><td>Element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.manufacturer[x]</td><td style=\"border-left-width: 0px\">DeviceDefinition.manufacturer[x]</td><td>Element `DeviceDefinition.manufacturer` is mapped to FHIR R4 element `DeviceDefinition.manufacturer[x]` as `Equivalent`.\nThe target context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName</td><td style=\"border-left-width: 0px\">deviceName</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName</td><td style=\"border-left-width: 0px\">DeviceDefinition.deviceName</td><td>Element `DeviceDefinition.deviceName` is mapped to FHIR R4 element `DeviceDefinition.deviceName` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName.name</td><td style=\"border-left-width: 0px\">DeviceDefinition.deviceName.name</td><td>Element `DeviceDefinition.deviceName.name` is mapped to FHIR R4 element `DeviceDefinition.deviceName.name` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.deviceName.type</td><td style=\"border-left-width: 0px\">DeviceDefinition.deviceName.type</td><td>Element `DeviceDefinition.deviceName.type` is mapped to FHIR R4 element `DeviceDefinition.deviceName.type` as `SourceIsNarrowerThanTarget`.\nThe mappings for `DeviceDefinition.deviceName.type` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.modelNumber</td><td style=\"border-left-width: 0px\">modelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.modelNumber</td><td style=\"border-left-width: 0px\">DeviceDefinition.modelNumber</td><td>Element `DeviceDefinition.modelNumber` is mapped to FHIR R4 element `DeviceDefinition.modelNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo</td><td style=\"border-left-width: 0px\">conformsTo</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.specialization</td><td style=\"border-left-width: 0px\">DeviceDefinition.specialization</td><td>Element `DeviceDefinition.conformsTo` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.specialization</td><td style=\"border-left-width: 0px\">DeviceDefinition.specialization</td><td>Element `DeviceDefinition.conformsTo.category` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.specification</td><td style=\"border-left-width: 0px\">specification</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.specialization</td><td style=\"border-left-width: 0px\">DeviceDefinition.specialization</td><td>Element `DeviceDefinition.conformsTo.specification` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.specialization.version</td><td style=\"border-left-width: 0px\">DeviceDefinition.specialization.version</td><td>Element `DeviceDefinition.conformsTo.version` is mapped to FHIR R4 element `DeviceDefinition.specialization.version` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.conformsTo.source</td><td style=\"border-left-width: 0px\">source</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.specialization</td><td style=\"border-left-width: 0px\">DeviceDefinition.specialization</td><td>Element `DeviceDefinition.conformsTo.source` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.version</td><td style=\"border-left-width: 0px\">DeviceDefinition.version</td><td>Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.safety</td><td style=\"border-left-width: 0px\">safety</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.safety</td><td style=\"border-left-width: 0px\">DeviceDefinition.safety</td><td>Element `DeviceDefinition.safety` is mapped to FHIR R4 element `DeviceDefinition.safety` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.shelfLifeStorage</td><td style=\"border-left-width: 0px\">shelfLifeStorage</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.shelfLifeStorage</td><td style=\"border-left-width: 0px\">DeviceDefinition.shelfLifeStorage</td><td>Element `DeviceDefinition.shelfLifeStorage` is mapped to FHIR R4 element `DeviceDefinition.shelfLifeStorage` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.languageCode</td><td style=\"border-left-width: 0px\">languageCode</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.languageCode</td><td style=\"border-left-width: 0px\">DeviceDefinition.languageCode</td><td>Element `DeviceDefinition.languageCode` is mapped to FHIR R4 element `DeviceDefinition.languageCode` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.property</td><td style=\"border-left-width: 0px\">property</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.property</td><td style=\"border-left-width: 0px\">DeviceDefinition.property</td><td>Element `DeviceDefinition.property` is mapped to FHIR R4 element `DeviceDefinition.property` as `Equivalent`.\nDynamic or current properties, such as settings, of an individual device are described using a Device instance-specific DeviceMetric and recorded using Observation.  Static characteristics of an individual device could also be documented in a [Device] instance. The Device instance's properties, and their values, could be, but need not be, the same as in the associated DeviceDefinition.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.property.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.property.type</td><td style=\"border-left-width: 0px\">DeviceDefinition.property.type</td><td>Element `DeviceDefinition.property.type` is mapped to FHIR R4 element `DeviceDefinition.property.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceDefinition.property.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.property.valueCode</td><td style=\"border-left-width: 0px\">DeviceDefinition.property.valueCode</td><td>Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`.\nThe mappings for `DeviceDefinition.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThis use of string or CodeableConcept is supported to address different purposes The text element of the valueCodeableConcept choice type is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g., a custom implant size, or a security classification which depends on configuration. Otherwise the valueString choice type is used for textual descriptive device properties that cannot be expressed in other elements.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.property.valueQuantity</td><td style=\"border-left-width: 0px\">DeviceDefinition.property.valueQuantity</td><td>Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`.\nThe mappings for `DeviceDefinition.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThis use of string or CodeableConcept is supported to address different purposes The text element of the valueCodeableConcept choice type is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g., a custom implant size, or a security classification which depends on configuration. Otherwise the valueString choice type is used for textual descriptive device properties that cannot be expressed in other elements.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.owner</td><td style=\"border-left-width: 0px\">owner</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.owner</td><td style=\"border-left-width: 0px\">DeviceDefinition.owner</td><td>Element `DeviceDefinition.owner` is mapped to FHIR R4 element `DeviceDefinition.owner` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.contact</td><td style=\"border-left-width: 0px\">contact</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.contact</td><td style=\"border-left-width: 0px\">DeviceDefinition.contact</td><td>Element `DeviceDefinition.contact` is mapped to FHIR R4 element `DeviceDefinition.contact` as `Equivalent`.\nused for troubleshooting etc.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.note</td><td style=\"border-left-width: 0px\">DeviceDefinition.note</td><td>Element `DeviceDefinition.note` is mapped to FHIR R4 element `DeviceDefinition.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material</td><td style=\"border-left-width: 0px\">material</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.material</td><td style=\"border-left-width: 0px\">DeviceDefinition.material</td><td>Element `DeviceDefinition.material` is mapped to FHIR R4 element `DeviceDefinition.material` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material.substance</td><td style=\"border-left-width: 0px\">substance</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.material.substance</td><td style=\"border-left-width: 0px\">DeviceDefinition.material.substance</td><td>Element `DeviceDefinition.material.substance` is mapped to FHIR R4 element `DeviceDefinition.material.substance` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material.alternate</td><td style=\"border-left-width: 0px\">alternate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.material.alternate</td><td style=\"border-left-width: 0px\">DeviceDefinition.material.alternate</td><td>Element `DeviceDefinition.material.alternate` is mapped to FHIR R4 element `DeviceDefinition.material.alternate` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.material.allergenicIndicator</td><td style=\"border-left-width: 0px\">allergenicIndicator</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceDefinition.material.allergenicIndicator</td><td style=\"border-left-width: 0px\">DeviceDefinition.material.allergenicIndicator</td><td>Element `DeviceDefinition.material.allergenicIndicator` is mapped to FHIR R4 element `DeviceDefinition.material.allergenicIndicator` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceDefinition|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4</td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.description</td><td style=\"border-left-width: 0px\">description</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.description</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.description` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier</td><td style=\"border-left-width: 0px\">udiDeviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.marketDistribution</td><td style=\"border-left-width: 0px\">marketDistribution</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod</td><td style=\"border-left-width: 0px\">marketPeriod</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution:marketPeriod</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction</td><td style=\"border-left-width: 0px\">subJurisdiction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution:subJurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.regulatoryIdentifier</td><td style=\"border-left-width: 0px\">regulatoryIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.regulatoryIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis should not be used for regulatory authorization numbers which are to be captured elsewhere.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.regulatoryIdentifier.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:type</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.regulatoryIdentifier.type` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.regulatoryIdentifier.deviceIdentifier</td><td style=\"border-left-width: 0px\">deviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:deviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.regulatoryIdentifier.issuer</td><td style=\"border-left-width: 0px\">issuer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:issuer</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.regulatoryIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.issuer` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.issuer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.regulatoryIdentifier.jurisdiction</td><td style=\"border-left-width: 0px\">jurisdiction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.regulatoryIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.jurisdiction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.partNumber</td><td style=\"border-left-width: 0px\">partNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.partNumber</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.partNumber` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.partNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAlphanumeric Maximum 20.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.classification</td><td style=\"border-left-width: 0px\">classification</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.classification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.classification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIn this element various classifications can be used, such as GMDN, EMDN, SNOMED CT, risk classes, national product codes.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.classification.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification:type</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.classification.type` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.classification.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.classification.justification</td><td style=\"border-left-width: 0px\">justification</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification:justification</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.classification.justification` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.justification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.classification.justification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.hasPart</td><td style=\"border-left-width: 0px\">hasPart</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.hasPart` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.hasPart` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.hasPart.reference</td><td style=\"border-left-width: 0px\">reference</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart:reference</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nElement `DeviceDefinition.hasPart.reference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.hasPart.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.hasPart.count</td><td style=\"border-left-width: 0px\">count</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart:count</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nElement `DeviceDefinition.hasPart.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.hasPart.count` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging</td><td style=\"border-left-width: 0px\">packaging</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:identifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:type</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.count</td><td style=\"border-left-width: 0px\">count</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:count</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.count` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.distributor</td><td style=\"border-left-width: 0px\">distributor</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:distributor</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.distributor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.distributor.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging.distributor:name</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.distributor.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.distributor.organizationReference</td><td style=\"border-left-width: 0px\">organizationReference</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging.distributor:organizationReference</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceDefinition.packaging.udiDeviceIdentifier</td><td style=\"border-left-width: 0px; border-bottom-style: none\">udiDeviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:udiDeviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.packaging.packaging</td><td style=\"border-left-width: 0px\">packaging</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:packaging</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.packaging` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.version.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.type</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.version.type` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.version.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.version.component</td><td style=\"border-left-width: 0px\">component</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.component</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.version.component` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.version.component` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.version.value</td><td style=\"border-left-width: 0px\">value</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.value</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.version.value` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.version.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.property.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property.value</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`.\nThe mappings for `DeviceDefinition.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThis use of string or CodeableConcept is supported to address different purposes The text element of the valueCodeableConcept choice type is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g., a custom implant size, or a security classification which depends on configuration. Otherwise the valueString choice type is used for textual descriptive device properties that cannot be expressed in other elements.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.link</td><td style=\"border-left-width: 0px\">link</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.link` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.link` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.link.relation</td><td style=\"border-left-width: 0px\">relation</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link:relation</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.link.relation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.link.relatedDevice</td><td style=\"border-left-width: 0px\">relatedDevice</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link:relatedDevice</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.link.relatedDevice` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.productionIdentifierInUDI</td><td style=\"border-left-width: 0px\">productionIdentifierInUDI</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.productionIdentifierInUDI</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.productionIdentifierInUDI` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.productionIdentifierInUDI` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline</td><td style=\"border-left-width: 0px\">guideline</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor more structured data, a ClinicalUseDefinition that points to the DeviceDefinition can be used.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.useContext</td><td style=\"border-left-width: 0px\">useContext</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:useContext</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.usageInstruction</td><td style=\"border-left-width: 0px\">usageInstruction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:usageInstruction</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.usageInstruction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.usageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.relatedArtifact</td><td style=\"border-left-width: 0px\">relatedArtifact</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:relatedArtifact</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.relatedArtifact` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.indication</td><td style=\"border-left-width: 0px\">indication</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:indication</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.indication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.indication` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.contraindication</td><td style=\"border-left-width: 0px\">contraindication</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:contraindication</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.contraindication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.contraindication` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.warning</td><td style=\"border-left-width: 0px\">warning</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:warning</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.warning` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.warning` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.guideline.intendedUse</td><td style=\"border-left-width: 0px\">intendedUse</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:intendedUse</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.intendedUse` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.intendedUse` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.correctiveAction</td><td style=\"border-left-width: 0px\">correctiveAction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.correctiveAction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.correctiveAction.recall</td><td style=\"border-left-width: 0px\">recall</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction:recall</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.correctiveAction.recall` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.recall` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction.recall` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen a field safety action has been initiated but not yet resulted in a recall, this element will be set to 'false'.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.correctiveAction.scope</td><td style=\"border-left-width: 0px\">scope</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction:scope</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.correctiveAction.scope` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.scope` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.correctiveAction.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction:period</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.correctiveAction.period` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.period` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.chargeItem</td><td style=\"border-left-width: 0px\">chargeItem</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.chargeItem` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.chargeItem.chargeItemCode</td><td style=\"border-left-width: 0px\">chargeItemCode</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:chargeItemCode</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.chargeItem.chargeItemCode` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.chargeItemCode` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.chargeItemCode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.chargeItem.count</td><td style=\"border-left-width: 0px\">count</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:count</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.chargeItem.count` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.count` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.chargeItem.effectivePeriod</td><td style=\"border-left-width: 0px\">effectivePeriod</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.chargeItem.effectivePeriod` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.effectivePeriod` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceDefinition.chargeItem.useContext</td><td style=\"border-left-width: 0px\">useContext</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:useContext</td><td style=\"border-left-width: 0px\"/><td>Element `DeviceDefinition.chargeItem.useContext` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5DeviceDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 DeviceDefinition to FHIR R4 DeviceDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.7322338-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 DeviceDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.meta" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.meta` is mapped to FHIR R4 element `DeviceDefinition.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.implicitRules" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.implicitRules` is mapped to FHIR R4 element `DeviceDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.language" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.language` is mapped to FHIR R4 element `DeviceDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.text" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.text` is mapped to FHIR R4 element `DeviceDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.contained" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.contained` is mapped to FHIR R4 element `DeviceDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.identifier" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.identifier` is mapped to FHIR R4 element `DeviceDefinition.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier" ] ;
+       fhir:display [ fhir:v "udiDeviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.udiDeviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.deviceIdentifier" ] ;
+       fhir:display [ fhir:v "deviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.deviceIdentifier" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.udiDeviceIdentifier.deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.issuer" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.udiDeviceIdentifier.issuer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.issuer` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.issuer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.jurisdiction" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.udiDeviceIdentifier.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.manufacturer[x]" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.manufacturer[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.manufacturer` is mapped to FHIR R4 element `DeviceDefinition.manufacturer[x]` as `Equivalent`.\nThe target context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.deviceName" ] ;
+       fhir:display [ fhir:v "deviceName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.deviceName" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.deviceName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.deviceName` is mapped to FHIR R4 element `DeviceDefinition.deviceName` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.deviceName.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.deviceName.name" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.deviceName.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.deviceName.name` is mapped to FHIR R4 element `DeviceDefinition.deviceName.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.deviceName.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.deviceName.type" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.deviceName.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.deviceName.type` is mapped to FHIR R4 element `DeviceDefinition.deviceName.type` as `SourceIsNarrowerThanTarget`.\nThe mappings for `DeviceDefinition.deviceName.type` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.modelNumber" ] ;
+       fhir:display [ fhir:v "modelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.modelNumber" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.modelNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.modelNumber` is mapped to FHIR R4 element `DeviceDefinition.modelNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo" ] ;
+       fhir:display [ fhir:v "conformsTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.category` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.specification" ] ;
+       fhir:display [ fhir:v "specification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.specification` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.specialization.version" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.specialization.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.version` is mapped to FHIR R4 element `DeviceDefinition.specialization.version` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.conformsTo.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.specialization" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.conformsTo.source` is mapped to FHIR R4 element `DeviceDefinition.specialization` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.version" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.safety" ] ;
+       fhir:display [ fhir:v "safety" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.safety" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.safety" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.safety` is mapped to FHIR R4 element `DeviceDefinition.safety` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.shelfLifeStorage" ] ;
+       fhir:display [ fhir:v "shelfLifeStorage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.shelfLifeStorage" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.shelfLifeStorage" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.shelfLifeStorage` is mapped to FHIR R4 element `DeviceDefinition.shelfLifeStorage` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.languageCode" ] ;
+       fhir:display [ fhir:v "languageCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.languageCode" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.languageCode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.languageCode` is mapped to FHIR R4 element `DeviceDefinition.languageCode` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.property" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property` is mapped to FHIR R4 element `DeviceDefinition.property` as `Equivalent`.\nDynamic or current properties, such as settings, of an individual device are described using a Device instance-specific DeviceMetric and recorded using Observation.  Static characteristics of an individual device could also be documented in a [Device] instance. The Device instance's properties, and their values, could be, but need not be, the same as in the associated DeviceDefinition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.property.type" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.property.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.type` is mapped to FHIR R4 element `DeviceDefinition.property.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.property.valueCode" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.property.valueCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`.\nThe mappings for `DeviceDefinition.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThis use of string or CodeableConcept is supported to address different purposes The text element of the valueCodeableConcept choice type is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g., a custom implant size, or a security classification which depends on configuration. Otherwise the valueString choice type is used for textual descriptive device properties that cannot be expressed in other elements." ]
+       ] [
+         fhir:code [ fhir:v "DeviceDefinition.property.valueQuantity" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.property.valueQuantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`.\nThe mappings for `DeviceDefinition.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThis use of string or CodeableConcept is supported to address different purposes The text element of the valueCodeableConcept choice type is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g., a custom implant size, or a security classification which depends on configuration. Otherwise the valueString choice type is used for textual descriptive device properties that cannot be expressed in other elements." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.owner" ] ;
+       fhir:display [ fhir:v "owner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.owner" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.owner" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.owner` is mapped to FHIR R4 element `DeviceDefinition.owner` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.contact" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.contact` is mapped to FHIR R4 element `DeviceDefinition.contact` as `Equivalent`.\nused for troubleshooting etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.note" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.note` is mapped to FHIR R4 element `DeviceDefinition.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material" ] ;
+       fhir:display [ fhir:v "material" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.material" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.material" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material` is mapped to FHIR R4 element `DeviceDefinition.material` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material.substance" ] ;
+       fhir:display [ fhir:v "substance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.material.substance" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.material.substance" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material.substance` is mapped to FHIR R4 element `DeviceDefinition.material.substance` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material.alternate" ] ;
+       fhir:display [ fhir:v "alternate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.material.alternate" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.material.alternate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material.alternate` is mapped to FHIR R4 element `DeviceDefinition.material.alternate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.material.allergenicIndicator" ] ;
+       fhir:display [ fhir:v "allergenicIndicator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceDefinition.material.allergenicIndicator" ] ;
+         fhir:display [ fhir:v "DeviceDefinition.material.allergenicIndicator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.material.allergenicIndicator` is mapped to FHIR R4 element `DeviceDefinition.material.allergenicIndicator` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.description` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier" ] ;
+       fhir:display [ fhir:v "udiDeviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.marketDistribution" ] ;
+       fhir:display [ fhir:v "marketDistribution" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod" ] ;
+       fhir:display [ fhir:v "marketPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution:marketPeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction" ] ;
+       fhir:display [ fhir:v "subJurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution:subJurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier" ] ;
+       fhir:display [ fhir:v "regulatoryIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis should not be used for regulatory authorization numbers which are to be captured elsewhere." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.type` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.deviceIdentifier" ] ;
+       fhir:display [ fhir:v "deviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:issuer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.issuer` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.issuer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.regulatoryIdentifier.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.regulatoryIdentifier:jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.regulatoryIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.jurisdiction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.regulatoryIdentifier.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.partNumber" ] ;
+       fhir:display [ fhir:v "partNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.partNumber" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.partNumber` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.partNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAlphanumeric Maximum 20." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.classification" ] ;
+       fhir:display [ fhir:v "classification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.classification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.classification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIn this element various classifications can be used, such as GMDN, EMDN, SNOMED CT, risk classes, national product codes." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.classification.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification:type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.classification.type` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.classification.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.classification.justification" ] ;
+       fhir:display [ fhir:v "justification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.classification:justification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.classification.justification` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.justification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.classification.justification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.hasPart" ] ;
+       fhir:display [ fhir:v "hasPart" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.hasPart` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.hasPart` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.hasPart.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart:reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nElement `DeviceDefinition.hasPart.reference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.hasPart.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.hasPart.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.hasPart:count" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nElement `DeviceDefinition.hasPart.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.hasPart.count` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging" ] ;
+       fhir:display [ fhir:v "packaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:count" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.count` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.distributor" ] ;
+       fhir:display [ fhir:v "distributor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:distributor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.distributor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.distributor.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging.distributor:name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.distributor.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.distributor.organizationReference" ] ;
+       fhir:display [ fhir:v "organizationReference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging.distributor:organizationReference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.udiDeviceIdentifier" ] ;
+       fhir:display [ fhir:v "udiDeviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:udiDeviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.packaging.packaging" ] ;
+       fhir:display [ fhir:v "packaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging:packaging" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.packaging.packaging` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version.type` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.version.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version.component` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.version.component` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.version.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.version.value` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.version.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property.value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity` as `RelatedTo`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode` as `RelatedTo`.\nThe mappings for `DeviceDefinition.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThis use of string or CodeableConcept is supported to address different purposes The text element of the valueCodeableConcept choice type is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g., a custom implant size, or a security classification which depends on configuration. Otherwise the valueString choice type is used for textual descriptive device properties that cannot be expressed in other elements." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.link` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.link` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.link.relation" ] ;
+       fhir:display [ fhir:v "relation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link:relation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.link.relation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.link.relatedDevice" ] ;
+       fhir:display [ fhir:v "relatedDevice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.link:relatedDevice" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.link.relatedDevice` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.productionIdentifierInUDI" ] ;
+       fhir:display [ fhir:v "productionIdentifierInUDI" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.productionIdentifierInUDI" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.productionIdentifierInUDI` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.productionIdentifierInUDI` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline" ] ;
+       fhir:display [ fhir:v "guideline" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor more structured data, a ClinicalUseDefinition that points to the DeviceDefinition can be used." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:useContext" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.usageInstruction" ] ;
+       fhir:display [ fhir:v "usageInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:usageInstruction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.usageInstruction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.usageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:relatedArtifact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.relatedArtifact` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.indication" ] ;
+       fhir:display [ fhir:v "indication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:indication" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.indication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.indication` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.contraindication" ] ;
+       fhir:display [ fhir:v "contraindication" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:contraindication" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.contraindication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.contraindication` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.warning" ] ;
+       fhir:display [ fhir:v "warning" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:warning" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.warning` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.warning` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA ClinicalUseDefinition that points to the DeviceDefinition can be used if more structured data is needed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.guideline.intendedUse" ] ;
+       fhir:display [ fhir:v "intendedUse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.guideline:intendedUse" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.intendedUse` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.guideline.intendedUse` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction" ] ;
+       fhir:display [ fhir:v "correctiveAction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction.recall" ] ;
+       fhir:display [ fhir:v "recall" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction:recall" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction.recall` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.recall` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction.recall` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen a field safety action has been initiated but not yet resulted in a recall, this element will be set to 'false'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction.scope" ] ;
+       fhir:display [ fhir:v "scope" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction:scope" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction.scope` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.scope` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.correctiveAction.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction:period" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.correctiveAction.period` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.period` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.correctiveAction.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem" ] ;
+       fhir:display [ fhir:v "chargeItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.chargeItemCode" ] ;
+       fhir:display [ fhir:v "chargeItemCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:chargeItemCode" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.chargeItemCode` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.chargeItemCode` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.chargeItemCode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.count" ] ;
+       fhir:display [ fhir:v "count" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:count" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.count` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.count` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.effectivePeriod` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.effectivePeriod` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceDefinition.chargeItem.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.chargeItem:useContext" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceDefinition.chargeItem.useContext` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.\nElement `DeviceDefinition.chargeItem.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

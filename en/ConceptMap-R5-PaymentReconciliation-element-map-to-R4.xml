@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-PaymentReconciliation-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-PaymentReconciliation-element-map-to-R4</b></p><a name="R5-PaymentReconciliation-element-map-to-R4"> </a><a name="hcR5-PaymentReconciliation-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PaymentReconciliation|5.0.0</code> to <a href="http://hl7.org/fhir/R4/paymentreconciliation.html">PaymentReconciliationversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PaymentReconciliation.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.meta</td><td>Element `PaymentReconciliation.meta` is mapped to FHIR R4 element `PaymentReconciliation.meta` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.implicitRules</td><td>Element `PaymentReconciliation.implicitRules` is mapped to FHIR R4 element `PaymentReconciliation.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>PaymentReconciliation.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.language</td><td>Element `PaymentReconciliation.language` is mapped to FHIR R4 element `PaymentReconciliation.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>PaymentReconciliation.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.text</td><td>Element `PaymentReconciliation.text` is mapped to FHIR R4 element `PaymentReconciliation.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>PaymentReconciliation.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.contained</td><td>Element `PaymentReconciliation.contained` is mapped to FHIR R4 element `PaymentReconciliation.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>PaymentReconciliation.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.identifier</td><td>Element `PaymentReconciliation.identifier` is mapped to FHIR R4 element `PaymentReconciliation.identifier` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.status</td><td>Element `PaymentReconciliation.status` is mapped to FHIR R4 element `PaymentReconciliation.status` as `Equivalent`.
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>PaymentReconciliation.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.period</td><td>Element `PaymentReconciliation.period` is mapped to FHIR R4 element `PaymentReconciliation.period` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.created (created)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.created</td><td>Element `PaymentReconciliation.created` is mapped to FHIR R4 element `PaymentReconciliation.created` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.paymentIssuer (paymentIssuer)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>PaymentReconciliation.paymentIssuer</td><td>Element `PaymentReconciliation.paymentIssuer` is mapped to FHIR R4 element `PaymentReconciliation.paymentIssuer` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `PaymentReconciliation.paymentIssuer` with unmapped reference targets: Patient, RelatedPerson.
+This party is also responsible for the reconciliation.</td></tr><tr><td>PaymentReconciliation.request (request)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.request</td><td>Element `PaymentReconciliation.request` is mapped to FHIR R4 element `PaymentReconciliation.request` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.requestor (requestor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.requestor</td><td>Element `PaymentReconciliation.requestor` is mapped to FHIR R4 element `PaymentReconciliation.requestor` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.outcome (outcome)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.outcome</td><td>Element `PaymentReconciliation.outcome` is mapped to FHIR R4 element `PaymentReconciliation.outcome` as `Equivalent`.
+The resource may be used to indicate that: the request has been held (queued) for processing; that it has been processed and errors found (error); that no errors were found and that some of the adjudication has been undertaken (partial) or that all of the adjudication has been undertaken (complete).</td></tr><tr><td>PaymentReconciliation.disposition (disposition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.disposition</td><td>Element `PaymentReconciliation.disposition` is mapped to FHIR R4 element `PaymentReconciliation.disposition` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.paymentDate</td><td>Element `PaymentReconciliation.date` is mapped to FHIR R4 element `PaymentReconciliation.paymentDate` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.amount (amount)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.paymentAmount</td><td>Element `PaymentReconciliation.amount` is mapped to FHIR R4 element `PaymentReconciliation.paymentAmount` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.paymentIdentifier (paymentIdentifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.paymentIdentifier</td><td>Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR R4 element `PaymentReconciliation.paymentIdentifier` as `Equivalent`.
+For example: EFT number or check number.</td></tr><tr><td>PaymentReconciliation.allocation (allocation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>PaymentReconciliation.detail</td><td>Element `PaymentReconciliation.allocation` is mapped to FHIR R4 element `PaymentReconciliation.detail` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.identifier</td><td>Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR R4 element `PaymentReconciliation.detail.identifier` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.predecessor (predecessor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.predecessor</td><td>Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR R4 element `PaymentReconciliation.detail.predecessor` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.type</td><td>Element `PaymentReconciliation.allocation.type` is mapped to FHIR R4 element `PaymentReconciliation.detail.type` as `Equivalent`.
+For example: payment, adjustment, funds advance, etc.</td></tr><tr><td>PaymentReconciliation.allocation.submitter (submitter)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.submitter</td><td>Element `PaymentReconciliation.allocation.submitter` is mapped to FHIR R4 element `PaymentReconciliation.detail.submitter` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>PaymentReconciliation.detail.response</td><td>Element `PaymentReconciliation.allocation.response` is mapped to FHIR R4 element `PaymentReconciliation.detail.response` as `SourceIsBroaderThanTarget`.
+The mappings for `PaymentReconciliation.allocation.response` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `PaymentReconciliation.allocation.response` with unmapped reference targets: ClaimResponse.</td></tr><tr><td>PaymentReconciliation.allocation.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.date</td><td>Element `PaymentReconciliation.allocation.date` is mapped to FHIR R4 element `PaymentReconciliation.detail.date` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.responsible (responsible)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.responsible</td><td>Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR R4 element `PaymentReconciliation.detail.responsible` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.payee (payee)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.payee</td><td>Element `PaymentReconciliation.allocation.payee` is mapped to FHIR R4 element `PaymentReconciliation.detail.payee` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.allocation.amount (amount)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.detail.amount</td><td>Element `PaymentReconciliation.allocation.amount` is mapped to FHIR R4 element `PaymentReconciliation.detail.amount` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.formCode (formCode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.formCode</td><td>Element `PaymentReconciliation.formCode` is mapped to FHIR R4 element `PaymentReconciliation.formCode` as `Equivalent`.
+May be needed to identify specific jurisdictional forms.</td></tr><tr><td>PaymentReconciliation.processNote (processNote)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>PaymentReconciliation.processNote</td><td>Element `PaymentReconciliation.processNote` is mapped to FHIR R4 element `PaymentReconciliation.processNote` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.processNote.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.processNote.type</td><td>Element `PaymentReconciliation.processNote.type` is mapped to FHIR R4 element `PaymentReconciliation.processNote.type` as `Equivalent`.</td></tr><tr><td>PaymentReconciliation.processNote.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>PaymentReconciliation.processNote.text</td><td>Element `PaymentReconciliation.processNote.text` is mapped to FHIR R4 element `PaymentReconciliation.processNote.text` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PaymentReconciliation|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PaymentReconciliation.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.type</td><td>Element `PaymentReconciliation.type` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.kind (kind)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.kind</td><td>Element `PaymentReconciliation.kind` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.kind` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.enterer (enterer)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.enterer</td><td>Element `PaymentReconciliation.enterer` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.enterer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.issuerType (issuerType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.issuerType</td><td>Element `PaymentReconciliation.issuerType` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.issuerType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.location</td><td>Element `PaymentReconciliation.location` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.method (method)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.method</td><td>Element `PaymentReconciliation.method` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.method` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.cardBrand (cardBrand)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.cardBrand</td><td>Element `PaymentReconciliation.cardBrand` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.cardBrand` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.accountNumber (accountNumber)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.accountNumber</td><td>Element `PaymentReconciliation.accountNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.accountNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.expirationDate (expirationDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.expirationDate</td><td>Element `PaymentReconciliation.expirationDate` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.expirationDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.processor (processor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processor</td><td>Element `PaymentReconciliation.processor` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.processor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.referenceNumber (referenceNumber)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.referenceNumber</td><td>Element `PaymentReconciliation.referenceNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.referenceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.authorization (authorization)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.authorization</td><td>Element `PaymentReconciliation.authorization` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.authorization` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.tenderedAmount (tenderedAmount)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.tenderedAmount</td><td>Element `PaymentReconciliation.tenderedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.tenderedAmount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.returnedAmount (returnedAmount)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.returnedAmount</td><td>Element `PaymentReconciliation.returnedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.returnedAmount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.allocation.target (target)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.target</td><td>Element `PaymentReconciliation.allocation.target` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.allocation.target` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.allocation.targetItem[x] (targetItem[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem</td><td>Element `PaymentReconciliation.allocation.targetItem[x]` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.allocation.targetItem[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.allocation.encounter (encounter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.encounter</td><td>Element `PaymentReconciliation.allocation.encounter` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.allocation.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>PaymentReconciliation.allocation.account (account)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.account</td><td>Element `PaymentReconciliation.allocation.account` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.
+Element `PaymentReconciliation.allocation.account` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PaymentReconciliation|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PaymentReconciliation.paymentIssuer (paymentIssuer)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>PaymentReconciliation.allocation.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-PaymentReconciliation-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5PaymentReconciliationElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 PaymentReconciliation to FHIR R4 PaymentReconciliation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:50.8750657-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 PaymentReconciliation to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/PaymentReconciliation"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/PaymentReconciliation"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="PaymentReconciliation.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="PaymentReconciliation.meta"/>
+        <display value="PaymentReconciliation.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.meta` is mapped to FHIR R4 element `PaymentReconciliation.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="PaymentReconciliation.implicitRules"/>
+        <display value="PaymentReconciliation.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.implicitRules` is mapped to FHIR R4 element `PaymentReconciliation.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.language"/>
+      <display value="language"/>
+      <target>
+        <code value="PaymentReconciliation.language"/>
+        <display value="PaymentReconciliation.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.language` is mapped to FHIR R4 element `PaymentReconciliation.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.text"/>
+      <display value="text"/>
+      <target>
+        <code value="PaymentReconciliation.text"/>
+        <display value="PaymentReconciliation.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.text` is mapped to FHIR R4 element `PaymentReconciliation.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="PaymentReconciliation.contained"/>
+        <display value="PaymentReconciliation.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.contained` is mapped to FHIR R4 element `PaymentReconciliation.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="PaymentReconciliation.identifier"/>
+        <display value="PaymentReconciliation.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.identifier` is mapped to FHIR R4 element `PaymentReconciliation.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.status"/>
+      <display value="status"/>
+      <target>
+        <code value="PaymentReconciliation.status"/>
+        <display value="PaymentReconciliation.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.status` is mapped to FHIR R4 element `PaymentReconciliation.status` as `Equivalent`.&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.period"/>
+      <display value="period"/>
+      <target>
+        <code value="PaymentReconciliation.period"/>
+        <display value="PaymentReconciliation.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.period` is mapped to FHIR R4 element `PaymentReconciliation.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.created"/>
+      <display value="created"/>
+      <target>
+        <code value="PaymentReconciliation.created"/>
+        <display value="PaymentReconciliation.created"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.created` is mapped to FHIR R4 element `PaymentReconciliation.created` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.paymentIssuer"/>
+      <display value="paymentIssuer"/>
+      <target>
+        <code value="PaymentReconciliation.paymentIssuer"/>
+        <display value="PaymentReconciliation.paymentIssuer"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.paymentIssuer` is mapped to FHIR R4 element `PaymentReconciliation.paymentIssuer` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `PaymentReconciliation.paymentIssuer` with unmapped reference targets: Patient, RelatedPerson.&#xA;This party is also responsible for the reconciliation."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.request"/>
+      <display value="request"/>
+      <target>
+        <code value="PaymentReconciliation.request"/>
+        <display value="PaymentReconciliation.request"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.request` is mapped to FHIR R4 element `PaymentReconciliation.request` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.requestor"/>
+      <display value="requestor"/>
+      <target>
+        <code value="PaymentReconciliation.requestor"/>
+        <display value="PaymentReconciliation.requestor"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.requestor` is mapped to FHIR R4 element `PaymentReconciliation.requestor` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.outcome"/>
+      <display value="outcome"/>
+      <target>
+        <code value="PaymentReconciliation.outcome"/>
+        <display value="PaymentReconciliation.outcome"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.outcome` is mapped to FHIR R4 element `PaymentReconciliation.outcome` as `Equivalent`.&#xA;The resource may be used to indicate that: the request has been held (queued) for processing; that it has been processed and errors found (error); that no errors were found and that some of the adjudication has been undertaken (partial) or that all of the adjudication has been undertaken (complete)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.disposition"/>
+      <display value="disposition"/>
+      <target>
+        <code value="PaymentReconciliation.disposition"/>
+        <display value="PaymentReconciliation.disposition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.disposition` is mapped to FHIR R4 element `PaymentReconciliation.disposition` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.date"/>
+      <display value="date"/>
+      <target>
+        <code value="PaymentReconciliation.paymentDate"/>
+        <display value="PaymentReconciliation.paymentDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.date` is mapped to FHIR R4 element `PaymentReconciliation.paymentDate` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.amount"/>
+      <display value="amount"/>
+      <target>
+        <code value="PaymentReconciliation.paymentAmount"/>
+        <display value="PaymentReconciliation.paymentAmount"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.amount` is mapped to FHIR R4 element `PaymentReconciliation.paymentAmount` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.paymentIdentifier"/>
+      <display value="paymentIdentifier"/>
+      <target>
+        <code value="PaymentReconciliation.paymentIdentifier"/>
+        <display value="PaymentReconciliation.paymentIdentifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR R4 element `PaymentReconciliation.paymentIdentifier` as `Equivalent`.&#xA;For example: EFT number or check number."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation"/>
+      <display value="allocation"/>
+      <target>
+        <code value="PaymentReconciliation.detail"/>
+        <display value="PaymentReconciliation.detail"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.allocation` is mapped to FHIR R4 element `PaymentReconciliation.detail` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="PaymentReconciliation.detail.identifier"/>
+        <display value="PaymentReconciliation.detail.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR R4 element `PaymentReconciliation.detail.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.predecessor"/>
+      <display value="predecessor"/>
+      <target>
+        <code value="PaymentReconciliation.detail.predecessor"/>
+        <display value="PaymentReconciliation.detail.predecessor"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR R4 element `PaymentReconciliation.detail.predecessor` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.type"/>
+      <display value="type"/>
+      <target>
+        <code value="PaymentReconciliation.detail.type"/>
+        <display value="PaymentReconciliation.detail.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.type` is mapped to FHIR R4 element `PaymentReconciliation.detail.type` as `Equivalent`.&#xA;For example: payment, adjustment, funds advance, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.submitter"/>
+      <display value="submitter"/>
+      <target>
+        <code value="PaymentReconciliation.detail.submitter"/>
+        <display value="PaymentReconciliation.detail.submitter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.submitter` is mapped to FHIR R4 element `PaymentReconciliation.detail.submitter` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.response"/>
+      <display value="response"/>
+      <target>
+        <code value="PaymentReconciliation.detail.response"/>
+        <display value="PaymentReconciliation.detail.response"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.allocation.response` is mapped to FHIR R4 element `PaymentReconciliation.detail.response` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `PaymentReconciliation.allocation.response` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `PaymentReconciliation.allocation.response` with unmapped reference targets: ClaimResponse."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.date"/>
+      <display value="date"/>
+      <target>
+        <code value="PaymentReconciliation.detail.date"/>
+        <display value="PaymentReconciliation.detail.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.date` is mapped to FHIR R4 element `PaymentReconciliation.detail.date` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.responsible"/>
+      <display value="responsible"/>
+      <target>
+        <code value="PaymentReconciliation.detail.responsible"/>
+        <display value="PaymentReconciliation.detail.responsible"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR R4 element `PaymentReconciliation.detail.responsible` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.payee"/>
+      <display value="payee"/>
+      <target>
+        <code value="PaymentReconciliation.detail.payee"/>
+        <display value="PaymentReconciliation.detail.payee"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.payee` is mapped to FHIR R4 element `PaymentReconciliation.detail.payee` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.amount"/>
+      <display value="amount"/>
+      <target>
+        <code value="PaymentReconciliation.detail.amount"/>
+        <display value="PaymentReconciliation.detail.amount"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.allocation.amount` is mapped to FHIR R4 element `PaymentReconciliation.detail.amount` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.formCode"/>
+      <display value="formCode"/>
+      <target>
+        <code value="PaymentReconciliation.formCode"/>
+        <display value="PaymentReconciliation.formCode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.formCode` is mapped to FHIR R4 element `PaymentReconciliation.formCode` as `Equivalent`.&#xA;May be needed to identify specific jurisdictional forms."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.processNote"/>
+      <display value="processNote"/>
+      <target>
+        <code value="PaymentReconciliation.processNote"/>
+        <display value="PaymentReconciliation.processNote"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.processNote` is mapped to FHIR R4 element `PaymentReconciliation.processNote` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.processNote.type"/>
+      <display value="type"/>
+      <target>
+        <code value="PaymentReconciliation.processNote.type"/>
+        <display value="PaymentReconciliation.processNote.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.processNote.type` is mapped to FHIR R4 element `PaymentReconciliation.processNote.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.processNote.text"/>
+      <display value="text"/>
+      <target>
+        <code value="PaymentReconciliation.processNote.text"/>
+        <display value="PaymentReconciliation.processNote.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `PaymentReconciliation.processNote.text` is mapped to FHIR R4 element `PaymentReconciliation.processNote.text` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/PaymentReconciliation"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="PaymentReconciliation.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.type` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.kind"/>
+      <display value="kind"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.kind"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.kind` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.kind` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.enterer"/>
+      <display value="enterer"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.enterer"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.enterer` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.enterer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.issuerType"/>
+      <display value="issuerType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.issuerType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.issuerType` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.issuerType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.location"/>
+      <display value="location"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.location"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.location` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.method"/>
+      <display value="method"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.method"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.method` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.method` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.cardBrand"/>
+      <display value="cardBrand"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.cardBrand"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.cardBrand` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.cardBrand` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.accountNumber"/>
+      <display value="accountNumber"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.accountNumber"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.accountNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.accountNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.expirationDate"/>
+      <display value="expirationDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.expirationDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.expirationDate` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.expirationDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.processor"/>
+      <display value="processor"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.processor` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.processor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.referenceNumber"/>
+      <display value="referenceNumber"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.referenceNumber"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.referenceNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.referenceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.authorization"/>
+      <display value="authorization"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.authorization"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.authorization` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.authorization` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.tenderedAmount"/>
+      <display value="tenderedAmount"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.tenderedAmount"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.tenderedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.tenderedAmount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.returnedAmount"/>
+      <display value="returnedAmount"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.returnedAmount"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.returnedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.returnedAmount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.target"/>
+      <display value="target"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.target"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.allocation.target` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.allocation.target` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.targetItem[x]"/>
+      <display value="targetItem[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.allocation.targetItem[x]` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.allocation.targetItem[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.encounter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.allocation.encounter` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.allocation.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.account"/>
+      <display value="account"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.account"/>
+        <equivalence value="wider"/>
+        <comment value="Element `PaymentReconciliation.allocation.account` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.&#xA;Element `PaymentReconciliation.allocation.account` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/PaymentReconciliation"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="PaymentReconciliation.paymentIssuer"/>
+      <display value="paymentIssuer"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="PaymentReconciliation.allocation.response"/>
+      <display value="response"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

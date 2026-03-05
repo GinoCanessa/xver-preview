@@ -1,0 +1,621 @@
+# R5MeasureReportElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5MeasureReportElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 MeasureReport to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-MeasureReport-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MeasureReport-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5MeasureReportElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 MeasureReport to FHIR R4 MeasureReport",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:50.1166611-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MeasureReport to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/MeasureReport",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/MeasureReport",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "MeasureReport.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "MeasureReport.meta",
+        "display" : "MeasureReport.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.meta` is mapped to FHIR R4 element `MeasureReport.meta` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "MeasureReport.implicitRules",
+        "display" : "MeasureReport.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.implicitRules` is mapped to FHIR R4 element `MeasureReport.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "MeasureReport.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "MeasureReport.language",
+        "display" : "MeasureReport.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.language` is mapped to FHIR R4 element `MeasureReport.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "MeasureReport.text",
+        "display" : "MeasureReport.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.text` is mapped to FHIR R4 element `MeasureReport.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "MeasureReport.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "MeasureReport.contained",
+        "display" : "MeasureReport.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.contained` is mapped to FHIR R4 element `MeasureReport.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "MeasureReport.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "MeasureReport.identifier",
+        "display" : "MeasureReport.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.identifier` is mapped to FHIR R4 element `MeasureReport.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II data type - e.g. to identify this {{title}} outside of FHIR, where the logical URL is not possible to use."
+      }]
+    },
+    {
+      "code" : "MeasureReport.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "MeasureReport.status",
+        "display" : "MeasureReport.status",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.status` is mapped to FHIR R4 element `MeasureReport.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."
+      }]
+    },
+    {
+      "code" : "MeasureReport.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "MeasureReport.type",
+        "display" : "MeasureReport.type",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.type` is mapped to FHIR R4 element `MeasureReport.type` as `Equivalent`.\nData-exchange reports are used only to communicate data-of-interest for a measure. They do not necessarily include all the data for a particular subject or population, but they may."
+      }]
+    },
+    {
+      "code" : "MeasureReport.measure",
+      "display" : "measure",
+      "target" : [{
+        "code" : "MeasureReport.measure",
+        "display" : "MeasureReport.measure",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.measure` is mapped to FHIR R4 element `MeasureReport.measure` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "MeasureReport.subject",
+        "display" : "MeasureReport.subject",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.subject` is mapped to FHIR R4 element `MeasureReport.subject` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MeasureReport.subject` with unmapped reference targets: CareTeam, HealthcareService, Organization."
+      }]
+    },
+    {
+      "code" : "MeasureReport.date",
+      "display" : "date",
+      "target" : [{
+        "code" : "MeasureReport.date",
+        "display" : "MeasureReport.date",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.date` is mapped to FHIR R4 element `MeasureReport.date` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.reporter",
+      "display" : "reporter",
+      "target" : [{
+        "code" : "MeasureReport.reporter",
+        "display" : "MeasureReport.reporter",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.reporter` is mapped to FHIR R4 element `MeasureReport.reporter` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MeasureReport.reporter` with unmapped reference targets: Group."
+      }]
+    },
+    {
+      "code" : "MeasureReport.period",
+      "display" : "period",
+      "target" : [{
+        "code" : "MeasureReport.period",
+        "display" : "MeasureReport.period",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.period` is mapped to FHIR R4 element `MeasureReport.period` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.improvementNotation",
+      "display" : "improvementNotation",
+      "target" : [{
+        "code" : "MeasureReport.improvementNotation",
+        "display" : "MeasureReport.improvementNotation",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.improvementNotation` is mapped to FHIR R4 element `MeasureReport.improvementNotation` as `Equivalent`.\nThis element is typically defined by the measure, but reproduced here to ensure the measure score can be interpreted. The element is labeled as a modifier because it changes the interpretation of the reported measure score. Note also that a MeasureReport instance includes the improvementNotation as defined by the Measure being reported. It is duplicated in the MeasureReport because it is a critical aspect of interpreting the measure score but it is not intended to reflect whether the measure report is an increase or decrease. It helps interpret if the measure score is an increase or decrease, I.e., moving in the direction of the desired outcome."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group",
+      "display" : "group",
+      "target" : [{
+        "code" : "MeasureReport.group",
+        "display" : "MeasureReport.group",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group` is mapped to FHIR R4 element `MeasureReport.group` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "MeasureReport.group.code",
+        "display" : "MeasureReport.group.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.code` is mapped to FHIR R4 element `MeasureReport.group.code` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population",
+      "display" : "population",
+      "target" : [{
+        "code" : "MeasureReport.group.population",
+        "display" : "MeasureReport.group.population",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.population` is mapped to FHIR R4 element `MeasureReport.group.population` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "MeasureReport.group.population.code",
+        "display" : "MeasureReport.group.population.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.population.code` is mapped to FHIR R4 element `MeasureReport.group.population.code` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population.count",
+      "display" : "count",
+      "target" : [{
+        "code" : "MeasureReport.group.population.count",
+        "display" : "MeasureReport.group.population.count",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.population.count` is mapped to FHIR R4 element `MeasureReport.group.population.count` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population.subjectResults",
+      "display" : "subjectResults",
+      "target" : [{
+        "code" : "MeasureReport.group.population.subjectResults",
+        "display" : "MeasureReport.group.population.subjectResults",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.population.subjectResults` is mapped to FHIR R4 element `MeasureReport.group.population.subjectResults` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.measureScore[x]",
+      "display" : "measureScore[x]",
+      "target" : [{
+        "code" : "MeasureReport.group.measureScore",
+        "display" : "MeasureReport.group.measureScore",
+        "equivalence" : "relatedto",
+        "comment" : "Element `MeasureReport.group.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.measureScore` as `RelatedTo`.\nThe mappings for `MeasureReport.group.measureScore[x]` do not cover the following types: CodeableConcept, dateTime, Period, Range."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier",
+      "display" : "stratifier",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier",
+        "display" : "MeasureReport.group.stratifier",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier` is mapped to FHIR R4 element `MeasureReport.group.stratifier` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.code",
+        "display" : "MeasureReport.group.stratifier.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.stratifier.code` is mapped to FHIR R4 element `MeasureReport.group.stratifier.code` as `SourceIsNarrowerThanTarget`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum",
+      "display" : "stratum",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum",
+        "display" : "MeasureReport.group.stratifier.stratum",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.value",
+        "display" : "MeasureReport.group.stratifier.stratum.value",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `MeasureReport.group.stratifier.stratum.value[x]` do not cover the following types: boolean, Quantity, Range, Reference."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.component",
+      "display" : "component",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.component",
+        "display" : "MeasureReport.group.stratifier.stratum.component",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.component.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.component.code",
+        "display" : "MeasureReport.group.stratifier.stratum.component.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component.code` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component.code` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.component.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.component.value",
+        "display" : "MeasureReport.group.stratifier.stratum.component.value",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `MeasureReport.group.stratifier.stratum.component.value[x]` do not cover the following types: boolean, Quantity, Range, Reference."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population",
+      "display" : "population",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.population",
+        "display" : "MeasureReport.group.stratifier.stratum.population",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.population.code",
+        "display" : "MeasureReport.group.stratifier.stratum.population.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.code` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population.code` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population.count",
+      "display" : "count",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.population.count",
+        "display" : "MeasureReport.group.stratifier.stratum.population.count",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.count` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population.count` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population.subjectResults",
+      "display" : "subjectResults",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.population.subjectResults",
+        "display" : "MeasureReport.group.stratifier.stratum.population.subjectResults",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectResults` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.population.subjectResults` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.measureScore[x]",
+      "display" : "measureScore[x]",
+      "target" : [{
+        "code" : "MeasureReport.group.stratifier.stratum.measureScore",
+        "display" : "MeasureReport.group.stratifier.stratum.measureScore",
+        "equivalence" : "relatedto",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.measureScore` as `RelatedTo`.\nThe mappings for `MeasureReport.group.stratifier.stratum.measureScore[x]` do not cover the following types: CodeableConcept, dateTime, Period, Range."
+      }]
+    },
+    {
+      "code" : "MeasureReport.evaluatedResource",
+      "display" : "evaluatedResource",
+      "target" : [{
+        "code" : "MeasureReport.evaluatedResource",
+        "display" : "MeasureReport.evaluatedResource",
+        "equivalence" : "equivalent",
+        "comment" : "Element `MeasureReport.evaluatedResource` is mapped to FHIR R4 element `MeasureReport.evaluatedResource` as `Equivalent`.\nEvaluated resources are only reported for individual reports."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/MeasureReport",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "MeasureReport.dataUpdateType",
+      "display" : "dataUpdateType",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.dataUpdateType",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.dataUpdateType` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.dataUpdateType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element only applies to Data-collection reports used to communicate the data-of-interest for a measure"
+      }]
+    },
+    {
+      "code" : "MeasureReport.reportingVendor",
+      "display" : "reportingVendor",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.reportingVendor",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.reportingVendor` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.reportingVendor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.location",
+      "display" : "location",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.location",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.location` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.inputParameters",
+      "display" : "inputParameters",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.inputParameters",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.inputParameters` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.inputParameters` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhenever an operation returns a MeasureReport, the IN parameters from that operation can be returned to the caller of the operation using MeasureReport.inputParameters. Operations include but are not limited to $evaluate-measure, $care-gaps, $data-requirements, and $collect-data. The inputParameters can also be used in a MeasureReport used to define a test case (i.e., not as a result of an operation)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.scoring",
+      "display" : "scoring",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.scoring",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.scoring` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.scoring` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.linkId",
+      "display" : "linkId",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.linkId` has a context of MeasureReport.group based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.subject",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.subject` has a context of MeasureReport.group based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population.linkId",
+      "display" : "linkId",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.population.linkId` has a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.population.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population.subjectReport",
+      "display" : "subjectReport",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.subjectReport",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.population.subjectReport` has a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.population.subjectReport` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element SHALL NOT be used in with subjectResults, either systems provide results as a List of MeasureReport, or as references to individual MeasureReports. Note that using this element introduces a constraint on the size of the subject-list MeasureReport; implementations would be free to return a TOO-COSTLY response if a request is made for a subject-list report with too many subjects."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.population.subjects",
+      "display" : "subjects",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.subjects",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.population.subjects` has a context of MeasureReport.group.population based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.population.subjects` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this element can only be used for summary and subject-list reports where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group resource SHALL be an actual (as opposed to a definitional) group."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.measureScore[x]",
+      "display" : "measureScore[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.measureScore",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.measureScore` as `RelatedTo`.\nThe mappings for `MeasureReport.group.measureScore[x]` do not cover the following types: CodeableConcept, dateTime, Period, Range."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.linkId",
+      "display" : "linkId",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.linkId` has a context of MeasureReport.group.stratifier based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.stratifier.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `MeasureReport.group.stratifier.stratum.value[x]` do not cover the following types: boolean, Quantity, Range, Reference."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.component.linkId",
+      "display" : "linkId",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.linkId",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component.linkId` has a context of MeasureReport.group.stratifier.stratum.component based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.stratifier.stratum.component.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.component.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.component.value[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.component.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `MeasureReport.group.stratifier.stratum.component.value[x]` do not cover the following types: boolean, Quantity, Range, Reference."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population.linkId",
+      "display" : "linkId",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.linkId",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.linkId` has a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.stratifier.stratum.population.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population.subjectReport",
+      "display" : "subjectReport",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.subjectReport",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjectReport` has a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.stratifier.stratum.population.subjectReport` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element SHALL NOT be used in with subjectResults, either systems provide results as a List of MeasureReport, or as references to individual MeasureReports. Note that using this element introduces a constraint on the size of the subject-list MeasureReport; implementations would be free to return a TOO-COSTLY response if a request is made for a subject-list report with too many subjects."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.population.subjects",
+      "display" : "subjects",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.subjects",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.population.subjects` has a context of MeasureReport.group.stratifier.stratum.population based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.group.stratifier.stratum.population.subjects` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote that this element can only be used for summary and subject-list reports where the basis is of the same type as the populations (e.g. a Patient-based measure, rather than an Encounter-based measure). In addition, the referenced Group SHALL be an actual (as opposed to a definitional) group."
+      }]
+    },
+    {
+      "code" : "MeasureReport.group.stratifier.stratum.measureScore[x]",
+      "display" : "measureScore[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.measureScore",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.group.stratifier.stratum.measureScore[x]` is mapped to FHIR R4 element `MeasureReport.group.stratifier.stratum.measureScore` as `RelatedTo`.\nThe mappings for `MeasureReport.group.stratifier.stratum.measureScore[x]` do not cover the following types: CodeableConcept, dateTime, Period, Range."
+      }]
+    },
+    {
+      "code" : "MeasureReport.supplementalData",
+      "display" : "supplementalData",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.supplementalData",
+        "equivalence" : "wider",
+        "comment" : "Element `MeasureReport.supplementalData` has a context of MeasureReport based on following the parent source element upwards and mapping to `MeasureReport`.\nElement `MeasureReport.supplementalData` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor individual measure reports, the supplementalData elements represent the direct result of evaluating the supplementalData expression for the subject of the report. For summary reports, supplementalData is reported as references to contained Observation resources that represent the number of times each value appeared as a supplementalData result for members of the population."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/MeasureReport",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "targetVersion" : "5.2.0",
+    "element" : [{
+      "code" : "MeasureReport.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "equivalent",
+        "comment" : "R5: additional references"
+      }]
+    },
+    {
+      "code" : "MeasureReport.reporter",
+      "display" : "reporter",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "equivalent",
+        "comment" : "R5: additional references"
+      }]
+    }]
+  }]
+}
+
+```

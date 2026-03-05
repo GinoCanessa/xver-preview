@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-ServiceRequest-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-ServiceRequest-element-map-to-R4</b></p><a name="R5-ServiceRequest-element-map-to-R4"> </a><a name="hcR5-ServiceRequest-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ServiceRequest|5.0.0</code> to <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequestversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ServiceRequest|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ServiceRequest|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">ServiceRequest.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.meta</td><td style="border-left-width: 0px">ServiceRequest.meta</td><td>Element `ServiceRequest.meta` is mapped to FHIR R4 element `ServiceRequest.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.implicitRules</td><td style="border-left-width: 0px">ServiceRequest.implicitRules</td><td>Element `ServiceRequest.implicitRules` is mapped to FHIR R4 element `ServiceRequest.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.language</td><td style="border-left-width: 0px">ServiceRequest.language</td><td>Element `ServiceRequest.language` is mapped to FHIR R4 element `ServiceRequest.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.text</td><td style="border-left-width: 0px">ServiceRequest.text</td><td>Element `ServiceRequest.text` is mapped to FHIR R4 element `ServiceRequest.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.contained</td><td style="border-left-width: 0px">ServiceRequest.contained</td><td>Element `ServiceRequest.contained` is mapped to FHIR R4 element `ServiceRequest.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.identifier</td><td style="border-left-width: 0px">identifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.identifier</td><td style="border-left-width: 0px">ServiceRequest.identifier</td><td>Element `ServiceRequest.identifier` is mapped to FHIR R4 element `ServiceRequest.identifier` as `Equivalent`.
+The identifier.type element is used to distinguish between the identifiers assigned by the orderer (known as the 'Placer' in HL7 V2) and the producer of the observations in response to the order (known as the 'Filler' in HL7 V2).  For further discussion and examples see the resource notes section below.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.instantiatesCanonical</td><td style="border-left-width: 0px">instantiatesCanonical</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.instantiatesCanonical</td><td style="border-left-width: 0px">ServiceRequest.instantiatesCanonical</td><td>Element `ServiceRequest.instantiatesCanonical` is mapped to FHIR R4 element `ServiceRequest.instantiatesCanonical` as `Equivalent`.
+The PlanDefinition resource is used to describe series, sequences, or groups of actions to be taken, while the ActivityDefinition resource is used to define each specific step or activity to be performed. More information can be found in the [Boundaries and Relationships](https://hl7.org/fhir/plandefi.html#12.23.2) section for PlanDefinition.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.instantiatesUri</td><td style="border-left-width: 0px">instantiatesUri</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.instantiatesUri</td><td style="border-left-width: 0px">ServiceRequest.instantiatesUri</td><td>Element `ServiceRequest.instantiatesUri` is mapped to FHIR R4 element `ServiceRequest.instantiatesUri` as `Equivalent`.
+This might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.basedOn</td><td style="border-left-width: 0px">basedOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.basedOn</td><td style="border-left-width: 0px">ServiceRequest.basedOn</td><td>Element `ServiceRequest.basedOn` is mapped to FHIR R4 element `ServiceRequest.basedOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.replaces</td><td style="border-left-width: 0px">replaces</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.replaces</td><td style="border-left-width: 0px">ServiceRequest.replaces</td><td>Element `ServiceRequest.replaces` is mapped to FHIR R4 element `ServiceRequest.replaces` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.requisition</td><td style="border-left-width: 0px">requisition</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.requisition</td><td style="border-left-width: 0px">ServiceRequest.requisition</td><td>Element `ServiceRequest.requisition` is mapped to FHIR R4 element `ServiceRequest.requisition` as `Equivalent`.
+Requests are linked either by a &quot;basedOn&quot; relationship (i.e. one request is fulfilling another) or by having a common requisition. Requests that are part of the same requisition are generally treated independently from the perspective of changing their state or maintaining them after initial creation.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.status</td><td style="border-left-width: 0px">ServiceRequest.status</td><td>Element `ServiceRequest.status` is mapped to FHIR R4 element `ServiceRequest.status` as `Equivalent`.
+The status is generally fully in the control of the requester - they determine whether the order is draft or active and, after it has been activated, competed, revoked or placed on-hold. States relating to the activities of the performer are reflected on either the corresponding event (see [Event Pattern](https://hl7.org/fhir/event.html) for general discussion) or using the [Task](https://hl7.org/fhir/task.html) resource.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.intent</td><td style="border-left-width: 0px">intent</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.intent</td><td style="border-left-width: 0px">ServiceRequest.intent</td><td>Element `ServiceRequest.intent` is mapped to FHIR R4 element `ServiceRequest.intent` as `Equivalent`.
+This element is labeled as a modifier because the intent alters when and how the resource is actually applicable.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.category</td><td style="border-left-width: 0px">category</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.category</td><td style="border-left-width: 0px">ServiceRequest.category</td><td>Element `ServiceRequest.category` is mapped to FHIR R4 element `ServiceRequest.category` as `Equivalent`.
+There may be multiple axis of categorization depending on the context or use case for retrieving or displaying the resource.  The level of granularity is defined by the category concepts in the value set.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.priority</td><td style="border-left-width: 0px">priority</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.priority</td><td style="border-left-width: 0px">ServiceRequest.priority</td><td>Element `ServiceRequest.priority` is mapped to FHIR R4 element `ServiceRequest.priority` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.doNotPerform</td><td style="border-left-width: 0px">doNotPerform</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.doNotPerform</td><td style="border-left-width: 0px">ServiceRequest.doNotPerform</td><td>Element `ServiceRequest.doNotPerform` is mapped to FHIR R4 element `ServiceRequest.doNotPerform` as `Equivalent`.
+In general, only the code and timeframe will be present, though occasional additional qualifiers such as body site or even performer could be included to narrow the scope of the prohibition.  If the ServiceRequest.code and ServiceRequest.doNotPerform both contain negation, that will reinforce prohibition and should not have a double negative interpretation.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.code</td><td style="border-left-width: 0px">code</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ServiceRequest.code</td><td style="border-left-width: 0px">ServiceRequest.code</td><td>Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.code` do not cover the following types: CodeableReference.
+The mappings for `ServiceRequest.code` do not cover the following types based on type expansion: reference.
+Many laboratory and radiology procedure codes embed the specimen/organ system in the test order name, for example,  serum or serum/plasma glucose, or a chest x-ray. The specimen might not be recorded separately from the test code.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.orderDetail</td><td style="border-left-width: 0px">orderDetail</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ServiceRequest.orderDetail</td><td style="border-left-width: 0px">ServiceRequest.orderDetail</td><td>Element `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail` as `Equivalent`.
+For information from the medical record intended to support the delivery of the requested services, use the `supportingInformation` element.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.quantity[x]</td><td style="border-left-width: 0px">quantity[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.quantity[x]</td><td style="border-left-width: 0px">ServiceRequest.quantity[x]</td><td>Element `ServiceRequest.quantity[x]` is mapped to FHIR R4 element `ServiceRequest.quantity[x]` as `Equivalent`.
+The target context `ServiceRequest.quantity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ServiceRequest`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.subject</td><td style="border-left-width: 0px">subject</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.subject</td><td style="border-left-width: 0px">ServiceRequest.subject</td><td>Element `ServiceRequest.subject` is mapped to FHIR R4 element `ServiceRequest.subject` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.encounter</td><td style="border-left-width: 0px">encounter</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.encounter</td><td style="border-left-width: 0px">ServiceRequest.encounter</td><td>Element `ServiceRequest.encounter` is mapped to FHIR R4 element `ServiceRequest.encounter` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.occurrence[x]</td><td style="border-left-width: 0px">occurrence[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.occurrence[x]</td><td style="border-left-width: 0px">ServiceRequest.occurrence[x]</td><td>Element `ServiceRequest.occurrence[x]` is mapped to FHIR R4 element `ServiceRequest.occurrence[x]` as `Equivalent`.
+The target context `ServiceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ServiceRequest`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.asNeeded[x]</td><td style="border-left-width: 0px">asNeeded[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.asNeeded[x]</td><td style="border-left-width: 0px">ServiceRequest.asNeeded[x]</td><td>Element `ServiceRequest.asNeeded[x]` is mapped to FHIR R4 element `ServiceRequest.asNeeded[x]` as `Equivalent`.
+The target context `ServiceRequest.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ServiceRequest`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.authoredOn</td><td style="border-left-width: 0px">authoredOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.authoredOn</td><td style="border-left-width: 0px">ServiceRequest.authoredOn</td><td>Element `ServiceRequest.authoredOn` is mapped to FHIR R4 element `ServiceRequest.authoredOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.requester</td><td style="border-left-width: 0px">requester</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.requester</td><td style="border-left-width: 0px">ServiceRequest.requester</td><td>Element `ServiceRequest.requester` is mapped to FHIR R4 element `ServiceRequest.requester` as `Equivalent`.
+This not the dispatcher, but rather who is the authorizer.  This element is not intended to handle delegation which would generally be managed through the Provenance resource.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.performerType</td><td style="border-left-width: 0px">performerType</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.performerType</td><td style="border-left-width: 0px">ServiceRequest.performerType</td><td>Element `ServiceRequest.performerType` is mapped to FHIR R4 element `ServiceRequest.performerType` as `Equivalent`.
+This is a  role, not  a participation type.  In other words, does not describe the task but describes the capacity.  For example, “compounding pharmacy”, “psychiatrist” or “internal referral”.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.performer</td><td style="border-left-width: 0px">performer</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.performer</td><td style="border-left-width: 0px">ServiceRequest.performer</td><td>Element `ServiceRequest.performer` is mapped to FHIR R4 element `ServiceRequest.performer` as `Equivalent`.
+If multiple performers are present, it is interpreted as a list of *alternative* performers without any preference regardless of order.  If order of preference is needed use the [http://hl7.org/fhir/StructureDefinition/request-performerOrder](http://hl7.org/fhir/extensions/StructureDefinition-request-performerOrder.html).  Use CareTeam to represent a group of performers (for example, Practitioner A *and* Practitioner B).</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">ServiceRequest.location</td><td style="border-left-width: 0px; border-bottom-style: none">location</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ServiceRequest.locationCode</td><td style="border-left-width: 0px">ServiceRequest.locationCode</td><td>Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationCode` as `SourceIsBroaderThanTarget`.
+Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationReference` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ServiceRequest.locationReference</td><td style="border-left-width: 0px">ServiceRequest.locationReference</td><td>Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationCode` as `SourceIsBroaderThanTarget`.
+Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationReference` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">ServiceRequest.reason</td><td style="border-left-width: 0px; border-bottom-style: none">reason</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ServiceRequest.reasonCode</td><td style="border-left-width: 0px">ServiceRequest.reasonCode</td><td>Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.reason` do not cover the following types: CodeableReference.
+This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](https://hl7.org/fhir/servicerequest-example-di.html).</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ServiceRequest.reasonReference</td><td style="border-left-width: 0px">ServiceRequest.reasonReference</td><td>Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.reason` do not cover the following types: CodeableReference.
+This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](https://hl7.org/fhir/servicerequest-example-di.html).</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.insurance</td><td style="border-left-width: 0px">insurance</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.insurance</td><td style="border-left-width: 0px">ServiceRequest.insurance</td><td>Element `ServiceRequest.insurance` is mapped to FHIR R4 element `ServiceRequest.insurance` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.supportingInfo</td><td style="border-left-width: 0px">supportingInfo</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ServiceRequest.supportingInfo</td><td style="border-left-width: 0px">ServiceRequest.supportingInfo</td><td>Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.supportingInfo` do not cover the following types: CodeableReference.
+The mappings for `ServiceRequest.supportingInfo` do not cover the following types based on type expansion: concept.
+To represent information about how the services are to be delivered use the `instructions` element.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.specimen</td><td style="border-left-width: 0px">specimen</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.specimen</td><td style="border-left-width: 0px">ServiceRequest.specimen</td><td>Element `ServiceRequest.specimen` is mapped to FHIR R4 element `ServiceRequest.specimen` as `Equivalent`.
+The purpose of the ServiceRequest.specimen is to reflect the actual specimen that the requested test/procedure is asked to be performed on, whether the lab already has it or not.  References to specimens for purposes other than to perform a test/procedure on should be made using the ServiceRequest.supportingInfo or the Specimen.parent where the Specimen.parent would enable descendency and ServiceRequest.supportingInfo a general reference for context.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.bodySite</td><td style="border-left-width: 0px">bodySite</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.bodySite</td><td style="border-left-width: 0px">ServiceRequest.bodySite</td><td>Element `ServiceRequest.bodySite` is mapped to FHIR R4 element `ServiceRequest.bodySite` as `Equivalent`.
+Only used if not implicit in the code found in ServiceRequest.code.  If the use case requires BodySite to be handled as a separate resource instead of an inline coded element (e.g. to identify and track separately)  then use the standard extension [http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure](http://hl7.org/fhir/extensions/StructureDefinition-procedure-targetBodyStructure.html).</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.note</td><td style="border-left-width: 0px">ServiceRequest.note</td><td>Element `ServiceRequest.note` is mapped to FHIR R4 element `ServiceRequest.note` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.patientInstruction</td><td style="border-left-width: 0px">patientInstruction</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ServiceRequest.patientInstruction</td><td style="border-left-width: 0px">ServiceRequest.patientInstruction</td><td>Element `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px">ServiceRequest.relevantHistory</td><td style="border-left-width: 0px">relevantHistory</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ServiceRequest.relevantHistory</td><td style="border-left-width: 0px">ServiceRequest.relevantHistory</td><td>Element `ServiceRequest.relevantHistory` is mapped to FHIR R4 element `ServiceRequest.relevantHistory` as `Equivalent`.
+This might not include provenances for all versions of the request – only those deemed “relevant” or important.This SHALL NOT include the Provenance associated with this current version of the resource.  (If that provenance is deemed to be a “relevant” change, it will need to be added as part of a later update.  Until then, it can be queried directly as the Provenance that points to this version using _revincludeAll Provenances should have some historical version of this Request as their subject.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ServiceRequest|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ServiceRequest.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.code</td><td>Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.code` do not cover the following types: CodeableReference.
+The mappings for `ServiceRequest.code` do not cover the following types based on type expansion: reference.
+Many laboratory and radiology procedure codes embed the specimen/organ system in the test order name, for example,  serum or serum/plasma glucose, or a chest x-ray. The specimen might not be recorded separately from the test code.</td></tr><tr><td>ServiceRequest.orderDetail.parameterFocus (parameterFocus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameterFocus</td><td>Element `ServiceRequest.orderDetail.parameterFocus` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.orderDetail.parameterFocus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ServiceRequest.orderDetail.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter</td><td>Element `ServiceRequest.orderDetail.parameter` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.orderDetail.parameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ServiceRequest.orderDetail.parameter.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter:code</td><td>Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.
+Element `ServiceRequest.orderDetail.parameter.code` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.orderDetail.parameter.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ServiceRequest.orderDetail.parameter.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter:value</td><td>Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.
+Element `ServiceRequest.orderDetail.parameter.value[x]` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.orderDetail.parameter.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+CodeableConcept values are indented to express concepts that would normally be coded - when a code is not available for a concept, CodeableConcept.text can be used. When the data is a text or not a single identifiable concept, string should be used.</td></tr><tr><td>ServiceRequest.focus (focus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.focus</td><td>Element `ServiceRequest.focus` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ServiceRequest.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason</td><td>Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.reason` do not cover the following types: CodeableReference.
+This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](https://hl7.org/fhir/servicerequest-example-di.html).</td></tr><tr><td>ServiceRequest.supportingInfo (supportingInfo)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo</td><td>Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo` as `SourceIsBroaderThanTarget`.
+The mappings for `ServiceRequest.supportingInfo` do not cover the following types: CodeableReference.
+The mappings for `ServiceRequest.supportingInfo` do not cover the following types based on type expansion: concept.
+To represent information about how the services are to be delivered use the `instructions` element.</td></tr><tr><td>ServiceRequest.bodyStructure (bodyStructure)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.bodyStructure</td><td>Element `ServiceRequest.bodyStructure` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.bodyStructure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ServiceRequest.patientInstruction.instruction[x] (instruction[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.patientInstruction.instruction</td><td>Element `ServiceRequest.patientInstruction.instruction[x]` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.
+Element `ServiceRequest.patientInstruction.instruction[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ServiceRequest-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ServiceRequestElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 ServiceRequest to FHIR R4 ServiceRequest"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6330397-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 ServiceRequest to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="ServiceRequest.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="ServiceRequest.meta"/>
+        <display value="ServiceRequest.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.meta` is mapped to FHIR R4 element `ServiceRequest.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="ServiceRequest.implicitRules"/>
+        <display value="ServiceRequest.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.implicitRules` is mapped to FHIR R4 element `ServiceRequest.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ServiceRequest.language"/>
+        <display value="ServiceRequest.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.language` is mapped to FHIR R4 element `ServiceRequest.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.text"/>
+      <display value="text"/>
+      <target>
+        <code value="ServiceRequest.text"/>
+        <display value="ServiceRequest.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.text` is mapped to FHIR R4 element `ServiceRequest.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="ServiceRequest.contained"/>
+        <display value="ServiceRequest.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.contained` is mapped to FHIR R4 element `ServiceRequest.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="ServiceRequest.identifier"/>
+        <display value="ServiceRequest.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.identifier` is mapped to FHIR R4 element `ServiceRequest.identifier` as `Equivalent`.&#xA;The identifier.type element is used to distinguish between the identifiers assigned by the orderer (known as the 'Placer' in HL7 V2) and the producer of the observations in response to the order (known as the 'Filler' in HL7 V2).  For further discussion and examples see the resource notes section below."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.instantiatesCanonical"/>
+      <display value="instantiatesCanonical"/>
+      <target>
+        <code value="ServiceRequest.instantiatesCanonical"/>
+        <display value="ServiceRequest.instantiatesCanonical"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.instantiatesCanonical` is mapped to FHIR R4 element `ServiceRequest.instantiatesCanonical` as `Equivalent`.&#xA;The PlanDefinition resource is used to describe series, sequences, or groups of actions to be taken, while the ActivityDefinition resource is used to define each specific step or activity to be performed. More information can be found in the [Boundaries and Relationships](https://hl7.org/fhir/plandefi.html#12.23.2) section for PlanDefinition."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.instantiatesUri"/>
+      <display value="instantiatesUri"/>
+      <target>
+        <code value="ServiceRequest.instantiatesUri"/>
+        <display value="ServiceRequest.instantiatesUri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.instantiatesUri` is mapped to FHIR R4 element `ServiceRequest.instantiatesUri` as `Equivalent`.&#xA;This might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="ServiceRequest.basedOn"/>
+        <display value="ServiceRequest.basedOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.basedOn` is mapped to FHIR R4 element `ServiceRequest.basedOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.replaces"/>
+      <display value="replaces"/>
+      <target>
+        <code value="ServiceRequest.replaces"/>
+        <display value="ServiceRequest.replaces"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.replaces` is mapped to FHIR R4 element `ServiceRequest.replaces` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.requisition"/>
+      <display value="requisition"/>
+      <target>
+        <code value="ServiceRequest.requisition"/>
+        <display value="ServiceRequest.requisition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.requisition` is mapped to FHIR R4 element `ServiceRequest.requisition` as `Equivalent`.&#xA;Requests are linked either by a &quot;basedOn&quot; relationship (i.e. one request is fulfilling another) or by having a common requisition. Requests that are part of the same requisition are generally treated independently from the perspective of changing their state or maintaining them after initial creation."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.status"/>
+      <display value="status"/>
+      <target>
+        <code value="ServiceRequest.status"/>
+        <display value="ServiceRequest.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.status` is mapped to FHIR R4 element `ServiceRequest.status` as `Equivalent`.&#xA;The status is generally fully in the control of the requester - they determine whether the order is draft or active and, after it has been activated, competed, revoked or placed on-hold. States relating to the activities of the performer are reflected on either the corresponding event (see [Event Pattern](https://hl7.org/fhir/event.html) for general discussion) or using the [Task](https://hl7.org/fhir/task.html) resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.intent"/>
+      <display value="intent"/>
+      <target>
+        <code value="ServiceRequest.intent"/>
+        <display value="ServiceRequest.intent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.intent` is mapped to FHIR R4 element `ServiceRequest.intent` as `Equivalent`.&#xA;This element is labeled as a modifier because the intent alters when and how the resource is actually applicable."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.category"/>
+      <display value="category"/>
+      <target>
+        <code value="ServiceRequest.category"/>
+        <display value="ServiceRequest.category"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.category` is mapped to FHIR R4 element `ServiceRequest.category` as `Equivalent`.&#xA;There may be multiple axis of categorization depending on the context or use case for retrieving or displaying the resource.  The level of granularity is defined by the category concepts in the value set."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="ServiceRequest.priority"/>
+        <display value="ServiceRequest.priority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.priority` is mapped to FHIR R4 element `ServiceRequest.priority` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.doNotPerform"/>
+      <display value="doNotPerform"/>
+      <target>
+        <code value="ServiceRequest.doNotPerform"/>
+        <display value="ServiceRequest.doNotPerform"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.doNotPerform` is mapped to FHIR R4 element `ServiceRequest.doNotPerform` as `Equivalent`.&#xA;In general, only the code and timeframe will be present, though occasional additional qualifiers such as body site or even performer could be included to narrow the scope of the prohibition.  If the ServiceRequest.code and ServiceRequest.doNotPerform both contain negation, that will reinforce prohibition and should not have a double negative interpretation."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.code"/>
+      <display value="code"/>
+      <target>
+        <code value="ServiceRequest.code"/>
+        <display value="ServiceRequest.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.code` do not cover the following types: CodeableReference.&#xA;The mappings for `ServiceRequest.code` do not cover the following types based on type expansion: reference.&#xA;Many laboratory and radiology procedure codes embed the specimen/organ system in the test order name, for example,  serum or serum/plasma glucose, or a chest x-ray. The specimen might not be recorded separately from the test code."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.orderDetail"/>
+      <display value="orderDetail"/>
+      <target>
+        <code value="ServiceRequest.orderDetail"/>
+        <display value="ServiceRequest.orderDetail"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail` as `Equivalent`.&#xA;For information from the medical record intended to support the delivery of the requested services, use the `supportingInformation` element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.quantity[x]"/>
+      <display value="quantity[x]"/>
+      <target>
+        <code value="ServiceRequest.quantity[x]"/>
+        <display value="ServiceRequest.quantity[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.quantity[x]` is mapped to FHIR R4 element `ServiceRequest.quantity[x]` as `Equivalent`.&#xA;The target context `ServiceRequest.quantity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ServiceRequest`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="ServiceRequest.subject"/>
+        <display value="ServiceRequest.subject"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.subject` is mapped to FHIR R4 element `ServiceRequest.subject` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="ServiceRequest.encounter"/>
+        <display value="ServiceRequest.encounter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.encounter` is mapped to FHIR R4 element `ServiceRequest.encounter` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.occurrence[x]"/>
+      <display value="occurrence[x]"/>
+      <target>
+        <code value="ServiceRequest.occurrence[x]"/>
+        <display value="ServiceRequest.occurrence[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.occurrence[x]` is mapped to FHIR R4 element `ServiceRequest.occurrence[x]` as `Equivalent`.&#xA;The target context `ServiceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ServiceRequest`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.asNeeded[x]"/>
+      <display value="asNeeded[x]"/>
+      <target>
+        <code value="ServiceRequest.asNeeded[x]"/>
+        <display value="ServiceRequest.asNeeded[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.asNeeded[x]` is mapped to FHIR R4 element `ServiceRequest.asNeeded[x]` as `Equivalent`.&#xA;The target context `ServiceRequest.asNeeded[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ServiceRequest`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.authoredOn"/>
+      <display value="authoredOn"/>
+      <target>
+        <code value="ServiceRequest.authoredOn"/>
+        <display value="ServiceRequest.authoredOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.authoredOn` is mapped to FHIR R4 element `ServiceRequest.authoredOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.requester"/>
+      <display value="requester"/>
+      <target>
+        <code value="ServiceRequest.requester"/>
+        <display value="ServiceRequest.requester"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.requester` is mapped to FHIR R4 element `ServiceRequest.requester` as `Equivalent`.&#xA;This not the dispatcher, but rather who is the authorizer.  This element is not intended to handle delegation which would generally be managed through the Provenance resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.performerType"/>
+      <display value="performerType"/>
+      <target>
+        <code value="ServiceRequest.performerType"/>
+        <display value="ServiceRequest.performerType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.performerType` is mapped to FHIR R4 element `ServiceRequest.performerType` as `Equivalent`.&#xA;This is a  role, not  a participation type.  In other words, does not describe the task but describes the capacity.  For example, “compounding pharmacy”, “psychiatrist” or “internal referral”."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.performer"/>
+      <display value="performer"/>
+      <target>
+        <code value="ServiceRequest.performer"/>
+        <display value="ServiceRequest.performer"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.performer` is mapped to FHIR R4 element `ServiceRequest.performer` as `Equivalent`.&#xA;If multiple performers are present, it is interpreted as a list of *alternative* performers without any preference regardless of order.  If order of preference is needed use the [http://hl7.org/fhir/StructureDefinition/request-performerOrder](http://hl7.org/fhir/extensions/StructureDefinition-request-performerOrder.html).  Use CareTeam to represent a group of performers (for example, Practitioner A *and* Practitioner B)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.location"/>
+      <display value="location"/>
+      <target>
+        <code value="ServiceRequest.locationCode"/>
+        <display value="ServiceRequest.locationCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationReference` as `SourceIsBroaderThanTarget`."/>
+      </target>
+      <target>
+        <code value="ServiceRequest.locationReference"/>
+        <display value="ServiceRequest.locationReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ServiceRequest.location` is mapped to FHIR R4 element `ServiceRequest.locationReference` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="ServiceRequest.reasonCode"/>
+        <display value="ServiceRequest.reasonCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.reason` do not cover the following types: CodeableReference.&#xA;This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](https://hl7.org/fhir/servicerequest-example-di.html)."/>
+      </target>
+      <target>
+        <code value="ServiceRequest.reasonReference"/>
+        <display value="ServiceRequest.reasonReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.reason` do not cover the following types: CodeableReference.&#xA;This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](https://hl7.org/fhir/servicerequest-example-di.html)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.insurance"/>
+      <display value="insurance"/>
+      <target>
+        <code value="ServiceRequest.insurance"/>
+        <display value="ServiceRequest.insurance"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.insurance` is mapped to FHIR R4 element `ServiceRequest.insurance` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.supportingInfo"/>
+      <display value="supportingInfo"/>
+      <target>
+        <code value="ServiceRequest.supportingInfo"/>
+        <display value="ServiceRequest.supportingInfo"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.supportingInfo` do not cover the following types: CodeableReference.&#xA;The mappings for `ServiceRequest.supportingInfo` do not cover the following types based on type expansion: concept.&#xA;To represent information about how the services are to be delivered use the `instructions` element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.specimen"/>
+      <display value="specimen"/>
+      <target>
+        <code value="ServiceRequest.specimen"/>
+        <display value="ServiceRequest.specimen"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.specimen` is mapped to FHIR R4 element `ServiceRequest.specimen` as `Equivalent`.&#xA;The purpose of the ServiceRequest.specimen is to reflect the actual specimen that the requested test/procedure is asked to be performed on, whether the lab already has it or not.  References to specimens for purposes other than to perform a test/procedure on should be made using the ServiceRequest.supportingInfo or the Specimen.parent where the Specimen.parent would enable descendency and ServiceRequest.supportingInfo a general reference for context."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="ServiceRequest.bodySite"/>
+        <display value="ServiceRequest.bodySite"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.bodySite` is mapped to FHIR R4 element `ServiceRequest.bodySite` as `Equivalent`.&#xA;Only used if not implicit in the code found in ServiceRequest.code.  If the use case requires BodySite to be handled as a separate resource instead of an inline coded element (e.g. to identify and track separately)  then use the standard extension [http://hl7.org/fhir/StructureDefinition/procedure-targetBodyStructure](http://hl7.org/fhir/extensions/StructureDefinition-procedure-targetBodyStructure.html)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.note"/>
+      <display value="note"/>
+      <target>
+        <code value="ServiceRequest.note"/>
+        <display value="ServiceRequest.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.note` is mapped to FHIR R4 element `ServiceRequest.note` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.patientInstruction"/>
+      <display value="patientInstruction"/>
+      <target>
+        <code value="ServiceRequest.patientInstruction"/>
+        <display value="ServiceRequest.patientInstruction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.relevantHistory"/>
+      <display value="relevantHistory"/>
+      <target>
+        <code value="ServiceRequest.relevantHistory"/>
+        <display value="ServiceRequest.relevantHistory"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.relevantHistory` is mapped to FHIR R4 element `ServiceRequest.relevantHistory` as `Equivalent`.&#xA;This might not include provenances for all versions of the request – only those deemed “relevant” or important.&#xD;This SHALL NOT include the Provenance associated with this current version of the resource.  (If that provenance is deemed to be a “relevant” change, it will need to be added as part of a later update.  Until then, it can be queried directly as the Provenance that points to this version using _revinclude&#xD;All Provenances should have some historical version of this Request as their subject."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ServiceRequest"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="ServiceRequest.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.code` do not cover the following types: CodeableReference.&#xA;The mappings for `ServiceRequest.code` do not cover the following types based on type expansion: reference.&#xA;Many laboratory and radiology procedure codes embed the specimen/organ system in the test order name, for example,  serum or serum/plasma glucose, or a chest x-ray. The specimen might not be recorded separately from the test code."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.orderDetail.parameterFocus"/>
+      <display value="parameterFocus"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameterFocus"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.orderDetail.parameterFocus` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.orderDetail.parameterFocus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.orderDetail.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.orderDetail.parameter` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.orderDetail.parameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.orderDetail.parameter.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter:code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.code` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.orderDetail.parameter.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.orderDetail.parameter.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.&#xA;Element `ServiceRequest.orderDetail.parameter.value[x]` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.orderDetail.parameter.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;CodeableConcept values are indented to express concepts that would normally be coded - when a code is not available for a concept, CodeableConcept.text can be used. When the data is a text or not a single identifiable concept, string should be used."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.focus"/>
+      <display value="focus"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.focus"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.focus` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ServiceRequest.reason` is mapped to FHIR R4 element `ServiceRequest.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.reason` do not cover the following types: CodeableReference.&#xA;This element represents why the referral is being made and may be used to decide how the service will be performed, or even if it will be performed at all. To be as specific as possible,  a reference to  *Observation* or *Condition* should be used if available.  Otherwise, use `concept.text` element if the data is free (uncoded) text as shown in the [CT Scan example](https://hl7.org/fhir/servicerequest-example-di.html)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.supportingInfo"/>
+      <display value="supportingInfo"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.supportingInfo"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ServiceRequest.supportingInfo` do not cover the following types: CodeableReference.&#xA;The mappings for `ServiceRequest.supportingInfo` do not cover the following types based on type expansion: concept.&#xA;To represent information about how the services are to be delivered use the `instructions` element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.bodyStructure"/>
+      <display value="bodyStructure"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.bodyStructure"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.bodyStructure` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.bodyStructure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ServiceRequest.patientInstruction.instruction[x]"/>
+      <display value="instruction[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.patientInstruction.instruction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ServiceRequest.patientInstruction.instruction[x]` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.&#xA;Element `ServiceRequest.patientInstruction.instruction[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

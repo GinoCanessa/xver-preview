@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-ImplementationGuide-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-ImplementationGuide-element-map-to-R4</b></p><a name="R5-ImplementationGuide-element-map-to-R4"> </a><a name="hcR5-ImplementationGuide-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImplementationGuide|5.0.0</code> to <a href="http://hl7.org/fhir/R4/implementationguide.html">ImplementationGuideversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImplementationGuide.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.meta</td><td>Element `ImplementationGuide.meta` is mapped to FHIR R4 element `ImplementationGuide.meta` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.implicitRules</td><td>Element `ImplementationGuide.implicitRules` is mapped to FHIR R4 element `ImplementationGuide.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>ImplementationGuide.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.language</td><td>Element `ImplementationGuide.language` is mapped to FHIR R4 element `ImplementationGuide.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>ImplementationGuide.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.text</td><td>Element `ImplementationGuide.text` is mapped to FHIR R4 element `ImplementationGuide.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>ImplementationGuide.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.contained</td><td>Element `ImplementationGuide.contained` is mapped to FHIR R4 element `ImplementationGuide.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>ImplementationGuide.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.url</td><td>Element `ImplementationGuide.url` is mapped to FHIR R4 element `ImplementationGuide.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>ImplementationGuide.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.version</td><td>Element `ImplementationGuide.version` is mapped to FHIR R4 element `ImplementationGuide.version` as `Equivalent`.
+There may be different implementation guide instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the implementation guide with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>ImplementationGuide.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.name</td><td>Element `ImplementationGuide.name` is mapped to FHIR R4 element `ImplementationGuide.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>ImplementationGuide.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.title</td><td>Element `ImplementationGuide.title` is mapped to FHIR R4 element `ImplementationGuide.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>ImplementationGuide.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.status</td><td>Element `ImplementationGuide.status` is mapped to FHIR R4 element `ImplementationGuide.status` as `Equivalent`.
+Allows filtering of implementation guides that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ImplementationGuide.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.experimental</td><td>Element `ImplementationGuide.experimental` is mapped to FHIR R4 element `ImplementationGuide.experimental` as `Equivalent`.
+Allows filtering of implementation guides that are appropriate for use versus not.</td></tr><tr><td>ImplementationGuide.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.date</td><td>Element `ImplementationGuide.date` is mapped to FHIR R4 element `ImplementationGuide.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the implementation guide. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ImplementationGuide.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.publisher</td><td>Element `ImplementationGuide.publisher` is mapped to FHIR R4 element `ImplementationGuide.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the implementation guide is the organization or individual primarily responsible for the maintenance and upkeep of the implementation guide. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the implementation guide. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>ImplementationGuide.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.contact</td><td>Element `ImplementationGuide.contact` is mapped to FHIR R4 element `ImplementationGuide.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>ImplementationGuide.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.description</td><td>Element `ImplementationGuide.description` is mapped to FHIR R4 element `ImplementationGuide.description` as `Equivalent`.
+This description can be used to capture details such as why the implementation guide was built, comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the implementation guide as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the implementation guide is presumed to be the predominant language in the place the implementation guide was created).</td></tr><tr><td>ImplementationGuide.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.useContext</td><td>Element `ImplementationGuide.useContext` is mapped to FHIR R4 element `ImplementationGuide.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>ImplementationGuide.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.jurisdiction</td><td>Element `ImplementationGuide.jurisdiction` is mapped to FHIR R4 element `ImplementationGuide.jurisdiction` as `Equivalent`.
+Element `ImplementationGuide.jurisdiction` has been flagged as deprecated.
+It may be possible for the implementation guide to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>ImplementationGuide.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.copyright</td><td>Element `ImplementationGuide.copyright` is mapped to FHIR R4 element `ImplementationGuide.copyright` as `Equivalent`.
+...</td></tr><tr><td>ImplementationGuide.packageId (packageId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.packageId</td><td>Element `ImplementationGuide.packageId` is mapped to FHIR R4 element `ImplementationGuide.packageId` as `Equivalent`.
+Many (if not all) IG publishing tools will require that this element be present. For implementation guides published through HL7 or the FHIR foundation, the FHIR product director assigns package IDs.</td></tr><tr><td>ImplementationGuide.license (license)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.license</td><td>Element `ImplementationGuide.license` is mapped to FHIR R4 element `ImplementationGuide.license` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.fhirVersion (fhirVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.fhirVersion</td><td>Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`.
+Most implementation guides target a single version - e.g. they describe how to use a particular version, and the profiles and examples etc. are valid for that version. But some implementation guides describe how to use multiple different versions of FHIR to solve the same problem, or in concert with each other. Typically, the requirement to support multiple versions arises as implementation matures and different implementation communities are stuck at different versions by regulation or market dynamics.</td></tr><tr><td>ImplementationGuide.dependsOn (dependsOn)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.dependsOn</td><td>Element `ImplementationGuide.dependsOn` is mapped to FHIR R4 element `ImplementationGuide.dependsOn` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.dependsOn.uri (uri)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.dependsOn.uri</td><td>Element `ImplementationGuide.dependsOn.uri` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.uri` as `Equivalent`.
+Usually, A canonical reference to the implementation guide is the same as the master location at which the implementation guide is published.</td></tr><tr><td>ImplementationGuide.dependsOn.packageId (packageId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.dependsOn.packageId</td><td>Element `ImplementationGuide.dependsOn.packageId` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.packageId` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.dependsOn.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.dependsOn.version</td><td>Element `ImplementationGuide.dependsOn.version` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.version` as `Equivalent`.
+This follows the syntax of the NPM packaging version field - see [[reference]].</td></tr><tr><td>ImplementationGuide.global (global)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.global</td><td>Element `ImplementationGuide.global` is mapped to FHIR R4 element `ImplementationGuide.global` as `Equivalent`.
+See [Default Profiles](https://hl7.org/fhir/implemen.html#default) for a discussion of which resources are 'covered' by an implementation guide.</td></tr><tr><td>ImplementationGuide.global.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.global.type</td><td>Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`.
+The mappings for `ImplementationGuide.global.type` do not allow expression of the necessary codes, per the bindings on the source and target.
+The type must match that of the profile that is referred to but is made explicit here as a denormalization so that a system processing the implementation guide resource knows which resources the profile applies to even if the profile itself is not available.</td></tr><tr><td>ImplementationGuide.global.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.global.profile</td><td>Element `ImplementationGuide.global.profile` is mapped to FHIR R4 element `ImplementationGuide.global.profile` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition (definition)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition</td><td>Element `ImplementationGuide.definition` is mapped to FHIR R4 element `ImplementationGuide.definition` as `Equivalent`.
+Principally, this consists of information abuot source resource and file locations, and build parameters and templates.</td></tr><tr><td>ImplementationGuide.definition.grouping (grouping)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.grouping</td><td>Element `ImplementationGuide.definition.grouping` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping` as `Equivalent`.
+Groupings are arbitrary sub-divisions of content. Typically, they are used to help build Table of Contents automatically.</td></tr><tr><td>ImplementationGuide.definition.grouping.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.grouping.name</td><td>Element `ImplementationGuide.definition.grouping.name` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.name` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.grouping.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.grouping.description</td><td>Element `ImplementationGuide.definition.grouping.description` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.description` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.resource</td><td>Element `ImplementationGuide.definition.resource` is mapped to FHIR R4 element `ImplementationGuide.definition.resource` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.resource.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.resource.reference</td><td>Element `ImplementationGuide.definition.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.reference` as `Equivalent`.
+Usually this is a relative URL that locates the resource within the implementation guide. If you authoring an implementation guide, and will publish it using the FHIR publication tooling, use a URI that may point to a resource, or to one of various alternative representations (e.g. spreadsheet). The tooling will convert this when it publishes it.</td></tr><tr><td>ImplementationGuide.definition.resource.fhirVersion (fhirVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.resource.fhirVersion</td><td>Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`.
+The resource SHALL be valid against all the versions it is specified to apply to. If the resource referred to is a StructureDefinition, the fhirVersion stated in the StructureDefinition cannot disagree with the version specified here; the specified versions SHALL include the version specified by the StructureDefinition, and may include additional versions using the [http://hl7.org/fhir/StructureDefinition/structuredefinition-applicable-version](http://hl7.org/fhir/extensions/StructureDefinition-structuredefinition-applicable-version.html) extension.</td></tr><tr><td>ImplementationGuide.definition.resource.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.resource.name</td><td>Element `ImplementationGuide.definition.resource.name` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.name` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.resource.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.resource.description</td><td>Element `ImplementationGuide.definition.resource.description` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.description` as `Equivalent`.
+This is mostly used with examples to explain why it is present (though they can have extensive comments in the examples).</td></tr><tr><td>ImplementationGuide.definition.resource.isExample (isExample)</td><td><a href="CodeSystem-concept-map-relationship.html#narrower" title="narrower">narrower</a></td><td>ImplementationGuide.definition.resource.example[x]</td><td>Element `ImplementationGuide.definition.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `SourceIsNarrowerThanTarget`.
+The target context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.</td></tr><tr><td>ImplementationGuide.definition.resource.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.resource.example[x]</td><td>Element `ImplementationGuide.definition.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `RelatedTo`.
+The target context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.
+Examples: 
+
+* StructureDefinition -&gt; Any 
+* ValueSet -&gt; expansion 
+* OperationDefinition -&gt; Parameters 
+* Questionnaire -&gt; QuestionnaireResponse.</td></tr><tr><td>ImplementationGuide.definition.resource.groupingId (groupingId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.resource.groupingId</td><td>Element `ImplementationGuide.definition.resource.groupingId` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.groupingId` as `Equivalent`.
+This must correspond to a group.id element within this implementation guide.</td></tr><tr><td>ImplementationGuide.definition.page (page)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.page</td><td>Element `ImplementationGuide.definition.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page` as `Equivalent`.
+Pages automatically become sections if they have sub-pages. By convention, the home page is called index.html.</td></tr><tr><td>ImplementationGuide.definition.page.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.page.name[x]</td><td>Element `ImplementationGuide.definition.page.name` is mapped to FHIR R4 element `ImplementationGuide.definition.page.name[x]` as `Equivalent`.
+The target context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.
+This SHALL be a local reference, expressed with respect to the root of the IG output folder.  No suffix is required.  If no suffix is specified, .html will be appended.</td></tr><tr><td>ImplementationGuide.definition.page.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.page.title</td><td>Element `ImplementationGuide.definition.page.title` is mapped to FHIR R4 element `ImplementationGuide.definition.page.title` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.page.generation (generation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.page.generation</td><td>Element `ImplementationGuide.definition.page.generation` is mapped to FHIR R4 element `ImplementationGuide.definition.page.generation` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.page.page (page)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.page.page</td><td>Element `ImplementationGuide.definition.page.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page.page` as `Equivalent`.
+The implementation guide breadcrumbs may be generated from this structure.</td></tr><tr><td>ImplementationGuide.definition.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.parameter</td><td>Element `ImplementationGuide.definition.parameter` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter` as `Equivalent`.
+see [confluence](https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters) for the parameters defined by the HL7 IG publisher.</td></tr><tr><td>ImplementationGuide.definition.parameter.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.parameter.code</td><td>Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`.
+The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types: Coding.
+The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>ImplementationGuide.definition.parameter.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.parameter.value</td><td>Element `ImplementationGuide.definition.parameter.value` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.value` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.template (template)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.definition.template</td><td>Element `ImplementationGuide.definition.template` is mapped to FHIR R4 element `ImplementationGuide.definition.template` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.template.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.template.code</td><td>Element `ImplementationGuide.definition.template.code` is mapped to FHIR R4 element `ImplementationGuide.definition.template.code` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.template.source (source)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.template.source</td><td>Element `ImplementationGuide.definition.template.source` is mapped to FHIR R4 element `ImplementationGuide.definition.template.source` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.definition.template.scope (scope)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.definition.template.scope</td><td>Element `ImplementationGuide.definition.template.scope` is mapped to FHIR R4 element `ImplementationGuide.definition.template.scope` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest (manifest)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.manifest</td><td>Element `ImplementationGuide.manifest` is mapped to FHIR R4 element `ImplementationGuide.manifest` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest.rendering (rendering)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.rendering</td><td>Element `ImplementationGuide.manifest.rendering` is mapped to FHIR R4 element `ImplementationGuide.manifest.rendering` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.manifest.resource</td><td>Element `ImplementationGuide.manifest.resource` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest.resource.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.resource.reference</td><td>Element `ImplementationGuide.manifest.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.reference` as `Equivalent`.
+Usually this is a relative URL that locates the resource within the implementation guide. If you authoring an implementation guide, and will publish it using the FHIR publication tooling, use a URI that may point to a resource, or to one of various alternative representations (e.g. spreadsheet). The tooling will convert this when it publishes it.</td></tr><tr><td>ImplementationGuide.manifest.resource.isExample (isExample)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.resource.example[x]</td><td>Element `ImplementationGuide.manifest.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `Equivalent`.
+The target context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.</td></tr><tr><td>ImplementationGuide.manifest.resource.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.resource.example[x]</td><td>Element `ImplementationGuide.manifest.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `SourceIsBroaderThanTarget`.
+The target context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.
+Examples: 
+
+* StructureDefinition -&gt; Any 
+* ValueSet -&gt; expansion 
+* OperationDefinition -&gt; Parameters 
+* Questionnaire -&gt; QuestionnaireResponse.</td></tr><tr><td>ImplementationGuide.manifest.resource.relativePath (relativePath)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.resource.relativePath</td><td>Element `ImplementationGuide.manifest.resource.relativePath` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.relativePath` as `Equivalent`.
+Appending 'rendering' + &quot;/&quot; + this should resolve to the resource page.</td></tr><tr><td>ImplementationGuide.manifest.page (page)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>ImplementationGuide.manifest.page</td><td>Element `ImplementationGuide.manifest.page` is mapped to FHIR R4 element `ImplementationGuide.manifest.page` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest.page.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.page.name</td><td>Element `ImplementationGuide.manifest.page.name` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.name` as `Equivalent`.
+Appending 'rendering' + &quot;/&quot; + this should resolve to the page.</td></tr><tr><td>ImplementationGuide.manifest.page.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.page.title</td><td>Element `ImplementationGuide.manifest.page.title` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.title` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest.page.anchor (anchor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.page.anchor</td><td>Element `ImplementationGuide.manifest.page.anchor` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.anchor` as `Equivalent`.
+Appending 'rendering' + &quot;/&quot; + page.name + &quot;#&quot; + page.anchor should resolve to the anchor.</td></tr><tr><td>ImplementationGuide.manifest.image (image)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.image</td><td>Element `ImplementationGuide.manifest.image` is mapped to FHIR R4 element `ImplementationGuide.manifest.image` as `Equivalent`.</td></tr><tr><td>ImplementationGuide.manifest.other (other)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>ImplementationGuide.manifest.other</td><td>Element `ImplementationGuide.manifest.other` is mapped to FHIR R4 element `ImplementationGuide.manifest.other` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImplementationGuide|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImplementationGuide.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.identifier</td><td>Element `ImplementationGuide.identifier` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.
+Element `ImplementationGuide.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>ImplementationGuide.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.versionAlgorithm</td><td>Element `ImplementationGuide.versionAlgorithm[x]` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.
+Element `ImplementationGuide.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>ImplementationGuide.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.purpose</td><td>Element `ImplementationGuide.purpose` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.
+Element `ImplementationGuide.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element does not describe the usage of the implementation guide. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this implementation guide.</td></tr><tr><td>ImplementationGuide.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.copyrightLabel</td><td>Element `ImplementationGuide.copyrightLabel` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.
+Element `ImplementationGuide.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>ImplementationGuide.fhirVersion (fhirVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.fhirVersion</td><td>Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`.
+Most implementation guides target a single version - e.g. they describe how to use a particular version, and the profiles and examples etc. are valid for that version. But some implementation guides describe how to use multiple different versions of FHIR to solve the same problem, or in concert with each other. Typically, the requirement to support multiple versions arises as implementation matures and different implementation communities are stuck at different versions by regulation or market dynamics.</td></tr><tr><td>ImplementationGuide.dependsOn.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn.reason</td><td>Element `ImplementationGuide.dependsOn.reason` has a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`.
+Element `ImplementationGuide.dependsOn.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This doesn't need to enumerate every resource used, but should give some sense of why the dependency exists.  It will be used in the rendered list of dependencies</td></tr><tr><td>ImplementationGuide.global.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.global.type</td><td>Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`.
+The mappings for `ImplementationGuide.global.type` do not allow expression of the necessary codes, per the bindings on the source and target.
+The type must match that of the profile that is referred to but is made explicit here as a denormalization so that a system processing the implementation guide resource knows which resources the profile applies to even if the profile itself is not available.</td></tr><tr><td>ImplementationGuide.definition.resource.fhirVersion (fhirVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.fhirVersion</td><td>Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`.
+The resource SHALL be valid against all the versions it is specified to apply to. If the resource referred to is a StructureDefinition, the fhirVersion stated in the StructureDefinition cannot disagree with the version specified here; the specified versions SHALL include the version specified by the StructureDefinition, and may include additional versions using the [http://hl7.org/fhir/StructureDefinition/structuredefinition-applicable-version](http://hl7.org/fhir/extensions/StructureDefinition-structuredefinition-applicable-version.html) extension.</td></tr><tr><td>ImplementationGuide.definition.page.source[x] (source[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page.source</td><td>Element `ImplementationGuide.definition.page.source[x]` has a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`.
+Element `ImplementationGuide.definition.page.source[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If absent and the page isn't a generated page, this may be inferred from the page name by checking input locations.  String is used for XHTML content - sent as an escaped string.  FHIR tooling can't support 'direct' XHTML anywhere other than in narrative.</td></tr><tr><td>ImplementationGuide.definition.parameter.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.parameter.code</td><td>Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`.
+The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types: Coding.
+The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types based on type expansion: userSelected.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ImplementationGuide-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ImplementationGuideElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 ImplementationGuide to FHIR R4 ImplementationGuide"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:49.1266834-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 ImplementationGuide to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ImplementationGuide"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/ImplementationGuide"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="ImplementationGuide.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="ImplementationGuide.meta"/>
+        <display value="ImplementationGuide.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.meta` is mapped to FHIR R4 element `ImplementationGuide.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="ImplementationGuide.implicitRules"/>
+        <display value="ImplementationGuide.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.implicitRules` is mapped to FHIR R4 element `ImplementationGuide.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ImplementationGuide.language"/>
+        <display value="ImplementationGuide.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.language` is mapped to FHIR R4 element `ImplementationGuide.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.text"/>
+      <display value="text"/>
+      <target>
+        <code value="ImplementationGuide.text"/>
+        <display value="ImplementationGuide.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.text` is mapped to FHIR R4 element `ImplementationGuide.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="ImplementationGuide.contained"/>
+        <display value="ImplementationGuide.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.contained` is mapped to FHIR R4 element `ImplementationGuide.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.url"/>
+      <display value="url"/>
+      <target>
+        <code value="ImplementationGuide.url"/>
+        <display value="ImplementationGuide.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.url` is mapped to FHIR R4 element `ImplementationGuide.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ImplementationGuide.version"/>
+        <display value="ImplementationGuide.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.version` is mapped to FHIR R4 element `ImplementationGuide.version` as `Equivalent`.&#xA;There may be different implementation guide instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the implementation guide with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ImplementationGuide.name"/>
+        <display value="ImplementationGuide.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.name` is mapped to FHIR R4 element `ImplementationGuide.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ImplementationGuide.title"/>
+        <display value="ImplementationGuide.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.title` is mapped to FHIR R4 element `ImplementationGuide.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.status"/>
+      <display value="status"/>
+      <target>
+        <code value="ImplementationGuide.status"/>
+        <display value="ImplementationGuide.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.status` is mapped to FHIR R4 element `ImplementationGuide.status` as `Equivalent`.&#xA;Allows filtering of implementation guides that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="ImplementationGuide.experimental"/>
+        <display value="ImplementationGuide.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.experimental` is mapped to FHIR R4 element `ImplementationGuide.experimental` as `Equivalent`.&#xA;Allows filtering of implementation guides that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.date"/>
+      <display value="date"/>
+      <target>
+        <code value="ImplementationGuide.date"/>
+        <display value="ImplementationGuide.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.date` is mapped to FHIR R4 element `ImplementationGuide.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the implementation guide. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="ImplementationGuide.publisher"/>
+        <display value="ImplementationGuide.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.publisher` is mapped to FHIR R4 element `ImplementationGuide.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the implementation guide is the organization or individual primarily responsible for the maintenance and upkeep of the implementation guide. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the implementation guide. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="ImplementationGuide.contact"/>
+        <display value="ImplementationGuide.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.contact` is mapped to FHIR R4 element `ImplementationGuide.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ImplementationGuide.description"/>
+        <display value="ImplementationGuide.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.description` is mapped to FHIR R4 element `ImplementationGuide.description` as `Equivalent`.&#xA;This description can be used to capture details such as why the implementation guide was built, comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the implementation guide as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the implementation guide is presumed to be the predominant language in the place the implementation guide was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="ImplementationGuide.useContext"/>
+        <display value="ImplementationGuide.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.useContext` is mapped to FHIR R4 element `ImplementationGuide.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="ImplementationGuide.jurisdiction"/>
+        <display value="ImplementationGuide.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.jurisdiction` is mapped to FHIR R4 element `ImplementationGuide.jurisdiction` as `Equivalent`.&#xA;Element `ImplementationGuide.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the implementation guide to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="ImplementationGuide.copyright"/>
+        <display value="ImplementationGuide.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.copyright` is mapped to FHIR R4 element `ImplementationGuide.copyright` as `Equivalent`.&#xA;..."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.packageId"/>
+      <display value="packageId"/>
+      <target>
+        <code value="ImplementationGuide.packageId"/>
+        <display value="ImplementationGuide.packageId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.packageId` is mapped to FHIR R4 element `ImplementationGuide.packageId` as `Equivalent`.&#xA;Many (if not all) IG publishing tools will require that this element be present. For implementation guides published through HL7 or the FHIR foundation, the FHIR product director assigns package IDs."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.license"/>
+      <display value="license"/>
+      <target>
+        <code value="ImplementationGuide.license"/>
+        <display value="ImplementationGuide.license"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.license` is mapped to FHIR R4 element `ImplementationGuide.license` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.fhirVersion"/>
+      <display value="fhirVersion"/>
+      <target>
+        <code value="ImplementationGuide.fhirVersion"/>
+        <display value="ImplementationGuide.fhirVersion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`.&#xA;Most implementation guides target a single version - e.g. they describe how to use a particular version, and the profiles and examples etc. are valid for that version. But some implementation guides describe how to use multiple different versions of FHIR to solve the same problem, or in concert with each other. Typically, the requirement to support multiple versions arises as implementation matures and different implementation communities are stuck at different versions by regulation or market dynamics."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.dependsOn"/>
+      <display value="dependsOn"/>
+      <target>
+        <code value="ImplementationGuide.dependsOn"/>
+        <display value="ImplementationGuide.dependsOn"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.dependsOn` is mapped to FHIR R4 element `ImplementationGuide.dependsOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.dependsOn.uri"/>
+      <display value="uri"/>
+      <target>
+        <code value="ImplementationGuide.dependsOn.uri"/>
+        <display value="ImplementationGuide.dependsOn.uri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.dependsOn.uri` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.uri` as `Equivalent`.&#xA;Usually, A canonical reference to the implementation guide is the same as the master location at which the implementation guide is published."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.dependsOn.packageId"/>
+      <display value="packageId"/>
+      <target>
+        <code value="ImplementationGuide.dependsOn.packageId"/>
+        <display value="ImplementationGuide.dependsOn.packageId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.dependsOn.packageId` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.packageId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.dependsOn.version"/>
+      <display value="version"/>
+      <target>
+        <code value="ImplementationGuide.dependsOn.version"/>
+        <display value="ImplementationGuide.dependsOn.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.dependsOn.version` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.version` as `Equivalent`.&#xA;This follows the syntax of the NPM packaging version field - see [[reference]]."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.global"/>
+      <display value="global"/>
+      <target>
+        <code value="ImplementationGuide.global"/>
+        <display value="ImplementationGuide.global"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.global` is mapped to FHIR R4 element `ImplementationGuide.global` as `Equivalent`.&#xA;See [Default Profiles](https://hl7.org/fhir/implemen.html#default) for a discussion of which resources are 'covered' by an implementation guide."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.global.type"/>
+      <display value="type"/>
+      <target>
+        <code value="ImplementationGuide.global.type"/>
+        <display value="ImplementationGuide.global.type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`.&#xA;The mappings for `ImplementationGuide.global.type` do not allow expression of the necessary codes, per the bindings on the source and target.&#xA;The type must match that of the profile that is referred to but is made explicit here as a denormalization so that a system processing the implementation guide resource knows which resources the profile applies to even if the profile itself is not available."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.global.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="ImplementationGuide.global.profile"/>
+        <display value="ImplementationGuide.global.profile"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.global.profile` is mapped to FHIR R4 element `ImplementationGuide.global.profile` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition"/>
+      <display value="definition"/>
+      <target>
+        <code value="ImplementationGuide.definition"/>
+        <display value="ImplementationGuide.definition"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition` is mapped to FHIR R4 element `ImplementationGuide.definition` as `Equivalent`.&#xA;Principally, this consists of information abuot source resource and file locations, and build parameters and templates."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.grouping"/>
+      <display value="grouping"/>
+      <target>
+        <code value="ImplementationGuide.definition.grouping"/>
+        <display value="ImplementationGuide.definition.grouping"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.grouping` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping` as `Equivalent`.&#xA;Groupings are arbitrary sub-divisions of content. Typically, they are used to help build Table of Contents automatically."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.grouping.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ImplementationGuide.definition.grouping.name"/>
+        <display value="ImplementationGuide.definition.grouping.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.grouping.name` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.grouping.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ImplementationGuide.definition.grouping.description"/>
+        <display value="ImplementationGuide.definition.grouping.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.grouping.description` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource"/>
+        <display value="ImplementationGuide.definition.resource"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.resource` is mapped to FHIR R4 element `ImplementationGuide.definition.resource` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.reference"/>
+      <display value="reference"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.reference"/>
+        <display value="ImplementationGuide.definition.resource.reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.reference` as `Equivalent`.&#xA;Usually this is a relative URL that locates the resource within the implementation guide. If you authoring an implementation guide, and will publish it using the FHIR publication tooling, use a URI that may point to a resource, or to one of various alternative representations (e.g. spreadsheet). The tooling will convert this when it publishes it."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.fhirVersion"/>
+      <display value="fhirVersion"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.fhirVersion"/>
+        <display value="ImplementationGuide.definition.resource.fhirVersion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`.&#xA;The resource SHALL be valid against all the versions it is specified to apply to. If the resource referred to is a StructureDefinition, the fhirVersion stated in the StructureDefinition cannot disagree with the version specified here; the specified versions SHALL include the version specified by the StructureDefinition, and may include additional versions using the [http://hl7.org/fhir/StructureDefinition/structuredefinition-applicable-version](http://hl7.org/fhir/extensions/StructureDefinition-structuredefinition-applicable-version.html) extension."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.name"/>
+        <display value="ImplementationGuide.definition.resource.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.resource.name` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.description"/>
+        <display value="ImplementationGuide.definition.resource.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.resource.description` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.description` as `Equivalent`.&#xA;This is mostly used with examples to explain why it is present (though they can have extensive comments in the examples)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.isExample"/>
+      <display value="isExample"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.example[x]"/>
+        <display value="ImplementationGuide.definition.resource.example[x]"/>
+        <equivalence value="narrower"/>
+        <comment value="Element `ImplementationGuide.definition.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `SourceIsNarrowerThanTarget`.&#xA;The target context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.example[x]"/>
+        <display value="ImplementationGuide.definition.resource.example[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]` as `RelatedTo`.&#xA;The target context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.&#xA;Examples: &#xA;&#xA;* StructureDefinition -&gt; Any &#xA;* ValueSet -&gt; expansion &#xA;* OperationDefinition -&gt; Parameters &#xA;* Questionnaire -&gt; QuestionnaireResponse."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.groupingId"/>
+      <display value="groupingId"/>
+      <target>
+        <code value="ImplementationGuide.definition.resource.groupingId"/>
+        <display value="ImplementationGuide.definition.resource.groupingId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.resource.groupingId` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.groupingId` as `Equivalent`.&#xA;This must correspond to a group.id element within this implementation guide."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.page"/>
+      <display value="page"/>
+      <target>
+        <code value="ImplementationGuide.definition.page"/>
+        <display value="ImplementationGuide.definition.page"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page` as `Equivalent`.&#xA;Pages automatically become sections if they have sub-pages. By convention, the home page is called index.html."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.page.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ImplementationGuide.definition.page.name[x]"/>
+        <display value="ImplementationGuide.definition.page.name[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.page.name` is mapped to FHIR R4 element `ImplementationGuide.definition.page.name[x]` as `Equivalent`.&#xA;The target context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.&#xA;This SHALL be a local reference, expressed with respect to the root of the IG output folder.  No suffix is required.  If no suffix is specified, .html will be appended."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.page.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ImplementationGuide.definition.page.title"/>
+        <display value="ImplementationGuide.definition.page.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.page.title` is mapped to FHIR R4 element `ImplementationGuide.definition.page.title` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.page.generation"/>
+      <display value="generation"/>
+      <target>
+        <code value="ImplementationGuide.definition.page.generation"/>
+        <display value="ImplementationGuide.definition.page.generation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.page.generation` is mapped to FHIR R4 element `ImplementationGuide.definition.page.generation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.page.page"/>
+      <display value="page"/>
+      <target>
+        <code value="ImplementationGuide.definition.page.page"/>
+        <display value="ImplementationGuide.definition.page.page"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.page.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page.page` as `Equivalent`.&#xA;The implementation guide breadcrumbs may be generated from this structure."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="ImplementationGuide.definition.parameter"/>
+        <display value="ImplementationGuide.definition.parameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.parameter` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter` as `Equivalent`.&#xA;see [confluence](https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters) for the parameters defined by the HL7 IG publisher."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.parameter.code"/>
+      <display value="code"/>
+      <target>
+        <code value="ImplementationGuide.definition.parameter.code"/>
+        <display value="ImplementationGuide.definition.parameter.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types: Coding.&#xA;The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.parameter.value"/>
+      <display value="value"/>
+      <target>
+        <code value="ImplementationGuide.definition.parameter.value"/>
+        <display value="ImplementationGuide.definition.parameter.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.parameter.value` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.value` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.template"/>
+      <display value="template"/>
+      <target>
+        <code value="ImplementationGuide.definition.template"/>
+        <display value="ImplementationGuide.definition.template"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.template` is mapped to FHIR R4 element `ImplementationGuide.definition.template` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.template.code"/>
+      <display value="code"/>
+      <target>
+        <code value="ImplementationGuide.definition.template.code"/>
+        <display value="ImplementationGuide.definition.template.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.template.code` is mapped to FHIR R4 element `ImplementationGuide.definition.template.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.template.source"/>
+      <display value="source"/>
+      <target>
+        <code value="ImplementationGuide.definition.template.source"/>
+        <display value="ImplementationGuide.definition.template.source"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.template.source` is mapped to FHIR R4 element `ImplementationGuide.definition.template.source` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.template.scope"/>
+      <display value="scope"/>
+      <target>
+        <code value="ImplementationGuide.definition.template.scope"/>
+        <display value="ImplementationGuide.definition.template.scope"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.template.scope` is mapped to FHIR R4 element `ImplementationGuide.definition.template.scope` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest"/>
+      <display value="manifest"/>
+      <target>
+        <code value="ImplementationGuide.manifest"/>
+        <display value="ImplementationGuide.manifest"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.manifest` is mapped to FHIR R4 element `ImplementationGuide.manifest` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.rendering"/>
+      <display value="rendering"/>
+      <target>
+        <code value="ImplementationGuide.manifest.rendering"/>
+        <display value="ImplementationGuide.manifest.rendering"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.rendering` is mapped to FHIR R4 element `ImplementationGuide.manifest.rendering` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="ImplementationGuide.manifest.resource"/>
+        <display value="ImplementationGuide.manifest.resource"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.manifest.resource` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.resource.reference"/>
+      <display value="reference"/>
+      <target>
+        <code value="ImplementationGuide.manifest.resource.reference"/>
+        <display value="ImplementationGuide.manifest.resource.reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.reference` as `Equivalent`.&#xA;Usually this is a relative URL that locates the resource within the implementation guide. If you authoring an implementation guide, and will publish it using the FHIR publication tooling, use a URI that may point to a resource, or to one of various alternative representations (e.g. spreadsheet). The tooling will convert this when it publishes it."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.resource.isExample"/>
+      <display value="isExample"/>
+      <target>
+        <code value="ImplementationGuide.manifest.resource.example[x]"/>
+        <display value="ImplementationGuide.manifest.resource.example[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `Equivalent`.&#xA;The target context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.resource.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="ImplementationGuide.manifest.resource.example[x]"/>
+        <display value="ImplementationGuide.manifest.resource.example[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]` as `SourceIsBroaderThanTarget`.&#xA;The target context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.&#xA;Examples: &#xA;&#xA;* StructureDefinition -&gt; Any &#xA;* ValueSet -&gt; expansion &#xA;* OperationDefinition -&gt; Parameters &#xA;* Questionnaire -&gt; QuestionnaireResponse."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.resource.relativePath"/>
+      <display value="relativePath"/>
+      <target>
+        <code value="ImplementationGuide.manifest.resource.relativePath"/>
+        <display value="ImplementationGuide.manifest.resource.relativePath"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.resource.relativePath` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.relativePath` as `Equivalent`.&#xA;Appending 'rendering' + &quot;/&quot; + this should resolve to the resource page."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.page"/>
+      <display value="page"/>
+      <target>
+        <code value="ImplementationGuide.manifest.page"/>
+        <display value="ImplementationGuide.manifest.page"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.manifest.page` is mapped to FHIR R4 element `ImplementationGuide.manifest.page` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.page.name"/>
+      <display value="name"/>
+      <target>
+        <code value="ImplementationGuide.manifest.page.name"/>
+        <display value="ImplementationGuide.manifest.page.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.page.name` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.name` as `Equivalent`.&#xA;Appending 'rendering' + &quot;/&quot; + this should resolve to the page."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.page.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ImplementationGuide.manifest.page.title"/>
+        <display value="ImplementationGuide.manifest.page.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.page.title` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.title` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.page.anchor"/>
+      <display value="anchor"/>
+      <target>
+        <code value="ImplementationGuide.manifest.page.anchor"/>
+        <display value="ImplementationGuide.manifest.page.anchor"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.page.anchor` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.anchor` as `Equivalent`.&#xA;Appending 'rendering' + &quot;/&quot; + page.name + &quot;#&quot; + page.anchor should resolve to the anchor."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.image"/>
+      <display value="image"/>
+      <target>
+        <code value="ImplementationGuide.manifest.image"/>
+        <display value="ImplementationGuide.manifest.image"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.image` is mapped to FHIR R4 element `ImplementationGuide.manifest.image` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.manifest.other"/>
+      <display value="other"/>
+      <target>
+        <code value="ImplementationGuide.manifest.other"/>
+        <display value="ImplementationGuide.manifest.other"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.manifest.other` is mapped to FHIR R4 element `ImplementationGuide.manifest.other` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ImplementationGuide"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="ImplementationGuide.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.identifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.identifier` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.&#xA;Element `ImplementationGuide.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.versionAlgorithm[x]` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.&#xA;Element `ImplementationGuide.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.purpose"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.purpose` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.&#xA;Element `ImplementationGuide.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element does not describe the usage of the implementation guide. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this implementation guide."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.copyrightLabel` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`.&#xA;Element `ImplementationGuide.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.fhirVersion"/>
+      <display value="fhirVersion"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.fhirVersion"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion` as `SourceIsBroaderThanTarget`.&#xA;Most implementation guides target a single version - e.g. they describe how to use a particular version, and the profiles and examples etc. are valid for that version. But some implementation guides describe how to use multiple different versions of FHIR to solve the same problem, or in concert with each other. Typically, the requirement to support multiple versions arises as implementation matures and different implementation communities are stuck at different versions by regulation or market dynamics."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.dependsOn.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn.reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.dependsOn.reason` has a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`.&#xA;Element `ImplementationGuide.dependsOn.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This doesn't need to enumerate every resource used, but should give some sense of why the dependency exists.  It will be used in the rendered list of dependencies"/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.global.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.global.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type` as `RelatedTo`.&#xA;The mappings for `ImplementationGuide.global.type` do not allow expression of the necessary codes, per the bindings on the source and target.&#xA;The type must match that of the profile that is referred to but is made explicit here as a denormalization so that a system processing the implementation guide resource knows which resources the profile applies to even if the profile itself is not available."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.resource.fhirVersion"/>
+      <display value="fhirVersion"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.fhirVersion"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion` as `SourceIsBroaderThanTarget`.&#xA;The resource SHALL be valid against all the versions it is specified to apply to. If the resource referred to is a StructureDefinition, the fhirVersion stated in the StructureDefinition cannot disagree with the version specified here; the specified versions SHALL include the version specified by the StructureDefinition, and may include additional versions using the [http://hl7.org/fhir/StructureDefinition/structuredefinition-applicable-version](http://hl7.org/fhir/extensions/StructureDefinition-structuredefinition-applicable-version.html) extension."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.page.source[x]"/>
+      <display value="source[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page.source"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImplementationGuide.definition.page.source[x]` has a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`.&#xA;Element `ImplementationGuide.definition.page.source[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If absent and the page isn't a generated page, this may be inferred from the page name by checking input locations.  String is used for XHTML content - sent as an escaped string.  FHIR tooling can't support 'direct' XHTML anywhere other than in narrative."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImplementationGuide.definition.parameter.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.parameter.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types: Coding.&#xA;The mappings for `ImplementationGuide.definition.parameter.code` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Location-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Location-element-map-to-R4</b></p><a name="R5-Location-element-map-to-R4"> </a><a name="hcR5-Location-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Location|5.0.0</code> to <a href="http://hl7.org/fhir/R4/location.html">Locationversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Location.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.meta</td><td>Element `Location.meta` is mapped to FHIR R4 element `Location.meta` as `Equivalent`.</td></tr><tr><td>Location.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.implicitRules</td><td>Element `Location.implicitRules` is mapped to FHIR R4 element `Location.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Location.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.language</td><td>Element `Location.language` is mapped to FHIR R4 element `Location.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Location.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.text</td><td>Element `Location.text` is mapped to FHIR R4 element `Location.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Location.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.contained</td><td>Element `Location.contained` is mapped to FHIR R4 element `Location.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Location.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.identifier</td><td>Element `Location.identifier` is mapped to FHIR R4 element `Location.identifier` as `Equivalent`.</td></tr><tr><td>Location.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.status</td><td>Element `Location.status` is mapped to FHIR R4 element `Location.status` as `Equivalent`.</td></tr><tr><td>Location.operationalStatus (operationalStatus)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.operationalStatus</td><td>Element `Location.operationalStatus` is mapped to FHIR R4 element `Location.operationalStatus` as `Equivalent`.</td></tr><tr><td>Location.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.name</td><td>Element `Location.name` is mapped to FHIR R4 element `Location.name` as `Equivalent`.
+If the name of a location changes, consider putting the old name in the alias column so that it can still be located through searches.</td></tr><tr><td>Location.alias (alias)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.alias</td><td>Element `Location.alias` is mapped to FHIR R4 element `Location.alias` as `Equivalent`.
+There are no dates associated with the alias/historic names, as this is not intended to track when names were used, but to assist in searching so that older names can still result in identifying the location.</td></tr><tr><td>Location.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.description</td><td>Element `Location.description` is mapped to FHIR R4 element `Location.description` as `Equivalent`.</td></tr><tr><td>Location.mode (mode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.mode</td><td>Element `Location.mode` is mapped to FHIR R4 element `Location.mode` as `Equivalent`.
+This is labeled as a modifier because whether or not the location is a class of locations changes how it can be used and understood.</td></tr><tr><td>Location.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.type</td><td>Element `Location.type` is mapped to FHIR R4 element `Location.type` as `Equivalent`.</td></tr><tr><td>Location.address (address)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.address</td><td>Element `Location.address` is mapped to FHIR R4 element `Location.address` as `Equivalent`.
+Additional addresses should be recorded using another instance of the Location resource, or via the Organization.</td></tr><tr><td>Location.form (form)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.physicalType</td><td>Element `Location.form` is mapped to FHIR R4 element `Location.physicalType` as `Equivalent`.</td></tr><tr><td>Location.position (position)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Location.position</td><td>Element `Location.position` is mapped to FHIR R4 element `Location.position` as `Equivalent`.
+To define a boundary shape for this location use the standard extension `[http://hl7.org/fhir/StructureDefinition/location-boundary-geojson](http://hl7.org/fhir/extensions/StructureDefinition-location-boundary-geojson.html)`, and search using the `contains` special search parameter.</td></tr><tr><td>Location.position.longitude (longitude)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.position.longitude</td><td>Element `Location.position.longitude` is mapped to FHIR R4 element `Location.position.longitude` as `Equivalent`.</td></tr><tr><td>Location.position.latitude (latitude)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.position.latitude</td><td>Element `Location.position.latitude` is mapped to FHIR R4 element `Location.position.latitude` as `Equivalent`.</td></tr><tr><td>Location.position.altitude (altitude)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.position.altitude</td><td>Element `Location.position.altitude` is mapped to FHIR R4 element `Location.position.altitude` as `Equivalent`.</td></tr><tr><td>Location.managingOrganization (managingOrganization)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.managingOrganization</td><td>Element `Location.managingOrganization` is mapped to FHIR R4 element `Location.managingOrganization` as `Equivalent`.
+This can also be used as the part of the organization hierarchy where this location provides services. These services can be defined through the HealthcareService resource.</td></tr><tr><td>Location.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.partOf</td><td>Element `Location.partOf` is mapped to FHIR R4 element `Location.partOf` as `Equivalent`.</td></tr><tr><td>Location.hoursOfOperation (hoursOfOperation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.hoursOfOperation</td><td>Element `Location.hoursOfOperation` is mapped to FHIR R4 element `Location.hoursOfOperation` as `Equivalent`.
+This type of information is commonly found published in directories and on websites informing customers when the facility is available.
+
+Specific services within the location may have their own hours which could be shorter (or longer) than the locations hours.
+
+Systems may choose to render availability differently than it is exchanged on the interface. For example, rather than &quot;Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm&quot; as would be implied by two availableTime repetitions, an application could render this information as &quot;Mon-Fri 9-12am and 1-5pm&quot;.The availableStartTime is the opening time, and the availableEndTime is the closing time.</td></tr><tr><td>Location.endpoint (endpoint)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Location.endpoint</td><td>Element `Location.endpoint` is mapped to FHIR R4 element `Location.endpoint` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Location|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Location.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact</td><td>Element `Location.contact` has a context of Location based on following the parent source element upwards and mapping to `Location`.
+Element `Location.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The address/telecom use code 'home' are not to be used. Note that these contacts are not the contact details of people who provide the service (that would be through PractitionerRole), these are official contacts for the Healthcare itself for specific purposes. E.g. Mailing Addresses, Billing Addresses, Contact numbers for Booking or Billing Enquiries, general web address, web address for online bookings etc.
+
+If this is empty (or the type of interest is empty), refer to the organization's contacts.</td></tr><tr><td>Location.characteristic (characteristic)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic</td><td>Element `Location.characteristic` has a context of Location based on following the parent source element upwards and mapping to `Location`.
+Element `Location.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+These could be such things as is wheelchair accessible.</td></tr><tr><td>Location.virtualService (virtualService)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService</td><td>Element `Location.virtualService` has a context of Location based on following the parent source element upwards and mapping to `Location`.
+Element `Location.virtualService` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+There are two types of virtual meetings that often exist:* a persistent, virtual meeting room that can only be used for a single purpose at a time, * and a dynamic virtual meeting room that is generated on demand for a specific purpose. Implementers may consider using Appointment.virtualService for virtual meeting rooms that are generated on-demand.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Location-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5LocationElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Location to FHIR R4 Location"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:49.8878748-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Location to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Location"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Location"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Location.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Location.meta"/>
+        <display value="Location.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.meta` is mapped to FHIR R4 element `Location.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Location.implicitRules"/>
+        <display value="Location.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.implicitRules` is mapped to FHIR R4 element `Location.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Location.language"/>
+        <display value="Location.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.language` is mapped to FHIR R4 element `Location.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Location.text"/>
+        <display value="Location.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.text` is mapped to FHIR R4 element `Location.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Location.contained"/>
+        <display value="Location.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.contained` is mapped to FHIR R4 element `Location.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Location.identifier"/>
+        <display value="Location.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.identifier` is mapped to FHIR R4 element `Location.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Location.status"/>
+        <display value="Location.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.status` is mapped to FHIR R4 element `Location.status` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.operationalStatus"/>
+      <display value="operationalStatus"/>
+      <target>
+        <code value="Location.operationalStatus"/>
+        <display value="Location.operationalStatus"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.operationalStatus` is mapped to FHIR R4 element `Location.operationalStatus` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.name"/>
+      <display value="name"/>
+      <target>
+        <code value="Location.name"/>
+        <display value="Location.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.name` is mapped to FHIR R4 element `Location.name` as `Equivalent`.&#xA;If the name of a location changes, consider putting the old name in the alias column so that it can still be located through searches."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.alias"/>
+      <display value="alias"/>
+      <target>
+        <code value="Location.alias"/>
+        <display value="Location.alias"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.alias` is mapped to FHIR R4 element `Location.alias` as `Equivalent`.&#xA;There are no dates associated with the alias/historic names, as this is not intended to track when names were used, but to assist in searching so that older names can still result in identifying the location."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.description"/>
+      <display value="description"/>
+      <target>
+        <code value="Location.description"/>
+        <display value="Location.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.description` is mapped to FHIR R4 element `Location.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.mode"/>
+      <display value="mode"/>
+      <target>
+        <code value="Location.mode"/>
+        <display value="Location.mode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.mode` is mapped to FHIR R4 element `Location.mode` as `Equivalent`.&#xA;This is labeled as a modifier because whether or not the location is a class of locations changes how it can be used and understood."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Location.type"/>
+        <display value="Location.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.type` is mapped to FHIR R4 element `Location.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.address"/>
+      <display value="address"/>
+      <target>
+        <code value="Location.address"/>
+        <display value="Location.address"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.address` is mapped to FHIR R4 element `Location.address` as `Equivalent`.&#xA;Additional addresses should be recorded using another instance of the Location resource, or via the Organization."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.form"/>
+      <display value="form"/>
+      <target>
+        <code value="Location.physicalType"/>
+        <display value="Location.physicalType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.form` is mapped to FHIR R4 element `Location.physicalType` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.position"/>
+      <display value="position"/>
+      <target>
+        <code value="Location.position"/>
+        <display value="Location.position"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Location.position` is mapped to FHIR R4 element `Location.position` as `Equivalent`.&#xA;To define a boundary shape for this location use the standard extension `[http://hl7.org/fhir/StructureDefinition/location-boundary-geojson](http://hl7.org/fhir/extensions/StructureDefinition-location-boundary-geojson.html)`, and search using the `contains` special search parameter."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.position.longitude"/>
+      <display value="longitude"/>
+      <target>
+        <code value="Location.position.longitude"/>
+        <display value="Location.position.longitude"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.position.longitude` is mapped to FHIR R4 element `Location.position.longitude` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.position.latitude"/>
+      <display value="latitude"/>
+      <target>
+        <code value="Location.position.latitude"/>
+        <display value="Location.position.latitude"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.position.latitude` is mapped to FHIR R4 element `Location.position.latitude` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.position.altitude"/>
+      <display value="altitude"/>
+      <target>
+        <code value="Location.position.altitude"/>
+        <display value="Location.position.altitude"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.position.altitude` is mapped to FHIR R4 element `Location.position.altitude` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.managingOrganization"/>
+      <display value="managingOrganization"/>
+      <target>
+        <code value="Location.managingOrganization"/>
+        <display value="Location.managingOrganization"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.managingOrganization` is mapped to FHIR R4 element `Location.managingOrganization` as `Equivalent`.&#xA;This can also be used as the part of the organization hierarchy where this location provides services. These services can be defined through the HealthcareService resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="Location.partOf"/>
+        <display value="Location.partOf"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.partOf` is mapped to FHIR R4 element `Location.partOf` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.hoursOfOperation"/>
+      <display value="hoursOfOperation"/>
+      <target>
+        <code value="Location.hoursOfOperation"/>
+        <display value="Location.hoursOfOperation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.hoursOfOperation` is mapped to FHIR R4 element `Location.hoursOfOperation` as `Equivalent`.&#xA;This type of information is commonly found published in directories and on websites informing customers when the facility is available.&#xA;&#xA;Specific services within the location may have their own hours which could be shorter (or longer) than the locations hours.&#xA;&#xA;Systems may choose to render availability differently than it is exchanged on the interface. For example, rather than &quot;Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm&quot; as would be implied by two availableTime repetitions, an application could render this information as &quot;Mon-Fri 9-12am and 1-5pm&quot;.&#xD;&#xD;The availableStartTime is the opening time, and the availableEndTime is the closing time."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.endpoint"/>
+      <display value="endpoint"/>
+      <target>
+        <code value="Location.endpoint"/>
+        <display value="Location.endpoint"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Location.endpoint` is mapped to FHIR R4 element `Location.endpoint` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Location"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Location.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Location.contact` has a context of Location based on following the parent source element upwards and mapping to `Location`.&#xA;Element `Location.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The address/telecom use code 'home' are not to be used. Note that these contacts are not the contact details of people who provide the service (that would be through PractitionerRole), these are official contacts for the Healthcare itself for specific purposes. E.g. Mailing Addresses, Billing Addresses, Contact numbers for Booking or Billing Enquiries, general web address, web address for online bookings etc.&#xA;&#xA;If this is empty (or the type of interest is empty), refer to the organization's contacts."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.characteristic"/>
+      <display value="characteristic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Location.characteristic` has a context of Location based on following the parent source element upwards and mapping to `Location`.&#xA;Element `Location.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;These could be such things as is wheelchair accessible."/>
+      </target>
+    </element>
+    <element>
+      <code value="Location.virtualService"/>
+      <display value="virtualService"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.virtualService"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Location.virtualService` has a context of Location based on following the parent source element upwards and mapping to `Location`.&#xA;Element `Location.virtualService` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;There are two types of virtual meetings that often exist:&#xD;&#xD;* a persistent, virtual meeting room that can only be used for a single purpose at a time,&#xD; * and a dynamic virtual meeting room that is generated on demand for a specific purpose.&#xD;&#xD; Implementers may consider using Appointment.virtualService for virtual meeting rooms that are generated on-demand."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

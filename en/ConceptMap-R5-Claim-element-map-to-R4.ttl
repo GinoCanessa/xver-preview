@@ -1,0 +1,1335 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Claim-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Claim-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Claim-element-map-to-R4</b></p><a name=\"R5-Claim-element-map-to-R4\"> </a><a name=\"hcR5-Claim-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Claim|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/claim.html\">Claimversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Claim.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.meta</td><td>Element `Claim.meta` is mapped to FHIR R4 element `Claim.meta` as `Equivalent`.</td></tr><tr><td>Claim.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.implicitRules</td><td>Element `Claim.implicitRules` is mapped to FHIR R4 element `Claim.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Claim.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.language</td><td>Element `Claim.language` is mapped to FHIR R4 element `Claim.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Claim.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.text</td><td>Element `Claim.text` is mapped to FHIR R4 element `Claim.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Claim.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.contained</td><td>Element `Claim.contained` is mapped to FHIR R4 element `Claim.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Claim.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.identifier</td><td>Element `Claim.identifier` is mapped to FHIR R4 element `Claim.identifier` as `Equivalent`.</td></tr><tr><td>Claim.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.status</td><td>Element `Claim.status` is mapped to FHIR R4 element `Claim.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>Claim.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.type</td><td>Element `Claim.type` is mapped to FHIR R4 element `Claim.type` as `Equivalent`.\nThe code system provides oral, pharmacy, vision, professional and institutional claim types. Those supported depends on the requirements of the jurisdiction. The valueset is extensible to accommodate other types of claims as required by the jurisdiction.</td></tr><tr><td>Claim.subType (subType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.subType</td><td>Element `Claim.subType` is mapped to FHIR R4 element `Claim.subType` as `Equivalent`.\nThis may contain the local bill type codes, for example the US UB-04 bill type code or the CMS bill type.</td></tr><tr><td>Claim.use (use)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.use</td><td>Element `Claim.use` is mapped to FHIR R4 element `Claim.use` as `Equivalent`.</td></tr><tr><td>Claim.patient (patient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.patient</td><td>Element `Claim.patient` is mapped to FHIR R4 element `Claim.patient` as `Equivalent`.</td></tr><tr><td>Claim.billablePeriod (billablePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.billablePeriod</td><td>Element `Claim.billablePeriod` is mapped to FHIR R4 element `Claim.billablePeriod` as `Equivalent`.\nTypically this would be today or in the past for a claim, and today or in the future for preauthorizations and predeterminations. Typically line item dates of service should fall within the billing period if one is specified.</td></tr><tr><td>Claim.created (created)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.created</td><td>Element `Claim.created` is mapped to FHIR R4 element `Claim.created` as `Equivalent`.\nThis field is independent of the date of creation of the resource as it may reflect the creation date of a source document prior to digitization. Typically for claims all services must be completed as of this date.</td></tr><tr><td>Claim.enterer (enterer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.enterer</td><td>Element `Claim.enterer` is mapped to FHIR R4 element `Claim.enterer` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Claim.enterer` with unmapped reference targets: Patient, RelatedPerson.</td></tr><tr><td>Claim.insurer (insurer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurer</td><td>Element `Claim.insurer` is mapped to FHIR R4 element `Claim.insurer` as `Equivalent`.</td></tr><tr><td>Claim.provider (provider)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.provider</td><td>Element `Claim.provider` is mapped to FHIR R4 element `Claim.provider` as `Equivalent`.\nTypically this field would be 1..1 where this party is accountable for the data content within the claim but is not necessarily the facility, provider group or practitioner who provided the products and services listed within this claim resource. This field is the Billing Provider, for example, a facility, provider group, lab or practitioner.</td></tr><tr><td>Claim.priority (priority)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.priority</td><td>Element `Claim.priority` is mapped to FHIR R4 element `Claim.priority` as `Equivalent`.\nIf a claim processor is unable to complete the processing as per the priority then they should generate an error and not process the request.</td></tr><tr><td>Claim.fundsReserve (fundsReserve)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.fundsReserve</td><td>Element `Claim.fundsReserve` is mapped to FHIR R4 element `Claim.fundsReserve` as `Equivalent`.\nThis field is only used for preauthorizations.</td></tr><tr><td>Claim.related (related)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.related</td><td>Element `Claim.related` is mapped to FHIR R4 element `Claim.related` as `Equivalent`.\nFor example,  for the original treatment and follow-up exams.</td></tr><tr><td>Claim.related.claim (claim)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.related.claim</td><td>Element `Claim.related.claim` is mapped to FHIR R4 element `Claim.related.claim` as `Equivalent`.</td></tr><tr><td>Claim.related.relationship (relationship)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.related.relationship</td><td>Element `Claim.related.relationship` is mapped to FHIR R4 element `Claim.related.relationship` as `Equivalent`.\nFor example, prior claim or umbrella.</td></tr><tr><td>Claim.related.reference (reference)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.related.reference</td><td>Element `Claim.related.reference` is mapped to FHIR R4 element `Claim.related.reference` as `Equivalent`.\nFor example, Property/Casualty insurer claim # or Workers Compensation case # .</td></tr><tr><td>Claim.prescription (prescription)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.prescription</td><td>Element `Claim.prescription` is mapped to FHIR R4 element `Claim.prescription` as `Equivalent`.</td></tr><tr><td>Claim.originalPrescription (originalPrescription)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.originalPrescription</td><td>Element `Claim.originalPrescription` is mapped to FHIR R4 element `Claim.originalPrescription` as `Equivalent`.\nFor example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for which the patient has an intolerance, and therefore issues a new prescription for an alternate medication which has the same therapeutic intent. The prescription from the pharmacy becomes the 'prescription' and that from the physician becomes the 'original prescription'.</td></tr><tr><td>Claim.payee (payee)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.payee</td><td>Element `Claim.payee` is mapped to FHIR R4 element `Claim.payee` as `Equivalent`.\nOften providers agree to receive the benefits payable to reduce the near-term costs to the patient. The insurer may decline to pay the provider and choose to pay the subscriber instead.</td></tr><tr><td>Claim.payee.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.payee.type</td><td>Element `Claim.payee.type` is mapped to FHIR R4 element `Claim.payee.type` as `Equivalent`.</td></tr><tr><td>Claim.payee.party (party)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.payee.party</td><td>Element `Claim.payee.party` is mapped to FHIR R4 element `Claim.payee.party` as `Equivalent`.\nNot required if the payee is 'subscriber' or 'provider'.</td></tr><tr><td>Claim.referral (referral)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.referral</td><td>Element `Claim.referral` is mapped to FHIR R4 element `Claim.referral` as `Equivalent`.\nThe referral resource which lists the date, practitioner, reason and other supporting information.</td></tr><tr><td>Claim.facility (facility)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.facility</td><td>Element `Claim.facility` is mapped to FHIR R4 element `Claim.facility` as `SourceIsBroaderThanTarget`.\nThe mappings for `Claim.facility` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Claim.facility` with unmapped reference targets: Organization.</td></tr><tr><td>Claim.careTeam (careTeam)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.careTeam</td><td>Element `Claim.careTeam` is mapped to FHIR R4 element `Claim.careTeam` as `Equivalent`.</td></tr><tr><td>Claim.careTeam.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.careTeam.sequence</td><td>Element `Claim.careTeam.sequence` is mapped to FHIR R4 element `Claim.careTeam.sequence` as `Equivalent`.</td></tr><tr><td>Claim.careTeam.provider (provider)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.careTeam.provider</td><td>Element `Claim.careTeam.provider` is mapped to FHIR R4 element `Claim.careTeam.provider` as `Equivalent`.</td></tr><tr><td>Claim.careTeam.responsible (responsible)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.careTeam.responsible</td><td>Element `Claim.careTeam.responsible` is mapped to FHIR R4 element `Claim.careTeam.responsible` as `Equivalent`.\nResponsible might not be required when there is only a single provider listed.</td></tr><tr><td>Claim.careTeam.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.careTeam.role</td><td>Element `Claim.careTeam.role` is mapped to FHIR R4 element `Claim.careTeam.role` as `Equivalent`.\nRole might not be required when there is only a single provider listed.</td></tr><tr><td>Claim.careTeam.specialty (specialty)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.careTeam.qualification</td><td>Element `Claim.careTeam.specialty` is mapped to FHIR R4 element `Claim.careTeam.qualification` as `Equivalent`.</td></tr><tr><td>Claim.supportingInfo (supportingInfo)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.supportingInfo</td><td>Element `Claim.supportingInfo` is mapped to FHIR R4 element `Claim.supportingInfo` as `Equivalent`.\nOften there are multiple jurisdiction specific valuesets which are required.</td></tr><tr><td>Claim.supportingInfo.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.supportingInfo.sequence</td><td>Element `Claim.supportingInfo.sequence` is mapped to FHIR R4 element `Claim.supportingInfo.sequence` as `Equivalent`.</td></tr><tr><td>Claim.supportingInfo.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.supportingInfo.category</td><td>Element `Claim.supportingInfo.category` is mapped to FHIR R4 element `Claim.supportingInfo.category` as `Equivalent`.\nThis may contain a category for the local bill type codes.</td></tr><tr><td>Claim.supportingInfo.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.supportingInfo.code</td><td>Element `Claim.supportingInfo.code` is mapped to FHIR R4 element `Claim.supportingInfo.code` as `Equivalent`.</td></tr><tr><td>Claim.supportingInfo.timing[x] (timing[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.supportingInfo.timing[x]</td><td>Element `Claim.supportingInfo.timing[x]` is mapped to FHIR R4 element `Claim.supportingInfo.timing[x]` as `Equivalent`.\nThe target context `Claim.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.</td></tr><tr><td>Claim.supportingInfo.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.supportingInfo.value[x]</td><td>Element `Claim.supportingInfo.value[x]` is mapped to FHIR R4 element `Claim.supportingInfo.value[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `Claim.supportingInfo.value[x]` do not cover the following types: Identifier.\nThe target context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nCould be used to provide references to other resources, document. For example could contain a PDF in an Attachment of the Police Report for an Accident.</td></tr><tr><td>Claim.supportingInfo.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.supportingInfo.reason</td><td>Element `Claim.supportingInfo.reason` is mapped to FHIR R4 element `Claim.supportingInfo.reason` as `Equivalent`.\nFor example: the reason for the additional stay, or why a tooth is  missing.</td></tr><tr><td>Claim.diagnosis (diagnosis)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.diagnosis</td><td>Element `Claim.diagnosis` is mapped to FHIR R4 element `Claim.diagnosis` as `Equivalent`.</td></tr><tr><td>Claim.diagnosis.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.diagnosis.sequence</td><td>Element `Claim.diagnosis.sequence` is mapped to FHIR R4 element `Claim.diagnosis.sequence` as `Equivalent`.\nDiagnosis are presented in list order to their expected importance: primary, secondary, etc.</td></tr><tr><td>Claim.diagnosis.diagnosis[x] (diagnosis[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.diagnosis.diagnosis[x]</td><td>Element `Claim.diagnosis.diagnosis[x]` is mapped to FHIR R4 element `Claim.diagnosis.diagnosis[x]` as `Equivalent`.\nThe target context `Claim.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.diagnosis`.</td></tr><tr><td>Claim.diagnosis.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.diagnosis.type</td><td>Element `Claim.diagnosis.type` is mapped to FHIR R4 element `Claim.diagnosis.type` as `Equivalent`.\nFor example: admitting, primary, secondary, discharge.</td></tr><tr><td>Claim.diagnosis.onAdmission (onAdmission)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.diagnosis.onAdmission</td><td>Element `Claim.diagnosis.onAdmission` is mapped to FHIR R4 element `Claim.diagnosis.onAdmission` as `Equivalent`.</td></tr><tr><td>Claim.procedure (procedure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.procedure</td><td>Element `Claim.procedure` is mapped to FHIR R4 element `Claim.procedure` as `Equivalent`.</td></tr><tr><td>Claim.procedure.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.procedure.sequence</td><td>Element `Claim.procedure.sequence` is mapped to FHIR R4 element `Claim.procedure.sequence` as `Equivalent`.</td></tr><tr><td>Claim.procedure.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.procedure.type</td><td>Element `Claim.procedure.type` is mapped to FHIR R4 element `Claim.procedure.type` as `Equivalent`.\nFor example: primary, secondary.</td></tr><tr><td>Claim.procedure.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.procedure.date</td><td>Element `Claim.procedure.date` is mapped to FHIR R4 element `Claim.procedure.date` as `Equivalent`.</td></tr><tr><td>Claim.procedure.procedure[x] (procedure[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.procedure.procedure[x]</td><td>Element `Claim.procedure.procedure[x]` is mapped to FHIR R4 element `Claim.procedure.procedure[x]` as `Equivalent`.\nThe target context `Claim.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.procedure`.</td></tr><tr><td>Claim.procedure.udi (udi)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.procedure.udi</td><td>Element `Claim.procedure.udi` is mapped to FHIR R4 element `Claim.procedure.udi` as `Equivalent`.</td></tr><tr><td>Claim.insurance (insurance)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.insurance</td><td>Element `Claim.insurance` is mapped to FHIR R4 element `Claim.insurance` as `Equivalent`.\nAll insurance coverages for the patient which may be applicable for reimbursement, of the products and services listed in the claim, are typically provided in the claim to allow insurers to confirm the ordering of the insurance coverages relative to local 'coordination of benefit' rules. One coverage (and only one) with 'focal=true' is to be used in the adjudication of this claim. Coverages appearing before the focal Coverage in the list, and where 'Coverage.subrogation=false', should provide a reference to the ClaimResponse containing the adjudication results of the prior claim.</td></tr><tr><td>Claim.insurance.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.sequence</td><td>Element `Claim.insurance.sequence` is mapped to FHIR R4 element `Claim.insurance.sequence` as `Equivalent`.</td></tr><tr><td>Claim.insurance.focal (focal)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.focal</td><td>Element `Claim.insurance.focal` is mapped to FHIR R4 element `Claim.insurance.focal` as `Equivalent`.\nA patient may (will) have multiple insurance policies which provide reimbursement for healthcare services and products. For example a person may also be covered by their spouse's policy and both appear in the list (and may be from the same insurer). This flag will be set to true for only one of the listed policies and that policy will be used for adjudicating this claim. Other claims would be created to request adjudication against the other listed policies.</td></tr><tr><td>Claim.insurance.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.identifier</td><td>Element `Claim.insurance.identifier` is mapped to FHIR R4 element `Claim.insurance.identifier` as `Equivalent`.\nOnly required in jurisdictions where insurers, rather than the provider, are required to send claims to  insurers that appear after them in the list. This element is not required when 'subrogation=true'.</td></tr><tr><td>Claim.insurance.coverage (coverage)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.coverage</td><td>Element `Claim.insurance.coverage` is mapped to FHIR R4 element `Claim.insurance.coverage` as `Equivalent`.</td></tr><tr><td>Claim.insurance.businessArrangement (businessArrangement)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.businessArrangement</td><td>Element `Claim.insurance.businessArrangement` is mapped to FHIR R4 element `Claim.insurance.businessArrangement` as `Equivalent`.</td></tr><tr><td>Claim.insurance.preAuthRef (preAuthRef)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.preAuthRef</td><td>Element `Claim.insurance.preAuthRef` is mapped to FHIR R4 element `Claim.insurance.preAuthRef` as `Equivalent`.\nThis value is an alphanumeric string that may be provided over the phone, via text, via paper, or within a ClaimResponse resource and is not a FHIR Identifier.</td></tr><tr><td>Claim.insurance.claimResponse (claimResponse)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.insurance.claimResponse</td><td>Element `Claim.insurance.claimResponse` is mapped to FHIR R4 element `Claim.insurance.claimResponse` as `Equivalent`.\nMust not be specified when 'focal=true' for this insurance.</td></tr><tr><td>Claim.accident (accident)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.accident</td><td>Element `Claim.accident` is mapped to FHIR R4 element `Claim.accident` as `Equivalent`.</td></tr><tr><td>Claim.accident.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.accident.date</td><td>Element `Claim.accident.date` is mapped to FHIR R4 element `Claim.accident.date` as `Equivalent`.\nThe date of the accident has to precede the dates of the products and services but within a reasonable timeframe.</td></tr><tr><td>Claim.accident.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.accident.type</td><td>Element `Claim.accident.type` is mapped to FHIR R4 element `Claim.accident.type` as `Equivalent`.</td></tr><tr><td>Claim.accident.location[x] (location[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.accident.location[x]</td><td>Element `Claim.accident.location[x]` is mapped to FHIR R4 element `Claim.accident.location[x]` as `Equivalent`.\nThe target context `Claim.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.accident`.</td></tr><tr><td>Claim.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.item</td><td>Element `Claim.item` is mapped to FHIR R4 element `Claim.item` as `Equivalent`.</td></tr><tr><td>Claim.item.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.sequence</td><td>Element `Claim.item.sequence` is mapped to FHIR R4 element `Claim.item.sequence` as `Equivalent`.</td></tr><tr><td>Claim.item.careTeamSequence (careTeamSequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.careTeamSequence</td><td>Element `Claim.item.careTeamSequence` is mapped to FHIR R4 element `Claim.item.careTeamSequence` as `Equivalent`.</td></tr><tr><td>Claim.item.diagnosisSequence (diagnosisSequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.diagnosisSequence</td><td>Element `Claim.item.diagnosisSequence` is mapped to FHIR R4 element `Claim.item.diagnosisSequence` as `Equivalent`.</td></tr><tr><td>Claim.item.procedureSequence (procedureSequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.procedureSequence</td><td>Element `Claim.item.procedureSequence` is mapped to FHIR R4 element `Claim.item.procedureSequence` as `Equivalent`.</td></tr><tr><td>Claim.item.informationSequence (informationSequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.informationSequence</td><td>Element `Claim.item.informationSequence` is mapped to FHIR R4 element `Claim.item.informationSequence` as `Equivalent`.</td></tr><tr><td>Claim.item.revenue (revenue)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.revenue</td><td>Element `Claim.item.revenue` is mapped to FHIR R4 element `Claim.item.revenue` as `Equivalent`.</td></tr><tr><td>Claim.item.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.category</td><td>Element `Claim.item.category` is mapped to FHIR R4 element `Claim.item.category` as `Equivalent`.\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.</td></tr><tr><td>Claim.item.productOrService (productOrService)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.productOrService</td><td>Element `Claim.item.productOrService` is mapped to FHIR R4 element `Claim.item.productOrService` as `Equivalent`.\nIf this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'.</td></tr><tr><td>Claim.item.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.modifier</td><td>Element `Claim.item.modifier` is mapped to FHIR R4 element `Claim.item.modifier` as `Equivalent`.\nFor example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or outside of office hours.</td></tr><tr><td>Claim.item.programCode (programCode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.programCode</td><td>Element `Claim.item.programCode` is mapped to FHIR R4 element `Claim.item.programCode` as `Equivalent`.\nFor example: Neonatal program, child dental program or drug users recovery program.</td></tr><tr><td>Claim.item.serviced[x] (serviced[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.serviced[x]</td><td>Element `Claim.item.serviced[x]` is mapped to FHIR R4 element `Claim.item.serviced[x]` as `Equivalent`.\nThe target context `Claim.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.</td></tr><tr><td>Claim.item.location[x] (location[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.location[x]</td><td>Element `Claim.item.location[x]` is mapped to FHIR R4 element `Claim.item.location[x]` as `Equivalent`.\nThe target context `Claim.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`.</td></tr><tr><td>Claim.item.quantity (quantity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.quantity</td><td>Element `Claim.item.quantity` is mapped to FHIR R4 element `Claim.item.quantity` as `Equivalent`.</td></tr><tr><td>Claim.item.unitPrice (unitPrice)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.unitPrice</td><td>Element `Claim.item.unitPrice` is mapped to FHIR R4 element `Claim.item.unitPrice` as `Equivalent`.</td></tr><tr><td>Claim.item.factor (factor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.factor</td><td>Element `Claim.item.factor` is mapped to FHIR R4 element `Claim.item.factor` as `Equivalent`.\nTo show a 10% senior's discount, the value entered is: 0.90 (1.00 - 0.10).</td></tr><tr><td>Claim.item.net (net)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.net</td><td>Element `Claim.item.net` is mapped to FHIR R4 element `Claim.item.net` as `Equivalent`.\nFor example, the formula: quantity * unitPrice * factor  = net. Quantity and factor are assumed to be 1 if not supplied.</td></tr><tr><td>Claim.item.udi (udi)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.udi</td><td>Element `Claim.item.udi` is mapped to FHIR R4 element `Claim.item.udi` as `Equivalent`.</td></tr><tr><td>Claim.item.bodySite (bodySite)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.item.bodySite</td><td>Element `Claim.item.bodySite` is mapped to FHIR R4 element `Claim.item.bodySite` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>Claim.item.bodySite.site (site)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item</td><td>Element `Claim.item.bodySite.site` is mapped to FHIR R4 element `Claim.item` as `Equivalent`.\nFor example: Providing a tooth code, allows an insurer to identify a provider performing a filling on a tooth that was previously removed.</td></tr><tr><td>Claim.item.bodySite.subSite (subSite)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.subSite</td><td>Element `Claim.item.bodySite.subSite` is mapped to FHIR R4 element `Claim.item.subSite` as `Equivalent`.</td></tr><tr><td>Claim.item.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.encounter</td><td>Element `Claim.item.encounter` is mapped to FHIR R4 element `Claim.item.encounter` as `Equivalent`.\nThis will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter.</td></tr><tr><td>Claim.item.detail (detail)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.item.detail</td><td>Element `Claim.item.detail` is mapped to FHIR R4 element `Claim.item.detail` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.sequence</td><td>Element `Claim.item.detail.sequence` is mapped to FHIR R4 element `Claim.item.detail.sequence` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.revenue (revenue)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.revenue</td><td>Element `Claim.item.detail.revenue` is mapped to FHIR R4 element `Claim.item.detail.revenue` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.category</td><td>Element `Claim.item.detail.category` is mapped to FHIR R4 element `Claim.item.detail.category` as `Equivalent`.\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.</td></tr><tr><td>Claim.item.detail.productOrService (productOrService)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.productOrService</td><td>Element `Claim.item.detail.productOrService` is mapped to FHIR R4 element `Claim.item.detail.productOrService` as `Equivalent`.\nIf this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'.</td></tr><tr><td>Claim.item.detail.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.modifier</td><td>Element `Claim.item.detail.modifier` is mapped to FHIR R4 element `Claim.item.detail.modifier` as `Equivalent`.\nFor example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or out of office hours.</td></tr><tr><td>Claim.item.detail.programCode (programCode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.programCode</td><td>Element `Claim.item.detail.programCode` is mapped to FHIR R4 element `Claim.item.detail.programCode` as `Equivalent`.\nFor example: Neonatal program, child dental program or drug users recovery program.</td></tr><tr><td>Claim.item.detail.quantity (quantity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.quantity</td><td>Element `Claim.item.detail.quantity` is mapped to FHIR R4 element `Claim.item.detail.quantity` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.unitPrice (unitPrice)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.unitPrice</td><td>Element `Claim.item.detail.unitPrice` is mapped to FHIR R4 element `Claim.item.detail.unitPrice` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.factor (factor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.factor</td><td>Element `Claim.item.detail.factor` is mapped to FHIR R4 element `Claim.item.detail.factor` as `Equivalent`.\nTo show a 10% senior's discount, the value entered is: 0.90 (1.00 - 0.10).</td></tr><tr><td>Claim.item.detail.net (net)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.net</td><td>Element `Claim.item.detail.net` is mapped to FHIR R4 element `Claim.item.detail.net` as `Equivalent`.\nFor example, the formula: quantity * unitPrice * factor  = net. Quantity and factor are assumed to be 1 if not supplied.</td></tr><tr><td>Claim.item.detail.udi (udi)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.udi</td><td>Element `Claim.item.detail.udi` is mapped to FHIR R4 element `Claim.item.detail.udi` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.subDetail (subDetail)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Claim.item.detail.subDetail</td><td>Element `Claim.item.detail.subDetail` is mapped to FHIR R4 element `Claim.item.detail.subDetail` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.subDetail.sequence (sequence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.sequence</td><td>Element `Claim.item.detail.subDetail.sequence` is mapped to FHIR R4 element `Claim.item.detail.subDetail.sequence` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.subDetail.revenue (revenue)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.revenue</td><td>Element `Claim.item.detail.subDetail.revenue` is mapped to FHIR R4 element `Claim.item.detail.subDetail.revenue` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.subDetail.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.category</td><td>Element `Claim.item.detail.subDetail.category` is mapped to FHIR R4 element `Claim.item.detail.subDetail.category` as `Equivalent`.\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.</td></tr><tr><td>Claim.item.detail.subDetail.productOrService (productOrService)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.productOrService</td><td>Element `Claim.item.detail.subDetail.productOrService` is mapped to FHIR R4 element `Claim.item.detail.subDetail.productOrService` as `Equivalent`.\nIf this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'.</td></tr><tr><td>Claim.item.detail.subDetail.modifier (modifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.modifier</td><td>Element `Claim.item.detail.subDetail.modifier` is mapped to FHIR R4 element `Claim.item.detail.subDetail.modifier` as `Equivalent`.\nFor example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or out of office hours.</td></tr><tr><td>Claim.item.detail.subDetail.programCode (programCode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.programCode</td><td>Element `Claim.item.detail.subDetail.programCode` is mapped to FHIR R4 element `Claim.item.detail.subDetail.programCode` as `Equivalent`.\nFor example: Neonatal program, child dental program or drug users recovery program.</td></tr><tr><td>Claim.item.detail.subDetail.quantity (quantity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.quantity</td><td>Element `Claim.item.detail.subDetail.quantity` is mapped to FHIR R4 element `Claim.item.detail.subDetail.quantity` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.subDetail.unitPrice (unitPrice)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.unitPrice</td><td>Element `Claim.item.detail.subDetail.unitPrice` is mapped to FHIR R4 element `Claim.item.detail.subDetail.unitPrice` as `Equivalent`.</td></tr><tr><td>Claim.item.detail.subDetail.factor (factor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.factor</td><td>Element `Claim.item.detail.subDetail.factor` is mapped to FHIR R4 element `Claim.item.detail.subDetail.factor` as `Equivalent`.\nTo show a 10% senior's discount, the value entered is: 0.90 (1.00 - 0.10).</td></tr><tr><td>Claim.item.detail.subDetail.net (net)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.net</td><td>Element `Claim.item.detail.subDetail.net` is mapped to FHIR R4 element `Claim.item.detail.subDetail.net` as `Equivalent`.\nFor example, the formula: quantity * unitPrice * factor  = net. Quantity and factor are assumed to be 1 if not supplied.</td></tr><tr><td>Claim.item.detail.subDetail.udi (udi)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.item.detail.subDetail.udi</td><td>Element `Claim.item.detail.subDetail.udi` is mapped to FHIR R4 element `Claim.item.detail.subDetail.udi` as `Equivalent`.</td></tr><tr><td>Claim.total (total)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Claim.total</td><td>Element `Claim.total` is mapped to FHIR R4 element `Claim.total` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Claim|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Claim.traceNumber (traceNumber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.traceNumber</td><td>Element `Claim.traceNumber` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.encounter</td><td>Element `Claim.encounter` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter.</td></tr><tr><td>Claim.diagnosisRelatedGroup (diagnosisRelatedGroup)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup</td><td>Element `Claim.diagnosisRelatedGroup` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.diagnosisRelatedGroup` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor example DRG (Diagnosis Related Group) or a bundled billing code. A patient may have a diagnosis of a Myocardial Infarction and a DRG for HeartAttack would be assigned. The Claim item (and possible subsequent claims) would refer to the DRG for those line items that were for services related to the heart attack event.</td></tr><tr><td>Claim.event (event)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event</td><td>Element `Claim.event` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.event` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.event.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:type</td><td>Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.event.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.event.when[x] (when[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:when</td><td>Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.event.when[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.supportingInfo.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo.value</td><td>Element `Claim.supportingInfo.value[x]` is mapped to FHIR R4 element `Claim.supportingInfo.value[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `Claim.supportingInfo.value[x]` do not cover the following types: Identifier.\nThe target context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nCould be used to provide references to other resources, document. For example could contain a PDF in an Attachment of the Police Report for an Accident.</td></tr><tr><td>Claim.patientPaid (patientPaid)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.patientPaid</td><td>Element `Claim.patientPaid` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.traceNumber (traceNumber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.traceNumber</td><td>Element `Claim.item.traceNumber` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.productOrServiceEnd (productOrServiceEnd)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.productOrServiceEnd</td><td>Element `Claim.item.productOrServiceEnd` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.productOrServiceEnd` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.request (request)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.request</td><td>Element `Claim.item.request` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.request` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.patientPaid (patientPaid)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.patientPaid</td><td>Element `Claim.item.patientPaid` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.tax (tax)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.tax</td><td>Element `Claim.item.tax` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.tax` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.traceNumber (traceNumber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.traceNumber</td><td>Element `Claim.item.detail.traceNumber` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.productOrServiceEnd (productOrServiceEnd)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.productOrServiceEnd</td><td>Element `Claim.item.detail.productOrServiceEnd` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.productOrServiceEnd` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.patientPaid (patientPaid)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.patientPaid</td><td>Element `Claim.item.detail.patientPaid` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.tax (tax)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.tax</td><td>Element `Claim.item.detail.tax` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.tax` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.subDetail.traceNumber (traceNumber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.traceNumber</td><td>Element `Claim.item.detail.subDetail.traceNumber` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.subDetail.productOrServiceEnd (productOrServiceEnd)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.productOrServiceEnd</td><td>Element `Claim.item.detail.subDetail.productOrServiceEnd` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.productOrServiceEnd` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.subDetail.patientPaid (patientPaid)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.patientPaid</td><td>Element `Claim.item.detail.subDetail.patientPaid` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Claim.item.detail.subDetail.tax (tax)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.tax</td><td>Element `Claim.item.detail.subDetail.tax` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.tax` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Claim|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Claim.enterer (enterer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Claim.facility (facility)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Claim-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Claim-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ClaimElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Claim to FHIR R4 Claim"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.0457309-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Claim to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Claim"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Claim>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Claim"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Claim>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Claim.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.meta" ] ;
+         fhir:display [ fhir:v "Claim.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.meta` is mapped to FHIR R4 element `Claim.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.implicitRules" ] ;
+         fhir:display [ fhir:v "Claim.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.implicitRules` is mapped to FHIR R4 element `Claim.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.language" ] ;
+         fhir:display [ fhir:v "Claim.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.language` is mapped to FHIR R4 element `Claim.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.text" ] ;
+         fhir:display [ fhir:v "Claim.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.text` is mapped to FHIR R4 element `Claim.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.contained" ] ;
+         fhir:display [ fhir:v "Claim.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.contained` is mapped to FHIR R4 element `Claim.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.identifier" ] ;
+         fhir:display [ fhir:v "Claim.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.identifier` is mapped to FHIR R4 element `Claim.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.status" ] ;
+         fhir:display [ fhir:v "Claim.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.status` is mapped to FHIR R4 element `Claim.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.type" ] ;
+         fhir:display [ fhir:v "Claim.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.type` is mapped to FHIR R4 element `Claim.type` as `Equivalent`.\nThe code system provides oral, pharmacy, vision, professional and institutional claim types. Those supported depends on the requirements of the jurisdiction. The valueset is extensible to accommodate other types of claims as required by the jurisdiction." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.subType" ] ;
+       fhir:display [ fhir:v "subType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.subType" ] ;
+         fhir:display [ fhir:v "Claim.subType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.subType` is mapped to FHIR R4 element `Claim.subType` as `Equivalent`.\nThis may contain the local bill type codes, for example the US UB-04 bill type code or the CMS bill type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.use" ] ;
+         fhir:display [ fhir:v "Claim.use" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.use` is mapped to FHIR R4 element `Claim.use` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.patient" ] ;
+         fhir:display [ fhir:v "Claim.patient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.patient` is mapped to FHIR R4 element `Claim.patient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.billablePeriod" ] ;
+       fhir:display [ fhir:v "billablePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.billablePeriod" ] ;
+         fhir:display [ fhir:v "Claim.billablePeriod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.billablePeriod` is mapped to FHIR R4 element `Claim.billablePeriod` as `Equivalent`.\nTypically this would be today or in the past for a claim, and today or in the future for preauthorizations and predeterminations. Typically line item dates of service should fall within the billing period if one is specified." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.created" ] ;
+         fhir:display [ fhir:v "Claim.created" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.created` is mapped to FHIR R4 element `Claim.created` as `Equivalent`.\nThis field is independent of the date of creation of the resource as it may reflect the creation date of a source document prior to digitization. Typically for claims all services must be completed as of this date." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.enterer" ] ;
+         fhir:display [ fhir:v "Claim.enterer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.enterer` is mapped to FHIR R4 element `Claim.enterer` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Claim.enterer` with unmapped reference targets: Patient, RelatedPerson." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurer" ] ;
+       fhir:display [ fhir:v "insurer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurer" ] ;
+         fhir:display [ fhir:v "Claim.insurer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurer` is mapped to FHIR R4 element `Claim.insurer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.provider" ] ;
+         fhir:display [ fhir:v "Claim.provider" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.provider` is mapped to FHIR R4 element `Claim.provider` as `Equivalent`.\nTypically this field would be 1..1 where this party is accountable for the data content within the claim but is not necessarily the facility, provider group or practitioner who provided the products and services listed within this claim resource. This field is the Billing Provider, for example, a facility, provider group, lab or practitioner." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.priority" ] ;
+         fhir:display [ fhir:v "Claim.priority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.priority` is mapped to FHIR R4 element `Claim.priority` as `Equivalent`.\nIf a claim processor is unable to complete the processing as per the priority then they should generate an error and not process the request." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.fundsReserve" ] ;
+       fhir:display [ fhir:v "fundsReserve" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.fundsReserve" ] ;
+         fhir:display [ fhir:v "Claim.fundsReserve" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.fundsReserve` is mapped to FHIR R4 element `Claim.fundsReserve` as `Equivalent`.\nThis field is only used for preauthorizations." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related" ] ;
+       fhir:display [ fhir:v "related" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.related" ] ;
+         fhir:display [ fhir:v "Claim.related" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related` is mapped to FHIR R4 element `Claim.related` as `Equivalent`.\nFor example,  for the original treatment and follow-up exams." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related.claim" ] ;
+       fhir:display [ fhir:v "claim" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.related.claim" ] ;
+         fhir:display [ fhir:v "Claim.related.claim" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.claim` is mapped to FHIR R4 element `Claim.related.claim` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.related.relationship" ] ;
+         fhir:display [ fhir:v "Claim.related.relationship" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.relationship` is mapped to FHIR R4 element `Claim.related.relationship` as `Equivalent`.\nFor example, prior claim or umbrella." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.related.reference" ] ;
+       fhir:display [ fhir:v "reference" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.related.reference" ] ;
+         fhir:display [ fhir:v "Claim.related.reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.related.reference` is mapped to FHIR R4 element `Claim.related.reference` as `Equivalent`.\nFor example, Property/Casualty insurer claim # or Workers Compensation case # ." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.prescription" ] ;
+       fhir:display [ fhir:v "prescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.prescription" ] ;
+         fhir:display [ fhir:v "Claim.prescription" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.prescription` is mapped to FHIR R4 element `Claim.prescription` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.originalPrescription" ] ;
+       fhir:display [ fhir:v "originalPrescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.originalPrescription" ] ;
+         fhir:display [ fhir:v "Claim.originalPrescription" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.originalPrescription` is mapped to FHIR R4 element `Claim.originalPrescription` as `Equivalent`.\nFor example, a physician may prescribe a medication which the pharmacy determines is contraindicated, or for which the patient has an intolerance, and therefore issues a new prescription for an alternate medication which has the same therapeutic intent. The prescription from the pharmacy becomes the 'prescription' and that from the physician becomes the 'original prescription'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.payee" ] ;
+       fhir:display [ fhir:v "payee" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.payee" ] ;
+         fhir:display [ fhir:v "Claim.payee" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee` is mapped to FHIR R4 element `Claim.payee` as `Equivalent`.\nOften providers agree to receive the benefits payable to reduce the near-term costs to the patient. The insurer may decline to pay the provider and choose to pay the subscriber instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.payee.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.payee.type" ] ;
+         fhir:display [ fhir:v "Claim.payee.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.type` is mapped to FHIR R4 element `Claim.payee.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.payee.party" ] ;
+       fhir:display [ fhir:v "party" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.payee.party" ] ;
+         fhir:display [ fhir:v "Claim.payee.party" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.payee.party` is mapped to FHIR R4 element `Claim.payee.party` as `Equivalent`.\nNot required if the payee is 'subscriber' or 'provider'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.referral" ] ;
+       fhir:display [ fhir:v "referral" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.referral" ] ;
+         fhir:display [ fhir:v "Claim.referral" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.referral` is mapped to FHIR R4 element `Claim.referral` as `Equivalent`.\nThe referral resource which lists the date, practitioner, reason and other supporting information." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.facility" ] ;
+       fhir:display [ fhir:v "facility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.facility" ] ;
+         fhir:display [ fhir:v "Claim.facility" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.facility` is mapped to FHIR R4 element `Claim.facility` as `SourceIsBroaderThanTarget`.\nThe mappings for `Claim.facility` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Claim.facility` with unmapped reference targets: Organization." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam" ] ;
+       fhir:display [ fhir:v "careTeam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.careTeam" ] ;
+         fhir:display [ fhir:v "Claim.careTeam" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam` is mapped to FHIR R4 element `Claim.careTeam` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.careTeam.sequence" ] ;
+         fhir:display [ fhir:v "Claim.careTeam.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.sequence` is mapped to FHIR R4 element `Claim.careTeam.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.careTeam.provider" ] ;
+         fhir:display [ fhir:v "Claim.careTeam.provider" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.provider` is mapped to FHIR R4 element `Claim.careTeam.provider` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.careTeam.responsible" ] ;
+         fhir:display [ fhir:v "Claim.careTeam.responsible" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.responsible` is mapped to FHIR R4 element `Claim.careTeam.responsible` as `Equivalent`.\nResponsible might not be required when there is only a single provider listed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.careTeam.role" ] ;
+         fhir:display [ fhir:v "Claim.careTeam.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.role` is mapped to FHIR R4 element `Claim.careTeam.role` as `Equivalent`.\nRole might not be required when there is only a single provider listed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.careTeam.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.careTeam.qualification" ] ;
+         fhir:display [ fhir:v "Claim.careTeam.qualification" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.careTeam.specialty` is mapped to FHIR R4 element `Claim.careTeam.qualification` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo` is mapped to FHIR R4 element `Claim.supportingInfo` as `Equivalent`.\nOften there are multiple jurisdiction specific valuesets which are required." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo.sequence" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.sequence` is mapped to FHIR R4 element `Claim.supportingInfo.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo.category" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.category` is mapped to FHIR R4 element `Claim.supportingInfo.category` as `Equivalent`.\nThis may contain a category for the local bill type codes." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo.code" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.code` is mapped to FHIR R4 element `Claim.supportingInfo.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.timing[x]" ] ;
+       fhir:display [ fhir:v "timing[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo.timing[x]" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo.timing[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.timing[x]` is mapped to FHIR R4 element `Claim.supportingInfo.timing[x]` as `Equivalent`.\nThe target context `Claim.supportingInfo.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo.value[x]" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo.value[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.value[x]` is mapped to FHIR R4 element `Claim.supportingInfo.value[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `Claim.supportingInfo.value[x]` do not cover the following types: Identifier.\nThe target context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nCould be used to provide references to other resources, document. For example could contain a PDF in an Attachment of the Police Report for an Accident." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.supportingInfo.reason" ] ;
+         fhir:display [ fhir:v "Claim.supportingInfo.reason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.reason` is mapped to FHIR R4 element `Claim.supportingInfo.reason` as `Equivalent`.\nFor example: the reason for the additional stay, or why a tooth is  missing." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.diagnosis" ] ;
+         fhir:display [ fhir:v "Claim.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis` is mapped to FHIR R4 element `Claim.diagnosis` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.diagnosis.sequence" ] ;
+         fhir:display [ fhir:v "Claim.diagnosis.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.sequence` is mapped to FHIR R4 element `Claim.diagnosis.sequence` as `Equivalent`.\nDiagnosis are presented in list order to their expected importance: primary, secondary, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.diagnosis[x]" ] ;
+       fhir:display [ fhir:v "diagnosis[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.diagnosis.diagnosis[x]" ] ;
+         fhir:display [ fhir:v "Claim.diagnosis.diagnosis[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.diagnosis[x]` is mapped to FHIR R4 element `Claim.diagnosis.diagnosis[x]` as `Equivalent`.\nThe target context `Claim.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.diagnosis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.diagnosis.type" ] ;
+         fhir:display [ fhir:v "Claim.diagnosis.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.type` is mapped to FHIR R4 element `Claim.diagnosis.type` as `Equivalent`.\nFor example: admitting, primary, secondary, discharge." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosis.onAdmission" ] ;
+       fhir:display [ fhir:v "onAdmission" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.diagnosis.onAdmission" ] ;
+         fhir:display [ fhir:v "Claim.diagnosis.onAdmission" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosis.onAdmission` is mapped to FHIR R4 element `Claim.diagnosis.onAdmission` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure" ] ;
+       fhir:display [ fhir:v "procedure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.procedure" ] ;
+         fhir:display [ fhir:v "Claim.procedure" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure` is mapped to FHIR R4 element `Claim.procedure` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.procedure.sequence" ] ;
+         fhir:display [ fhir:v "Claim.procedure.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.sequence` is mapped to FHIR R4 element `Claim.procedure.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.procedure.type" ] ;
+         fhir:display [ fhir:v "Claim.procedure.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.type` is mapped to FHIR R4 element `Claim.procedure.type` as `Equivalent`.\nFor example: primary, secondary." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.procedure.date" ] ;
+         fhir:display [ fhir:v "Claim.procedure.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.date` is mapped to FHIR R4 element `Claim.procedure.date` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.procedure[x]" ] ;
+       fhir:display [ fhir:v "procedure[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.procedure.procedure[x]" ] ;
+         fhir:display [ fhir:v "Claim.procedure.procedure[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.procedure[x]` is mapped to FHIR R4 element `Claim.procedure.procedure[x]` as `Equivalent`.\nThe target context `Claim.procedure.procedure[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.procedure`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.procedure.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.procedure.udi" ] ;
+         fhir:display [ fhir:v "Claim.procedure.udi" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.procedure.udi` is mapped to FHIR R4 element `Claim.procedure.udi` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance" ] ;
+         fhir:display [ fhir:v "Claim.insurance" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance` is mapped to FHIR R4 element `Claim.insurance` as `Equivalent`.\nAll insurance coverages for the patient which may be applicable for reimbursement, of the products and services listed in the claim, are typically provided in the claim to allow insurers to confirm the ordering of the insurance coverages relative to local 'coordination of benefit' rules. One coverage (and only one) with 'focal=true' is to be used in the adjudication of this claim. Coverages appearing before the focal Coverage in the list, and where 'Coverage.subrogation=false', should provide a reference to the ClaimResponse containing the adjudication results of the prior claim." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.sequence" ] ;
+         fhir:display [ fhir:v "Claim.insurance.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.sequence` is mapped to FHIR R4 element `Claim.insurance.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.focal" ] ;
+       fhir:display [ fhir:v "focal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.focal" ] ;
+         fhir:display [ fhir:v "Claim.insurance.focal" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.focal` is mapped to FHIR R4 element `Claim.insurance.focal` as `Equivalent`.\nA patient may (will) have multiple insurance policies which provide reimbursement for healthcare services and products. For example a person may also be covered by their spouse's policy and both appear in the list (and may be from the same insurer). This flag will be set to true for only one of the listed policies and that policy will be used for adjudicating this claim. Other claims would be created to request adjudication against the other listed policies." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.identifier" ] ;
+         fhir:display [ fhir:v "Claim.insurance.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.identifier` is mapped to FHIR R4 element `Claim.insurance.identifier` as `Equivalent`.\nOnly required in jurisdictions where insurers, rather than the provider, are required to send claims to  insurers that appear after them in the list. This element is not required when 'subrogation=true'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.coverage" ] ;
+       fhir:display [ fhir:v "coverage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.coverage" ] ;
+         fhir:display [ fhir:v "Claim.insurance.coverage" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.coverage` is mapped to FHIR R4 element `Claim.insurance.coverage` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.businessArrangement" ] ;
+       fhir:display [ fhir:v "businessArrangement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.businessArrangement" ] ;
+         fhir:display [ fhir:v "Claim.insurance.businessArrangement" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.businessArrangement` is mapped to FHIR R4 element `Claim.insurance.businessArrangement` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.preAuthRef" ] ;
+       fhir:display [ fhir:v "preAuthRef" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.preAuthRef" ] ;
+         fhir:display [ fhir:v "Claim.insurance.preAuthRef" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.preAuthRef` is mapped to FHIR R4 element `Claim.insurance.preAuthRef` as `Equivalent`.\nThis value is an alphanumeric string that may be provided over the phone, via text, via paper, or within a ClaimResponse resource and is not a FHIR Identifier." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.insurance.claimResponse" ] ;
+       fhir:display [ fhir:v "claimResponse" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.insurance.claimResponse" ] ;
+         fhir:display [ fhir:v "Claim.insurance.claimResponse" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.insurance.claimResponse` is mapped to FHIR R4 element `Claim.insurance.claimResponse` as `Equivalent`.\nMust not be specified when 'focal=true' for this insurance." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident" ] ;
+       fhir:display [ fhir:v "accident" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.accident" ] ;
+         fhir:display [ fhir:v "Claim.accident" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident` is mapped to FHIR R4 element `Claim.accident` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.accident.date" ] ;
+         fhir:display [ fhir:v "Claim.accident.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.date` is mapped to FHIR R4 element `Claim.accident.date` as `Equivalent`.\nThe date of the accident has to precede the dates of the products and services but within a reasonable timeframe." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.accident.type" ] ;
+         fhir:display [ fhir:v "Claim.accident.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.type` is mapped to FHIR R4 element `Claim.accident.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.accident.location[x]" ] ;
+       fhir:display [ fhir:v "location[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.accident.location[x]" ] ;
+         fhir:display [ fhir:v "Claim.accident.location[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.accident.location[x]` is mapped to FHIR R4 element `Claim.accident.location[x]` as `Equivalent`.\nThe target context `Claim.accident.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.accident`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item" ] ;
+         fhir:display [ fhir:v "Claim.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item` is mapped to FHIR R4 element `Claim.item` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.sequence" ] ;
+         fhir:display [ fhir:v "Claim.item.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.sequence` is mapped to FHIR R4 element `Claim.item.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.careTeamSequence" ] ;
+       fhir:display [ fhir:v "careTeamSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.careTeamSequence" ] ;
+         fhir:display [ fhir:v "Claim.item.careTeamSequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.careTeamSequence` is mapped to FHIR R4 element `Claim.item.careTeamSequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.diagnosisSequence" ] ;
+       fhir:display [ fhir:v "diagnosisSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.diagnosisSequence" ] ;
+         fhir:display [ fhir:v "Claim.item.diagnosisSequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.diagnosisSequence` is mapped to FHIR R4 element `Claim.item.diagnosisSequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.procedureSequence" ] ;
+       fhir:display [ fhir:v "procedureSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.procedureSequence" ] ;
+         fhir:display [ fhir:v "Claim.item.procedureSequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.procedureSequence` is mapped to FHIR R4 element `Claim.item.procedureSequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.informationSequence" ] ;
+       fhir:display [ fhir:v "informationSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.informationSequence" ] ;
+         fhir:display [ fhir:v "Claim.item.informationSequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.informationSequence` is mapped to FHIR R4 element `Claim.item.informationSequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.revenue" ] ;
+       fhir:display [ fhir:v "revenue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.revenue" ] ;
+         fhir:display [ fhir:v "Claim.item.revenue" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.revenue` is mapped to FHIR R4 element `Claim.item.revenue` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.category" ] ;
+         fhir:display [ fhir:v "Claim.item.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.category` is mapped to FHIR R4 element `Claim.item.category` as `Equivalent`.\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.productOrService" ] ;
+         fhir:display [ fhir:v "Claim.item.productOrService" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.productOrService` is mapped to FHIR R4 element `Claim.item.productOrService` as `Equivalent`.\nIf this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.modifier" ] ;
+         fhir:display [ fhir:v "Claim.item.modifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.modifier` is mapped to FHIR R4 element `Claim.item.modifier` as `Equivalent`.\nFor example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or outside of office hours." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.programCode" ] ;
+       fhir:display [ fhir:v "programCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.programCode" ] ;
+         fhir:display [ fhir:v "Claim.item.programCode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.programCode` is mapped to FHIR R4 element `Claim.item.programCode` as `Equivalent`.\nFor example: Neonatal program, child dental program or drug users recovery program." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.serviced[x]" ] ;
+       fhir:display [ fhir:v "serviced[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.serviced[x]" ] ;
+         fhir:display [ fhir:v "Claim.item.serviced[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.serviced[x]` is mapped to FHIR R4 element `Claim.item.serviced[x]` as `Equivalent`.\nThe target context `Claim.item.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.location[x]" ] ;
+       fhir:display [ fhir:v "location[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.location[x]" ] ;
+         fhir:display [ fhir:v "Claim.item.location[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.location[x]` is mapped to FHIR R4 element `Claim.item.location[x]` as `Equivalent`.\nThe target context `Claim.item.location[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.quantity" ] ;
+         fhir:display [ fhir:v "Claim.item.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.quantity` is mapped to FHIR R4 element `Claim.item.quantity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.unitPrice" ] ;
+         fhir:display [ fhir:v "Claim.item.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.unitPrice` is mapped to FHIR R4 element `Claim.item.unitPrice` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.factor" ] ;
+         fhir:display [ fhir:v "Claim.item.factor" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.factor` is mapped to FHIR R4 element `Claim.item.factor` as `Equivalent`.\nTo show a 10% senior's discount, the value entered is: 0.90 (1.00 - 0.10)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.net" ] ;
+         fhir:display [ fhir:v "Claim.item.net" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.net` is mapped to FHIR R4 element `Claim.item.net` as `Equivalent`.\nFor example, the formula: quantity * unitPrice * factor  = net. Quantity and factor are assumed to be 1 if not supplied." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.udi" ] ;
+         fhir:display [ fhir:v "Claim.item.udi" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.udi` is mapped to FHIR R4 element `Claim.item.udi` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.bodySite" ] ;
+         fhir:display [ fhir:v "Claim.item.bodySite" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.bodySite` is mapped to FHIR R4 element `Claim.item.bodySite` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.bodySite.site" ] ;
+       fhir:display [ fhir:v "site" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item" ] ;
+         fhir:display [ fhir:v "Claim.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.bodySite.site` is mapped to FHIR R4 element `Claim.item` as `Equivalent`.\nFor example: Providing a tooth code, allows an insurer to identify a provider performing a filling on a tooth that was previously removed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.bodySite.subSite" ] ;
+       fhir:display [ fhir:v "subSite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.subSite" ] ;
+         fhir:display [ fhir:v "Claim.item.subSite" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.bodySite.subSite` is mapped to FHIR R4 element `Claim.item.subSite` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.encounter" ] ;
+         fhir:display [ fhir:v "Claim.item.encounter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.encounter` is mapped to FHIR R4 element `Claim.item.encounter` as `Equivalent`.\nThis will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail" ] ;
+         fhir:display [ fhir:v "Claim.item.detail" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail` is mapped to FHIR R4 element `Claim.item.detail` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.sequence" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.sequence` is mapped to FHIR R4 element `Claim.item.detail.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.revenue" ] ;
+       fhir:display [ fhir:v "revenue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.revenue" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.revenue" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.revenue` is mapped to FHIR R4 element `Claim.item.detail.revenue` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.category" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.category` is mapped to FHIR R4 element `Claim.item.detail.category` as `Equivalent`.\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.productOrService" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.productOrService" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.productOrService` is mapped to FHIR R4 element `Claim.item.detail.productOrService` as `Equivalent`.\nIf this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.modifier" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.modifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.modifier` is mapped to FHIR R4 element `Claim.item.detail.modifier` as `Equivalent`.\nFor example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or out of office hours." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.programCode" ] ;
+       fhir:display [ fhir:v "programCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.programCode" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.programCode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.programCode` is mapped to FHIR R4 element `Claim.item.detail.programCode` as `Equivalent`.\nFor example: Neonatal program, child dental program or drug users recovery program." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.quantity" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.quantity` is mapped to FHIR R4 element `Claim.item.detail.quantity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.unitPrice" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.unitPrice` is mapped to FHIR R4 element `Claim.item.detail.unitPrice` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.factor" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.factor" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.factor` is mapped to FHIR R4 element `Claim.item.detail.factor` as `Equivalent`.\nTo show a 10% senior's discount, the value entered is: 0.90 (1.00 - 0.10)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.net" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.net" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.net` is mapped to FHIR R4 element `Claim.item.detail.net` as `Equivalent`.\nFor example, the formula: quantity * unitPrice * factor  = net. Quantity and factor are assumed to be 1 if not supplied." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.udi" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.udi" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.udi` is mapped to FHIR R4 element `Claim.item.detail.udi` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail" ] ;
+       fhir:display [ fhir:v "subDetail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail` is mapped to FHIR R4 element `Claim.item.detail.subDetail` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.sequence" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.sequence` is mapped to FHIR R4 element `Claim.item.detail.subDetail.sequence` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.revenue" ] ;
+       fhir:display [ fhir:v "revenue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.revenue" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.revenue" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.revenue` is mapped to FHIR R4 element `Claim.item.detail.subDetail.revenue` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.category" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.category` is mapped to FHIR R4 element `Claim.item.detail.subDetail.category` as `Equivalent`.\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.productOrService" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.productOrService" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.productOrService` is mapped to FHIR R4 element `Claim.item.detail.subDetail.productOrService` as `Equivalent`.\nIf this is an actual service or product line, i.e. not a Group, then use code to indicate the Professional Service or Product supplied (e.g. CTP, HCPCS, USCLS, ICD10, NCPDP, DIN, RxNorm, ACHI, CCI). If a grouping item then use a group code to indicate the type of thing being grouped e.g. 'glasses' or 'compound'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.modifier" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.modifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.modifier` is mapped to FHIR R4 element `Claim.item.detail.subDetail.modifier` as `Equivalent`.\nFor example in Oral whether the treatment is cosmetic or associated with TMJ, or for Medical whether the treatment was outside the clinic or out of office hours." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.programCode" ] ;
+       fhir:display [ fhir:v "programCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.programCode" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.programCode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.programCode` is mapped to FHIR R4 element `Claim.item.detail.subDetail.programCode` as `Equivalent`.\nFor example: Neonatal program, child dental program or drug users recovery program." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.quantity" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.quantity` is mapped to FHIR R4 element `Claim.item.detail.subDetail.quantity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.unitPrice" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.unitPrice` is mapped to FHIR R4 element `Claim.item.detail.subDetail.unitPrice` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.factor" ] ;
+       fhir:display [ fhir:v "factor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.factor" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.factor" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.factor` is mapped to FHIR R4 element `Claim.item.detail.subDetail.factor` as `Equivalent`.\nTo show a 10% senior's discount, the value entered is: 0.90 (1.00 - 0.10)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.net" ] ;
+       fhir:display [ fhir:v "net" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.net" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.net" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.net` is mapped to FHIR R4 element `Claim.item.detail.subDetail.net` as `Equivalent`.\nFor example, the formula: quantity * unitPrice * factor  = net. Quantity and factor are assumed to be 1 if not supplied." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.udi" ] ;
+       fhir:display [ fhir:v "udi" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.item.detail.subDetail.udi" ] ;
+         fhir:display [ fhir:v "Claim.item.detail.subDetail.udi" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.udi` is mapped to FHIR R4 element `Claim.item.detail.subDetail.udi` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.total" ] ;
+       fhir:display [ fhir:v "total" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Claim.total" ] ;
+         fhir:display [ fhir:v "Claim.total" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.total` is mapped to FHIR R4 element `Claim.total` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Claim"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Claim>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Claim.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.traceNumber` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.encounter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.encounter` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.diagnosisRelatedGroup" ] ;
+       fhir:display [ fhir:v "diagnosisRelatedGroup" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.diagnosisRelatedGroup` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.diagnosisRelatedGroup` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFor example DRG (Diagnosis Related Group) or a bundled billing code. A patient may have a diagnosis of a Myocardial Infarction and a DRG for HeartAttack would be assigned. The Claim item (and possible subsequent claims) would refer to the DRG for those line items that were for services related to the heart attack event." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.event" ] ;
+       fhir:display [ fhir:v "event" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.event` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.event` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.event.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.event.type` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.type` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.event.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.event.when[x]" ] ;
+       fhir:display [ fhir:v "when[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event:when" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.event.when[x]` is part of an existing definition because parent element `Claim.event` requires a cross-version extension.\nElement `Claim.event.when[x]` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.event.when[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.supportingInfo.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Claim.supportingInfo.value[x]` is mapped to FHIR R4 element `Claim.supportingInfo.value[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `Claim.supportingInfo.value[x]` do not cover the following types: Identifier.\nThe target context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nCould be used to provide references to other resources, document. For example could contain a PDF in an Attachment of the Police Report for an Accident." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.patientPaid` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.traceNumber` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.productOrServiceEnd" ] ;
+       fhir:display [ fhir:v "productOrServiceEnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.productOrServiceEnd" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.productOrServiceEnd` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.productOrServiceEnd` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.request" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.request` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.request` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.patientPaid` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.tax" ] ;
+       fhir:display [ fhir:v "tax" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.tax" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.tax` has a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.tax` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.traceNumber` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.productOrServiceEnd" ] ;
+       fhir:display [ fhir:v "productOrServiceEnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.productOrServiceEnd" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.productOrServiceEnd` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.productOrServiceEnd` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.patientPaid` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.tax" ] ;
+       fhir:display [ fhir:v "tax" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.tax" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.tax` has a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.tax` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.traceNumber" ] ;
+       fhir:display [ fhir:v "traceNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.traceNumber" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.traceNumber` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.traceNumber` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.productOrServiceEnd" ] ;
+       fhir:display [ fhir:v "productOrServiceEnd" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.productOrServiceEnd" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.productOrServiceEnd` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.productOrServiceEnd` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.patientPaid" ] ;
+       fhir:display [ fhir:v "patientPaid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.patientPaid" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.patientPaid` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.patientPaid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.item.detail.subDetail.tax" ] ;
+       fhir:display [ fhir:v "tax" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.tax" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Claim.item.detail.subDetail.tax` has a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.\nElement `Claim.item.detail.subDetail.tax` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Claim"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Claim>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Claim.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Claim.facility" ] ;
+       fhir:display [ fhir:v "facility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

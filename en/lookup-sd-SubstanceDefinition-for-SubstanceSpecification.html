@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+
+
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>Lookup for Profile_R5_SubstanceDefinition_R4_SubstanceSpecification - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/project.css" rel="stylesheet"/>
+  	<link href="assets/css/cqf.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+    <link href="assets/css/hl7.css" rel="stylesheet"/>
+    <link href="assets/css/fhir-ig.css" rel="stylesheet"/>
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+    <script type="text/javascript" src="assets/js/direction-management.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="fhir-logo" sizes="144x144" href="assets/ico/icon-fhir-144.png"/>
+    <link rel="fhir-logo" sizes="114x114" href="assets/ico/icon-fhir-114.png"/>
+    <link rel="fhir-logo" sizes="72x72" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid.js"></script>
+    <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
+    <style type="text/css">h2{--heading-prefix:"2.145"}
+    h3,h4,h5,h6{--heading-prefix:"2.145"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+
+        <!-- Placeholder for child template header declarations -->
+
+        <div id="hl7-nav">
+          <a id="hl7-logo" data-no-external="true" href="http://hl7.org">
+            <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
+          </a>
+        </div>
+        <div id="family-nav">
+          <a id="family-logo" data-no-external="true" href="http://hl7.org/fhir"><img height="50" alt="Visit the FHIR website" src="assets/images/fhir-logo-www.png"/> </a>
+        </div>
+        <div id="hl7-search">
+          <a id="hl7-search-lnk" data-no-external="true" href="searchform.html"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+        </div>
+
+
+        <div id="ig-status" data-fhir="generated">
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - STU
+
+
+
+  <img alt="International flag" src="../assets/images/001.svg" height="16" title="International"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment" data-fhir="generated">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="toc.html">Contents</a>
+  </li>
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="lookup-sd.html">Structure Lookup</a>
+  </li>
+  <li>
+    <a href="lookup-vs.html">ValueSet Lookup</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="downloads.html">Downloads</a>
+      </li>
+      <li>
+        <a href="changelog.html">Change Log</a>
+      </li>
+      <li>
+        <a href="https://confluence.hl7.org/spaces/FHIRI/pages/413256623/FAQs">FAQs</a>
+      </li>
+    </ul>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+
+              
+
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment" data-fhir="generated">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='lookup-sd.html'><b>Structure Lookup</b></a></li><li><b>Lookup for Profile_R5_SubstanceDefinition_R4_SubstanceSpecification</b></li>
+
+          <span style="float: var(--ig-right);">
+
+            <a href="lookup-sd-Substance.html">&lt; prev</a> | 
+
+            <a href="#bottom">bottom</a>
+
+          | <a href="lookup-sd-SubstanceNucleicAcid.html">next &gt;</a>
+
+          </span>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Lookup for Profile_R5_SubstanceDefinition_R4_SubstanceSpecification</h2>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div>
+<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+</div>
+<h3 id="lookup-for-fhir-r5-substancedefinition-for-use-in-fhir-r4">Lookup for <a href="https://hl7.org/fhir/R5/">FHIR R5</a> <a href="https://hl7.org/fhir/R5/SubstanceDefinition.html">SubstanceDefinition</a> for use in <a href="https://hl7.org/fhir/R4/">FHIR R4</a></h3>
+
+<p>The FHIR R5 resource is represented in FHIR R4 via the SubstanceSpecification resource.</p>
+
+<p>Note that there is a profile defined to simplify use of this cross-version resource representation:<a href="StructureDefinition-profile-SubstanceDefinition-for-SubstanceSpecification.html">Profile: SubstanceDefinition-for-SubstanceSpecification</a></p>
+
+<p>A computable version of the following element information is available in: <a href="ConceptMap-R5-SubstanceDefinition-element-map-to-R4.html">R5SubstanceDefinitionElementMapToR4</a></p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Source Element (FHIR R5)</th>
+      <th>Target(s)</th>
+      <th>Comments</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition</code></a></td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.meta</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.meta</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.meta</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.meta</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.implicitRules</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.implicitRules</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.implicitRules</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.implicitRules</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.language</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.language</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.language</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.language</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.text</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.text</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.text</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.text</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.contained</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.contained</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.contained</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.contained</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.identifier</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.identifier</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.identifier</code> as <code class="language-plaintext highlighter-rouge">SourceIsBroaderThanTarget</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.version</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.version.html">Extension: ExtensionSubstanceDefinition_Version</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.version</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.version</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.status</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.status</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.status</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.classification</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.classification.html">Extension: ExtensionSubstanceDefinition_Classification</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.classification</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.classification</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.domain</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.domain</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.domain</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.domain</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.grade</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.grade.html">Extension: ExtensionSubstanceDefinition_Grade</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.grade</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.grade</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.description</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.description</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.description</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.description</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.informationSource</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.informationSource.html">Extension: ExtensionSubstanceDefinition_InformationSource</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.informationSource</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.informationSource</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.note</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.note.html">Extension: ExtensionSubstanceDefinition_Note</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.note</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.note</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.manufacturer</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.manufacturer.html">Extension: ExtensionSubstanceDefinition_Manufacturer</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.manufacturer</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.manufacturer</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.supplier</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.supplier.html">Extension: ExtensionSubstanceDefinition_Supplier</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.supplier</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.supplier</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.role</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.role</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.role</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.role</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.identifier</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.identifier</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.identifier</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.identifier</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.name</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.name</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.name</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.name</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.stereochemistry</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.stereochemistry</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.stereochemistry</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.stereochemistry</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.opticalActivity</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.opticalActivity</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.opticalActivity</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.opticalActivity</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.molecularFormula</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.molecularFormula</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.molecularFormula</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.molecularFormula</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.amount[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.moiety.amount[x]</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.amount[x]</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.amount[x]</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.<br />The target context <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety.amount[x]</code> is a choice-type element and cannot directly hold extensions. The context is moved up to parent element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.moiety</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.measurementType</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.moi.measurementType.html">Extension: ExtensionSubstanceDefinition_Moiety_MeasurementType</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.measurementType</code> has a context of SubstanceSpecification.moiety based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.moiety.measurementType</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.characterization.html">Extension: ExtensionSubstanceDefinition_Characterization</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.technique</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.characterization.html">Extension: ExtensionSubstanceDefinition_Characterization Slice:technique</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.technique</code> is part of an existing definition because parent element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code> requires a cross-version extension.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.technique</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.technique</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.form</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.characterization.html">Extension: ExtensionSubstanceDefinition_Characterization Slice:form</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.form</code> is part of an existing definition because parent element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code> requires a cross-version extension.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.form</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.form</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.description</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.characterization.html">Extension: ExtensionSubstanceDefinition_Characterization Slice:description</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.description</code> is part of an existing definition because parent element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code> requires a cross-version extension.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.description</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.description</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.file</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.characterization.html">Extension: ExtensionSubstanceDefinition_Characterization Slice:file</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.file</code> is part of an existing definition because parent element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization</code> requires a cross-version extension.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.file</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.characterization.file</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.property</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.property</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.property</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.property</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.property.type</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.pro.type.html">Extension: ExtensionSubstanceDefinition_Property_Type</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.property.type</code> has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.property.type</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.property.value[x]</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.pro.value.html">Extension: ExtensionSubstanceDefinition_Property_Value</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.property.value[x]</code> has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.property.value[x]</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.referenceInformation</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.referenceInformation.html">Extension: ExtensionSubstanceDefinition_ReferenceInformation</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.referenceInformation</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.referenceInformation</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.molecularWeight</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.molecularWeight</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.method</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.mol.method.html">Extension: ExtensionSubstanceDefinition_MolecularWeight_Method</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.method</code> has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.method</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.type</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.mol.type.html">Extension: ExtensionSubstanceDefinition_MolecularWeight_Type</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.type</code> has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.type</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.amount</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.mol.amount.html">Extension: ExtensionSubstanceDefinition_MolecularWeight_Amount</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.amount</code> has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.molecularWeight.amount</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.stereochemistry</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.stereochemistry</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.stereochemistry</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.stereochemistry</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.opticalActivity</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.opticalActivity</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.opticalActivity</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.opticalActivity</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.molecularFormula</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.molecularFormula</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.molecularFormula</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.molecularFormula</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.molecularFormulaByMoiety</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.molecularFormulaByMoiety</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.molecularFormulaByMoiety</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.molecularFormulaByMoiety</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.molecularWeight</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.molecularWeight</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.molecularWeight</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.molecularWeight</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.technique</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.str.technique.html">Extension: ExtensionSubstanceDefinition_Structure_Technique</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.technique</code> has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.technique</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.sourceDocument</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.str.sourceDocument.html">Extension: ExtensionSubstanceDefinition_Structure_SourceDocument</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.sourceDocument</code> has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.sourceDocument</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.representation</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.representation</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.representation.type</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.type</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.representation.type</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.representation</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.structure.representation.representation</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.representation</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.structure.representation.representation</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.format</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.str.rep.format.html">Extension: ExtensionSubstanceDefinition_Structure_Representation_Format</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.format</code> has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.format</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.document</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.str.rep.document.html">Extension: ExtensionSubstanceDefinition_Structure_Representation_Document</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.document</code> has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.structure.representation.document</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.code</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.code</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.code</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.code</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.code.code</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.code</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.code.code</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.code.status</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.status</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.code.status</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.statusDate</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.code.statusDate</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.statusDate</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.code.statusDate</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.note</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.cod.note.html">Extension: ExtensionSubstanceDefinition_Code_Note</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.note</code> has a context of SubstanceSpecification.code based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.note</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.source</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.code.source</a><br /><a href="http://hl7.org/fhir/StructureDefinition/alternate-reference">Standard Extension: alternate-reference</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.source</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.code.source</code> as <code class="language-plaintext highlighter-rouge">SourceIsBroaderThanTarget</code>.<br />The mappings for <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.source</code> do not cover the following types based on type expansion: display, identifier, reference, type.<br />The standard extension <code class="language-plaintext highlighter-rouge">alternate-reference</code> has been mapped as the representation of FHIR R5 element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.code.source</code> with unmapped reference targets: DocumentReference.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.name</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.name</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.name</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.name</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.type</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.type</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.type</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.type</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.status</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.status</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.status</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.preferred</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.preferred</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.preferred</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.preferred</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.language</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.language</a><br /><a href="StructureDefinition-ext-R5-SubstanceDefinition.nam.language.html">Extension: ExtensionSubstanceDefinition_Name_Language</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.language</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.language</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.domain</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.domain</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.domain</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.domain</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.jurisdiction</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.jurisdiction</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.jurisdiction</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.jurisdiction</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.synonym</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.synonym</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.synonym</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.synonym</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.translation</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.translation</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.translation</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.translation</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.official</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.official</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official.authority</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.official.authority</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official.authority</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.official.authority</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official.status</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.official.status</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official.status</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.official.status</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official.date</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.official.date</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.official.date</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.official.date</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.source</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.name.source</a><br /><a href="http://hl7.org/fhir/StructureDefinition/alternate-reference">Standard Extension: alternate-reference</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.source</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.name.source</code> as <code class="language-plaintext highlighter-rouge">SourceIsBroaderThanTarget</code>.<br />The mappings for <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.source</code> do not cover the following types based on type expansion: display, identifier, reference, type.<br />The standard extension <code class="language-plaintext highlighter-rouge">alternate-reference</code> has been mapped as the representation of FHIR R5 element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.name.source</code> with unmapped reference targets: DocumentReference.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.relationship</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.relationship</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.substanceDefinition[x]</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.rel.substanceDefinition.html">Extension: ExtensionSubstanceDefinition_Relationship_SubstanceDefinition</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.substanceDefinition[x]</code> has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.substanceDefinition[x]</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.type</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.rel.type.html">Extension: ExtensionSubstanceDefinition_Relationship_Type</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.type</code> has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.type</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.isDefining</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.relationship.isDefining</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.isDefining</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.relationship.isDefining</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.amount[x]</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.relationship.amount[x]</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.amount[x]</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.relationship.amount[x]</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.<br />The target context <code class="language-plaintext highlighter-rouge">SubstanceSpecification.relationship.amount[x]</code> is a choice-type element and cannot directly hold extensions. The context is moved up to parent element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.relationship</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.ratioHighLimitAmount</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.rel.ratioHighLimitAmount.html">Extension: ExtensionSubstanceDefinition_Relationship_RatioHighLimitAmount</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.ratioHighLimitAmount</code> has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.ratioHighLimitAmount</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.comparator</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.rel.comparator.html">Extension: ExtensionSubstanceDefinition_Relationship_Comparator</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.comparator</code> has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.comparator</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.source</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.relationship.source</a><br /><a href="http://hl7.org/fhir/StructureDefinition/alternate-reference">Standard Extension: alternate-reference</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.source</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.relationship.source</code> as <code class="language-plaintext highlighter-rouge">SourceIsBroaderThanTarget</code>.<br />The mappings for <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.source</code> do not cover the following types based on type expansion: display, identifier, reference, type.<br />The standard extension <code class="language-plaintext highlighter-rouge">alternate-reference</code> has been mapped as the representation of FHIR R5 element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.relationship.source</code> with unmapped reference targets: DocumentReference.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.nucleicAcid</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.nucleicAcid.html">Extension: ExtensionSubstanceDefinition_NucleicAcid</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.nucleicAcid</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.nucleicAcid</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.polymer</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.polymer.html">Extension: ExtensionSubstanceDefinition_Polymer</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.polymer</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.polymer</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.protein</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.protein.html">Extension: ExtensionSubstanceDefinition_Protein</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.protein</code> has a context of SubstanceSpecification based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.protein</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial</code></a></td>
+      <td><a href="https://hl7.org/fhir/R4/SubstanceSpecification.html#resource">SubstanceSpecification.sourceMaterial</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial</code> is mapped to FHIR R4 element <code class="language-plaintext highlighter-rouge">SubstanceSpecification.sourceMaterial</code> as <code class="language-plaintext highlighter-rouge">Equivalent</code>.</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.type</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.sou.type.html">Extension: ExtensionSubstanceDefinition_SourceMaterial_Type</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.type</code> has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.type</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.genus</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.sou.genus.html">Extension: ExtensionSubstanceDefinition_SourceMaterial_Genus</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.genus</code> has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.genus</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.species</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.sou.species.html">Extension: ExtensionSubstanceDefinition_SourceMaterial_Species</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.species</code> has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.species</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.part</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.sou.part.html">Extension: ExtensionSubstanceDefinition_SourceMaterial_Part</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.part</code> has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.part</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+    <tr>
+      <td><a href="https://hl7.org/fhir/R5/SubstanceDefinition.html#resource"><code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.countryOfOrigin</code></a></td>
+      <td><a href="StructureDefinition-ext-R5-SubstanceDefinition.sou.countryOfOrigin.html">Extension: ExtensionSubstanceDefinition_SourceMaterial_CountryOfOrigin</a></td>
+      <td>Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.countryOfOrigin</code> has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to <code class="language-plaintext highlighter-rouge">SubstanceSpecification</code>.<br />Element <code class="language-plaintext highlighter-rouge">SubstanceDefinition.sourceMaterial.countryOfOrigin</code> has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+  <script type="text/javascript" src="assets/js/flags.js"> </script>
+
+  <script type="text/javascript" src="assets/js/window-hash.js"> </script>
+
+  <script type="text/javascript" src="assets/js/requirements-table.js"> </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container" data-fhir="generated">  <!-- container -->
+
+      <div style="background-color:var(--footer-nav-bg-color)">
+        <table style="width:100%">
+          <tbody>
+            <tr>
+              <td style="text-align:var(--ig-left);">&#xA0;
+
+                <a href="lookup-sd-Substance.html">&lt; prev</a>
+
+              </td>
+              <td style="text-align:center">
+                <a href="#top">top</a>
+              </td>
+              <td style="text-align:var(--ig-right);">&#xA0;
+
+                <a href="lookup-sd-SubstanceNucleicAcid.html">next ></a>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="inner-wrapper">
+        <p>
+
+
+
+          IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
+          Package hl7.fhir.uv.xver-r5.r4#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated 
+  <span title="2026-03-04 17:18:00 -0600">
+    2026-03-04
+  </span>
+
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="../qa.html">QA Report</a>
+                 
+                
+                 | <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir/uv/xver/history.html">Version History</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" target="_blank" href="http://hl7.org/fhir-issues">Propose a change</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor-hover.js"> </script>
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

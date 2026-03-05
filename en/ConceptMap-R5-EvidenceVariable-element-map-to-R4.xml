@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-EvidenceVariable-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-EvidenceVariable-element-map-to-R4</b></p><a name="R5-EvidenceVariable-element-map-to-R4"> </a><a name="hcR5-EvidenceVariable-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EvidenceVariable|5.0.0</code> to <a href="http://hl7.org/fhir/R4/evidencevariable.html">EvidenceVariableversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>EvidenceVariable.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.meta</td><td>Element `EvidenceVariable.meta` is mapped to FHIR R4 element `EvidenceVariable.meta` as `Equivalent`.</td></tr><tr><td>EvidenceVariable.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.implicitRules</td><td>Element `EvidenceVariable.implicitRules` is mapped to FHIR R4 element `EvidenceVariable.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>EvidenceVariable.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.language</td><td>Element `EvidenceVariable.language` is mapped to FHIR R4 element `EvidenceVariable.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>EvidenceVariable.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.text</td><td>Element `EvidenceVariable.text` is mapped to FHIR R4 element `EvidenceVariable.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>EvidenceVariable.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.contained</td><td>Element `EvidenceVariable.contained` is mapped to FHIR R4 element `EvidenceVariable.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>EvidenceVariable.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.url</td><td>Element `EvidenceVariable.url` is mapped to FHIR R4 element `EvidenceVariable.url` as `Equivalent`.
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the meta.source element to indicate where the current master source of the resource can be found.</td></tr><tr><td>EvidenceVariable.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.identifier</td><td>Element `EvidenceVariable.identifier` is mapped to FHIR R4 element `EvidenceVariable.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this evidence variable outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>EvidenceVariable.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.version</td><td>Element `EvidenceVariable.version` is mapped to FHIR R4 element `EvidenceVariable.version` as `Equivalent`.
+There may be different evidence variable instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the evidence variable with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>EvidenceVariable.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.name</td><td>Element `EvidenceVariable.name` is mapped to FHIR R4 element `EvidenceVariable.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>EvidenceVariable.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.title</td><td>Element `EvidenceVariable.title` is mapped to FHIR R4 element `EvidenceVariable.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>EvidenceVariable.shortTitle (shortTitle)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.shortTitle</td><td>Element `EvidenceVariable.shortTitle` is mapped to FHIR R4 element `EvidenceVariable.shortTitle` as `Equivalent`.</td></tr><tr><td>EvidenceVariable.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.status</td><td>Element `EvidenceVariable.status` is mapped to FHIR R4 element `EvidenceVariable.status` as `Equivalent`.
+Allows filtering of evidence variables that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>EvidenceVariable.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.date</td><td>Element `EvidenceVariable.date` is mapped to FHIR R4 element `EvidenceVariable.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the evidence variable. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>EvidenceVariable.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.publisher</td><td>Element `EvidenceVariable.publisher` is mapped to FHIR R4 element `EvidenceVariable.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the evidence variable is the organization or individual primarily responsible for the maintenance and upkeep of the evidence variable. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the evidence variable. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>EvidenceVariable.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.contact</td><td>Element `EvidenceVariable.contact` is mapped to FHIR R4 element `EvidenceVariable.contact` as `Equivalent`.
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>EvidenceVariable.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.description</td><td>Element `EvidenceVariable.description` is mapped to FHIR R4 element `EvidenceVariable.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the evidence variable as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the evidence variable is presumed to be the predominant language in the place the evidence variable was created).</td></tr><tr><td>EvidenceVariable.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.note</td><td>Element `EvidenceVariable.note` is mapped to FHIR R4 element `EvidenceVariable.note` as `Equivalent`.</td></tr><tr><td>EvidenceVariable.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.useContext</td><td>Element `EvidenceVariable.useContext` is mapped to FHIR R4 element `EvidenceVariable.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>EvidenceVariable.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.author</td><td>Element `EvidenceVariable.author` is mapped to FHIR R4 element `EvidenceVariable.author` as `Equivalent`.
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).</td></tr><tr><td>EvidenceVariable.editor (editor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.editor</td><td>Element `EvidenceVariable.editor` is mapped to FHIR R4 element `EvidenceVariable.editor` as `Equivalent`.
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).</td></tr><tr><td>EvidenceVariable.reviewer (reviewer)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.reviewer</td><td>Element `EvidenceVariable.reviewer` is mapped to FHIR R4 element `EvidenceVariable.reviewer` as `Equivalent`.
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>EvidenceVariable.endorser (endorser)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.endorser</td><td>Element `EvidenceVariable.endorser` is mapped to FHIR R4 element `EvidenceVariable.endorser` as `Equivalent`.
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>EvidenceVariable.relatedArtifact (relatedArtifact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.relatedArtifact</td><td>Element `EvidenceVariable.relatedArtifact` is mapped to FHIR R4 element `EvidenceVariable.relatedArtifact` as `Equivalent`.
+Each related artifact is either an attachment, or a reference to another resource, but not both.</td></tr><tr><td>EvidenceVariable.characteristic (characteristic)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>EvidenceVariable.characteristic</td><td>Element `EvidenceVariable.characteristic` is mapped to FHIR R4 element `EvidenceVariable.characteristic` as `Equivalent`.
+Characteristics can be defined flexibly to accommodate different use cases for membership criteria, ranging from simple codes, all the way to using an expression language to express the criteria.</td></tr><tr><td>EvidenceVariable.characteristic.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.characteristic.description</td><td>Element `EvidenceVariable.characteristic.description` is mapped to FHIR R4 element `EvidenceVariable.characteristic.description` as `Equivalent`.</td></tr><tr><td>EvidenceVariable.characteristic.exclude (exclude)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>EvidenceVariable.characteristic.exclude</td><td>Element `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4 element `EvidenceVariable.characteristic.exclude` as `Equivalent`.</td></tr><tr><td>EvidenceVariable.characteristic.timeFromEvent (timeFromEvent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>EvidenceVariable.characteristic.timeFromStart</td><td>Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 element `EvidenceVariable.characteristic.timeFromStart` as `SourceIsBroaderThanTarget`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EvidenceVariable|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/EvidenceVariable|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4</td><td/></tr><tr><td style="border-right-width: 0px">EvidenceVariable.versionAlgorithm[x]</td><td style="border-left-width: 0px">versionAlgorithm[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.versionAlgorithm</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.versionAlgorithm[x]` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 is newer, and a 0 if the version ordering can't successfully be determined.</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.experimental</td><td style="border-left-width: 0px">experimental</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.experimental</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.experimental` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.purpose</td><td style="border-left-width: 0px">purpose</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.purpose</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.purpose` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element does not describe the usage of the EvidenceVariable. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is. This may be used to point to source materials or specifications that drove the structure of this EvidenceVariable.</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.copyright</td><td style="border-left-width: 0px">copyright</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyright</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.copyright` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.copyrightLabel</td><td style="border-left-width: 0px">copyrightLabel</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyrightLabel</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.copyrightLabel` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.approvalDate</td><td style="border-left-width: 0px">approvalDate</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.approvalDate</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.approvalDate` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.lastReviewDate</td><td style="border-left-width: 0px">lastReviewDate</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.lastReviewDate</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.lastReviewDate` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If specified, this date follows the original approval date.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.effectivePeriod</td><td style="border-left-width: 0px">effectivePeriod</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.effectivePeriod</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.effectivePeriod` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The effective period for an EvidenceVariable determines when the content is applicable for usage and is independent of publication and review dates. For example, a variable intended to be used for the year 2016 might be published in 2015.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.actual</td><td style="border-left-width: 0px">actual</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.actual</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.actual` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.actual` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic</td><td style="border-left-width: 0px">characteristic</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic` is mapped to FHIR R4 element `EvidenceVariable.characteristic` as `Equivalent`.
+Characteristics can be defined flexibly to accommodate different use cases for membership criteria, ranging from simple codes, all the way to using an expression language to express the criteria.</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.linkId</td><td style="border-left-width: 0px">linkId</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.linkId` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.note</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.note` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionReference</td><td style="border-left-width: 0px">definitionReference</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionReference` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionCanonical</td><td style="border-left-width: 0px">definitionCanonical</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionCanonical` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionCodeableConcept</td><td style="border-left-width: 0px">definitionCodeableConcept</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCodeableConcept</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionCodeableConcept` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionCodeableConcept` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionExpression</td><td style="border-left-width: 0px">definitionExpression</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionExpression</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionExpression` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionExpression` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning.</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionId</td><td style="border-left-width: 0px">definitionId</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionId</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionId` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByTypeAndValue</td><td style="border-left-width: 0px">definitionByTypeAndValue</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByTypeAndValue` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByTypeAndValue.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:type</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByTypeAndValue.method</td><td style="border-left-width: 0px">method</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:method</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByTypeAndValue.device</td><td style="border-left-width: 0px">device</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:device</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]</td><td style="border-left-width: 0px">value[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:value</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByTypeAndValue.offset</td><td style="border-left-width: 0px">offset</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:offset</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByCombination</td><td style="border-left-width: 0px">definitionByCombination</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByCombination` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByCombination` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByCombination.code</td><td style="border-left-width: 0px">code</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:code</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByCombination.code` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByCombination.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.definitionByCombination.threshold</td><td style="border-left-width: 0px">threshold</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:threshold</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByCombination.threshold` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByCombination.threshold` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">EvidenceVariable.characteristic.definitionByCombination.characteristic</td><td style="border-left-width: 0px; border-bottom-style: none">characteristic</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:characteristic</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.
+Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.instances[x]</td><td style="border-left-width: 0px">instances[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.instances</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.instances[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.instances[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.duration[x]</td><td style="border-left-width: 0px">duration[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.duration</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.duration[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.duration[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.timeFromEvent.description</td><td style="border-left-width: 0px">description</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.description</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.timeFromEvent.description` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.timeFromEvent.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.timeFromEvent.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.note</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.timeFromEvent.note` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.timeFromEvent.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.timeFromEvent.event[x]</td><td style="border-left-width: 0px">event[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.event</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.timeFromEvent.quantity</td><td style="border-left-width: 0px">quantity</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.quantity</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.timeFromEvent.quantity` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.timeFromEvent.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.characteristic.timeFromEvent.range</td><td style="border-left-width: 0px">range</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.range</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.characteristic.timeFromEvent.range` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.characteristic.timeFromEvent.range` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.handling</td><td style="border-left-width: 0px">handling</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.handling</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.handling` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.handling` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.category</td><td style="border-left-width: 0px">category</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.category` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.category.name</td><td style="border-left-width: 0px">name</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:name</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.category.name` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.
+Element `EvidenceVariable.category.name` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.category.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style="border-right-width: 0px">EvidenceVariable.category.value[x]</td><td style="border-left-width: 0px">value[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:value</td><td style="border-left-width: 0px"/><td>Element `EvidenceVariable.category.value[x]` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.
+Element `EvidenceVariable.category.value[x]` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.
+Element `EvidenceVariable.category.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-EvidenceVariable-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5EvidenceVariableElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 EvidenceVariable to FHIR R4 EvidenceVariable"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:48.2760345-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 EvidenceVariable to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/EvidenceVariable"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/EvidenceVariable"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="EvidenceVariable.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="EvidenceVariable.meta"/>
+        <display value="EvidenceVariable.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.meta` is mapped to FHIR R4 element `EvidenceVariable.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="EvidenceVariable.implicitRules"/>
+        <display value="EvidenceVariable.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.implicitRules` is mapped to FHIR R4 element `EvidenceVariable.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.language"/>
+      <display value="language"/>
+      <target>
+        <code value="EvidenceVariable.language"/>
+        <display value="EvidenceVariable.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.language` is mapped to FHIR R4 element `EvidenceVariable.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.text"/>
+      <display value="text"/>
+      <target>
+        <code value="EvidenceVariable.text"/>
+        <display value="EvidenceVariable.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.text` is mapped to FHIR R4 element `EvidenceVariable.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="EvidenceVariable.contained"/>
+        <display value="EvidenceVariable.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.contained` is mapped to FHIR R4 element `EvidenceVariable.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.url"/>
+      <display value="url"/>
+      <target>
+        <code value="EvidenceVariable.url"/>
+        <display value="EvidenceVariable.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.url` is mapped to FHIR R4 element `EvidenceVariable.url` as `Equivalent`.&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the meta.source element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="EvidenceVariable.identifier"/>
+        <display value="EvidenceVariable.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.identifier` is mapped to FHIR R4 element `EvidenceVariable.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this evidence variable outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.version"/>
+      <display value="version"/>
+      <target>
+        <code value="EvidenceVariable.version"/>
+        <display value="EvidenceVariable.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.version` is mapped to FHIR R4 element `EvidenceVariable.version` as `Equivalent`.&#xA;There may be different evidence variable instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the evidence variable with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.name"/>
+      <display value="name"/>
+      <target>
+        <code value="EvidenceVariable.name"/>
+        <display value="EvidenceVariable.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.name` is mapped to FHIR R4 element `EvidenceVariable.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.title"/>
+      <display value="title"/>
+      <target>
+        <code value="EvidenceVariable.title"/>
+        <display value="EvidenceVariable.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.title` is mapped to FHIR R4 element `EvidenceVariable.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.shortTitle"/>
+      <display value="shortTitle"/>
+      <target>
+        <code value="EvidenceVariable.shortTitle"/>
+        <display value="EvidenceVariable.shortTitle"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.shortTitle` is mapped to FHIR R4 element `EvidenceVariable.shortTitle` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.status"/>
+      <display value="status"/>
+      <target>
+        <code value="EvidenceVariable.status"/>
+        <display value="EvidenceVariable.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.status` is mapped to FHIR R4 element `EvidenceVariable.status` as `Equivalent`.&#xA;Allows filtering of evidence variables that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.date"/>
+      <display value="date"/>
+      <target>
+        <code value="EvidenceVariable.date"/>
+        <display value="EvidenceVariable.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.date` is mapped to FHIR R4 element `EvidenceVariable.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the evidence variable. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="EvidenceVariable.publisher"/>
+        <display value="EvidenceVariable.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.publisher` is mapped to FHIR R4 element `EvidenceVariable.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the evidence variable is the organization or individual primarily responsible for the maintenance and upkeep of the evidence variable. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the evidence variable. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="EvidenceVariable.contact"/>
+        <display value="EvidenceVariable.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.contact` is mapped to FHIR R4 element `EvidenceVariable.contact` as `Equivalent`.&#xA;Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.description"/>
+      <display value="description"/>
+      <target>
+        <code value="EvidenceVariable.description"/>
+        <display value="EvidenceVariable.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.description` is mapped to FHIR R4 element `EvidenceVariable.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the evidence variable as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the evidence variable is presumed to be the predominant language in the place the evidence variable was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.note"/>
+      <display value="note"/>
+      <target>
+        <code value="EvidenceVariable.note"/>
+        <display value="EvidenceVariable.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.note` is mapped to FHIR R4 element `EvidenceVariable.note` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="EvidenceVariable.useContext"/>
+        <display value="EvidenceVariable.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.useContext` is mapped to FHIR R4 element `EvidenceVariable.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.author"/>
+      <display value="author"/>
+      <target>
+        <code value="EvidenceVariable.author"/>
+        <display value="EvidenceVariable.author"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.author` is mapped to FHIR R4 element `EvidenceVariable.author` as `Equivalent`.&#xA;Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html))."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.editor"/>
+      <display value="editor"/>
+      <target>
+        <code value="EvidenceVariable.editor"/>
+        <display value="EvidenceVariable.editor"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.editor` is mapped to FHIR R4 element `EvidenceVariable.editor` as `Equivalent`.&#xA;Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html))."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.reviewer"/>
+      <display value="reviewer"/>
+      <target>
+        <code value="EvidenceVariable.reviewer"/>
+        <display value="EvidenceVariable.reviewer"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.reviewer` is mapped to FHIR R4 element `EvidenceVariable.reviewer` as `Equivalent`.&#xA;Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.endorser"/>
+      <display value="endorser"/>
+      <target>
+        <code value="EvidenceVariable.endorser"/>
+        <display value="EvidenceVariable.endorser"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.endorser` is mapped to FHIR R4 element `EvidenceVariable.endorser` as `Equivalent`.&#xA;Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.relatedArtifact"/>
+      <display value="relatedArtifact"/>
+      <target>
+        <code value="EvidenceVariable.relatedArtifact"/>
+        <display value="EvidenceVariable.relatedArtifact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.relatedArtifact` is mapped to FHIR R4 element `EvidenceVariable.relatedArtifact` as `Equivalent`.&#xA;Each related artifact is either an attachment, or a reference to another resource, but not both."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic"/>
+      <display value="characteristic"/>
+      <target>
+        <code value="EvidenceVariable.characteristic"/>
+        <display value="EvidenceVariable.characteristic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic` is mapped to FHIR R4 element `EvidenceVariable.characteristic` as `Equivalent`.&#xA;Characteristics can be defined flexibly to accommodate different use cases for membership criteria, ranging from simple codes, all the way to using an expression language to express the criteria."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.description"/>
+      <display value="description"/>
+      <target>
+        <code value="EvidenceVariable.characteristic.description"/>
+        <display value="EvidenceVariable.characteristic.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic.description` is mapped to FHIR R4 element `EvidenceVariable.characteristic.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.exclude"/>
+      <display value="exclude"/>
+      <target>
+        <code value="EvidenceVariable.characteristic.exclude"/>
+        <display value="EvidenceVariable.characteristic.exclude"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4 element `EvidenceVariable.characteristic.exclude` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.timeFromEvent"/>
+      <display value="timeFromEvent"/>
+      <target>
+        <code value="EvidenceVariable.characteristic.timeFromStart"/>
+        <display value="EvidenceVariable.characteristic.timeFromStart"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 element `EvidenceVariable.characteristic.timeFromStart` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/EvidenceVariable"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="EvidenceVariable.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.versionAlgorithm[x]` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 is newer, and a 0 if the version ordering can't successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.experimental"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.experimental` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.purpose"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.purpose` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element does not describe the usage of the EvidenceVariable. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is. This may be used to point to source materials or specifications that drove the structure of this EvidenceVariable."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyright"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.copyright` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.copyrightLabel` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.approvalDate"/>
+      <display value="approvalDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.approvalDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.approvalDate` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.lastReviewDate"/>
+      <display value="lastReviewDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.lastReviewDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.lastReviewDate` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If specified, this date follows the original approval date.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.effectivePeriod"/>
+      <display value="effectivePeriod"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.effectivePeriod"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.effectivePeriod` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The effective period for an EvidenceVariable determines when the content is applicable for usage and is independent of publication and review dates. For example, a variable intended to be used for the year 2016 might be published in 2015.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.actual"/>
+      <display value="actual"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.actual"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.actual` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.actual` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic"/>
+      <display value="characteristic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic` is mapped to FHIR R4 element `EvidenceVariable.characteristic` as `Equivalent`.&#xA;Characteristics can be defined flexibly to accommodate different use cases for membership criteria, ranging from simple codes, all the way to using an expression language to express the criteria."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.linkId"/>
+      <display value="linkId"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.linkId` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.note"/>
+      <display value="note"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.note"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.note` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionReference"/>
+      <display value="definitionReference"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionReference"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionReference` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionCanonical"/>
+      <display value="definitionCanonical"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCanonical"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionCanonical` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionCodeableConcept"/>
+      <display value="definitionCodeableConcept"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCodeableConcept"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionCodeableConcept` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionCodeableConcept` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionExpression"/>
+      <display value="definitionExpression"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionExpression"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionExpression` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionExpression` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionId"/>
+      <display value="definitionId"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionId"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionId` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByTypeAndValue"/>
+      <display value="definitionByTypeAndValue"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByTypeAndValue.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByTypeAndValue.method"/>
+      <display value="method"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:method"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByTypeAndValue.device"/>
+      <display value="device"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:device"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByTypeAndValue.offset"/>
+      <display value="offset"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue:offset"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByCombination"/>
+      <display value="definitionByCombination"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByCombination` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByCombination.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByCombination.threshold"/>
+      <display value="threshold"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:threshold"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.threshold` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.definitionByCombination.characteristic"/>
+      <display value="characteristic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination:characteristic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.instances[x]"/>
+      <display value="instances[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.instances"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.instances[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.instances[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.duration[x]"/>
+      <display value="duration[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.duration"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.duration[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.duration[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.timeFromEvent.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic.timeFromEvent.description` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.timeFromEvent.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.timeFromEvent.note"/>
+      <display value="note"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic.timeFromEvent.note` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.timeFromEvent.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.timeFromEvent.event[x]"/>
+      <display value="event[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.event"/>
+        <equivalence value="wider"/>
+        <comment value="Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.timeFromEvent.quantity"/>
+      <display value="quantity"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.quantity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic.timeFromEvent.quantity` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.timeFromEvent.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.characteristic.timeFromEvent.range"/>
+      <display value="range"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.range"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.characteristic.timeFromEvent.range` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.characteristic.timeFromEvent.range` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.handling"/>
+      <display value="handling"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.handling"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.handling` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.handling` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.category"/>
+      <display value="category"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.category` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.category.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.category.name` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.&#xA;Element `EvidenceVariable.category.name` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.category.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="EvidenceVariable.category.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.category:value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `EvidenceVariable.category.value[x]` is part of an existing definition because parent element `EvidenceVariable.category` requires a cross-version extension.&#xA;Element `EvidenceVariable.category.value[x]` has a context of EvidenceVariable based on following the parent source element upwards and mapping to `EvidenceVariable`.&#xA;Element `EvidenceVariable.category.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,1391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-TestScript-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-TestScript-element-map-to-R4</b></p><a name="R5-TestScript-element-map-to-R4"> </a><a name="hcR5-TestScript-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TestScript|5.0.0</code> to <a href="http://hl7.org/fhir/R4/testscript.html">TestScriptversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>TestScript.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.meta</td><td>Element `TestScript.meta` is mapped to FHIR R4 element `TestScript.meta` as `Equivalent`.</td></tr><tr><td>TestScript.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.implicitRules</td><td>Element `TestScript.implicitRules` is mapped to FHIR R4 element `TestScript.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>TestScript.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.language</td><td>Element `TestScript.language` is mapped to FHIR R4 element `TestScript.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>TestScript.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.text</td><td>Element `TestScript.text` is mapped to FHIR R4 element `TestScript.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>TestScript.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.contained</td><td>Element `TestScript.contained` is mapped to FHIR R4 element `TestScript.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>TestScript.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.url</td><td>Element `TestScript.url` is mapped to FHIR R4 element `TestScript.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>TestScript.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.identifier</td><td>Element `TestScript.identifier` is mapped to FHIR R4 element `TestScript.identifier` as `SourceIsBroaderThanTarget`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this test script outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>TestScript.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.version</td><td>Element `TestScript.version` is mapped to FHIR R4 element `TestScript.version` as `Equivalent`.
+There may be different test script instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the test script with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>TestScript.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.name</td><td>Element `TestScript.name` is mapped to FHIR R4 element `TestScript.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>TestScript.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.title</td><td>Element `TestScript.title` is mapped to FHIR R4 element `TestScript.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>TestScript.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.status</td><td>Element `TestScript.status` is mapped to FHIR R4 element `TestScript.status` as `Equivalent`.
+Allows filtering of test scripts that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>TestScript.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.experimental</td><td>Element `TestScript.experimental` is mapped to FHIR R4 element `TestScript.experimental` as `Equivalent`.
+Allows filtering of test scripts that are appropriate for use versus not.</td></tr><tr><td>TestScript.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.date</td><td>Element `TestScript.date` is mapped to FHIR R4 element `TestScript.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the test script. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>TestScript.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.publisher</td><td>Element `TestScript.publisher` is mapped to FHIR R4 element `TestScript.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the test script is the organization or individual primarily responsible for the maintenance and upkeep of the test script. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the test script. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>TestScript.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.contact</td><td>Element `TestScript.contact` is mapped to FHIR R4 element `TestScript.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>TestScript.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.description</td><td>Element `TestScript.description` is mapped to FHIR R4 element `TestScript.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the test script as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the test script is presumed to be the predominant language in the place the test script was created).</td></tr><tr><td>TestScript.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.useContext</td><td>Element `TestScript.useContext` is mapped to FHIR R4 element `TestScript.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>TestScript.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.jurisdiction</td><td>Element `TestScript.jurisdiction` is mapped to FHIR R4 element `TestScript.jurisdiction` as `Equivalent`.
+Element `TestScript.jurisdiction` has been flagged as deprecated.
+It may be possible for the test script to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>TestScript.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.purpose</td><td>Element `TestScript.purpose` is mapped to FHIR R4 element `TestScript.purpose` as `Equivalent`.
+This element does not describe the usage of the test script. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this test script.</td></tr><tr><td>TestScript.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.copyright</td><td>Element `TestScript.copyright` is mapped to FHIR R4 element `TestScript.copyright` as `Equivalent`.</td></tr><tr><td>TestScript.origin (origin)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.origin</td><td>Element `TestScript.origin` is mapped to FHIR R4 element `TestScript.origin` as `Equivalent`.
+The purpose of this element is to define the profile of an origin element used elsewhere in the script.  Test engines could then use the origin-profile mapping to offer a filtered list of test systems that can serve as the sender for the interaction.</td></tr><tr><td>TestScript.origin.index (index)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.origin.index</td><td>Element `TestScript.origin.index` is mapped to FHIR R4 element `TestScript.origin.index` as `Equivalent`.
+A given origin index (e.g. 1) can appear only once in the list (e.g. Origin 1 cannot be specified twice ... once as FormFiller and again as FormProcessor within the same script as that could get confusing during test configuration). 
+
+Different origin indices could play the same actor in the same test script (e.g. You could have two different test systems acting as Form-Filler).
+
+The origin indices provided elsewhere in the test script must be one of these origin indices.</td></tr><tr><td>TestScript.origin.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.origin.profile</td><td>Element `TestScript.origin.profile` is mapped to FHIR R4 element `TestScript.origin.profile` as `Equivalent`.
+Must be a &quot;sender&quot;/&quot;client&quot; profile.</td></tr><tr><td>TestScript.destination (destination)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.destination</td><td>Element `TestScript.destination` is mapped to FHIR R4 element `TestScript.destination` as `Equivalent`.
+The purpose of this element is to define the profile of a destination element used elsewhere in the script.  Test engines could then use the destination-profile mapping to offer a filtered list of test systems that can serve as the receiver for the interaction.</td></tr><tr><td>TestScript.destination.index (index)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.destination.index</td><td>Element `TestScript.destination.index` is mapped to FHIR R4 element `TestScript.destination.index` as `Equivalent`.
+A given destination index (e.g. 1) can appear only once in the list (e.g. Destination 1 cannot be specified twice ... once as Form-Manager and again as Form-Processor within the same script as that could get confusing during test configuration). 
+
+Different destination indices could play the same actor in the same test script (e.g. You could have two different test systems acting as Form-Manager).
+
+The destination indices provided elsewhere in the test script must be one of these destination indices.</td></tr><tr><td>TestScript.destination.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.destination.profile</td><td>Element `TestScript.destination.profile` is mapped to FHIR R4 element `TestScript.destination.profile` as `Equivalent`.
+Must be a &quot;receiver&quot;/&quot;server&quot; profile.</td></tr><tr><td>TestScript.metadata (metadata)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.metadata</td><td>Element `TestScript.metadata` is mapped to FHIR R4 element `TestScript.metadata` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.link (link)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.metadata.link</td><td>Element `TestScript.metadata.link` is mapped to FHIR R4 element `TestScript.metadata.link` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.link.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.link.url</td><td>Element `TestScript.metadata.link.url` is mapped to FHIR R4 element `TestScript.metadata.link.url` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.link.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.link.description</td><td>Element `TestScript.metadata.link.description` is mapped to FHIR R4 element `TestScript.metadata.link.description` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability (capability)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.metadata.capability</td><td>Element `TestScript.metadata.capability` is mapped to FHIR R4 element `TestScript.metadata.capability` as `Equivalent`.
+When the metadata capabilities section is defined at TestScript.metadata or at TestScript.setup.metadata, and the server's conformance statement does not contain the elements defined in the minimal conformance statement, then all the tests in the TestScript are skipped.  When the metadata capabilities section is defined at TestScript.test.metadata and the server's conformance statement does not contain the elements defined in the minimal conformance statement, then only that test is skipped.  The &quot;metadata.capabilities.required&quot; and &quot;metadata.capabilities.validated&quot; elements only indicate whether the capabilities are the primary focus of the test script or not.  They do not impact the skipping logic.  Capabilities whose &quot;metadata.capabilities.validated&quot; flag is true are the primary focus of the test script.</td></tr><tr><td>TestScript.metadata.capability.required (required)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.required</td><td>Element `TestScript.metadata.capability.required` is mapped to FHIR R4 element `TestScript.metadata.capability.required` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability.validated (validated)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.validated</td><td>Element `TestScript.metadata.capability.validated` is mapped to FHIR R4 element `TestScript.metadata.capability.validated` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.description</td><td>Element `TestScript.metadata.capability.description` is mapped to FHIR R4 element `TestScript.metadata.capability.description` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability.origin (origin)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.origin</td><td>Element `TestScript.metadata.capability.origin` is mapped to FHIR R4 element `TestScript.metadata.capability.origin` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability.destination (destination)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.destination</td><td>Element `TestScript.metadata.capability.destination` is mapped to FHIR R4 element `TestScript.metadata.capability.destination` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability.link (link)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.link</td><td>Element `TestScript.metadata.capability.link` is mapped to FHIR R4 element `TestScript.metadata.capability.link` as `Equivalent`.</td></tr><tr><td>TestScript.metadata.capability.capabilities (capabilities)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.metadata.capability.capabilities</td><td>Element `TestScript.metadata.capability.capabilities` is mapped to FHIR R4 element `TestScript.metadata.capability.capabilities` as `Equivalent`.
+The conformance statement of the server has to contain at a minimum the contents of the reference pointed to by this element.</td></tr><tr><td>TestScript.fixture (fixture)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.fixture</td><td>Element `TestScript.fixture` is mapped to FHIR R4 element `TestScript.fixture` as `Equivalent`.</td></tr><tr><td>TestScript.fixture.autocreate (autocreate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.fixture.autocreate</td><td>Element `TestScript.fixture.autocreate` is mapped to FHIR R4 element `TestScript.fixture.autocreate` as `Equivalent`.</td></tr><tr><td>TestScript.fixture.autodelete (autodelete)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.fixture.autodelete</td><td>Element `TestScript.fixture.autodelete` is mapped to FHIR R4 element `TestScript.fixture.autodelete` as `Equivalent`.</td></tr><tr><td>TestScript.fixture.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.fixture.resource</td><td>Element `TestScript.fixture.resource` is mapped to FHIR R4 element `TestScript.fixture.resource` as `Equivalent`.
+See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types.</td></tr><tr><td>TestScript.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.profile</td><td>Element `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile` as `SourceIsBroaderThanTarget`.
+The mappings for `TestScript.profile` do not cover the following types: canonical.
+The mappings for `TestScript.profile` do not cover the following types based on type expansion: value.
+See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types.</td></tr><tr><td>TestScript.variable (variable)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.variable</td><td>Element `TestScript.variable` is mapped to FHIR R4 element `TestScript.variable` as `Equivalent`.
+Variables would be set based either on XPath/JSONPath expressions against fixtures (static and response), or headerField evaluations against response headers. If variable evaluates to nodelist or anything other than a primitive value, then test engine would report an error.  Variables would be used to perform clean replacements in &quot;operation.params&quot;, &quot;operation.requestHeader.value&quot;, and &quot;operation.url&quot; element values during operation calls and in &quot;assert.value&quot; during assertion evaluations. This limits the places that test engines would need to look for placeholders &quot;${}&quot;.  Variables are scoped to the whole script. They are NOT evaluated at declaration. They are evaluated by test engine when used for substitutions in &quot;operation.params&quot;, &quot;operation.requestHeader.value&quot;, and &quot;operation.url&quot; element values during operation calls and in &quot;assert.value&quot; during assertion evaluations.  See example testscript-search.xml.</td></tr><tr><td>TestScript.variable.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.name</td><td>Element `TestScript.variable.name` is mapped to FHIR R4 element `TestScript.variable.name` as `Equivalent`.
+Placeholders would contain the variable name wrapped in ${} in &quot;operation.params&quot;, &quot;operation.requestHeader.value&quot;, and &quot;operation.url&quot; elements.  These placeholders would need to be replaced by the variable value before the operation is executed.</td></tr><tr><td>TestScript.variable.defaultValue (defaultValue)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.defaultValue</td><td>Element `TestScript.variable.defaultValue` is mapped to FHIR R4 element `TestScript.variable.defaultValue` as `Equivalent`.
+The purpose of this element is to allow for a pre-defined value that can be used as a default or as an override value. Test engines can optionally use this as a placeholder for user-defined execution time values.</td></tr><tr><td>TestScript.variable.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.description</td><td>Element `TestScript.variable.description` is mapped to FHIR R4 element `TestScript.variable.description` as `Equivalent`.</td></tr><tr><td>TestScript.variable.expression (expression)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.expression</td><td>Element `TestScript.variable.expression` is mapped to FHIR R4 element `TestScript.variable.expression` as `Equivalent`.
+If headerField is defined, then the variable will be evaluated against the headers that sourceId is pointing to.  If expression or path is defined, then the variable will be evaluated against the fixture body that sourceId is pointing to.  It is an error to define any combination of expression, headerField and path.</td></tr><tr><td>TestScript.variable.headerField (headerField)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.headerField</td><td>Element `TestScript.variable.headerField` is mapped to FHIR R4 element `TestScript.variable.headerField` as `Equivalent`.
+If headerField is defined, then the variable will be evaluated against the headers that sourceId is pointing to.  If path is defined, then the variable will be evaluated against the fixture body that sourceId is pointing to.  It is an error to define both headerField and path.</td></tr><tr><td>TestScript.variable.hint (hint)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.hint</td><td>Element `TestScript.variable.hint` is mapped to FHIR R4 element `TestScript.variable.hint` as `Equivalent`.</td></tr><tr><td>TestScript.variable.path (path)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.path</td><td>Element `TestScript.variable.path` is mapped to FHIR R4 element `TestScript.variable.path` as `Equivalent`.
+If headerField is defined, then the variable will be evaluated against the headers that sourceId is pointing to.  If expression or path is defined, then the variable will be evaluated against the fixture body that sourceId is pointing to.  It is an error to define any combination of expression, headerField and path.</td></tr><tr><td>TestScript.variable.sourceId (sourceId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.variable.sourceId</td><td>Element `TestScript.variable.sourceId` is mapped to FHIR R4 element `TestScript.variable.sourceId` as `Equivalent`.
+This can be a statically defined fixture (at the top of the TestScript) or a dynamically set fixture created by responseId of the `action.operation` element.</td></tr><tr><td>TestScript.setup (setup)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup</td><td>Element `TestScript.setup` is mapped to FHIR R4 element `TestScript.setup` as `Equivalent`.</td></tr><tr><td>TestScript.setup.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup.action</td><td>Element `TestScript.setup.action` is mapped to FHIR R4 element `TestScript.setup.action` as `Equivalent`.
+An action should contain either an operation or an assertion but not both.  It can contain any number of variables.</td></tr><tr><td>TestScript.setup.action.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup.action.operation</td><td>Element `TestScript.setup.action.operation` is mapped to FHIR R4 element `TestScript.setup.action.operation` as `Equivalent`.</td></tr><tr><td>TestScript.setup.action.operation.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.type</td><td>Element `TestScript.setup.action.operation.type` is mapped to FHIR R4 element `TestScript.setup.action.operation.type` as `Equivalent`.
+See the list of [server interactions](https://hl7.org/fhir/http.html).</td></tr><tr><td>TestScript.setup.action.operation.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.resource</td><td>Element `TestScript.setup.action.operation.resource` is mapped to FHIR R4 element `TestScript.setup.action.operation.resource` as `SourceIsNarrowerThanTarget`.
+If &quot;url&quot; element is specified, then &quot;targetId&quot;, &quot;params&quot;, and &quot;resource&quot; elements will be ignored as &quot;url&quot; element will have everything needed for constructing the request url.  If &quot;params&quot; element is specified, then &quot;targetId&quot; element is ignored. For FHIR operations that require a resource (e.g. &quot;read&quot; and &quot;vread&quot; operations), the &quot;resource&quot; element must be specified when &quot;params&quot; element is specified.  If &quot;url&quot; and &quot;params&quot; elements are absent, then the request url will be constructed from &quot;targetId&quot; fixture if present. For &quot;read&quot; operation, the resource and id values will be extracted from &quot;targetId&quot; fixture and used to construct the url. For &quot;vread&quot; and &quot;history&quot; operations, the versionId value will also be used.</td></tr><tr><td>TestScript.setup.action.operation.label (label)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.label</td><td>Element `TestScript.setup.action.operation.label` is mapped to FHIR R4 element `TestScript.setup.action.operation.label` as `Equivalent`.
+This has no impact on the verification itself.</td></tr><tr><td>TestScript.setup.action.operation.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.description</td><td>Element `TestScript.setup.action.operation.description` is mapped to FHIR R4 element `TestScript.setup.action.operation.description` as `Equivalent`.
+This has no impact on the verification itself.</td></tr><tr><td>TestScript.setup.action.operation.accept (accept)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.accept</td><td>Element `TestScript.setup.action.operation.accept` is mapped to FHIR R4 element `TestScript.setup.action.operation.accept` as `Equivalent`.
+If this is specified, then test engine shall set the 'Accept' header to the corresponding value.  If you'd like to explicitly set the 'Accept' to some other value then use the 'requestHeader' element.</td></tr><tr><td>TestScript.setup.action.operation.contentType (contentType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.contentType</td><td>Element `TestScript.setup.action.operation.contentType` is mapped to FHIR R4 element `TestScript.setup.action.operation.contentType` as `Equivalent`.
+If this is specified, then test engine shall set the 'Content-Type' header to the corresponding value.  If you'd like to explicitly set the 'Content-Type' to some other value then use the 'requestHeader' element.</td></tr><tr><td>TestScript.setup.action.operation.destination (destination)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.destination</td><td>Element `TestScript.setup.action.operation.destination` is mapped to FHIR R4 element `TestScript.setup.action.operation.destination` as `Equivalent`.
+If multiple TestScript.destination elements are defined and operation.destination is undefined, test engine will report an error as it cannot determine what destination to use for the exchange.</td></tr><tr><td>TestScript.setup.action.operation.encodeRequestUrl (encodeRequestUrl)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.encodeRequestUrl</td><td>Element `TestScript.setup.action.operation.encodeRequestUrl` is mapped to FHIR R4 element `TestScript.setup.action.operation.encodeRequestUrl` as `Equivalent`.</td></tr><tr><td>TestScript.setup.action.operation.method (method)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.method</td><td>Element `TestScript.setup.action.operation.method` is mapped to FHIR R4 element `TestScript.setup.action.operation.method` as `Equivalent`.
+The primary purpose of the explicit HTTP method is support of  HTTP POST method invocation of the FHIR search. Other uses will include support of negative testing.</td></tr><tr><td>TestScript.setup.action.operation.origin (origin)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.origin</td><td>Element `TestScript.setup.action.operation.origin` is mapped to FHIR R4 element `TestScript.setup.action.operation.origin` as `Equivalent`.
+If absent, test engine will send the message.  When present, test engine will not send the request message but will wait for the request message to be sent from this origin server.</td></tr><tr><td>TestScript.setup.action.operation.params (params)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.params</td><td>Element `TestScript.setup.action.operation.params` is mapped to FHIR R4 element `TestScript.setup.action.operation.params` as `Equivalent`.
+If &quot;url&quot; element is specified, then &quot;targetId&quot;, &quot;params&quot;, and &quot;resource&quot; elements will be ignored as &quot;url&quot; element will have everything needed for constructing the request url.  If &quot;params&quot; element is specified, then &quot;targetId&quot; element is ignored.  For FHIR operations that require a resource (e.g. &quot;read&quot; and &quot;vread&quot; operations), the &quot;resource&quot; element must be specified when &quot;params&quot; element is specified.  If &quot;url&quot; and &quot;params&quot; elements are absent, then the request url will be constructed from &quot;targetId&quot; fixture if present.  For &quot;read&quot; operation, the resource and id values will be extracted from &quot;targetId&quot; fixture and used to construct the url.  For &quot;vread&quot; and &quot;history&quot; operations, the versionId value will also be used.   Test engines would append whatever is specified for &quot;params&quot; to the URL after the resource type without tampering with the string (beyond encoding the URL for HTTP).  The &quot;params&quot; element does not correspond exactly to &quot;search parameters&quot;.  Nor is it the &quot;path&quot;.  It corresponds to the part of the URL that comes after the [type] (when &quot;resource&quot; element is specified); e.g. It corresponds to &quot;/[id]/_history/[vid] {?_format=[mime-type]}&quot; in the following operation: GET [base]/[type]/[id]/_history/[vid] {?_format=[mime-type]}  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before sending the request.</td></tr><tr><td>TestScript.setup.action.operation.requestHeader (requestHeader)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup.action.operation.requestHeader</td><td>Element `TestScript.setup.action.operation.requestHeader` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader` as `Equivalent`.
+This gives control to test-script writers to set headers explicitly based on test requirements.  It will allow for testing using:  - &quot;If-Modified-Since&quot; and &quot;If-None-Match&quot; headers.  [&quot;If-Match&quot; header](https://hl7.org/fhir/http.html#.html#2.1.0.5.1).  See [Conditional Create using &quot;If-None-Exist&quot;](https://hl7.org/fhir/http.html#2.1.0.11).  See [Invalid &quot;Content-Type&quot; header](https://hl7.org/fhir/http.html#2.html#2.1.0.13.1) for negative testing. - etc.</td></tr><tr><td>TestScript.setup.action.operation.requestHeader.field (field)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.requestHeader.field</td><td>Element `TestScript.setup.action.operation.requestHeader.field` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.field` as `Equivalent`.
+If header element is specified, then field is required.</td></tr><tr><td>TestScript.setup.action.operation.requestHeader.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.requestHeader.value</td><td>Element `TestScript.setup.action.operation.requestHeader.value` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.value` as `Equivalent`.
+If header element is specified, then value is required.  No conversions will be done by the test engine e.g. &quot;xml&quot; to &quot;application/fhir+xml&quot;.  The values will be set in HTTP headers &quot;as-is&quot;.  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before sending the request.</td></tr><tr><td>TestScript.setup.action.operation.requestId (requestId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.requestId</td><td>Element `TestScript.setup.action.operation.requestId` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestId` as `Equivalent`.
+If a requestId is supplied, then the resulting request (both headers and body) is mapped to the fixture ID (which may be entirely new and previously undeclared) designated by &quot;requestId&quot;.  If requestId is not specified, it is the test engine's responsibility to store the request and use it as the requestId in subsequent assertions when assertion path and/or headerField is specified, direction is equal to request, and the requestId in not specified.</td></tr><tr><td>TestScript.setup.action.operation.responseId (responseId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.responseId</td><td>Element `TestScript.setup.action.operation.responseId` is mapped to FHIR R4 element `TestScript.setup.action.operation.responseId` as `Equivalent`.
+If a responseId is supplied, and the server responds, then the resulting response (both headers and body) is mapped to the fixture ID (which may be entirely new and previously undeclared) designated by &quot;responseId&quot;.  If responseId is not specified, it is the test engine's responsibility to store the response and use it as the responseId in subsequent assertions when assertion path and/or headerField is specified and the responseId is not specified.</td></tr><tr><td>TestScript.setup.action.operation.sourceId (sourceId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.sourceId</td><td>Element `TestScript.setup.action.operation.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.operation.sourceId` as `Equivalent`.</td></tr><tr><td>TestScript.setup.action.operation.targetId (targetId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.targetId</td><td>Element `TestScript.setup.action.operation.targetId` is mapped to FHIR R4 element `TestScript.setup.action.operation.targetId` as `Equivalent`.
+If &quot;url&quot; element is specified, then &quot;targetId&quot;, &quot;params&quot;, and &quot;resource&quot; elements will be ignored as &quot;url&quot; element will have everything needed for constructing the request url.  If &quot;params&quot; element is specified, then &quot;targetId&quot; element is ignored.  For FHIR operations that require a resource (e.g. &quot;read&quot; and &quot;vread&quot; operations), the &quot;resource&quot; element must be specified when &quot;params&quot; element is specified.  If &quot;url&quot; and &quot;params&quot; elements are absent, then the request url will be constructed from &quot;targetId&quot; fixture if present.  For &quot;read&quot; operation, the resource and id values will be extracted from &quot;targetId&quot; fixture and used to construct the url.  For &quot;vread&quot; and &quot;history&quot; operations, the versionId value will also be used.</td></tr><tr><td>TestScript.setup.action.operation.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.operation.url</td><td>Element `TestScript.setup.action.operation.url` is mapped to FHIR R4 element `TestScript.setup.action.operation.url` as `Equivalent`.
+Used to set the request URL explicitly.  If &quot;url&quot; element is defined, then &quot;targetId&quot;, &quot;resource&quot;, and &quot;params&quot; elements will be ignored.  Test engines would use whatever is specified in &quot;url&quot; without tampering with the string (beyond encoding the URL for HTTP).  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before sending the request.</td></tr><tr><td>TestScript.setup.action.assert (assert)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup.action.assert</td><td>Element `TestScript.setup.action.assert` is mapped to FHIR R4 element `TestScript.setup.action.assert` as `Equivalent`.
+In order to evaluate an assertion, the request, response, and results of the most recently executed operation must always be maintained by the test engine.</td></tr><tr><td>TestScript.setup.action.assert.label (label)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.label</td><td>Element `TestScript.setup.action.assert.label` is mapped to FHIR R4 element `TestScript.setup.action.assert.label` as `Equivalent`.
+This has no impact on the verification itself.</td></tr><tr><td>TestScript.setup.action.assert.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.description</td><td>Element `TestScript.setup.action.assert.description` is mapped to FHIR R4 element `TestScript.setup.action.assert.description` as `Equivalent`.
+This has no impact on the verification itself.</td></tr><tr><td>TestScript.setup.action.assert.direction (direction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.direction</td><td>Element `TestScript.setup.action.assert.direction` is mapped to FHIR R4 element `TestScript.setup.action.assert.direction` as `Equivalent`.
+If the direction is specified as &quot;response&quot; (the default), then the processing of this assert is against the received response message. If the direction is specified as &quot;request&quot;, then the processing of this assert is against the sent request message.</td></tr><tr><td>TestScript.setup.action.assert.compareToSourceId (compareToSourceId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.compareToSourceId</td><td>Element `TestScript.setup.action.assert.compareToSourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceId` as `Equivalent`.</td></tr><tr><td>TestScript.setup.action.assert.compareToSourceExpression (compareToSourceExpression)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.compareToSourceExpression</td><td>Element `TestScript.setup.action.assert.compareToSourceExpression` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceExpression` as `Equivalent`.
+Thefhirpath expression to be evaluated against the expected fixture to compare to. Ignored if &quot;assert.value&quot; is used. The evaluation will be done before the assertion is evaluated.</td></tr><tr><td>TestScript.setup.action.assert.compareToSourcePath (compareToSourcePath)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.compareToSourcePath</td><td>Element `TestScript.setup.action.assert.compareToSourcePath` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourcePath` as `Equivalent`.
+The XPath or JSONPath expression to be evaluated against the expected fixture to compare to. Ignored if &quot;assert.value&quot; is used. The evaluation will be done before the assertion is evaluated.</td></tr><tr><td>TestScript.setup.action.assert.contentType (contentType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.contentType</td><td>Element `TestScript.setup.action.assert.contentType` is mapped to FHIR R4 element `TestScript.setup.action.assert.contentType` as `Equivalent`.
+If this is specified, then test engine shall confirm that the content-type of the last operation's headers is set to this value.  If &quot;assert.sourceId&quot; element is specified, then the evaluation will be done against the headers mapped to that sourceId (and not the last operation's headers).  If you'd like to have more control over the string, then use 'assert.headerField' instead.</td></tr><tr><td>TestScript.setup.action.assert.expression (expression)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.expression</td><td>Element `TestScript.setup.action.assert.expression` is mapped to FHIR R4 element `TestScript.setup.action.assert.expression` as `Equivalent`.
+If both &quot;expression&quot; and a &quot;fixtureId&quot; are specified, then the expression will be evaluated against the request or response body mapped to the fixtureId. If &quot;expression&quot; is specified and a &quot;fixtureId&quot; is not, then the expression will be evaluated against the response body of the last operation. Test engines are to store the request and response body and headers of the last operation at all times for subsequent assertions.
+
+The FHIRPath expression can be evaluated as either a path to a specific value or as a boolean expression against the given FHIR resource. When the FHIRPath is a boolean expression, the assert.value element is not used. See [Testing FHIR Use Expressions](https://hl7.org/fhir/testing.html#expressions).</td></tr><tr><td>TestScript.setup.action.assert.headerField (headerField)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.headerField</td><td>Element `TestScript.setup.action.assert.headerField` is mapped to FHIR R4 element `TestScript.setup.action.assert.headerField` as `Equivalent`.
+If &quot;headerField&quot; is specified then &quot;value&quot; must be specified.  If &quot;sourceId&quot; is not specified, then &quot;headerField&quot; will be evaluated against the last operation's response headers.  Test engines are to keep track of the last operation's response body and response headers.</td></tr><tr><td>TestScript.setup.action.assert.minimumId (minimumId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.minimumId</td><td>Element `TestScript.setup.action.assert.minimumId` is mapped to FHIR R4 element `TestScript.setup.action.assert.minimumId` as `Equivalent`.
+Asserts that the response contains all the element/content in another fixture pointed to by minimumId. This can be a statically defined fixture or one that is dynamically set via responseId.
+
+See [Testing FHIR Use minimumId](https://hl7.org/fhir/testing.htm##minimumId) for a more complete description of the test engine's comparison logic.</td></tr><tr><td>TestScript.setup.action.assert.navigationLinks (navigationLinks)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.navigationLinks</td><td>Element `TestScript.setup.action.assert.navigationLinks` is mapped to FHIR R4 element `TestScript.setup.action.assert.navigationLinks` as `Equivalent`.
+Asserts that the Bundle contains first, last, and next links.</td></tr><tr><td>TestScript.setup.action.assert.operator (operator)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup.action.assert.operator</td><td>Element `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator` as `SourceIsBroaderThanTarget`.
+Operators are useful for both positive and negative testing. If operator is not specified, then the default conditional behavior is implemented as defined in [Testing FHIR Assertions](https://hl7.org/fhir/testing.html#ass.html#assertion-table).</td></tr><tr><td>TestScript.setup.action.assert.path (path)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.path</td><td>Element `TestScript.setup.action.assert.path` is mapped to FHIR R4 element `TestScript.setup.action.assert.path` as `Equivalent`.
+If both &quot;path&quot; and a &quot;fixtureId&quot; are specified, then the path will be evaluated against the request or response body mapped to the fixtureId.  If &quot;path&quot; is specified and a &quot;fixtureId&quot; is not, then the path will be evaluated against the response body of the last operation.  Test engines are to store the request and response body and headers of the last operation at all times for subsequent assertions.</td></tr><tr><td>TestScript.setup.action.assert.requestMethod (requestMethod)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.requestMethod</td><td>Element `TestScript.setup.action.assert.requestMethod` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestMethod` as `Equivalent`.
+If &quot;requestMethod&quot; is specified then it will be used in place of &quot;value&quot;. The &quot;requestMethod&quot; will evaluate against the last operation's request HTTP operation.</td></tr><tr><td>TestScript.setup.action.assert.requestURL (requestURL)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.requestURL</td><td>Element `TestScript.setup.action.assert.requestURL` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestURL` as `Equivalent`.
+If &quot;requestURL&quot; is specified then it will be used in place of &quot;value&quot;. The &quot;requestURL&quot; will evaluate against the last operation's full request URL path string.</td></tr><tr><td>TestScript.setup.action.assert.resource (resource)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.resource</td><td>Element `TestScript.setup.action.assert.resource` is mapped to FHIR R4 element `TestScript.setup.action.assert.resource` as `SourceIsNarrowerThanTarget`.
+This will be expected resource type in response body e.g. in read, vread, search, etc.  See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types; e.g. &lt;assert &gt; &lt;resourceType value=&quot;Patient&quot; &lt;/assert&gt;.</td></tr><tr><td>TestScript.setup.action.assert.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.setup.action.assert.response</td><td>Element `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response` as `RelatedTo`.
+The mappings for `TestScript.setup.action.assert.response` do not allow expression of the necessary codes, per the bindings on the source and target.
+This is a shorter way of achieving similar verifications via &quot;assert.responseCode&quot;.  If you need more control, then use &quot;assert.responseCode&quot;  e.g. &lt;assert&gt;  &lt;contentType value=&quot;json&quot; /&gt;  &lt;response value=&quot;okay&quot;/&gt; &lt;/assert&gt;.</td></tr><tr><td>TestScript.setup.action.assert.responseCode (responseCode)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.responseCode</td><td>Element `TestScript.setup.action.assert.responseCode` is mapped to FHIR R4 element `TestScript.setup.action.assert.responseCode` as `Equivalent`.
+To be used with &quot;operator&quot; attribute value. Asserts that the response code equals this value if &quot;operator&quot; is not specified.   If the operator is &quot;in&quot; or &quot;notIn&quot; then the responseCode would be a comma-separated list of values e.g. &quot;200,201&quot;. Otherwise, it's expected to be a numeric value.   If &quot;fixture&quot; is not specified, then the &quot;responseBodyId&quot; value of the last operation is assumed.</td></tr><tr><td>TestScript.setup.action.assert.sourceId (sourceId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.sourceId</td><td>Element `TestScript.setup.action.assert.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.sourceId` as `Equivalent`.
+This can be a statically defined fixture (at the top of the testscript) or a dynamically set fixture created by responseId of the action.operation element.</td></tr><tr><td>TestScript.setup.action.assert.validateProfileId (validateProfileId)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.validateProfileId</td><td>Element `TestScript.setup.action.assert.validateProfileId` is mapped to FHIR R4 element `TestScript.setup.action.assert.validateProfileId` as `Equivalent`.
+The ID of a Profile fixture. Asserts that the response is valid according to the Profile specified by validateProfileId.</td></tr><tr><td>TestScript.setup.action.assert.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.value</td><td>Element `TestScript.setup.action.assert.value` is mapped to FHIR R4 element `TestScript.setup.action.assert.value` as `Equivalent`.
+The string-representation of a number, string, or boolean that is expected.  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before comparing this value to the actual value.</td></tr><tr><td>TestScript.setup.action.assert.warningOnly (warningOnly)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.setup.action.assert.warningOnly</td><td>Element `TestScript.setup.action.assert.warningOnly` is mapped to FHIR R4 element `TestScript.setup.action.assert.warningOnly` as `Equivalent`.
+If this element is specified and it is true, then assertion failures can be logged by test engine but should not stop the test script execution from proceeding.  There are likely cases where the spec is not clear on what should happen. If the spec says something is optional (maybe a response header for example), but a server doesn’t do it, we could choose to issue a warning.</td></tr><tr><td>TestScript.test (test)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.test</td><td>Element `TestScript.test` is mapped to FHIR R4 element `TestScript.test` as `Equivalent`.</td></tr><tr><td>TestScript.test.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.test.name</td><td>Element `TestScript.test.name` is mapped to FHIR R4 element `TestScript.test.name` as `Equivalent`.</td></tr><tr><td>TestScript.test.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.test.description</td><td>Element `TestScript.test.description` is mapped to FHIR R4 element `TestScript.test.description` as `Equivalent`.</td></tr><tr><td>TestScript.test.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.test.action</td><td>Element `TestScript.test.action` is mapped to FHIR R4 element `TestScript.test.action` as `Equivalent`.
+An action should contain either an operation or an assertion but not both.  It can contain any number of variables.</td></tr><tr><td>TestScript.test.action.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.test.action.operation</td><td>Element `TestScript.test.action.operation` is mapped to FHIR R4 element `TestScript.test.action.operation` as `Equivalent`.</td></tr><tr><td>TestScript.test.action.assert (assert)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.test.action.assert</td><td>Element `TestScript.test.action.assert` is mapped to FHIR R4 element `TestScript.test.action.assert` as `Equivalent`.
+In order to evaluate an assertion, the request, response, and results of the most recently executed operation must always be maintained by the test engine.</td></tr><tr><td>TestScript.teardown (teardown)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.teardown</td><td>Element `TestScript.teardown` is mapped to FHIR R4 element `TestScript.teardown` as `Equivalent`.</td></tr><tr><td>TestScript.teardown.action (action)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>TestScript.teardown.action</td><td>Element `TestScript.teardown.action` is mapped to FHIR R4 element `TestScript.teardown.action` as `Equivalent`.
+An action should contain either an operation or an assertion but not both.  It can contain any number of variables.</td></tr><tr><td>TestScript.teardown.action.operation (operation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>TestScript.teardown.action.operation</td><td>Element `TestScript.teardown.action.operation` is mapped to FHIR R4 element `TestScript.teardown.action.operation` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/TestScript|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>TestScript.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.versionAlgorithm</td><td>Element `TestScript.versionAlgorithm[x]` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>TestScript.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.copyrightLabel</td><td>Element `TestScript.copyrightLabel` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>TestScript.origin.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin.url</td><td>Element `TestScript.origin.url` has a context of TestScript.origin based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.origin.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If provided, the test engine is not expected to prompt for or accept external input of this value.</td></tr><tr><td>TestScript.destination.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination.url</td><td>Element `TestScript.destination.url` has a context of TestScript.destination based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.destination.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If provided, the test engine is not expected to prompt for or accept external input of this value.</td></tr><tr><td>TestScript.scope (scope)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope</td><td>Element `TestScript.scope` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>TestScript.scope.artifact (artifact)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:artifact</td><td>Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.
+Element `TestScript.scope.artifact` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.scope.artifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>TestScript.scope.conformance (conformance)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:conformance</td><td>Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.
+Element `TestScript.scope.conformance` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.scope.conformance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>TestScript.scope.phase (phase)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:phase</td><td>Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.
+Element `TestScript.scope.phase` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.scope.phase` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>TestScript.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.profile</td><td>Element `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile` as `SourceIsBroaderThanTarget`.
+The mappings for `TestScript.profile` do not cover the following types: canonical.
+The mappings for `TestScript.profile` do not cover the following types based on type expansion: value.
+See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types.</td></tr><tr><td>TestScript.setup.action.assert.defaultManualCompletion (defaultManualCompletion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.defaultManualCompletion</td><td>Element `TestScript.setup.action.assert.defaultManualCompletion` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.setup.action.assert.defaultManualCompletion` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Manual completion is used to pause the test engine execution and evaluation allowing an external review of the defined assert condition. The defaultManualCompletion defines the default manual completion outcome applied if one of the enumerated values is not applied.</td></tr><tr><td>TestScript.setup.action.assert.operator (operator)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.operator</td><td>Element `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator` as `SourceIsBroaderThanTarget`.
+Operators are useful for both positive and negative testing. If operator is not specified, then the default conditional behavior is implemented as defined in [Testing FHIR Assertions](https://hl7.org/fhir/testing.html#ass.html#assertion-table).</td></tr><tr><td>TestScript.setup.action.assert.response (response)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.response</td><td>Element `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response` as `RelatedTo`.
+The mappings for `TestScript.setup.action.assert.response` do not allow expression of the necessary codes, per the bindings on the source and target.
+This is a shorter way of achieving similar verifications via &quot;assert.responseCode&quot;.  If you need more control, then use &quot;assert.responseCode&quot;  e.g. &lt;assert&gt;  &lt;contentType value=&quot;json&quot; /&gt;  &lt;response value=&quot;okay&quot;/&gt; &lt;/assert&gt;.</td></tr><tr><td>TestScript.setup.action.assert.stopTestOnFail (stopTestOnFail)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.stopTestOnFail</td><td>Element `TestScript.setup.action.assert.stopTestOnFail` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.setup.action.assert.stopTestOnFail` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If this element is specified and it is true, then assertion failures should not stop the current test execution from proceeding.</td></tr><tr><td>TestScript.setup.action.assert.requirement (requirement)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement</td><td>Element `TestScript.setup.action.assert.requirement` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.setup.action.assert.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements.</td></tr><tr><td>TestScript.setup.action.assert.requirement.link[x] (link[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement:link</td><td>Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.
+Element `TestScript.setup.action.assert.requirement.link[x]` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.
+Element `TestScript.setup.action.assert.requirement.link[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-TestScript-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5TestScriptElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 TestScript to FHIR R4 TestScript"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:53.412397-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 TestScript to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/TestScript"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/TestScript"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="TestScript.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="TestScript.meta"/>
+        <display value="TestScript.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.meta` is mapped to FHIR R4 element `TestScript.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="TestScript.implicitRules"/>
+        <display value="TestScript.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.implicitRules` is mapped to FHIR R4 element `TestScript.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.language"/>
+      <display value="language"/>
+      <target>
+        <code value="TestScript.language"/>
+        <display value="TestScript.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.language` is mapped to FHIR R4 element `TestScript.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.text"/>
+      <display value="text"/>
+      <target>
+        <code value="TestScript.text"/>
+        <display value="TestScript.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.text` is mapped to FHIR R4 element `TestScript.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="TestScript.contained"/>
+        <display value="TestScript.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.contained` is mapped to FHIR R4 element `TestScript.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.url"/>
+      <display value="url"/>
+      <target>
+        <code value="TestScript.url"/>
+        <display value="TestScript.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.url` is mapped to FHIR R4 element `TestScript.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="TestScript.identifier"/>
+        <display value="TestScript.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.identifier` is mapped to FHIR R4 element `TestScript.identifier` as `SourceIsBroaderThanTarget`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this test script outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.version"/>
+      <display value="version"/>
+      <target>
+        <code value="TestScript.version"/>
+        <display value="TestScript.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.version` is mapped to FHIR R4 element `TestScript.version` as `Equivalent`.&#xA;There may be different test script instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the test script with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TestScript.name"/>
+        <display value="TestScript.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.name` is mapped to FHIR R4 element `TestScript.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.title"/>
+      <display value="title"/>
+      <target>
+        <code value="TestScript.title"/>
+        <display value="TestScript.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.title` is mapped to FHIR R4 element `TestScript.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.status"/>
+      <display value="status"/>
+      <target>
+        <code value="TestScript.status"/>
+        <display value="TestScript.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.status` is mapped to FHIR R4 element `TestScript.status` as `Equivalent`.&#xA;Allows filtering of test scripts that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="TestScript.experimental"/>
+        <display value="TestScript.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.experimental` is mapped to FHIR R4 element `TestScript.experimental` as `Equivalent`.&#xA;Allows filtering of test scripts that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.date"/>
+      <display value="date"/>
+      <target>
+        <code value="TestScript.date"/>
+        <display value="TestScript.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.date` is mapped to FHIR R4 element `TestScript.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the test script. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="TestScript.publisher"/>
+        <display value="TestScript.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.publisher` is mapped to FHIR R4 element `TestScript.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the test script is the organization or individual primarily responsible for the maintenance and upkeep of the test script. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the test script. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="TestScript.contact"/>
+        <display value="TestScript.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.contact` is mapped to FHIR R4 element `TestScript.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.description"/>
+        <display value="TestScript.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.description` is mapped to FHIR R4 element `TestScript.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the test script as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the test script is presumed to be the predominant language in the place the test script was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="TestScript.useContext"/>
+        <display value="TestScript.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.useContext` is mapped to FHIR R4 element `TestScript.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="TestScript.jurisdiction"/>
+        <display value="TestScript.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.jurisdiction` is mapped to FHIR R4 element `TestScript.jurisdiction` as `Equivalent`.&#xA;Element `TestScript.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the test script to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="TestScript.purpose"/>
+        <display value="TestScript.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.purpose` is mapped to FHIR R4 element `TestScript.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the test script. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this test script."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="TestScript.copyright"/>
+        <display value="TestScript.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.copyright` is mapped to FHIR R4 element `TestScript.copyright` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.origin"/>
+      <display value="origin"/>
+      <target>
+        <code value="TestScript.origin"/>
+        <display value="TestScript.origin"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.origin` is mapped to FHIR R4 element `TestScript.origin` as `Equivalent`.&#xA;The purpose of this element is to define the profile of an origin element used elsewhere in the script.  Test engines could then use the origin-profile mapping to offer a filtered list of test systems that can serve as the sender for the interaction."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.origin.index"/>
+      <display value="index"/>
+      <target>
+        <code value="TestScript.origin.index"/>
+        <display value="TestScript.origin.index"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.origin.index` is mapped to FHIR R4 element `TestScript.origin.index` as `Equivalent`.&#xA;A given origin index (e.g. 1) can appear only once in the list (e.g. Origin 1 cannot be specified twice ... once as FormFiller and again as FormProcessor within the same script as that could get confusing during test configuration). &#xA;&#xA;Different origin indices could play the same actor in the same test script (e.g. You could have two different test systems acting as Form-Filler).&#xA;&#xA;The origin indices provided elsewhere in the test script must be one of these origin indices."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.origin.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="TestScript.origin.profile"/>
+        <display value="TestScript.origin.profile"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.origin.profile` is mapped to FHIR R4 element `TestScript.origin.profile` as `Equivalent`.&#xA;Must be a &quot;sender&quot;/&quot;client&quot; profile."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.destination"/>
+      <display value="destination"/>
+      <target>
+        <code value="TestScript.destination"/>
+        <display value="TestScript.destination"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.destination` is mapped to FHIR R4 element `TestScript.destination` as `Equivalent`.&#xA;The purpose of this element is to define the profile of a destination element used elsewhere in the script.  Test engines could then use the destination-profile mapping to offer a filtered list of test systems that can serve as the receiver for the interaction."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.destination.index"/>
+      <display value="index"/>
+      <target>
+        <code value="TestScript.destination.index"/>
+        <display value="TestScript.destination.index"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.destination.index` is mapped to FHIR R4 element `TestScript.destination.index` as `Equivalent`.&#xA;A given destination index (e.g. 1) can appear only once in the list (e.g. Destination 1 cannot be specified twice ... once as Form-Manager and again as Form-Processor within the same script as that could get confusing during test configuration). &#xA;&#xA;Different destination indices could play the same actor in the same test script (e.g. You could have two different test systems acting as Form-Manager).&#xA;&#xA;The destination indices provided elsewhere in the test script must be one of these destination indices."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.destination.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="TestScript.destination.profile"/>
+        <display value="TestScript.destination.profile"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.destination.profile` is mapped to FHIR R4 element `TestScript.destination.profile` as `Equivalent`.&#xA;Must be a &quot;receiver&quot;/&quot;server&quot; profile."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata"/>
+      <display value="metadata"/>
+      <target>
+        <code value="TestScript.metadata"/>
+        <display value="TestScript.metadata"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.metadata` is mapped to FHIR R4 element `TestScript.metadata` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.link"/>
+      <display value="link"/>
+      <target>
+        <code value="TestScript.metadata.link"/>
+        <display value="TestScript.metadata.link"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.metadata.link` is mapped to FHIR R4 element `TestScript.metadata.link` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.link.url"/>
+      <display value="url"/>
+      <target>
+        <code value="TestScript.metadata.link.url"/>
+        <display value="TestScript.metadata.link.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.link.url` is mapped to FHIR R4 element `TestScript.metadata.link.url` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.link.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.metadata.link.description"/>
+        <display value="TestScript.metadata.link.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.link.description` is mapped to FHIR R4 element `TestScript.metadata.link.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability"/>
+      <display value="capability"/>
+      <target>
+        <code value="TestScript.metadata.capability"/>
+        <display value="TestScript.metadata.capability"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.metadata.capability` is mapped to FHIR R4 element `TestScript.metadata.capability` as `Equivalent`.&#xA;When the metadata capabilities section is defined at TestScript.metadata or at TestScript.setup.metadata, and the server's conformance statement does not contain the elements defined in the minimal conformance statement, then all the tests in the TestScript are skipped.  When the metadata capabilities section is defined at TestScript.test.metadata and the server's conformance statement does not contain the elements defined in the minimal conformance statement, then only that test is skipped.  The &quot;metadata.capabilities.required&quot; and &quot;metadata.capabilities.validated&quot; elements only indicate whether the capabilities are the primary focus of the test script or not.  They do not impact the skipping logic.  Capabilities whose &quot;metadata.capabilities.validated&quot; flag is true are the primary focus of the test script."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.required"/>
+      <display value="required"/>
+      <target>
+        <code value="TestScript.metadata.capability.required"/>
+        <display value="TestScript.metadata.capability.required"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.required` is mapped to FHIR R4 element `TestScript.metadata.capability.required` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.validated"/>
+      <display value="validated"/>
+      <target>
+        <code value="TestScript.metadata.capability.validated"/>
+        <display value="TestScript.metadata.capability.validated"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.validated` is mapped to FHIR R4 element `TestScript.metadata.capability.validated` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.metadata.capability.description"/>
+        <display value="TestScript.metadata.capability.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.description` is mapped to FHIR R4 element `TestScript.metadata.capability.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.origin"/>
+      <display value="origin"/>
+      <target>
+        <code value="TestScript.metadata.capability.origin"/>
+        <display value="TestScript.metadata.capability.origin"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.origin` is mapped to FHIR R4 element `TestScript.metadata.capability.origin` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.destination"/>
+      <display value="destination"/>
+      <target>
+        <code value="TestScript.metadata.capability.destination"/>
+        <display value="TestScript.metadata.capability.destination"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.destination` is mapped to FHIR R4 element `TestScript.metadata.capability.destination` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.link"/>
+      <display value="link"/>
+      <target>
+        <code value="TestScript.metadata.capability.link"/>
+        <display value="TestScript.metadata.capability.link"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.link` is mapped to FHIR R4 element `TestScript.metadata.capability.link` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.metadata.capability.capabilities"/>
+      <display value="capabilities"/>
+      <target>
+        <code value="TestScript.metadata.capability.capabilities"/>
+        <display value="TestScript.metadata.capability.capabilities"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.metadata.capability.capabilities` is mapped to FHIR R4 element `TestScript.metadata.capability.capabilities` as `Equivalent`.&#xA;The conformance statement of the server has to contain at a minimum the contents of the reference pointed to by this element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.fixture"/>
+      <display value="fixture"/>
+      <target>
+        <code value="TestScript.fixture"/>
+        <display value="TestScript.fixture"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.fixture` is mapped to FHIR R4 element `TestScript.fixture` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.fixture.autocreate"/>
+      <display value="autocreate"/>
+      <target>
+        <code value="TestScript.fixture.autocreate"/>
+        <display value="TestScript.fixture.autocreate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.fixture.autocreate` is mapped to FHIR R4 element `TestScript.fixture.autocreate` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.fixture.autodelete"/>
+      <display value="autodelete"/>
+      <target>
+        <code value="TestScript.fixture.autodelete"/>
+        <display value="TestScript.fixture.autodelete"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.fixture.autodelete` is mapped to FHIR R4 element `TestScript.fixture.autodelete` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.fixture.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="TestScript.fixture.resource"/>
+        <display value="TestScript.fixture.resource"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.fixture.resource` is mapped to FHIR R4 element `TestScript.fixture.resource` as `Equivalent`.&#xA;See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="TestScript.profile"/>
+        <display value="TestScript.profile"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `TestScript.profile` do not cover the following types: canonical.&#xA;The mappings for `TestScript.profile` do not cover the following types based on type expansion: value.&#xA;See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable"/>
+      <display value="variable"/>
+      <target>
+        <code value="TestScript.variable"/>
+        <display value="TestScript.variable"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.variable` is mapped to FHIR R4 element `TestScript.variable` as `Equivalent`.&#xA;Variables would be set based either on XPath/JSONPath expressions against fixtures (static and response), or headerField evaluations against response headers. If variable evaluates to nodelist or anything other than a primitive value, then test engine would report an error.  Variables would be used to perform clean replacements in &quot;operation.params&quot;, &quot;operation.requestHeader.value&quot;, and &quot;operation.url&quot; element values during operation calls and in &quot;assert.value&quot; during assertion evaluations. This limits the places that test engines would need to look for placeholders &quot;${}&quot;.  Variables are scoped to the whole script. They are NOT evaluated at declaration. They are evaluated by test engine when used for substitutions in &quot;operation.params&quot;, &quot;operation.requestHeader.value&quot;, and &quot;operation.url&quot; element values during operation calls and in &quot;assert.value&quot; during assertion evaluations.  See example testscript-search.xml."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TestScript.variable.name"/>
+        <display value="TestScript.variable.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.name` is mapped to FHIR R4 element `TestScript.variable.name` as `Equivalent`.&#xA;Placeholders would contain the variable name wrapped in ${} in &quot;operation.params&quot;, &quot;operation.requestHeader.value&quot;, and &quot;operation.url&quot; elements.  These placeholders would need to be replaced by the variable value before the operation is executed."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.defaultValue"/>
+      <display value="defaultValue"/>
+      <target>
+        <code value="TestScript.variable.defaultValue"/>
+        <display value="TestScript.variable.defaultValue"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.defaultValue` is mapped to FHIR R4 element `TestScript.variable.defaultValue` as `Equivalent`.&#xA;The purpose of this element is to allow for a pre-defined value that can be used as a default or as an override value. Test engines can optionally use this as a placeholder for user-defined execution time values."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.variable.description"/>
+        <display value="TestScript.variable.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.description` is mapped to FHIR R4 element `TestScript.variable.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.expression"/>
+      <display value="expression"/>
+      <target>
+        <code value="TestScript.variable.expression"/>
+        <display value="TestScript.variable.expression"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.expression` is mapped to FHIR R4 element `TestScript.variable.expression` as `Equivalent`.&#xA;If headerField is defined, then the variable will be evaluated against the headers that sourceId is pointing to.  If expression or path is defined, then the variable will be evaluated against the fixture body that sourceId is pointing to.  It is an error to define any combination of expression, headerField and path."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.headerField"/>
+      <display value="headerField"/>
+      <target>
+        <code value="TestScript.variable.headerField"/>
+        <display value="TestScript.variable.headerField"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.headerField` is mapped to FHIR R4 element `TestScript.variable.headerField` as `Equivalent`.&#xA;If headerField is defined, then the variable will be evaluated against the headers that sourceId is pointing to.  If path is defined, then the variable will be evaluated against the fixture body that sourceId is pointing to.  It is an error to define both headerField and path."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.hint"/>
+      <display value="hint"/>
+      <target>
+        <code value="TestScript.variable.hint"/>
+        <display value="TestScript.variable.hint"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.hint` is mapped to FHIR R4 element `TestScript.variable.hint` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.path"/>
+      <display value="path"/>
+      <target>
+        <code value="TestScript.variable.path"/>
+        <display value="TestScript.variable.path"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.path` is mapped to FHIR R4 element `TestScript.variable.path` as `Equivalent`.&#xA;If headerField is defined, then the variable will be evaluated against the headers that sourceId is pointing to.  If expression or path is defined, then the variable will be evaluated against the fixture body that sourceId is pointing to.  It is an error to define any combination of expression, headerField and path."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.variable.sourceId"/>
+      <display value="sourceId"/>
+      <target>
+        <code value="TestScript.variable.sourceId"/>
+        <display value="TestScript.variable.sourceId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.variable.sourceId` is mapped to FHIR R4 element `TestScript.variable.sourceId` as `Equivalent`.&#xA;This can be a statically defined fixture (at the top of the TestScript) or a dynamically set fixture created by responseId of the `action.operation` element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup"/>
+      <display value="setup"/>
+      <target>
+        <code value="TestScript.setup"/>
+        <display value="TestScript.setup"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup` is mapped to FHIR R4 element `TestScript.setup` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action"/>
+      <display value="action"/>
+      <target>
+        <code value="TestScript.setup.action"/>
+        <display value="TestScript.setup.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action` is mapped to FHIR R4 element `TestScript.setup.action` as `Equivalent`.&#xA;An action should contain either an operation or an assertion but not both.  It can contain any number of variables."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="TestScript.setup.action.operation"/>
+        <display value="TestScript.setup.action.operation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.operation` is mapped to FHIR R4 element `TestScript.setup.action.operation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.type"/>
+      <display value="type"/>
+      <target>
+        <code value="TestScript.setup.action.operation.type"/>
+        <display value="TestScript.setup.action.operation.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.type` is mapped to FHIR R4 element `TestScript.setup.action.operation.type` as `Equivalent`.&#xA;See the list of [server interactions](https://hl7.org/fhir/http.html)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="TestScript.setup.action.operation.resource"/>
+        <display value="TestScript.setup.action.operation.resource"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.resource` is mapped to FHIR R4 element `TestScript.setup.action.operation.resource` as `SourceIsNarrowerThanTarget`.&#xA;If &quot;url&quot; element is specified, then &quot;targetId&quot;, &quot;params&quot;, and &quot;resource&quot; elements will be ignored as &quot;url&quot; element will have everything needed for constructing the request url.  If &quot;params&quot; element is specified, then &quot;targetId&quot; element is ignored. For FHIR operations that require a resource (e.g. &quot;read&quot; and &quot;vread&quot; operations), the &quot;resource&quot; element must be specified when &quot;params&quot; element is specified.  If &quot;url&quot; and &quot;params&quot; elements are absent, then the request url will be constructed from &quot;targetId&quot; fixture if present. For &quot;read&quot; operation, the resource and id values will be extracted from &quot;targetId&quot; fixture and used to construct the url. For &quot;vread&quot; and &quot;history&quot; operations, the versionId value will also be used."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.label"/>
+      <display value="label"/>
+      <target>
+        <code value="TestScript.setup.action.operation.label"/>
+        <display value="TestScript.setup.action.operation.label"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.label` is mapped to FHIR R4 element `TestScript.setup.action.operation.label` as `Equivalent`.&#xA;This has no impact on the verification itself."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.setup.action.operation.description"/>
+        <display value="TestScript.setup.action.operation.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.description` is mapped to FHIR R4 element `TestScript.setup.action.operation.description` as `Equivalent`.&#xA;This has no impact on the verification itself."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.accept"/>
+      <display value="accept"/>
+      <target>
+        <code value="TestScript.setup.action.operation.accept"/>
+        <display value="TestScript.setup.action.operation.accept"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.accept` is mapped to FHIR R4 element `TestScript.setup.action.operation.accept` as `Equivalent`.&#xA;If this is specified, then test engine shall set the 'Accept' header to the corresponding value.  If you'd like to explicitly set the 'Accept' to some other value then use the 'requestHeader' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.contentType"/>
+      <display value="contentType"/>
+      <target>
+        <code value="TestScript.setup.action.operation.contentType"/>
+        <display value="TestScript.setup.action.operation.contentType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.contentType` is mapped to FHIR R4 element `TestScript.setup.action.operation.contentType` as `Equivalent`.&#xA;If this is specified, then test engine shall set the 'Content-Type' header to the corresponding value.  If you'd like to explicitly set the 'Content-Type' to some other value then use the 'requestHeader' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.destination"/>
+      <display value="destination"/>
+      <target>
+        <code value="TestScript.setup.action.operation.destination"/>
+        <display value="TestScript.setup.action.operation.destination"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.destination` is mapped to FHIR R4 element `TestScript.setup.action.operation.destination` as `Equivalent`.&#xA;If multiple TestScript.destination elements are defined and operation.destination is undefined, test engine will report an error as it cannot determine what destination to use for the exchange."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.encodeRequestUrl"/>
+      <display value="encodeRequestUrl"/>
+      <target>
+        <code value="TestScript.setup.action.operation.encodeRequestUrl"/>
+        <display value="TestScript.setup.action.operation.encodeRequestUrl"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.encodeRequestUrl` is mapped to FHIR R4 element `TestScript.setup.action.operation.encodeRequestUrl` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.method"/>
+      <display value="method"/>
+      <target>
+        <code value="TestScript.setup.action.operation.method"/>
+        <display value="TestScript.setup.action.operation.method"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.method` is mapped to FHIR R4 element `TestScript.setup.action.operation.method` as `Equivalent`.&#xA;The primary purpose of the explicit HTTP method is support of  HTTP POST method invocation of the FHIR search. Other uses will include support of negative testing."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.origin"/>
+      <display value="origin"/>
+      <target>
+        <code value="TestScript.setup.action.operation.origin"/>
+        <display value="TestScript.setup.action.operation.origin"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.origin` is mapped to FHIR R4 element `TestScript.setup.action.operation.origin` as `Equivalent`.&#xA;If absent, test engine will send the message.  When present, test engine will not send the request message but will wait for the request message to be sent from this origin server."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.params"/>
+      <display value="params"/>
+      <target>
+        <code value="TestScript.setup.action.operation.params"/>
+        <display value="TestScript.setup.action.operation.params"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.params` is mapped to FHIR R4 element `TestScript.setup.action.operation.params` as `Equivalent`.&#xA;If &quot;url&quot; element is specified, then &quot;targetId&quot;, &quot;params&quot;, and &quot;resource&quot; elements will be ignored as &quot;url&quot; element will have everything needed for constructing the request url.  If &quot;params&quot; element is specified, then &quot;targetId&quot; element is ignored.  For FHIR operations that require a resource (e.g. &quot;read&quot; and &quot;vread&quot; operations), the &quot;resource&quot; element must be specified when &quot;params&quot; element is specified.  If &quot;url&quot; and &quot;params&quot; elements are absent, then the request url will be constructed from &quot;targetId&quot; fixture if present.  For &quot;read&quot; operation, the resource and id values will be extracted from &quot;targetId&quot; fixture and used to construct the url.  For &quot;vread&quot; and &quot;history&quot; operations, the versionId value will also be used.   Test engines would append whatever is specified for &quot;params&quot; to the URL after the resource type without tampering with the string (beyond encoding the URL for HTTP).  The &quot;params&quot; element does not correspond exactly to &quot;search parameters&quot;.  Nor is it the &quot;path&quot;.  It corresponds to the part of the URL that comes after the [type] (when &quot;resource&quot; element is specified); e.g. It corresponds to &quot;/[id]/_history/[vid] {?_format=[mime-type]}&quot; in the following operation: GET [base]/[type]/[id]/_history/[vid] {?_format=[mime-type]}  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before sending the request."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.requestHeader"/>
+      <display value="requestHeader"/>
+      <target>
+        <code value="TestScript.setup.action.operation.requestHeader"/>
+        <display value="TestScript.setup.action.operation.requestHeader"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.operation.requestHeader` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader` as `Equivalent`.&#xA;This gives control to test-script writers to set headers explicitly based on test requirements.  It will allow for testing using:  - &quot;If-Modified-Since&quot; and &quot;If-None-Match&quot; headers.  [&quot;If-Match&quot; header](https://hl7.org/fhir/http.html#.html#2.1.0.5.1).  See [Conditional Create using &quot;If-None-Exist&quot;](https://hl7.org/fhir/http.html#2.1.0.11).  See [Invalid &quot;Content-Type&quot; header](https://hl7.org/fhir/http.html#2.html#2.1.0.13.1) for negative testing. - etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.requestHeader.field"/>
+      <display value="field"/>
+      <target>
+        <code value="TestScript.setup.action.operation.requestHeader.field"/>
+        <display value="TestScript.setup.action.operation.requestHeader.field"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.requestHeader.field` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.field` as `Equivalent`.&#xA;If header element is specified, then field is required."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.requestHeader.value"/>
+      <display value="value"/>
+      <target>
+        <code value="TestScript.setup.action.operation.requestHeader.value"/>
+        <display value="TestScript.setup.action.operation.requestHeader.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.requestHeader.value` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestHeader.value` as `Equivalent`.&#xA;If header element is specified, then value is required.  No conversions will be done by the test engine e.g. &quot;xml&quot; to &quot;application/fhir+xml&quot;.  The values will be set in HTTP headers &quot;as-is&quot;.  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before sending the request."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.requestId"/>
+      <display value="requestId"/>
+      <target>
+        <code value="TestScript.setup.action.operation.requestId"/>
+        <display value="TestScript.setup.action.operation.requestId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.requestId` is mapped to FHIR R4 element `TestScript.setup.action.operation.requestId` as `Equivalent`.&#xA;If a requestId is supplied, then the resulting request (both headers and body) is mapped to the fixture ID (which may be entirely new and previously undeclared) designated by &quot;requestId&quot;.  If requestId is not specified, it is the test engine's responsibility to store the request and use it as the requestId in subsequent assertions when assertion path and/or headerField is specified, direction is equal to request, and the requestId in not specified."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.responseId"/>
+      <display value="responseId"/>
+      <target>
+        <code value="TestScript.setup.action.operation.responseId"/>
+        <display value="TestScript.setup.action.operation.responseId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.responseId` is mapped to FHIR R4 element `TestScript.setup.action.operation.responseId` as `Equivalent`.&#xA;If a responseId is supplied, and the server responds, then the resulting response (both headers and body) is mapped to the fixture ID (which may be entirely new and previously undeclared) designated by &quot;responseId&quot;.  If responseId is not specified, it is the test engine's responsibility to store the response and use it as the responseId in subsequent assertions when assertion path and/or headerField is specified and the responseId is not specified."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.sourceId"/>
+      <display value="sourceId"/>
+      <target>
+        <code value="TestScript.setup.action.operation.sourceId"/>
+        <display value="TestScript.setup.action.operation.sourceId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.operation.sourceId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.targetId"/>
+      <display value="targetId"/>
+      <target>
+        <code value="TestScript.setup.action.operation.targetId"/>
+        <display value="TestScript.setup.action.operation.targetId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.targetId` is mapped to FHIR R4 element `TestScript.setup.action.operation.targetId` as `Equivalent`.&#xA;If &quot;url&quot; element is specified, then &quot;targetId&quot;, &quot;params&quot;, and &quot;resource&quot; elements will be ignored as &quot;url&quot; element will have everything needed for constructing the request url.  If &quot;params&quot; element is specified, then &quot;targetId&quot; element is ignored.  For FHIR operations that require a resource (e.g. &quot;read&quot; and &quot;vread&quot; operations), the &quot;resource&quot; element must be specified when &quot;params&quot; element is specified.  If &quot;url&quot; and &quot;params&quot; elements are absent, then the request url will be constructed from &quot;targetId&quot; fixture if present.  For &quot;read&quot; operation, the resource and id values will be extracted from &quot;targetId&quot; fixture and used to construct the url.  For &quot;vread&quot; and &quot;history&quot; operations, the versionId value will also be used."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.operation.url"/>
+      <display value="url"/>
+      <target>
+        <code value="TestScript.setup.action.operation.url"/>
+        <display value="TestScript.setup.action.operation.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.operation.url` is mapped to FHIR R4 element `TestScript.setup.action.operation.url` as `Equivalent`.&#xA;Used to set the request URL explicitly.  If &quot;url&quot; element is defined, then &quot;targetId&quot;, &quot;resource&quot;, and &quot;params&quot; elements will be ignored.  Test engines would use whatever is specified in &quot;url&quot; without tampering with the string (beyond encoding the URL for HTTP).  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before sending the request."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert"/>
+      <display value="assert"/>
+      <target>
+        <code value="TestScript.setup.action.assert"/>
+        <display value="TestScript.setup.action.assert"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert` is mapped to FHIR R4 element `TestScript.setup.action.assert` as `Equivalent`.&#xA;In order to evaluate an assertion, the request, response, and results of the most recently executed operation must always be maintained by the test engine."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.label"/>
+      <display value="label"/>
+      <target>
+        <code value="TestScript.setup.action.assert.label"/>
+        <display value="TestScript.setup.action.assert.label"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.label` is mapped to FHIR R4 element `TestScript.setup.action.assert.label` as `Equivalent`.&#xA;This has no impact on the verification itself."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.setup.action.assert.description"/>
+        <display value="TestScript.setup.action.assert.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.description` is mapped to FHIR R4 element `TestScript.setup.action.assert.description` as `Equivalent`.&#xA;This has no impact on the verification itself."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.direction"/>
+      <display value="direction"/>
+      <target>
+        <code value="TestScript.setup.action.assert.direction"/>
+        <display value="TestScript.setup.action.assert.direction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.direction` is mapped to FHIR R4 element `TestScript.setup.action.assert.direction` as `Equivalent`.&#xA;If the direction is specified as &quot;response&quot; (the default), then the processing of this assert is against the received response message. If the direction is specified as &quot;request&quot;, then the processing of this assert is against the sent request message."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.compareToSourceId"/>
+      <display value="compareToSourceId"/>
+      <target>
+        <code value="TestScript.setup.action.assert.compareToSourceId"/>
+        <display value="TestScript.setup.action.assert.compareToSourceId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.compareToSourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.compareToSourceExpression"/>
+      <display value="compareToSourceExpression"/>
+      <target>
+        <code value="TestScript.setup.action.assert.compareToSourceExpression"/>
+        <display value="TestScript.setup.action.assert.compareToSourceExpression"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.compareToSourceExpression` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourceExpression` as `Equivalent`.&#xA;Thefhirpath expression to be evaluated against the expected fixture to compare to. Ignored if &quot;assert.value&quot; is used. The evaluation will be done before the assertion is evaluated."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.compareToSourcePath"/>
+      <display value="compareToSourcePath"/>
+      <target>
+        <code value="TestScript.setup.action.assert.compareToSourcePath"/>
+        <display value="TestScript.setup.action.assert.compareToSourcePath"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.compareToSourcePath` is mapped to FHIR R4 element `TestScript.setup.action.assert.compareToSourcePath` as `Equivalent`.&#xA;The XPath or JSONPath expression to be evaluated against the expected fixture to compare to. Ignored if &quot;assert.value&quot; is used. The evaluation will be done before the assertion is evaluated."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.contentType"/>
+      <display value="contentType"/>
+      <target>
+        <code value="TestScript.setup.action.assert.contentType"/>
+        <display value="TestScript.setup.action.assert.contentType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.contentType` is mapped to FHIR R4 element `TestScript.setup.action.assert.contentType` as `Equivalent`.&#xA;If this is specified, then test engine shall confirm that the content-type of the last operation's headers is set to this value.  If &quot;assert.sourceId&quot; element is specified, then the evaluation will be done against the headers mapped to that sourceId (and not the last operation's headers).  If you'd like to have more control over the string, then use 'assert.headerField' instead."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.expression"/>
+      <display value="expression"/>
+      <target>
+        <code value="TestScript.setup.action.assert.expression"/>
+        <display value="TestScript.setup.action.assert.expression"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.expression` is mapped to FHIR R4 element `TestScript.setup.action.assert.expression` as `Equivalent`.&#xA;If both &quot;expression&quot; and a &quot;fixtureId&quot; are specified, then the expression will be evaluated against the request or response body mapped to the fixtureId. If &quot;expression&quot; is specified and a &quot;fixtureId&quot; is not, then the expression will be evaluated against the response body of the last operation. Test engines are to store the request and response body and headers of the last operation at all times for subsequent assertions.&#xA;&#xA;The FHIRPath expression can be evaluated as either a path to a specific value or as a boolean expression against the given FHIR resource. When the FHIRPath is a boolean expression, the assert.value element is not used. See [Testing FHIR Use Expressions](https://hl7.org/fhir/testing.html#expressions)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.headerField"/>
+      <display value="headerField"/>
+      <target>
+        <code value="TestScript.setup.action.assert.headerField"/>
+        <display value="TestScript.setup.action.assert.headerField"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.headerField` is mapped to FHIR R4 element `TestScript.setup.action.assert.headerField` as `Equivalent`.&#xA;If &quot;headerField&quot; is specified then &quot;value&quot; must be specified.  If &quot;sourceId&quot; is not specified, then &quot;headerField&quot; will be evaluated against the last operation's response headers.  Test engines are to keep track of the last operation's response body and response headers."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.minimumId"/>
+      <display value="minimumId"/>
+      <target>
+        <code value="TestScript.setup.action.assert.minimumId"/>
+        <display value="TestScript.setup.action.assert.minimumId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.minimumId` is mapped to FHIR R4 element `TestScript.setup.action.assert.minimumId` as `Equivalent`.&#xA;Asserts that the response contains all the element/content in another fixture pointed to by minimumId. This can be a statically defined fixture or one that is dynamically set via responseId.&#xA;&#xA;See [Testing FHIR Use minimumId](https://hl7.org/fhir/testing.htm##minimumId) for a more complete description of the test engine's comparison logic."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.navigationLinks"/>
+      <display value="navigationLinks"/>
+      <target>
+        <code value="TestScript.setup.action.assert.navigationLinks"/>
+        <display value="TestScript.setup.action.assert.navigationLinks"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.navigationLinks` is mapped to FHIR R4 element `TestScript.setup.action.assert.navigationLinks` as `Equivalent`.&#xA;Asserts that the Bundle contains first, last, and next links."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.operator"/>
+      <display value="operator"/>
+      <target>
+        <code value="TestScript.setup.action.assert.operator"/>
+        <display value="TestScript.setup.action.assert.operator"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator` as `SourceIsBroaderThanTarget`.&#xA;Operators are useful for both positive and negative testing. If operator is not specified, then the default conditional behavior is implemented as defined in [Testing FHIR Assertions](https://hl7.org/fhir/testing.html#ass.html#assertion-table)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.path"/>
+      <display value="path"/>
+      <target>
+        <code value="TestScript.setup.action.assert.path"/>
+        <display value="TestScript.setup.action.assert.path"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.path` is mapped to FHIR R4 element `TestScript.setup.action.assert.path` as `Equivalent`.&#xA;If both &quot;path&quot; and a &quot;fixtureId&quot; are specified, then the path will be evaluated against the request or response body mapped to the fixtureId.  If &quot;path&quot; is specified and a &quot;fixtureId&quot; is not, then the path will be evaluated against the response body of the last operation.  Test engines are to store the request and response body and headers of the last operation at all times for subsequent assertions."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.requestMethod"/>
+      <display value="requestMethod"/>
+      <target>
+        <code value="TestScript.setup.action.assert.requestMethod"/>
+        <display value="TestScript.setup.action.assert.requestMethod"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.requestMethod` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestMethod` as `Equivalent`.&#xA;If &quot;requestMethod&quot; is specified then it will be used in place of &quot;value&quot;. The &quot;requestMethod&quot; will evaluate against the last operation's request HTTP operation."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.requestURL"/>
+      <display value="requestURL"/>
+      <target>
+        <code value="TestScript.setup.action.assert.requestURL"/>
+        <display value="TestScript.setup.action.assert.requestURL"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.requestURL` is mapped to FHIR R4 element `TestScript.setup.action.assert.requestURL` as `Equivalent`.&#xA;If &quot;requestURL&quot; is specified then it will be used in place of &quot;value&quot;. The &quot;requestURL&quot; will evaluate against the last operation's full request URL path string."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="TestScript.setup.action.assert.resource"/>
+        <display value="TestScript.setup.action.assert.resource"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.resource` is mapped to FHIR R4 element `TestScript.setup.action.assert.resource` as `SourceIsNarrowerThanTarget`.&#xA;This will be expected resource type in response body e.g. in read, vread, search, etc.  See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types; e.g. &lt;assert &gt; &lt;resourceType value=&quot;Patient&quot; &lt;/assert&gt;."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.response"/>
+      <display value="response"/>
+      <target>
+        <code value="TestScript.setup.action.assert.response"/>
+        <display value="TestScript.setup.action.assert.response"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response` as `RelatedTo`.&#xA;The mappings for `TestScript.setup.action.assert.response` do not allow expression of the necessary codes, per the bindings on the source and target.&#xA;This is a shorter way of achieving similar verifications via &quot;assert.responseCode&quot;.  If you need more control, then use &quot;assert.responseCode&quot;  e.g. &lt;assert&gt;  &lt;contentType value=&quot;json&quot; /&gt;  &lt;response value=&quot;okay&quot;/&gt; &lt;/assert&gt;."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.responseCode"/>
+      <display value="responseCode"/>
+      <target>
+        <code value="TestScript.setup.action.assert.responseCode"/>
+        <display value="TestScript.setup.action.assert.responseCode"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.responseCode` is mapped to FHIR R4 element `TestScript.setup.action.assert.responseCode` as `Equivalent`.&#xA;To be used with &quot;operator&quot; attribute value. Asserts that the response code equals this value if &quot;operator&quot; is not specified.   If the operator is &quot;in&quot; or &quot;notIn&quot; then the responseCode would be a comma-separated list of values e.g. &quot;200,201&quot;. Otherwise, it's expected to be a numeric value.   If &quot;fixture&quot; is not specified, then the &quot;responseBodyId&quot; value of the last operation is assumed."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.sourceId"/>
+      <display value="sourceId"/>
+      <target>
+        <code value="TestScript.setup.action.assert.sourceId"/>
+        <display value="TestScript.setup.action.assert.sourceId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.sourceId` is mapped to FHIR R4 element `TestScript.setup.action.assert.sourceId` as `Equivalent`.&#xA;This can be a statically defined fixture (at the top of the testscript) or a dynamically set fixture created by responseId of the action.operation element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.validateProfileId"/>
+      <display value="validateProfileId"/>
+      <target>
+        <code value="TestScript.setup.action.assert.validateProfileId"/>
+        <display value="TestScript.setup.action.assert.validateProfileId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.validateProfileId` is mapped to FHIR R4 element `TestScript.setup.action.assert.validateProfileId` as `Equivalent`.&#xA;The ID of a Profile fixture. Asserts that the response is valid according to the Profile specified by validateProfileId."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.value"/>
+      <display value="value"/>
+      <target>
+        <code value="TestScript.setup.action.assert.value"/>
+        <display value="TestScript.setup.action.assert.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.value` is mapped to FHIR R4 element `TestScript.setup.action.assert.value` as `Equivalent`.&#xA;The string-representation of a number, string, or boolean that is expected.  Test engines do have to look for placeholders (${}) and replace the variable placeholders with the variable values at runtime before comparing this value to the actual value."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.warningOnly"/>
+      <display value="warningOnly"/>
+      <target>
+        <code value="TestScript.setup.action.assert.warningOnly"/>
+        <display value="TestScript.setup.action.assert.warningOnly"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.warningOnly` is mapped to FHIR R4 element `TestScript.setup.action.assert.warningOnly` as `Equivalent`.&#xA;If this element is specified and it is true, then assertion failures can be logged by test engine but should not stop the test script execution from proceeding.  There are likely cases where the spec is not clear on what should happen. If the spec says something is optional (maybe a response header for example), but a server doesn’t do it, we could choose to issue a warning."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.test"/>
+      <display value="test"/>
+      <target>
+        <code value="TestScript.test"/>
+        <display value="TestScript.test"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.test` is mapped to FHIR R4 element `TestScript.test` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.test.name"/>
+      <display value="name"/>
+      <target>
+        <code value="TestScript.test.name"/>
+        <display value="TestScript.test.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.test.name` is mapped to FHIR R4 element `TestScript.test.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.test.description"/>
+      <display value="description"/>
+      <target>
+        <code value="TestScript.test.description"/>
+        <display value="TestScript.test.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.test.description` is mapped to FHIR R4 element `TestScript.test.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.test.action"/>
+      <display value="action"/>
+      <target>
+        <code value="TestScript.test.action"/>
+        <display value="TestScript.test.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.test.action` is mapped to FHIR R4 element `TestScript.test.action` as `Equivalent`.&#xA;An action should contain either an operation or an assertion but not both.  It can contain any number of variables."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.test.action.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="TestScript.test.action.operation"/>
+        <display value="TestScript.test.action.operation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.test.action.operation` is mapped to FHIR R4 element `TestScript.test.action.operation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.test.action.assert"/>
+      <display value="assert"/>
+      <target>
+        <code value="TestScript.test.action.assert"/>
+        <display value="TestScript.test.action.assert"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.test.action.assert` is mapped to FHIR R4 element `TestScript.test.action.assert` as `Equivalent`.&#xA;In order to evaluate an assertion, the request, response, and results of the most recently executed operation must always be maintained by the test engine."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.teardown"/>
+      <display value="teardown"/>
+      <target>
+        <code value="TestScript.teardown"/>
+        <display value="TestScript.teardown"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.teardown` is mapped to FHIR R4 element `TestScript.teardown` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.teardown.action"/>
+      <display value="action"/>
+      <target>
+        <code value="TestScript.teardown.action"/>
+        <display value="TestScript.teardown.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.teardown.action` is mapped to FHIR R4 element `TestScript.teardown.action` as `Equivalent`.&#xA;An action should contain either an operation or an assertion but not both.  It can contain any number of variables."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.teardown.action.operation"/>
+      <display value="operation"/>
+      <target>
+        <code value="TestScript.teardown.action.operation"/>
+        <display value="TestScript.teardown.action.operation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.teardown.action.operation` is mapped to FHIR R4 element `TestScript.teardown.action.operation` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/TestScript"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="TestScript.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.versionAlgorithm[x]` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.copyrightLabel` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.origin.url"/>
+      <display value="url"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin.url"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.origin.url` has a context of TestScript.origin based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.origin.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If provided, the test engine is not expected to prompt for or accept external input of this value."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.destination.url"/>
+      <display value="url"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination.url"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.destination.url` has a context of TestScript.destination based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.destination.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If provided, the test engine is not expected to prompt for or accept external input of this value."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.scope"/>
+      <display value="scope"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.scope` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.scope.artifact"/>
+      <display value="artifact"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:artifact"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.artifact` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.scope.artifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.scope.conformance"/>
+      <display value="conformance"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:conformance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.conformance` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.scope.conformance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.scope.phase"/>
+      <display value="phase"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope:phase"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.&#xA;Element `TestScript.scope.phase` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.scope.phase` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.profile"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.profile` is mapped to FHIR R4 element `TestScript.profile` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `TestScript.profile` do not cover the following types: canonical.&#xA;The mappings for `TestScript.profile` do not cover the following types based on type expansion: value.&#xA;See the [Resource List](https://hl7.org/fhir/resourcelist.html) for complete list of resource types."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.defaultManualCompletion"/>
+      <display value="defaultManualCompletion"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.defaultManualCompletion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert.defaultManualCompletion` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.setup.action.assert.defaultManualCompletion` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Manual completion is used to pause the test engine execution and evaluation allowing an external review of the defined assert condition. The defaultManualCompletion defines the default manual completion outcome applied if one of the enumerated values is not applied."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.operator"/>
+      <display value="operator"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.operator"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.operator` is mapped to FHIR R4 element `TestScript.setup.action.assert.operator` as `SourceIsBroaderThanTarget`.&#xA;Operators are useful for both positive and negative testing. If operator is not specified, then the default conditional behavior is implemented as defined in [Testing FHIR Assertions](https://hl7.org/fhir/testing.html#ass.html#assertion-table)."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.response"/>
+      <display value="response"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.response"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `TestScript.setup.action.assert.response` is mapped to FHIR R4 element `TestScript.setup.action.assert.response` as `RelatedTo`.&#xA;The mappings for `TestScript.setup.action.assert.response` do not allow expression of the necessary codes, per the bindings on the source and target.&#xA;This is a shorter way of achieving similar verifications via &quot;assert.responseCode&quot;.  If you need more control, then use &quot;assert.responseCode&quot;  e.g. &lt;assert&gt;  &lt;contentType value=&quot;json&quot; /&gt;  &lt;response value=&quot;okay&quot;/&gt; &lt;/assert&gt;."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.stopTestOnFail"/>
+      <display value="stopTestOnFail"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.stopTestOnFail"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert.stopTestOnFail` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.setup.action.assert.stopTestOnFail` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If this element is specified and it is true, then assertion failures should not stop the current test execution from proceeding."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.requirement"/>
+      <display value="requirement"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert.requirement` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.setup.action.assert.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;TestScript and TestReport instances are typically (and expected to be) based on known, defined test requirements and documentation. These links provide traceability from the executable/executed TestScript and TestReport tests to these requirements."/>
+      </target>
+    </element>
+    <element>
+      <code value="TestScript.setup.action.assert.requirement.link[x]"/>
+      <display value="link[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement:link"/>
+        <equivalence value="wider"/>
+        <comment value="Element `TestScript.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestScript.setup.action.assert.requirement` requires a cross-version extension.&#xA;Element `TestScript.setup.action.assert.requirement.link[x]` has a context of TestScript.setup.action.assert based on following the parent source element upwards and mapping to `TestScript`.&#xA;Element `TestScript.setup.action.assert.requirement.link[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

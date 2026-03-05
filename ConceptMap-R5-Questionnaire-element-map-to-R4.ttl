@@ -1,0 +1,611 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Questionnaire-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Questionnaire-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Questionnaire-element-map-to-R4</b></p><a name=\"R5-Questionnaire-element-map-to-R4\"> </a><a name=\"hcR5-Questionnaire-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Questionnaire|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/questionnaire.html\">Questionnaireversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Questionnaire.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.meta</td><td>Element `Questionnaire.meta` is mapped to FHIR R4 element `Questionnaire.meta` as `Equivalent`.</td></tr><tr><td>Questionnaire.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.implicitRules</td><td>Element `Questionnaire.implicitRules` is mapped to FHIR R4 element `Questionnaire.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Questionnaire.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.language</td><td>Element `Questionnaire.language` is mapped to FHIR R4 element `Questionnaire.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Questionnaire.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.text</td><td>Element `Questionnaire.text` is mapped to FHIR R4 element `Questionnaire.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Questionnaire.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.contained</td><td>Element `Questionnaire.contained` is mapped to FHIR R4 element `Questionnaire.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Questionnaire.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.url</td><td>Element `Questionnaire.url` is mapped to FHIR R4 element `Questionnaire.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions).\n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.\n\nThe name of the referenced questionnaire can be conveyed using the http://hl7.org/fhir/StructureDefinition/display extension.</td></tr><tr><td>Questionnaire.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.identifier</td><td>Element `Questionnaire.identifier` is mapped to FHIR R4 element `Questionnaire.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this questionnaire outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>Questionnaire.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.version</td><td>Element `Questionnaire.version` is mapped to FHIR R4 element `Questionnaire.version` as `Equivalent`.\nThere may be different questionnaires that have the same url but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the questionnaire with the format. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>Questionnaire.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.name</td><td>Element `Questionnaire.name` is mapped to FHIR R4 element `Questionnaire.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type no-whitespace name to ensure that it is machine-processing friendly.</td></tr><tr><td>Questionnaire.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.title</td><td>Element `Questionnaire.title` is mapped to FHIR R4 element `Questionnaire.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>Questionnaire.derivedFrom (derivedFrom)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.derivedFrom</td><td>Element `Questionnaire.derivedFrom` is mapped to FHIR R4 element `Questionnaire.derivedFrom` as `Equivalent`.\nThis element covers a broad range of relationships, from 'somewhat inspired by' to 'fully compliant with'.         There is a standard extensionthat allows clearer differentiation between the specifics of the derivation relationship where          this is needed - e.g. to determine substitutability and validation expectations -          [http://hl7.org/fhir/StructureDefinition/questionnaire-derivationType](http://hl7.org/fhir/extensions/StructureDefinition-questionnaire-derivationType.html).</td></tr><tr><td>Questionnaire.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.status</td><td>Element `Questionnaire.status` is mapped to FHIR R4 element `Questionnaire.status` as `Equivalent`.\nA nominal state-transition diagram can be found in the] documentation\n\nUnknown does not represent 'other' - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Questionnaire.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.experimental</td><td>Element `Questionnaire.experimental` is mapped to FHIR R4 element `Questionnaire.experimental` as `Equivalent`.\nAllows filtering of questionnaires that are appropriate for use versus not.</td></tr><tr><td>Questionnaire.subjectType (subjectType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Questionnaire.subjectType</td><td>Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`.\nThe mappings for `Questionnaire.subjectType` do not allow expression of the necessary codes, per the bindings on the source and target.\nIf none are specified, then the subject is unlimited.</td></tr><tr><td>Questionnaire.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.date</td><td>Element `Questionnaire.date` is mapped to FHIR R4 element `Questionnaire.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the questionnaire. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Questionnaire.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.publisher</td><td>Element `Questionnaire.publisher` is mapped to FHIR R4 element `Questionnaire.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the questionnaire is the organization or individual primarily responsible for the maintenance and upkeep of the questionnaire. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the questionnaire. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>Questionnaire.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.contact</td><td>Element `Questionnaire.contact` is mapped to FHIR R4 element `Questionnaire.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Questionnaire.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.description</td><td>Element `Questionnaire.description` is mapped to FHIR R4 element `Questionnaire.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the questionnaire as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context. (E.g. the language of the questionnaire is presumed to be the predominant language in the place the questionnaire was created).</td></tr><tr><td>Questionnaire.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.useContext</td><td>Element `Questionnaire.useContext` is mapped to FHIR R4 element `Questionnaire.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or even any of the contexts apply.</td></tr><tr><td>Questionnaire.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.jurisdiction</td><td>Element `Questionnaire.jurisdiction` is mapped to FHIR R4 element `Questionnaire.jurisdiction` as `Equivalent`.\nElement `Questionnaire.jurisdiction` has been flagged as deprecated.\nIt may be possible for the questionnaire to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>Questionnaire.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.purpose</td><td>Element `Questionnaire.purpose` is mapped to FHIR R4 element `Questionnaire.purpose` as `Equivalent`.\nThis element does not describe the usage of the questionnaire. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this questionnaire.</td></tr><tr><td>Questionnaire.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.copyright</td><td>Element `Questionnaire.copyright` is mapped to FHIR R4 element `Questionnaire.copyright` as `Equivalent`.</td></tr><tr><td>Questionnaire.approvalDate (approvalDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.approvalDate</td><td>Element `Questionnaire.approvalDate` is mapped to FHIR R4 element `Questionnaire.approvalDate` as `Equivalent`.\nThe 'date' element may be more recent than the approval date because of minor changes or editorial corrections.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Questionnaire.lastReviewDate (lastReviewDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.lastReviewDate</td><td>Element `Questionnaire.lastReviewDate` is mapped to FHIR R4 element `Questionnaire.lastReviewDate` as `Equivalent`.\nIf specified, this date follows the original approval date.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Questionnaire.effectivePeriod (effectivePeriod)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.effectivePeriod</td><td>Element `Questionnaire.effectivePeriod` is mapped to FHIR R4 element `Questionnaire.effectivePeriod` as `Equivalent`.\nThe effective period for a questionnaire  determines when the content is applicable for usage and is independent of publication and review dates. For example, a questionnaire intended to be used for the year 2016 might be published in 2015.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Questionnaire.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.code</td><td>Element `Questionnaire.code` is mapped to FHIR R4 element `Questionnaire.code` as `Equivalent`.</td></tr><tr><td>Questionnaire.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Questionnaire.item</td><td>Element `Questionnaire.item` is mapped to FHIR R4 element `Questionnaire.item` as `Equivalent`.\nThe content of the questionnaire is constructed from an ordered, hierarchical collection of items.</td></tr><tr><td>Questionnaire.item.linkId (linkId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.linkId</td><td>Element `Questionnaire.item.linkId` is mapped to FHIR R4 element `Questionnaire.item.linkId` as `Equivalent`.\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such</td></tr><tr><td>Questionnaire.item.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.definition</td><td>Element `Questionnaire.item.definition` is mapped to FHIR R4 element `Questionnaire.item.definition` as `Equivalent`.\nThe uri refers to an ElementDefinition in a [StructureDefinition](https://hl7.org/fhir/s.html#) or to an [ObservationDefinition](https://hl7.org/fhir/observationdefinition.html) and always starts with the [canonical URL](https://hl7.org/fhir/references.html#canonical) for the target resource. When referring to a StructureDefinition, a fragment identifier is used to specify the element definition by its id [Element.id](https://hl7.org/fhir/types-defin.html#Element.id). E.g. http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]. In the absence of a fragment identifier, the first/root element definition in the target is the matching element definition.</td></tr><tr><td>Questionnaire.item.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.code</td><td>Element `Questionnaire.item.code` is mapped to FHIR R4 element `Questionnaire.item.code` as `Equivalent`.\nThe value may come from the ElementDefinition referred to by .definition.</td></tr><tr><td>Questionnaire.item.prefix (prefix)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.prefix</td><td>Element `Questionnaire.item.prefix` is mapped to FHIR R4 element `Questionnaire.item.prefix` as `Equivalent`.\nThese are generally unique within a questionnaire, though this is not guaranteed. Some questionnaires may have multiple questions with the same label with logic to control which gets exposed.  Typically, these won't be used for \"display\" items, though such use is not prohibited.  Systems SHOULD NOT generate their own prefixes if prefixes are defined for any items within a Questionnaire.</td></tr><tr><td>Questionnaire.item.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.text</td><td>Element `Questionnaire.item.text` is mapped to FHIR R4 element `Questionnaire.item.text` as `Equivalent`.\nWhen using this element to represent the name of a section, use group type item and also make sure to limit the text element to a short string suitable for display as a section heading.  Group item instructions should be included as a display type item within the group.</td></tr><tr><td>Questionnaire.item.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.type</td><td>Element `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type` as `SourceIsNarrowerThanTarget`.\nThe mappings for `Questionnaire.item.type` do not allow expression of the necessary codes, per the bindings on the source and target.\nAdditional constraints on the type of answer can be conveyed by extensions. The value may come from the ElementDefinition referred to by .definition.</td></tr><tr><td>Questionnaire.item.enableWhen (enableWhen)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Questionnaire.item.enableWhen</td><td>Element `Questionnaire.item.enableWhen` is mapped to FHIR R4 element `Questionnaire.item.enableWhen` as `Equivalent`.\nIf multiple repetitions of this extension are present, the interpretation is driven by enableBehavior (either all repetitions must evaluate to true for this item to be enabled, or only one must evaluate to true for the item to be enabled).  If the enableWhen.question has multiple answers, the condition evaluates to true if *any* of the answers for the referenced item match the enableWhen condition.  This element is a modifier because if enableWhen is present for an item, \"required\" is ignored unless one of the enableWhen conditions is met. When an item is disabled, all of its descendants are disabled, regardless of what their own enableWhen logic might evaluate to.  If enableWhen logic depends on an item that is disabled, the logic should proceed as though the item is not valued - even if a default value or other value might be retained in memory in the event of the item being re-enabled.  In some cases, the comparison between the indicated answer and the specified value may differ only by precision.  For example, the enableWhen might be Q1 &gt; 1970, but the answer to Q1 is 1970-10-15.  There is not a clear answer as to whether 1970-10-15 should be considered 'greater' than 1970, given that it is an imprecise value.  In these indeterminate situations, the form filler has the option of refusing to render the form.  If the form **is** displayed, items where enableWhen is indeterminate SHOULD be treated as enabled with a warning indicating that the questionnaire logic was faulty and it is possible that the item should not be enabled.  Questionnaires SHOULD be designed to take into account challenges around varying precision to minimize non-deterministic situations by setting constraints around expected precision, etc.</td></tr><tr><td>Questionnaire.item.enableWhen.question (question)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.enableWhen.question</td><td>Element `Questionnaire.item.enableWhen.question` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.question` as `Equivalent`.\nIf multiple question occurrences are present for the same question (same linkId), then this refers to the nearest question occurrence reachable by tracing first the \"ancestor\" axis and then the \"preceding\" axis and then the \"following\" axis.  If there are multiple items with the same linkId and all are equadistant (e.g. a question references a question that appears in a separate repeating group), that is an error.  (Consider using the enableWhenExpression extension to define logic to handle such a situation.)</td></tr><tr><td>Questionnaire.item.enableWhen.operator (operator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.enableWhen.operator</td><td>Element `Questionnaire.item.enableWhen.operator` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.operator` as `Equivalent`.</td></tr><tr><td>Questionnaire.item.enableWhen.answer[x] (answer[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.enableWhen.answer[x]</td><td>Element `Questionnaire.item.enableWhen.answer[x]` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.answer[x]` as `RelatedTo`.\nThe target context `Questionnaire.item.enableWhen.answer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.enableWhen`.</td></tr><tr><td>Questionnaire.item.enableBehavior (enableBehavior)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.enableBehavior</td><td>Element `Questionnaire.item.enableBehavior` is mapped to FHIR R4 element `Questionnaire.item.enableBehavior` as `Equivalent`.\nThis element must be specified if more than one enableWhen value is provided.</td></tr><tr><td>Questionnaire.item.required (required)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.required</td><td>Element `Questionnaire.item.required` is mapped to FHIR R4 element `Questionnaire.item.required` as `Equivalent`.\nIf the required item is a question, it must have a direct answer (i.e. an answer to the question itself, not merely answers to child questions) in order for the QuestionnaireResponse to be complete.  If the required item is a group, it must have at least one descendant question which has an answer  Questionnaire.item.required only has meaning for elements that are conditionally enabled with enableWhen if the condition evaluates to true.  It also only has meaning if the parent element is present.  If a non-required 'group' item contains a 'required' question item, it's completely fine to omit the group (because it's not required) despite it having a required child.  Similarly, if an item that contains other items is marked as required, that does not automatically make the contained elements required (though required groups must contain at least one descendant item with a populated answer). The value for 'required' may come from the ElementDefinition referred to by .definition.</td></tr><tr><td>Questionnaire.item.repeats (repeats)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.repeats</td><td>Element `Questionnaire.item.repeats` is mapped to FHIR R4 element `Questionnaire.item.repeats` as `Equivalent`.\nIf a question is marked as repeats=true, then multiple answers can be provided for the question in the corresponding QuestionnaireResponse.  When rendering the questionnaire, it is up to the rendering software whether to render the question text for each answer repetition (i.e. \"repeat the question\") or to simply allow entry/selection of multiple answers for the question (repeat the answers).  Which is most appropriate visually may depend on the type of answer as well as whether there are nested items.\n\nThe resulting QuestionnaireResponse will be populated the same way regardless of rendering - one 'question' item with multiple answer values.\n\n The value may come from the ElementDefinition referred to by .definition.  When repeats=true for a group, it'll be represented with multiple items with the same linkId in the QuestionnaireResponse.  For a question, it'll be represented by a single item with that linkId with multiple answers.</td></tr><tr><td>Questionnaire.item.readOnly (readOnly)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.readOnly</td><td>Element `Questionnaire.item.readOnly` is mapped to FHIR R4 element `Questionnaire.item.readOnly` as `Equivalent`.\nIf specified on a 'group', then all items beneath the specified group are read only.  For questions, this only marks the answer associated with the specific item read only.  Descendant questions are not impacted.  The value of readOnly elements can be established by asserting extensions for defaultValues, linkages that support pre-population and/or extensions that support calculation based on other answers.</td></tr><tr><td>Questionnaire.item.maxLength (maxLength)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.maxLength</td><td>Element `Questionnaire.item.maxLength` is mapped to FHIR R4 element `Questionnaire.item.maxLength` as `Equivalent`.\nFor base64binary, reflects the number of characters representing the encoded data, not the number of bytes of the binary data. The value may come from the ElementDefinition referred to by .definition.</td></tr><tr><td>Questionnaire.item.answerValueSet (answerValueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.answerValueSet</td><td>Element `Questionnaire.item.answerValueSet` is mapped to FHIR R4 element `Questionnaire.item.answerValueSet` as `Equivalent`.\nLOINC defines many useful value sets for questionnaire responses. See [LOINC Answer Lists](https://terminology.hl7.org/LOINC.html). The value may come from the ElementDefinition referred to by .definition.</td></tr><tr><td>Questionnaire.item.answerOption (answerOption)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Questionnaire.item.answerOption</td><td>Element `Questionnaire.item.answerOption` is mapped to FHIR R4 element `Questionnaire.item.answerOption` as `Equivalent`.\nThis element can be used when the value set machinery of answerValueSet is deemed too cumbersome or when there's a need to capture possible answers that are not codes.</td></tr><tr><td>Questionnaire.item.answerOption.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.answerOption.value[x]</td><td>Element `Questionnaire.item.answerOption.value[x]` is mapped to FHIR R4 element `Questionnaire.item.answerOption.value[x]` as `Equivalent`.\nThe target context `Questionnaire.item.answerOption.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.answerOption`.\nThe data type of the value must agree with the item.type.</td></tr><tr><td>Questionnaire.item.answerOption.initialSelected (initialSelected)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.answerOption.initialSelected</td><td>Element `Questionnaire.item.answerOption.initialSelected` is mapped to FHIR R4 element `Questionnaire.item.answerOption.initialSelected` as `Equivalent`.</td></tr><tr><td>Questionnaire.item.initial (initial)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Questionnaire.item.initial</td><td>Element `Questionnaire.item.initial` is mapped to FHIR R4 element `Questionnaire.item.initial` as `Equivalent`.\nThe user is allowed to change the value and override the default (unless marked as read-only). If the user doesn't change the value, then this initial value will be persisted when the QuestionnaireResponse is initially created.  Note that initial values can influence results.  The data type of initial.answer[x] must agree with the item.type, and only repeating items can have more then one initial value.</td></tr><tr><td>Questionnaire.item.initial.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.initial.value[x]</td><td>Element `Questionnaire.item.initial.value[x]` is mapped to FHIR R4 element `Questionnaire.item.initial.value[x]` as `RelatedTo`.\nThe target context `Questionnaire.item.initial.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.initial`.\nThe type of the initial value must be consistent with the type of the item.</td></tr><tr><td>Questionnaire.item.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Questionnaire.item.item</td><td>Element `Questionnaire.item.item` is mapped to FHIR R4 element `Questionnaire.item.item` as `Equivalent`.\nThere is no specified limit to the depth of nesting.  However, Questionnaire authors are encouraged to consider the impact on the user and user interface of overly deep nesting.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Questionnaire|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Questionnaire.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm</td><td>Element `Questionnaire.versionAlgorithm[x]` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>Questionnaire.subjectType (subjectType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType</td><td>Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`.\nThe mappings for `Questionnaire.subjectType` do not allow expression of the necessary codes, per the bindings on the source and target.\nIf none are specified, then the subject is unlimited.</td></tr><tr><td>Questionnaire.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel</td><td>Element `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>Questionnaire.item.disabledDisplay (disabledDisplay)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay</td><td>Element `Questionnaire.item.disabledDisplay` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.item.disabledDisplay` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf not specified, rendering behavior is up to the client.  This element is only meaningful if enableWhen or an equivalent extension is present</td></tr><tr><td>Questionnaire.item.answerConstraint (answerConstraint)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.answerConstraint</td><td>Element `Questionnaire.item.answerConstraint` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.item.answerConstraint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Questionnaire-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Questionnaire-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5QuestionnaireElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Questionnaire to FHIR R4 Questionnaire"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:51.1507876-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Questionnaire to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Questionnaire.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.meta" ] ;
+         fhir:display [ fhir:v "Questionnaire.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.meta` is mapped to FHIR R4 element `Questionnaire.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.implicitRules" ] ;
+         fhir:display [ fhir:v "Questionnaire.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.implicitRules` is mapped to FHIR R4 element `Questionnaire.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.language" ] ;
+         fhir:display [ fhir:v "Questionnaire.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.language` is mapped to FHIR R4 element `Questionnaire.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.text" ] ;
+         fhir:display [ fhir:v "Questionnaire.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.text` is mapped to FHIR R4 element `Questionnaire.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.contained" ] ;
+         fhir:display [ fhir:v "Questionnaire.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.contained` is mapped to FHIR R4 element `Questionnaire.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.url" ] ;
+         fhir:display [ fhir:v "Questionnaire.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.url` is mapped to FHIR R4 element `Questionnaire.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions).\n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.\n\nThe name of the referenced questionnaire can be conveyed using the http://hl7.org/fhir/StructureDefinition/display extension." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.identifier" ] ;
+         fhir:display [ fhir:v "Questionnaire.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.identifier` is mapped to FHIR R4 element `Questionnaire.identifier` as `Equivalent`.\nTypically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this questionnaire outside of FHIR, where it is not possible to use the logical URI." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.version" ] ;
+         fhir:display [ fhir:v "Questionnaire.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.version` is mapped to FHIR R4 element `Questionnaire.version` as `Equivalent`.\nThere may be different questionnaires that have the same url but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the questionnaire with the format. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.name" ] ;
+         fhir:display [ fhir:v "Questionnaire.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.name` is mapped to FHIR R4 element `Questionnaire.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type no-whitespace name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.title" ] ;
+         fhir:display [ fhir:v "Questionnaire.title" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.title` is mapped to FHIR R4 element `Questionnaire.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.derivedFrom" ] ;
+         fhir:display [ fhir:v "Questionnaire.derivedFrom" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.derivedFrom` is mapped to FHIR R4 element `Questionnaire.derivedFrom` as `Equivalent`.\nThis element covers a broad range of relationships, from 'somewhat inspired by' to 'fully compliant with'.         There is a standard extensionthat allows clearer differentiation between the specifics of the derivation relationship where          this is needed - e.g. to determine substitutability and validation expectations -          [http://hl7.org/fhir/StructureDefinition/questionnaire-derivationType](http://hl7.org/fhir/extensions/StructureDefinition-questionnaire-derivationType.html)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.status" ] ;
+         fhir:display [ fhir:v "Questionnaire.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.status` is mapped to FHIR R4 element `Questionnaire.status` as `Equivalent`.\nA nominal state-transition diagram can be found in the] documentation\n\nUnknown does not represent 'other' - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.experimental" ] ;
+         fhir:display [ fhir:v "Questionnaire.experimental" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.experimental` is mapped to FHIR R4 element `Questionnaire.experimental` as `Equivalent`.\nAllows filtering of questionnaires that are appropriate for use versus not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.subjectType" ] ;
+       fhir:display [ fhir:v "subjectType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.subjectType" ] ;
+         fhir:display [ fhir:v "Questionnaire.subjectType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`.\nThe mappings for `Questionnaire.subjectType` do not allow expression of the necessary codes, per the bindings on the source and target.\nIf none are specified, then the subject is unlimited." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.date" ] ;
+         fhir:display [ fhir:v "Questionnaire.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.date` is mapped to FHIR R4 element `Questionnaire.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the questionnaire. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.publisher" ] ;
+         fhir:display [ fhir:v "Questionnaire.publisher" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.publisher` is mapped to FHIR R4 element `Questionnaire.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the questionnaire is the organization or individual primarily responsible for the maintenance and upkeep of the questionnaire. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the questionnaire. This item SHOULD be populated unless the information is available from context." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.contact" ] ;
+         fhir:display [ fhir:v "Questionnaire.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.contact` is mapped to FHIR R4 element `Questionnaire.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.description" ] ;
+         fhir:display [ fhir:v "Questionnaire.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.description` is mapped to FHIR R4 element `Questionnaire.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the questionnaire as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context. (E.g. the language of the questionnaire is presumed to be the predominant language in the place the questionnaire was created)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.useContext" ] ;
+         fhir:display [ fhir:v "Questionnaire.useContext" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.useContext` is mapped to FHIR R4 element `Questionnaire.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or even any of the contexts apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.jurisdiction" ] ;
+         fhir:display [ fhir:v "Questionnaire.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.jurisdiction` is mapped to FHIR R4 element `Questionnaire.jurisdiction` as `Equivalent`.\nElement `Questionnaire.jurisdiction` has been flagged as deprecated.\nIt may be possible for the questionnaire to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.purpose" ] ;
+         fhir:display [ fhir:v "Questionnaire.purpose" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.purpose` is mapped to FHIR R4 element `Questionnaire.purpose` as `Equivalent`.\nThis element does not describe the usage of the questionnaire. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this questionnaire." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.copyright" ] ;
+         fhir:display [ fhir:v "Questionnaire.copyright" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.copyright` is mapped to FHIR R4 element `Questionnaire.copyright` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.approvalDate" ] ;
+         fhir:display [ fhir:v "Questionnaire.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.approvalDate` is mapped to FHIR R4 element `Questionnaire.approvalDate` as `Equivalent`.\nThe 'date' element may be more recent than the approval date because of minor changes or editorial corrections.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.lastReviewDate" ] ;
+         fhir:display [ fhir:v "Questionnaire.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.lastReviewDate` is mapped to FHIR R4 element `Questionnaire.lastReviewDate` as `Equivalent`.\nIf specified, this date follows the original approval date.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.effectivePeriod" ] ;
+         fhir:display [ fhir:v "Questionnaire.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.effectivePeriod` is mapped to FHIR R4 element `Questionnaire.effectivePeriod` as `Equivalent`.\nThe effective period for a questionnaire  determines when the content is applicable for usage and is independent of publication and review dates. For example, a questionnaire intended to be used for the year 2016 might be published in 2015.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.code" ] ;
+         fhir:display [ fhir:v "Questionnaire.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.code` is mapped to FHIR R4 element `Questionnaire.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item" ] ;
+         fhir:display [ fhir:v "Questionnaire.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item` is mapped to FHIR R4 element `Questionnaire.item` as `Equivalent`.\nThe content of the questionnaire is constructed from an ordered, hierarchical collection of items." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.linkId" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.linkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.linkId` is mapped to FHIR R4 element `Questionnaire.item.linkId` as `Equivalent`.\nThis ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.\n\nLinkIds can have whitespaces and slashes by design. Tooling should not rely on linkIds being valid XHTML element IDs, and should not directly embed them as such" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.definition" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.definition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.definition` is mapped to FHIR R4 element `Questionnaire.item.definition` as `Equivalent`.\nThe uri refers to an ElementDefinition in a [StructureDefinition](https://hl7.org/fhir/s.html#) or to an [ObservationDefinition](https://hl7.org/fhir/observationdefinition.html) and always starts with the [canonical URL](https://hl7.org/fhir/references.html#canonical) for the target resource. When referring to a StructureDefinition, a fragment identifier is used to specify the element definition by its id [Element.id](https://hl7.org/fhir/types-defin.html#Element.id). E.g. http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x]. In the absence of a fragment identifier, the first/root element definition in the target is the matching element definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.code" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.code` is mapped to FHIR R4 element `Questionnaire.item.code` as `Equivalent`.\nThe value may come from the ElementDefinition referred to by .definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.prefix" ] ;
+       fhir:display [ fhir:v "prefix" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.prefix" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.prefix" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.prefix` is mapped to FHIR R4 element `Questionnaire.item.prefix` as `Equivalent`.\nThese are generally unique within a questionnaire, though this is not guaranteed. Some questionnaires may have multiple questions with the same label with logic to control which gets exposed.  Typically, these won't be used for \"display\" items, though such use is not prohibited.  Systems SHOULD NOT generate their own prefixes if prefixes are defined for any items within a Questionnaire." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.text" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.text` is mapped to FHIR R4 element `Questionnaire.item.text` as `Equivalent`.\nWhen using this element to represent the name of a section, use group type item and also make sure to limit the text element to a short string suitable for display as a section heading.  Group item instructions should be included as a display type item within the group." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.type" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.type` is mapped to FHIR R4 element `Questionnaire.item.type` as `SourceIsNarrowerThanTarget`.\nThe mappings for `Questionnaire.item.type` do not allow expression of the necessary codes, per the bindings on the source and target.\nAdditional constraints on the type of answer can be conveyed by extensions. The value may come from the ElementDefinition referred to by .definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen" ] ;
+       fhir:display [ fhir:v "enableWhen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.enableWhen" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.enableWhen" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen` is mapped to FHIR R4 element `Questionnaire.item.enableWhen` as `Equivalent`.\nIf multiple repetitions of this extension are present, the interpretation is driven by enableBehavior (either all repetitions must evaluate to true for this item to be enabled, or only one must evaluate to true for the item to be enabled).  If the enableWhen.question has multiple answers, the condition evaluates to true if *any* of the answers for the referenced item match the enableWhen condition.  This element is a modifier because if enableWhen is present for an item, \"required\" is ignored unless one of the enableWhen conditions is met. When an item is disabled, all of its descendants are disabled, regardless of what their own enableWhen logic might evaluate to.  If enableWhen logic depends on an item that is disabled, the logic should proceed as though the item is not valued - even if a default value or other value might be retained in memory in the event of the item being re-enabled.  In some cases, the comparison between the indicated answer and the specified value may differ only by precision.  For example, the enableWhen might be Q1 > 1970, but the answer to Q1 is 1970-10-15.  There is not a clear answer as to whether 1970-10-15 should be considered 'greater' than 1970, given that it is an imprecise value.  In these indeterminate situations, the form filler has the option of refusing to render the form.  If the form **is** displayed, items where enableWhen is indeterminate SHOULD be treated as enabled with a warning indicating that the questionnaire logic was faulty and it is possible that the item should not be enabled.  Questionnaires SHOULD be designed to take into account challenges around varying precision to minimize non-deterministic situations by setting constraints around expected precision, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen.question" ] ;
+       fhir:display [ fhir:v "question" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.enableWhen.question" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.enableWhen.question" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen.question` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.question` as `Equivalent`.\nIf multiple question occurrences are present for the same question (same linkId), then this refers to the nearest question occurrence reachable by tracing first the \"ancestor\" axis and then the \"preceding\" axis and then the \"following\" axis.  If there are multiple items with the same linkId and all are equadistant (e.g. a question references a question that appears in a separate repeating group), that is an error.  (Consider using the enableWhenExpression extension to define logic to handle such a situation.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen.operator" ] ;
+       fhir:display [ fhir:v "operator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.enableWhen.operator" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.enableWhen.operator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen.operator` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.operator` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableWhen.answer[x]" ] ;
+       fhir:display [ fhir:v "answer[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.enableWhen.answer[x]" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.enableWhen.answer[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableWhen.answer[x]` is mapped to FHIR R4 element `Questionnaire.item.enableWhen.answer[x]` as `RelatedTo`.\nThe target context `Questionnaire.item.enableWhen.answer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.enableWhen`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.enableBehavior" ] ;
+       fhir:display [ fhir:v "enableBehavior" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.enableBehavior" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.enableBehavior" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.enableBehavior` is mapped to FHIR R4 element `Questionnaire.item.enableBehavior` as `Equivalent`.\nThis element must be specified if more than one enableWhen value is provided." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.required" ] ;
+       fhir:display [ fhir:v "required" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.required" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.required" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.required` is mapped to FHIR R4 element `Questionnaire.item.required` as `Equivalent`.\nIf the required item is a question, it must have a direct answer (i.e. an answer to the question itself, not merely answers to child questions) in order for the QuestionnaireResponse to be complete.  If the required item is a group, it must have at least one descendant question which has an answer  Questionnaire.item.required only has meaning for elements that are conditionally enabled with enableWhen if the condition evaluates to true.  It also only has meaning if the parent element is present.  If a non-required 'group' item contains a 'required' question item, it's completely fine to omit the group (because it's not required) despite it having a required child.  Similarly, if an item that contains other items is marked as required, that does not automatically make the contained elements required (though required groups must contain at least one descendant item with a populated answer). The value for 'required' may come from the ElementDefinition referred to by .definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.repeats" ] ;
+       fhir:display [ fhir:v "repeats" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.repeats" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.repeats" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.repeats` is mapped to FHIR R4 element `Questionnaire.item.repeats` as `Equivalent`.\nIf a question is marked as repeats=true, then multiple answers can be provided for the question in the corresponding QuestionnaireResponse.  When rendering the questionnaire, it is up to the rendering software whether to render the question text for each answer repetition (i.e. \"repeat the question\") or to simply allow entry/selection of multiple answers for the question (repeat the answers).  Which is most appropriate visually may depend on the type of answer as well as whether there are nested items.\n\nThe resulting QuestionnaireResponse will be populated the same way regardless of rendering - one 'question' item with multiple answer values.\n\n The value may come from the ElementDefinition referred to by .definition.  When repeats=true for a group, it'll be represented with multiple items with the same linkId in the QuestionnaireResponse.  For a question, it'll be represented by a single item with that linkId with multiple answers." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.readOnly" ] ;
+       fhir:display [ fhir:v "readOnly" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.readOnly" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.readOnly" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.readOnly` is mapped to FHIR R4 element `Questionnaire.item.readOnly` as `Equivalent`.\nIf specified on a 'group', then all items beneath the specified group are read only.  For questions, this only marks the answer associated with the specific item read only.  Descendant questions are not impacted.  The value of readOnly elements can be established by asserting extensions for defaultValues, linkages that support pre-population and/or extensions that support calculation based on other answers." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.maxLength" ] ;
+       fhir:display [ fhir:v "maxLength" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.maxLength" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.maxLength" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.maxLength` is mapped to FHIR R4 element `Questionnaire.item.maxLength` as `Equivalent`.\nFor base64binary, reflects the number of characters representing the encoded data, not the number of bytes of the binary data. The value may come from the ElementDefinition referred to by .definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerValueSet" ] ;
+       fhir:display [ fhir:v "answerValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.answerValueSet" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.answerValueSet" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerValueSet` is mapped to FHIR R4 element `Questionnaire.item.answerValueSet` as `Equivalent`.\nLOINC defines many useful value sets for questionnaire responses. See [LOINC Answer Lists](https://terminology.hl7.org/LOINC.html). The value may come from the ElementDefinition referred to by .definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerOption" ] ;
+       fhir:display [ fhir:v "answerOption" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.answerOption" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.answerOption" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerOption` is mapped to FHIR R4 element `Questionnaire.item.answerOption` as `Equivalent`.\nThis element can be used when the value set machinery of answerValueSet is deemed too cumbersome or when there's a need to capture possible answers that are not codes." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerOption.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.answerOption.value[x]" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.answerOption.value[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerOption.value[x]` is mapped to FHIR R4 element `Questionnaire.item.answerOption.value[x]` as `Equivalent`.\nThe target context `Questionnaire.item.answerOption.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.answerOption`.\nThe data type of the value must agree with the item.type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerOption.initialSelected" ] ;
+       fhir:display [ fhir:v "initialSelected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.answerOption.initialSelected" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.answerOption.initialSelected" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerOption.initialSelected` is mapped to FHIR R4 element `Questionnaire.item.answerOption.initialSelected` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.initial" ] ;
+       fhir:display [ fhir:v "initial" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.initial" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.initial" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.initial` is mapped to FHIR R4 element `Questionnaire.item.initial` as `Equivalent`.\nThe user is allowed to change the value and override the default (unless marked as read-only). If the user doesn't change the value, then this initial value will be persisted when the QuestionnaireResponse is initially created.  Note that initial values can influence results.  The data type of initial.answer[x] must agree with the item.type, and only repeating items can have more then one initial value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.initial.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.initial.value[x]" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.initial.value[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.initial.value[x]` is mapped to FHIR R4 element `Questionnaire.item.initial.value[x]` as `RelatedTo`.\nThe target context `Questionnaire.item.initial.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Questionnaire.item.initial`.\nThe type of the initial value must be consistent with the type of the item." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Questionnaire.item.item" ] ;
+         fhir:display [ fhir:v "Questionnaire.item.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.item` is mapped to FHIR R4 element `Questionnaire.item.item` as `Equivalent`.\nThere is no specified limit to the depth of nesting.  However, Questionnaire authors are encouraged to consider the impact on the user and user interface of overly deep nesting." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Questionnaire"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Questionnaire>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Questionnaire.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.versionAlgorithm[x]` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.subjectType" ] ;
+       fhir:display [ fhir:v "subjectType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.subjectType` is mapped to FHIR R4 element `Questionnaire.subjectType` as `RelatedTo`.\nThe mappings for `Questionnaire.subjectType` do not allow expression of the necessary codes, per the bindings on the source and target.\nIf none are specified, then the subject is unlimited." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.disabledDisplay" ] ;
+       fhir:display [ fhir:v "disabledDisplay" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.disabledDisplay` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.item.disabledDisplay` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf not specified, rendering behavior is up to the client.  This element is only meaningful if enableWhen or an equivalent extension is present" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Questionnaire.item.answerConstraint" ] ;
+       fhir:display [ fhir:v "answerConstraint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.answerConstraint" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Questionnaire.item.answerConstraint` has a context of Questionnaire.item based on following the parent source element upwards and mapping to `Questionnaire`.\nElement `Questionnaire.item.answerConstraint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

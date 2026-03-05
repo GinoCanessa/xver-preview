@@ -1,0 +1,658 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Device-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Device-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Device-element-map-to-R4</b></p><a name=\"R5-Device-element-map-to-R4\"> </a><a name=\"hcR5-Device-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Device|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/device.html\">Deviceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Device|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Device|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Device.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.meta</td><td style=\"border-left-width: 0px\">Device.meta</td><td>Element `Device.meta` is mapped to FHIR R4 element `Device.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.implicitRules</td><td style=\"border-left-width: 0px\">Device.implicitRules</td><td>Element `Device.implicitRules` is mapped to FHIR R4 element `Device.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">Device.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.language</td><td style=\"border-left-width: 0px\">Device.language</td><td>Element `Device.language` is mapped to FHIR R4 element `Device.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">Device.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.text</td><td style=\"border-left-width: 0px\">Device.text</td><td>Element `Device.text` is mapped to FHIR R4 element `Device.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">Device.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.contained</td><td style=\"border-left-width: 0px\">Device.contained</td><td>Element `Device.contained` is mapped to FHIR R4 element `Device.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">Device.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.identifier</td><td style=\"border-left-width: 0px\">Device.identifier</td><td>Element `Device.identifier` is mapped to FHIR R4 element `Device.identifier` as `Equivalent`.\nCertain attributes, like serial number and UDI Carrier (the HRF or AIDC barcode string) are not device instance identifiers as they are not consistently able to uniquely identify the instance of a device, thus are not appropriate to be used to value Device.identifier. The barcode string from a barcode present on a device label or package may identify the instance, include names given to the device in local usage, or may identify the type of device. If the identifier identifies the type of device, Device.type element should be used. The identifier is typically valued if the serialNumber or lotNumber is not valued and represents a different type of identifier.  However, it is permissible to still include those identifiers in DeviceDefinition.identifier with the appropriate identifier.type.</td></tr><tr><td style=\"border-right-width: 0px\">Device.displayName</td><td style=\"border-left-width: 0px\">displayName</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Device.deviceName</td><td style=\"border-left-width: 0px\">Device.deviceName</td><td>Element `Device.displayName` is mapped to FHIR R4 element `Device.deviceName` as `RelatedTo`.\nThe mappings for `Device.displayName` do not cover the following types: string.\nThe mappings for `Device.displayName` do not cover the following types based on type expansion: value.</td></tr><tr><td style=\"border-right-width: 0px\">Device.definition</td><td style=\"border-left-width: 0px\">definition</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.definition</td><td style=\"border-left-width: 0px\">Device.definition</td><td>Element `Device.definition` is mapped to FHIR R4 element `Device.definition` as `SourceIsBroaderThanTarget`.\nThe mappings for `Device.definition` do not cover the following types: CodeableReference.\nThe mappings for `Device.definition` do not cover the following types based on type expansion: concept.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier</td><td style=\"border-left-width: 0px\">udiCarrier</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier</td><td style=\"border-left-width: 0px\">Device.udiCarrier</td><td>Element `Device.udiCarrier` is mapped to FHIR R4 element `Device.udiCarrier` as `Equivalent`.\nUDI may identify an unique instance of a device, or it may only identify the type of the device.  See [UDI mappings](https://hl7.org/fhir/devi.html#udi) for a complete mapping of UDI parts to Device.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier.deviceIdentifier</td><td style=\"border-left-width: 0px\">deviceIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier.deviceIdentifier</td><td style=\"border-left-width: 0px\">Device.udiCarrier.deviceIdentifier</td><td>Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR R4 element `Device.udiCarrier.deviceIdentifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier.issuer</td><td style=\"border-left-width: 0px\">issuer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier.issuer</td><td style=\"border-left-width: 0px\">Device.udiCarrier.issuer</td><td>Element `Device.udiCarrier.issuer` is mapped to FHIR R4 element `Device.udiCarrier.issuer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier.jurisdiction</td><td style=\"border-left-width: 0px\">jurisdiction</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier.jurisdiction</td><td style=\"border-left-width: 0px\">Device.udiCarrier.jurisdiction</td><td>Element `Device.udiCarrier.jurisdiction` is mapped to FHIR R4 element `Device.udiCarrier.jurisdiction` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier.carrierAIDC</td><td style=\"border-left-width: 0px\">carrierAIDC</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier.carrierAIDC</td><td style=\"border-left-width: 0px\">Device.udiCarrier.carrierAIDC</td><td>Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR R4 element `Device.udiCarrier.carrierAIDC` as `Equivalent`.\nThe AIDC form of UDIs should be scanned or otherwise used for the identification of the device whenever possible to minimize errors in records resulting from manual transcriptions. If separate barcodes for DI and PI are present, concatenate the string with DI first and in order of human readable expression on label.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier.carrierHRF</td><td style=\"border-left-width: 0px\">carrierHRF</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier.carrierHRF</td><td style=\"border-left-width: 0px\">Device.udiCarrier.carrierHRF</td><td>Element `Device.udiCarrier.carrierHRF` is mapped to FHIR R4 element `Device.udiCarrier.carrierHRF` as `Equivalent`.\nIf separate barcodes for DI and PI are present, concatenate the string with DI first and in order of human readable expression on label.</td></tr><tr><td style=\"border-right-width: 0px\">Device.udiCarrier.entryType</td><td style=\"border-left-width: 0px\">entryType</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.udiCarrier.entryType</td><td style=\"border-left-width: 0px\">Device.udiCarrier.entryType</td><td>Element `Device.udiCarrier.entryType` is mapped to FHIR R4 element `Device.udiCarrier.entryType` as `RelatedTo`.\nThe mappings for `Device.udiCarrier.entryType` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td style=\"border-right-width: 0px\">Device.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.status</td><td style=\"border-left-width: 0px\">Device.status</td><td>Element `Device.status` is mapped to FHIR R4 element `Device.status` as `SourceIsNarrowerThanTarget`.\nThe mappings for `Device.status` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td style=\"border-right-width: 0px\">Device.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.manufacturer</td><td style=\"border-left-width: 0px\">Device.manufacturer</td><td>Element `Device.manufacturer` is mapped to FHIR R4 element `Device.manufacturer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.manufactureDate</td><td style=\"border-left-width: 0px\">manufactureDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.manufactureDate</td><td style=\"border-left-width: 0px\">Device.manufactureDate</td><td>Element `Device.manufactureDate` is mapped to FHIR R4 element `Device.manufactureDate` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.expirationDate</td><td style=\"border-left-width: 0px\">expirationDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.expirationDate</td><td style=\"border-left-width: 0px\">Device.expirationDate</td><td>Element `Device.expirationDate` is mapped to FHIR R4 element `Device.expirationDate` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.lotNumber</td><td style=\"border-left-width: 0px\">lotNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.lotNumber</td><td style=\"border-left-width: 0px\">Device.lotNumber</td><td>Element `Device.lotNumber` is mapped to FHIR R4 element `Device.lotNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.serialNumber</td><td style=\"border-left-width: 0px\">serialNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.serialNumber</td><td style=\"border-left-width: 0px\">Device.serialNumber</td><td>Element `Device.serialNumber` is mapped to FHIR R4 element `Device.serialNumber` as `Equivalent`.\nAlphanumeric Maximum 20. While a serial number is a type of identifier, in the context of devices for which a UDI is required, thus a serial number may be part of the production identifier, it is more informative to have the serial number as a dedicated attribute together with the other UDI production identifier.  When the device is not subject to including the UDI (e.g., its presence and exchange is not mandated by local regulatory requirements or specific use case at hand), thus the concept of production identifiers is not relevant as a set, it remains helpful for consistency to still use Device.serialNumber rather than using Device.identifier with an appropriate type.  Systems that do not realize an identifier is a serial number may place it in Device.identifier or if the identifier.system is known for the serial number, it may also be populated in the Device.identifier as a globally unique id_.</td></tr><tr><td style=\"border-right-width: 0px\">Device.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.deviceName</td><td style=\"border-left-width: 0px\">Device.deviceName</td><td>Element `Device.name` is mapped to FHIR R4 element `Device.deviceName` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.name.value</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.deviceName</td><td style=\"border-left-width: 0px\">Device.deviceName</td><td>Element `Device.name.value` is mapped to FHIR R4 element `Device.deviceName.name` as `Equivalent`.\nElement `Device.name.value` is mapped to FHIR R4 element `Device.deviceName` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.deviceName.name</td><td style=\"border-left-width: 0px\">Device.deviceName.name</td><td>Element `Device.name.value` is mapped to FHIR R4 element `Device.deviceName.name` as `Equivalent`.\nElement `Device.name.value` is mapped to FHIR R4 element `Device.deviceName` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.name.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\">Device.deviceName.type</td><td style=\"border-left-width: 0px\">Device.deviceName.type</td><td>Element `Device.name.type` is mapped to FHIR R4 element `Device.deviceName.type` as `SourceIsNarrowerThanTarget`.\nThe mappings for `Device.name.type` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td style=\"border-right-width: 0px\">Device.name.display</td><td style=\"border-left-width: 0px\">display</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\">Device.deviceName</td><td style=\"border-left-width: 0px\">Device.deviceName</td><td>Element `Device.name.display` is mapped to FHIR R4 element `Device.deviceName` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.modelNumber</td><td style=\"border-left-width: 0px\">modelNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.modelNumber</td><td style=\"border-left-width: 0px\">Device.modelNumber</td><td>Element `Device.modelNumber` is mapped to FHIR R4 element `Device.modelNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.partNumber</td><td style=\"border-left-width: 0px\">partNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.partNumber</td><td style=\"border-left-width: 0px\">Device.partNumber</td><td>Element `Device.partNumber` is mapped to FHIR R4 element `Device.partNumber` as `Equivalent`.\nAlphanumeric Maximum 20.</td></tr><tr><td style=\"border-right-width: 0px\">Device.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.type</td><td style=\"border-left-width: 0px\">Device.type</td><td>Element `Device.type` is mapped to FHIR R4 element `Device.type` as `SourceIsBroaderThanTarget`.\nMultiple device types are use when a device is categorized in more than one context – for example, hybrid devices in which the device is both of type gateway and sensor.</td></tr><tr><td style=\"border-right-width: 0px\">Device.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.version</td><td style=\"border-left-width: 0px\">Device.version</td><td>Element `Device.version` is mapped to FHIR R4 element `Device.version` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.version.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.version.type</td><td style=\"border-left-width: 0px\">Device.version.type</td><td>Element `Device.version.type` is mapped to FHIR R4 element `Device.version.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.version.component</td><td style=\"border-left-width: 0px\">component</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.version.component</td><td style=\"border-left-width: 0px\">Device.version.component</td><td>Element `Device.version.component` is mapped to FHIR R4 element `Device.version.component` as `Equivalent`.\nNote that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version.</td></tr><tr><td style=\"border-right-width: 0px\">Device.version.value</td><td style=\"border-left-width: 0px\">value</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.version.value</td><td style=\"border-left-width: 0px\">Device.version.value</td><td>Element `Device.version.value` is mapped to FHIR R4 element `Device.version.value` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.conformsTo</td><td style=\"border-left-width: 0px\">conformsTo</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.specialization</td><td style=\"border-left-width: 0px\">Device.specialization</td><td>Element `Device.conformsTo` is mapped to FHIR R4 element `Device.specialization` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.conformsTo.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\">Device.specialization</td><td style=\"border-left-width: 0px\">Device.specialization</td><td>Element `Device.conformsTo.category` is mapped to FHIR R4 element `Device.specialization` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.conformsTo.specification</td><td style=\"border-left-width: 0px\">specification</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td style=\"border-right-width: 0px\">Device.specialization</td><td style=\"border-left-width: 0px\">Device.specialization</td><td>Element `Device.conformsTo.specification` is mapped to FHIR R4 element `Device.specialization` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.property</td><td style=\"border-left-width: 0px\">property</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Device.property</td><td style=\"border-left-width: 0px\">Device.property</td><td>Element `Device.property` is mapped to FHIR R4 element `Device.property` as `Equivalent`.\nDynamic or current properties, such as settings, of an individual device are described using a Device instance-specific [DeviceMetric] and recorded using [Observation].  Static characteristics of a device could also be documented in an associated [DeviceDefinition] instance. The Device instance's properties, and their values, could be, but need not be, the same as those described in an associated DeviceDefinition.</td></tr><tr><td style=\"border-right-width: 0px\">Device.property.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.property.type</td><td style=\"border-left-width: 0px\">Device.property.type</td><td>Element `Device.property.type` is mapped to FHIR R4 element `Device.property.type` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Device.property.value[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Device.property.valueCode</td><td style=\"border-left-width: 0px\">Device.property.valueCode</td><td>Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity` as `RelatedTo`.\nElement `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode` as `RelatedTo`.\nThe mappings for `Device.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThe text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Device.property.valueQuantity</td><td style=\"border-left-width: 0px\">Device.property.valueQuantity</td><td>Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity` as `RelatedTo`.\nElement `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode` as `RelatedTo`.\nThe mappings for `Device.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThe text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions.</td></tr><tr><td style=\"border-right-width: 0px\">Device.owner</td><td style=\"border-left-width: 0px\">owner</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.owner</td><td style=\"border-left-width: 0px\">Device.owner</td><td>Element `Device.owner` is mapped to FHIR R4 element `Device.owner` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.contact</td><td style=\"border-left-width: 0px\">contact</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.contact</td><td style=\"border-left-width: 0px\">Device.contact</td><td>Element `Device.contact` is mapped to FHIR R4 element `Device.contact` as `Equivalent`.\nused for troubleshooting etc.</td></tr><tr><td style=\"border-right-width: 0px\">Device.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.location</td><td style=\"border-left-width: 0px\">Device.location</td><td>Element `Device.location` is mapped to FHIR R4 element `Device.location` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.url</td><td style=\"border-left-width: 0px\">url</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.url</td><td style=\"border-left-width: 0px\">Device.url</td><td>Element `Device.url` is mapped to FHIR R4 element `Device.url` as `Equivalent`.\nIf the device is running a FHIR server, the network address should  be the Base URL from which a conformance statement may be retrieved.</td></tr><tr><td style=\"border-right-width: 0px\">Device.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.note</td><td style=\"border-left-width: 0px\">Device.note</td><td>Element `Device.note` is mapped to FHIR R4 element `Device.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.safety</td><td style=\"border-left-width: 0px\">safety</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.safety</td><td style=\"border-left-width: 0px\">Device.safety</td><td>Element `Device.safety` is mapped to FHIR R4 element `Device.safety` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Device.parent</td><td style=\"border-left-width: 0px\">parent</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Device.parent</td><td style=\"border-left-width: 0px\">Device.parent</td><td>Element `Device.parent` is mapped to FHIR R4 element `Device.parent` as `Equivalent`.\nFor example a vital signs monitor (parent) where three separate modules can be plugged into such as interchangeable blood pressure, oximeter, temperature modules.  These modules are represented as devices with the .parent valued to the vital signs monitor when plugged in.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Device|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Device.displayName (displayName)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.displayName</td><td>Element `Device.displayName` is mapped to FHIR R4 element `Device.deviceName` as `RelatedTo`.\nThe mappings for `Device.displayName` do not cover the following types: string.\nThe mappings for `Device.displayName` do not cover the following types based on type expansion: value.</td></tr><tr><td>Device.definition (definition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition</td><td>Element `Device.definition` is mapped to FHIR R4 element `Device.definition` as `SourceIsBroaderThanTarget`.\nThe mappings for `Device.definition` do not cover the following types: CodeableReference.\nThe mappings for `Device.definition` do not cover the following types based on type expansion: concept.</td></tr><tr><td>Device.udiCarrier.entryType (entryType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.udiCarrier.entryType</td><td>Element `Device.udiCarrier.entryType` is mapped to FHIR R4 element `Device.udiCarrier.entryType` as `RelatedTo`.\nThe mappings for `Device.udiCarrier.entryType` do not allow expression of the necessary codes, per the bindings on the source and target.</td></tr><tr><td>Device.availabilityStatus (availabilityStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus</td><td>Element `Device.availabilityStatus` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.availabilityStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.biologicalSourceEvent (biologicalSourceEvent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent</td><td>Element `Device.biologicalSourceEvent` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.biologicalSourceEvent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNecessary to support mandatory requirements for traceability from donor/source to recipient and vice versa, while also satisfying donor anonymity requirements. The element is defined consistently across BiologicallyDerivedProduct, NutritionProduct, and Device.  The identifier references an event that links to a single biological entity such as a blood donor, or to multiple biological entities (e.g. when the product is an embryo or a pooled platelet product).  A single biologicalSourceEvent identifier may appear on multiple products of many types derived from a single donation event or source extraction.  As an example, a single donation event may provide 2 kidneys and a liver for organ transplantation, 2 corneas for eye surgery, heart valves and arterial tissue for cardiovascular surgery, multiple skin grafts, tendons, multiple shaped bone grafts and a large number of bone putty/paste products; and each of them may be assigned to the same biological source event identifier.</td></tr><tr><td>Device.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category</td><td>Element `Device.category` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.version.installDate (installDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate</td><td>Element `Device.version.installDate` has a context of Device.version based on following the parent source element upwards and mapping to `Device`.\nElement `Device.version.installDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.conformsTo.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version</td><td>Element `Device.conformsTo.version` has a context of Device.specialization based on following the parent source element upwards and mapping to `Device`.\nElement `Device.conformsTo.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.property.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property.value</td><td>Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity` as `RelatedTo`.\nElement `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode` as `RelatedTo`.\nThe mappings for `Device.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThe text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions.</td></tr><tr><td>Device.mode (mode)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode</td><td>Element `Device.mode` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.mode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.cycle (cycle)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle</td><td>Element `Device.cycle` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.cycle` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.duration (duration)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration</td><td>Element `Device.duration` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.duration` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.endpoint (endpoint)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.endpoint</td><td>Element `Device.endpoint` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.endpoint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Device.gateway (gateway)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway</td><td>Element `Device.gateway` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.gateway` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe Device.gateway may be used when the Device being referenced has a gateway and/or to capture one or more gateways associated with the device. If the Gateway is included in the Observation resource, the Observation.gatewayDevice should be used instead.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Device-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Device-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5DeviceElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Device to FHIR R4 Device"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.7247365-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Device to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Device>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Device>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Device.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.meta" ] ;
+         fhir:display [ fhir:v "Device.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.meta` is mapped to FHIR R4 element `Device.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.implicitRules" ] ;
+         fhir:display [ fhir:v "Device.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.implicitRules` is mapped to FHIR R4 element `Device.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.language" ] ;
+         fhir:display [ fhir:v "Device.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.language` is mapped to FHIR R4 element `Device.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.text" ] ;
+         fhir:display [ fhir:v "Device.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.text` is mapped to FHIR R4 element `Device.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.contained" ] ;
+         fhir:display [ fhir:v "Device.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.contained` is mapped to FHIR R4 element `Device.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.identifier" ] ;
+         fhir:display [ fhir:v "Device.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.identifier` is mapped to FHIR R4 element `Device.identifier` as `Equivalent`.\nCertain attributes, like serial number and UDI Carrier (the HRF or AIDC barcode string) are not device instance identifiers as they are not consistently able to uniquely identify the instance of a device, thus are not appropriate to be used to value Device.identifier. The barcode string from a barcode present on a device label or package may identify the instance, include names given to the device in local usage, or may identify the type of device. If the identifier identifies the type of device, Device.type element should be used. The identifier is typically valued if the serialNumber or lotNumber is not valued and represents a different type of identifier.  However, it is permissible to still include those identifiers in DeviceDefinition.identifier with the appropriate identifier.type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.displayName" ] ;
+       fhir:display [ fhir:v "displayName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.deviceName" ] ;
+         fhir:display [ fhir:v "Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.displayName` is mapped to FHIR R4 element `Device.deviceName` as `RelatedTo`.\nThe mappings for `Device.displayName` do not cover the following types: string.\nThe mappings for `Device.displayName` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.definition" ] ;
+         fhir:display [ fhir:v "Device.definition" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.definition` is mapped to FHIR R4 element `Device.definition` as `SourceIsBroaderThanTarget`.\nThe mappings for `Device.definition` do not cover the following types: CodeableReference.\nThe mappings for `Device.definition` do not cover the following types based on type expansion: concept." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier" ] ;
+       fhir:display [ fhir:v "udiCarrier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier` is mapped to FHIR R4 element `Device.udiCarrier` as `Equivalent`.\nUDI may identify an unique instance of a device, or it may only identify the type of the device.  See [UDI mappings](https://hl7.org/fhir/devi.html#udi) for a complete mapping of UDI parts to Device." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.deviceIdentifier" ] ;
+       fhir:display [ fhir:v "deviceIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier.deviceIdentifier" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier.deviceIdentifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.deviceIdentifier` is mapped to FHIR R4 element `Device.udiCarrier.deviceIdentifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier.issuer" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier.issuer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.issuer` is mapped to FHIR R4 element `Device.udiCarrier.issuer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier.jurisdiction" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.jurisdiction` is mapped to FHIR R4 element `Device.udiCarrier.jurisdiction` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.carrierAIDC" ] ;
+       fhir:display [ fhir:v "carrierAIDC" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier.carrierAIDC" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier.carrierAIDC" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierAIDC` is mapped to FHIR R4 element `Device.udiCarrier.carrierAIDC` as `Equivalent`.\nThe AIDC form of UDIs should be scanned or otherwise used for the identification of the device whenever possible to minimize errors in records resulting from manual transcriptions. If separate barcodes for DI and PI are present, concatenate the string with DI first and in order of human readable expression on label." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.carrierHRF" ] ;
+       fhir:display [ fhir:v "carrierHRF" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier.carrierHRF" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier.carrierHRF" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.carrierHRF` is mapped to FHIR R4 element `Device.udiCarrier.carrierHRF` as `Equivalent`.\nIf separate barcodes for DI and PI are present, concatenate the string with DI first and in order of human readable expression on label." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.entryType" ] ;
+       fhir:display [ fhir:v "entryType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.udiCarrier.entryType" ] ;
+         fhir:display [ fhir:v "Device.udiCarrier.entryType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.entryType` is mapped to FHIR R4 element `Device.udiCarrier.entryType` as `RelatedTo`.\nThe mappings for `Device.udiCarrier.entryType` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.status" ] ;
+         fhir:display [ fhir:v "Device.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.status` is mapped to FHIR R4 element `Device.status` as `SourceIsNarrowerThanTarget`.\nThe mappings for `Device.status` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.manufacturer" ] ;
+         fhir:display [ fhir:v "Device.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.manufacturer` is mapped to FHIR R4 element `Device.manufacturer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.manufactureDate" ] ;
+       fhir:display [ fhir:v "manufactureDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.manufactureDate" ] ;
+         fhir:display [ fhir:v "Device.manufactureDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.manufactureDate` is mapped to FHIR R4 element `Device.manufactureDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.expirationDate" ] ;
+       fhir:display [ fhir:v "expirationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.expirationDate" ] ;
+         fhir:display [ fhir:v "Device.expirationDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.expirationDate` is mapped to FHIR R4 element `Device.expirationDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.lotNumber" ] ;
+       fhir:display [ fhir:v "lotNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.lotNumber" ] ;
+         fhir:display [ fhir:v "Device.lotNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.lotNumber` is mapped to FHIR R4 element `Device.lotNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.serialNumber" ] ;
+       fhir:display [ fhir:v "serialNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.serialNumber" ] ;
+         fhir:display [ fhir:v "Device.serialNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.serialNumber` is mapped to FHIR R4 element `Device.serialNumber` as `Equivalent`.\nAlphanumeric Maximum 20. While a serial number is a type of identifier, in the context of devices for which a UDI is required, thus a serial number may be part of the production identifier, it is more informative to have the serial number as a dedicated attribute together with the other UDI production identifier.  When the device is not subject to including the UDI (e.g., its presence and exchange is not mandated by local regulatory requirements or specific use case at hand), thus the concept of production identifiers is not relevant as a set, it remains helpful for consistency to still use Device.serialNumber rather than using Device.identifier with an appropriate type.  Systems that do not realize an identifier is a serial number may place it in Device.identifier or if the identifier.system is known for the serial number, it may also be populated in the Device.identifier as a globally unique id_." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.deviceName" ] ;
+         fhir:display [ fhir:v "Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.name` is mapped to FHIR R4 element `Device.deviceName` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.deviceName" ] ;
+         fhir:display [ fhir:v "Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.value` is mapped to FHIR R4 element `Device.deviceName.name` as `Equivalent`.\nElement `Device.name.value` is mapped to FHIR R4 element `Device.deviceName` as `SourceIsNarrowerThanTarget`." ]
+       ] [
+         fhir:code [ fhir:v "Device.deviceName.name" ] ;
+         fhir:display [ fhir:v "Device.deviceName.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.value` is mapped to FHIR R4 element `Device.deviceName.name` as `Equivalent`.\nElement `Device.name.value` is mapped to FHIR R4 element `Device.deviceName` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.deviceName.type" ] ;
+         fhir:display [ fhir:v "Device.deviceName.type" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.type` is mapped to FHIR R4 element `Device.deviceName.type` as `SourceIsNarrowerThanTarget`.\nThe mappings for `Device.name.type` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.name.display" ] ;
+       fhir:display [ fhir:v "display" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.deviceName" ] ;
+         fhir:display [ fhir:v "Device.deviceName" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Device.name.display` is mapped to FHIR R4 element `Device.deviceName` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.modelNumber" ] ;
+       fhir:display [ fhir:v "modelNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.modelNumber" ] ;
+         fhir:display [ fhir:v "Device.modelNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.modelNumber` is mapped to FHIR R4 element `Device.modelNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.partNumber" ] ;
+       fhir:display [ fhir:v "partNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.partNumber" ] ;
+         fhir:display [ fhir:v "Device.partNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.partNumber` is mapped to FHIR R4 element `Device.partNumber` as `Equivalent`.\nAlphanumeric Maximum 20." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.type" ] ;
+         fhir:display [ fhir:v "Device.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.type` is mapped to FHIR R4 element `Device.type` as `SourceIsBroaderThanTarget`.\nMultiple device types are use when a device is categorized in more than one context – for example, hybrid devices in which the device is both of type gateway and sensor." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.version" ] ;
+         fhir:display [ fhir:v "Device.version" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.version` is mapped to FHIR R4 element `Device.version` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.version.type" ] ;
+         fhir:display [ fhir:v "Device.version.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.type` is mapped to FHIR R4 element `Device.version.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.version.component" ] ;
+         fhir:display [ fhir:v "Device.version.component" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.component` is mapped to FHIR R4 element `Device.version.component` as `Equivalent`.\nNote that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.version.value" ] ;
+         fhir:display [ fhir:v "Device.version.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.value` is mapped to FHIR R4 element `Device.version.value` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo" ] ;
+       fhir:display [ fhir:v "conformsTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.specialization" ] ;
+         fhir:display [ fhir:v "Device.specialization" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo` is mapped to FHIR R4 element `Device.specialization` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.specialization" ] ;
+         fhir:display [ fhir:v "Device.specialization" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.category` is mapped to FHIR R4 element `Device.specialization` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo.specification" ] ;
+       fhir:display [ fhir:v "specification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.specialization" ] ;
+         fhir:display [ fhir:v "Device.specialization" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.specification` is mapped to FHIR R4 element `Device.specialization` as `SourceIsNarrowerThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.property" ] ;
+         fhir:display [ fhir:v "Device.property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.property` is mapped to FHIR R4 element `Device.property` as `Equivalent`.\nDynamic or current properties, such as settings, of an individual device are described using a Device instance-specific [DeviceMetric] and recorded using [Observation].  Static characteristics of a device could also be documented in an associated [DeviceDefinition] instance. The Device instance's properties, and their values, could be, but need not be, the same as those described in an associated DeviceDefinition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.property.type" ] ;
+         fhir:display [ fhir:v "Device.property.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.type` is mapped to FHIR R4 element `Device.property.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.property.valueCode" ] ;
+         fhir:display [ fhir:v "Device.property.valueCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity` as `RelatedTo`.\nElement `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode` as `RelatedTo`.\nThe mappings for `Device.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThe text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions." ]
+       ] [
+         fhir:code [ fhir:v "Device.property.valueQuantity" ] ;
+         fhir:display [ fhir:v "Device.property.valueQuantity" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity` as `RelatedTo`.\nElement `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode` as `RelatedTo`.\nThe mappings for `Device.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThe text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.owner" ] ;
+       fhir:display [ fhir:v "owner" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.owner" ] ;
+         fhir:display [ fhir:v "Device.owner" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.owner` is mapped to FHIR R4 element `Device.owner` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.contact" ] ;
+         fhir:display [ fhir:v "Device.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.contact` is mapped to FHIR R4 element `Device.contact` as `Equivalent`.\nused for troubleshooting etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.location" ] ;
+         fhir:display [ fhir:v "Device.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.location` is mapped to FHIR R4 element `Device.location` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.url" ] ;
+         fhir:display [ fhir:v "Device.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.url` is mapped to FHIR R4 element `Device.url` as `Equivalent`.\nIf the device is running a FHIR server, the network address should  be the Base URL from which a conformance statement may be retrieved." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.note" ] ;
+         fhir:display [ fhir:v "Device.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.note` is mapped to FHIR R4 element `Device.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.safety" ] ;
+       fhir:display [ fhir:v "safety" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.safety" ] ;
+         fhir:display [ fhir:v "Device.safety" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.safety` is mapped to FHIR R4 element `Device.safety` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.parent" ] ;
+       fhir:display [ fhir:v "parent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Device.parent" ] ;
+         fhir:display [ fhir:v "Device.parent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.parent` is mapped to FHIR R4 element `Device.parent` as `Equivalent`.\nFor example a vital signs monitor (parent) where three separate modules can be plugged into such as interchangeable blood pressure, oximeter, temperature modules.  These modules are represented as devices with the .parent valued to the vital signs monitor when plugged in." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Device"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Device>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Device.displayName" ] ;
+       fhir:display [ fhir:v "displayName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.displayName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.displayName` is mapped to FHIR R4 element `Device.deviceName` as `RelatedTo`.\nThe mappings for `Device.displayName` do not cover the following types: string.\nThe mappings for `Device.displayName` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.definition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.definition` is mapped to FHIR R4 element `Device.definition` as `SourceIsBroaderThanTarget`.\nThe mappings for `Device.definition` do not cover the following types: CodeableReference.\nThe mappings for `Device.definition` do not cover the following types based on type expansion: concept." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.udiCarrier.entryType" ] ;
+       fhir:display [ fhir:v "entryType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.udiCarrier.entryType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Device.udiCarrier.entryType` is mapped to FHIR R4 element `Device.udiCarrier.entryType` as `RelatedTo`.\nThe mappings for `Device.udiCarrier.entryType` do not allow expression of the necessary codes, per the bindings on the source and target." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.availabilityStatus" ] ;
+       fhir:display [ fhir:v "availabilityStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.availabilityStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.availabilityStatus` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.availabilityStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.biologicalSourceEvent" ] ;
+       fhir:display [ fhir:v "biologicalSourceEvent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.biologicalSourceEvent" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.biologicalSourceEvent` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.biologicalSourceEvent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNecessary to support mandatory requirements for traceability from donor/source to recipient and vice versa, while also satisfying donor anonymity requirements. The element is defined consistently across BiologicallyDerivedProduct, NutritionProduct, and Device.  The identifier references an event that links to a single biological entity such as a blood donor, or to multiple biological entities (e.g. when the product is an embryo or a pooled platelet product).  A single biologicalSourceEvent identifier may appear on multiple products of many types derived from a single donation event or source extraction.  As an example, a single donation event may provide 2 kidneys and a liver for organ transplantation, 2 corneas for eye surgery, heart valves and arterial tissue for cardiovascular surgery, multiple skin grafts, tendons, multiple shaped bone grafts and a large number of bone putty/paste products; and each of them may be assigned to the same biological source event identifier." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.category" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.category` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.version.installDate" ] ;
+       fhir:display [ fhir:v "installDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.version.installDate` has a context of Device.version based on following the parent source element upwards and mapping to `Device`.\nElement `Device.version.installDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.conformsTo.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.conformsTo.version` has a context of Device.specialization based on following the parent source element upwards and mapping to `Device`.\nElement `Device.conformsTo.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property.value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueQuantity` as `RelatedTo`.\nElement `Device.property.value[x]` is mapped to FHIR R4 element `Device.property.valueCode` as `RelatedTo`.\nThe mappings for `Device.property.value[x]` do not cover the following types: Attachment, boolean, integer, Range, string.\nThe text element in CodeableConcept.text is used for properties which would usually be coded (such as the size of an implant, or a security classification) but for which there is not currently an appropriate concept in the vocabulary (e.g. a custom implant size, or a security classification which depends on configuration). Otherwise the string choice type is used for descriptive properties, or instructions." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.mode" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.mode` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.mode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.cycle" ] ;
+       fhir:display [ fhir:v "cycle" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.cycle" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.cycle` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.cycle` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.duration" ] ;
+       fhir:display [ fhir:v "duration" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.duration" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.duration` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.duration` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.endpoint" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.endpoint` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.endpoint` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Device.gateway" ] ;
+       fhir:display [ fhir:v "gateway" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.gateway" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Device.gateway` has a context of Device based on following the parent source element upwards and mapping to `Device`.\nElement `Device.gateway` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe Device.gateway may be used when the Device being referenced has a gateway and/or to capture one or more gateways associated with the device. If the Gateway is included in the Observation resource, the Observation.gatewayDevice should be used instead." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

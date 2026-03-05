@@ -1,0 +1,665 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-ObservationDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-ObservationDefinition-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-ObservationDefinition-element-map-to-R4</b></p><a name=\"R5-ObservationDefinition-element-map-to-R4\"> </a><a name=\"hcR5-ObservationDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ObservationDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/observationdefinition.html\">ObservationDefinitionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ObservationDefinition.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.meta</td><td>Element `ObservationDefinition.meta` is mapped to FHIR R4 element `ObservationDefinition.meta` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.implicitRules</td><td>Element `ObservationDefinition.implicitRules` is mapped to FHIR R4 element `ObservationDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>ObservationDefinition.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.language</td><td>Element `ObservationDefinition.language` is mapped to FHIR R4 element `ObservationDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>ObservationDefinition.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.text</td><td>Element `ObservationDefinition.text` is mapped to FHIR R4 element `ObservationDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>ObservationDefinition.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.contained</td><td>Element `ObservationDefinition.contained` is mapped to FHIR R4 element `ObservationDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>ObservationDefinition.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.identifier</td><td>Element `ObservationDefinition.identifier` is mapped to FHIR R4 element `ObservationDefinition.identifier` as `SourceIsNarrowerThanTarget`.\nThis is a business identifier, not a resource identifier. It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.</td></tr><tr><td>ObservationDefinition.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.category</td><td>Element `ObservationDefinition.category` is mapped to FHIR R4 element `ObservationDefinition.category` as `Equivalent`.\nThis element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used for one instance of ObservationDefinition. The level of granularity is defined by the category concepts in the value set.</td></tr><tr><td>ObservationDefinition.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.code</td><td>Element `ObservationDefinition.code` is mapped to FHIR R4 element `ObservationDefinition.code` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.permittedDataType (permittedDataType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.permittedDataType</td><td>Element `ObservationDefinition.permittedDataType` is mapped to FHIR R4 element `ObservationDefinition.permittedDataType` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.multipleResultsAllowed (multipleResultsAllowed)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.multipleResultsAllowed</td><td>Element `ObservationDefinition.multipleResultsAllowed` is mapped to FHIR R4 element `ObservationDefinition.multipleResultsAllowed` as `Equivalent`.\nAn example of observation allowing multiple results is \"bacteria identified by culture\". Conversely, the measurement of a potassium level allows a single result.</td></tr><tr><td>ObservationDefinition.method (method)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.method</td><td>Element `ObservationDefinition.method` is mapped to FHIR R4 element `ObservationDefinition.method` as `Equivalent`.\nOnly used if not implicit in observation code\nExample: 702659008 |Automated count technique|.</td></tr><tr><td>ObservationDefinition.preferredReportName (preferredReportName)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.preferredReportName</td><td>Element `ObservationDefinition.preferredReportName` is mapped to FHIR R4 element `ObservationDefinition.preferredReportName` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.permittedUnit (permittedUnit)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.quantitativeDetails.customaryUnit</td><td>Element `ObservationDefinition.permittedUnit` is mapped to FHIR R4 element `ObservationDefinition.quantitativeDetails.customaryUnit` as `RelatedTo`.</td></tr><tr><td>ObservationDefinition.qualifiedValue (qualifiedValue)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ObservationDefinition.qualifiedInterval</td><td>Element `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.context (context)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.context</td><td>Element `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.appliesTo (appliesTo)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.appliesTo</td><td>Element `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo` as `Equivalent`.\nIf this element is not present then the global population is assumed.</td></tr><tr><td>ObservationDefinition.qualifiedValue.gender (gender)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.gender</td><td>Element `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.age (age)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.age</td><td>Element `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age` as `Equivalent`.\nSome analytes vary greatly over age.</td></tr><tr><td>ObservationDefinition.qualifiedValue.gestationalAge (gestationalAge)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.gestationalAge</td><td>Element `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.condition (condition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.condition</td><td>Element `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.rangeCategory (rangeCategory)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.category</td><td>Element `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.range (range)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ObservationDefinition.qualifiedInterval.range</td><td>Element `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range` as `Equivalent`.</td></tr><tr><td>ObservationDefinition.qualifiedValue.validCodedValueSet (validCodedValueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ObservationDefinition.validCodedValueSet</td><td>Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td>ObservationDefinition.qualifiedValue.normalCodedValueSet (normalCodedValueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ObservationDefinition.normalCodedValueSet</td><td>Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td>ObservationDefinition.qualifiedValue.abnormalCodedValueSet (abnormalCodedValueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ObservationDefinition.abnormalCodedValueSet</td><td>Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td>ObservationDefinition.qualifiedValue.criticalCodedValueSet (criticalCodedValueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ObservationDefinition.criticalCodedValueSet</td><td>Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types based on type expansion: value.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ObservationDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ObservationDefinition|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4</td><td/></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.url</td><td style=\"border-left-width: 0px\">url</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.url</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.url` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nCan be a urn:uuid: or a urn:oid:, but real http: addresses are preferred. This is the URI that will be used when making canonical references to this resource.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.version</td><td style=\"border-left-width: 0px\">version</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.version</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.version` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThere may be multiple different instances of an observationDefinition that have the same identifier but different versions.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.versionAlgorithm[x]</td><td style=\"border-left-width: 0px\">versionAlgorithm[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.versionAlgorithm</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.versionAlgorithm[x]` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.name</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.name` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.title</td><td style=\"border-left-width: 0px\">title</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.title</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.title` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.status</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.status` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA nominal state-transition diagram can be found in the [Definition pattern](https://hl7.org/fhir/definition.ht.html#statemachine) documentation\nUnknown does not represent \"other\" - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.experimental</td><td style=\"border-left-width: 0px\">experimental</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.experimental</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.experimental` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows filtering of ObservationDefinition that are appropriate for use vs. not.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.date</td><td style=\"border-left-width: 0px\">date</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.date</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.date` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.date` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the ObservationDefinition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.publisher</td><td style=\"border-left-width: 0px\">publisher</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.publisher</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.publisher` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.contact</td><td style=\"border-left-width: 0px\">contact</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.contact</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.contact` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.description</td><td style=\"border-left-width: 0px\">description</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.description</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.description` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the module as conveyed in the text field of the resource itself. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.useContext</td><td style=\"border-left-width: 0px\">useContext</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.useContext</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.useContext` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen multiple usageContexts are specified, there is no expectation for whether all or any of the contexts apply.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.jurisdiction</td><td style=\"border-left-width: 0px\">jurisdiction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.jurisdiction</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.jurisdiction` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nElement `ObservationDefinition.jurisdiction` has been flagged as deprecated.\nIt may be possible for the ObservationDefinition to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.purpose</td><td style=\"border-left-width: 0px\">purpose</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.purpose</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.purpose` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element does not describe the usage of the ObservationDefinition. Rather it is for traceability of ''why'' the resource is either needed or ''why'' it is defined as it is. This may be used to point to source materials or specifications that drove the structure of this ObservationDefinition.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.copyright</td><td style=\"border-left-width: 0px\">copyright</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyright</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.copyright` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.copyrightLabel</td><td style=\"border-left-width: 0px\">copyrightLabel</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyrightLabel</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.copyrightLabel` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.approvalDate</td><td style=\"border-left-width: 0px\">approvalDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.approvalDate</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.approvalDate` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe date may be more recent than the approval date because of minor changes / editorial corrections.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.lastReviewDate</td><td style=\"border-left-width: 0px\">lastReviewDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.lastReviewDate</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.lastReviewDate` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf specified, this is usually after the approval date.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.effectivePeriod</td><td style=\"border-left-width: 0px\">effectivePeriod</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.effectivePeriod</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.effectivePeriod` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe effective period for an ObservationDefinition determines when the content is applicable for usage and is independent of publication and review dates. For example, an observation definition intended to be used for the year 2021 might be published in 2020.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.derivedFromCanonical</td><td style=\"border-left-width: 0px\">derivedFromCanonical</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromCanonical</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.derivedFromCanonical` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.derivedFromCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.derivedFromUri</td><td style=\"border-left-width: 0px\">derivedFromUri</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromUri</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.derivedFromUri` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.derivedFromUri` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.subject</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.subject` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExamples: person, animal, device, air, surface ….</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.performerType</td><td style=\"border-left-width: 0px\">performerType</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.performerType</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.performerType` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.performerType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.bodySite</td><td style=\"border-left-width: 0px\">bodySite</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.bodySite</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.bodySite` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.bodySite` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nOnly used if the defined observation is to be made directly on a body part and if this body part is not implied by code found in ObservationDefinition.code. Not used for in vitro diagnostic observations. \nExample: 14975008 |Forearm structure|.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.specimen</td><td style=\"border-left-width: 0px\">specimen</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.specimen</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.specimen` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.specimen` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nOnly used for in vitro observations. When multiple occurrences of specimen are present, they are to be combined with a logical AND: all specified specimens  are needed for the observation.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.device</td><td style=\"border-left-width: 0px\">device</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.device</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.device` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen multiple occurrences of device are present, they are to be combined with a logical OR: at least one of the specified devices is used to produce the observation.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.qualifiedValue</td><td style=\"border-left-width: 0px\">qualifiedValue</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.qualifiedValue.validCodedValueSet</td><td style=\"border-left-width: 0px\">validCodedValueSet</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.validCodedValueSet</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.qualifiedValue.normalCodedValueSet</td><td style=\"border-left-width: 0px\">normalCodedValueSet</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.normalCodedValueSet</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.qualifiedValue.abnormalCodedValueSet</td><td style=\"border-left-width: 0px\">abnormalCodedValueSet</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.abnormalCodedValueSet</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.qualifiedValue.criticalCodedValueSet</td><td style=\"border-left-width: 0px\">criticalCodedValueSet</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.criticalCodedValueSet</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types based on type expansion: value.</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.hasMember</td><td style=\"border-left-width: 0px\">hasMember</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.hasMember</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.hasMember` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.hasMember` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.component</td><td style=\"border-left-width: 0px\">component</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.component` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.component.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:code</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.component.permittedDataType</td><td style=\"border-left-width: 0px\">permittedDataType</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedDataType</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.permittedDataType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px\">ObservationDefinition.component.permittedUnit</td><td style=\"border-left-width: 0px\">permittedUnit</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedUnit</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.permittedUnit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">ObservationDefinition.component.qualifiedValue</td><td style=\"border-left-width: 0px; border-bottom-style: none\">qualifiedValue</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:qualifiedValue</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.qualifiedValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue</td><td style=\"border-left-width: 0px\"/><td>Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.qualifiedValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ObservationDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-ObservationDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ObservationDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 ObservationDefinition to FHIR R4 ObservationDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:50.6282947-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ObservationDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ObservationDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ObservationDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ObservationDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ObservationDefinition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ObservationDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.meta" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.meta` is mapped to FHIR R4 element `ObservationDefinition.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.implicitRules" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.implicitRules` is mapped to FHIR R4 element `ObservationDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.language" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.language` is mapped to FHIR R4 element `ObservationDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.text" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.text` is mapped to FHIR R4 element `ObservationDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.contained" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.contained` is mapped to FHIR R4 element `ObservationDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.identifier" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.identifier` is mapped to FHIR R4 element `ObservationDefinition.identifier` as `SourceIsNarrowerThanTarget`.\nThis is a business identifier, not a resource identifier. It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.category" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.category` is mapped to FHIR R4 element `ObservationDefinition.category` as `Equivalent`.\nThis element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used for one instance of ObservationDefinition. The level of granularity is defined by the category concepts in the value set." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.code" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.code` is mapped to FHIR R4 element `ObservationDefinition.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.permittedDataType" ] ;
+       fhir:display [ fhir:v "permittedDataType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.permittedDataType" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.permittedDataType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.permittedDataType` is mapped to FHIR R4 element `ObservationDefinition.permittedDataType` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.multipleResultsAllowed" ] ;
+       fhir:display [ fhir:v "multipleResultsAllowed" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.multipleResultsAllowed" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.multipleResultsAllowed" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.multipleResultsAllowed` is mapped to FHIR R4 element `ObservationDefinition.multipleResultsAllowed` as `Equivalent`.\nAn example of observation allowing multiple results is \"bacteria identified by culture\". Conversely, the measurement of a potassium level allows a single result." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.method" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.method" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.method` is mapped to FHIR R4 element `ObservationDefinition.method` as `Equivalent`.\nOnly used if not implicit in observation code\nExample: 702659008 |Automated count technique|." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.preferredReportName" ] ;
+       fhir:display [ fhir:v "preferredReportName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.preferredReportName" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.preferredReportName" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.preferredReportName` is mapped to FHIR R4 element `ObservationDefinition.preferredReportName` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.permittedUnit" ] ;
+       fhir:display [ fhir:v "permittedUnit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.quantitativeDetails.customaryUnit" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.quantitativeDetails.customaryUnit" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.permittedUnit` is mapped to FHIR R4 element `ObservationDefinition.quantitativeDetails.customaryUnit` as `RelatedTo`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue" ] ;
+       fhir:display [ fhir:v "qualifiedValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.context" ] ;
+       fhir:display [ fhir:v "context" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.context" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.context" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.appliesTo" ] ;
+       fhir:display [ fhir:v "appliesTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.appliesTo" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.appliesTo" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo` as `Equivalent`.\nIf this element is not present then the global population is assumed." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.gender" ] ;
+       fhir:display [ fhir:v "gender" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.gender" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.gender" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.age" ] ;
+       fhir:display [ fhir:v "age" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.age" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.age" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age` as `Equivalent`.\nSome analytes vary greatly over age." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.gestationalAge" ] ;
+       fhir:display [ fhir:v "gestationalAge" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.gestationalAge" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.gestationalAge" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.condition" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.condition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.rangeCategory" ] ;
+       fhir:display [ fhir:v "rangeCategory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.category" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.range" ] ;
+       fhir:display [ fhir:v "range" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.qualifiedInterval.range" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.qualifiedInterval.range" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.validCodedValueSet" ] ;
+       fhir:display [ fhir:v "validCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.validCodedValueSet" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.validCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.normalCodedValueSet" ] ;
+       fhir:display [ fhir:v "normalCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.normalCodedValueSet" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.normalCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.abnormalCodedValueSet" ] ;
+       fhir:display [ fhir:v "abnormalCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.abnormalCodedValueSet" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.abnormalCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.criticalCodedValueSet" ] ;
+       fhir:display [ fhir:v "criticalCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ObservationDefinition.criticalCodedValueSet" ] ;
+         fhir:display [ fhir:v "ObservationDefinition.criticalCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ObservationDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ObservationDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ObservationDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.url" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.url` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nCan be a urn:uuid: or a urn:oid:, but real http: addresses are preferred. This is the URI that will be used when making canonical references to this resource." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.version` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThere may be multiple different instances of an observationDefinition that have the same identifier but different versions." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.versionAlgorithm[x]` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.name` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.title" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.title` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.status` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA nominal state-transition diagram can be found in the [Definition pattern](https://hl7.org/fhir/definition.ht.html#statemachine) documentation\nUnknown does not represent \"other\" - one of the defined statuses must apply. Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.experimental" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.experimental` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows filtering of ObservationDefinition that are appropriate for use vs. not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.date" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.date` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.date` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the ObservationDefinition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.publisher` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.contact` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.description` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the module as conveyed in the text field of the resource itself. This item SHOULD be populated unless the information is available from context." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.useContext" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.useContext` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen multiple usageContexts are specified, there is no expectation for whether all or any of the contexts apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.jurisdiction` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nElement `ObservationDefinition.jurisdiction` has been flagged as deprecated.\nIt may be possible for the ObservationDefinition to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.purpose" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.purpose` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element does not describe the usage of the ObservationDefinition. Rather it is for traceability of ''why'' the resource is either needed or ''why'' it is defined as it is. This may be used to point to source materials or specifications that drove the structure of this ObservationDefinition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.copyright` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.copyrightLabel` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.approvalDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.approvalDate` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe date may be more recent than the approval date because of minor changes / editorial corrections.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.lastReviewDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.lastReviewDate` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf specified, this is usually after the approval date.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.effectivePeriod" ] ;
+       fhir:display [ fhir:v "effectivePeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.effectivePeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.effectivePeriod` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe effective period for an ObservationDefinition determines when the content is applicable for usage and is independent of publication and review dates. For example, an observation definition intended to be used for the year 2021 might be published in 2020.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.derivedFromCanonical" ] ;
+       fhir:display [ fhir:v "derivedFromCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromCanonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.derivedFromCanonical` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.derivedFromCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.derivedFromUri" ] ;
+       fhir:display [ fhir:v "derivedFromUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.derivedFromUri" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.derivedFromUri` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.derivedFromUri` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.subject" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.subject` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExamples: person, animal, device, air, surface …." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.performerType" ] ;
+       fhir:display [ fhir:v "performerType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.performerType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.performerType` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.performerType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.bodySite" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.bodySite` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.bodySite` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nOnly used if the defined observation is to be made directly on a body part and if this body part is not implied by code found in ObservationDefinition.code. Not used for in vitro diagnostic observations. \nExample: 14975008 |Forearm structure|." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.specimen" ] ;
+       fhir:display [ fhir:v "specimen" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.specimen" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.specimen` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.specimen` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nOnly used for in vitro observations. When multiple occurrences of specimen are present, they are to be combined with a logical AND: all specified specimens  are needed for the observation." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.device" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.device` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.device` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen multiple occurrences of device are present, they are to be combined with a logical OR: at least one of the specified devices is used to produce the observation." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue" ] ;
+       fhir:display [ fhir:v "qualifiedValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.validCodedValueSet" ] ;
+       fhir:display [ fhir:v "validCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.validCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.validCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.normalCodedValueSet" ] ;
+       fhir:display [ fhir:v "normalCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.normalCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.normalCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.abnormalCodedValueSet" ] ;
+       fhir:display [ fhir:v "abnormalCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.abnormalCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.qualifiedValue.criticalCodedValueSet" ] ;
+       fhir:display [ fhir:v "criticalCodedValueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue.criticalCodedValueSet" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet` as `SourceIsBroaderThanTarget`.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types: canonical.\nThe mappings for `ObservationDefinition.qualifiedValue.criticalCodedValueSet` do not cover the following types based on type expansion: value." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.hasMember" ] ;
+       fhir:display [ fhir:v "hasMember" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.hasMember" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.hasMember` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.hasMember` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.component" ] ;
+       fhir:display [ fhir:v "component" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.component` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.component.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.component.code` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.code` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.component.permittedDataType" ] ;
+       fhir:display [ fhir:v "permittedDataType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedDataType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.component.permittedDataType` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedDataType` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.permittedDataType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.component.permittedUnit" ] ;
+       fhir:display [ fhir:v "permittedUnit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:permittedUnit" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.component.permittedUnit` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.permittedUnit` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.permittedUnit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ObservationDefinition.component.qualifiedValue" ] ;
+       fhir:display [ fhir:v "qualifiedValue" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.component:qualifiedValue" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.qualifiedValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ObservationDefinition.qualifiedValue" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ObservationDefinition.component.qualifiedValue` is part of an existing definition because parent element `ObservationDefinition.component` requires a cross-version extension.\nElement `ObservationDefinition.component.qualifiedValue` has a context of ObservationDefinition based on following the parent source element upwards and mapping to `ObservationDefinition`.\nElement `ObservationDefinition.component.qualifiedValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

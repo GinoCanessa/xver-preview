@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-MedicationDispense-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-MedicationDispense-element-map-to-R4</b></p><a name="R5-MedicationDispense-element-map-to-R4"> </a><a name="hcR5-MedicationDispense-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationDispense|5.0.0</code> to <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispenseversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationDispense.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.meta</td><td>Element `MedicationDispense.meta` is mapped to FHIR R4 element `MedicationDispense.meta` as `Equivalent`.</td></tr><tr><td>MedicationDispense.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.implicitRules</td><td>Element `MedicationDispense.implicitRules` is mapped to FHIR R4 element `MedicationDispense.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>MedicationDispense.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.language</td><td>Element `MedicationDispense.language` is mapped to FHIR R4 element `MedicationDispense.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>MedicationDispense.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.text</td><td>Element `MedicationDispense.text` is mapped to FHIR R4 element `MedicationDispense.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>MedicationDispense.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.contained</td><td>Element `MedicationDispense.contained` is mapped to FHIR R4 element `MedicationDispense.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>MedicationDispense.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.identifier</td><td>Element `MedicationDispense.identifier` is mapped to FHIR R4 element `MedicationDispense.identifier` as `Equivalent`.
+This is a business identifier, not a resource identifier.</td></tr><tr><td>MedicationDispense.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MedicationDispense.partOf</td><td>Element `MedicationDispense.partOf` is mapped to FHIR R4 element `MedicationDispense.partOf` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationDispense.partOf` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.partOf` with unmapped reference targets: MedicationAdministration.
+While both a procedure and a medication administration may have triggered the dispense, but it is not expected that multiple procedures and/or multiple medication administrations would be triggers.</td></tr><tr><td>MedicationDispense.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.status</td><td>Element `MedicationDispense.status` is mapped to FHIR R4 element `MedicationDispense.status` as `Equivalent`.
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>MedicationDispense.notPerformedReason (notPerformedReason)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.statusReason[x]</td><td>Element `MedicationDispense.notPerformedReason` is mapped to FHIR R4 element `MedicationDispense.statusReason[x]` as `SourceIsBroaderThanTarget`.
+The target context `MedicationDispense.statusReason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.</td></tr><tr><td>MedicationDispense.category (category)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.category</td><td>Element `MedicationDispense.category` is mapped to FHIR R4 element `MedicationDispense.category` as `SourceIsBroaderThanTarget`.
+The category can be used to include where the medication is expected to be consumed or other types of dispenses.  Invariants can be used to bind to different value sets when profiling to bind.</td></tr><tr><td>MedicationDispense.medication (medication)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.medication[x]</td><td>Element `MedicationDispense.medication` is mapped to FHIR R4 element `MedicationDispense.medication[x]` as `SourceIsBroaderThanTarget`.
+The target context `MedicationDispense.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.
+If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource.</td></tr><tr><td>MedicationDispense.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.subject</td><td>Element `MedicationDispense.subject` is mapped to FHIR R4 element `MedicationDispense.subject` as `Equivalent`.
+SubstanceAdministration-&gt;subject-&gt;Patient.</td></tr><tr><td>MedicationDispense.encounter (encounter)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.context</td><td>Element `MedicationDispense.encounter` is mapped to FHIR R4 element `MedicationDispense.context` as `Equivalent`.</td></tr><tr><td>MedicationDispense.supportingInformation (supportingInformation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.supportingInformation</td><td>Element `MedicationDispense.supportingInformation` is mapped to FHIR R4 element `MedicationDispense.supportingInformation` as `Equivalent`.</td></tr><tr><td>MedicationDispense.performer (performer)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MedicationDispense.performer</td><td>Element `MedicationDispense.performer` is mapped to FHIR R4 element `MedicationDispense.performer` as `Equivalent`.</td></tr><tr><td>MedicationDispense.performer.function (function)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.performer.function</td><td>Element `MedicationDispense.performer.function` is mapped to FHIR R4 element `MedicationDispense.performer.function` as `Equivalent`.</td></tr><tr><td>MedicationDispense.performer.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MedicationDispense.performer.actor</td><td>Element `MedicationDispense.performer.actor` is mapped to FHIR R4 element `MedicationDispense.performer.actor` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.performer.actor` with unmapped reference targets: CareTeam.</td></tr><tr><td>MedicationDispense.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.location</td><td>Element `MedicationDispense.location` is mapped to FHIR R4 element `MedicationDispense.location` as `Equivalent`.</td></tr><tr><td>MedicationDispense.authorizingPrescription (authorizingPrescription)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.authorizingPrescription</td><td>Element `MedicationDispense.authorizingPrescription` is mapped to FHIR R4 element `MedicationDispense.authorizingPrescription` as `Equivalent`.
+Maps to basedOn in Event logical model.</td></tr><tr><td>MedicationDispense.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.type</td><td>Element `MedicationDispense.type` is mapped to FHIR R4 element `MedicationDispense.type` as `Equivalent`.</td></tr><tr><td>MedicationDispense.quantity (quantity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.quantity</td><td>Element `MedicationDispense.quantity` is mapped to FHIR R4 element `MedicationDispense.quantity` as `Equivalent`.</td></tr><tr><td>MedicationDispense.daysSupply (daysSupply)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.daysSupply</td><td>Element `MedicationDispense.daysSupply` is mapped to FHIR R4 element `MedicationDispense.daysSupply` as `Equivalent`.</td></tr><tr><td>MedicationDispense.whenPrepared (whenPrepared)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.whenPrepared</td><td>Element `MedicationDispense.whenPrepared` is mapped to FHIR R4 element `MedicationDispense.whenPrepared` as `Equivalent`.</td></tr><tr><td>MedicationDispense.whenHandedOver (whenHandedOver)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.whenHandedOver</td><td>Element `MedicationDispense.whenHandedOver` is mapped to FHIR R4 element `MedicationDispense.whenHandedOver` as `Equivalent`.</td></tr><tr><td>MedicationDispense.destination (destination)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.destination</td><td>Element `MedicationDispense.destination` is mapped to FHIR R4 element `MedicationDispense.destination` as `Equivalent`.</td></tr><tr><td>MedicationDispense.receiver (receiver)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MedicationDispense.receiver</td><td>Element `MedicationDispense.receiver` is mapped to FHIR R4 element `MedicationDispense.receiver` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.receiver` with unmapped reference targets: Location, PractitionerRole, RelatedPerson.</td></tr><tr><td>MedicationDispense.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.note</td><td>Element `MedicationDispense.note` is mapped to FHIR R4 element `MedicationDispense.note` as `Equivalent`.</td></tr><tr><td>MedicationDispense.dosageInstruction (dosageInstruction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.dosageInstruction</td><td>Element `MedicationDispense.dosageInstruction` is mapped to FHIR R4 element `MedicationDispense.dosageInstruction` as `Equivalent`.
+When the dose or rate is intended to change over the entire administration period (e.g. Tapering dose prescriptions), multiple instances of dosage instructions will need to be supplied to convey the different doses/rates.The pharmacist reviews the medication order prior to dispense and updates the dosageInstruction based on the actual product being dispensed.</td></tr><tr><td>MedicationDispense.substitution (substitution)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MedicationDispense.substitution</td><td>Element `MedicationDispense.substitution` is mapped to FHIR R4 element `MedicationDispense.substitution` as `Equivalent`.</td></tr><tr><td>MedicationDispense.substitution.wasSubstituted (wasSubstituted)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.substitution.wasSubstituted</td><td>Element `MedicationDispense.substitution.wasSubstituted` is mapped to FHIR R4 element `MedicationDispense.substitution.wasSubstituted` as `Equivalent`.</td></tr><tr><td>MedicationDispense.substitution.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.substitution.type</td><td>Element `MedicationDispense.substitution.type` is mapped to FHIR R4 element `MedicationDispense.substitution.type` as `Equivalent`.</td></tr><tr><td>MedicationDispense.substitution.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.substitution.reason</td><td>Element `MedicationDispense.substitution.reason` is mapped to FHIR R4 element `MedicationDispense.substitution.reason` as `Equivalent`.</td></tr><tr><td>MedicationDispense.substitution.responsibleParty (responsibleParty)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>MedicationDispense.substitution.responsibleParty</td><td>Element `MedicationDispense.substitution.responsibleParty` is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty` as `RelatedTo`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with unmapped reference targets: Organization.</td></tr><tr><td>MedicationDispense.eventHistory (eventHistory)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>MedicationDispense.eventHistory</td><td>Element `MedicationDispense.eventHistory` is mapped to FHIR R4 element `MedicationDispense.eventHistory` as `Equivalent`.
+This might not include provenances for all versions of the request – only those deemed “relevant” or important. This SHALL NOT include the Provenance associated with this current version of the resource. (If that provenance is deemed to be a “relevant” change, it will need to be added as part of a later update. Until then, it can be queried directly as the Provenance that points to this version using _revinclude All Provenances should have some historical version of this Request as their subject.).</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationDispense|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationDispense.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.basedOn</td><td>Element `MedicationDispense.basedOn` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.
+Element `MedicationDispense.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationDispense.statusChanged (statusChanged)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.statusChanged</td><td>Element `MedicationDispense.statusChanged` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.
+Element `MedicationDispense.statusChanged` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationDispense.recorded (recorded)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded</td><td>Element `MedicationDispense.recorded` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.
+Element `MedicationDispense.recorded` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationDispense.renderedDosageInstruction (renderedDosageInstruction)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.renderedDosageInstruction</td><td>Element `MedicationDispense.renderedDosageInstruction` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.
+Element `MedicationDispense.renderedDosageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The content of the renderedDosageInstructions must not be different than the dose represented in the dosageInstruction content.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationDispense|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationDispense.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>MedicationDispense.performer.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>MedicationDispense.receiver (receiver)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>MedicationDispense.substitution.responsibleParty (responsibleParty)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationDispense-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5MedicationDispenseElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 MedicationDispense to FHIR R4 MedicationDispense"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:50.1308874-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicationDispense to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MedicationDispense"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/MedicationDispense"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="MedicationDispense.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="MedicationDispense.meta"/>
+        <display value="MedicationDispense.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.meta` is mapped to FHIR R4 element `MedicationDispense.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="MedicationDispense.implicitRules"/>
+        <display value="MedicationDispense.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.implicitRules` is mapped to FHIR R4 element `MedicationDispense.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.language"/>
+      <display value="language"/>
+      <target>
+        <code value="MedicationDispense.language"/>
+        <display value="MedicationDispense.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.language` is mapped to FHIR R4 element `MedicationDispense.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.text"/>
+      <display value="text"/>
+      <target>
+        <code value="MedicationDispense.text"/>
+        <display value="MedicationDispense.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.text` is mapped to FHIR R4 element `MedicationDispense.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="MedicationDispense.contained"/>
+        <display value="MedicationDispense.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.contained` is mapped to FHIR R4 element `MedicationDispense.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="MedicationDispense.identifier"/>
+        <display value="MedicationDispense.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.identifier` is mapped to FHIR R4 element `MedicationDispense.identifier` as `Equivalent`.&#xA;This is a business identifier, not a resource identifier."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="MedicationDispense.partOf"/>
+        <display value="MedicationDispense.partOf"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.partOf` is mapped to FHIR R4 element `MedicationDispense.partOf` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationDispense.partOf` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.partOf` with unmapped reference targets: MedicationAdministration.&#xA;While both a procedure and a medication administration may have triggered the dispense, but it is not expected that multiple procedures and/or multiple medication administrations would be triggers."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.status"/>
+      <display value="status"/>
+      <target>
+        <code value="MedicationDispense.status"/>
+        <display value="MedicationDispense.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.status` is mapped to FHIR R4 element `MedicationDispense.status` as `Equivalent`.&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.notPerformedReason"/>
+      <display value="notPerformedReason"/>
+      <target>
+        <code value="MedicationDispense.statusReason[x]"/>
+        <display value="MedicationDispense.statusReason[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.notPerformedReason` is mapped to FHIR R4 element `MedicationDispense.statusReason[x]` as `SourceIsBroaderThanTarget`.&#xA;The target context `MedicationDispense.statusReason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.category"/>
+      <display value="category"/>
+      <target>
+        <code value="MedicationDispense.category"/>
+        <display value="MedicationDispense.category"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.category` is mapped to FHIR R4 element `MedicationDispense.category` as `SourceIsBroaderThanTarget`.&#xA;The category can be used to include where the medication is expected to be consumed or other types of dispenses.  Invariants can be used to bind to different value sets when profiling to bind."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.medication"/>
+      <display value="medication"/>
+      <target>
+        <code value="MedicationDispense.medication[x]"/>
+        <display value="MedicationDispense.medication[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.medication` is mapped to FHIR R4 element `MedicationDispense.medication[x]` as `SourceIsBroaderThanTarget`.&#xA;The target context `MedicationDispense.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.&#xA;If only a code is specified, then it needs to be a code for a specific product. If more information is required, then the use of the medication resource is recommended.  For example, if you require form or lot number, then you must reference the Medication resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="MedicationDispense.subject"/>
+        <display value="MedicationDispense.subject"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.subject` is mapped to FHIR R4 element `MedicationDispense.subject` as `Equivalent`.&#xA;SubstanceAdministration-&gt;subject-&gt;Patient."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="MedicationDispense.context"/>
+        <display value="MedicationDispense.context"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.encounter` is mapped to FHIR R4 element `MedicationDispense.context` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.supportingInformation"/>
+      <display value="supportingInformation"/>
+      <target>
+        <code value="MedicationDispense.supportingInformation"/>
+        <display value="MedicationDispense.supportingInformation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.supportingInformation` is mapped to FHIR R4 element `MedicationDispense.supportingInformation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.performer"/>
+      <display value="performer"/>
+      <target>
+        <code value="MedicationDispense.performer"/>
+        <display value="MedicationDispense.performer"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.performer` is mapped to FHIR R4 element `MedicationDispense.performer` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.performer.function"/>
+      <display value="function"/>
+      <target>
+        <code value="MedicationDispense.performer.function"/>
+        <display value="MedicationDispense.performer.function"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.performer.function` is mapped to FHIR R4 element `MedicationDispense.performer.function` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.performer.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="MedicationDispense.performer.actor"/>
+        <display value="MedicationDispense.performer.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.performer.actor` is mapped to FHIR R4 element `MedicationDispense.performer.actor` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.performer.actor` with unmapped reference targets: CareTeam."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.location"/>
+      <display value="location"/>
+      <target>
+        <code value="MedicationDispense.location"/>
+        <display value="MedicationDispense.location"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.location` is mapped to FHIR R4 element `MedicationDispense.location` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.authorizingPrescription"/>
+      <display value="authorizingPrescription"/>
+      <target>
+        <code value="MedicationDispense.authorizingPrescription"/>
+        <display value="MedicationDispense.authorizingPrescription"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.authorizingPrescription` is mapped to FHIR R4 element `MedicationDispense.authorizingPrescription` as `Equivalent`.&#xA;Maps to basedOn in Event logical model."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationDispense.type"/>
+        <display value="MedicationDispense.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.type` is mapped to FHIR R4 element `MedicationDispense.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.quantity"/>
+      <display value="quantity"/>
+      <target>
+        <code value="MedicationDispense.quantity"/>
+        <display value="MedicationDispense.quantity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.quantity` is mapped to FHIR R4 element `MedicationDispense.quantity` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.daysSupply"/>
+      <display value="daysSupply"/>
+      <target>
+        <code value="MedicationDispense.daysSupply"/>
+        <display value="MedicationDispense.daysSupply"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.daysSupply` is mapped to FHIR R4 element `MedicationDispense.daysSupply` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.whenPrepared"/>
+      <display value="whenPrepared"/>
+      <target>
+        <code value="MedicationDispense.whenPrepared"/>
+        <display value="MedicationDispense.whenPrepared"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.whenPrepared` is mapped to FHIR R4 element `MedicationDispense.whenPrepared` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.whenHandedOver"/>
+      <display value="whenHandedOver"/>
+      <target>
+        <code value="MedicationDispense.whenHandedOver"/>
+        <display value="MedicationDispense.whenHandedOver"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.whenHandedOver` is mapped to FHIR R4 element `MedicationDispense.whenHandedOver` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.destination"/>
+      <display value="destination"/>
+      <target>
+        <code value="MedicationDispense.destination"/>
+        <display value="MedicationDispense.destination"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.destination` is mapped to FHIR R4 element `MedicationDispense.destination` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.receiver"/>
+      <display value="receiver"/>
+      <target>
+        <code value="MedicationDispense.receiver"/>
+        <display value="MedicationDispense.receiver"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.receiver` is mapped to FHIR R4 element `MedicationDispense.receiver` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.receiver` with unmapped reference targets: Location, PractitionerRole, RelatedPerson."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.note"/>
+      <display value="note"/>
+      <target>
+        <code value="MedicationDispense.note"/>
+        <display value="MedicationDispense.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.note` is mapped to FHIR R4 element `MedicationDispense.note` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.dosageInstruction"/>
+      <display value="dosageInstruction"/>
+      <target>
+        <code value="MedicationDispense.dosageInstruction"/>
+        <display value="MedicationDispense.dosageInstruction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.dosageInstruction` is mapped to FHIR R4 element `MedicationDispense.dosageInstruction` as `Equivalent`.&#xA;When the dose or rate is intended to change over the entire administration period (e.g. Tapering dose prescriptions), multiple instances of dosage instructions will need to be supplied to convey the different doses/rates.&#xD;The pharmacist reviews the medication order prior to dispense and updates the dosageInstruction based on the actual product being dispensed."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.substitution"/>
+      <display value="substitution"/>
+      <target>
+        <code value="MedicationDispense.substitution"/>
+        <display value="MedicationDispense.substitution"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.substitution` is mapped to FHIR R4 element `MedicationDispense.substitution` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.substitution.wasSubstituted"/>
+      <display value="wasSubstituted"/>
+      <target>
+        <code value="MedicationDispense.substitution.wasSubstituted"/>
+        <display value="MedicationDispense.substitution.wasSubstituted"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.substitution.wasSubstituted` is mapped to FHIR R4 element `MedicationDispense.substitution.wasSubstituted` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.substitution.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationDispense.substitution.type"/>
+        <display value="MedicationDispense.substitution.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.substitution.type` is mapped to FHIR R4 element `MedicationDispense.substitution.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.substitution.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="MedicationDispense.substitution.reason"/>
+        <display value="MedicationDispense.substitution.reason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.substitution.reason` is mapped to FHIR R4 element `MedicationDispense.substitution.reason` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.substitution.responsibleParty"/>
+      <display value="responsibleParty"/>
+      <target>
+        <code value="MedicationDispense.substitution.responsibleParty"/>
+        <display value="MedicationDispense.substitution.responsibleParty"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.substitution.responsibleParty` is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty` as `RelatedTo`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with unmapped reference targets: Organization."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.eventHistory"/>
+      <display value="eventHistory"/>
+      <target>
+        <code value="MedicationDispense.eventHistory"/>
+        <display value="MedicationDispense.eventHistory"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationDispense.eventHistory` is mapped to FHIR R4 element `MedicationDispense.eventHistory` as `Equivalent`.&#xA;This might not include provenances for all versions of the request – only those deemed “relevant” or important. This SHALL NOT include the Provenance associated with this current version of the resource. (If that provenance is deemed to be a “relevant” change, it will need to be added as part of a later update. Until then, it can be queried directly as the Provenance that points to this version using _revinclude All Provenances should have some historical version of this Request as their subject.)."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MedicationDispense"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="MedicationDispense.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.basedOn"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.basedOn` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.&#xA;Element `MedicationDispense.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.statusChanged"/>
+      <display value="statusChanged"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.statusChanged"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.statusChanged` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.&#xA;Element `MedicationDispense.statusChanged` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.recorded"/>
+      <display value="recorded"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.recorded` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.&#xA;Element `MedicationDispense.recorded` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.renderedDosageInstruction"/>
+      <display value="renderedDosageInstruction"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.renderedDosageInstruction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationDispense.renderedDosageInstruction` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.&#xA;Element `MedicationDispense.renderedDosageInstruction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The content of the renderedDosageInstructions must not be different than the dose represented in the dosageInstruction content."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MedicationDispense"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="MedicationDispense.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.performer.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.receiver"/>
+      <display value="receiver"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationDispense.substitution.responsibleParty"/>
+      <display value="responsibleParty"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

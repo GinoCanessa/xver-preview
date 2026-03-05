@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Transport-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Transport-element-map-to-R4</b></p><a name="R5-Transport-element-map-to-R4"> </a><a name="hcR5-Transport-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Transport|5.0.0</code> to <a href="http://hl7.org/fhir/R4/basic.html">Basicversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Transport.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.meta</td><td>Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.
+Element `Transport.meta` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.implicitRules</td><td>Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.
+Element `Transport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Transport.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.language</td><td>Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.
+Element `Transport.language` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Transport.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.text</td><td>Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.
+Element `Transport.text` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Transport.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.contained</td><td>Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.
+Element `Transport.contained` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Transport.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.identifier</td><td>Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.
+Element `Transport.identifier` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This identifier is typically assigned by the dispenser, and may be used to reference the delivery when exchanging information about it with other systems.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Transport|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Transport.instantiatesCanonical (instantiatesCanonical)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesCanonical</td><td>Element `Transport.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.instantiatesCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.instantiatesUri (instantiatesUri)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesUri</td><td>Element `Transport.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.instantiatesUri` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.basedOn</td><td>Element `Transport.basedOn` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.groupIdentifier (groupIdentifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.groupIdentifier</td><td>Element `Transport.groupIdentifier` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.groupIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.partOf</td><td>Element `Transport.partOf` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.partOf` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Not to be used to link an event to an Encounter - use Event.context for that.[The allowed reference resources may be adjusted as appropriate for the event resource].</td></tr><tr><td>Transport.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.status</td><td>Element `Transport.status` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.statusReason (statusReason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.statusReason</td><td>Element `Transport.statusReason` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.statusReason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This applies to the current status.  Look at the history of the transport to see reasons for past statuses.</td></tr><tr><td>Transport.intent (intent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.intent</td><td>Element `Transport.intent` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.intent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element is immutable.  Proposed transports, planned transports, etc. must be distinct instances.
+
+In most cases, Transports will have an intent of &quot;order&quot;.</td></tr><tr><td>Transport.priority (priority)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.priority</td><td>Element `Transport.priority` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.priority` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.code</td><td>Element `Transport.code` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The title (eg &quot;My Transports&quot;, &quot;Outstanding Transports for Patient X&quot;) should go into the code.</td></tr><tr><td>Transport.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.description</td><td>Element `Transport.description` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.focus (focus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.focus</td><td>Element `Transport.focus` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If multiple resources need to be manipulated, use sub-transports.  (This ensures that status can be tracked independently for each referenced resource.).</td></tr><tr><td>Transport.for (for)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.for</td><td>Element `Transport.for` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.for` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.encounter (encounter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.encounter</td><td>Element `Transport.encounter` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.completionTime (completionTime)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.completionTime</td><td>Element `Transport.completionTime` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.completionTime` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.authoredOn (authoredOn)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.authoredOn</td><td>Element `Transport.authoredOn` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.authoredOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.lastModified (lastModified)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.lastModified</td><td>Element `Transport.lastModified` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.lastModified` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.requester (requester)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requester</td><td>Element `Transport.requester` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.requester` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.performerType (performerType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.performerType</td><td>Element `Transport.performerType` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.performerType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.owner (owner)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.owner</td><td>Element `Transport.owner` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.owner` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Transports may be created with an owner not yet identified.</td></tr><tr><td>Transport.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.location</td><td>Element `Transport.location` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.insurance (insurance)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.insurance</td><td>Element `Transport.insurance` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.insurance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.note</td><td>Element `Transport.note` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.relevantHistory (relevantHistory)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.relevantHistory</td><td>Element `Transport.relevantHistory` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.relevantHistory` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element does not point to the Provenance associated with the *current* version of the resource - as it would be created after this version existed.  The Provenance for the current version can be retrieved with a _revinclude.</td></tr><tr><td>Transport.restriction (restriction)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction</td><td>Element `Transport.restriction` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.restriction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.restriction.repetitions (repetitions)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:repetitions</td><td>Element `Transport.restriction.repetitions` is part of an existing definition because parent element `Transport.restriction` requires a cross-version extension.
+Element `Transport.restriction.repetitions` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.restriction.repetitions` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.restriction.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:period</td><td>Element `Transport.restriction.period` is part of an existing definition because parent element `Transport.restriction` requires a cross-version extension.
+Element `Transport.restriction.period` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.restriction.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Note that period.high is the due date representing the time by which the transport should be completed.</td></tr><tr><td>Transport.restriction.recipient (recipient)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:recipient</td><td>Element `Transport.restriction.recipient` is part of an existing definition because parent element `Transport.restriction` requires a cross-version extension.
+Element `Transport.restriction.recipient` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.restriction.recipient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.input (input)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input</td><td>Element `Transport.input` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.input` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.input.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:type</td><td>Element `Transport.input.type` is part of an existing definition because parent element `Transport.input` requires a cross-version extension.
+Element `Transport.input.type` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.input.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If referencing a BPMN workflow or Protocol, the &quot;system&quot; is the URL for the workflow definition and the code is the &quot;name&quot; of the required input.</td></tr><tr><td>Transport.input.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:value</td><td>Element `Transport.input.value[x]` is part of an existing definition because parent element `Transport.input` requires a cross-version extension.
+Element `Transport.input.value[x]` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.input.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.output (output)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output</td><td>Element `Transport.output` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.output` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.output.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:type</td><td>Element `Transport.output.type` is part of an existing definition because parent element `Transport.output` requires a cross-version extension.
+Element `Transport.output.type` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.output.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.output.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:value</td><td>Element `Transport.output.value[x]` is part of an existing definition because parent element `Transport.output` requires a cross-version extension.
+Element `Transport.output.value[x]` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.output.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.requestedLocation (requestedLocation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requestedLocation</td><td>Element `Transport.requestedLocation` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.requestedLocation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.currentLocation (currentLocation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.currentLocation</td><td>Element `Transport.currentLocation` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.currentLocation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Transport.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.reason</td><td>Element `Transport.reason` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Transports might be justified based on an Observation, a Condition, a past or planned procedure, etc. This should only be included if there is no focus or if it differs from the reason indicated on the focus.    Use the CodeableConcept text element in `Transport.reasonCode` if the data is free (uncoded) text.</td></tr><tr><td>Transport.history (history)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.history</td><td>Element `Transport.history` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.
+Element `Transport.history` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Transport-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5TransportElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Transport to FHIR R4 Basic"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:53.4247074-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Transport to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Transport"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Basic"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Transport.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Basic.meta"/>
+        <display value="Basic.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.&#xA;Element `Transport.meta` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Basic.implicitRules"/>
+        <display value="Basic.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.&#xA;Element `Transport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Basic.language"/>
+        <display value="Basic.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.&#xA;Element `Transport.language` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Basic.text"/>
+        <display value="Basic.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.&#xA;Element `Transport.text` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Basic.contained"/>
+        <display value="Basic.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.&#xA;Element `Transport.contained` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Basic.identifier"/>
+        <display value="Basic.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.&#xA;Element `Transport.identifier` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This identifier is typically assigned by the dispenser, and may be used to reference the delivery when exchanging information about it with other systems."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Transport"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Transport.instantiatesCanonical"/>
+      <display value="instantiatesCanonical"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesCanonical"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.instantiatesCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.instantiatesUri"/>
+      <display value="instantiatesUri"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesUri"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.instantiatesUri` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.basedOn"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.basedOn` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.groupIdentifier"/>
+      <display value="groupIdentifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.groupIdentifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.groupIdentifier` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.groupIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.partOf"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.partOf` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.partOf` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Not to be used to link an event to an Encounter - use Event.context for that.&#xD;&#xD;[The allowed reference resources may be adjusted as appropriate for the event resource]."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.status"/>
+      <display value="status"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.status"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.status` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.statusReason"/>
+      <display value="statusReason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.statusReason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.statusReason` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.statusReason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This applies to the current status.  Look at the history of the transport to see reasons for past statuses."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.intent"/>
+      <display value="intent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.intent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.intent` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.intent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element is immutable.  Proposed transports, planned transports, etc. must be distinct instances.&#xA;&#xA;In most cases, Transports will have an intent of &quot;order&quot;."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.priority"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.priority` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.priority` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.code` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The title (eg &quot;My Transports&quot;, &quot;Outstanding Transports for Patient X&quot;) should go into the code."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.description"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.description` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.focus"/>
+      <display value="focus"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.focus"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.focus` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If multiple resources need to be manipulated, use sub-transports.  (This ensures that status can be tracked independently for each referenced resource.)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.for"/>
+      <display value="for"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.for"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.for` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.for` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.encounter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.encounter` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.completionTime"/>
+      <display value="completionTime"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.completionTime"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.completionTime` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.completionTime` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.authoredOn"/>
+      <display value="authoredOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.authoredOn"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.authoredOn` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.authoredOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.lastModified"/>
+      <display value="lastModified"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.lastModified"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.lastModified` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.lastModified` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.requester"/>
+      <display value="requester"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requester"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.requester` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.requester` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.performerType"/>
+      <display value="performerType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.performerType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.performerType` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.performerType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.owner"/>
+      <display value="owner"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.owner"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.owner` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.owner` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Transports may be created with an owner not yet identified."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.location"/>
+      <display value="location"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.location"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.location` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.insurance"/>
+      <display value="insurance"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.insurance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.insurance` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.insurance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.note"/>
+      <display value="note"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.note"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.note` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.relevantHistory"/>
+      <display value="relevantHistory"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.relevantHistory"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.relevantHistory` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.relevantHistory` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element does not point to the Provenance associated with the *current* version of the resource - as it would be created after this version existed.  The Provenance for the current version can be retrieved with a _revinclude."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.restriction"/>
+      <display value="restriction"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.restriction` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.restriction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.restriction.repetitions"/>
+      <display value="repetitions"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:repetitions"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.restriction.repetitions` is part of an existing definition because parent element `Transport.restriction` requires a cross-version extension.&#xA;Element `Transport.restriction.repetitions` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.restriction.repetitions` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.restriction.period"/>
+      <display value="period"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:period"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.restriction.period` is part of an existing definition because parent element `Transport.restriction` requires a cross-version extension.&#xA;Element `Transport.restriction.period` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.restriction.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Note that period.high is the due date representing the time by which the transport should be completed."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.restriction.recipient"/>
+      <display value="recipient"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:recipient"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.restriction.recipient` is part of an existing definition because parent element `Transport.restriction` requires a cross-version extension.&#xA;Element `Transport.restriction.recipient` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.restriction.recipient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.input"/>
+      <display value="input"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.input` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.input` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.input.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.input.type` is part of an existing definition because parent element `Transport.input` requires a cross-version extension.&#xA;Element `Transport.input.type` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.input.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If referencing a BPMN workflow or Protocol, the &quot;system&quot; is the URL for the workflow definition and the code is the &quot;name&quot; of the required input."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.input.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.input.value[x]` is part of an existing definition because parent element `Transport.input` requires a cross-version extension.&#xA;Element `Transport.input.value[x]` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.input.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.output"/>
+      <display value="output"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.output` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.output` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.output.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.output.type` is part of an existing definition because parent element `Transport.output` requires a cross-version extension.&#xA;Element `Transport.output.type` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.output.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.output.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.output.value[x]` is part of an existing definition because parent element `Transport.output` requires a cross-version extension.&#xA;Element `Transport.output.value[x]` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.output.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.requestedLocation"/>
+      <display value="requestedLocation"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requestedLocation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.requestedLocation` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.requestedLocation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.currentLocation"/>
+      <display value="currentLocation"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.currentLocation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.currentLocation` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.currentLocation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.reason` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Transports might be justified based on an Observation, a Condition, a past or planned procedure, etc. This should only be included if there is no focus or if it differs from the reason indicated on the focus.    Use the CodeableConcept text element in `Transport.reasonCode` if the data is free (uncoded) text."/>
+      </target>
+    </element>
+    <element>
+      <code value="Transport.history"/>
+      <display value="history"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.history"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Transport.history` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped.&#xA;Element `Transport.history` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

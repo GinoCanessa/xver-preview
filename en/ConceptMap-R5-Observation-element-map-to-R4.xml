@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Observation-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Observation-element-map-to-R4</b></p><a name="R5-Observation-element-map-to-R4"> </a><a name="hcR5-Observation-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Observation|5.0.0</code> to <a href="http://hl7.org/fhir/R4/observation.html">Observationversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Observation.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.meta</td><td>Element `Observation.meta` is mapped to FHIR R4 element `Observation.meta` as `Equivalent`.</td></tr><tr><td>Observation.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.implicitRules</td><td>Element `Observation.implicitRules` is mapped to FHIR R4 element `Observation.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Observation.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.language</td><td>Element `Observation.language` is mapped to FHIR R4 element `Observation.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Observation.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.text</td><td>Element `Observation.text` is mapped to FHIR R4 element `Observation.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Observation.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.contained</td><td>Element `Observation.contained` is mapped to FHIR R4 element `Observation.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Observation.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.identifier</td><td>Element `Observation.identifier` is mapped to FHIR R4 element `Observation.identifier` as `Equivalent`.</td></tr><tr><td>Observation.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.basedOn</td><td>Element `Observation.basedOn` is mapped to FHIR R4 element `Observation.basedOn` as `Equivalent`.</td></tr><tr><td>Observation.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.partOf</td><td>Element `Observation.partOf` is mapped to FHIR R4 element `Observation.partOf` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.partOf` with unmapped reference targets: GenomicStudy.
+To link an Observation to an Encounter use `encounter`.  See the  [Notes](https://hl7.org/fhir/observation..html#obsgrouping) below for guidance on referencing another Observation.</td></tr><tr><td>Observation.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.status</td><td>Element `Observation.status` is mapped to FHIR R4 element `Observation.status` as `Equivalent`.
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>Observation.category (category)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.category</td><td>Element `Observation.category` is mapped to FHIR R4 element `Observation.category` as `Equivalent`.
+In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.</td></tr><tr><td>Observation.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.code</td><td>Element `Observation.code` is mapped to FHIR R4 element `Observation.code` as `Equivalent`.
+*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.</td></tr><tr><td>Observation.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.subject</td><td>Element `Observation.subject` is mapped to FHIR R4 element `Observation.subject` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.subject` with unmapped reference targets: BiologicallyDerivedProduct, Medication, NutritionProduct, Organization, Practitioner, Procedure, Substance.
+One would expect this element to be a cardinality of 1..1. The only circumstance in which the subject can be missing is when the observation is made by a device that does not know the patient. In this case, the observation SHALL be matched to a patient through some context/channel matching technique, and at this point, the observation should be updated. The subject of an Observation may in some cases be a procedure.  This supports the regulatory inspection use case where observations are captured during inspections of a procedure that is being performed (independent of any particular patient or whether patient related at all).</td></tr><tr><td>Observation.focus (focus)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.focus</td><td>Element `Observation.focus` is mapped to FHIR R4 element `Observation.focus` as `Equivalent`.
+Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension [http://hl7.org/fhir/StructureDefinition/observation-focusCode](http://hl7.org/fhir/extensions/StructureDefinition-observation-focusCode.html).</td></tr><tr><td>Observation.encounter (encounter)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.encounter</td><td>Element `Observation.encounter` is mapped to FHIR R4 element `Observation.encounter` as `Equivalent`.
+This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter (e.g. pre-admission laboratory tests).</td></tr><tr><td>Observation.effective[x] (effective[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.effective[x]</td><td>Element `Observation.effective[x]` is mapped to FHIR R4 element `Observation.effective[x]` as `Equivalent`.
+The target context `Observation.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.
+At least a date should be present unless this observation is a historical report.  For recording imprecise or &quot;fuzzy&quot; times (For example, a blood glucose measurement taken &quot;after breakfast&quot;) use the [Timing](https://hl7.org/fhir/datatyp.html#timing) datatype which allow the measurement to be tied to regular life events.</td></tr><tr><td>Observation.issued (issued)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.issued</td><td>Element `Observation.issued` is mapped to FHIR R4 element `Observation.issued` as `Equivalent`.
+For Observations that don't require review and verification, it may be the same as the [`lastUpdated` ](https://hl7.org/fhir/resource-definiti.html#Meta.lastUpdated) time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn't require the new version to be reviewed and verified again.</td></tr><tr><td>Observation.performer (performer)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.performer</td><td>Element `Observation.performer` is mapped to FHIR R4 element `Observation.performer` as `Equivalent`.</td></tr><tr><td>Observation.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.value[x]</td><td>Element `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `Observation.value[x]` do not cover the following types: Attachment, Reference.
+The target context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.
+- An observation may have:
+  1.  a single value here
+  1.  both a value and a set of related or component values
+  1.  only a set of related or component values.
+-  If a value is present, the datatype for this element should be determined by the `code`.
+-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
+-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
+- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .
+- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below.</td></tr><tr><td>Observation.dataAbsentReason (dataAbsentReason)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.dataAbsentReason</td><td>Element `Observation.dataAbsentReason` is mapped to FHIR R4 element `Observation.dataAbsentReason` as `Equivalent`.
+Null or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  &quot;detected&quot;, &quot;not detected&quot;, &quot;inconclusive&quot;, or  &quot;specimen unsatisfactory&quot;.   
+
+The alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code &quot;error&quot; could be used when the measurement was not completed. Note that an observation may only be reported if there are values to report. For example differential cell counts values may be reported only when &gt; 0.  Because of these options, use-case agreements are required to interpret general observations for null or exceptional values.</td></tr><tr><td>Observation.interpretation (interpretation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.interpretation</td><td>Element `Observation.interpretation` is mapped to FHIR R4 element `Observation.interpretation` as `Equivalent`.
+Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result.</td></tr><tr><td>Observation.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.note</td><td>Element `Observation.note` is mapped to FHIR R4 element `Observation.note` as `Equivalent`.
+May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation.</td></tr><tr><td>Observation.bodySite (bodySite)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.bodySite</td><td>Element `Observation.bodySite` is mapped to FHIR R4 element `Observation.bodySite` as `Equivalent`.
+Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component.</td></tr><tr><td>Observation.method (method)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.method</td><td>Element `Observation.method` is mapped to FHIR R4 element `Observation.method` as `Equivalent`.
+Only used if not implicit in code for Observation.code.</td></tr><tr><td>Observation.specimen (specimen)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.specimen</td><td>Element `Observation.specimen` is mapped to FHIR R4 element `Observation.specimen` as `SourceIsBroaderThanTarget`.
+The mappings for `Observation.specimen` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.specimen` with unmapped reference targets: Group.
+Should only be used if not implicit in code found in `Observation.code`.  Observations are not made on specimens themselves; they are made on a subject, but in many cases by the means of a specimen. Note that although specimens are often involved, they are not always tracked and reported explicitly. Also note that observation resources may be used in contexts that track the specimen explicitly (e.g. Diagnostic Report).</td></tr><tr><td>Observation.device (device)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.device</td><td>Element `Observation.device` is mapped to FHIR R4 element `Observation.device` as `Equivalent`.
+Note that this is not meant to represent a device involved in the transmission of the result, e.g., a gateway.  Such devices may be documented using the Provenance resource where relevant.</td></tr><tr><td>Observation.referenceRange (referenceRange)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.referenceRange</td><td>Element `Observation.referenceRange` is mapped to FHIR R4 element `Observation.referenceRange` as `Equivalent`.
+Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties.</td></tr><tr><td>Observation.referenceRange.low (low)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.referenceRange.low</td><td>Element `Observation.referenceRange.low` is mapped to FHIR R4 element `Observation.referenceRange.low` as `Equivalent`.</td></tr><tr><td>Observation.referenceRange.high (high)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.referenceRange.high</td><td>Element `Observation.referenceRange.high` is mapped to FHIR R4 element `Observation.referenceRange.high` as `Equivalent`.</td></tr><tr><td>Observation.referenceRange.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.referenceRange.type</td><td>Element `Observation.referenceRange.type` is mapped to FHIR R4 element `Observation.referenceRange.type` as `Equivalent`.
+This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed.</td></tr><tr><td>Observation.referenceRange.appliesTo (appliesTo)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.referenceRange.appliesTo</td><td>Element `Observation.referenceRange.appliesTo` is mapped to FHIR R4 element `Observation.referenceRange.appliesTo` as `Equivalent`.
+This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed.</td></tr><tr><td>Observation.referenceRange.age (age)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.referenceRange.age</td><td>Element `Observation.referenceRange.age` is mapped to FHIR R4 element `Observation.referenceRange.age` as `Equivalent`.</td></tr><tr><td>Observation.referenceRange.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.referenceRange.text</td><td>Element `Observation.referenceRange.text` is mapped to FHIR R4 element `Observation.referenceRange.text` as `Equivalent`.</td></tr><tr><td>Observation.hasMember (hasMember)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.hasMember</td><td>Element `Observation.hasMember` is mapped to FHIR R4 element `Observation.hasMember` as `Equivalent`.
+When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes](https://hl7.org/fhir/observation..html#obsgrouping) below.  Note that a system may calculate results from [QuestionnaireResponse](https://hl7.org/fhir/questionnaireresponse.html)  into a final score and represent the score as an Observation.</td></tr><tr><td>Observation.derivedFrom (derivedFrom)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.derivedFrom</td><td>Element `Observation.derivedFrom` is mapped to FHIR R4 element `Observation.derivedFrom` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.derivedFrom` with unmapped reference targets: DocumentReference, GenomicStudy, ImagingSelection.
+All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes](https://hl7.org/fhir/observation..html#obsgrouping) below.</td></tr><tr><td>Observation.component (component)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.component</td><td>Element `Observation.component` is mapped to FHIR R4 element `Observation.component` as `Equivalent`.
+For a discussion on the ways Observations can be assembled in groups together see [Notes](https://hl7.org/fhir/observ.html#notes) below.</td></tr><tr><td>Observation.component.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.component.code</td><td>Element `Observation.component.code` is mapped to FHIR R4 element `Observation.component.code` as `Equivalent`.
+*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.</td></tr><tr><td>Observation.component.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Observation.component.value[x]</td><td>Element `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `Observation.component.value[x]` do not cover the following types: Attachment, Reference.
+The target context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.
+Used when observation has a set of component observations:
+-  An observation may have both a value (e.g. an  Apgar score) and component observations (the observations from which the Apgar score was derived). 
+-  If a value is present, the datatype for this element should be determined by the `code`.
+-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
+-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
+- If a value is present, the datatype for this element should be determined by the `code`.
+-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
+-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
+- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .
+- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below.</td></tr><tr><td>Observation.component.dataAbsentReason (dataAbsentReason)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.component.dataAbsentReason</td><td>Element `Observation.component.dataAbsentReason` is mapped to FHIR R4 element `Observation.component.dataAbsentReason` as `Equivalent`.
+&quot;Null&quot; or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  &quot;detected&quot;, &quot;not detected&quot;, &quot;inconclusive&quot;, or  &quot;test not done&quot;. 
+
+The alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code &quot;error&quot; could be used when the measurement was not completed.  Because of these options, use-case agreements are required to interpret general observations for exceptional values.</td></tr><tr><td>Observation.component.interpretation (interpretation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.component.interpretation</td><td>Element `Observation.component.interpretation` is mapped to FHIR R4 element `Observation.component.interpretation` as `Equivalent`.
+Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result.</td></tr><tr><td>Observation.component.referenceRange (referenceRange)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Observation.component.referenceRange</td><td>Element `Observation.component.referenceRange` is mapped to FHIR R4 element `Observation.component.referenceRange` as `Equivalent`.
+Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Observation|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Observation.instantiates[x] (instantiates[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.instantiates</td><td>Element `Observation.instantiates[x]` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.instantiates[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+ObservationDefinition can be referenced by its canonical url using instantiatesCanonical, or by a name or an identifier using the appropriate sub-elements of instantiatesReference.</td></tr><tr><td>Observation.triggeredBy (triggeredBy)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy</td><td>Element `Observation.triggeredBy` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.triggeredBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Observation.triggeredBy.observation (observation)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:observation</td><td>Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.
+Element `Observation.triggeredBy.observation` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.triggeredBy.observation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Observation.triggeredBy.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:type</td><td>Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.
+Element `Observation.triggeredBy.type` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.triggeredBy.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Observation.triggeredBy.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:reason</td><td>Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.
+Element `Observation.triggeredBy.reason` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.triggeredBy.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Observation.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value</td><td>Element `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `Observation.value[x]` do not cover the following types: Attachment, Reference.
+The target context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.
+- An observation may have:
+  1.  a single value here
+  1.  both a value and a set of related or component values
+  1.  only a set of related or component values.
+-  If a value is present, the datatype for this element should be determined by the `code`.
+-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
+-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
+- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .
+- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below.</td></tr><tr><td>Observation.bodyStructure (bodyStructure)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure</td><td>Element `Observation.bodyStructure` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.bodyStructure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Only used if not implicit in code found in Observation.code or bodySite is used. In many systems, this may be represented as a related observation instead of an inline component.</td></tr><tr><td>Observation.referenceRange.normalValue (normalValue)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue</td><td>Element `Observation.referenceRange.normalValue` has a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.
+Element `Observation.referenceRange.normalValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Observation.component.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value</td><td>Element `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `Observation.component.value[x]` do not cover the following types: Attachment, Reference.
+The target context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.
+Used when observation has a set of component observations:
+-  An observation may have both a value (e.g. an  Apgar score) and component observations (the observations from which the Apgar score was derived). 
+-  If a value is present, the datatype for this element should be determined by the `code`.
+-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
+-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
+- If a value is present, the datatype for this element should be determined by the `code`.
+-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.
+-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.
+- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .
+- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Observation|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Observation.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Observation.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Observation.specimen (specimen)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Observation.derivedFrom (derivedFrom)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Observation-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ObservationElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Observation to FHIR R4 Observation"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:50.6231317-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Observation to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Observation.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Observation.meta"/>
+        <display value="Observation.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.meta` is mapped to FHIR R4 element `Observation.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Observation.implicitRules"/>
+        <display value="Observation.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.implicitRules` is mapped to FHIR R4 element `Observation.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Observation.language"/>
+        <display value="Observation.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.language` is mapped to FHIR R4 element `Observation.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Observation.text"/>
+        <display value="Observation.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.text` is mapped to FHIR R4 element `Observation.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Observation.contained"/>
+        <display value="Observation.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.contained` is mapped to FHIR R4 element `Observation.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Observation.identifier"/>
+        <display value="Observation.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.identifier` is mapped to FHIR R4 element `Observation.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="Observation.basedOn"/>
+        <display value="Observation.basedOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.basedOn` is mapped to FHIR R4 element `Observation.basedOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="Observation.partOf"/>
+        <display value="Observation.partOf"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.partOf` is mapped to FHIR R4 element `Observation.partOf` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.partOf` with unmapped reference targets: GenomicStudy.&#xA;To link an Observation to an Encounter use `encounter`.  See the  [Notes](https://hl7.org/fhir/observation..html#obsgrouping) below for guidance on referencing another Observation."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Observation.status"/>
+        <display value="Observation.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.status` is mapped to FHIR R4 element `Observation.status` as `Equivalent`.&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.category"/>
+      <display value="category"/>
+      <target>
+        <code value="Observation.category"/>
+        <display value="Observation.category"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.category` is mapped to FHIR R4 element `Observation.category` as `Equivalent`.&#xA;In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.code"/>
+      <display value="code"/>
+      <target>
+        <code value="Observation.code"/>
+        <display value="Observation.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.code` is mapped to FHIR R4 element `Observation.code` as `Equivalent`.&#xA;*All* code-value and, if present, component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="Observation.subject"/>
+        <display value="Observation.subject"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.subject` is mapped to FHIR R4 element `Observation.subject` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.subject` with unmapped reference targets: BiologicallyDerivedProduct, Medication, NutritionProduct, Organization, Practitioner, Procedure, Substance.&#xA;One would expect this element to be a cardinality of 1..1. The only circumstance in which the subject can be missing is when the observation is made by a device that does not know the patient. In this case, the observation SHALL be matched to a patient through some context/channel matching technique, and at this point, the observation should be updated. The subject of an Observation may in some cases be a procedure.  This supports the regulatory inspection use case where observations are captured during inspections of a procedure that is being performed (independent of any particular patient or whether patient related at all)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.focus"/>
+      <display value="focus"/>
+      <target>
+        <code value="Observation.focus"/>
+        <display value="Observation.focus"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.focus` is mapped to FHIR R4 element `Observation.focus` as `Equivalent`.&#xA;Typically, an observation is made about the subject - a patient, or group of patients, location, or device - and the distinction between the subject and what is directly measured for an observation is specified in the observation code itself ( e.g., &quot;Blood Glucose&quot;) and does not need to be represented separately using this element.  Use `specimen` if a reference to a specimen is required.  If a code is required instead of a resource use either  `bodysite` for bodysites or the standard extension [http://hl7.org/fhir/StructureDefinition/observation-focusCode](http://hl7.org/fhir/extensions/StructureDefinition-observation-focusCode.html)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="Observation.encounter"/>
+        <display value="Observation.encounter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.encounter` is mapped to FHIR R4 element `Observation.encounter` as `Equivalent`.&#xA;This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter (e.g. pre-admission laboratory tests)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.effective[x]"/>
+      <display value="effective[x]"/>
+      <target>
+        <code value="Observation.effective[x]"/>
+        <display value="Observation.effective[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.effective[x]` is mapped to FHIR R4 element `Observation.effective[x]` as `Equivalent`.&#xA;The target context `Observation.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.&#xA;At least a date should be present unless this observation is a historical report.  For recording imprecise or &quot;fuzzy&quot; times (For example, a blood glucose measurement taken &quot;after breakfast&quot;) use the [Timing](https://hl7.org/fhir/datatyp.html#timing) datatype which allow the measurement to be tied to regular life events."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.issued"/>
+      <display value="issued"/>
+      <target>
+        <code value="Observation.issued"/>
+        <display value="Observation.issued"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.issued` is mapped to FHIR R4 element `Observation.issued` as `Equivalent`.&#xA;For Observations that don't require review and verification, it may be the same as the [`lastUpdated` ](https://hl7.org/fhir/resource-definiti.html#Meta.lastUpdated) time of the resource itself.  For Observations that do require review and verification for certain updates, it might not be the same as the `lastUpdated` time of the resource itself due to a non-clinically significant update that doesn't require the new version to be reviewed and verified again."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.performer"/>
+      <display value="performer"/>
+      <target>
+        <code value="Observation.performer"/>
+        <display value="Observation.performer"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.performer` is mapped to FHIR R4 element `Observation.performer` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="Observation.value[x]"/>
+        <display value="Observation.value[x]"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Observation.value[x]` do not cover the following types: Attachment, Reference.&#xA;The target context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.&#xA;- An observation may have:&#xA;  1.  a single value here&#xA;  1.  both a value and a set of related or component values&#xA;  1.  only a set of related or component values.&#xA;-  If a value is present, the datatype for this element should be determined by the `code`.&#xA;-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.&#xA;-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.&#xA;- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .&#xA;- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.dataAbsentReason"/>
+      <display value="dataAbsentReason"/>
+      <target>
+        <code value="Observation.dataAbsentReason"/>
+        <display value="Observation.dataAbsentReason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.dataAbsentReason` is mapped to FHIR R4 element `Observation.dataAbsentReason` as `Equivalent`.&#xA;Null or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  &quot;detected&quot;, &quot;not detected&quot;, &quot;inconclusive&quot;, or  &quot;specimen unsatisfactory&quot;.   &#xA;&#xA;The alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code &quot;error&quot; could be used when the measurement was not completed. Note that an observation may only be reported if there are values to report. For example differential cell counts values may be reported only when &gt; 0.  Because of these options, use-case agreements are required to interpret general observations for null or exceptional values."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.interpretation"/>
+      <display value="interpretation"/>
+      <target>
+        <code value="Observation.interpretation"/>
+        <display value="Observation.interpretation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.interpretation` is mapped to FHIR R4 element `Observation.interpretation` as `Equivalent`.&#xA;Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.note"/>
+      <display value="note"/>
+      <target>
+        <code value="Observation.note"/>
+        <display value="Observation.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.note` is mapped to FHIR R4 element `Observation.note` as `Equivalent`.&#xA;May include general statements about the observation, or statements about significant, unexpected or unreliable results values, or information about its source when relevant to its interpretation."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="Observation.bodySite"/>
+        <display value="Observation.bodySite"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.bodySite` is mapped to FHIR R4 element `Observation.bodySite` as `Equivalent`.&#xA;Only used if not implicit in code found in Observation.code.  In many systems, this may be represented as a related observation instead of an inline component."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.method"/>
+      <display value="method"/>
+      <target>
+        <code value="Observation.method"/>
+        <display value="Observation.method"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.method` is mapped to FHIR R4 element `Observation.method` as `Equivalent`.&#xA;Only used if not implicit in code for Observation.code."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.specimen"/>
+      <display value="specimen"/>
+      <target>
+        <code value="Observation.specimen"/>
+        <display value="Observation.specimen"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.specimen` is mapped to FHIR R4 element `Observation.specimen` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Observation.specimen` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.specimen` with unmapped reference targets: Group.&#xA;Should only be used if not implicit in code found in `Observation.code`.  Observations are not made on specimens themselves; they are made on a subject, but in many cases by the means of a specimen. Note that although specimens are often involved, they are not always tracked and reported explicitly. Also note that observation resources may be used in contexts that track the specimen explicitly (e.g. Diagnostic Report)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.device"/>
+      <display value="device"/>
+      <target>
+        <code value="Observation.device"/>
+        <display value="Observation.device"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.device` is mapped to FHIR R4 element `Observation.device` as `Equivalent`.&#xA;Note that this is not meant to represent a device involved in the transmission of the result, e.g., a gateway.  Such devices may be documented using the Provenance resource where relevant."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange"/>
+      <display value="referenceRange"/>
+      <target>
+        <code value="Observation.referenceRange"/>
+        <display value="Observation.referenceRange"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.referenceRange` is mapped to FHIR R4 element `Observation.referenceRange` as `Equivalent`.&#xA;Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.low"/>
+      <display value="low"/>
+      <target>
+        <code value="Observation.referenceRange.low"/>
+        <display value="Observation.referenceRange.low"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.referenceRange.low` is mapped to FHIR R4 element `Observation.referenceRange.low` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.high"/>
+      <display value="high"/>
+      <target>
+        <code value="Observation.referenceRange.high"/>
+        <display value="Observation.referenceRange.high"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.referenceRange.high` is mapped to FHIR R4 element `Observation.referenceRange.high` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Observation.referenceRange.type"/>
+        <display value="Observation.referenceRange.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.referenceRange.type` is mapped to FHIR R4 element `Observation.referenceRange.type` as `Equivalent`.&#xA;This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.appliesTo"/>
+      <display value="appliesTo"/>
+      <target>
+        <code value="Observation.referenceRange.appliesTo"/>
+        <display value="Observation.referenceRange.appliesTo"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.referenceRange.appliesTo` is mapped to FHIR R4 element `Observation.referenceRange.appliesTo` as `Equivalent`.&#xA;This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.age"/>
+      <display value="age"/>
+      <target>
+        <code value="Observation.referenceRange.age"/>
+        <display value="Observation.referenceRange.age"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.referenceRange.age` is mapped to FHIR R4 element `Observation.referenceRange.age` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Observation.referenceRange.text"/>
+        <display value="Observation.referenceRange.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.referenceRange.text` is mapped to FHIR R4 element `Observation.referenceRange.text` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.hasMember"/>
+      <display value="hasMember"/>
+      <target>
+        <code value="Observation.hasMember"/>
+        <display value="Observation.hasMember"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.hasMember` is mapped to FHIR R4 element `Observation.hasMember` as `Equivalent`.&#xA;When using this element, an observation will typically have either a value or a set of related resources, although both may be present in some cases.  For a discussion on the ways Observations can assembled in groups together, see [Notes](https://hl7.org/fhir/observation..html#obsgrouping) below.  Note that a system may calculate results from [QuestionnaireResponse](https://hl7.org/fhir/questionnaireresponse.html)  into a final score and represent the score as an Observation."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.derivedFrom"/>
+      <display value="derivedFrom"/>
+      <target>
+        <code value="Observation.derivedFrom"/>
+        <display value="Observation.derivedFrom"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.derivedFrom` is mapped to FHIR R4 element `Observation.derivedFrom` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Observation.derivedFrom` with unmapped reference targets: DocumentReference, GenomicStudy, ImagingSelection.&#xA;All the reference choices that are listed in this element can represent clinical observations and other measurements that may be the source for a derived value.  The most common reference will be another Observation.  For a discussion on the ways Observations can assembled in groups together, see [Notes](https://hl7.org/fhir/observation..html#obsgrouping) below."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component"/>
+      <display value="component"/>
+      <target>
+        <code value="Observation.component"/>
+        <display value="Observation.component"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.component` is mapped to FHIR R4 element `Observation.component` as `Equivalent`.&#xA;For a discussion on the ways Observations can be assembled in groups together see [Notes](https://hl7.org/fhir/observ.html#notes) below."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component.code"/>
+      <display value="code"/>
+      <target>
+        <code value="Observation.component.code"/>
+        <display value="Observation.component.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.component.code` is mapped to FHIR R4 element `Observation.component.code` as `Equivalent`.&#xA;*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="Observation.component.value[x]"/>
+        <display value="Observation.component.value[x]"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Observation.component.value[x]` do not cover the following types: Attachment, Reference.&#xA;The target context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.&#xA;Used when observation has a set of component observations:&#xA;-  An observation may have both a value (e.g. an  Apgar score) and component observations (the observations from which the Apgar score was derived). &#xA;-  If a value is present, the datatype for this element should be determined by the `code`.&#xA;-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.&#xA;-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.&#xA;- If a value is present, the datatype for this element should be determined by the `code`.&#xA;-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.&#xA;-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.&#xA;- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .&#xA;- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component.dataAbsentReason"/>
+      <display value="dataAbsentReason"/>
+      <target>
+        <code value="Observation.component.dataAbsentReason"/>
+        <display value="Observation.component.dataAbsentReason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.component.dataAbsentReason` is mapped to FHIR R4 element `Observation.component.dataAbsentReason` as `Equivalent`.&#xA;&quot;Null&quot; or exceptional values can be represented two ways in FHIR Observations.  One way is to simply include them in the value set and represent the exceptions in the value.  For example, measurement values for a serology test could be  &quot;detected&quot;, &quot;not detected&quot;, &quot;inconclusive&quot;, or  &quot;test not done&quot;. &#xA;&#xA;The alternate way is to use the value element for actual observations and use the explicit dataAbsentReason element to record exceptional values.  For example, the dataAbsentReason code &quot;error&quot; could be used when the measurement was not completed.  Because of these options, use-case agreements are required to interpret general observations for exceptional values."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component.interpretation"/>
+      <display value="interpretation"/>
+      <target>
+        <code value="Observation.component.interpretation"/>
+        <display value="Observation.component.interpretation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.component.interpretation` is mapped to FHIR R4 element `Observation.component.interpretation` as `Equivalent`.&#xA;Historically used for laboratory results (known as 'abnormal flag' ),  its use extends to other use cases where coded interpretations  are relevant.  Often reported as one or more simple compact codes this element is often placed adjacent to the result value in reports and flow sheets to signal the meaning/normalcy status of the result."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component.referenceRange"/>
+      <display value="referenceRange"/>
+      <target>
+        <code value="Observation.component.referenceRange"/>
+        <display value="Observation.component.referenceRange"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.component.referenceRange` is mapped to FHIR R4 element `Observation.component.referenceRange` as `Equivalent`.&#xA;Most observations only have one generic reference range. Systems MAY choose to restrict to only supplying the relevant reference range based on knowledge about the patient (e.g., specific to the patient's age, gender, weight and other factors), but this might not be possible or appropriate. Whenever more than one reference range is supplied, the differences between them SHOULD be provided in the reference range and/or age properties."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Observation.instantiates[x]"/>
+      <display value="instantiates[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.instantiates"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.instantiates[x]` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.instantiates[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;ObservationDefinition can be referenced by its canonical url using instantiatesCanonical, or by a name or an identifier using the appropriate sub-elements of instantiatesReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.triggeredBy"/>
+      <display value="triggeredBy"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.triggeredBy` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.triggeredBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.triggeredBy.observation"/>
+      <display value="observation"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:observation"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.observation` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.triggeredBy.observation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.triggeredBy.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.type` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.triggeredBy.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.triggeredBy.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy:reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.&#xA;Element `Observation.triggeredBy.reason` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.triggeredBy.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Observation.value[x]` do not cover the following types: Attachment, Reference.&#xA;The target context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.&#xA;- An observation may have:&#xA;  1.  a single value here&#xA;  1.  both a value and a set of related or component values&#xA;  1.  only a set of related or component values.&#xA;-  If a value is present, the datatype for this element should be determined by the `code`.&#xA;-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.&#xA;-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.&#xA;- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .&#xA;- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.bodyStructure"/>
+      <display value="bodyStructure"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.bodyStructure"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.bodyStructure` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.bodyStructure` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Only used if not implicit in code found in Observation.code or bodySite is used. In many systems, this may be represented as a related observation instead of an inline component."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.referenceRange.normalValue"/>
+      <display value="normalValue"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Observation.referenceRange.normalValue` has a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.&#xA;Element `Observation.referenceRange.normalValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.component.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `Observation.component.value[x]` do not cover the following types: Attachment, Reference.&#xA;The target context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.&#xA;Used when observation has a set of component observations:&#xA;-  An observation may have both a value (e.g. an  Apgar score) and component observations (the observations from which the Apgar score was derived). &#xA;-  If a value is present, the datatype for this element should be determined by the `code`.&#xA;-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.&#xA;-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.&#xA;- If a value is present, the datatype for this element should be determined by the `code`.&#xA;-  *CodeableConcept* with just a text would be used instead of a string if the field was usually coded, or if the type associated with the `code` defines a coded value.&#xA;-  *Attachment* is used if the observation result value is a binary file such as an image.  If the observation result value is derived from the binary file (for example 'X' detected and here is the the proof in this image), the binary file may be directly represented using *DocumentReference* and referenced by `derivedFrom`.&#xA;- The usage of valueReference is restricted to the MolecularSequence resource when used as a definitional resource, not as a patient-specific finding. .&#xA;- For additional guidance, see the [Notes section](https://hl7.org/fhir/observ.html#notes) below."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="Observation.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.specimen"/>
+      <display value="specimen"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="Observation.derivedFrom"/>
+      <display value="derivedFrom"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

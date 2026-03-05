@@ -1,0 +1,33 @@
+# Lookup for Profile_R5_OrganizationAffiliation_R4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## Lookup for Profile_R5_OrganizationAffiliation_R4
+
+### Lookup for FHIR R5 OrganizationAffiliation for use in FHIR R4
+
+The FHIR R5 resource is represented in FHIR R4 via the OrganizationAffiliation resource.
+
+Note that there is a profile defined to simplify use of this cross-version resource representation:[Profile: OrganizationAffiliation](StructureDefinition-profile-OrganizationAffiliation.md)
+
+A computable version of the following element information is available in: [R5OrganizationAffiliationElementMapToR4](ConceptMap-R5-OrganizationAffiliation-element-map-to-R4.md)
+
+| | | |
+| :--- | :--- | :--- |
+| [`OrganizationAffiliation`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) |   |   |
+| [`OrganizationAffiliation.meta`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.meta](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.meta`is mapped to FHIR R4 element`OrganizationAffiliation.meta`as`Equivalent`. |
+| [`OrganizationAffiliation.implicitRules`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.implicitRules](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.implicitRules`is mapped to FHIR R4 element`OrganizationAffiliation.implicitRules`as`Equivalent`. |
+| [`OrganizationAffiliation.language`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.language](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.language`is mapped to FHIR R4 element`OrganizationAffiliation.language`as`Equivalent`. |
+| [`OrganizationAffiliation.text`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.text](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.text`is mapped to FHIR R4 element`OrganizationAffiliation.text`as`Equivalent`. |
+| [`OrganizationAffiliation.contained`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.contained](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.contained`is mapped to FHIR R4 element`OrganizationAffiliation.contained`as`Equivalent`. |
+| [`OrganizationAffiliation.identifier`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.identifier](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.identifier`is mapped to FHIR R4 element`OrganizationAffiliation.identifier`as`Equivalent`. |
+| [`OrganizationAffiliation.active`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.active](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.active`is mapped to FHIR R4 element`OrganizationAffiliation.active`as`Equivalent`. |
+| [`OrganizationAffiliation.period`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.period](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.period`is mapped to FHIR R4 element`OrganizationAffiliation.period`as`Equivalent`. |
+| [`OrganizationAffiliation.organization`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.organization](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.organization`is mapped to FHIR R4 element`OrganizationAffiliation.organization`as`Equivalent`. |
+| [`OrganizationAffiliation.participatingOrganization`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.participatingOrganization](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.participatingOrganization`is mapped to FHIR R4 element`OrganizationAffiliation.participatingOrganization`as`Equivalent`. |
+| [`OrganizationAffiliation.network`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.network](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.network`is mapped to FHIR R4 element`OrganizationAffiliation.network`as`Equivalent`. |
+| [`OrganizationAffiliation.code`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.code](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.code`is mapped to FHIR R4 element`OrganizationAffiliation.code`as`Equivalent`. |
+| [`OrganizationAffiliation.specialty`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.specialty](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.specialty`is mapped to FHIR R4 element`OrganizationAffiliation.specialty`as`Equivalent`. |
+| [`OrganizationAffiliation.location`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.location](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.location`is mapped to FHIR R4 element`OrganizationAffiliation.location`as`Equivalent`. |
+| [`OrganizationAffiliation.healthcareService`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.healthcareService](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.healthcareService`is mapped to FHIR R4 element`OrganizationAffiliation.healthcareService`as`Equivalent`. |
+| [`OrganizationAffiliation.contact`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [Extension: ExtensionOrganizationAffiliation_Contact](StructureDefinition-ext-R5-OrganizationAffiliation.contact.md) | Element`OrganizationAffiliation.contact`has a context of OrganizationAffiliation based on following the parent source element upwards and mapping to`OrganizationAffiliation`.Element`OrganizationAffiliation.contact`has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element). |
+| [`OrganizationAffiliation.endpoint`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.endpoint](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) | Element`OrganizationAffiliation.endpoint`is mapped to FHIR R4 element`OrganizationAffiliation.endpoint`as`Equivalent`. |
+

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-DocumentReference-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-DocumentReference-element-map-to-R4</b></p><a name="R5-DocumentReference-element-map-to-R4"> </a><a name="hcR5-DocumentReference-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0</code> to <a href="http://hl7.org/fhir/R4/documentreference.html">DocumentReferenceversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DocumentReference.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.meta</td><td>Element `DocumentReference.meta` is mapped to FHIR R4 element `DocumentReference.meta` as `Equivalent`.
+Element `DocumentReference.meta` is mapped to FHIR R4 element `Media.meta` as `Equivalent`.</td></tr><tr><td>DocumentReference.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.implicitRules</td><td>Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `DocumentReference.implicitRules` as `Equivalent`.
+Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `Media.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>DocumentReference.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.language</td><td>Element `DocumentReference.language` is mapped to FHIR R4 element `DocumentReference.language` as `Equivalent`.
+Element `DocumentReference.language` is mapped to FHIR R4 element `Media.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>DocumentReference.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.text</td><td>Element `DocumentReference.text` is mapped to FHIR R4 element `DocumentReference.text` as `Equivalent`.
+Element `DocumentReference.text` is mapped to FHIR R4 element `Media.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>DocumentReference.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.contained</td><td>Element `DocumentReference.contained` is mapped to FHIR R4 element `DocumentReference.contained` as `Equivalent`.
+Element `DocumentReference.contained` is mapped to FHIR R4 element `Media.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>DocumentReference.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.identifier</td><td>Element `DocumentReference.identifier` is mapped to FHIR R4 element `DocumentReference.identifier` as `Equivalent`.
+Element `DocumentReference.identifier` is mapped to FHIR R4 element `Media.identifier` as `Equivalent`.
+The structure and format of this identifier would be consistent with the specification corresponding to the format of the document. (e.g. for a DICOM standard document, a 64-character numeric UID; for an HL7 CDA format, the CDA Document Id root and extension).</td></tr><tr><td>DocumentReference.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.status</td><td>Element `DocumentReference.status` is mapped to FHIR R4 element `DocumentReference.status` as `Equivalent`.
+Element `DocumentReference.status` is mapped to FHIR R4 element `Media.status` as `Equivalent`.
+This is the status of the DocumentReference object, which might be independent from the docStatus element.
+
+This element is labeled as a modifier because the status contains the codes that mark the document or reference as not currently valid.</td></tr><tr><td>DocumentReference.docStatus (docStatus)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.docStatus</td><td>Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus` as `SourceIsBroaderThanTarget`.
+The document that is pointed to might be in various lifecycle states.</td></tr><tr><td>DocumentReference.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.type</td><td>Element `DocumentReference.type` is mapped to FHIR R4 element `DocumentReference.type` as `Equivalent`.
+Element `DocumentReference.type` is mapped to FHIR R4 element `Media.type` as `Equivalent`.
+Key metadata element describing the document that describes he exact type of document. Helps humans to assess whether the document is of interest when viewing a list of documents.</td></tr><tr><td>DocumentReference.category (category)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.category</td><td>Element `DocumentReference.category` is mapped to FHIR R4 element `DocumentReference.category` as `Equivalent`.
+Key metadata element describing the the category or classification of the document. This is a broader perspective that groups similar documents based on how they would be used. This is a primary key used in searching.</td></tr><tr><td>DocumentReference.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.subject</td><td>Element `DocumentReference.subject` is mapped to FHIR R4 element `DocumentReference.subject` as `SourceIsBroaderThanTarget`.
+Element `DocumentReference.subject` is mapped to FHIR R4 element `Media.subject` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.subject` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.subject` with unmapped reference targets: Resource.</td></tr><tr><td>DocumentReference.context (context)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.context</td><td>Element `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.context` do not cover the following types: Reference.</td></tr><tr><td>DocumentReference.event (event)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.context.event</td><td>Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.event` do not cover the following types: CodeableReference.
+The mappings for `DocumentReference.event` do not cover the following types based on type expansion: reference.
+An event can further specialize the act inherent in the type, such as  where it is simply &quot;Procedure Report&quot; and the procedure was a &quot;colonoscopy&quot;. If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation.</td></tr><tr><td>DocumentReference.facilityType (facilityType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.context.facilityType</td><td>Element `DocumentReference.facilityType` is mapped to FHIR R4 element `DocumentReference.context.facilityType` as `Equivalent`.</td></tr><tr><td>DocumentReference.practiceSetting (practiceSetting)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.context.practiceSetting</td><td>Element `DocumentReference.practiceSetting` is mapped to FHIR R4 element `DocumentReference.context.practiceSetting` as `Equivalent`.
+This element should be based on a coarse classification system for the class of specialty practice. Recommend the use of the classification system for Practice Setting, such as that described by the Subject Matter Domain in LOINC.</td></tr><tr><td>DocumentReference.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.context.period</td><td>Element `DocumentReference.period` is mapped to FHIR R4 element `DocumentReference.context.period` as `Equivalent`.</td></tr><tr><td>DocumentReference.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.date</td><td>Element `DocumentReference.date` is mapped to FHIR R4 element `DocumentReference.date` as `Equivalent`.
+Referencing/indexing time is used for tracking, organizing versions and searching.</td></tr><tr><td>DocumentReference.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.author</td><td>Element `DocumentReference.author` is mapped to FHIR R4 element `DocumentReference.author` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.author` with unmapped reference targets: CareTeam.
+Not necessarily who did the actual data entry (i.e. typist) or who was the source (informant).</td></tr><tr><td>DocumentReference.custodian (custodian)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.custodian</td><td>Element `DocumentReference.custodian` is mapped to FHIR R4 element `DocumentReference.custodian` as `Equivalent`.
+Identifies the logical organization (software system, vendor, or department) to go to find the current version, where to report issues, etc. This is different from the physical location (URL, disk drive, or server) of the document, which is the technical location of the document, which host may be delegated to the management of some other organization.</td></tr><tr><td>DocumentReference.relatesTo (relatesTo)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.relatesTo</td><td>Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo` as `Equivalent`.
+This element is labeled as a modifier because documents that append to other documents are incomplete on their own.</td></tr><tr><td>DocumentReference.relatesTo.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.relatesTo.code</td><td>Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.relatesTo.code` do not cover the following types: CodeableConcept.
+The mappings for `DocumentReference.relatesTo.code` do not cover the following types based on type expansion: coding.
+If this document appends another document, then the document cannot be fully understood without also accessing the referenced document.</td></tr><tr><td>DocumentReference.relatesTo.target (target)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.relatesTo.target</td><td>Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.relatesTo.target` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with unmapped reference targets: DocumentReference.</td></tr><tr><td>DocumentReference.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.description</td><td>Element `DocumentReference.description` is mapped to FHIR R4 element `DocumentReference.description` as `Equivalent`.
+What the document is about,  a terse summary of the document.</td></tr><tr><td>DocumentReference.securityLabel (securityLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.securityLabel</td><td>Element `DocumentReference.securityLabel` is mapped to FHIR R4 element `DocumentReference.securityLabel` as `Equivalent`.
+The confidentiality codes can carry multiple vocabulary items. HL7 has developed an understanding of security and privacy tags that might be desirable in a Document Sharing environment, called HL7 Healthcare Privacy and Security Classification System (HCS). The following specification is recommended but not mandated, as the vocabulary bindings are an administrative domain responsibility. The use of this method is up to the policy domain such as the XDS Affinity Domain or other Trust Domain where all parties including sender and recipients are trusted to appropriately tag and enforce.   
+
+In the HL7 Healthcare Privacy and Security Classification (HCS) there are code systems specific to Confidentiality, Sensitivity, Integrity, and Handling Caveats. Some values would come from a local vocabulary as they are related to workflow roles and special projects.</td></tr><tr><td>DocumentReference.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>DocumentReference.content</td><td>Element `DocumentReference.content` is mapped to FHIR R4 element `DocumentReference.content` as `Equivalent`.
+Element `DocumentReference.content` is mapped to FHIR R4 element `Media.content` as `SourceIsBroaderThanTarget`.
+content element shall not contain different versions of the same content. For version handling use multiple DocumentReference with .relatesTo.</td></tr><tr><td>DocumentReference.content.attachment (attachment)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>DocumentReference.content.attachment</td><td>Element `DocumentReference.content.attachment` is mapped to FHIR R4 element `DocumentReference.content.attachment` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0</code> to <a href="http://hl7.org/fhir/R4/media.html">Mediaversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DocumentReference.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.meta</td><td>Element `DocumentReference.meta` is mapped to FHIR R4 element `DocumentReference.meta` as `Equivalent`.
+Element `DocumentReference.meta` is mapped to FHIR R4 element `Media.meta` as `Equivalent`.</td></tr><tr><td>DocumentReference.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.implicitRules</td><td>Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `DocumentReference.implicitRules` as `Equivalent`.
+Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `Media.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>DocumentReference.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.language</td><td>Element `DocumentReference.language` is mapped to FHIR R4 element `DocumentReference.language` as `Equivalent`.
+Element `DocumentReference.language` is mapped to FHIR R4 element `Media.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>DocumentReference.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.text</td><td>Element `DocumentReference.text` is mapped to FHIR R4 element `DocumentReference.text` as `Equivalent`.
+Element `DocumentReference.text` is mapped to FHIR R4 element `Media.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>DocumentReference.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.contained</td><td>Element `DocumentReference.contained` is mapped to FHIR R4 element `DocumentReference.contained` as `Equivalent`.
+Element `DocumentReference.contained` is mapped to FHIR R4 element `Media.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>DocumentReference.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.identifier</td><td>Element `DocumentReference.identifier` is mapped to FHIR R4 element `DocumentReference.identifier` as `Equivalent`.
+Element `DocumentReference.identifier` is mapped to FHIR R4 element `Media.identifier` as `Equivalent`.
+The structure and format of this identifier would be consistent with the specification corresponding to the format of the document. (e.g. for a DICOM standard document, a 64-character numeric UID; for an HL7 CDA format, the CDA Document Id root and extension).</td></tr><tr><td>DocumentReference.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Media.basedOn</td><td>Element `DocumentReference.basedOn` is mapped to FHIR R4 element `Media.basedOn` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.basedOn` with unmapped reference targets: Appointment, AppointmentResponse, Claim, CommunicationRequest, Contract, CoverageEligibilityRequest, DeviceRequest, EnrollmentRequest, ImmunizationRecommendation, MedicationRequest, NutritionOrder, RequestOrchestration, SupplyRequest, VisionPrescription.</td></tr><tr><td>DocumentReference.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.status</td><td>Element `DocumentReference.status` is mapped to FHIR R4 element `DocumentReference.status` as `Equivalent`.
+Element `DocumentReference.status` is mapped to FHIR R4 element `Media.status` as `Equivalent`.
+This is the status of the DocumentReference object, which might be independent from the docStatus element.
+
+This element is labeled as a modifier because the status contains the codes that mark the document or reference as not currently valid.</td></tr><tr><td>DocumentReference.modality (modality)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Media.modality</td><td>Element `DocumentReference.modality` is mapped to FHIR R4 element `Media.modality` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>DocumentReference.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Media.type</td><td>Element `DocumentReference.type` is mapped to FHIR R4 element `DocumentReference.type` as `Equivalent`.
+Element `DocumentReference.type` is mapped to FHIR R4 element `Media.type` as `Equivalent`.
+Key metadata element describing the document that describes he exact type of document. Helps humans to assess whether the document is of interest when viewing a list of documents.</td></tr><tr><td>DocumentReference.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Media.subject</td><td>Element `DocumentReference.subject` is mapped to FHIR R4 element `DocumentReference.subject` as `SourceIsBroaderThanTarget`.
+Element `DocumentReference.subject` is mapped to FHIR R4 element `Media.subject` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.subject` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.subject` with unmapped reference targets: Resource.</td></tr><tr><td>DocumentReference.bodySite (bodySite)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Media.bodySite</td><td>Element `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.bodySite` do not cover the following types: CodeableReference.
+The mappings for `DocumentReference.bodySite` do not cover the following types based on type expansion: reference.</td></tr><tr><td>DocumentReference.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Media.content</td><td>Element `DocumentReference.content` is mapped to FHIR R4 element `DocumentReference.content` as `Equivalent`.
+Element `DocumentReference.content` is mapped to FHIR R4 element `Media.content` as `SourceIsBroaderThanTarget`.
+content element shall not contain different versions of the same content. For version handling use multiple DocumentReference with .relatesTo.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DocumentReference.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version</td><td>Element `DocumentReference.version` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.version` has a context of Media based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+While each resource, including the DocumentReference itself, has its own version identifier, this is a formal identifier for the logical version of the DocumentReference as a whole. It would remain constant if the resources were moved to a new server, and all got new individual resource versions, for example.</td></tr><tr><td>DocumentReference.docStatus (docStatus)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.docStatus</td><td>Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus` as `SourceIsBroaderThanTarget`.
+The document that is pointed to might be in various lifecycle states.</td></tr><tr><td>DocumentReference.context (context)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.context</td><td>Element `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.context` do not cover the following types: Reference.</td></tr><tr><td>DocumentReference.event (event)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.event</td><td>Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.event` do not cover the following types: CodeableReference.
+The mappings for `DocumentReference.event` do not cover the following types based on type expansion: reference.
+An event can further specialize the act inherent in the type, such as  where it is simply &quot;Procedure Report&quot; and the procedure was a &quot;colonoscopy&quot;. If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation.</td></tr><tr><td>DocumentReference.bodySite (bodySite)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.bodySite</td><td>Element `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.bodySite` do not cover the following types: CodeableReference.
+The mappings for `DocumentReference.bodySite` do not cover the following types based on type expansion: reference.</td></tr><tr><td>DocumentReference.attester (attester)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester</td><td>Element `DocumentReference.attester` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.attester` has a context of Media based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.attester` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Only list each attester once.</td></tr><tr><td>DocumentReference.attester.mode (mode)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:mode</td><td>Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.
+Element `DocumentReference.attester.mode` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.attester.mode` has a context of Media based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.attester.mode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DocumentReference.attester.time (time)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:time</td><td>Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.
+Element `DocumentReference.attester.time` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.attester.time` has a context of Media based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.attester.time` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DocumentReference.attester.party (party)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:party</td><td>Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.
+Element `DocumentReference.attester.party` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.attester.party` has a context of Media based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.attester.party` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DocumentReference.relatesTo.code (code)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.relatesTo.code</td><td>Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code` as `SourceIsBroaderThanTarget`.
+The mappings for `DocumentReference.relatesTo.code` do not cover the following types: CodeableConcept.
+The mappings for `DocumentReference.relatesTo.code` do not cover the following types based on type expansion: coding.
+If this document appends another document, then the document cannot be fully understood without also accessing the referenced document.</td></tr><tr><td>DocumentReference.content.profile (profile)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile</td><td>Element `DocumentReference.content.profile` has a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.content.profile` has a context of Media.content based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.content.profile` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Note that IHE often issues URNs for formatCode codes, not all documents can be identified by a URI.
+
+For FHIR content, .profile should indicate the structureDefinition profile canonical URI(s) that the content complies with.</td></tr><tr><td>DocumentReference.content.profile.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile:value</td><td>Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.
+Element `DocumentReference.content.profile.value[x]` has a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.
+Element `DocumentReference.content.profile.value[x]` has a context of Media.content based on following the parent source element upwards and mapping to `Media`.
+Element `DocumentReference.content.profile.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DocumentReference|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DocumentReference.basedOn (basedOn)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>DocumentReference.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>DocumentReference.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>DocumentReference.relatesTo.target (target)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-DocumentReference-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5DocumentReferenceElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 DocumentReference to FHIR R4 DocumentReference"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:47.9483671-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 DocumentReference to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="DocumentReference.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="DocumentReference.meta"/>
+        <display value="DocumentReference.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.meta` is mapped to FHIR R4 element `DocumentReference.meta` as `Equivalent`.&#xA;Element `DocumentReference.meta` is mapped to FHIR R4 element `Media.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="DocumentReference.implicitRules"/>
+        <display value="DocumentReference.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `DocumentReference.implicitRules` as `Equivalent`.&#xA;Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `Media.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.language"/>
+      <display value="language"/>
+      <target>
+        <code value="DocumentReference.language"/>
+        <display value="DocumentReference.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.language` is mapped to FHIR R4 element `DocumentReference.language` as `Equivalent`.&#xA;Element `DocumentReference.language` is mapped to FHIR R4 element `Media.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.text"/>
+      <display value="text"/>
+      <target>
+        <code value="DocumentReference.text"/>
+        <display value="DocumentReference.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.text` is mapped to FHIR R4 element `DocumentReference.text` as `Equivalent`.&#xA;Element `DocumentReference.text` is mapped to FHIR R4 element `Media.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="DocumentReference.contained"/>
+        <display value="DocumentReference.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.contained` is mapped to FHIR R4 element `DocumentReference.contained` as `Equivalent`.&#xA;Element `DocumentReference.contained` is mapped to FHIR R4 element `Media.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="DocumentReference.identifier"/>
+        <display value="DocumentReference.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.identifier` is mapped to FHIR R4 element `DocumentReference.identifier` as `Equivalent`.&#xA;Element `DocumentReference.identifier` is mapped to FHIR R4 element `Media.identifier` as `Equivalent`.&#xA;The structure and format of this identifier would be consistent with the specification corresponding to the format of the document. (e.g. for a DICOM standard document, a 64-character numeric UID; for an HL7 CDA format, the CDA Document Id root and extension)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.status"/>
+      <display value="status"/>
+      <target>
+        <code value="DocumentReference.status"/>
+        <display value="DocumentReference.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.status` is mapped to FHIR R4 element `DocumentReference.status` as `Equivalent`.&#xA;Element `DocumentReference.status` is mapped to FHIR R4 element `Media.status` as `Equivalent`.&#xA;This is the status of the DocumentReference object, which might be independent from the docStatus element.&#xA;&#xA;This element is labeled as a modifier because the status contains the codes that mark the document or reference as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.docStatus"/>
+      <display value="docStatus"/>
+      <target>
+        <code value="DocumentReference.docStatus"/>
+        <display value="DocumentReference.docStatus"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus` as `SourceIsBroaderThanTarget`.&#xA;The document that is pointed to might be in various lifecycle states."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.type"/>
+      <display value="type"/>
+      <target>
+        <code value="DocumentReference.type"/>
+        <display value="DocumentReference.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.type` is mapped to FHIR R4 element `DocumentReference.type` as `Equivalent`.&#xA;Element `DocumentReference.type` is mapped to FHIR R4 element `Media.type` as `Equivalent`.&#xA;Key metadata element describing the document that describes he exact type of document. Helps humans to assess whether the document is of interest when viewing a list of documents."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.category"/>
+      <display value="category"/>
+      <target>
+        <code value="DocumentReference.category"/>
+        <display value="DocumentReference.category"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.category` is mapped to FHIR R4 element `DocumentReference.category` as `Equivalent`.&#xA;Key metadata element describing the the category or classification of the document. This is a broader perspective that groups similar documents based on how they would be used. This is a primary key used in searching."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="DocumentReference.subject"/>
+        <display value="DocumentReference.subject"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.subject` is mapped to FHIR R4 element `DocumentReference.subject` as `SourceIsBroaderThanTarget`.&#xA;Element `DocumentReference.subject` is mapped to FHIR R4 element `Media.subject` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.subject` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.subject` with unmapped reference targets: Resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.context"/>
+      <display value="context"/>
+      <target>
+        <code value="DocumentReference.context"/>
+        <display value="DocumentReference.context"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.context` do not cover the following types: Reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.event"/>
+      <display value="event"/>
+      <target>
+        <code value="DocumentReference.context.event"/>
+        <display value="DocumentReference.context.event"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.event` do not cover the following types: CodeableReference.&#xA;The mappings for `DocumentReference.event` do not cover the following types based on type expansion: reference.&#xA;An event can further specialize the act inherent in the type, such as  where it is simply &quot;Procedure Report&quot; and the procedure was a &quot;colonoscopy&quot;. If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.facilityType"/>
+      <display value="facilityType"/>
+      <target>
+        <code value="DocumentReference.context.facilityType"/>
+        <display value="DocumentReference.context.facilityType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.facilityType` is mapped to FHIR R4 element `DocumentReference.context.facilityType` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.practiceSetting"/>
+      <display value="practiceSetting"/>
+      <target>
+        <code value="DocumentReference.context.practiceSetting"/>
+        <display value="DocumentReference.context.practiceSetting"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.practiceSetting` is mapped to FHIR R4 element `DocumentReference.context.practiceSetting` as `Equivalent`.&#xA;This element should be based on a coarse classification system for the class of specialty practice. Recommend the use of the classification system for Practice Setting, such as that described by the Subject Matter Domain in LOINC."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.period"/>
+      <display value="period"/>
+      <target>
+        <code value="DocumentReference.context.period"/>
+        <display value="DocumentReference.context.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.period` is mapped to FHIR R4 element `DocumentReference.context.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.date"/>
+      <display value="date"/>
+      <target>
+        <code value="DocumentReference.date"/>
+        <display value="DocumentReference.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.date` is mapped to FHIR R4 element `DocumentReference.date` as `Equivalent`.&#xA;Referencing/indexing time is used for tracking, organizing versions and searching."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.author"/>
+      <display value="author"/>
+      <target>
+        <code value="DocumentReference.author"/>
+        <display value="DocumentReference.author"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.author` is mapped to FHIR R4 element `DocumentReference.author` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.author` with unmapped reference targets: CareTeam.&#xA;Not necessarily who did the actual data entry (i.e. typist) or who was the source (informant)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.custodian"/>
+      <display value="custodian"/>
+      <target>
+        <code value="DocumentReference.custodian"/>
+        <display value="DocumentReference.custodian"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.custodian` is mapped to FHIR R4 element `DocumentReference.custodian` as `Equivalent`.&#xA;Identifies the logical organization (software system, vendor, or department) to go to find the current version, where to report issues, etc. This is different from the physical location (URL, disk drive, or server) of the document, which is the technical location of the document, which host may be delegated to the management of some other organization."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.relatesTo"/>
+      <display value="relatesTo"/>
+      <target>
+        <code value="DocumentReference.relatesTo"/>
+        <display value="DocumentReference.relatesTo"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo` as `Equivalent`.&#xA;This element is labeled as a modifier because documents that append to other documents are incomplete on their own."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.relatesTo.code"/>
+      <display value="code"/>
+      <target>
+        <code value="DocumentReference.relatesTo.code"/>
+        <display value="DocumentReference.relatesTo.code"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.relatesTo.code` do not cover the following types: CodeableConcept.&#xA;The mappings for `DocumentReference.relatesTo.code` do not cover the following types based on type expansion: coding.&#xA;If this document appends another document, then the document cannot be fully understood without also accessing the referenced document."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.relatesTo.target"/>
+      <display value="target"/>
+      <target>
+        <code value="DocumentReference.relatesTo.target"/>
+        <display value="DocumentReference.relatesTo.target"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.relatesTo.target` is mapped to FHIR R4 element `DocumentReference.relatesTo.target` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.relatesTo.target` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.relatesTo.target` with unmapped reference targets: DocumentReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.description"/>
+      <display value="description"/>
+      <target>
+        <code value="DocumentReference.description"/>
+        <display value="DocumentReference.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.description` is mapped to FHIR R4 element `DocumentReference.description` as `Equivalent`.&#xA;What the document is about,  a terse summary of the document."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.securityLabel"/>
+      <display value="securityLabel"/>
+      <target>
+        <code value="DocumentReference.securityLabel"/>
+        <display value="DocumentReference.securityLabel"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.securityLabel` is mapped to FHIR R4 element `DocumentReference.securityLabel` as `Equivalent`.&#xA;The confidentiality codes can carry multiple vocabulary items. HL7 has developed an understanding of security and privacy tags that might be desirable in a Document Sharing environment, called HL7 Healthcare Privacy and Security Classification System (HCS). The following specification is recommended but not mandated, as the vocabulary bindings are an administrative domain responsibility. The use of this method is up to the policy domain such as the XDS Affinity Domain or other Trust Domain where all parties including sender and recipients are trusted to appropriately tag and enforce.   &#xA;&#xA;In the HL7 Healthcare Privacy and Security Classification (HCS) there are code systems specific to Confidentiality, Sensitivity, Integrity, and Handling Caveats. Some values would come from a local vocabulary as they are related to workflow roles and special projects."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.content"/>
+      <display value="content"/>
+      <target>
+        <code value="DocumentReference.content"/>
+        <display value="DocumentReference.content"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.content` is mapped to FHIR R4 element `DocumentReference.content` as `Equivalent`.&#xA;Element `DocumentReference.content` is mapped to FHIR R4 element `Media.content` as `SourceIsBroaderThanTarget`.&#xA;content element shall not contain different versions of the same content. For version handling use multiple DocumentReference with .relatesTo."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.content.attachment"/>
+      <display value="attachment"/>
+      <target>
+        <code value="DocumentReference.content.attachment"/>
+        <display value="DocumentReference.content.attachment"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.content.attachment` is mapped to FHIR R4 element `DocumentReference.content.attachment` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Media"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="DocumentReference.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Media.meta"/>
+        <display value="Media.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.meta` is mapped to FHIR R4 element `DocumentReference.meta` as `Equivalent`.&#xA;Element `DocumentReference.meta` is mapped to FHIR R4 element `Media.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Media.implicitRules"/>
+        <display value="Media.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `DocumentReference.implicitRules` as `Equivalent`.&#xA;Element `DocumentReference.implicitRules` is mapped to FHIR R4 element `Media.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Media.language"/>
+        <display value="Media.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.language` is mapped to FHIR R4 element `DocumentReference.language` as `Equivalent`.&#xA;Element `DocumentReference.language` is mapped to FHIR R4 element `Media.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Media.text"/>
+        <display value="Media.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.text` is mapped to FHIR R4 element `DocumentReference.text` as `Equivalent`.&#xA;Element `DocumentReference.text` is mapped to FHIR R4 element `Media.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Media.contained"/>
+        <display value="Media.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.contained` is mapped to FHIR R4 element `DocumentReference.contained` as `Equivalent`.&#xA;Element `DocumentReference.contained` is mapped to FHIR R4 element `Media.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Media.identifier"/>
+        <display value="Media.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.identifier` is mapped to FHIR R4 element `DocumentReference.identifier` as `Equivalent`.&#xA;Element `DocumentReference.identifier` is mapped to FHIR R4 element `Media.identifier` as `Equivalent`.&#xA;The structure and format of this identifier would be consistent with the specification corresponding to the format of the document. (e.g. for a DICOM standard document, a 64-character numeric UID; for an HL7 CDA format, the CDA Document Id root and extension)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="Media.basedOn"/>
+        <display value="Media.basedOn"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.basedOn` is mapped to FHIR R4 element `Media.basedOn` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.basedOn` with unmapped reference targets: Appointment, AppointmentResponse, Claim, CommunicationRequest, Contract, CoverageEligibilityRequest, DeviceRequest, EnrollmentRequest, ImmunizationRecommendation, MedicationRequest, NutritionOrder, RequestOrchestration, SupplyRequest, VisionPrescription."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Media.status"/>
+        <display value="Media.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.status` is mapped to FHIR R4 element `DocumentReference.status` as `Equivalent`.&#xA;Element `DocumentReference.status` is mapped to FHIR R4 element `Media.status` as `Equivalent`.&#xA;This is the status of the DocumentReference object, which might be independent from the docStatus element.&#xA;&#xA;This element is labeled as a modifier because the status contains the codes that mark the document or reference as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.modality"/>
+      <display value="modality"/>
+      <target>
+        <code value="Media.modality"/>
+        <display value="Media.modality"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.modality` is mapped to FHIR R4 element `Media.modality` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.type"/>
+      <display value="type"/>
+      <target>
+        <code value="Media.type"/>
+        <display value="Media.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `DocumentReference.type` is mapped to FHIR R4 element `DocumentReference.type` as `Equivalent`.&#xA;Element `DocumentReference.type` is mapped to FHIR R4 element `Media.type` as `Equivalent`.&#xA;Key metadata element describing the document that describes he exact type of document. Helps humans to assess whether the document is of interest when viewing a list of documents."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="Media.subject"/>
+        <display value="Media.subject"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.subject` is mapped to FHIR R4 element `DocumentReference.subject` as `SourceIsBroaderThanTarget`.&#xA;Element `DocumentReference.subject` is mapped to FHIR R4 element `Media.subject` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.subject` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DocumentReference.subject` with unmapped reference targets: Resource."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="Media.bodySite"/>
+        <display value="Media.bodySite"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.bodySite` do not cover the following types: CodeableReference.&#xA;The mappings for `DocumentReference.bodySite` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.content"/>
+      <display value="content"/>
+      <target>
+        <code value="Media.content"/>
+        <display value="Media.content"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `DocumentReference.content` is mapped to FHIR R4 element `DocumentReference.content` as `Equivalent`.&#xA;Element `DocumentReference.content` is mapped to FHIR R4 element `Media.content` as `SourceIsBroaderThanTarget`.&#xA;content element shall not contain different versions of the same content. For version handling use multiple DocumentReference with .relatesTo."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="DocumentReference.version"/>
+      <display value="version"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.version"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.version` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.version` has a context of Media based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;While each resource, including the DocumentReference itself, has its own version identifier, this is a formal identifier for the logical version of the DocumentReference as a whole. It would remain constant if the resources were moved to a new server, and all got new individual resource versions, for example."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.docStatus"/>
+      <display value="docStatus"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.docStatus"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus` as `SourceIsBroaderThanTarget`.&#xA;The document that is pointed to might be in various lifecycle states."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.context"/>
+      <display value="context"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.context"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.context` do not cover the following types: Reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.event"/>
+      <display value="event"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.event"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.event` do not cover the following types: CodeableReference.&#xA;The mappings for `DocumentReference.event` do not cover the following types based on type expansion: reference.&#xA;An event can further specialize the act inherent in the type, such as  where it is simply &quot;Procedure Report&quot; and the procedure was a &quot;colonoscopy&quot;. If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.bodySite"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.bodySite` do not cover the following types: CodeableReference.&#xA;The mappings for `DocumentReference.bodySite` do not cover the following types based on type expansion: reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.attester"/>
+      <display value="attester"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.attester` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.attester` has a context of Media based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.attester` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Only list each attester once."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.attester.mode"/>
+      <display value="mode"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:mode"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.attester.mode` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.&#xA;Element `DocumentReference.attester.mode` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.attester.mode` has a context of Media based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.attester.mode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.attester.time"/>
+      <display value="time"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:time"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.attester.time` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.&#xA;Element `DocumentReference.attester.time` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.attester.time` has a context of Media based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.attester.time` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.attester.party"/>
+      <display value="party"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.attester:party"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.attester.party` is part of an existing definition because parent element `DocumentReference.attester` requires a cross-version extension.&#xA;Element `DocumentReference.attester.party` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.attester.party` has a context of Media based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.attester.party` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.relatesTo.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.relatesTo.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.relatesTo.code` is mapped to FHIR R4 element `DocumentReference.relatesTo.code` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `DocumentReference.relatesTo.code` do not cover the following types: CodeableConcept.&#xA;The mappings for `DocumentReference.relatesTo.code` do not cover the following types based on type expansion: coding.&#xA;If this document appends another document, then the document cannot be fully understood without also accessing the referenced document."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.content.profile"/>
+      <display value="profile"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.content.profile` has a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.content.profile` has a context of Media.content based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.content.profile` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Note that IHE often issues URNs for formatCode codes, not all documents can be identified by a URI.&#xA;&#xA;For FHIR content, .profile should indicate the structureDefinition profile canonical URI(s) that the content complies with."/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.content.profile.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `DocumentReference.content.profile.value[x]` is part of an existing definition because parent element `DocumentReference.content.profile` requires a cross-version extension.&#xA;Element `DocumentReference.content.profile.value[x]` has a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.&#xA;Element `DocumentReference.content.profile.value[x]` has a context of Media.content based on following the parent source element upwards and mapping to `Media`.&#xA;Element `DocumentReference.content.profile.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/DocumentReference"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="DocumentReference.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.author"/>
+      <display value="author"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="DocumentReference.relatesTo.target"/>
+      <display value="target"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,183 @@
+# ExtensionSubscription_ManagingEntity - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## Extension: R5: Entity responsible for Subscription changes (new) 
+
+R5: `Subscription.managingEntity` (new:Reference(CareTeam,HealthcareService,Organization,RelatedPerson,Patient,Practitioner,PractitionerRole))
+
+**Context of Use**
+
+**Usage info**
+
+**Usages:**
+
+* Use this Extension: [Cross-version Profile for R5.Subscription for use in FHIR R4](StructureDefinition-profile-Subscription.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Subscription.managingEntity)
+
+### Formal Views of Extension Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-ext-R5-Subscription.managingEntity.csv), [Excel](../StructureDefinition-ext-R5-Subscription.managingEntity.xlsx), [Schematron](../StructureDefinition-ext-R5-Subscription.managingEntity.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "ext-R5-Subscription.managingEntity",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "extension" : [{
+      "url" : "packageId",
+      "valueId" : "hl7.fhir.uv.xver-r5.r4"
+    },
+    {
+      "url" : "version",
+      "valueString" : "0.1.0"
+    },
+    {
+      "url" : "uri",
+      "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+  },
+  {
+    "extension" : [{
+      "url" : "startFhirVersion",
+      "valueCode" : "4.0"
+    },
+    {
+      "url" : "endFhirVersion",
+      "valueCode" : "4.0"
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/version-specific-use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.managingEntity",
+  "version" : "0.1.0",
+  "name" : "ExtensionSubscription_ManagingEntity",
+  "title" : "R5: Entity responsible for Subscription changes (new)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T23:04:15.8659919+00:00",
+  "publisher" : "FHIR Infrastructure",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "R5: `Subscription.managingEntity` (new:Reference(CareTeam,HealthcareService,Organization,RelatedPerson,Patient,Practitioner,PractitionerRole))",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Subscription.managingEntity` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Subscription.managingEntity` 0..1 `Reference(http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole)`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Subscription.managingEntity` 0..1 `Reference(http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.\nElement `Subscription.managingEntity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "Subscription"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "R5: Entity responsible for Subscription changes (new)",
+      "definition" : "R5: `Subscription.managingEntity` (new:Reference(CareTeam,HealthcareService,Organization,RelatedPerson,Patient,Practitioner,PractitionerRole))",
+      "comment" : "Element `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.\nElement `Subscription.managingEntity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.managingEntity"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "short" : "Entity responsible for Subscription changes",
+      "definition" : "Entity with authorization to make subsequent revisions to the Subscription and also determines what data the subscription is authorized to disclose.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/5.0/StructureDefinition/profile-CareTeam|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/CareTeam|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-HealthcareService|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/HealthcareService|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-Organization|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-RelatedPerson|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-Patient|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/Patient|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-Practitioner|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-PractitionerRole|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1"]
+      }]
+    }]
+  }
+}
+
+```

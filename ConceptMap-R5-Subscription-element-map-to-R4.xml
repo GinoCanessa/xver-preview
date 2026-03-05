@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Subscription-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Subscription-element-map-to-R4</b></p><a name="R5-Subscription-element-map-to-R4"> </a><a name="hcR5-Subscription-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Subscription|5.0.0</code> to <a href="http://hl7.org/fhir/R4/subscription.html">Subscriptionversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Subscription.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.meta</td><td>Element `Subscription.meta` is mapped to FHIR R4 element `Subscription.meta` as `Equivalent`.</td></tr><tr><td>Subscription.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.implicitRules</td><td>Element `Subscription.implicitRules` is mapped to FHIR R4 element `Subscription.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Subscription.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.language</td><td>Element `Subscription.language` is mapped to FHIR R4 element `Subscription.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Subscription.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.text</td><td>Element `Subscription.text` is mapped to FHIR R4 element `Subscription.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Subscription.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.contained</td><td>Element `Subscription.contained` is mapped to FHIR R4 element `Subscription.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Subscription.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>Subscription.status</td><td>Element `Subscription.status` is mapped to FHIR R4 element `Subscription.status` as `SourceIsBroaderThanTarget`.
+The target context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.
+A client can only submit subscription resources in the requested or off state. Only the server can  move a subscription from requested to active, and then to error. Either the server or the client can turn a subscription off.
+
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>Subscription.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.contact</td><td>Element `Subscription.contact` is mapped to FHIR R4 element `Subscription.contact` as `Equivalent`.</td></tr><tr><td>Subscription.end (end)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.end</td><td>Element `Subscription.end` is mapped to FHIR R4 element `Subscription.end` as `Equivalent`.
+The server is permitted to deviate from this time but should observe it.</td></tr><tr><td>Subscription.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.reason</td><td>Element `Subscription.reason` is mapped to FHIR R4 element `Subscription.reason` as `Equivalent`.</td></tr><tr><td>Subscription.channelType (channelType)</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td>Subscription.channel.type</td><td>Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type` as `RelatedTo`.
+The mappings for `Subscription.channelType` do not cover the following types: Coding.
+The mappings for `Subscription.channelType` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>Subscription.endpoint (endpoint)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.channel.endpoint</td><td>Element `Subscription.endpoint` is mapped to FHIR R4 element `Subscription.channel.endpoint` as `Equivalent`.
+For rest-hook the end-point must be an `http:` or `https:` URL; for websockets, `ws:` or `wss:`; for email, a `mailto:` url; and for message the endpoint can be in any form of url the server understands (usually, `http/s`: or `mllp:`). The URI is allowed to be relative; in which case, it is relative to the server end-point (since there may be more than one, clients should avoid using relative URIs).</td></tr><tr><td>Subscription.contentType (contentType)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Subscription.channel.payload</td><td>Element `Subscription.contentType` is mapped to FHIR R4 element `Subscription.channel.payload` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Subscription|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Subscription.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.identifier</td><td>Element `Subscription.identifier` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.name</td><td>Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.status</td><td>Element `Subscription.status` is mapped to FHIR R4 element `Subscription.status` as `SourceIsBroaderThanTarget`.
+The target context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.
+A client can only submit subscription resources in the requested or off state. Only the server can  move a subscription from requested to active, and then to error. Either the server or the client can turn a subscription off.
+
+This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td>Subscription.topic (topic)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.topic</td><td>Element `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.topic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.managingEntity (managingEntity)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.managingEntity</td><td>Element `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.managingEntity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.filterBy (filterBy)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy</td><td>Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.filterBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.filterBy.resourceType (resourceType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:resourceType</td><td>Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.
+Element `Subscription.filterBy.resourceType` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.filterBy.resourceType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.filterBy.filterParameter (filterParameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:filterParameter</td><td>Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.
+Element `Subscription.filterBy.filterParameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.filterBy.filterParameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.filterBy.comparator (comparator)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:comparator</td><td>Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.
+Element `Subscription.filterBy.comparator` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.filterBy.comparator` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Must be a comparator allowed by the SubscriptionTopic relevant to this Subscription filter.</td></tr><tr><td>Subscription.filterBy.modifier (modifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:modifier</td><td>Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.
+Element `Subscription.filterBy.modifier` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.filterBy.modifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Must be a modifier allowed by the SubscriptionTopic relevant to this Subscription filter.</td></tr><tr><td>Subscription.filterBy.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:value</td><td>Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.
+Element `Subscription.filterBy.value` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.filterBy.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.channelType (channelType)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.channelType</td><td>Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type` as `RelatedTo`.
+The mappings for `Subscription.channelType` do not cover the following types: Coding.
+The mappings for `Subscription.channelType` do not cover the following types based on type expansion: userSelected.</td></tr><tr><td>Subscription.parameter (parameter)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter</td><td>Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.parameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Exactly what these mean depend on the channel type. They can convey additional information to the server or recipient and/or meet security requirements; for example, support of multiple headers in the outgoing notifications for rest-hook type subscriptions. Note that names are not required to be unique, but channel definitions can impose restrictions.</td></tr><tr><td>Subscription.parameter.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter:name</td><td>Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.
+Element `Subscription.parameter.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.parameter.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.parameter.value (value)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter:value</td><td>Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.
+Element `Subscription.parameter.value` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.parameter.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.heartbeatPeriod (heartbeatPeriod)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.heartbeatPeriod</td><td>Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.heartbeatPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.timeout (timeout)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.timeout</td><td>Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.timeout` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Subscription.content (content)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.content</td><td>Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Sending the payload has obvious security implications. The server is responsible for ensuring that the content is appropriately secured.</td></tr><tr><td>Subscription.maxCount (maxCount)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.maxCount</td><td>Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.
+Element `Subscription.maxCount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Subscription-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5SubscriptionElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Subscription to FHIR R4 Subscription"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6611642-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Subscription to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Subscription"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Subscription"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Subscription.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Subscription.meta"/>
+        <display value="Subscription.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.meta` is mapped to FHIR R4 element `Subscription.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Subscription.implicitRules"/>
+        <display value="Subscription.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.implicitRules` is mapped to FHIR R4 element `Subscription.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Subscription.language"/>
+        <display value="Subscription.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.language` is mapped to FHIR R4 element `Subscription.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Subscription.text"/>
+        <display value="Subscription.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.text` is mapped to FHIR R4 element `Subscription.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Subscription.contained"/>
+        <display value="Subscription.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.contained` is mapped to FHIR R4 element `Subscription.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.status"/>
+      <display value="status"/>
+      <target>
+        <code value="Subscription.status"/>
+        <display value="Subscription.status"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.status` is mapped to FHIR R4 element `Subscription.status` as `SourceIsBroaderThanTarget`.&#xA;The target context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;A client can only submit subscription resources in the requested or off state. Only the server can  move a subscription from requested to active, and then to error. Either the server or the client can turn a subscription off.&#xA;&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="Subscription.contact"/>
+        <display value="Subscription.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.contact` is mapped to FHIR R4 element `Subscription.contact` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.end"/>
+      <display value="end"/>
+      <target>
+        <code value="Subscription.end"/>
+        <display value="Subscription.end"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.end` is mapped to FHIR R4 element `Subscription.end` as `Equivalent`.&#xA;The server is permitted to deviate from this time but should observe it."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="Subscription.reason"/>
+        <display value="Subscription.reason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.reason` is mapped to FHIR R4 element `Subscription.reason` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.channelType"/>
+      <display value="channelType"/>
+      <target>
+        <code value="Subscription.channel.type"/>
+        <display value="Subscription.channel.type"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type` as `RelatedTo`.&#xA;The mappings for `Subscription.channelType` do not cover the following types: Coding.&#xA;The mappings for `Subscription.channelType` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.endpoint"/>
+      <display value="endpoint"/>
+      <target>
+        <code value="Subscription.channel.endpoint"/>
+        <display value="Subscription.channel.endpoint"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.endpoint` is mapped to FHIR R4 element `Subscription.channel.endpoint` as `Equivalent`.&#xA;For rest-hook the end-point must be an `http:` or `https:` URL; for websockets, `ws:` or `wss:`; for email, a `mailto:` url; and for message the endpoint can be in any form of url the server understands (usually, `http/s`: or `mllp:`). The URI is allowed to be relative; in which case, it is relative to the server end-point (since there may be more than one, clients should avoid using relative URIs)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.contentType"/>
+      <display value="contentType"/>
+      <target>
+        <code value="Subscription.channel.payload"/>
+        <display value="Subscription.channel.payload"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.contentType` is mapped to FHIR R4 element `Subscription.channel.payload` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Subscription"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Subscription.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.identifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.identifier` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.name"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.status"/>
+      <display value="status"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `Subscription.status` is mapped to FHIR R4 element `Subscription.status` as `SourceIsBroaderThanTarget`.&#xA;The target context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;A client can only submit subscription resources in the requested or off state. Only the server can  move a subscription from requested to active, and then to error. Either the server or the client can turn a subscription off.&#xA;&#xA;This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.topic"/>
+      <display value="topic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.topic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.topic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.managingEntity"/>
+      <display value="managingEntity"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.managingEntity"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.managingEntity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.filterBy"/>
+      <display value="filterBy"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.filterBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.filterBy.resourceType"/>
+      <display value="resourceType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:resourceType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.filterBy.resourceType` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.&#xA;Element `Subscription.filterBy.resourceType` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.filterBy.resourceType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.filterBy.filterParameter"/>
+      <display value="filterParameter"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:filterParameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.filterBy.filterParameter` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.&#xA;Element `Subscription.filterBy.filterParameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.filterBy.filterParameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.filterBy.comparator"/>
+      <display value="comparator"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:comparator"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.filterBy.comparator` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.&#xA;Element `Subscription.filterBy.comparator` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.filterBy.comparator` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Must be a comparator allowed by the SubscriptionTopic relevant to this Subscription filter."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.filterBy.modifier"/>
+      <display value="modifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:modifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.filterBy.modifier` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.&#xA;Element `Subscription.filterBy.modifier` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.filterBy.modifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Must be a modifier allowed by the SubscriptionTopic relevant to this Subscription filter."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.filterBy.value"/>
+      <display value="value"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.filterBy:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.filterBy.value` is part of an existing definition because parent element `Subscription.filterBy` requires a cross-version extension.&#xA;Element `Subscription.filterBy.value` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.filterBy.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.channelType"/>
+      <display value="channelType"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.channelType"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type` as `RelatedTo`.&#xA;The mappings for `Subscription.channelType` do not cover the following types: Coding.&#xA;The mappings for `Subscription.channelType` do not cover the following types based on type expansion: userSelected."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.parameter"/>
+      <display value="parameter"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.parameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Exactly what these mean depend on the channel type. They can convey additional information to the server or recipient and/or meet security requirements; for example, support of multiple headers in the outgoing notifications for rest-hook type subscriptions. Note that names are not required to be unique, but channel definitions can impose restrictions."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.parameter.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter:name"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.parameter.name` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.&#xA;Element `Subscription.parameter.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.parameter.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.parameter.value"/>
+      <display value="value"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.parameter:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.parameter.value` is part of an existing definition because parent element `Subscription.parameter` requires a cross-version extension.&#xA;Element `Subscription.parameter.value` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.parameter.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.heartbeatPeriod"/>
+      <display value="heartbeatPeriod"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.heartbeatPeriod"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.heartbeatPeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.timeout"/>
+      <display value="timeout"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.timeout"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.timeout` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.content"/>
+      <display value="content"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.content"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.content` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Sending the payload has obvious security implications. The server is responsible for ensuring that the content is appropriately secured."/>
+      </target>
+    </element>
+    <element>
+      <code value="Subscription.maxCount"/>
+      <display value="maxCount"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Subscription.maxCount"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.&#xA;Element `Subscription.maxCount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

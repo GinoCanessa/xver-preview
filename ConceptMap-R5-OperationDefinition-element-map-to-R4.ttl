@@ -1,0 +1,610 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-OperationDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-OperationDefinition-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-OperationDefinition-element-map-to-R4</b></p><a name=\"R5-OperationDefinition-element-map-to-R4\"> </a><a name=\"hcR5-OperationDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/OperationDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/operationdefinition.html\">OperationDefinitionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>OperationDefinition.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.meta</td><td>Element `OperationDefinition.meta` is mapped to FHIR R4 element `OperationDefinition.meta` as `Equivalent`.</td></tr><tr><td>OperationDefinition.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.implicitRules</td><td>Element `OperationDefinition.implicitRules` is mapped to FHIR R4 element `OperationDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>OperationDefinition.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.language</td><td>Element `OperationDefinition.language` is mapped to FHIR R4 element `OperationDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>OperationDefinition.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.text</td><td>Element `OperationDefinition.text` is mapped to FHIR R4 element `OperationDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>OperationDefinition.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.contained</td><td>Element `OperationDefinition.contained` is mapped to FHIR R4 element `OperationDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>OperationDefinition.url (url)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.url</td><td>Element `OperationDefinition.url` is mapped to FHIR R4 element `OperationDefinition.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions).\n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>OperationDefinition.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.version</td><td>Element `OperationDefinition.version` is mapped to FHIR R4 element `OperationDefinition.version` as `Equivalent`.\nThere may be different operation definitions that have the same url but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the operation definition with the format. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>OperationDefinition.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.name</td><td>Element `OperationDefinition.name` is mapped to FHIR R4 element `OperationDefinition.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type no-whitespace name to ensure that it is machine-processing friendly.</td></tr><tr><td>OperationDefinition.title (title)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.title</td><td>Element `OperationDefinition.title` is mapped to FHIR R4 element `OperationDefinition.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>OperationDefinition.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.status</td><td>Element `OperationDefinition.status` is mapped to FHIR R4 element `OperationDefinition.status` as `Equivalent`.\nA nominal state-transition diagram can be found in the] documentation\n\nUnknown does not represent 'other' - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.</td></tr><tr><td>OperationDefinition.kind (kind)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.kind</td><td>Element `OperationDefinition.kind` is mapped to FHIR R4 element `OperationDefinition.kind` as `Equivalent`.\nNamed queries are invoked differently, and have different capabilities.</td></tr><tr><td>OperationDefinition.experimental (experimental)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.experimental</td><td>Element `OperationDefinition.experimental` is mapped to FHIR R4 element `OperationDefinition.experimental` as `Equivalent`.\nAllows filtering of operation definitions that are appropriate for use versus not.</td></tr><tr><td>OperationDefinition.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.date</td><td>Element `OperationDefinition.date` is mapped to FHIR R4 element `OperationDefinition.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the operation definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>OperationDefinition.publisher (publisher)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.publisher</td><td>Element `OperationDefinition.publisher` is mapped to FHIR R4 element `OperationDefinition.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the operation definition is the organization or individual primarily responsible for the maintenance and upkeep of the operation definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the operation definition. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>OperationDefinition.contact (contact)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.contact</td><td>Element `OperationDefinition.contact` is mapped to FHIR R4 element `OperationDefinition.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>OperationDefinition.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.description</td><td>Element `OperationDefinition.description` is mapped to FHIR R4 element `OperationDefinition.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the operation definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the operation definition is presumed to be the predominant language in the place the operation definition was created).</td></tr><tr><td>OperationDefinition.useContext (useContext)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.useContext</td><td>Element `OperationDefinition.useContext` is mapped to FHIR R4 element `OperationDefinition.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or even any of the contexts apply.</td></tr><tr><td>OperationDefinition.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.jurisdiction</td><td>Element `OperationDefinition.jurisdiction` is mapped to FHIR R4 element `OperationDefinition.jurisdiction` as `Equivalent`.\nElement `OperationDefinition.jurisdiction` has been flagged as deprecated.\nIt may be possible for the operation definition to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>OperationDefinition.purpose (purpose)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.purpose</td><td>Element `OperationDefinition.purpose` is mapped to FHIR R4 element `OperationDefinition.purpose` as `Equivalent`.\nThis element does not describe the usage of the operation definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this operation definition.</td></tr><tr><td>OperationDefinition.affectsState (affectsState)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.affectsState</td><td>Element `OperationDefinition.affectsState` is mapped to FHIR R4 element `OperationDefinition.affectsState` as `Equivalent`.\nWhat http methods can be used for the operation depends on the .affectsState value and whether the input parameters are primitive or complex:\n\n1. Servers SHALL support POST method for all operations.\n\n2. Servers SHALL support the GET method when the operation has affectsState = false and all required parameters for the operation are primitive.</td></tr><tr><td>OperationDefinition.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.code</td><td>Element `OperationDefinition.code` is mapped to FHIR R4 element `OperationDefinition.code` as `Equivalent`.\nFor maximum compatibility, use only lowercase ASCII characters. Note that HL7 will never define multiple operations with the same code. See [Naming Rules &amp; Guidelines](https://confluence.hl7.org/display/FHIR/Guide+to+Designing+Resources#GuidetoDesigningResources-NamingRules&amp;Guidelines) for the internal HL7 rules around codes, which are useful additional advice for all implementers</td></tr><tr><td>OperationDefinition.comment (comment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.comment</td><td>Element `OperationDefinition.comment` is mapped to FHIR R4 element `OperationDefinition.comment` as `Equivalent`.</td></tr><tr><td>OperationDefinition.base (base)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.base</td><td>Element `OperationDefinition.base` is mapped to FHIR R4 element `OperationDefinition.base` as `Equivalent`.\nA constrained profile can make optional parameters required or not used, introduce new parameters (required or optional), and clarify documentation.</td></tr><tr><td>OperationDefinition.resource (resource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.resource</td><td>Element `OperationDefinition.resource` is mapped to FHIR R4 element `OperationDefinition.resource` as `SourceIsNarrowerThanTarget`.\nIf the type is an abstract resource (\"Resource\" or \"DomainResource\") then the operation can be invoked on any concrete specialization.</td></tr><tr><td>OperationDefinition.system (system)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.system</td><td>Element `OperationDefinition.system` is mapped to FHIR R4 element `OperationDefinition.system` as `Equivalent`.</td></tr><tr><td>OperationDefinition.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.type</td><td>Element `OperationDefinition.type` is mapped to FHIR R4 element `OperationDefinition.type` as `Equivalent`.</td></tr><tr><td>OperationDefinition.instance (instance)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.instance</td><td>Element `OperationDefinition.instance` is mapped to FHIR R4 element `OperationDefinition.instance` as `Equivalent`.</td></tr><tr><td>OperationDefinition.inputProfile (inputProfile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.inputProfile</td><td>Element `OperationDefinition.inputProfile` is mapped to FHIR R4 element `OperationDefinition.inputProfile` as `Equivalent`.\nIf present the profile shall not conflict with what is specified in the parameters in the operation definition (max/min etc.), though it may provide additional constraints. The constraints expressed in the profile apply whether the operation is invoked by a POST wih parameters or not.</td></tr><tr><td>OperationDefinition.outputProfile (outputProfile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.outputProfile</td><td>Element `OperationDefinition.outputProfile` is mapped to FHIR R4 element `OperationDefinition.outputProfile` as `Equivalent`.\nIf present the profile shall not conflict with what is specified in the parameters in the operation definition (max/min etc.), though it may provide additional constraints. The constraints expressed in the profile apply whether the operation is invoked by a POST wih parameters or not.</td></tr><tr><td>OperationDefinition.parameter (parameter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>OperationDefinition.parameter</td><td>Element `OperationDefinition.parameter` is mapped to FHIR R4 element `OperationDefinition.parameter` as `Equivalent`.\nQuery Definitions only have one output parameter, named \"result\". This might not be described, but can be to allow a profile to be defined.</td></tr><tr><td>OperationDefinition.parameter.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.name</td><td>Element `OperationDefinition.parameter.name` is mapped to FHIR R4 element `OperationDefinition.parameter.name` as `Equivalent`.\nThis name must be a token (start with a letter in a..z, and only contain letters, numerals, and underscore. Note that for search parameters (type = string, with a search type), the name may be altered by the search modifiers.</td></tr><tr><td>OperationDefinition.parameter.use (use)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.use</td><td>Element `OperationDefinition.parameter.use` is mapped to FHIR R4 element `OperationDefinition.parameter.use` as `Equivalent`.\nIf a parameter name is used for both an input and an output parameter, the parameter should be defined twice.</td></tr><tr><td>OperationDefinition.parameter.min (min)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.min</td><td>Element `OperationDefinition.parameter.min` is mapped to FHIR R4 element `OperationDefinition.parameter.min` as `Equivalent`.</td></tr><tr><td>OperationDefinition.parameter.max (max)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.max</td><td>Element `OperationDefinition.parameter.max` is mapped to FHIR R4 element `OperationDefinition.parameter.max` as `Equivalent`.</td></tr><tr><td>OperationDefinition.parameter.documentation (documentation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.documentation</td><td>Element `OperationDefinition.parameter.documentation` is mapped to FHIR R4 element `OperationDefinition.parameter.documentation` as `Equivalent`.</td></tr><tr><td>OperationDefinition.parameter.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.type</td><td>Element `OperationDefinition.parameter.type` is mapped to FHIR R4 element `OperationDefinition.parameter.type` as `SourceIsNarrowerThanTarget`.\nif there is no stated parameter, then the parameter is a multi-part parameter type and must have at least one part defined.</td></tr><tr><td>OperationDefinition.parameter.targetProfile (targetProfile)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.targetProfile</td><td>Element `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile` as `Equivalent`.\nOften, these profiles are the base definitions from the spec (e.g. http://hl7.org/fhir/StructureDefinition/Patient).</td></tr><tr><td>OperationDefinition.parameter.searchType (searchType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.searchType</td><td>Element `OperationDefinition.parameter.searchType` is mapped to FHIR R4 element `OperationDefinition.parameter.searchType` as `Equivalent`.\nParameters that are search parameter usually - but not always - are also defined for use with general searches, and function in the operation to filter the set of resources in scope for the operation just like the do when searching. The searchType describes how the server processes the value. For an example, see the [Evaluate Measure Operation](https://hl7.org/fhir/measure-operation-evaluate-measure.html)</td></tr><tr><td>OperationDefinition.parameter.binding (binding)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>OperationDefinition.parameter.binding</td><td>Element `OperationDefinition.parameter.binding` is mapped to FHIR R4 element `OperationDefinition.parameter.binding` as `Equivalent`.</td></tr><tr><td>OperationDefinition.parameter.binding.strength (strength)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.binding.strength</td><td>Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength` as `Equivalent`.\nFor further discussion, see [Using Terminologies](https://hl7.org/fhir/terminologies.html).</td></tr><tr><td>OperationDefinition.parameter.binding.valueSet (valueSet)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.binding.valueSet</td><td>Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet` as `Equivalent`.\nFor value sets with a referenceResource, the display can contain the value set description.  The reference may be version-specific or not.</td></tr><tr><td>OperationDefinition.parameter.referencedFrom (referencedFrom)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>OperationDefinition.parameter.referencedFrom</td><td>Element `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom` as `Equivalent`.\nResolution applies if the referenced parameter exists.</td></tr><tr><td>OperationDefinition.parameter.referencedFrom.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.referencedFrom.source</td><td>Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source` as `Equivalent`.</td></tr><tr><td>OperationDefinition.parameter.referencedFrom.sourceId (sourceId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.referencedFrom.sourceId</td><td>Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId` as `Equivalent`.</td></tr><tr><td>OperationDefinition.parameter.part (part)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.parameter.part</td><td>Element `OperationDefinition.parameter.part` is mapped to FHIR R4 element `OperationDefinition.parameter.part` as `Equivalent`.\nQuery Definitions only have one output parameter, named \"result\". This might not be described, but can be to allow a profile to be defined.</td></tr><tr><td>OperationDefinition.overload (overload)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>OperationDefinition.overload</td><td>Element `OperationDefinition.overload` is mapped to FHIR R4 element `OperationDefinition.overload` as `Equivalent`.\nThe combinations are suggestions as to which sets of parameters to use together, but the combinations are not intended to be authoritative.</td></tr><tr><td>OperationDefinition.overload.parameterName (parameterName)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.overload.parameterName</td><td>Element `OperationDefinition.overload.parameterName` is mapped to FHIR R4 element `OperationDefinition.overload.parameterName` as `Equivalent`.</td></tr><tr><td>OperationDefinition.overload.comment (comment)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>OperationDefinition.overload.comment</td><td>Element `OperationDefinition.overload.comment` is mapped to FHIR R4 element `OperationDefinition.overload.comment` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/OperationDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>OperationDefinition.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.identifier</td><td>Element `OperationDefinition.identifier` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>OperationDefinition.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.versionAlgorithm</td><td>Element `OperationDefinition.versionAlgorithm[x]` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>OperationDefinition.copyright (copyright)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyright</td><td>Element `OperationDefinition.copyright` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>OperationDefinition.copyrightLabel (copyrightLabel)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyrightLabel</td><td>Element `OperationDefinition.copyrightLabel` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>OperationDefinition.parameter.scope (scope)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope</td><td>Element `OperationDefinition.parameter.scope` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.parameter.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>OperationDefinition.parameter.allowedType (allowedType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType</td><td>Element `OperationDefinition.parameter.allowedType` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.parameter.allowedType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIn previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-OperationDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-OperationDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5OperationDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 OperationDefinition to FHIR R4 OperationDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:50.6397861-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 OperationDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/OperationDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/OperationDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/OperationDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/OperationDefinition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "OperationDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.meta" ] ;
+         fhir:display [ fhir:v "OperationDefinition.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.meta` is mapped to FHIR R4 element `OperationDefinition.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.implicitRules" ] ;
+         fhir:display [ fhir:v "OperationDefinition.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.implicitRules` is mapped to FHIR R4 element `OperationDefinition.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.language" ] ;
+         fhir:display [ fhir:v "OperationDefinition.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.language` is mapped to FHIR R4 element `OperationDefinition.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.text" ] ;
+         fhir:display [ fhir:v "OperationDefinition.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.text` is mapped to FHIR R4 element `OperationDefinition.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.contained" ] ;
+         fhir:display [ fhir:v "OperationDefinition.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.contained` is mapped to FHIR R4 element `OperationDefinition.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.url" ] ;
+         fhir:display [ fhir:v "OperationDefinition.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.url` is mapped to FHIR R4 element `OperationDefinition.url` as `Equivalent`.\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions).\n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.version" ] ;
+         fhir:display [ fhir:v "OperationDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.version` is mapped to FHIR R4 element `OperationDefinition.version` as `Equivalent`.\nThere may be different operation definitions that have the same url but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the operation definition with the format. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.name" ] ;
+         fhir:display [ fhir:v "OperationDefinition.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.name` is mapped to FHIR R4 element `OperationDefinition.name` as `Equivalent`.\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type no-whitespace name to ensure that it is machine-processing friendly." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.title" ] ;
+         fhir:display [ fhir:v "OperationDefinition.title" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.title` is mapped to FHIR R4 element `OperationDefinition.title` as `Equivalent`.\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.status" ] ;
+         fhir:display [ fhir:v "OperationDefinition.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.status` is mapped to FHIR R4 element `OperationDefinition.status` as `Equivalent`.\nA nominal state-transition diagram can be found in the] documentation\n\nUnknown does not represent 'other' - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.kind" ] ;
+         fhir:display [ fhir:v "OperationDefinition.kind" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.kind` is mapped to FHIR R4 element `OperationDefinition.kind` as `Equivalent`.\nNamed queries are invoked differently, and have different capabilities." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.experimental" ] ;
+         fhir:display [ fhir:v "OperationDefinition.experimental" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.experimental` is mapped to FHIR R4 element `OperationDefinition.experimental` as `Equivalent`.\nAllows filtering of operation definitions that are appropriate for use versus not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.date" ] ;
+         fhir:display [ fhir:v "OperationDefinition.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.date` is mapped to FHIR R4 element `OperationDefinition.date` as `Equivalent`.\nThe date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the operation definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.publisher" ] ;
+         fhir:display [ fhir:v "OperationDefinition.publisher" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.publisher` is mapped to FHIR R4 element `OperationDefinition.publisher` as `Equivalent`.\nUsually an organization but may be an individual. The publisher (or steward) of the operation definition is the organization or individual primarily responsible for the maintenance and upkeep of the operation definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the operation definition. This item SHOULD be populated unless the information is available from context." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.contact" ] ;
+         fhir:display [ fhir:v "OperationDefinition.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.contact` is mapped to FHIR R4 element `OperationDefinition.contact` as `Equivalent`.\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.description" ] ;
+         fhir:display [ fhir:v "OperationDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.description` is mapped to FHIR R4 element `OperationDefinition.description` as `Equivalent`.\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the operation definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the operation definition is presumed to be the predominant language in the place the operation definition was created)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.useContext" ] ;
+         fhir:display [ fhir:v "OperationDefinition.useContext" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.useContext` is mapped to FHIR R4 element `OperationDefinition.useContext` as `Equivalent`.\nWhen multiple useContexts are specified, there is no expectation that all or even any of the contexts apply." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.jurisdiction" ] ;
+         fhir:display [ fhir:v "OperationDefinition.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.jurisdiction` is mapped to FHIR R4 element `OperationDefinition.jurisdiction` as `Equivalent`.\nElement `OperationDefinition.jurisdiction` has been flagged as deprecated.\nIt may be possible for the operation definition to be used in jurisdictions other than those for which it was originally designed or intended.\n\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.purpose" ] ;
+         fhir:display [ fhir:v "OperationDefinition.purpose" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.purpose` is mapped to FHIR R4 element `OperationDefinition.purpose` as `Equivalent`.\nThis element does not describe the usage of the operation definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this operation definition." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.affectsState" ] ;
+       fhir:display [ fhir:v "affectsState" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.affectsState" ] ;
+         fhir:display [ fhir:v "OperationDefinition.affectsState" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.affectsState` is mapped to FHIR R4 element `OperationDefinition.affectsState` as `Equivalent`.\nWhat http methods can be used for the operation depends on the .affectsState value and whether the input parameters are primitive or complex:\n\n1. Servers SHALL support POST method for all operations.\n\n2. Servers SHALL support the GET method when the operation has affectsState = false and all required parameters for the operation are primitive." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.code" ] ;
+         fhir:display [ fhir:v "OperationDefinition.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.code` is mapped to FHIR R4 element `OperationDefinition.code` as `Equivalent`.\nFor maximum compatibility, use only lowercase ASCII characters. Note that HL7 will never define multiple operations with the same code. See [Naming Rules & Guidelines](https://confluence.hl7.org/display/FHIR/Guide+to+Designing+Resources#GuidetoDesigningResources-NamingRules&Guidelines) for the internal HL7 rules around codes, which are useful additional advice for all implementers" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.comment" ] ;
+         fhir:display [ fhir:v "OperationDefinition.comment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.comment` is mapped to FHIR R4 element `OperationDefinition.comment` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.base" ] ;
+       fhir:display [ fhir:v "base" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.base" ] ;
+         fhir:display [ fhir:v "OperationDefinition.base" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.base` is mapped to FHIR R4 element `OperationDefinition.base` as `Equivalent`.\nA constrained profile can make optional parameters required or not used, introduce new parameters (required or optional), and clarify documentation." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.resource" ] ;
+         fhir:display [ fhir:v "OperationDefinition.resource" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.resource` is mapped to FHIR R4 element `OperationDefinition.resource` as `SourceIsNarrowerThanTarget`.\nIf the type is an abstract resource (\"Resource\" or \"DomainResource\") then the operation can be invoked on any concrete specialization." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.system" ] ;
+       fhir:display [ fhir:v "system" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.system" ] ;
+         fhir:display [ fhir:v "OperationDefinition.system" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.system` is mapped to FHIR R4 element `OperationDefinition.system` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.type" ] ;
+         fhir:display [ fhir:v "OperationDefinition.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.type` is mapped to FHIR R4 element `OperationDefinition.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.instance" ] ;
+       fhir:display [ fhir:v "instance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.instance" ] ;
+         fhir:display [ fhir:v "OperationDefinition.instance" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.instance` is mapped to FHIR R4 element `OperationDefinition.instance` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.inputProfile" ] ;
+       fhir:display [ fhir:v "inputProfile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.inputProfile" ] ;
+         fhir:display [ fhir:v "OperationDefinition.inputProfile" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.inputProfile` is mapped to FHIR R4 element `OperationDefinition.inputProfile` as `Equivalent`.\nIf present the profile shall not conflict with what is specified in the parameters in the operation definition (max/min etc.), though it may provide additional constraints. The constraints expressed in the profile apply whether the operation is invoked by a POST wih parameters or not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.outputProfile" ] ;
+       fhir:display [ fhir:v "outputProfile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.outputProfile" ] ;
+         fhir:display [ fhir:v "OperationDefinition.outputProfile" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.outputProfile` is mapped to FHIR R4 element `OperationDefinition.outputProfile` as `Equivalent`.\nIf present the profile shall not conflict with what is specified in the parameters in the operation definition (max/min etc.), though it may provide additional constraints. The constraints expressed in the profile apply whether the operation is invoked by a POST wih parameters or not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter` is mapped to FHIR R4 element `OperationDefinition.parameter` as `Equivalent`.\nQuery Definitions only have one output parameter, named \"result\". This might not be described, but can be to allow a profile to be defined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.name" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.name` is mapped to FHIR R4 element `OperationDefinition.parameter.name` as `Equivalent`.\nThis name must be a token (start with a letter in a..z, and only contain letters, numerals, and underscore. Note that for search parameters (type = string, with a search type), the name may be altered by the search modifiers." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.use" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.use" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.use` is mapped to FHIR R4 element `OperationDefinition.parameter.use` as `Equivalent`.\nIf a parameter name is used for both an input and an output parameter, the parameter should be defined twice." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.min" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.min" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.min` is mapped to FHIR R4 element `OperationDefinition.parameter.min` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.max" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.max" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.max` is mapped to FHIR R4 element `OperationDefinition.parameter.max` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.documentation" ] ;
+       fhir:display [ fhir:v "documentation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.documentation" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.documentation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.documentation` is mapped to FHIR R4 element `OperationDefinition.parameter.documentation` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.type" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.type` is mapped to FHIR R4 element `OperationDefinition.parameter.type` as `SourceIsNarrowerThanTarget`.\nif there is no stated parameter, then the parameter is a multi-part parameter type and must have at least one part defined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.targetProfile" ] ;
+       fhir:display [ fhir:v "targetProfile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.targetProfile" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.targetProfile" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile` as `Equivalent`.\nOften, these profiles are the base definitions from the spec (e.g. http://hl7.org/fhir/StructureDefinition/Patient)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.searchType" ] ;
+       fhir:display [ fhir:v "searchType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.searchType" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.searchType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.searchType` is mapped to FHIR R4 element `OperationDefinition.parameter.searchType` as `Equivalent`.\nParameters that are search parameter usually - but not always - are also defined for use with general searches, and function in the operation to filter the set of resources in scope for the operation just like the do when searching. The searchType describes how the server processes the value. For an example, see the [Evaluate Measure Operation](https://hl7.org/fhir/measure-operation-evaluate-measure.html)" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.binding" ] ;
+       fhir:display [ fhir:v "binding" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.binding" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.binding" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.binding` is mapped to FHIR R4 element `OperationDefinition.parameter.binding` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.binding.strength" ] ;
+       fhir:display [ fhir:v "strength" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.binding.strength" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.binding.strength" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength` as `Equivalent`.\nFor further discussion, see [Using Terminologies](https://hl7.org/fhir/terminologies.html)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.binding.valueSet" ] ;
+       fhir:display [ fhir:v "valueSet" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.binding.valueSet" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.binding.valueSet" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet` as `Equivalent`.\nFor value sets with a referenceResource, the display can contain the value set description.  The reference may be version-specific or not." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.referencedFrom" ] ;
+       fhir:display [ fhir:v "referencedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.referencedFrom" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.referencedFrom" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom` as `Equivalent`.\nResolution applies if the referenced parameter exists." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.referencedFrom.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.referencedFrom.source" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.referencedFrom.source" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.referencedFrom.sourceId" ] ;
+       fhir:display [ fhir:v "sourceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.referencedFrom.sourceId" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.referencedFrom.sourceId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.part" ] ;
+       fhir:display [ fhir:v "part" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.parameter.part" ] ;
+         fhir:display [ fhir:v "OperationDefinition.parameter.part" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.part` is mapped to FHIR R4 element `OperationDefinition.parameter.part` as `Equivalent`.\nQuery Definitions only have one output parameter, named \"result\". This might not be described, but can be to allow a profile to be defined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.overload" ] ;
+       fhir:display [ fhir:v "overload" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.overload" ] ;
+         fhir:display [ fhir:v "OperationDefinition.overload" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.overload` is mapped to FHIR R4 element `OperationDefinition.overload` as `Equivalent`.\nThe combinations are suggestions as to which sets of parameters to use together, but the combinations are not intended to be authoritative." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.overload.parameterName" ] ;
+       fhir:display [ fhir:v "parameterName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.overload.parameterName" ] ;
+         fhir:display [ fhir:v "OperationDefinition.overload.parameterName" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.overload.parameterName` is mapped to FHIR R4 element `OperationDefinition.overload.parameterName` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.overload.comment" ] ;
+       fhir:display [ fhir:v "comment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "OperationDefinition.overload.comment" ] ;
+         fhir:display [ fhir:v "OperationDefinition.overload.comment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.overload.comment` is mapped to FHIR R4 element `OperationDefinition.overload.comment` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/OperationDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/OperationDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "OperationDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.identifier` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.versionAlgorithm[x]` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyright" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.copyright` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.copyrightLabel` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.scope" ] ;
+       fhir:display [ fhir:v "scope" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.scope` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.parameter.scope` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "OperationDefinition.parameter.allowedType" ] ;
+       fhir:display [ fhir:v "allowedType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `OperationDefinition.parameter.allowedType` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.\nElement `OperationDefinition.parameter.allowedType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIn previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

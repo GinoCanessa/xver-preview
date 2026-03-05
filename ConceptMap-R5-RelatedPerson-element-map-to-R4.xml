@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-RelatedPerson-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-RelatedPerson-element-map-to-R4</b></p><a name="R5-RelatedPerson-element-map-to-R4"> </a><a name="hcR5-RelatedPerson-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/RelatedPerson|5.0.0</code> to <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPersonversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>RelatedPerson.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.meta</td><td>Element `RelatedPerson.meta` is mapped to FHIR R4 element `RelatedPerson.meta` as `Equivalent`.</td></tr><tr><td>RelatedPerson.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.implicitRules</td><td>Element `RelatedPerson.implicitRules` is mapped to FHIR R4 element `RelatedPerson.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>RelatedPerson.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.language</td><td>Element `RelatedPerson.language` is mapped to FHIR R4 element `RelatedPerson.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>RelatedPerson.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.text</td><td>Element `RelatedPerson.text` is mapped to FHIR R4 element `RelatedPerson.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>RelatedPerson.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.contained</td><td>Element `RelatedPerson.contained` is mapped to FHIR R4 element `RelatedPerson.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>RelatedPerson.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.identifier</td><td>Element `RelatedPerson.identifier` is mapped to FHIR R4 element `RelatedPerson.identifier` as `Equivalent`.
+RelatedPerson identifiers might not be unique across instances within a system, as a single human individual may be represented as many different RelatedPerson resources with different roles, periods, or relationships.</td></tr><tr><td>RelatedPerson.active (active)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.active</td><td>Element `RelatedPerson.active` is mapped to FHIR R4 element `RelatedPerson.active` as `Equivalent`.
+This element is labeled as a modifier because it may be used to mark that the resource was created in error.</td></tr><tr><td>RelatedPerson.patient (patient)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.patient</td><td>Element `RelatedPerson.patient` is mapped to FHIR R4 element `RelatedPerson.patient` as `Equivalent`.</td></tr><tr><td>RelatedPerson.relationship (relationship)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.relationship</td><td>Element `RelatedPerson.relationship` is mapped to FHIR R4 element `RelatedPerson.relationship` as `Equivalent`.
+The directionality of the relationship is from the RelatedPerson to the Patient. For example, if the Patient is a child, and the RelatedPerson is the mother, the relationship would be PRN (parent) or MTH (mother).</td></tr><tr><td>RelatedPerson.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.name</td><td>Element `RelatedPerson.name` is mapped to FHIR R4 element `RelatedPerson.name` as `Equivalent`.</td></tr><tr><td>RelatedPerson.telecom (telecom)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.telecom</td><td>Element `RelatedPerson.telecom` is mapped to FHIR R4 element `RelatedPerson.telecom` as `Equivalent`.
+Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently, and also to help with identification.</td></tr><tr><td>RelatedPerson.gender (gender)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.gender</td><td>Element `RelatedPerson.gender` is mapped to FHIR R4 element `RelatedPerson.gender` as `Equivalent`.</td></tr><tr><td>RelatedPerson.birthDate (birthDate)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.birthDate</td><td>Element `RelatedPerson.birthDate` is mapped to FHIR R4 element `RelatedPerson.birthDate` as `Equivalent`.</td></tr><tr><td>RelatedPerson.address (address)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.address</td><td>Element `RelatedPerson.address` is mapped to FHIR R4 element `RelatedPerson.address` as `Equivalent`.</td></tr><tr><td>RelatedPerson.photo (photo)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.photo</td><td>Element `RelatedPerson.photo` is mapped to FHIR R4 element `RelatedPerson.photo` as `Equivalent`.</td></tr><tr><td>RelatedPerson.period (period)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.period</td><td>Element `RelatedPerson.period` is mapped to FHIR R4 element `RelatedPerson.period` as `Equivalent`.
+If an individual has a relationship with a patient over multiple, non-adjacent periods, there should be a distinct RelatedPerson instance for each period.  For example, if a person is a roommate for a period of time, moves out, and is later a roommate with the same person again, you would have two RelatedPerson instances.</td></tr><tr><td>RelatedPerson.communication (communication)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>RelatedPerson.communication</td><td>Element `RelatedPerson.communication` is mapped to FHIR R4 element `RelatedPerson.communication` as `Equivalent`.
+If no language is specified, this *implies* that the default local language is spoken.  If you need to convey proficiency for multiple modes, then you need multiple RelatedPerson.Communication associations.   If the RelatedPerson does not speak the default local language, then the Interpreter Required Standard can be used to explicitly declare that an interpreter is required.</td></tr><tr><td>RelatedPerson.communication.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.communication.language</td><td>Element `RelatedPerson.communication.language` is mapped to FHIR R4 element `RelatedPerson.communication.language` as `Equivalent`.
+The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.</td></tr><tr><td>RelatedPerson.communication.preferred (preferred)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RelatedPerson.communication.preferred</td><td>Element `RelatedPerson.communication.preferred` is mapped to FHIR R4 element `RelatedPerson.communication.preferred` as `Equivalent`.
+This language is specifically identified for communicating healthcare information.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-RelatedPerson-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5RelatedPersonElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 RelatedPerson to FHIR R4 RelatedPerson"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.3430157-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 RelatedPerson to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/RelatedPerson"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="RelatedPerson.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="RelatedPerson.meta"/>
+        <display value="RelatedPerson.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.meta` is mapped to FHIR R4 element `RelatedPerson.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="RelatedPerson.implicitRules"/>
+        <display value="RelatedPerson.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.implicitRules` is mapped to FHIR R4 element `RelatedPerson.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.language"/>
+      <display value="language"/>
+      <target>
+        <code value="RelatedPerson.language"/>
+        <display value="RelatedPerson.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.language` is mapped to FHIR R4 element `RelatedPerson.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.text"/>
+      <display value="text"/>
+      <target>
+        <code value="RelatedPerson.text"/>
+        <display value="RelatedPerson.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.text` is mapped to FHIR R4 element `RelatedPerson.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="RelatedPerson.contained"/>
+        <display value="RelatedPerson.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.contained` is mapped to FHIR R4 element `RelatedPerson.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="RelatedPerson.identifier"/>
+        <display value="RelatedPerson.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.identifier` is mapped to FHIR R4 element `RelatedPerson.identifier` as `Equivalent`.&#xA;RelatedPerson identifiers might not be unique across instances within a system, as a single human individual may be represented as many different RelatedPerson resources with different roles, periods, or relationships."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.active"/>
+      <display value="active"/>
+      <target>
+        <code value="RelatedPerson.active"/>
+        <display value="RelatedPerson.active"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.active` is mapped to FHIR R4 element `RelatedPerson.active` as `Equivalent`.&#xA;This element is labeled as a modifier because it may be used to mark that the resource was created in error."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.patient"/>
+      <display value="patient"/>
+      <target>
+        <code value="RelatedPerson.patient"/>
+        <display value="RelatedPerson.patient"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.patient` is mapped to FHIR R4 element `RelatedPerson.patient` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.relationship"/>
+      <display value="relationship"/>
+      <target>
+        <code value="RelatedPerson.relationship"/>
+        <display value="RelatedPerson.relationship"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.relationship` is mapped to FHIR R4 element `RelatedPerson.relationship` as `Equivalent`.&#xA;The directionality of the relationship is from the RelatedPerson to the Patient. For example, if the Patient is a child, and the RelatedPerson is the mother, the relationship would be PRN (parent) or MTH (mother)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.name"/>
+      <display value="name"/>
+      <target>
+        <code value="RelatedPerson.name"/>
+        <display value="RelatedPerson.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.name` is mapped to FHIR R4 element `RelatedPerson.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.telecom"/>
+      <display value="telecom"/>
+      <target>
+        <code value="RelatedPerson.telecom"/>
+        <display value="RelatedPerson.telecom"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.telecom` is mapped to FHIR R4 element `RelatedPerson.telecom` as `Equivalent`.&#xA;Person may have multiple ways to be contacted with different uses or applicable periods.  May need to have options for contacting the person urgently, and also to help with identification."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.gender"/>
+      <display value="gender"/>
+      <target>
+        <code value="RelatedPerson.gender"/>
+        <display value="RelatedPerson.gender"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.gender` is mapped to FHIR R4 element `RelatedPerson.gender` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.birthDate"/>
+      <display value="birthDate"/>
+      <target>
+        <code value="RelatedPerson.birthDate"/>
+        <display value="RelatedPerson.birthDate"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.birthDate` is mapped to FHIR R4 element `RelatedPerson.birthDate` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.address"/>
+      <display value="address"/>
+      <target>
+        <code value="RelatedPerson.address"/>
+        <display value="RelatedPerson.address"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.address` is mapped to FHIR R4 element `RelatedPerson.address` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.photo"/>
+      <display value="photo"/>
+      <target>
+        <code value="RelatedPerson.photo"/>
+        <display value="RelatedPerson.photo"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.photo` is mapped to FHIR R4 element `RelatedPerson.photo` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.period"/>
+      <display value="period"/>
+      <target>
+        <code value="RelatedPerson.period"/>
+        <display value="RelatedPerson.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.period` is mapped to FHIR R4 element `RelatedPerson.period` as `Equivalent`.&#xA;If an individual has a relationship with a patient over multiple, non-adjacent periods, there should be a distinct RelatedPerson instance for each period.  For example, if a person is a roommate for a period of time, moves out, and is later a roommate with the same person again, you would have two RelatedPerson instances."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.communication"/>
+      <display value="communication"/>
+      <target>
+        <code value="RelatedPerson.communication"/>
+        <display value="RelatedPerson.communication"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RelatedPerson.communication` is mapped to FHIR R4 element `RelatedPerson.communication` as `Equivalent`.&#xA;If no language is specified, this *implies* that the default local language is spoken.  If you need to convey proficiency for multiple modes, then you need multiple RelatedPerson.Communication associations.   If the RelatedPerson does not speak the default local language, then the Interpreter Required Standard can be used to explicitly declare that an interpreter is required."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.communication.language"/>
+      <display value="language"/>
+      <target>
+        <code value="RelatedPerson.communication.language"/>
+        <display value="RelatedPerson.communication.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.communication.language` is mapped to FHIR R4 element `RelatedPerson.communication.language` as `Equivalent`.&#xA;The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type."/>
+      </target>
+    </element>
+    <element>
+      <code value="RelatedPerson.communication.preferred"/>
+      <display value="preferred"/>
+      <target>
+        <code value="RelatedPerson.communication.preferred"/>
+        <display value="RelatedPerson.communication.preferred"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RelatedPerson.communication.preferred` is mapped to FHIR R4 element `RelatedPerson.communication.preferred` as `Equivalent`.&#xA;This language is specifically identified for communicating healthcare information."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

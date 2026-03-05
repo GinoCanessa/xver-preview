@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-Requirements-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-Requirements-element-map-to-R4</b></p><a name="R5-Requirements-element-map-to-R4"> </a><a name="hcR5-Requirements-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <a href="http://hl7.org/fhir/R5/requirements.html">Requirementsversion: 5.0.0)</a> to <a href="http://hl7.org/fhir/R4/basic.html">Basicversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Requirements.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.meta</td><td>Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.
+Element `Requirements.meta` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Requirements.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.implicitRules</td><td>Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.
+Element `Requirements.implicitRules` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Requirements.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.language</td><td>Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.
+Element `Requirements.language` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Requirements.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.text</td><td>Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.
+Element `Requirements.text` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Requirements.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.contained</td><td>Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.
+Element `Requirements.contained` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Requirements.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>Basic.identifier</td><td>Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.
+Element `Requirements.identifier` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <a href="http://hl7.org/fhir/R5/requirements.html">Requirementsversion: 5.0.0)</a> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Requirements.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url</td><td>Element `Requirements.url` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>Requirements.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version</td><td>Element `Requirements.version` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+There may be different Requirements instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the Requirements with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>Requirements.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.versionAlgorithm</td><td>Element `Requirements.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>Requirements.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name</td><td>Element `Requirements.name` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.</td></tr><tr><td>Requirements.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title</td><td>Element `Requirements.title` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.</td></tr><tr><td>Requirements.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status</td><td>Element `Requirements.status` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Allows filtering of Requirements that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Requirements.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.experimental</td><td>Element `Requirements.experimental` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Allows filtering of Requirements that are appropriate for use versus not.</td></tr><tr><td>Requirements.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date</td><td>Element `Requirements.date` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.date` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the Requirements. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Requirements.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher</td><td>Element `Requirements.publisher` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Usually an organization but may be an individual. The publisher (or steward) of the Requirements is the organization or individual primarily responsible for the maintenance and upkeep of the Requirements. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the Requirements. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>Requirements.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact</td><td>Element `Requirements.contact` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>Requirements.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description</td><td>Element `Requirements.description` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This description can be used for a general description of the requirements, and which covers why it was defined.</td></tr><tr><td>Requirements.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.useContext</td><td>Element `Requirements.useContext` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>Requirements.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction</td><td>Element `Requirements.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Element `Requirements.jurisdiction` has been flagged as deprecated.
+It may be possible for the Requirements to be used in jurisdictions other than those for which it was originally designed or intended
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.).</td></tr><tr><td>Requirements.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.purpose</td><td>Element `Requirements.purpose` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element does not describe the usage of the Requirements. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this Requirements.</td></tr><tr><td>Requirements.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.copyright</td><td>Element `Requirements.copyright` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+...</td></tr><tr><td>Requirements.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.copyrightLabel</td><td>Element `Requirements.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>Requirements.derivedFrom (derivedFrom)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.derivedFrom</td><td>Element `Requirements.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Existing statements (by key) may be narrowed or clarified, and additional statements added.</td></tr><tr><td>Requirements.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.reference</td><td>Element `Requirements.reference` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Requirements.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor</td><td>Element `Requirements.actor` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If more than one actor is specified, then it's up to the statements to describe in narrative if they don't apply to all actors.</td></tr><tr><td>Requirements.statement (statement)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement</td><td>Element `Requirements.statement` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Requirements.statement.key (key)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:key</td><td>Element `Requirements.statement.key` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.key` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.key` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Refer directly to the statement by {url}#{key}</td></tr><tr><td>Requirements.statement.label (label)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:label</td><td>Element `Requirements.statement.label` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.label` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.label` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The key is intended for computers, while this is intended for humans. In its absence, the key should be convenient for a human to say (e.g. not a UUID)</td></tr><tr><td>Requirements.statement.conformance (conformance)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:conformance</td><td>Element `Requirements.statement.conformance` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.conformance` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.conformance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The conformance code is extracted from the requirement to make indexing and display easier. The requirement needs to express the conformance verbs directly in the markdown content. It's not unusual to mix verbs in a single sentence (e.g. System SHALL do X and SHOULD do Y)</td></tr><tr><td>Requirements.statement.conditionality (conditionality)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:conditionality</td><td>Element `Requirements.statement.conditionality` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.conditionality` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.conditionality` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+There is no intent that the conditional statement by evaluatable</td></tr><tr><td>Requirements.statement.requirement (requirement)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:requirement</td><td>Element `Requirements.statement.requirement` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.requirement` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Requirements.statement.derivedFrom (derivedFrom)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:derivedFrom</td><td>Element `Requirements.statement.derivedFrom` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This can be just a key, if there is only one matching statement in the requirements statements referenced in Requirements.derivedFrom. If there is more than one, it should be in the format ```url#key```</td></tr><tr><td>Requirements.statement.parent (parent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:parent</td><td>Element `Requirements.statement.parent` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.parent` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.parent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Follows the same convention as statement.derivedFrom, where a reference is the canonical of the Requirements followed by '#' and the 'key' of the specific requirement.</td></tr><tr><td>Requirements.statement.satisfiedBy (satisfiedBy)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:satisfiedBy</td><td>Element `Requirements.statement.satisfiedBy` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.satisfiedBy` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.satisfiedBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This is for use when the requirement is met be a pre-existing artifact e.g. a rule that's met by the base FHIR spec, or a national implementation guide.</td></tr><tr><td>Requirements.statement.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:reference</td><td>Element `Requirements.statement.reference` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.reference` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Requirements.statement.source (source)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:source</td><td>Element `Requirements.statement.source` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.
+Element `Requirements.statement.source` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.
+Element `Requirements.statement.source` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-Requirements-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5RequirementsElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 Requirements to FHIR R4 Basic"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.3518969-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 Requirements to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Requirements"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/Basic"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="Requirements.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="Basic.meta"/>
+        <display value="Basic.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.&#xA;Element `Requirements.meta` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="Basic.implicitRules"/>
+        <display value="Basic.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.&#xA;Element `Requirements.implicitRules` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.language"/>
+      <display value="language"/>
+      <target>
+        <code value="Basic.language"/>
+        <display value="Basic.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.&#xA;Element `Requirements.language` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.text"/>
+      <display value="text"/>
+      <target>
+        <code value="Basic.text"/>
+        <display value="Basic.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.&#xA;Element `Requirements.text` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="Basic.contained"/>
+        <display value="Basic.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.&#xA;Element `Requirements.contained` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="Basic.identifier"/>
+        <display value="Basic.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.&#xA;Element `Requirements.identifier` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/Requirements"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="Requirements.url"/>
+      <display value="url"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.url` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.version"/>
+      <display value="version"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.version` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;There may be different Requirements instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the Requirements with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.name"/>
+      <display value="name"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.name` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.title"/>
+      <display value="title"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.title` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.status"/>
+      <display value="status"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.status` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Allows filtering of Requirements that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.experimental"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.experimental` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Allows filtering of Requirements that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.date"/>
+      <display value="date"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.date` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.date` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the Requirements. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.publisher` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Usually an organization but may be an individual. The publisher (or steward) of the Requirements is the organization or individual primarily responsible for the maintenance and upkeep of the Requirements. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the Requirements. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.contact` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.description"/>
+      <display value="description"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.description` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This description can be used for a general description of the requirements, and which covers why it was defined."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.useContext"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.useContext` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Element `Requirements.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the Requirements to be used in jurisdictions other than those for which it was originally designed or intended&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.purpose"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.purpose` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element does not describe the usage of the Requirements. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this Requirements."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.copyright"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.copyright` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;..."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.derivedFrom"/>
+      <display value="derivedFrom"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.derivedFrom"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Existing statements (by key) may be narrowed or clarified, and additional statements added."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.reference"/>
+      <display value="reference"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.reference"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.reference` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.actor` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.actor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If more than one actor is specified, then it's up to the statements to describe in narrative if they don't apply to all actors."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement"/>
+      <display value="statement"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.key"/>
+      <display value="key"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:key"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.key` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.key` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.key` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Refer directly to the statement by {url}#{key}"/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.label"/>
+      <display value="label"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:label"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.label` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.label` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.label` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The key is intended for computers, while this is intended for humans. In its absence, the key should be convenient for a human to say (e.g. not a UUID)"/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.conformance"/>
+      <display value="conformance"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:conformance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.conformance` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.conformance` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.conformance` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The conformance code is extracted from the requirement to make indexing and display easier. The requirement needs to express the conformance verbs directly in the markdown content. It's not unusual to mix verbs in a single sentence (e.g. System SHALL do X and SHOULD do Y)"/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.conditionality"/>
+      <display value="conditionality"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:conditionality"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.conditionality` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.conditionality` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.conditionality` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;There is no intent that the conditional statement by evaluatable"/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.requirement"/>
+      <display value="requirement"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:requirement"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.requirement` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.requirement` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.derivedFrom"/>
+      <display value="derivedFrom"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:derivedFrom"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.derivedFrom` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This can be just a key, if there is only one matching statement in the requirements statements referenced in Requirements.derivedFrom. If there is more than one, it should be in the format ```url#key```"/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.parent"/>
+      <display value="parent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:parent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.parent` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.parent` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.parent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Follows the same convention as statement.derivedFrom, where a reference is the canonical of the Requirements followed by '#' and the 'key' of the specific requirement."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.satisfiedBy"/>
+      <display value="satisfiedBy"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:satisfiedBy"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.satisfiedBy` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.satisfiedBy` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.satisfiedBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This is for use when the requirement is met be a pre-existing artifact e.g. a rule that's met by the base FHIR spec, or a national implementation guide."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.reference"/>
+      <display value="reference"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:reference"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.reference` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.reference` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="Requirements.statement.source"/>
+      <display value="source"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:source"/>
+        <equivalence value="wider"/>
+        <comment value="Element `Requirements.statement.source` is part of an existing definition because parent element `Requirements.statement` requires a cross-version extension.&#xA;Element `Requirements.statement.source` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped.&#xA;Element `Requirements.statement.source` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

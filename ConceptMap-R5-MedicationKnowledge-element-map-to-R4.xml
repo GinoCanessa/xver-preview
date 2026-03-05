@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-MedicationKnowledge-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-MedicationKnowledge-element-map-to-R4</b></p><a name="R5-MedicationKnowledge-element-map-to-R4"> </a><a name="hcR5-MedicationKnowledge-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationKnowledge|5.0.0</code> to <a href="http://hl7.org/fhir/R4/medicationknowledge.html">MedicationKnowledgeversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MedicationKnowledge|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MedicationKnowledge|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.meta</td><td style="border-left-width: 0px">MedicationKnowledge.meta</td><td>Element `MedicationKnowledge.meta` is mapped to FHIR R4 element `MedicationKnowledge.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.implicitRules</td><td style="border-left-width: 0px">MedicationKnowledge.implicitRules</td><td>Element `MedicationKnowledge.implicitRules` is mapped to FHIR R4 element `MedicationKnowledge.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.language</td><td style="border-left-width: 0px">MedicationKnowledge.language</td><td>Element `MedicationKnowledge.language` is mapped to FHIR R4 element `MedicationKnowledge.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.text</td><td style="border-left-width: 0px">MedicationKnowledge.text</td><td>Element `MedicationKnowledge.text` is mapped to FHIR R4 element `MedicationKnowledge.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.contained</td><td style="border-left-width: 0px">MedicationKnowledge.contained</td><td>Element `MedicationKnowledge.contained` is mapped to FHIR R4 element `MedicationKnowledge.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.code</td><td style="border-left-width: 0px">code</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.code</td><td style="border-left-width: 0px">MedicationKnowledge.code</td><td>Element `MedicationKnowledge.code` is mapped to FHIR R4 element `MedicationKnowledge.code` as `Equivalent`.
+Depending on the context of use, the code that was actually selected by the user (prescriber, dispenser, etc.) will have the coding.userSelected set to true.  As described in the coding datatype: &quot;A coding may be marked as a &quot;userSelected&quot; if a user selected the particular coded value in a user interface (e.g. the user selects an item in a pick-list). If a user selected coding exists, it is the preferred choice for performing translations etc. Other codes can only be literal translations to alternative code systems, or codes at a lower level of granularity (e.g. a generic code for a vendor-specific primary one).</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.status</td><td style="border-left-width: 0px">MedicationKnowledge.status</td><td>Element `MedicationKnowledge.status` is mapped to FHIR R4 element `MedicationKnowledge.status` as `Equivalent`.
+This status is intended to identify if the medication in a local system is in active use within a drug database or inventory.  For example, a pharmacy system may create a new drug file record for a compounded product &quot;ABC Hospital Special Cream&quot; with an active status.  At some point in the future, it may be determined that the drug record was created with an error and the status is changed to &quot;entered in error&quot;.   This status is not intended to specify if a medication is part of a particular formulary.  It is possible that the drug record may be referenced by multiple formularies or catalogues and each of those entries would have a separate status.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.name</td><td style="border-left-width: 0px">name</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.synonym</td><td style="border-left-width: 0px">MedicationKnowledge.synonym</td><td>Element `MedicationKnowledge.name` is mapped to FHIR R4 element `MedicationKnowledge.synonym` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.relatedMedicationKnowledge</td><td style="border-left-width: 0px">relatedMedicationKnowledge</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.relatedMedicationKnowledge</td><td style="border-left-width: 0px">MedicationKnowledge.relatedMedicationKnowledge</td><td>Element `MedicationKnowledge.relatedMedicationKnowledge` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.relatedMedicationKnowledge.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.relatedMedicationKnowledge.type</td><td style="border-left-width: 0px">MedicationKnowledge.relatedMedicationKnowledge.type</td><td>Element `MedicationKnowledge.relatedMedicationKnowledge.type` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.relatedMedicationKnowledge.reference</td><td style="border-left-width: 0px">reference</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.relatedMedicationKnowledge.reference</td><td style="border-left-width: 0px">MedicationKnowledge.relatedMedicationKnowledge.reference</td><td>Element `MedicationKnowledge.relatedMedicationKnowledge.reference` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.reference` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.associatedMedication</td><td style="border-left-width: 0px">associatedMedication</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.associatedMedication</td><td style="border-left-width: 0px">MedicationKnowledge.associatedMedication</td><td>Element `MedicationKnowledge.associatedMedication` is mapped to FHIR R4 element `MedicationKnowledge.associatedMedication` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.productType</td><td style="border-left-width: 0px">productType</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.productType</td><td style="border-left-width: 0px">MedicationKnowledge.productType</td><td>Element `MedicationKnowledge.productType` is mapped to FHIR R4 element `MedicationKnowledge.productType` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.monograph</td><td style="border-left-width: 0px">monograph</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.monograph</td><td style="border-left-width: 0px">MedicationKnowledge.monograph</td><td>Element `MedicationKnowledge.monograph` is mapped to FHIR R4 element `MedicationKnowledge.monograph` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.monograph.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.monograph.type</td><td style="border-left-width: 0px">MedicationKnowledge.monograph.type</td><td>Element `MedicationKnowledge.monograph.type` is mapped to FHIR R4 element `MedicationKnowledge.monograph.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.monograph.source</td><td style="border-left-width: 0px">source</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.monograph.source</td><td style="border-left-width: 0px">MedicationKnowledge.monograph.source</td><td>Element `MedicationKnowledge.monograph.source` is mapped to FHIR R4 element `MedicationKnowledge.monograph.source` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.monograph.source` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationKnowledge.monograph.source` with unmapped reference targets: DocumentReference.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.preparationInstruction</td><td style="border-left-width: 0px">preparationInstruction</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.preparationInstruction</td><td style="border-left-width: 0px">MedicationKnowledge.preparationInstruction</td><td>Element `MedicationKnowledge.preparationInstruction` is mapped to FHIR R4 element `MedicationKnowledge.preparationInstruction` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.cost</td><td style="border-left-width: 0px">cost</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.cost</td><td style="border-left-width: 0px">MedicationKnowledge.cost</td><td>Element `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.cost.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.cost.type</td><td style="border-left-width: 0px">MedicationKnowledge.cost.type</td><td>Element `MedicationKnowledge.cost.type` is mapped to FHIR R4 element `MedicationKnowledge.cost.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.cost.source</td><td style="border-left-width: 0px">source</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.cost.source</td><td style="border-left-width: 0px">MedicationKnowledge.cost.source</td><td>Element `MedicationKnowledge.cost.source` is mapped to FHIR R4 element `MedicationKnowledge.cost.source` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.cost.cost[x]</td><td style="border-left-width: 0px">cost[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.cost.cost</td><td style="border-left-width: 0px">MedicationKnowledge.cost.cost</td><td>Element `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types: CodeableConcept.
+The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types based on type expansion: coding, text.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.monitoringProgram</td><td style="border-left-width: 0px">monitoringProgram</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.monitoringProgram</td><td style="border-left-width: 0px">MedicationKnowledge.monitoringProgram</td><td>Element `MedicationKnowledge.monitoringProgram` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.monitoringProgram.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.monitoringProgram.type</td><td style="border-left-width: 0px">MedicationKnowledge.monitoringProgram.type</td><td>Element `MedicationKnowledge.monitoringProgram.type` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.monitoringProgram.name</td><td style="border-left-width: 0px">name</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.monitoringProgram.name</td><td style="border-left-width: 0px">MedicationKnowledge.monitoringProgram.name</td><td>Element `MedicationKnowledge.monitoringProgram.name` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.name` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline</td><td style="border-left-width: 0px">indicationGuideline</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines</td><td>Element `MedicationKnowledge.indicationGuideline` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline.indication</td><td style="border-left-width: 0px">indication</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines.indication[x]</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines.indication[x]</td><td>Element `MedicationKnowledge.indicationGuideline.indication` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.indication[x]` as `SourceIsBroaderThanTarget`.
+The target context `MedicationKnowledge.administrationGuidelines.indication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline.dosingGuideline.dosage</td><td style="border-left-width: 0px">dosage</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines.dosage</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines.dosage</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines.dosage.type</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines.dosage.type</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage</td><td style="border-left-width: 0px">dosage</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines.dosage.dosage</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines.dosage.dosage</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.dosage` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic</td><td style="border-left-width: 0px">patientCharacteristic</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines.patientCharacteristics</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines.patientCharacteristics</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]</td><td style="border-left-width: 0px">value[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]</td><td style="border-left-width: 0px">MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` do not cover the following types: Range.
+The target context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.medicineClassification</td><td style="border-left-width: 0px">medicineClassification</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.medicineClassification</td><td style="border-left-width: 0px">MedicationKnowledge.medicineClassification</td><td>Element `MedicationKnowledge.medicineClassification` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.medicineClassification.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.medicineClassification.type</td><td style="border-left-width: 0px">MedicationKnowledge.medicineClassification.type</td><td>Element `MedicationKnowledge.medicineClassification.type` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.medicineClassification.classification</td><td style="border-left-width: 0px">classification</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.medicineClassification.classification</td><td style="border-left-width: 0px">MedicationKnowledge.medicineClassification.classification</td><td>Element `MedicationKnowledge.medicineClassification.classification` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.classification` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.packaging</td><td style="border-left-width: 0px">packaging</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.packaging</td><td style="border-left-width: 0px">MedicationKnowledge.packaging</td><td>Element `MedicationKnowledge.packaging` is mapped to FHIR R4 element `MedicationKnowledge.packaging` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.clinicalUseIssue</td><td style="border-left-width: 0px">clinicalUseIssue</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.contraindication</td><td style="border-left-width: 0px">MedicationKnowledge.contraindication</td><td>Element `MedicationKnowledge.clinicalUseIssue` is mapped to FHIR R4 element `MedicationKnowledge.contraindication` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.clinicalUseIssue` do not cover the following types based on type expansion: display, identifier, reference, type.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationKnowledge.clinicalUseIssue` with unmapped reference targets: ClinicalUseDefinition.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory</td><td style="border-left-width: 0px">regulatory</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory</td><td>Element `MedicationKnowledge.regulatory` is mapped to FHIR R4 element `MedicationKnowledge.regulatory` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.regulatoryAuthority</td><td style="border-left-width: 0px">regulatoryAuthority</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.regulatoryAuthority</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.regulatoryAuthority</td><td>Element `MedicationKnowledge.regulatory.regulatoryAuthority` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.regulatoryAuthority` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.substitution</td><td style="border-left-width: 0px">substitution</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.substitution</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.substitution</td><td>Element `MedicationKnowledge.regulatory.substitution` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.substitution.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.substitution.type</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.substitution.type</td><td>Element `MedicationKnowledge.regulatory.substitution.type` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.substitution.allowed</td><td style="border-left-width: 0px">allowed</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.substitution.allowed</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.substitution.allowed</td><td>Element `MedicationKnowledge.regulatory.substitution.allowed` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.allowed` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.schedule</td><td style="border-left-width: 0px">schedule</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.schedule.schedule</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.schedule.schedule</td><td>Element `MedicationKnowledge.regulatory.schedule` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.schedule.schedule` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.maxDispense</td><td style="border-left-width: 0px">maxDispense</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.maxDispense</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.maxDispense</td><td>Element `MedicationKnowledge.regulatory.maxDispense` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.maxDispense.quantity</td><td style="border-left-width: 0px">quantity</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.maxDispense.quantity</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.maxDispense.quantity</td><td>Element `MedicationKnowledge.regulatory.maxDispense.quantity` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.quantity` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.regulatory.maxDispense.period</td><td style="border-left-width: 0px">period</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.regulatory.maxDispense.period</td><td style="border-left-width: 0px">MedicationKnowledge.regulatory.maxDispense.period</td><td>Element `MedicationKnowledge.regulatory.maxDispense.period` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.period` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">MedicationKnowledge.definitional</td><td style="border-left-width: 0px; border-bottom-style: none">definitional</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">MedicationKnowledge</td><td style="border-left-width: 0px">MedicationKnowledge</td><td>Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge` as `SourceIsNarrowerThanTarget`.
+Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">MedicationKnowledge.drugCharacteristic</td><td style="border-left-width: 0px">MedicationKnowledge.drugCharacteristic</td><td>Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge` as `SourceIsNarrowerThanTarget`.
+Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic` as `SourceIsNarrowerThanTarget`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.doseForm</td><td style="border-left-width: 0px">doseForm</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.doseForm</td><td style="border-left-width: 0px">MedicationKnowledge.doseForm</td><td>Element `MedicationKnowledge.definitional.doseForm` is mapped to FHIR R4 element `MedicationKnowledge.doseForm` as `Equivalent`.
+When Medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When Medication is referenced within MedicationAdministration, this is administered form.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.intendedRoute</td><td style="border-left-width: 0px">intendedRoute</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.intendedRoute</td><td style="border-left-width: 0px">MedicationKnowledge.intendedRoute</td><td>Element `MedicationKnowledge.definitional.intendedRoute` is mapped to FHIR R4 element `MedicationKnowledge.intendedRoute` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.ingredient</td><td style="border-left-width: 0px">ingredient</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.ingredient</td><td style="border-left-width: 0px">MedicationKnowledge.ingredient</td><td>Element `MedicationKnowledge.definitional.ingredient` is mapped to FHIR R4 element `MedicationKnowledge.ingredient` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.ingredient.item</td><td style="border-left-width: 0px">item</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.ingredient.item[x]</td><td style="border-left-width: 0px">MedicationKnowledge.ingredient.item[x]</td><td>Element `MedicationKnowledge.definitional.ingredient.item` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.item[x]` as `SourceIsBroaderThanTarget`.
+The target context `MedicationKnowledge.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.ingredient`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.ingredient.strength[x]</td><td style="border-left-width: 0px">strength[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.ingredient.strength</td><td style="border-left-width: 0px">MedicationKnowledge.ingredient.strength</td><td>Element `MedicationKnowledge.definitional.ingredient.strength[x]` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.strength` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.definitional.ingredient.strength[x]` do not cover the following types: CodeableConcept, Quantity.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.drugCharacteristic</td><td style="border-left-width: 0px">drugCharacteristic</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.drugCharacteristic</td><td style="border-left-width: 0px">MedicationKnowledge.drugCharacteristic</td><td>Element `MedicationKnowledge.definitional.drugCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.drugCharacteristic.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">MedicationKnowledge.drugCharacteristic.type</td><td style="border-left-width: 0px">MedicationKnowledge.drugCharacteristic.type</td><td>Element `MedicationKnowledge.definitional.drugCharacteristic.type` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">MedicationKnowledge.definitional.drugCharacteristic.value[x]</td><td style="border-left-width: 0px">value[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">MedicationKnowledge.drugCharacteristic.value[x]</td><td style="border-left-width: 0px">MedicationKnowledge.drugCharacteristic.value[x]</td><td>Element `MedicationKnowledge.definitional.drugCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.value[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.definitional.drugCharacteristic.value[x]` do not cover the following types: Attachment.
+The target context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`.
+The description should be provided as a CodeableConcept, SimpleQuantity or an image.  The description can be a string only when these others are not available.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationKnowledge|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationKnowledge.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.identifier</td><td>Element `MedicationKnowledge.identifier` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This is a business identifier, not a resource identifier (see discussion).</td></tr><tr><td>MedicationKnowledge.author (author)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.author</td><td>Element `MedicationKnowledge.author` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.intendedJurisdiction (intendedJurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.intendedJurisdiction</td><td>Element `MedicationKnowledge.intendedJurisdiction` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.intendedJurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The codes could have varying granularity from a country or group of countries down to a specific district.</td></tr><tr><td>MedicationKnowledge.cost (cost)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost</td><td>Element `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost` as `Equivalent`.</td></tr><tr><td>MedicationKnowledge.cost.effectiveDate (effectiveDate)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost.effectiveDate</td><td>Element `MedicationKnowledge.cost.effectiveDate` has a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.cost.effectiveDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.cost.cost[x] (cost[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost.cost</td><td>Element `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types: CodeableConcept.
+The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types based on type expansion: coding, text.</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline (dosingGuideline)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent (treatmentIntent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:treatmentIntent</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.dosage (dosage)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:dosage</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage` as `Equivalent`.</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.dosage:type</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.type` as `Equivalent`.</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage (dosage)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.dosage:dosage</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.dosage` as `Equivalent`.</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment (administrationTreatment)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:administrationTreatment</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic (patientCharacteristic)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:patientCharacteristic</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics` as `Equivalent`.</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic:type</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` has a context of MedicationKnowledge.administrationGuidelines.patientCharacteristics based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic:value</td><td>Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.
+Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` do not cover the following types: Range.
+The target context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`.</td></tr><tr><td>MedicationKnowledge.medicineClassification.source[x] (source[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.medicineClassification.source</td><td>Element `MedicationKnowledge.medicineClassification.source[x]` has a context of MedicationKnowledge.medicineClassification based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.medicineClassification.source[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.packaging.cost (cost)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost</td><td>Element `MedicationKnowledge.packaging.cost` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.packaging.cost` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.packaging.packagedProduct (packagedProduct)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.packaging.packagedProduct</td><td>Element `MedicationKnowledge.packaging.packagedProduct` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.packaging.packagedProduct` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline (storageGuideline)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline</td><td>Element `MedicationKnowledge.storageGuideline` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline.reference (reference)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:reference</td><td>Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.storageGuideline.reference` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline.note (note)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:note</td><td>Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.storageGuideline.note` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline.stabilityDuration (stabilityDuration)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:stabilityDuration</td><td>Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.storageGuideline.stabilityDuration` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline.stabilityDuration` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline.environmentalSetting (environmentalSetting)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:environmentalSetting</td><td>Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.
+Element `MedicationKnowledge.storageGuideline.environmentalSetting` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline.environmentalSetting` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline.environmentalSetting.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline.environmentalSetting:type</td><td>Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.storageGuideline.environmentalSetting.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline.environmentalSetting:value</td><td>Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.definitional.definition (definition)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.definition</td><td>Element `MedicationKnowledge.definitional.definition` has a context of MedicationKnowledge.drugCharacteristic based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.definitional.definition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.definitional.ingredient.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.ingredient.type</td><td>Element `MedicationKnowledge.definitional.ingredient.type` has a context of MedicationKnowledge.ingredient based on following the parent source element upwards and mapping to `MedicationKnowledge`.
+Element `MedicationKnowledge.definitional.ingredient.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>MedicationKnowledge.definitional.ingredient.strength[x] (strength[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.ingredient.strength</td><td>Element `MedicationKnowledge.definitional.ingredient.strength[x]` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.strength` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.definitional.ingredient.strength[x]` do not cover the following types: CodeableConcept, Quantity.</td></tr><tr><td>MedicationKnowledge.definitional.drugCharacteristic.value[x] (value[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.drugCharacteristic.value</td><td>Element `MedicationKnowledge.definitional.drugCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.value[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `MedicationKnowledge.definitional.drugCharacteristic.value[x]` do not cover the following types: Attachment.
+The target context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`.
+The description should be provided as a CodeableConcept, SimpleQuantity or an image.  The description can be a string only when these others are not available.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationKnowledge|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationKnowledge.monograph.source (source)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>MedicationKnowledge.clinicalUseIssue (clinicalUseIssue)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationKnowledge-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5MedicationKnowledgeElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 MedicationKnowledge to FHIR R4 MedicationKnowledge"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:50.1351688-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicationKnowledge to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="MedicationKnowledge.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="MedicationKnowledge.meta"/>
+        <display value="MedicationKnowledge.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.meta` is mapped to FHIR R4 element `MedicationKnowledge.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="MedicationKnowledge.implicitRules"/>
+        <display value="MedicationKnowledge.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.implicitRules` is mapped to FHIR R4 element `MedicationKnowledge.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.language"/>
+      <display value="language"/>
+      <target>
+        <code value="MedicationKnowledge.language"/>
+        <display value="MedicationKnowledge.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.language` is mapped to FHIR R4 element `MedicationKnowledge.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.text"/>
+      <display value="text"/>
+      <target>
+        <code value="MedicationKnowledge.text"/>
+        <display value="MedicationKnowledge.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.text` is mapped to FHIR R4 element `MedicationKnowledge.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="MedicationKnowledge.contained"/>
+        <display value="MedicationKnowledge.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.contained` is mapped to FHIR R4 element `MedicationKnowledge.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.code"/>
+      <display value="code"/>
+      <target>
+        <code value="MedicationKnowledge.code"/>
+        <display value="MedicationKnowledge.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.code` is mapped to FHIR R4 element `MedicationKnowledge.code` as `Equivalent`.&#xA;Depending on the context of use, the code that was actually selected by the user (prescriber, dispenser, etc.) will have the coding.userSelected set to true.  As described in the coding datatype: &quot;A coding may be marked as a &quot;userSelected&quot; if a user selected the particular coded value in a user interface (e.g. the user selects an item in a pick-list). If a user selected coding exists, it is the preferred choice for performing translations etc. Other codes can only be literal translations to alternative code systems, or codes at a lower level of granularity (e.g. a generic code for a vendor-specific primary one)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.status"/>
+      <display value="status"/>
+      <target>
+        <code value="MedicationKnowledge.status"/>
+        <display value="MedicationKnowledge.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.status` is mapped to FHIR R4 element `MedicationKnowledge.status` as `Equivalent`.&#xA;This status is intended to identify if the medication in a local system is in active use within a drug database or inventory.  For example, a pharmacy system may create a new drug file record for a compounded product &quot;ABC Hospital Special Cream&quot; with an active status.  At some point in the future, it may be determined that the drug record was created with an error and the status is changed to &quot;entered in error&quot;.   This status is not intended to specify if a medication is part of a particular formulary.  It is possible that the drug record may be referenced by multiple formularies or catalogues and each of those entries would have a separate status."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.name"/>
+      <display value="name"/>
+      <target>
+        <code value="MedicationKnowledge.synonym"/>
+        <display value="MedicationKnowledge.synonym"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.name` is mapped to FHIR R4 element `MedicationKnowledge.synonym` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.relatedMedicationKnowledge"/>
+      <display value="relatedMedicationKnowledge"/>
+      <target>
+        <code value="MedicationKnowledge.relatedMedicationKnowledge"/>
+        <display value="MedicationKnowledge.relatedMedicationKnowledge"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.relatedMedicationKnowledge` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.relatedMedicationKnowledge.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.relatedMedicationKnowledge.type"/>
+        <display value="MedicationKnowledge.relatedMedicationKnowledge.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.relatedMedicationKnowledge.type` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.relatedMedicationKnowledge.reference"/>
+      <display value="reference"/>
+      <target>
+        <code value="MedicationKnowledge.relatedMedicationKnowledge.reference"/>
+        <display value="MedicationKnowledge.relatedMedicationKnowledge.reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.relatedMedicationKnowledge.reference` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.reference` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.associatedMedication"/>
+      <display value="associatedMedication"/>
+      <target>
+        <code value="MedicationKnowledge.associatedMedication"/>
+        <display value="MedicationKnowledge.associatedMedication"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.associatedMedication` is mapped to FHIR R4 element `MedicationKnowledge.associatedMedication` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.productType"/>
+      <display value="productType"/>
+      <target>
+        <code value="MedicationKnowledge.productType"/>
+        <display value="MedicationKnowledge.productType"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.productType` is mapped to FHIR R4 element `MedicationKnowledge.productType` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.monograph"/>
+      <display value="monograph"/>
+      <target>
+        <code value="MedicationKnowledge.monograph"/>
+        <display value="MedicationKnowledge.monograph"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.monograph` is mapped to FHIR R4 element `MedicationKnowledge.monograph` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.monograph.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.monograph.type"/>
+        <display value="MedicationKnowledge.monograph.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.monograph.type` is mapped to FHIR R4 element `MedicationKnowledge.monograph.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.monograph.source"/>
+      <display value="source"/>
+      <target>
+        <code value="MedicationKnowledge.monograph.source"/>
+        <display value="MedicationKnowledge.monograph.source"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.monograph.source` is mapped to FHIR R4 element `MedicationKnowledge.monograph.source` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.monograph.source` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationKnowledge.monograph.source` with unmapped reference targets: DocumentReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.preparationInstruction"/>
+      <display value="preparationInstruction"/>
+      <target>
+        <code value="MedicationKnowledge.preparationInstruction"/>
+        <display value="MedicationKnowledge.preparationInstruction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.preparationInstruction` is mapped to FHIR R4 element `MedicationKnowledge.preparationInstruction` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost"/>
+      <display value="cost"/>
+      <target>
+        <code value="MedicationKnowledge.cost"/>
+        <display value="MedicationKnowledge.cost"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.cost.type"/>
+        <display value="MedicationKnowledge.cost.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.cost.type` is mapped to FHIR R4 element `MedicationKnowledge.cost.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost.source"/>
+      <display value="source"/>
+      <target>
+        <code value="MedicationKnowledge.cost.source"/>
+        <display value="MedicationKnowledge.cost.source"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.cost.source` is mapped to FHIR R4 element `MedicationKnowledge.cost.source` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost.cost[x]"/>
+      <display value="cost[x]"/>
+      <target>
+        <code value="MedicationKnowledge.cost.cost"/>
+        <display value="MedicationKnowledge.cost.cost"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types: CodeableConcept.&#xA;The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types based on type expansion: coding, text."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.monitoringProgram"/>
+      <display value="monitoringProgram"/>
+      <target>
+        <code value="MedicationKnowledge.monitoringProgram"/>
+        <display value="MedicationKnowledge.monitoringProgram"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.monitoringProgram` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.monitoringProgram.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.monitoringProgram.type"/>
+        <display value="MedicationKnowledge.monitoringProgram.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.monitoringProgram.type` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.monitoringProgram.name"/>
+      <display value="name"/>
+      <target>
+        <code value="MedicationKnowledge.monitoringProgram.name"/>
+        <display value="MedicationKnowledge.monitoringProgram.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.monitoringProgram.name` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline"/>
+      <display value="indicationGuideline"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines"/>
+        <display value="MedicationKnowledge.administrationGuidelines"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.indication"/>
+      <display value="indication"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines.indication[x]"/>
+        <display value="MedicationKnowledge.administrationGuidelines.indication[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.indication` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.indication[x]` as `SourceIsBroaderThanTarget`.&#xA;The target context `MedicationKnowledge.administrationGuidelines.indication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.dosage"/>
+      <display value="dosage"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines.dosage"/>
+        <display value="MedicationKnowledge.administrationGuidelines.dosage"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines.dosage.type"/>
+        <display value="MedicationKnowledge.administrationGuidelines.dosage.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage"/>
+      <display value="dosage"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines.dosage.dosage"/>
+        <display value="MedicationKnowledge.administrationGuidelines.dosage.dosage"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.dosage` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic"/>
+      <display value="patientCharacteristic"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines.patientCharacteristics"/>
+        <display value="MedicationKnowledge.administrationGuidelines.patientCharacteristics"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]"/>
+        <display value="MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` do not cover the following types: Range.&#xA;The target context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.medicineClassification"/>
+      <display value="medicineClassification"/>
+      <target>
+        <code value="MedicationKnowledge.medicineClassification"/>
+        <display value="MedicationKnowledge.medicineClassification"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.medicineClassification` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.medicineClassification.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.medicineClassification.type"/>
+        <display value="MedicationKnowledge.medicineClassification.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.medicineClassification.type` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.medicineClassification.classification"/>
+      <display value="classification"/>
+      <target>
+        <code value="MedicationKnowledge.medicineClassification.classification"/>
+        <display value="MedicationKnowledge.medicineClassification.classification"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.medicineClassification.classification` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.classification` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.packaging"/>
+      <display value="packaging"/>
+      <target>
+        <code value="MedicationKnowledge.packaging"/>
+        <display value="MedicationKnowledge.packaging"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.packaging` is mapped to FHIR R4 element `MedicationKnowledge.packaging` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.clinicalUseIssue"/>
+      <display value="clinicalUseIssue"/>
+      <target>
+        <code value="MedicationKnowledge.contraindication"/>
+        <display value="MedicationKnowledge.contraindication"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.clinicalUseIssue` is mapped to FHIR R4 element `MedicationKnowledge.contraindication` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.clinicalUseIssue` do not cover the following types based on type expansion: display, identifier, reference, type.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `MedicationKnowledge.clinicalUseIssue` with unmapped reference targets: ClinicalUseDefinition."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory"/>
+      <display value="regulatory"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory"/>
+        <display value="MedicationKnowledge.regulatory"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.regulatory` is mapped to FHIR R4 element `MedicationKnowledge.regulatory` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.regulatoryAuthority"/>
+      <display value="regulatoryAuthority"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.regulatoryAuthority"/>
+        <display value="MedicationKnowledge.regulatory.regulatoryAuthority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.regulatory.regulatoryAuthority` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.regulatoryAuthority` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.substitution"/>
+      <display value="substitution"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.substitution"/>
+        <display value="MedicationKnowledge.regulatory.substitution"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.regulatory.substitution` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.substitution.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.substitution.type"/>
+        <display value="MedicationKnowledge.regulatory.substitution.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.regulatory.substitution.type` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.substitution.allowed"/>
+      <display value="allowed"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.substitution.allowed"/>
+        <display value="MedicationKnowledge.regulatory.substitution.allowed"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.regulatory.substitution.allowed` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.allowed` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.schedule"/>
+      <display value="schedule"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.schedule.schedule"/>
+        <display value="MedicationKnowledge.regulatory.schedule.schedule"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.regulatory.schedule` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.schedule.schedule` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.maxDispense"/>
+      <display value="maxDispense"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.maxDispense"/>
+        <display value="MedicationKnowledge.regulatory.maxDispense"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.regulatory.maxDispense` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.maxDispense.quantity"/>
+      <display value="quantity"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.maxDispense.quantity"/>
+        <display value="MedicationKnowledge.regulatory.maxDispense.quantity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.regulatory.maxDispense.quantity` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.quantity` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.regulatory.maxDispense.period"/>
+      <display value="period"/>
+      <target>
+        <code value="MedicationKnowledge.regulatory.maxDispense.period"/>
+        <display value="MedicationKnowledge.regulatory.maxDispense.period"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.regulatory.maxDispense.period` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.period` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional"/>
+      <display value="definitional"/>
+      <target>
+        <code value="MedicationKnowledge"/>
+        <display value="MedicationKnowledge"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge` as `SourceIsNarrowerThanTarget`.&#xA;Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic` as `SourceIsNarrowerThanTarget`."/>
+      </target>
+      <target>
+        <code value="MedicationKnowledge.drugCharacteristic"/>
+        <display value="MedicationKnowledge.drugCharacteristic"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge` as `SourceIsNarrowerThanTarget`.&#xA;Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic` as `SourceIsNarrowerThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.doseForm"/>
+      <display value="doseForm"/>
+      <target>
+        <code value="MedicationKnowledge.doseForm"/>
+        <display value="MedicationKnowledge.doseForm"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.definitional.doseForm` is mapped to FHIR R4 element `MedicationKnowledge.doseForm` as `Equivalent`.&#xA;When Medication is referenced from MedicationRequest, this is the ordered form.  When Medication is referenced within MedicationDispense, this is the dispensed form.  When Medication is referenced within MedicationAdministration, this is administered form."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.intendedRoute"/>
+      <display value="intendedRoute"/>
+      <target>
+        <code value="MedicationKnowledge.intendedRoute"/>
+        <display value="MedicationKnowledge.intendedRoute"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.definitional.intendedRoute` is mapped to FHIR R4 element `MedicationKnowledge.intendedRoute` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.ingredient"/>
+      <display value="ingredient"/>
+      <target>
+        <code value="MedicationKnowledge.ingredient"/>
+        <display value="MedicationKnowledge.ingredient"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.ingredient` is mapped to FHIR R4 element `MedicationKnowledge.ingredient` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.ingredient.item"/>
+      <display value="item"/>
+      <target>
+        <code value="MedicationKnowledge.ingredient.item[x]"/>
+        <display value="MedicationKnowledge.ingredient.item[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.definitional.ingredient.item` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.item[x]` as `SourceIsBroaderThanTarget`.&#xA;The target context `MedicationKnowledge.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.ingredient`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.ingredient.strength[x]"/>
+      <display value="strength[x]"/>
+      <target>
+        <code value="MedicationKnowledge.ingredient.strength"/>
+        <display value="MedicationKnowledge.ingredient.strength"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.ingredient.strength[x]` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.strength` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.definitional.ingredient.strength[x]` do not cover the following types: CodeableConcept, Quantity."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.drugCharacteristic"/>
+      <display value="drugCharacteristic"/>
+      <target>
+        <code value="MedicationKnowledge.drugCharacteristic"/>
+        <display value="MedicationKnowledge.drugCharacteristic"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.drugCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.drugCharacteristic.type"/>
+      <display value="type"/>
+      <target>
+        <code value="MedicationKnowledge.drugCharacteristic.type"/>
+        <display value="MedicationKnowledge.drugCharacteristic.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.definitional.drugCharacteristic.type` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.drugCharacteristic.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="MedicationKnowledge.drugCharacteristic.value[x]"/>
+        <display value="MedicationKnowledge.drugCharacteristic.value[x]"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.drugCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.value[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.definitional.drugCharacteristic.value[x]` do not cover the following types: Attachment.&#xA;The target context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`.&#xA;The description should be provided as a CodeableConcept, SimpleQuantity or an image.  The description can be a string only when these others are not available."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="MedicationKnowledge.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.identifier"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.identifier` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This is a business identifier, not a resource identifier (see discussion)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.author"/>
+      <display value="author"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.author"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.author` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.intendedJurisdiction"/>
+      <display value="intendedJurisdiction"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.intendedJurisdiction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.intendedJurisdiction` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.intendedJurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The codes could have varying granularity from a country or group of countries down to a specific district."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost"/>
+      <display value="cost"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost.effectiveDate"/>
+      <display value="effectiveDate"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost.effectiveDate"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.cost.effectiveDate` has a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.cost.effectiveDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.cost.cost[x]"/>
+      <display value="cost[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost.cost"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types: CodeableConcept.&#xA;The mappings for `MedicationKnowledge.cost.cost[x]` do not cover the following types based on type expansion: coding, text."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline"/>
+      <display value="dosingGuideline"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent"/>
+      <display value="treatmentIntent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:treatmentIntent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.dosage"/>
+      <display value="dosage"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:dosage"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.dosage:type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage"/>
+      <display value="dosage"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.dosage:dosage"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.dosage` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment"/>
+      <display value="administrationTreatment"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:administrationTreatment"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic"/>
+      <display value="patientCharacteristic"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline:patientCharacteristic"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` has a context of MedicationKnowledge.administrationGuidelines.patientCharacteristics based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.&#xA;Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` do not cover the following types: Range.&#xA;The target context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.medicineClassification.source[x]"/>
+      <display value="source[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.medicineClassification.source"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.medicineClassification.source[x]` has a context of MedicationKnowledge.medicineClassification based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.medicineClassification.source[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.packaging.cost"/>
+      <display value="cost"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.packaging.cost` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.packaging.cost` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.packaging.packagedProduct"/>
+      <display value="packagedProduct"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.packaging.packagedProduct"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.packaging.packagedProduct` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.packaging.packagedProduct` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline"/>
+      <display value="storageGuideline"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline.reference"/>
+      <display value="reference"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:reference"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.storageGuideline.reference` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline.reference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline.note"/>
+      <display value="note"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:note"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.storageGuideline.note` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline.stabilityDuration"/>
+      <display value="stabilityDuration"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:stabilityDuration"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.storageGuideline.stabilityDuration` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline.stabilityDuration` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline.environmentalSetting"/>
+      <display value="environmentalSetting"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline:environmentalSetting"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.&#xA;Element `MedicationKnowledge.storageGuideline.environmentalSetting` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline.environmentalSetting` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline.environmentalSetting.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline.environmentalSetting:type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.&#xA;Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.storageGuideline.environmentalSetting.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline.environmentalSetting:value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.&#xA;Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.definition"/>
+      <display value="definition"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.definition"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.definition` has a context of MedicationKnowledge.drugCharacteristic based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.definitional.definition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.ingredient.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.ingredient.type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.ingredient.type` has a context of MedicationKnowledge.ingredient based on following the parent source element upwards and mapping to `MedicationKnowledge`.&#xA;Element `MedicationKnowledge.definitional.ingredient.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.ingredient.strength[x]"/>
+      <display value="strength[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.ingredient.strength"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.ingredient.strength[x]` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.strength` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.definitional.ingredient.strength[x]` do not cover the following types: CodeableConcept, Quantity."/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.definitional.drugCharacteristic.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.drugCharacteristic.value"/>
+        <equivalence value="wider"/>
+        <comment value="Element `MedicationKnowledge.definitional.drugCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.value[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `MedicationKnowledge.definitional.drugCharacteristic.value[x]` do not cover the following types: Attachment.&#xA;The target context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`.&#xA;The description should be provided as a CodeableConcept, SimpleQuantity or an image.  The description can be a string only when these others are not available."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/MedicationKnowledge"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="MedicationKnowledge.monograph.source"/>
+      <display value="source"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="MedicationKnowledge.clinicalUseIssue"/>
+      <display value="clinicalUseIssue"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

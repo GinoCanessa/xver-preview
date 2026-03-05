@@ -1,0 +1,470 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceRequest-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-DeviceRequest-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-DeviceRequest-element-map-to-R4</b></p><a name=\"R5-DeviceRequest-element-map-to-R4\"> </a><a name=\"hcR5-DeviceRequest-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceRequest|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/devicerequest.html\">DeviceRequestversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceRequest|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceRequest|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.meta</td><td style=\"border-left-width: 0px\">DeviceRequest.meta</td><td>Element `DeviceRequest.meta` is mapped to FHIR R4 element `DeviceRequest.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.implicitRules</td><td style=\"border-left-width: 0px\">DeviceRequest.implicitRules</td><td>Element `DeviceRequest.implicitRules` is mapped to FHIR R4 element `DeviceRequest.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.language</td><td style=\"border-left-width: 0px\">DeviceRequest.language</td><td>Element `DeviceRequest.language` is mapped to FHIR R4 element `DeviceRequest.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.text</td><td style=\"border-left-width: 0px\">DeviceRequest.text</td><td>Element `DeviceRequest.text` is mapped to FHIR R4 element `DeviceRequest.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.contained</td><td style=\"border-left-width: 0px\">DeviceRequest.contained</td><td>Element `DeviceRequest.contained` is mapped to FHIR R4 element `DeviceRequest.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.identifier</td><td style=\"border-left-width: 0px\">DeviceRequest.identifier</td><td>Element `DeviceRequest.identifier` is mapped to FHIR R4 element `DeviceRequest.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.instantiatesCanonical</td><td style=\"border-left-width: 0px\">instantiatesCanonical</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.instantiatesCanonical</td><td style=\"border-left-width: 0px\">DeviceRequest.instantiatesCanonical</td><td>Element `DeviceRequest.instantiatesCanonical` is mapped to FHIR R4 element `DeviceRequest.instantiatesCanonical` as `Equivalent`.\nNote: This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.instantiatesUri</td><td style=\"border-left-width: 0px\">instantiatesUri</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.instantiatesUri</td><td style=\"border-left-width: 0px\">DeviceRequest.instantiatesUri</td><td>Element `DeviceRequest.instantiatesUri` is mapped to FHIR R4 element `DeviceRequest.instantiatesUri` as `Equivalent`.\nThis might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.basedOn</td><td style=\"border-left-width: 0px\">DeviceRequest.basedOn</td><td>Element `DeviceRequest.basedOn` is mapped to FHIR R4 element `DeviceRequest.basedOn` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.replaces</td><td style=\"border-left-width: 0px\">replaces</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceRequest.priorRequest</td><td style=\"border-left-width: 0px\">DeviceRequest.priorRequest</td><td>Element `DeviceRequest.replaces` is mapped to FHIR R4 element `DeviceRequest.priorRequest` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.replaces` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DeviceRequest.replaces` with unmapped reference targets: DeviceRequest.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.groupIdentifier</td><td style=\"border-left-width: 0px\">groupIdentifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.groupIdentifier</td><td style=\"border-left-width: 0px\">DeviceRequest.groupIdentifier</td><td>Element `DeviceRequest.groupIdentifier` is mapped to FHIR R4 element `DeviceRequest.groupIdentifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.status</td><td style=\"border-left-width: 0px\">DeviceRequest.status</td><td>Element `DeviceRequest.status` is mapped to FHIR R4 element `DeviceRequest.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains the codes revoked and entered-in-error that mark the request as not currently valid.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.intent</td><td style=\"border-left-width: 0px\">intent</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.intent</td><td style=\"border-left-width: 0px\">DeviceRequest.intent</td><td>Element `DeviceRequest.intent` is mapped to FHIR R4 element `DeviceRequest.intent` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.priority</td><td style=\"border-left-width: 0px\">priority</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.priority</td><td style=\"border-left-width: 0px\">DeviceRequest.priority</td><td>Element `DeviceRequest.priority` is mapped to FHIR R4 element `DeviceRequest.priority` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.code[x]</td><td style=\"border-left-width: 0px\">DeviceRequest.code[x]</td><td>Element `DeviceRequest.code` is mapped to FHIR R4 element `DeviceRequest.code[x]` as `SourceIsBroaderThanTarget`.\nThe target context `DeviceRequest.code[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.parameter</td><td style=\"border-left-width: 0px\">parameter</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceRequest.parameter</td><td style=\"border-left-width: 0px\">DeviceRequest.parameter</td><td>Element `DeviceRequest.parameter` is mapped to FHIR R4 element `DeviceRequest.parameter` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.parameter.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.parameter.code</td><td style=\"border-left-width: 0px\">DeviceRequest.parameter.code</td><td>Element `DeviceRequest.parameter.code` is mapped to FHIR R4 element `DeviceRequest.parameter.code` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.parameter.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.parameter.value[x]</td><td style=\"border-left-width: 0px\">DeviceRequest.parameter.value[x]</td><td>Element `DeviceRequest.parameter.value[x]` is mapped to FHIR R4 element `DeviceRequest.parameter.value[x]` as `Equivalent`.\nThe target context `DeviceRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest.parameter`.\nRange means device should have a value that falls somewhere within the specified range.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.subject</td><td style=\"border-left-width: 0px\">DeviceRequest.subject</td><td>Element `DeviceRequest.subject` is mapped to FHIR R4 element `DeviceRequest.subject` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.encounter</td><td style=\"border-left-width: 0px\">DeviceRequest.encounter</td><td>Element `DeviceRequest.encounter` is mapped to FHIR R4 element `DeviceRequest.encounter` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.occurrence[x]</td><td style=\"border-left-width: 0px\">occurrence[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.occurrence[x]</td><td style=\"border-left-width: 0px\">DeviceRequest.occurrence[x]</td><td>Element `DeviceRequest.occurrence[x]` is mapped to FHIR R4 element `DeviceRequest.occurrence[x]` as `Equivalent`.\nThe target context `DeviceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.authoredOn</td><td style=\"border-left-width: 0px\">authoredOn</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.authoredOn</td><td style=\"border-left-width: 0px\">DeviceRequest.authoredOn</td><td>Element `DeviceRequest.authoredOn` is mapped to FHIR R4 element `DeviceRequest.authoredOn` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.requester</td><td style=\"border-left-width: 0px\">requester</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.requester</td><td style=\"border-left-width: 0px\">DeviceRequest.requester</td><td>Element `DeviceRequest.requester` is mapped to FHIR R4 element `DeviceRequest.requester` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceRequest.performer</td><td style=\"border-left-width: 0px; border-bottom-style: none\">performer</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.performer</td><td style=\"border-left-width: 0px\">DeviceRequest.performer</td><td>Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.performer` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.performerType</td><td style=\"border-left-width: 0px\">DeviceRequest.performerType</td><td>Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.performer` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceRequest.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.reasonCode</td><td style=\"border-left-width: 0px\">DeviceRequest.reasonCode</td><td>Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.reasonReference</td><td style=\"border-left-width: 0px\">DeviceRequest.reasonReference</td><td>Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.insurance</td><td style=\"border-left-width: 0px\">insurance</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.insurance</td><td style=\"border-left-width: 0px\">DeviceRequest.insurance</td><td>Element `DeviceRequest.insurance` is mapped to FHIR R4 element `DeviceRequest.insurance` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.supportingInfo</td><td style=\"border-left-width: 0px\">supportingInfo</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.supportingInfo</td><td style=\"border-left-width: 0px\">DeviceRequest.supportingInfo</td><td>Element `DeviceRequest.supportingInfo` is mapped to FHIR R4 element `DeviceRequest.supportingInfo` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.note</td><td style=\"border-left-width: 0px\">DeviceRequest.note</td><td>Element `DeviceRequest.note` is mapped to FHIR R4 element `DeviceRequest.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceRequest.relevantHistory</td><td style=\"border-left-width: 0px\">relevantHistory</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceRequest.relevantHistory</td><td style=\"border-left-width: 0px\">DeviceRequest.relevantHistory</td><td>Element `DeviceRequest.relevantHistory` is mapped to FHIR R4 element `DeviceRequest.relevantHistory` as `Equivalent`.\nThis might not include provenances for all versions of the request - only those deemed \"relevant\" or important.#xD;This SHALL NOT include the Provenance associated with this current version of the resource.  (If that provenance is deemed to be a \"relevant\" change, it will need to be added as part of a later update.  Until then, it can be queried directly as the Provenance that points to this version using _revinclude#xD;All Provenances should have some historical version of this Request as their subject.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceRequest|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceRequest.replaces (replaces)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceRequest|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceRequest.doNotPerform (doNotPerform)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform</td><td>Element `DeviceRequest.doNotPerform` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.doNotPerform` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf do not perform is not specified, the request is a positive request e.g. \"do perform\". DeviceRequest.reasonCode includes the reason for marking the DeviceRequest as 'do not perform'.</td></tr><tr><td>DeviceRequest.quantity (quantity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity</td><td>Element `DeviceRequest.quantity` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceRequest.performer (performer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.performer</td><td>Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.performer` do not cover the following types: CodeableReference.</td></tr><tr><td>DeviceRequest.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.reason</td><td>Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.reason` do not cover the following types: CodeableReference.</td></tr><tr><td>DeviceRequest.asNeeded (asNeeded)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded</td><td>Element `DeviceRequest.asNeeded` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.asNeeded` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceRequest.asNeededFor (asNeededFor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor</td><td>Element `DeviceRequest.asNeededFor` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.asNeededFor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceRequest-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceRequest-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5DeviceRequestElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 DeviceRequest to FHIR R4 DeviceRequest"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.9345696-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 DeviceRequest to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceRequest>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceRequest.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.meta" ] ;
+         fhir:display [ fhir:v "DeviceRequest.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.meta` is mapped to FHIR R4 element `DeviceRequest.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.implicitRules" ] ;
+         fhir:display [ fhir:v "DeviceRequest.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.implicitRules` is mapped to FHIR R4 element `DeviceRequest.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.language" ] ;
+         fhir:display [ fhir:v "DeviceRequest.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.language` is mapped to FHIR R4 element `DeviceRequest.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.text" ] ;
+         fhir:display [ fhir:v "DeviceRequest.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.text` is mapped to FHIR R4 element `DeviceRequest.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.contained" ] ;
+         fhir:display [ fhir:v "DeviceRequest.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.contained` is mapped to FHIR R4 element `DeviceRequest.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.identifier" ] ;
+         fhir:display [ fhir:v "DeviceRequest.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.identifier` is mapped to FHIR R4 element `DeviceRequest.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.instantiatesCanonical" ] ;
+       fhir:display [ fhir:v "instantiatesCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.instantiatesCanonical" ] ;
+         fhir:display [ fhir:v "DeviceRequest.instantiatesCanonical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.instantiatesCanonical` is mapped to FHIR R4 element `DeviceRequest.instantiatesCanonical` as `Equivalent`.\nNote: This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.instantiatesUri" ] ;
+       fhir:display [ fhir:v "instantiatesUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.instantiatesUri" ] ;
+         fhir:display [ fhir:v "DeviceRequest.instantiatesUri" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.instantiatesUri` is mapped to FHIR R4 element `DeviceRequest.instantiatesUri` as `Equivalent`.\nThis might be an HTML page, PDF, etc. or could just be a non-resolvable URI identifier." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.basedOn" ] ;
+         fhir:display [ fhir:v "DeviceRequest.basedOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.basedOn` is mapped to FHIR R4 element `DeviceRequest.basedOn` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.replaces" ] ;
+       fhir:display [ fhir:v "replaces" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.priorRequest" ] ;
+         fhir:display [ fhir:v "DeviceRequest.priorRequest" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.replaces` is mapped to FHIR R4 element `DeviceRequest.priorRequest` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.replaces` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DeviceRequest.replaces` with unmapped reference targets: DeviceRequest." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.groupIdentifier" ] ;
+       fhir:display [ fhir:v "groupIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.groupIdentifier" ] ;
+         fhir:display [ fhir:v "DeviceRequest.groupIdentifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.groupIdentifier` is mapped to FHIR R4 element `DeviceRequest.groupIdentifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.status" ] ;
+         fhir:display [ fhir:v "DeviceRequest.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.status` is mapped to FHIR R4 element `DeviceRequest.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains the codes revoked and entered-in-error that mark the request as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.intent" ] ;
+       fhir:display [ fhir:v "intent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.intent" ] ;
+         fhir:display [ fhir:v "DeviceRequest.intent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.intent` is mapped to FHIR R4 element `DeviceRequest.intent` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.priority" ] ;
+         fhir:display [ fhir:v "DeviceRequest.priority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.priority` is mapped to FHIR R4 element `DeviceRequest.priority` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.code[x]" ] ;
+         fhir:display [ fhir:v "DeviceRequest.code[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.code` is mapped to FHIR R4 element `DeviceRequest.code[x]` as `SourceIsBroaderThanTarget`.\nThe target context `DeviceRequest.code[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.parameter" ] ;
+         fhir:display [ fhir:v "DeviceRequest.parameter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.parameter` is mapped to FHIR R4 element `DeviceRequest.parameter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.parameter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.parameter.code" ] ;
+         fhir:display [ fhir:v "DeviceRequest.parameter.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.parameter.code` is mapped to FHIR R4 element `DeviceRequest.parameter.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.parameter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.parameter.value[x]" ] ;
+         fhir:display [ fhir:v "DeviceRequest.parameter.value[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.parameter.value[x]` is mapped to FHIR R4 element `DeviceRequest.parameter.value[x]` as `Equivalent`.\nThe target context `DeviceRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest.parameter`.\nRange means device should have a value that falls somewhere within the specified range." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.subject" ] ;
+         fhir:display [ fhir:v "DeviceRequest.subject" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.subject` is mapped to FHIR R4 element `DeviceRequest.subject` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.encounter" ] ;
+         fhir:display [ fhir:v "DeviceRequest.encounter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.encounter` is mapped to FHIR R4 element `DeviceRequest.encounter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.occurrence[x]" ] ;
+         fhir:display [ fhir:v "DeviceRequest.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.occurrence[x]` is mapped to FHIR R4 element `DeviceRequest.occurrence[x]` as `Equivalent`.\nThe target context `DeviceRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.authoredOn" ] ;
+       fhir:display [ fhir:v "authoredOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.authoredOn" ] ;
+         fhir:display [ fhir:v "DeviceRequest.authoredOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.authoredOn` is mapped to FHIR R4 element `DeviceRequest.authoredOn` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.requester" ] ;
+         fhir:display [ fhir:v "DeviceRequest.requester" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.requester` is mapped to FHIR R4 element `DeviceRequest.requester` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.performer" ] ;
+         fhir:display [ fhir:v "DeviceRequest.performer" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.performer` do not cover the following types: CodeableReference." ]
+       ] [
+         fhir:code [ fhir:v "DeviceRequest.performerType" ] ;
+         fhir:display [ fhir:v "DeviceRequest.performerType" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.performer` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.reasonCode" ] ;
+         fhir:display [ fhir:v "DeviceRequest.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.reason` do not cover the following types: CodeableReference." ]
+       ] [
+         fhir:code [ fhir:v "DeviceRequest.reasonReference" ] ;
+         fhir:display [ fhir:v "DeviceRequest.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.insurance" ] ;
+         fhir:display [ fhir:v "DeviceRequest.insurance" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.insurance` is mapped to FHIR R4 element `DeviceRequest.insurance` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.supportingInfo" ] ;
+         fhir:display [ fhir:v "DeviceRequest.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.supportingInfo` is mapped to FHIR R4 element `DeviceRequest.supportingInfo` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.note" ] ;
+         fhir:display [ fhir:v "DeviceRequest.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.note` is mapped to FHIR R4 element `DeviceRequest.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.relevantHistory" ] ;
+       fhir:display [ fhir:v "relevantHistory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceRequest.relevantHistory" ] ;
+         fhir:display [ fhir:v "DeviceRequest.relevantHistory" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.relevantHistory` is mapped to FHIR R4 element `DeviceRequest.relevantHistory` as `Equivalent`.\nThis might not include provenances for all versions of the request - only those deemed \"relevant\" or important.\rThis SHALL NOT include the Provenance associated with this current version of the resource.  (If that provenance is deemed to be a \"relevant\" change, it will need to be added as part of a later update.  Until then, it can be queried directly as the Provenance that points to this version using _revinclude\rAll Provenances should have some historical version of this Request as their subject." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceRequest.replaces" ] ;
+       fhir:display [ fhir:v "replaces" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceRequest.doNotPerform" ] ;
+       fhir:display [ fhir:v "doNotPerform" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.doNotPerform` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.doNotPerform` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf do not perform is not specified, the request is a positive request e.g. \"do perform\". DeviceRequest.reasonCode includes the reason for marking the DeviceRequest as 'do not perform'." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.quantity` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.performer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performerType` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.performer` is mapped to FHIR R4 element `DeviceRequest.performer` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.performer` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceRequest.reason` is mapped to FHIR R4 element `DeviceRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceRequest.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.asNeeded" ] ;
+       fhir:display [ fhir:v "asNeeded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.asNeeded` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.asNeeded` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceRequest.asNeededFor" ] ;
+       fhir:display [ fhir:v "asNeededFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceRequest.asNeededFor` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.\nElement `DeviceRequest.asNeededFor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

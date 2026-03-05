@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-ImagingStudy-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-ImagingStudy-element-map-to-R4</b></p><a name="R5-ImagingStudy-element-map-to-R4"> </a><a name="hcR5-ImagingStudy-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0</code> to <a href="http://hl7.org/fhir/R4/imagingstudy.html">ImagingStudyversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/ImagingStudy|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">ImagingStudy.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.meta</td><td style="border-left-width: 0px">ImagingStudy.meta</td><td>Element `ImagingStudy.meta` is mapped to FHIR R4 element `ImagingStudy.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.implicitRules</td><td style="border-left-width: 0px">ImagingStudy.implicitRules</td><td>Element `ImagingStudy.implicitRules` is mapped to FHIR R4 element `ImagingStudy.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.language</td><td style="border-left-width: 0px">ImagingStudy.language</td><td>Element `ImagingStudy.language` is mapped to FHIR R4 element `ImagingStudy.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.text</td><td style="border-left-width: 0px">ImagingStudy.text</td><td>Element `ImagingStudy.text` is mapped to FHIR R4 element `ImagingStudy.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.contained</td><td style="border-left-width: 0px">ImagingStudy.contained</td><td>Element `ImagingStudy.contained` is mapped to FHIR R4 element `ImagingStudy.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.identifier</td><td style="border-left-width: 0px">identifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.identifier</td><td style="border-left-width: 0px">ImagingStudy.identifier</td><td>Element `ImagingStudy.identifier` is mapped to FHIR R4 element `ImagingStudy.identifier` as `Equivalent`.
+See discussion under [Imaging Study Implementation Notes](https://hl7.org/fhir/imagin.html#notes) for encoding of DICOM Study Instance UID.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.status</td><td style="border-left-width: 0px">ImagingStudy.status</td><td>Element `ImagingStudy.status` is mapped to FHIR R4 element `ImagingStudy.status` as `Equivalent`.
+Unknown does not represent &quot;other&quot; - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.modality</td><td style="border-left-width: 0px">modality</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.modality</td><td style="border-left-width: 0px">ImagingStudy.modality</td><td>Element `ImagingStudy.modality` is mapped to FHIR R4 element `ImagingStudy.modality` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.modality` do not cover the following types: CodeableConcept.
+The mappings for `ImagingStudy.modality` do not cover the following types based on type expansion: text.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.subject</td><td style="border-left-width: 0px">subject</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.subject</td><td style="border-left-width: 0px">ImagingStudy.subject</td><td>Element `ImagingStudy.subject` is mapped to FHIR R4 element `ImagingStudy.subject` as `Equivalent`.
+QA phantoms can be recorded with a Device; multiple subjects (such as mice) can be recorded with a Group.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.encounter</td><td style="border-left-width: 0px">encounter</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.encounter</td><td style="border-left-width: 0px">ImagingStudy.encounter</td><td>Element `ImagingStudy.encounter` is mapped to FHIR R4 element `ImagingStudy.encounter` as `Equivalent`.
+This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter (e.g. pre-admission test).</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.started</td><td style="border-left-width: 0px">started</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.started</td><td style="border-left-width: 0px">ImagingStudy.started</td><td>Element `ImagingStudy.started` is mapped to FHIR R4 element `ImagingStudy.started` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.basedOn</td><td style="border-left-width: 0px">basedOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.basedOn</td><td style="border-left-width: 0px">ImagingStudy.basedOn</td><td>Element `ImagingStudy.basedOn` is mapped to FHIR R4 element `ImagingStudy.basedOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.referrer</td><td style="border-left-width: 0px">referrer</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.referrer</td><td style="border-left-width: 0px">ImagingStudy.referrer</td><td>Element `ImagingStudy.referrer` is mapped to FHIR R4 element `ImagingStudy.referrer` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.endpoint</td><td style="border-left-width: 0px">endpoint</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.endpoint</td><td style="border-left-width: 0px">ImagingStudy.endpoint</td><td>Element `ImagingStudy.endpoint` is mapped to FHIR R4 element `ImagingStudy.endpoint` as `Equivalent`.
+Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG), formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach; DICOM QIDO-RS, which allows RESTful query for DICOM information without retrieving the actual instances; or IHE Invoke Image Display (IID), which provides standard invocation of an imaging web viewer.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.numberOfSeries</td><td style="border-left-width: 0px">numberOfSeries</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.numberOfSeries</td><td style="border-left-width: 0px">ImagingStudy.numberOfSeries</td><td>Element `ImagingStudy.numberOfSeries` is mapped to FHIR R4 element `ImagingStudy.numberOfSeries` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.numberOfInstances</td><td style="border-left-width: 0px">numberOfInstances</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.numberOfInstances</td><td style="border-left-width: 0px">ImagingStudy.numberOfInstances</td><td>Element `ImagingStudy.numberOfInstances` is mapped to FHIR R4 element `ImagingStudy.numberOfInstances` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">ImagingStudy.procedure</td><td style="border-left-width: 0px; border-bottom-style: none">procedure</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ImagingStudy.procedureCode</td><td style="border-left-width: 0px">ImagingStudy.procedureCode</td><td>Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureReference` as `SourceIsBroaderThanTarget`.
+Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureCode` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ImagingStudy.procedureReference</td><td style="border-left-width: 0px">ImagingStudy.procedureReference</td><td>Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureReference` as `SourceIsBroaderThanTarget`.
+Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureCode` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.location</td><td style="border-left-width: 0px">location</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.location</td><td style="border-left-width: 0px">ImagingStudy.location</td><td>Element `ImagingStudy.location` is mapped to FHIR R4 element `ImagingStudy.location` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">ImagingStudy.reason</td><td style="border-left-width: 0px; border-bottom-style: none">reason</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ImagingStudy.reasonCode</td><td style="border-left-width: 0px">ImagingStudy.reasonCode</td><td>Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">ImagingStudy.reasonReference</td><td style="border-left-width: 0px">ImagingStudy.reasonReference</td><td>Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.note</td><td style="border-left-width: 0px">ImagingStudy.note</td><td>Element `ImagingStudy.note` is mapped to FHIR R4 element `ImagingStudy.note` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.description</td><td style="border-left-width: 0px">description</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.description</td><td style="border-left-width: 0px">ImagingStudy.description</td><td>Element `ImagingStudy.description` is mapped to FHIR R4 element `ImagingStudy.description` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series</td><td style="border-left-width: 0px">series</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series</td><td style="border-left-width: 0px">ImagingStudy.series</td><td>Element `ImagingStudy.series` is mapped to FHIR R4 element `ImagingStudy.series` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.uid</td><td style="border-left-width: 0px">uid</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.uid</td><td style="border-left-width: 0px">ImagingStudy.series.uid</td><td>Element `ImagingStudy.series.uid` is mapped to FHIR R4 element `ImagingStudy.series.uid` as `Equivalent`.
+See [DICOM PS3.3 C.7.3](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.3.html).</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.number</td><td style="border-left-width: 0px">number</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.number</td><td style="border-left-width: 0px">ImagingStudy.series.number</td><td>Element `ImagingStudy.series.number` is mapped to FHIR R4 element `ImagingStudy.series.number` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.modality</td><td style="border-left-width: 0px">modality</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series.modality</td><td style="border-left-width: 0px">ImagingStudy.series.modality</td><td>Element `ImagingStudy.series.modality` is mapped to FHIR R4 element `ImagingStudy.series.modality` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.series.modality` do not cover the following types: CodeableConcept.
+The mappings for `ImagingStudy.series.modality` do not cover the following types based on type expansion: text.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.description</td><td style="border-left-width: 0px">description</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.description</td><td style="border-left-width: 0px">ImagingStudy.series.description</td><td>Element `ImagingStudy.series.description` is mapped to FHIR R4 element `ImagingStudy.series.description` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.numberOfInstances</td><td style="border-left-width: 0px">numberOfInstances</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.numberOfInstances</td><td style="border-left-width: 0px">ImagingStudy.series.numberOfInstances</td><td>Element `ImagingStudy.series.numberOfInstances` is mapped to FHIR R4 element `ImagingStudy.series.numberOfInstances` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.endpoint</td><td style="border-left-width: 0px">endpoint</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.endpoint</td><td style="border-left-width: 0px">ImagingStudy.series.endpoint</td><td>Element `ImagingStudy.series.endpoint` is mapped to FHIR R4 element `ImagingStudy.series.endpoint` as `Equivalent`.
+Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG) formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach; and DICOM QIDO-RS, which allows RESTful query for DICOM information without retrieving the actual instances.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.bodySite</td><td style="border-left-width: 0px">bodySite</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series.bodySite</td><td style="border-left-width: 0px">ImagingStudy.series.bodySite</td><td>Element `ImagingStudy.series.bodySite` is mapped to FHIR R4 element `ImagingStudy.series.bodySite` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.series.bodySite` do not cover the following types: CodeableReference.
+The mappings for `ImagingStudy.series.bodySite` do not cover the following types based on type expansion: concept, reference.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.laterality</td><td style="border-left-width: 0px">laterality</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series.laterality</td><td style="border-left-width: 0px">ImagingStudy.series.laterality</td><td>Element `ImagingStudy.series.laterality` is mapped to FHIR R4 element `ImagingStudy.series.laterality` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.series.laterality` do not cover the following types: CodeableConcept.
+The mappings for `ImagingStudy.series.laterality` do not cover the following types based on type expansion: text.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.specimen</td><td style="border-left-width: 0px">specimen</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.specimen</td><td style="border-left-width: 0px">ImagingStudy.series.specimen</td><td>Element `ImagingStudy.series.specimen` is mapped to FHIR R4 element `ImagingStudy.series.specimen` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.started</td><td style="border-left-width: 0px">started</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.started</td><td style="border-left-width: 0px">ImagingStudy.series.started</td><td>Element `ImagingStudy.series.started` is mapped to FHIR R4 element `ImagingStudy.series.started` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.performer</td><td style="border-left-width: 0px">performer</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series.performer</td><td style="border-left-width: 0px">ImagingStudy.series.performer</td><td>Element `ImagingStudy.series.performer` is mapped to FHIR R4 element `ImagingStudy.series.performer` as `Equivalent`.
+If the person who performed the series is not known, their Organization may be recorded. A patient, or related person, may be the performer, e.g. for patient-captured images.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.performer.function</td><td style="border-left-width: 0px">function</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.performer.function</td><td style="border-left-width: 0px">ImagingStudy.series.performer.function</td><td>Element `ImagingStudy.series.performer.function` is mapped to FHIR R4 element `ImagingStudy.series.performer.function` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.performer.actor</td><td style="border-left-width: 0px">actor</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series.performer.actor</td><td style="border-left-width: 0px">ImagingStudy.series.performer.actor</td><td>Element `ImagingStudy.series.performer.actor` is mapped to FHIR R4 element `ImagingStudy.series.performer.actor` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `ImagingStudy.series.performer.actor` with unmapped reference targets: HealthcareService.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.instance</td><td style="border-left-width: 0px">instance</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">ImagingStudy.series.instance</td><td style="border-left-width: 0px">ImagingStudy.series.instance</td><td>Element `ImagingStudy.series.instance` is mapped to FHIR R4 element `ImagingStudy.series.instance` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.instance.uid</td><td style="border-left-width: 0px">uid</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.instance.uid</td><td style="border-left-width: 0px">ImagingStudy.series.instance.uid</td><td>Element `ImagingStudy.series.instance.uid` is mapped to FHIR R4 element `ImagingStudy.series.instance.uid` as `Equivalent`.
+See  [DICOM PS3.3 C.12.1](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html#sect_C.12.1).</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.instance.sopClass</td><td style="border-left-width: 0px">sopClass</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.instance.sopClass</td><td style="border-left-width: 0px">ImagingStudy.series.instance.sopClass</td><td>Element `ImagingStudy.series.instance.sopClass` is mapped to FHIR R4 element `ImagingStudy.series.instance.sopClass` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.instance.number</td><td style="border-left-width: 0px">number</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.instance.number</td><td style="border-left-width: 0px">ImagingStudy.series.instance.number</td><td>Element `ImagingStudy.series.instance.number` is mapped to FHIR R4 element `ImagingStudy.series.instance.number` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">ImagingStudy.series.instance.title</td><td style="border-left-width: 0px">title</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">ImagingStudy.series.instance.title</td><td style="border-left-width: 0px">ImagingStudy.series.instance.title</td><td>Element `ImagingStudy.series.instance.title` is mapped to FHIR R4 element `ImagingStudy.series.instance.title` as `Equivalent`.
+Particularly for post-acquisition analytic objects, such as SR, presentation states, value mapping, etc.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImagingStudy.modality (modality)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.modality</td><td>Element `ImagingStudy.modality` is mapped to FHIR R4 element `ImagingStudy.modality` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.modality` do not cover the following types: CodeableConcept.
+The mappings for `ImagingStudy.modality` do not cover the following types based on type expansion: text.</td></tr><tr><td>ImagingStudy.partOf (partOf)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.partOf</td><td>Element `ImagingStudy.partOf` has a context of ImagingStudy based on following the parent source element upwards and mapping to `ImagingStudy`.
+Element `ImagingStudy.partOf` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+To link an ImagingStudy to an Encounter use `encounter`.</td></tr><tr><td>ImagingStudy.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.reason</td><td>Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.reason` do not cover the following types: CodeableReference.</td></tr><tr><td>ImagingStudy.series.modality (modality)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.modality</td><td>Element `ImagingStudy.series.modality` is mapped to FHIR R4 element `ImagingStudy.series.modality` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.series.modality` do not cover the following types: CodeableConcept.
+The mappings for `ImagingStudy.series.modality` do not cover the following types based on type expansion: text.</td></tr><tr><td>ImagingStudy.series.bodySite (bodySite)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.bodySite</td><td>Element `ImagingStudy.series.bodySite` is mapped to FHIR R4 element `ImagingStudy.series.bodySite` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.series.bodySite` do not cover the following types: CodeableReference.
+The mappings for `ImagingStudy.series.bodySite` do not cover the following types based on type expansion: concept, reference.</td></tr><tr><td>ImagingStudy.series.laterality (laterality)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.laterality</td><td>Element `ImagingStudy.series.laterality` is mapped to FHIR R4 element `ImagingStudy.series.laterality` as `SourceIsBroaderThanTarget`.
+The mappings for `ImagingStudy.series.laterality` do not cover the following types: CodeableConcept.
+The mappings for `ImagingStudy.series.laterality` do not cover the following types based on type expansion: text.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ImagingStudy|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ImagingStudy.series.performer.actor (actor)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-ImagingStudy-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5ImagingStudyElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 ImagingStudy to FHIR R4 ImagingStudy"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:49.1121013-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 ImagingStudy to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ImagingStudy"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/ImagingStudy"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="ImagingStudy.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="ImagingStudy.meta"/>
+        <display value="ImagingStudy.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.meta` is mapped to FHIR R4 element `ImagingStudy.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="ImagingStudy.implicitRules"/>
+        <display value="ImagingStudy.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.implicitRules` is mapped to FHIR R4 element `ImagingStudy.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.language"/>
+      <display value="language"/>
+      <target>
+        <code value="ImagingStudy.language"/>
+        <display value="ImagingStudy.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.language` is mapped to FHIR R4 element `ImagingStudy.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.text"/>
+      <display value="text"/>
+      <target>
+        <code value="ImagingStudy.text"/>
+        <display value="ImagingStudy.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.text` is mapped to FHIR R4 element `ImagingStudy.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="ImagingStudy.contained"/>
+        <display value="ImagingStudy.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.contained` is mapped to FHIR R4 element `ImagingStudy.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="ImagingStudy.identifier"/>
+        <display value="ImagingStudy.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.identifier` is mapped to FHIR R4 element `ImagingStudy.identifier` as `Equivalent`.&#xA;See discussion under [Imaging Study Implementation Notes](https://hl7.org/fhir/imagin.html#notes) for encoding of DICOM Study Instance UID."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.status"/>
+      <display value="status"/>
+      <target>
+        <code value="ImagingStudy.status"/>
+        <display value="ImagingStudy.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.status` is mapped to FHIR R4 element `ImagingStudy.status` as `Equivalent`.&#xA;Unknown does not represent &quot;other&quot; - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.modality"/>
+      <display value="modality"/>
+      <target>
+        <code value="ImagingStudy.modality"/>
+        <display value="ImagingStudy.modality"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.modality` is mapped to FHIR R4 element `ImagingStudy.modality` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.modality` do not cover the following types: CodeableConcept.&#xA;The mappings for `ImagingStudy.modality` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="ImagingStudy.subject"/>
+        <display value="ImagingStudy.subject"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.subject` is mapped to FHIR R4 element `ImagingStudy.subject` as `Equivalent`.&#xA;QA phantoms can be recorded with a Device; multiple subjects (such as mice) can be recorded with a Group."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="ImagingStudy.encounter"/>
+        <display value="ImagingStudy.encounter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.encounter` is mapped to FHIR R4 element `ImagingStudy.encounter` as `Equivalent`.&#xA;This will typically be the encounter the event occurred within, but some events may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter (e.g. pre-admission test)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.started"/>
+      <display value="started"/>
+      <target>
+        <code value="ImagingStudy.started"/>
+        <display value="ImagingStudy.started"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.started` is mapped to FHIR R4 element `ImagingStudy.started` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="ImagingStudy.basedOn"/>
+        <display value="ImagingStudy.basedOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.basedOn` is mapped to FHIR R4 element `ImagingStudy.basedOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.referrer"/>
+      <display value="referrer"/>
+      <target>
+        <code value="ImagingStudy.referrer"/>
+        <display value="ImagingStudy.referrer"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.referrer` is mapped to FHIR R4 element `ImagingStudy.referrer` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.endpoint"/>
+      <display value="endpoint"/>
+      <target>
+        <code value="ImagingStudy.endpoint"/>
+        <display value="ImagingStudy.endpoint"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.endpoint` is mapped to FHIR R4 element `ImagingStudy.endpoint` as `Equivalent`.&#xA;Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG), formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach; DICOM QIDO-RS, which allows RESTful query for DICOM information without retrieving the actual instances; or IHE Invoke Image Display (IID), which provides standard invocation of an imaging web viewer."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.numberOfSeries"/>
+      <display value="numberOfSeries"/>
+      <target>
+        <code value="ImagingStudy.numberOfSeries"/>
+        <display value="ImagingStudy.numberOfSeries"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.numberOfSeries` is mapped to FHIR R4 element `ImagingStudy.numberOfSeries` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.numberOfInstances"/>
+      <display value="numberOfInstances"/>
+      <target>
+        <code value="ImagingStudy.numberOfInstances"/>
+        <display value="ImagingStudy.numberOfInstances"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.numberOfInstances` is mapped to FHIR R4 element `ImagingStudy.numberOfInstances` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.procedure"/>
+      <display value="procedure"/>
+      <target>
+        <code value="ImagingStudy.procedureCode"/>
+        <display value="ImagingStudy.procedureCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureReference` as `SourceIsBroaderThanTarget`.&#xA;Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureCode` as `SourceIsBroaderThanTarget`."/>
+      </target>
+      <target>
+        <code value="ImagingStudy.procedureReference"/>
+        <display value="ImagingStudy.procedureReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureReference` as `SourceIsBroaderThanTarget`.&#xA;Element `ImagingStudy.procedure` is mapped to FHIR R4 element `ImagingStudy.procedureCode` as `SourceIsBroaderThanTarget`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.location"/>
+      <display value="location"/>
+      <target>
+        <code value="ImagingStudy.location"/>
+        <display value="ImagingStudy.location"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.location` is mapped to FHIR R4 element `ImagingStudy.location` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="ImagingStudy.reasonCode"/>
+        <display value="ImagingStudy.reasonCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.reason` do not cover the following types: CodeableReference."/>
+      </target>
+      <target>
+        <code value="ImagingStudy.reasonReference"/>
+        <display value="ImagingStudy.reasonReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.reason` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.note"/>
+      <display value="note"/>
+      <target>
+        <code value="ImagingStudy.note"/>
+        <display value="ImagingStudy.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.note` is mapped to FHIR R4 element `ImagingStudy.note` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ImagingStudy.description"/>
+        <display value="ImagingStudy.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.description` is mapped to FHIR R4 element `ImagingStudy.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series"/>
+      <display value="series"/>
+      <target>
+        <code value="ImagingStudy.series"/>
+        <display value="ImagingStudy.series"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series` is mapped to FHIR R4 element `ImagingStudy.series` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.uid"/>
+      <display value="uid"/>
+      <target>
+        <code value="ImagingStudy.series.uid"/>
+        <display value="ImagingStudy.series.uid"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.uid` is mapped to FHIR R4 element `ImagingStudy.series.uid` as `Equivalent`.&#xA;See [DICOM PS3.3 C.7.3](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.7.3.html)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.number"/>
+      <display value="number"/>
+      <target>
+        <code value="ImagingStudy.series.number"/>
+        <display value="ImagingStudy.series.number"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.number` is mapped to FHIR R4 element `ImagingStudy.series.number` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.modality"/>
+      <display value="modality"/>
+      <target>
+        <code value="ImagingStudy.series.modality"/>
+        <display value="ImagingStudy.series.modality"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series.modality` is mapped to FHIR R4 element `ImagingStudy.series.modality` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.series.modality` do not cover the following types: CodeableConcept.&#xA;The mappings for `ImagingStudy.series.modality` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.description"/>
+      <display value="description"/>
+      <target>
+        <code value="ImagingStudy.series.description"/>
+        <display value="ImagingStudy.series.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.description` is mapped to FHIR R4 element `ImagingStudy.series.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.numberOfInstances"/>
+      <display value="numberOfInstances"/>
+      <target>
+        <code value="ImagingStudy.series.numberOfInstances"/>
+        <display value="ImagingStudy.series.numberOfInstances"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.numberOfInstances` is mapped to FHIR R4 element `ImagingStudy.series.numberOfInstances` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.endpoint"/>
+      <display value="endpoint"/>
+      <target>
+        <code value="ImagingStudy.series.endpoint"/>
+        <display value="ImagingStudy.series.endpoint"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.endpoint` is mapped to FHIR R4 element `ImagingStudy.series.endpoint` as `Equivalent`.&#xA;Typical endpoint types include DICOM WADO-RS, which is used to retrieve DICOM instances in native or rendered (e.g., JPG, PNG) formats using a RESTful API; DICOM WADO-URI, which can similarly retrieve native or rendered instances, except using an HTTP query-based approach; and DICOM QIDO-RS, which allows RESTful query for DICOM information without retrieving the actual instances."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="ImagingStudy.series.bodySite"/>
+        <display value="ImagingStudy.series.bodySite"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series.bodySite` is mapped to FHIR R4 element `ImagingStudy.series.bodySite` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.series.bodySite` do not cover the following types: CodeableReference.&#xA;The mappings for `ImagingStudy.series.bodySite` do not cover the following types based on type expansion: concept, reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.laterality"/>
+      <display value="laterality"/>
+      <target>
+        <code value="ImagingStudy.series.laterality"/>
+        <display value="ImagingStudy.series.laterality"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series.laterality` is mapped to FHIR R4 element `ImagingStudy.series.laterality` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.series.laterality` do not cover the following types: CodeableConcept.&#xA;The mappings for `ImagingStudy.series.laterality` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.specimen"/>
+      <display value="specimen"/>
+      <target>
+        <code value="ImagingStudy.series.specimen"/>
+        <display value="ImagingStudy.series.specimen"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.specimen` is mapped to FHIR R4 element `ImagingStudy.series.specimen` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.started"/>
+      <display value="started"/>
+      <target>
+        <code value="ImagingStudy.series.started"/>
+        <display value="ImagingStudy.series.started"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.started` is mapped to FHIR R4 element `ImagingStudy.series.started` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.performer"/>
+      <display value="performer"/>
+      <target>
+        <code value="ImagingStudy.series.performer"/>
+        <display value="ImagingStudy.series.performer"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series.performer` is mapped to FHIR R4 element `ImagingStudy.series.performer` as `Equivalent`.&#xA;If the person who performed the series is not known, their Organization may be recorded. A patient, or related person, may be the performer, e.g. for patient-captured images."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.performer.function"/>
+      <display value="function"/>
+      <target>
+        <code value="ImagingStudy.series.performer.function"/>
+        <display value="ImagingStudy.series.performer.function"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.performer.function` is mapped to FHIR R4 element `ImagingStudy.series.performer.function` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.performer.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="ImagingStudy.series.performer.actor"/>
+        <display value="ImagingStudy.series.performer.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series.performer.actor` is mapped to FHIR R4 element `ImagingStudy.series.performer.actor` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `ImagingStudy.series.performer.actor` with unmapped reference targets: HealthcareService."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.instance"/>
+      <display value="instance"/>
+      <target>
+        <code value="ImagingStudy.series.instance"/>
+        <display value="ImagingStudy.series.instance"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.series.instance` is mapped to FHIR R4 element `ImagingStudy.series.instance` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.instance.uid"/>
+      <display value="uid"/>
+      <target>
+        <code value="ImagingStudy.series.instance.uid"/>
+        <display value="ImagingStudy.series.instance.uid"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.instance.uid` is mapped to FHIR R4 element `ImagingStudy.series.instance.uid` as `Equivalent`.&#xA;See  [DICOM PS3.3 C.12.1](http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html#sect_C.12.1)."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.instance.sopClass"/>
+      <display value="sopClass"/>
+      <target>
+        <code value="ImagingStudy.series.instance.sopClass"/>
+        <display value="ImagingStudy.series.instance.sopClass"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.instance.sopClass` is mapped to FHIR R4 element `ImagingStudy.series.instance.sopClass` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.instance.number"/>
+      <display value="number"/>
+      <target>
+        <code value="ImagingStudy.series.instance.number"/>
+        <display value="ImagingStudy.series.instance.number"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.instance.number` is mapped to FHIR R4 element `ImagingStudy.series.instance.number` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.instance.title"/>
+      <display value="title"/>
+      <target>
+        <code value="ImagingStudy.series.instance.title"/>
+        <display value="ImagingStudy.series.instance.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.instance.title` is mapped to FHIR R4 element `ImagingStudy.series.instance.title` as `Equivalent`.&#xA;Particularly for post-acquisition analytic objects, such as SR, presentation states, value mapping, etc."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ImagingStudy"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="ImagingStudy.modality"/>
+      <display value="modality"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.modality"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.modality` is mapped to FHIR R4 element `ImagingStudy.modality` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.modality` do not cover the following types: CodeableConcept.&#xA;The mappings for `ImagingStudy.modality` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.partOf"/>
+      <display value="partOf"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.partOf"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.partOf` has a context of ImagingStudy based on following the parent source element upwards and mapping to `ImagingStudy`.&#xA;Element `ImagingStudy.partOf` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;To link an ImagingStudy to an Encounter use `encounter`."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `ImagingStudy.reason` is mapped to FHIR R4 element `ImagingStudy.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.reason` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.modality"/>
+      <display value="modality"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.modality"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.modality` is mapped to FHIR R4 element `ImagingStudy.series.modality` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.series.modality` do not cover the following types: CodeableConcept.&#xA;The mappings for `ImagingStudy.series.modality` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.bodySite"/>
+      <display value="bodySite"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.bodySite"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.bodySite` is mapped to FHIR R4 element `ImagingStudy.series.bodySite` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.series.bodySite` do not cover the following types: CodeableReference.&#xA;The mappings for `ImagingStudy.series.bodySite` do not cover the following types based on type expansion: concept, reference."/>
+      </target>
+    </element>
+    <element>
+      <code value="ImagingStudy.series.laterality"/>
+      <display value="laterality"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.laterality"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `ImagingStudy.series.laterality` is mapped to FHIR R4 element `ImagingStudy.series.laterality` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `ImagingStudy.series.laterality` do not cover the following types: CodeableConcept.&#xA;The mappings for `ImagingStudy.series.laterality` do not cover the following types based on type expansion: text."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/ImagingStudy"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="ImagingStudy.series.performer.actor"/>
+      <display value="actor"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

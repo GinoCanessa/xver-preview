@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-StructureDefinition-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-StructureDefinition-element-map-to-R4</b></p><a name="R5-StructureDefinition-element-map-to-R4"> </a><a name="hcR5-StructureDefinition-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureDefinition|5.0.0</code> to <a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinitionversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureDefinition.meta (meta)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.meta</td><td>Element `StructureDefinition.meta` is mapped to FHIR R4 element `StructureDefinition.meta` as `Equivalent`.</td></tr><tr><td>StructureDefinition.implicitRules (implicitRules)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.implicitRules</td><td>Element `StructureDefinition.implicitRules` is mapped to FHIR R4 element `StructureDefinition.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>StructureDefinition.language (language)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.language</td><td>Element `StructureDefinition.language` is mapped to FHIR R4 element `StructureDefinition.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>StructureDefinition.text (text)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.text</td><td>Element `StructureDefinition.text` is mapped to FHIR R4 element `StructureDefinition.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>StructureDefinition.contained (contained)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.contained</td><td>Element `StructureDefinition.contained` is mapped to FHIR R4 element `StructureDefinition.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>StructureDefinition.url (url)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.url</td><td>Element `StructureDefinition.url` is mapped to FHIR R4 element `StructureDefinition.url` as `Equivalent`.
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.
+
+The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). 
+
+In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.</td></tr><tr><td>StructureDefinition.identifier (identifier)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.identifier</td><td>Element `StructureDefinition.identifier` is mapped to FHIR R4 element `StructureDefinition.identifier` as `Equivalent`.
+Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this structure definition outside of FHIR, where it is not possible to use the logical URI.</td></tr><tr><td>StructureDefinition.version (version)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.version</td><td>Element `StructureDefinition.version` is mapped to FHIR R4 element `StructureDefinition.version` as `Equivalent`.
+There may be different structure definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the structure definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format).</td></tr><tr><td>StructureDefinition.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.name</td><td>Element `StructureDefinition.name` is mapped to FHIR R4 element `StructureDefinition.name` as `Equivalent`.
+The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.Some Examples: 
+
+* O2SatObservation
+* PresentationReport
+* Immunization2
+* AcmeAdmissionRecordOld.</td></tr><tr><td>StructureDefinition.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.title</td><td>Element `StructureDefinition.title` is mapped to FHIR R4 element `StructureDefinition.title` as `Equivalent`.
+This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.Applications don't have to use this name but can always fall back to it. The title also corresponds to the label for the root element.</td></tr><tr><td>StructureDefinition.status (status)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.status</td><td>Element `StructureDefinition.status` is mapped to FHIR R4 element `StructureDefinition.status` as `Equivalent`.
+Allows filtering of structure definitions that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>StructureDefinition.experimental (experimental)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.experimental</td><td>Element `StructureDefinition.experimental` is mapped to FHIR R4 element `StructureDefinition.experimental` as `Equivalent`.
+Allows filtering of structure definitions that are appropriate for use versus not.</td></tr><tr><td>StructureDefinition.date (date)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.date</td><td>Element `StructureDefinition.date` is mapped to FHIR R4 element `StructureDefinition.date` as `Equivalent`.
+The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the structure definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>StructureDefinition.publisher (publisher)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.publisher</td><td>Element `StructureDefinition.publisher` is mapped to FHIR R4 element `StructureDefinition.publisher` as `Equivalent`.
+Usually an organization but may be an individual. The publisher (or steward) of the structure definition is the organization or individual primarily responsible for the maintenance and upkeep of the structure definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the structure definition. This item SHOULD be populated unless the information is available from context.</td></tr><tr><td>StructureDefinition.contact (contact)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.contact</td><td>Element `StructureDefinition.contact` is mapped to FHIR R4 element `StructureDefinition.contact` as `Equivalent`.
+May be a web site, an email address, a telephone number, etc.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).</td></tr><tr><td>StructureDefinition.description (description)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.description</td><td>Element `StructureDefinition.description` is mapped to FHIR R4 element `StructureDefinition.description` as `Equivalent`.
+This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the structure definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the structure definition is presumed to be the predominant language in the place the structure definition was created).</td></tr><tr><td>StructureDefinition.useContext (useContext)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.useContext</td><td>Element `StructureDefinition.useContext` is mapped to FHIR R4 element `StructureDefinition.useContext` as `Equivalent`.
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.</td></tr><tr><td>StructureDefinition.jurisdiction (jurisdiction)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.jurisdiction</td><td>Element `StructureDefinition.jurisdiction` is mapped to FHIR R4 element `StructureDefinition.jurisdiction` as `Equivalent`.
+Element `StructureDefinition.jurisdiction` has been flagged as deprecated.
+It may be possible for the structure definition to be used in jurisdictions other than those for which it was originally designed or intended.
+
+DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)</td></tr><tr><td>StructureDefinition.purpose (purpose)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.purpose</td><td>Element `StructureDefinition.purpose` is mapped to FHIR R4 element `StructureDefinition.purpose` as `Equivalent`.
+This element does not describe the usage of the structure definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this structure definition.</td></tr><tr><td>StructureDefinition.copyright (copyright)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.copyright</td><td>Element `StructureDefinition.copyright` is mapped to FHIR R4 element `StructureDefinition.copyright` as `Equivalent`.
+...</td></tr><tr><td>StructureDefinition.keyword (keyword)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.keyword</td><td>Element `StructureDefinition.keyword` is mapped to FHIR R4 element `StructureDefinition.keyword` as `Equivalent`.
+Element `StructureDefinition.keyword` has been flagged as deprecated.
+Note that this element is deprecated. Use the [http://hl7.org/fhir/StructureDefinition/artifact-topic](http://hl7.org/fhir/extensions/StructureDefinition-artifact-topic.html) extension instead.</td></tr><tr><td>StructureDefinition.fhirVersion (fhirVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureDefinition.fhirVersion</td><td>Element `StructureDefinition.fhirVersion` is mapped to FHIR R4 element `StructureDefinition.fhirVersion` as `SourceIsBroaderThanTarget`.
+A StructureDefinition does not need to specify the target it applies to as StructureDefinitions will often be valid across multiple versions of FHIR. FHIR tooling can determine whether a StructureDefinition is consistent with a particular StructureDefinition if desired.</td></tr><tr><td>StructureDefinition.mapping (mapping)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureDefinition.mapping</td><td>Element `StructureDefinition.mapping` is mapped to FHIR R4 element `StructureDefinition.mapping` as `Equivalent`.</td></tr><tr><td>StructureDefinition.mapping.identity (identity)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.mapping.identity</td><td>Element `StructureDefinition.mapping.identity` is mapped to FHIR R4 element `StructureDefinition.mapping.identity` as `Equivalent`.
+The specification is described once, with general comments, and then specific mappings are made that reference this declaration.</td></tr><tr><td>StructureDefinition.mapping.uri (uri)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.mapping.uri</td><td>Element `StructureDefinition.mapping.uri` is mapped to FHIR R4 element `StructureDefinition.mapping.uri` as `Equivalent`.
+A formal identity for the specification being mapped to helps with identifying maps consistently.</td></tr><tr><td>StructureDefinition.mapping.name (name)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.mapping.name</td><td>Element `StructureDefinition.mapping.name` is mapped to FHIR R4 element `StructureDefinition.mapping.name` as `Equivalent`.</td></tr><tr><td>StructureDefinition.mapping.comment (comment)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.mapping.comment</td><td>Element `StructureDefinition.mapping.comment` is mapped to FHIR R4 element `StructureDefinition.mapping.comment` as `Equivalent`.</td></tr><tr><td>StructureDefinition.kind (kind)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.kind</td><td>Element `StructureDefinition.kind` is mapped to FHIR R4 element `StructureDefinition.kind` as `Equivalent`.</td></tr><tr><td>StructureDefinition.abstract (abstract)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.abstract</td><td>Element `StructureDefinition.abstract` is mapped to FHIR R4 element `StructureDefinition.abstract` as `Equivalent`.
+Abstract Resources cannot be instantiated - a concrete sub-type must be used. Abstract datatypes and extensions cannot be used in an instance. For logical models, the exact implication of &quot;abstract&quot; will rest with the author, depending how the logical model is used. Flagging a constraint structure as abstract conveys design intent but makes no difference to how the structure definition is handled. Note that inline declared elements that are given the type &quot;Element&quot; in the StructureDefinition, but have children described, are anonymous concrete types that specialize Element.</td></tr><tr><td>StructureDefinition.context (context)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureDefinition.context</td><td>Element `StructureDefinition.context` is mapped to FHIR R4 element `StructureDefinition.context` as `Equivalent`.</td></tr><tr><td>StructureDefinition.context.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.context.type</td><td>Element `StructureDefinition.context.type` is mapped to FHIR R4 element `StructureDefinition.context.type` as `Equivalent`.</td></tr><tr><td>StructureDefinition.context.expression (expression)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.context.expression</td><td>Element `StructureDefinition.context.expression` is mapped to FHIR R4 element `StructureDefinition.context.expression` as `Equivalent`.</td></tr><tr><td>StructureDefinition.contextInvariant (contextInvariant)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.contextInvariant</td><td>Element `StructureDefinition.contextInvariant` is mapped to FHIR R4 element `StructureDefinition.contextInvariant` as `Equivalent`.
+The rules are only evaluated when the extension is present. When evaluating the invariant, the FHIRPath focus is the element that holds the extension, and %extension refers to the extension itself.</td></tr><tr><td>StructureDefinition.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.type</td><td>Element `StructureDefinition.type` is mapped to FHIR R4 element `StructureDefinition.type` as `Equivalent`.
+Note that in the case of constraints, the type could be determined by chasing through the baseDefinition references until a type defining structure (derivation = specialization) is reached, or by looking at the path of the first element in the snapshot - if present - but providing the type directly makes for simpler tooling and indexing. 
+
+The type must match the elements defined in the differential and the snapshot. For all FHIR defined types, the path name of the element will start with the type name. For logical models, where the type SHALL be a fully specified URL, the type name SHOULD start with the final path segment of the type URL where required. E.g. If the type was &quot;http://example.org/fhir/MyLogicalModelType&quot;, the type name should start with 'MyLogicalModelType'.</td></tr><tr><td>StructureDefinition.baseDefinition (baseDefinition)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.baseDefinition</td><td>Element `StructureDefinition.baseDefinition` is mapped to FHIR R4 element `StructureDefinition.baseDefinition` as `Equivalent`.
+If differential constraints are specified in this structure, they are applied to the base in a &quot;differential&quot; fashion. If there is no base, then the differential constraints cannot be provided (snapshot only). Differential structures are useful for the editing perspective, and snapshot structures are suitable for operational use. The FHIR Project provides a number of tools/services to populate snapshots from differential constraints. Logical Models have a base of &quot;Base&quot;, &quot;Element&quot; or another logical model.</td></tr><tr><td>StructureDefinition.derivation (derivation)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.derivation</td><td>Element `StructureDefinition.derivation` is mapped to FHIR R4 element `StructureDefinition.derivation` as `Equivalent`.
+If the definition is a specialization, then it adds to the differential new elements and optionally additional rules to an existing concrete type, and the snapshot includes the inherited elements and rules.  If the definition is a constraint, then it cannot define new elements, it can only make new rules about existing content (see [Profiling Resources](https://hl7.org/fhir/profiling..html#resources)).</td></tr><tr><td>StructureDefinition.snapshot (snapshot)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureDefinition.snapshot</td><td>Element `StructureDefinition.snapshot` is mapped to FHIR R4 element `StructureDefinition.snapshot` as `Equivalent`.</td></tr><tr><td>StructureDefinition.snapshot.element (element)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.snapshot.element</td><td>Element `StructureDefinition.snapshot.element` is mapped to FHIR R4 element `StructureDefinition.snapshot.element` as `Equivalent`.</td></tr><tr><td>StructureDefinition.differential (differential)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>StructureDefinition.differential</td><td>Element `StructureDefinition.differential` is mapped to FHIR R4 element `StructureDefinition.differential` as `Equivalent`.</td></tr><tr><td>StructureDefinition.differential.element (element)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>StructureDefinition.differential.element</td><td>Element `StructureDefinition.differential.element` is mapped to FHIR R4 element `StructureDefinition.differential.element` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/StructureDefinition|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>StructureDefinition.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.versionAlgorithm</td><td>Element `StructureDefinition.versionAlgorithm[x]` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.
+Element `StructureDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined.</td></tr><tr><td>StructureDefinition.copyrightLabel (copyrightLabel)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.copyrightLabel</td><td>Element `StructureDefinition.copyrightLabel` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.
+Element `StructureDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element.</td></tr><tr><td>StructureDefinition.fhirVersion (fhirVersion)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.fhirVersion</td><td>Element `StructureDefinition.fhirVersion` is mapped to FHIR R4 element `StructureDefinition.fhirVersion` as `SourceIsBroaderThanTarget`.
+A StructureDefinition does not need to specify the target it applies to as StructureDefinitions will often be valid across multiple versions of FHIR. FHIR tooling can determine whether a StructureDefinition is consistent with a particular StructureDefinition if desired.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-StructureDefinition-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5StructureDefinitionElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 StructureDefinition to FHIR R4 StructureDefinition"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.6495225-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 StructureDefinition to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/StructureDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/StructureDefinition"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="StructureDefinition.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="StructureDefinition.meta"/>
+        <display value="StructureDefinition.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.meta` is mapped to FHIR R4 element `StructureDefinition.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="StructureDefinition.implicitRules"/>
+        <display value="StructureDefinition.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.implicitRules` is mapped to FHIR R4 element `StructureDefinition.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.language"/>
+      <display value="language"/>
+      <target>
+        <code value="StructureDefinition.language"/>
+        <display value="StructureDefinition.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.language` is mapped to FHIR R4 element `StructureDefinition.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.text"/>
+      <display value="text"/>
+      <target>
+        <code value="StructureDefinition.text"/>
+        <display value="StructureDefinition.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.text` is mapped to FHIR R4 element `StructureDefinition.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="StructureDefinition.contained"/>
+        <display value="StructureDefinition.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.contained` is mapped to FHIR R4 element `StructureDefinition.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.url"/>
+      <display value="url"/>
+      <target>
+        <code value="StructureDefinition.url"/>
+        <display value="StructureDefinition.url"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.url` is mapped to FHIR R4 element `StructureDefinition.url` as `Equivalent`.&#xA;Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.&#xA;&#xA;The determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions). &#xA;&#xA;In some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="StructureDefinition.identifier"/>
+        <display value="StructureDefinition.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.identifier` is mapped to FHIR R4 element `StructureDefinition.identifier` as `Equivalent`.&#xA;Typically, this is used for identifiers that can go in an HL7 V3 II (instance identifier) data type, and can then identify this structure definition outside of FHIR, where it is not possible to use the logical URI."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.version"/>
+      <display value="version"/>
+      <target>
+        <code value="StructureDefinition.version"/>
+        <display value="StructureDefinition.version"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.version` is mapped to FHIR R4 element `StructureDefinition.version` as `Equivalent`.&#xA;There may be different structure definition instances that have the same identifier but different versions.  The version can be appended to the url in a reference to allow a reference to a particular business version of the structure definition with the format [url]|[version]. The version SHOULD NOT contain a '#' - see [Business Version](https://hl7.org/fhir/resource.h.html#bv-format)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureDefinition.name"/>
+        <display value="StructureDefinition.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.name` is mapped to FHIR R4 element `StructureDefinition.name` as `Equivalent`.&#xA;The name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly.Some Examples: &#xA;&#xA;* O2SatObservation&#xA;* PresentationReport&#xA;* Immunization2&#xA;* AcmeAdmissionRecordOld."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.title"/>
+      <display value="title"/>
+      <target>
+        <code value="StructureDefinition.title"/>
+        <display value="StructureDefinition.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.title` is mapped to FHIR R4 element `StructureDefinition.title` as `Equivalent`.&#xA;This name does not need to be machine-processing friendly and may contain punctuation, white-space, etc.Applications don't have to use this name but can always fall back to it. The title also corresponds to the label for the root element."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.status"/>
+      <display value="status"/>
+      <target>
+        <code value="StructureDefinition.status"/>
+        <display value="StructureDefinition.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.status` is mapped to FHIR R4 element `StructureDefinition.status` as `Equivalent`.&#xA;Allows filtering of structure definitions that are appropriate for use versus not.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.experimental"/>
+      <display value="experimental"/>
+      <target>
+        <code value="StructureDefinition.experimental"/>
+        <display value="StructureDefinition.experimental"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.experimental` is mapped to FHIR R4 element `StructureDefinition.experimental` as `Equivalent`.&#xA;Allows filtering of structure definitions that are appropriate for use versus not."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.date"/>
+      <display value="date"/>
+      <target>
+        <code value="StructureDefinition.date"/>
+        <display value="StructureDefinition.date"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.date` is mapped to FHIR R4 element `StructureDefinition.date` as `Equivalent`.&#xA;The date is often not tracked until the resource is published, but may be present on draft content. Note that this is not the same as the resource last-modified-date, since the resource may be a secondary representation of the structure definition. Additional specific dates may be added as extensions or be found by consulting Provenances associated with past versions of the resource.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.publisher"/>
+      <display value="publisher"/>
+      <target>
+        <code value="StructureDefinition.publisher"/>
+        <display value="StructureDefinition.publisher"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.publisher` is mapped to FHIR R4 element `StructureDefinition.publisher` as `Equivalent`.&#xA;Usually an organization but may be an individual. The publisher (or steward) of the structure definition is the organization or individual primarily responsible for the maintenance and upkeep of the structure definition. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the structure definition. This item SHOULD be populated unless the information is available from context."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.contact"/>
+      <display value="contact"/>
+      <target>
+        <code value="StructureDefinition.contact"/>
+        <display value="StructureDefinition.contact"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.contact` is mapped to FHIR R4 element `StructureDefinition.contact` as `Equivalent`.&#xA;May be a web site, an email address, a telephone number, etc.&#xA;&#xA;See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.description"/>
+      <display value="description"/>
+      <target>
+        <code value="StructureDefinition.description"/>
+        <display value="StructureDefinition.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.description` is mapped to FHIR R4 element `StructureDefinition.description` as `Equivalent`.&#xA;This description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the structure definition as conveyed in the 'text' field of the resource itself. This item SHOULD be populated unless the information is available from context (e.g. the language of the structure definition is presumed to be the predominant language in the place the structure definition was created)."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.useContext"/>
+      <display value="useContext"/>
+      <target>
+        <code value="StructureDefinition.useContext"/>
+        <display value="StructureDefinition.useContext"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.useContext` is mapped to FHIR R4 element `StructureDefinition.useContext` as `Equivalent`.&#xA;When multiple useContexts are specified, there is no expectation that all or any of the contexts apply."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.jurisdiction"/>
+      <display value="jurisdiction"/>
+      <target>
+        <code value="StructureDefinition.jurisdiction"/>
+        <display value="StructureDefinition.jurisdiction"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.jurisdiction` is mapped to FHIR R4 element `StructureDefinition.jurisdiction` as `Equivalent`.&#xA;Element `StructureDefinition.jurisdiction` has been flagged as deprecated.&#xA;It may be possible for the structure definition to be used in jurisdictions other than those for which it was originally designed or intended.&#xA;&#xA;DEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.purpose"/>
+      <display value="purpose"/>
+      <target>
+        <code value="StructureDefinition.purpose"/>
+        <display value="StructureDefinition.purpose"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.purpose` is mapped to FHIR R4 element `StructureDefinition.purpose` as `Equivalent`.&#xA;This element does not describe the usage of the structure definition. Instead, it provides traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this structure definition."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.copyright"/>
+      <display value="copyright"/>
+      <target>
+        <code value="StructureDefinition.copyright"/>
+        <display value="StructureDefinition.copyright"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.copyright` is mapped to FHIR R4 element `StructureDefinition.copyright` as `Equivalent`.&#xA;..."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.keyword"/>
+      <display value="keyword"/>
+      <target>
+        <code value="StructureDefinition.keyword"/>
+        <display value="StructureDefinition.keyword"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.keyword` is mapped to FHIR R4 element `StructureDefinition.keyword` as `Equivalent`.&#xA;Element `StructureDefinition.keyword` has been flagged as deprecated.&#xA;Note that this element is deprecated. Use the [http://hl7.org/fhir/StructureDefinition/artifact-topic](http://hl7.org/fhir/extensions/StructureDefinition-artifact-topic.html) extension instead."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.fhirVersion"/>
+      <display value="fhirVersion"/>
+      <target>
+        <code value="StructureDefinition.fhirVersion"/>
+        <display value="StructureDefinition.fhirVersion"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.fhirVersion` is mapped to FHIR R4 element `StructureDefinition.fhirVersion` as `SourceIsBroaderThanTarget`.&#xA;A StructureDefinition does not need to specify the target it applies to as StructureDefinitions will often be valid across multiple versions of FHIR. FHIR tooling can determine whether a StructureDefinition is consistent with a particular StructureDefinition if desired."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.mapping"/>
+      <display value="mapping"/>
+      <target>
+        <code value="StructureDefinition.mapping"/>
+        <display value="StructureDefinition.mapping"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.mapping` is mapped to FHIR R4 element `StructureDefinition.mapping` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.mapping.identity"/>
+      <display value="identity"/>
+      <target>
+        <code value="StructureDefinition.mapping.identity"/>
+        <display value="StructureDefinition.mapping.identity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.mapping.identity` is mapped to FHIR R4 element `StructureDefinition.mapping.identity` as `Equivalent`.&#xA;The specification is described once, with general comments, and then specific mappings are made that reference this declaration."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.mapping.uri"/>
+      <display value="uri"/>
+      <target>
+        <code value="StructureDefinition.mapping.uri"/>
+        <display value="StructureDefinition.mapping.uri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.mapping.uri` is mapped to FHIR R4 element `StructureDefinition.mapping.uri` as `Equivalent`.&#xA;A formal identity for the specification being mapped to helps with identifying maps consistently."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.mapping.name"/>
+      <display value="name"/>
+      <target>
+        <code value="StructureDefinition.mapping.name"/>
+        <display value="StructureDefinition.mapping.name"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.mapping.name` is mapped to FHIR R4 element `StructureDefinition.mapping.name` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.mapping.comment"/>
+      <display value="comment"/>
+      <target>
+        <code value="StructureDefinition.mapping.comment"/>
+        <display value="StructureDefinition.mapping.comment"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.mapping.comment` is mapped to FHIR R4 element `StructureDefinition.mapping.comment` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.kind"/>
+      <display value="kind"/>
+      <target>
+        <code value="StructureDefinition.kind"/>
+        <display value="StructureDefinition.kind"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.kind` is mapped to FHIR R4 element `StructureDefinition.kind` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.abstract"/>
+      <display value="abstract"/>
+      <target>
+        <code value="StructureDefinition.abstract"/>
+        <display value="StructureDefinition.abstract"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.abstract` is mapped to FHIR R4 element `StructureDefinition.abstract` as `Equivalent`.&#xA;Abstract Resources cannot be instantiated - a concrete sub-type must be used. Abstract datatypes and extensions cannot be used in an instance. For logical models, the exact implication of &quot;abstract&quot; will rest with the author, depending how the logical model is used. Flagging a constraint structure as abstract conveys design intent but makes no difference to how the structure definition is handled. Note that inline declared elements that are given the type &quot;Element&quot; in the StructureDefinition, but have children described, are anonymous concrete types that specialize Element."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.context"/>
+      <display value="context"/>
+      <target>
+        <code value="StructureDefinition.context"/>
+        <display value="StructureDefinition.context"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.context` is mapped to FHIR R4 element `StructureDefinition.context` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.context.type"/>
+      <display value="type"/>
+      <target>
+        <code value="StructureDefinition.context.type"/>
+        <display value="StructureDefinition.context.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.context.type` is mapped to FHIR R4 element `StructureDefinition.context.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.context.expression"/>
+      <display value="expression"/>
+      <target>
+        <code value="StructureDefinition.context.expression"/>
+        <display value="StructureDefinition.context.expression"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.context.expression` is mapped to FHIR R4 element `StructureDefinition.context.expression` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.contextInvariant"/>
+      <display value="contextInvariant"/>
+      <target>
+        <code value="StructureDefinition.contextInvariant"/>
+        <display value="StructureDefinition.contextInvariant"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.contextInvariant` is mapped to FHIR R4 element `StructureDefinition.contextInvariant` as `Equivalent`.&#xA;The rules are only evaluated when the extension is present. When evaluating the invariant, the FHIRPath focus is the element that holds the extension, and %extension refers to the extension itself."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.type"/>
+      <display value="type"/>
+      <target>
+        <code value="StructureDefinition.type"/>
+        <display value="StructureDefinition.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.type` is mapped to FHIR R4 element `StructureDefinition.type` as `Equivalent`.&#xA;Note that in the case of constraints, the type could be determined by chasing through the baseDefinition references until a type defining structure (derivation = specialization) is reached, or by looking at the path of the first element in the snapshot - if present - but providing the type directly makes for simpler tooling and indexing. &#xA;&#xA;The type must match the elements defined in the differential and the snapshot. For all FHIR defined types, the path name of the element will start with the type name. For logical models, where the type SHALL be a fully specified URL, the type name SHOULD start with the final path segment of the type URL where required. E.g. If the type was &quot;http://example.org/fhir/MyLogicalModelType&quot;, the type name should start with 'MyLogicalModelType'."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.baseDefinition"/>
+      <display value="baseDefinition"/>
+      <target>
+        <code value="StructureDefinition.baseDefinition"/>
+        <display value="StructureDefinition.baseDefinition"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.baseDefinition` is mapped to FHIR R4 element `StructureDefinition.baseDefinition` as `Equivalent`.&#xA;If differential constraints are specified in this structure, they are applied to the base in a &quot;differential&quot; fashion. If there is no base, then the differential constraints cannot be provided (snapshot only). Differential structures are useful for the editing perspective, and snapshot structures are suitable for operational use. The FHIR Project provides a number of tools/services to populate snapshots from differential constraints. Logical Models have a base of &quot;Base&quot;, &quot;Element&quot; or another logical model."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.derivation"/>
+      <display value="derivation"/>
+      <target>
+        <code value="StructureDefinition.derivation"/>
+        <display value="StructureDefinition.derivation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.derivation` is mapped to FHIR R4 element `StructureDefinition.derivation` as `Equivalent`.&#xA;If the definition is a specialization, then it adds to the differential new elements and optionally additional rules to an existing concrete type, and the snapshot includes the inherited elements and rules.  If the definition is a constraint, then it cannot define new elements, it can only make new rules about existing content (see [Profiling Resources](https://hl7.org/fhir/profiling..html#resources))."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.snapshot"/>
+      <display value="snapshot"/>
+      <target>
+        <code value="StructureDefinition.snapshot"/>
+        <display value="StructureDefinition.snapshot"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.snapshot` is mapped to FHIR R4 element `StructureDefinition.snapshot` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.snapshot.element"/>
+      <display value="element"/>
+      <target>
+        <code value="StructureDefinition.snapshot.element"/>
+        <display value="StructureDefinition.snapshot.element"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.snapshot.element` is mapped to FHIR R4 element `StructureDefinition.snapshot.element` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.differential"/>
+      <display value="differential"/>
+      <target>
+        <code value="StructureDefinition.differential"/>
+        <display value="StructureDefinition.differential"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.differential` is mapped to FHIR R4 element `StructureDefinition.differential` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.differential.element"/>
+      <display value="element"/>
+      <target>
+        <code value="StructureDefinition.differential.element"/>
+        <display value="StructureDefinition.differential.element"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.differential.element` is mapped to FHIR R4 element `StructureDefinition.differential.element` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/StructureDefinition"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="StructureDefinition.versionAlgorithm[x]"/>
+      <display value="versionAlgorithm[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.versionAlgorithm"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.versionAlgorithm[x]` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.&#xA;Element `StructureDefinition.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;If set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.copyrightLabel"/>
+      <display value="copyrightLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.copyrightLabel"/>
+        <equivalence value="wider"/>
+        <comment value="Element `StructureDefinition.copyrightLabel` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.&#xA;Element `StructureDefinition.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."/>
+      </target>
+    </element>
+    <element>
+      <code value="StructureDefinition.fhirVersion"/>
+      <display value="fhirVersion"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.fhirVersion"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `StructureDefinition.fhirVersion` is mapped to FHIR R4 element `StructureDefinition.fhirVersion` as `SourceIsBroaderThanTarget`.&#xA;A StructureDefinition does not need to specify the target it applies to as StructureDefinitions will often be valid across multiple versions of FHIR. FHIR tooling can determine whether a StructureDefinition is consistent with a particular StructureDefinition if desired."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

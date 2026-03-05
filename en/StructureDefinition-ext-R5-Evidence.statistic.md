@@ -1,0 +1,1618 @@
+# ExtensionEvidence_Statistic - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## Extension: R5: Values and parameters for a single statistic (new) 
+
+R5: `Evidence.statistic` (new:BackboneElement)
+
+**Context of Use**
+
+**Usage info**
+
+**Usages:**
+
+* Use this Extension: [Cross-version Profile for R5.Evidence for use in FHIR R4](StructureDefinition-profile-Evidence.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Evidence.statistic)
+
+### Formal Views of Extension Content
+
+ [Description Differentials, Snapshots, and other representations](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+ 
+
+Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.statistic.csv), [Excel](../StructureDefinition-ext-R5-Evidence.statistic.xlsx), [Schematron](../StructureDefinition-ext-R5-Evidence.statistic.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "ext-R5-Evidence.statistic",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "extension" : [{
+      "url" : "packageId",
+      "valueId" : "hl7.fhir.uv.xver-r5.r4"
+    },
+    {
+      "url" : "version",
+      "valueString" : "0.1.0"
+    },
+    {
+      "url" : "uri",
+      "valueUri" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/package-source"
+  },
+  {
+    "extension" : [{
+      "url" : "startFhirVersion",
+      "valueCode" : "4.0"
+    },
+    {
+      "url" : "endFhirVersion",
+      "valueCode" : "4.0"
+    }],
+    "url" : "http://hl7.org/fhir/StructureDefinition/version-specific-use"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic",
+  "version" : "0.1.0",
+  "name" : "ExtensionEvidence_Statistic",
+  "title" : "R5: Values and parameters for a single statistic (new)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T23:04:15.8659919+00:00",
+  "publisher" : "FHIR Infrastructure",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "R5: `Evidence.statistic` (new:BackboneElement)",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.statistic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.statistic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.statistic` 0..* `BackboneElement`\n*  R4B: `Evidence.statistic` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.statistic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "Evidence"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension",
+      "short" : "R5: Values and parameters for a single statistic (new)",
+      "definition" : "R5: `Evidence.statistic` (new:BackboneElement)",
+      "comment" : "Element `Evidence.statistic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "Extension.extension",
+      "path" : "Extension.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:description",
+      "path" : "Extension.extension",
+      "sliceName" : "description",
+      "short" : "R5: Description of content (new)",
+      "definition" : "R5: `Evidence.statistic.description` (new:markdown)",
+      "comment" : "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:description.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "description"
+    },
+    {
+      "id" : "Extension.extension:description.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Description of content",
+      "definition" : "A description of the content value of the statistic.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "markdown"
+      }]
+    },
+    {
+      "id" : "Extension.extension:note",
+      "path" : "Extension.extension",
+      "sliceName" : "note",
+      "short" : "R5: Footnotes and/or explanatory notes (new)",
+      "definition" : "R5: `Evidence.statistic.note` (new:Annotation)",
+      "comment" : "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:note.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "note"
+    },
+    {
+      "id" : "Extension.extension:note.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Footnotes and/or explanatory notes",
+      "definition" : "Footnotes and/or explanatory notes.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    },
+    {
+      "id" : "Extension.extension:statisticType",
+      "path" : "Extension.extension",
+      "sliceName" : "statisticType",
+      "short" : "R5: Type of statistic, e.g., relative risk (new)",
+      "definition" : "R5: `Evidence.statistic.statisticType` (new:CodeableConcept)",
+      "comment" : "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.statisticType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.statisticType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:statisticType.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "statisticType"
+    },
+    {
+      "id" : "Extension.extension:statisticType.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Type of statistic, e.g., relative risk",
+      "definition" : "Type of statistic, e.g., relative risk.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-statistic-type-for-R4|0.1.0"
+      }
+    },
+    {
+      "id" : "Extension.extension:category",
+      "path" : "Extension.extension",
+      "sliceName" : "category",
+      "short" : "R5: Associated category for categorical variable (new)",
+      "definition" : "R5: `Evidence.statistic.category` (new:CodeableConcept)",
+      "comment" : "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSimple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets.",
+      "requirements" : "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:category.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "category"
+    },
+    {
+      "id" : "Extension.extension:category.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Associated category for categorical variable",
+      "definition" : "When the measured variable is handled categorically, the category element is used to define which category the statistic is reporting.",
+      "comment" : "Simple strings can be used for descriptive purposes. Exact matching to EvidenceVariable.category.name for the Evidence.variableDefinition[variableRole=measuredVariable].observed=Reference(EvidenceVariable) could facilitate validation within datasets.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "Extension.extension:quantity",
+      "path" : "Extension.extension",
+      "sliceName" : "quantity",
+      "short" : "R5: Statistic value (new)",
+      "definition" : "R5: `Evidence.statistic.quantity` (new:Quantity)",
+      "comment" : "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:quantity.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "quantity"
+    },
+    {
+      "id" : "Extension.extension:quantity.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "Statistic value",
+      "definition" : "Statistic value.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "Extension.extension:numberOfEvents",
+      "path" : "Extension.extension",
+      "sliceName" : "numberOfEvents",
+      "short" : "R5: The number of events associated with the statistic (new)",
+      "definition" : "R5: `Evidence.statistic.numberOfEvents` (new:unsignedInt)",
+      "comment" : "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.numberOfEvents` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events.",
+      "requirements" : "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.numberOfEvents` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:numberOfEvents.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "numberOfEvents"
+    },
+    {
+      "id" : "Extension.extension:numberOfEvents.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "The number of events associated with the statistic",
+      "definition" : "The number of events associated with the statistic, where the unit of analysis is different from numberAffected, sampleSize.knownDataCount and sampleSize.numberOfParticipants.",
+      "comment" : "When the number of events is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberOfEvents to record the total number of events rather than the number of participants with events.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "Extension.extension:numberAffected",
+      "path" : "Extension.extension",
+      "sliceName" : "numberAffected",
+      "short" : "R5: The number of participants affected (new)",
+      "definition" : "R5: `Evidence.statistic.numberAffected` (new:unsignedInt)",
+      "comment" : "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.numberAffected` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events.",
+      "requirements" : "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.numberAffected` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:numberAffected.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "numberAffected"
+    },
+    {
+      "id" : "Extension.extension:numberAffected.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "short" : "The number of participants affected",
+      "definition" : "The number of participants affected where the unit of analysis is the same as sampleSize.knownDataCount and sampleSize.numberOfParticipants.",
+      "comment" : "When the number affected is the statistic, use Evidence.statistic.quantity and set Evidence.statistic.type.coding.code=C25463 and Evidence.statistic.type.coding.display=Count. When the statistic is a Proportion, use Evidence.statistic.numberAffected and enter an integer as the value. When the statistic is an Event Rate (where individual participants may have 2 or more events), use Evidence.statistic.numberAffected to record the number of participants with events rather than the total number of events.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "Extension.extension:sampleSize",
+      "path" : "Extension.extension",
+      "sliceName" : "sampleSize",
+      "short" : "R5: Number of samples in the statistic (new)",
+      "definition" : "R5: `Evidence.statistic.sampleSize` (new:BackboneElement)",
+      "comment" : "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension",
+      "path" : "Extension.extension.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:description",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "description",
+      "short" : "R5: Textual description of sample size for statistic (new)",
+      "definition" : "R5: `Evidence.statistic.sampleSize.description` (new:markdown)",
+      "comment" : "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:description.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "description"
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:description.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Textual description of sample size for statistic",
+      "definition" : "Human-readable summary of population sample size.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "markdown"
+      }]
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:note",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "note",
+      "short" : "R5: Footnote or explanatory note about the sample size (new)",
+      "definition" : "R5: `Evidence.statistic.sampleSize.note` (new:Annotation)",
+      "comment" : "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:note.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "note"
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:note.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Footnote or explanatory note about the sample size",
+      "definition" : "Footnote or explanatory note about the sample size.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:numberOfStudies",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "numberOfStudies",
+      "short" : "R5: Number of contributing studies (new)",
+      "definition" : "R5: `Evidence.statistic.sampleSize.numberOfStudies` (new:unsignedInt)",
+      "comment" : "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.numberOfStudies` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.numberOfStudies` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:numberOfStudies.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "numberOfStudies"
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:numberOfStudies.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Number of contributing studies",
+      "definition" : "Number of participants in the population.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:numberOfParticipants",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "numberOfParticipants",
+      "short" : "R5: Cumulative number of participants (new)",
+      "definition" : "R5: `Evidence.statistic.sampleSize.numberOfParticipants` (new:unsignedInt)",
+      "comment" : "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:numberOfParticipants.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "numberOfParticipants"
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:numberOfParticipants.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Cumulative number of participants",
+      "definition" : "A human-readable string to clarify or explain concepts about the sample size.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:knownDataCount",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "knownDataCount",
+      "short" : "R5: Number of participants with known results for measured variables (new)",
+      "definition" : "R5: `Evidence.statistic.sampleSize.knownDataCount` (new:unsignedInt)",
+      "comment" : "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.knownDataCount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.sampleSize.knownDataCount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:knownDataCount.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "knownDataCount"
+    },
+    {
+      "id" : "Extension.extension:sampleSize.extension:knownDataCount.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Number of participants with known results for measured variables",
+      "definition" : "Number of participants with known results for measured variables.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "unsignedInt"
+      }]
+    },
+    {
+      "id" : "Extension.extension:sampleSize.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "sampleSize"
+    },
+    {
+      "id" : "Extension.extension:sampleSize.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate",
+      "path" : "Extension.extension",
+      "sliceName" : "attributeEstimate",
+      "short" : "R5: An attribute of the Statistic (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate` (new:BackboneElement)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nCreating extension because element `Evidence.statistic.attributeEstimate` is a content reference and requires an extesion definition.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension",
+      "path" : "Extension.extension.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:description",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "description",
+      "short" : "R5: Textual description of the attribute estimate (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.description` (new:markdown)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.description` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.description` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:description.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "description"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:description.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Textual description of the attribute estimate",
+      "definition" : "Human-readable summary of the estimate.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "markdown"
+      }]
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:note",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "note",
+      "short" : "R5: Footnote or explanatory note about the estimate (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.note` (new:Annotation)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.note` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.note` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:note.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "note"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:note.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Footnote or explanatory note about the estimate",
+      "definition" : "Footnote or explanatory note about the estimate.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Annotation"
+      }]
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:type",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "type",
+      "short" : "R5: The type of attribute estimate, e.g., confidence interval or p value (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.type` (new:CodeableConcept)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.type` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.type` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:type.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "type"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:type.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "The type of attribute estimate, e.g., confidence interval or p value",
+      "definition" : "The type of attribute estimate, e.g., confidence interval or p value.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-attribute-estimate-type-for-R4|0.1.0"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:quantity",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "quantity",
+      "short" : "R5: The singular quantity of the attribute estimate, for attribute estimates represented as single values; also used to report unit of measure (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.quantity` (new:Quantity)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.quantity` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nOften the p value",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.quantity` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.quantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:quantity.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "quantity"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:quantity.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "The singular quantity of the attribute estimate, for attribute estimates represented as single values; also used to report unit of measure",
+      "definition" : "The singular quantity of the attribute estimate, for attribute estimates represented as single values; also used to report unit of measure.",
+      "comment" : "Often the p value",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:level",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "level",
+      "short" : "R5: Level of confidence interval, e.g., 0.95 for 95% confidence interval (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.level` (new:decimal)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.level` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.level` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.level` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.level` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.level` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.level` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:level.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "level"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:level.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Level of confidence interval, e.g., 0.95 for 95% confidence interval",
+      "definition" : "Use 95 for a 95% confidence interval.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:range",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "range",
+      "short" : "R5: Lower and upper bound values of the attribute estimate (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.range` (new:Range)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.range` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.range` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.range` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.range` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.range` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.range` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:range.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "range"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:range.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Lower and upper bound values of the attribute estimate",
+      "definition" : "Lower bound of confidence interval.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Range"
+      }]
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:attributeEstimate",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "attributeEstimate",
+      "short" : "R5: A nested attribute estimate; which is the attribute estimate of an attribute estimate (new)",
+      "definition" : "R5: `Evidence.statistic.attributeEstimate.attributeEstimate` (new:Evidence.statistic.attributeEstimate)",
+      "comment" : "Element `Evidence.statistic.attributeEstimate.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.attributeEstimate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA nested attribute estimate; which is the attribute estimate of an attribute estimate",
+      "requirements" : "Element `Evidence.statistic.attributeEstimate.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.attributeEstimate.attributeEstimate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:attributeEstimate.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.extension:attributeEstimate.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "attributeEstimate"
+    },
+    {
+      "id" : "Extension.extension:attributeEstimate.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic",
+      "path" : "Extension.extension",
+      "sliceName" : "modelCharacteristic",
+      "short" : "R5: An aspect of the statistical model (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic` (new:BackboneElement)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension",
+      "path" : "Extension.extension.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:code",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "code",
+      "short" : "R5: Model specification (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.code` (new:CodeableConcept)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:code.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "code"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:code.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Model specification",
+      "definition" : "Description of a component of the method to generate the statistic.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }],
+      "binding" : {
+        "strength" : "extensible",
+        "valueSet" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-statistic-model-code-for-R4|0.1.0"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:value",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "value",
+      "short" : "R5: Numerical value to complete model specification (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.value` (new:Quantity[SimpleQuantity])",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.value` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:value.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "value"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:value.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "short" : "Numerical value to complete model specification",
+      "definition" : "Further specification of the quantified value of the component of the method to generate the statistic.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity",
+        "profile" : ["http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1"]
+      }]
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "variable",
+      "short" : "R5: A variable adjusted for in the adjusted analysis (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.variable` (new:BackboneElement)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension",
+      "path" : "Extension.extension.extension.extension",
+      "slicing" : {
+        "discriminator" : [{
+          "type" : "value",
+          "path" : "url"
+        }],
+        "ordered" : false,
+        "rules" : "open"
+      },
+      "min" : 1,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:variableDefinition",
+      "path" : "Extension.extension.extension.extension",
+      "sliceName" : "variableDefinition",
+      "short" : "R5: Description of the variable (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.variable.variableDefinition` (new:Reference(Group,EvidenceVariable))",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:variableDefinition.url",
+      "path" : "Extension.extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "variableDefinition"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:variableDefinition.value[x]",
+      "path" : "Extension.extension.extension.extension.value[x]",
+      "short" : "Description of the variable",
+      "definition" : "Description of the variable.",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/5.0/StructureDefinition/profile-Group|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/Group|4.0.1",
+        "http://hl7.org/fhir/5.0/StructureDefinition/profile-EvidenceVariable|0.1.0",
+        "http://hl7.org/fhir/StructureDefinition/EvidenceVariable|4.0.1"]
+      }]
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:handling",
+      "path" : "Extension.extension.extension.extension",
+      "sliceName" : "handling",
+      "short" : "R5: continuous | dichotomous | ordinal | polychotomous (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.variable.handling` (new:code)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:handling.url",
+      "path" : "Extension.extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "handling"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:handling.value[x]",
+      "path" : "Extension.extension.extension.extension.value[x]",
+      "short" : "continuous | dichotomous | ordinal | polychotomous",
+      "definition" : "How the variable is classified for use in adjusted analysis.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }],
+      "binding" : {
+        "strength" : "required",
+        "valueSet" : "http://hl7.org/fhir/uv/xver/ValueSet/R5-variable-handling-for-R4|0.1.0"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueCategory",
+      "path" : "Extension.extension.extension.extension",
+      "sliceName" : "valueCategory",
+      "short" : "R5: Description for grouping of ordinal or polychotomous variables (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.variable.valueCategory` (new:CodeableConcept)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueCategory.url",
+      "path" : "Extension.extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "valueCategory"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueCategory.value[x]",
+      "path" : "Extension.extension.extension.extension.value[x]",
+      "short" : "Description for grouping of ordinal or polychotomous variables",
+      "definition" : "Description for grouping of ordinal or polychotomous variables.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "CodeableConcept"
+      }]
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueQuantity",
+      "path" : "Extension.extension.extension.extension",
+      "sliceName" : "valueQuantity",
+      "short" : "R5: Discrete value for grouping of ordinal or polychotomous variables (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.variable.valueQuantity` (new:Quantity)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueQuantity.url",
+      "path" : "Extension.extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "valueQuantity"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueQuantity.value[x]",
+      "path" : "Extension.extension.extension.extension.value[x]",
+      "short" : "Discrete value for grouping of ordinal or polychotomous variables",
+      "definition" : "Discrete value for grouping of ordinal or polychotomous variables.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Quantity"
+      }]
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueRange",
+      "path" : "Extension.extension.extension.extension",
+      "sliceName" : "valueRange",
+      "short" : "R5: Range of values for grouping of ordinal or polychotomous variables (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.variable.valueRange` (new:Range)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueRange.url",
+      "path" : "Extension.extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "valueRange"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.extension:valueRange.value[x]",
+      "path" : "Extension.extension.extension.extension.value[x]",
+      "short" : "Range of values for grouping of ordinal or polychotomous variables",
+      "definition" : "Range of values for grouping of ordinal or polychotomous variables.",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Range"
+      }]
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "variable"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:variable.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:attributeEstimate",
+      "path" : "Extension.extension.extension",
+      "sliceName" : "attributeEstimate",
+      "short" : "R5: An attribute of the statistic used as a model characteristic (new)",
+      "definition" : "R5: `Evidence.statistic.modelCharacteristic.attributeEstimate` (new:Evidence.statistic.attributeEstimate)",
+      "comment" : "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "requirements" : "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Extension.extension",
+        "min" : 0,
+        "max" : "*"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:attributeEstimate.url",
+      "path" : "Extension.extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.extension:attributeEstimate.value[x]",
+      "path" : "Extension.extension.extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.url",
+      "path" : "Extension.extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "modelCharacteristic"
+    },
+    {
+      "id" : "Extension.extension:modelCharacteristic.value[x]",
+      "path" : "Extension.extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Extension.url",
+        "min" : 1,
+        "max" : "1"
+      },
+      "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "min" : 0,
+      "max" : "0",
+      "base" : {
+        "path" : "Extension.value[x]",
+        "min" : 0,
+        "max" : "1"
+      }
+    }]
+  }
+}
+
+```

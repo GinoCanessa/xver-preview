@@ -1,0 +1,469 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-ChargeItem-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-ChargeItem-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-ChargeItem-element-map-to-R4</b></p><a name=\"R5-ChargeItem-element-map-to-R4\"> </a><a name=\"hcR5-ChargeItem-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItem|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/chargeitem.html\">ChargeItemversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ChargeItem.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.meta</td><td>Element `ChargeItem.meta` is mapped to FHIR R4 element `ChargeItem.meta` as `Equivalent`.</td></tr><tr><td>ChargeItem.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.implicitRules</td><td>Element `ChargeItem.implicitRules` is mapped to FHIR R4 element `ChargeItem.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>ChargeItem.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.language</td><td>Element `ChargeItem.language` is mapped to FHIR R4 element `ChargeItem.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>ChargeItem.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.text</td><td>Element `ChargeItem.text` is mapped to FHIR R4 element `ChargeItem.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>ChargeItem.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.contained</td><td>Element `ChargeItem.contained` is mapped to FHIR R4 element `ChargeItem.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>ChargeItem.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.identifier</td><td>Element `ChargeItem.identifier` is mapped to FHIR R4 element `ChargeItem.identifier` as `Equivalent`.</td></tr><tr><td>ChargeItem.definitionUri (definitionUri)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.definitionUri</td><td>Element `ChargeItem.definitionUri` is mapped to FHIR R4 element `ChargeItem.definitionUri` as `Equivalent`.</td></tr><tr><td>ChargeItem.definitionCanonical (definitionCanonical)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.definitionCanonical</td><td>Element `ChargeItem.definitionCanonical` is mapped to FHIR R4 element `ChargeItem.definitionCanonical` as `Equivalent`.</td></tr><tr><td>ChargeItem.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.status</td><td>Element `ChargeItem.status` is mapped to FHIR R4 element `ChargeItem.status` as `Equivalent`.\nUnknown does not represent \"other\" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.\n\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the charge item as not currently valid.</td></tr><tr><td>ChargeItem.partOf (partOf)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.partOf</td><td>Element `ChargeItem.partOf` is mapped to FHIR R4 element `ChargeItem.partOf` as `Equivalent`.</td></tr><tr><td>ChargeItem.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.code</td><td>Element `ChargeItem.code` is mapped to FHIR R4 element `ChargeItem.code` as `Equivalent`.</td></tr><tr><td>ChargeItem.subject (subject)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.subject</td><td>Element `ChargeItem.subject` is mapped to FHIR R4 element `ChargeItem.subject` as `Equivalent`.</td></tr><tr><td>ChargeItem.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.context</td><td>Element `ChargeItem.encounter` is mapped to FHIR R4 element `ChargeItem.context` as `Equivalent`.\nThis ChargeItem may be recorded during planning, execution or after the actual encounter takes place.</td></tr><tr><td>ChargeItem.occurrence[x] (occurrence[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.occurrence[x]</td><td>Element `ChargeItem.occurrence[x]` is mapped to FHIR R4 element `ChargeItem.occurrence[x]` as `Equivalent`.\nThe target context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nThe list of types may be constrained as appropriate for the type of charge item.</td></tr><tr><td>ChargeItem.performer (performer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ChargeItem.performer</td><td>Element `ChargeItem.performer` is mapped to FHIR R4 element `ChargeItem.performer` as `Equivalent`.</td></tr><tr><td>ChargeItem.performer.function (function)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.performer.function</td><td>Element `ChargeItem.performer.function` is mapped to FHIR R4 element `ChargeItem.performer.function` as `Equivalent`.</td></tr><tr><td>ChargeItem.performer.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ChargeItem.performer.actor</td><td>Element `ChargeItem.performer.actor` is mapped to FHIR R4 element `ChargeItem.performer.actor` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `ChargeItem.performer.actor` with unmapped reference targets: HealthcareService.</td></tr><tr><td>ChargeItem.performingOrganization (performingOrganization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.performingOrganization</td><td>Element `ChargeItem.performingOrganization` is mapped to FHIR R4 element `ChargeItem.performingOrganization` as `Equivalent`.\nPractitioners and Devices can be associated with multiple organizations. It has to be made clear, on behalf of which Organization the services have been rendered.</td></tr><tr><td>ChargeItem.requestingOrganization (requestingOrganization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.requestingOrganization</td><td>Element `ChargeItem.requestingOrganization` is mapped to FHIR R4 element `ChargeItem.requestingOrganization` as `Equivalent`.\nThe rendered Service might not be associated with a Request. This property indicates which Organization requested the services to be rendered. (In many cases, this may just be the Department associated with the Encounter.location).</td></tr><tr><td>ChargeItem.costCenter (costCenter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.costCenter</td><td>Element `ChargeItem.costCenter` is mapped to FHIR R4 element `ChargeItem.costCenter` as `Equivalent`.\nThe costCenter could either be given as a reference to an Organization(Role) resource or as the identifier of the cost center determined by Reference.identifier.value and Reference.identifier.system, depending on use case requirements.</td></tr><tr><td>ChargeItem.quantity (quantity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.quantity</td><td>Element `ChargeItem.quantity` is mapped to FHIR R4 element `ChargeItem.quantity` as `Equivalent`.\nIn many cases this may just be a value, if the underlying units are implicit in the definition of the charge item code.</td></tr><tr><td>ChargeItem.bodysite (bodysite)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.bodysite</td><td>Element `ChargeItem.bodysite` is mapped to FHIR R4 element `ChargeItem.bodysite` as `Equivalent`.\nOnly used if not implicit in code found in Condition.code. If the use case requires attributes from the BodySite resource (e.g. to identify and track separately) then use the standard extension [http://hl7.org/fhir/StructureDefinition/bodySite](http://hl7.org/fhir/extensions/StructureDefinition-bodySite.html).  May be a summary code, or a reference to a very precise definition of the location, or both.</td></tr><tr><td>ChargeItem.overrideReason (overrideReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ChargeItem.overrideReason</td><td>Element `ChargeItem.overrideReason` is mapped to FHIR R4 element `ChargeItem.overrideReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types: CodeableConcept.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types based on type expansion: coding.</td></tr><tr><td>ChargeItem.enterer (enterer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.enterer</td><td>Element `ChargeItem.enterer` is mapped to FHIR R4 element `ChargeItem.enterer` as `Equivalent`.\nThe enterer is also the person considered responsible for factor/price overrides if applicable.</td></tr><tr><td>ChargeItem.enteredDate (enteredDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.enteredDate</td><td>Element `ChargeItem.enteredDate` is mapped to FHIR R4 element `ChargeItem.enteredDate` as `Equivalent`.\nThe actual date when the service associated with the charge has been rendered is captured in occurrence[x].</td></tr><tr><td>ChargeItem.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.reason</td><td>Element `ChargeItem.reason` is mapped to FHIR R4 element `ChargeItem.reason` as `Equivalent`.\nIf the application of the charge item requires a reason to be given, it can be captured here. Textual reasons can be captured using reasonCode.text.</td></tr><tr><td>ChargeItem.service (service)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ChargeItem.service</td><td>Element `ChargeItem.service` is mapped to FHIR R4 element `ChargeItem.service` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.service` do not cover the following types: CodeableReference.</td></tr><tr><td>ChargeItem.product (product)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>ChargeItem.product[x]</td><td>Element `ChargeItem.product` is mapped to FHIR R4 element `ChargeItem.product[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.product` do not cover the following types: CodeableReference.\nThe target context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.</td></tr><tr><td>ChargeItem.account (account)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.account</td><td>Element `ChargeItem.account` is mapped to FHIR R4 element `ChargeItem.account` as `Equivalent`.\nSystems posting the ChargeItems might not always be able to determine, which accounts the Items need to be places into. It is up to the postprocessing Financial System to apply internal rules to decide based on the Encounter/EpisodeOfCare/Patient/Coverage context and the type of ChargeItem, which Account is appropriate.</td></tr><tr><td>ChargeItem.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.note</td><td>Element `ChargeItem.note` is mapped to FHIR R4 element `ChargeItem.note` as `Equivalent`.</td></tr><tr><td>ChargeItem.supportingInformation (supportingInformation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>ChargeItem.supportingInformation</td><td>Element `ChargeItem.supportingInformation` is mapped to FHIR R4 element `ChargeItem.supportingInformation` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItem|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ChargeItem.performer.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/ChargeItem|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>ChargeItem.unitPriceComponent (unitPriceComponent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.unitPriceComponent</td><td>Element `ChargeItem.unitPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.\nElement `ChargeItem.unitPriceComponent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis could be communicated in ChargeItemDefinition. But if ChargeItemDefinition is not supported or not available, the unit price can be communicated in this property.</td></tr><tr><td>ChargeItem.totalPriceComponent (totalPriceComponent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.totalPriceComponent</td><td>Element `ChargeItem.totalPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.\nElement `ChargeItem.totalPriceComponent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\n Often, the total price may be be calculated and recorded on the Invoice, but if a calculated total price must be exchanged prior to Invoice creation, it can be communicated in this property.</td></tr><tr><td>ChargeItem.overrideReason (overrideReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.overrideReason</td><td>Element `ChargeItem.overrideReason` is mapped to FHIR R4 element `ChargeItem.overrideReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types: CodeableConcept.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types based on type expansion: coding.</td></tr><tr><td>ChargeItem.service (service)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.service</td><td>Element `ChargeItem.service` is mapped to FHIR R4 element `ChargeItem.service` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.service` do not cover the following types: CodeableReference.</td></tr><tr><td>ChargeItem.product (product)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.product</td><td>Element `ChargeItem.product` is mapped to FHIR R4 element `ChargeItem.product[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.product` do not cover the following types: CodeableReference.\nThe target context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-ChargeItem-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-ChargeItem-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ChargeItemElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 ChargeItem to FHIR R4 ChargeItem"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:46.7629414-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 ChargeItem to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ChargeItem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ChargeItem>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ChargeItem.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.meta" ] ;
+         fhir:display [ fhir:v "ChargeItem.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.meta` is mapped to FHIR R4 element `ChargeItem.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.implicitRules" ] ;
+         fhir:display [ fhir:v "ChargeItem.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.implicitRules` is mapped to FHIR R4 element `ChargeItem.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.language" ] ;
+         fhir:display [ fhir:v "ChargeItem.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.language` is mapped to FHIR R4 element `ChargeItem.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.text" ] ;
+         fhir:display [ fhir:v "ChargeItem.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.text` is mapped to FHIR R4 element `ChargeItem.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.contained" ] ;
+         fhir:display [ fhir:v "ChargeItem.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.contained` is mapped to FHIR R4 element `ChargeItem.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.identifier" ] ;
+         fhir:display [ fhir:v "ChargeItem.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.identifier` is mapped to FHIR R4 element `ChargeItem.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.definitionUri" ] ;
+       fhir:display [ fhir:v "definitionUri" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.definitionUri" ] ;
+         fhir:display [ fhir:v "ChargeItem.definitionUri" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionUri` is mapped to FHIR R4 element `ChargeItem.definitionUri` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.definitionCanonical" ] ;
+       fhir:display [ fhir:v "definitionCanonical" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.definitionCanonical" ] ;
+         fhir:display [ fhir:v "ChargeItem.definitionCanonical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.definitionCanonical` is mapped to FHIR R4 element `ChargeItem.definitionCanonical` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.status" ] ;
+         fhir:display [ fhir:v "ChargeItem.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.status` is mapped to FHIR R4 element `ChargeItem.status` as `Equivalent`.\nUnknown does not represent \"other\" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.\n\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the charge item as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.partOf" ] ;
+         fhir:display [ fhir:v "ChargeItem.partOf" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.partOf` is mapped to FHIR R4 element `ChargeItem.partOf` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.code" ] ;
+         fhir:display [ fhir:v "ChargeItem.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.code` is mapped to FHIR R4 element `ChargeItem.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.subject" ] ;
+         fhir:display [ fhir:v "ChargeItem.subject" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.subject` is mapped to FHIR R4 element `ChargeItem.subject` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.context" ] ;
+         fhir:display [ fhir:v "ChargeItem.context" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.encounter` is mapped to FHIR R4 element `ChargeItem.context` as `Equivalent`.\nThis ChargeItem may be recorded during planning, execution or after the actual encounter takes place." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.occurrence[x]" ] ;
+         fhir:display [ fhir:v "ChargeItem.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.occurrence[x]` is mapped to FHIR R4 element `ChargeItem.occurrence[x]` as `Equivalent`.\nThe target context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nThe list of types may be constrained as appropriate for the type of charge item." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.performer" ] ;
+         fhir:display [ fhir:v "ChargeItem.performer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer` is mapped to FHIR R4 element `ChargeItem.performer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.performer.function" ] ;
+         fhir:display [ fhir:v "ChargeItem.performer.function" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.function` is mapped to FHIR R4 element `ChargeItem.performer.function` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.performer.actor" ] ;
+         fhir:display [ fhir:v "ChargeItem.performer.actor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performer.actor` is mapped to FHIR R4 element `ChargeItem.performer.actor` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `ChargeItem.performer.actor` with unmapped reference targets: HealthcareService." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.performingOrganization" ] ;
+       fhir:display [ fhir:v "performingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.performingOrganization" ] ;
+         fhir:display [ fhir:v "ChargeItem.performingOrganization" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.performingOrganization` is mapped to FHIR R4 element `ChargeItem.performingOrganization` as `Equivalent`.\nPractitioners and Devices can be associated with multiple organizations. It has to be made clear, on behalf of which Organization the services have been rendered." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.requestingOrganization" ] ;
+       fhir:display [ fhir:v "requestingOrganization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.requestingOrganization" ] ;
+         fhir:display [ fhir:v "ChargeItem.requestingOrganization" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.requestingOrganization` is mapped to FHIR R4 element `ChargeItem.requestingOrganization` as `Equivalent`.\nThe rendered Service might not be associated with a Request. This property indicates which Organization requested the services to be rendered. (In many cases, this may just be the Department associated with the Encounter.location)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.costCenter" ] ;
+       fhir:display [ fhir:v "costCenter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.costCenter" ] ;
+         fhir:display [ fhir:v "ChargeItem.costCenter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.costCenter` is mapped to FHIR R4 element `ChargeItem.costCenter` as `Equivalent`.\nThe costCenter could either be given as a reference to an Organization(Role) resource or as the identifier of the cost center determined by Reference.identifier.value and Reference.identifier.system, depending on use case requirements." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.quantity" ] ;
+         fhir:display [ fhir:v "ChargeItem.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.quantity` is mapped to FHIR R4 element `ChargeItem.quantity` as `Equivalent`.\nIn many cases this may just be a value, if the underlying units are implicit in the definition of the charge item code." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.bodysite" ] ;
+       fhir:display [ fhir:v "bodysite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.bodysite" ] ;
+         fhir:display [ fhir:v "ChargeItem.bodysite" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.bodysite` is mapped to FHIR R4 element `ChargeItem.bodysite` as `Equivalent`.\nOnly used if not implicit in code found in Condition.code. If the use case requires attributes from the BodySite resource (e.g. to identify and track separately) then use the standard extension [http://hl7.org/fhir/StructureDefinition/bodySite](http://hl7.org/fhir/extensions/StructureDefinition-bodySite.html).  May be a summary code, or a reference to a very precise definition of the location, or both." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.overrideReason" ] ;
+       fhir:display [ fhir:v "overrideReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.overrideReason" ] ;
+         fhir:display [ fhir:v "ChargeItem.overrideReason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.overrideReason` is mapped to FHIR R4 element `ChargeItem.overrideReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types: CodeableConcept.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types based on type expansion: coding." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.enterer" ] ;
+         fhir:display [ fhir:v "ChargeItem.enterer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.enterer` is mapped to FHIR R4 element `ChargeItem.enterer` as `Equivalent`.\nThe enterer is also the person considered responsible for factor/price overrides if applicable." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.enteredDate" ] ;
+       fhir:display [ fhir:v "enteredDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.enteredDate" ] ;
+         fhir:display [ fhir:v "ChargeItem.enteredDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.enteredDate` is mapped to FHIR R4 element `ChargeItem.enteredDate` as `Equivalent`.\nThe actual date when the service associated with the charge has been rendered is captured in occurrence[x]." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.reason" ] ;
+         fhir:display [ fhir:v "ChargeItem.reason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.reason` is mapped to FHIR R4 element `ChargeItem.reason` as `Equivalent`.\nIf the application of the charge item requires a reason to be given, it can be captured here. Textual reasons can be captured using reasonCode.text." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.service" ] ;
+       fhir:display [ fhir:v "service" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.service" ] ;
+         fhir:display [ fhir:v "ChargeItem.service" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.service` is mapped to FHIR R4 element `ChargeItem.service` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.service` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.product" ] ;
+       fhir:display [ fhir:v "product" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.product[x]" ] ;
+         fhir:display [ fhir:v "ChargeItem.product[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.product` is mapped to FHIR R4 element `ChargeItem.product[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.product` do not cover the following types: CodeableReference.\nThe target context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.account" ] ;
+         fhir:display [ fhir:v "ChargeItem.account" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.account` is mapped to FHIR R4 element `ChargeItem.account` as `Equivalent`.\nSystems posting the ChargeItems might not always be able to determine, which accounts the Items need to be places into. It is up to the postprocessing Financial System to apply internal rules to decide based on the Encounter/EpisodeOfCare/Patient/Coverage context and the type of ChargeItem, which Account is appropriate." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.note" ] ;
+         fhir:display [ fhir:v "ChargeItem.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.note` is mapped to FHIR R4 element `ChargeItem.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "ChargeItem.supportingInformation" ] ;
+         fhir:display [ fhir:v "ChargeItem.supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.supportingInformation` is mapped to FHIR R4 element `ChargeItem.supportingInformation` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ChargeItem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ChargeItem.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/ChargeItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/ChargeItem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "ChargeItem.unitPriceComponent" ] ;
+       fhir:display [ fhir:v "unitPriceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.unitPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.unitPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.\nElement `ChargeItem.unitPriceComponent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis could be communicated in ChargeItemDefinition. But if ChargeItemDefinition is not supported or not available, the unit price can be communicated in this property." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.totalPriceComponent" ] ;
+       fhir:display [ fhir:v "totalPriceComponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.totalPriceComponent" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.totalPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.\nElement `ChargeItem.totalPriceComponent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\n Often, the total price may be be calculated and recorded on the Invoice, but if a calculated total price must be exchanged prior to Invoice creation, it can be communicated in this property." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.overrideReason" ] ;
+       fhir:display [ fhir:v "overrideReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.overrideReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.overrideReason` is mapped to FHIR R4 element `ChargeItem.overrideReason` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types: CodeableConcept.\nThe mappings for `ChargeItem.overrideReason` do not cover the following types based on type expansion: coding." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.service" ] ;
+       fhir:display [ fhir:v "service" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.service" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.service` is mapped to FHIR R4 element `ChargeItem.service` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.service` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "ChargeItem.product" ] ;
+       fhir:display [ fhir:v "product" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.product" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `ChargeItem.product` is mapped to FHIR R4 element `ChargeItem.product[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `ChargeItem.product` do not cover the following types: CodeableReference.\nThe target context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

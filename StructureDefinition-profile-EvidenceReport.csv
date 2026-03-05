@@ -1,0 +1,163 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)","Mapping: RIM Mapping","Mapping: FiveWs Pattern Mapping"
+"Basic","Basic","","Z-resource
+Extension-resourceCustom-resource","",0,*,"","","","null {[]} {[]}
+","Resource for non-supported content","Basic is used for handling concepts not yet defined in FHIR, narrative-only resources that don't map to an existing resource, and custom resources not appropriate for inclusion in the FHIR specification.","","","","","","","","","",,,,,"",,,,"Basic",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
+dom-3:If the resource is contained in another resource, it SHALL be referred to from elsewhere in the resource or SHALL refer to the containing resource {contained.where((('#'+id in (%resource.descendants().reference | %resource.descendants().as(canonical) | %resource.descendants().as(uri) | %resource.descendants().as(url))) or descendants().where(reference = '#').exists() or descendants().where(as(canonical) = '#').exists() or descendants().where(as(canonical) = '#').exists()).not()).trace('unmatched', id).empty()}dom-4:If a resource is contained in another resource, it SHALL NOT have a meta.versionId or a meta.lastUpdated {contained.meta.versionId.empty() and contained.meta.lastUpdated.empty()}dom-5:If a resource is contained in another resource, it SHALL NOT have a security label {contained.meta.security.empty()}dom-6:A resource should have narrative for robust management {text.`div`.exists()}","Entity. Role, or Act","Act, Entity or Role"
+"Basic.id","Basic.id","","","",0,1,"","","Y","id {[]} {[]}
+","Logical id of this artifact","The logical id of the resource, as used in the URL for the resource. Once assigned, this value never changes.","The only time that a resource does not have an id is when it is being submitted to the server using a create operation.","","","","","","","","",,,,,"",,,,"Resource.id",0,1,"",""
+"Basic.meta","Basic.meta","","","",0,1,"","","Y","Meta {[]} {[]}
+","Metadata about the resource","The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.","","","","","","","","","",,,,,"",,,,"Resource.meta",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.implicitRules","Basic.implicitRules","","","",0,1,"","Y","Y","uri {[]} {[]}
+","A set of rules under which this content was created","A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.","Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of it's narrative along with other profiles, value sets, etc.","","","","","","","","",,,,,"",,,,"Resource.implicitRules",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.language","Basic.language","","","",0,1,"","","","code {[]} {[]}
+","Language of the resource content","The base language in which the resource is written.","Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).","","","","","","","","",,"preferred","A human language.","http://hl7.org/fhir/ValueSet/languages|4.0.1","",,,,"Resource.language",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
+"Basic.text","Basic.text","","narrative
+htmlxhtmldisplay","",0,1,"","","","Narrative {[]} {[]}
+","Text summary of the resource, for human interpretation","A human-readable narrative that contains a summary of the resource and can be used to represent the content of the resource to a human. The narrative need not encode all the structured data, but is required to contain sufficient detail to make it ""clinically safe"" for a human to just read the narrative. Resource definitions may define what content should be represented in the narrative to ensure clinical safety.","Contained resources do not have narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a ""text blob"" or where text is additionally entered raw or narrated and encoded information is added later.","","","","","","","","",,,,,"",,,,"DomainResource.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Act.text?"
+"Basic.contained","Basic.contained","","inline resources
+anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
+","Contained, inline Resources","These resources do not have an independent existence apart from the resource that contains them - they cannot be identified independently, and nor can they have their own independent transaction scope.","This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags In their meta elements, but SHALL NOT have security labels.","","","","","","","","",,,,,"",,,,"DomainResource.contained",0,*,"","","N/A"
+"Basic.extension","Basic.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:url","Basic.extension","url","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.url|0.1.0]]} {[]}
+","R5: Canonical identifier for this EvidenceReport, represented as a globally unique URI (new)","R5: `EvidenceReport.url` (new:uri)","Element `EvidenceReport.url` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Can be a urn:uuid: or a urn:oid: but real http: addresses are preferred. Multiple instances may share the same URL if they have a distinct version.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:useContext","Basic.extension","useContext","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.useContext|0.1.0]]} {[]}
+","R5: The context that the content is intended to support (new)","R5: `EvidenceReport.useContext` (new:UsageContext)","Element `EvidenceReport.useContext` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+When multiple useContexts are specified, there is no expectation that all or any of the contexts apply.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:relatedIdentifier","Basic.extension","relatedIdentifier","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatedIdentifier|0.1.0]]} {[]}
+","R5: Identifiers for articles that may relate to more than one evidence report (new)","R5: `EvidenceReport.relatedIdentifier` (new:Identifier)","Element `EvidenceReport.relatedIdentifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.relatedIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+May include trial registry identifiers, e.g. NCT04372602 from clinicaltrials.gov. This identifier can be valid for multiple EvidenceReport resources.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:citeAs","Basic.extension","citeAs","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.citeAs|0.1.0]]} {[]}
+","R5: Citation for this report (new)","R5: `EvidenceReport.citeAs[x]` (new:markdown, Reference(Citation))","Element `EvidenceReport.citeAs[x]` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.citeAs[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+used for reports for which external citation is expected, such as use in support of scholarly publications.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:type","Basic.extension","type","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.type|0.1.0]]} {[]}
+","R5: Kind of report (new)","R5: `EvidenceReport.type` (new:CodeableConcept)","Element `EvidenceReport.type` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:note","Basic.extension","note","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.note|0.1.0]]} {[]}
+","R5: Used for footnotes and annotations (new)","R5: `EvidenceReport.note` (new:Annotation)","Element `EvidenceReport.note` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:relatedArtifact","Basic.extension","relatedArtifact","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatedArtifact|0.1.0]]} {[]}
+","R5: Link, description or reference to artifact associated with the report (new)","R5: `EvidenceReport.relatedArtifact` (new:RelatedArtifact)","Element `EvidenceReport.relatedArtifact` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:subject","Basic.extension","subject","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject|0.1.0]]} {[]}
+","R5: Focus of the report (new)","R5: `EvidenceReport.subject` (new:BackboneElement)","Element `EvidenceReport.subject` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+While the source element matches Basic element path `` (``), the definitions are not compatible (source: `BackboneElement`:1..1 -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).
+May be used as an expression for search queries and search results","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:publisher","Basic.extension","publisher","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.publisher|0.1.0]]} {[]}
+","R5: Name of the publisher/steward (organization or individual) (new)","R5: `EvidenceReport.publisher` (new:string)","Element `EvidenceReport.publisher` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Usually an organization but may be an individual. The publisher (or steward) of the evidence report is the organization or individual primarily responsible for the maintenance and upkeep of the evidence report. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the evidence report. This item SHOULD be populated unless the information is available from context.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:contact","Basic.extension","contact","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.contact|0.1.0]]} {[]}
+","R5: Contact details for the publisher (new)","R5: `EvidenceReport.contact` (new:ContactDetail)","Element `EvidenceReport.contact` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:author","Basic.extension","author","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.author|0.1.0]]} {[]}
+","R5: Who authored the content (new)","R5: `EvidenceReport.author` (new:ContactDetail)","Element `EvidenceReport.author` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+While the source element matches Basic element path `` (``), the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:editor","Basic.extension","editor","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.editor|0.1.0]]} {[]}
+","R5: Who edited the content (new)","R5: `EvidenceReport.editor` (new:ContactDetail)","Element `EvidenceReport.editor` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:reviewer","Basic.extension","reviewer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.reviewer|0.1.0]]} {[]}
+","R5: Who reviewed the content (new)","R5: `EvidenceReport.reviewer` (new:ContactDetail)","Element `EvidenceReport.reviewer` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:endorser","Basic.extension","endorser","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.endorser|0.1.0]]} {[]}
+","R5: Who endorsed the content (new)","R5: `EvidenceReport.endorser` (new:ContactDetail)","Element `EvidenceReport.endorser` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Extensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:relatesTo","Basic.extension","relatesTo","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo|0.1.0]]} {[]}
+","R5: Relationships to other compositions/documents (new)","R5: `EvidenceReport.relatesTo` (new:BackboneElement)","Element `EvidenceReport.relatesTo` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.relatesTo` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+A document is a version specific composition.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:section","Basic.extension","section","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section|0.1.0]]} {[]}
+","R5: Composition is broken into sections (new)","R5: `EvidenceReport.section` (new:BackboneElement)","Element `EvidenceReport.section` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.section` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.extension:section","Basic.extension","section","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section|0.1.0]]} {[]}
+","R5: Nested Section (new)","R5: `EvidenceReport.section.section` (new:EvidenceReport.section)","Element `EvidenceReport.section.section` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.
+Element `EvidenceReport.section.section` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.section.section` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Nested sections are primarily used to help human readers navigate to particular portions of the document.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension","Basic.modifierExtension","","","",0,*,"","Y","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","DomainResource.modifierExtension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.modifierExtension:status","Basic.modifierExtension","status","","",1,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.status|0.1.0]]} {[]}
+","R5: draft | active | retired | unknown (new)","R5: `EvidenceReport.status` (new:code)","Element `EvidenceReport.status` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.
+Element `EvidenceReport.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Allows filtering of summaries that are appropriate for use versus not.
+
+See guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization).","","","","","","","","",,,,,"",,,,"DomainResource.modifierExtension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Basic.identifier","Basic.identifier","","","",0,*,"","","Y","Identifier {[]} {[]}
+","Business identifier","Identifier assigned to the resource for business purposes, outside the context of FHIR.","","","","","","","","","",,,,,"",,,,"Basic.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./identifier","FiveWs.identifier"
+"Basic.code","Basic.code","","","",1,1,"","Y","Y","CodeableConcept {[]} {[]}
+","Kind of Resource","Identifies the 'type' of resource - equivalent to the resource name for other resources.","Because resource references will only be able to indicate 'Basic', the type of reference will need to be specified in a Profile identified as part of the resource.  Refer to the resource notes section for information on appropriate terminologies for this code.
+
+This element is labeled as a modifier because it defines the meaning of the resource and cannot be ignored.","Must be able to distinguish different types of Basic resources.","","","","","","","",,"example","Codes for identifying types of resources not yet defined by FHIR.","http://hl7.org/fhir/ValueSet/basic-resource-type|4.0.1","",,,,"Basic.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./code","FiveWs.what[x]"
+"Basic.subject","Basic.subject","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Resource|4.0.1]]}
+","Identifies the focus of this resource","Identifies the patient, practitioner, device or any other resource that is the ""focus"" of this resource.","Optional as not all potential resources will have subjects.  Resources associated with multiple subjects can handle this via extension.","Needed for partitioning the resource by Patient.","","","","","","","",,,,,"",,,,"Basic.subject",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SBJ'] (possibly through a ControlAct and Role)","FiveWs.subject[x]","FiveWs.subject"
+"Basic.created","Basic.created","","","",0,1,"","","Y","date {[]} {[]}
+","When created","Identifies when the resource was first created.","","Allows ordering resource instances by time.","","","","","","","",,,,,"",,,,"Basic.created",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='AUT']/time (possibly through a ControlAct and Role)","FiveWs.recorded"
+"Basic.author","Basic.author","","","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/RelatedPerson|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+","Who created","Indicates who was responsible for creating the resource instance.","","Needed for partitioning the resource.","","","","","","","",,,,,"",,,,"Basic.author",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","./participation[typeCode='SUB'] (possibly through a ControlAct and Role)","FiveWs.author"

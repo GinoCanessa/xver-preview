@@ -1,0 +1,551 @@
+# R5SubscriptionTopicElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5SubscriptionTopicElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 SubscriptionTopic to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-SubscriptionTopic-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubscriptionTopic-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5SubscriptionTopicElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 SubscriptionTopic to FHIR R4 Basic",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:51.8569034-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 SubscriptionTopic to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/SubscriptionTopic",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Basic",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "SubscriptionTopic.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "Basic.meta",
+        "display" : "Basic.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.\nElement `SubscriptionTopic.meta` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "Basic.implicitRules",
+        "display" : "Basic.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.\nElement `SubscriptionTopic.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "Basic.language",
+        "display" : "Basic.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.\nElement `SubscriptionTopic.language` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "Basic.text",
+        "display" : "Basic.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.\nElement `SubscriptionTopic.text` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "Basic.contained",
+        "display" : "Basic.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.\nElement `SubscriptionTopic.contained` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "Basic.identifier",
+        "display" : "Basic.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.\nElement `SubscriptionTopic.identifier` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNote: This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/SubscriptionTopic",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "SubscriptionTopic.url",
+      "display" : "url",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.url",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.url` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nCan be a `urn:uuid:` or a `urn:oid:` but real `http/s:` addresses are preferred.  Multiple instances may share the same URL if they have a distinct version.\n\nThe determination of when to create a new version of a resource (same url, new version) vs. defining a new artifact is up to the author.  Considerations for making this decision are found in [Technical and Business Versions](https://hl7.org/fhir/resource..html#versions).\n\nIn some cases, the resource can no longer be found at the stated url, but the url itself cannot change. Implementations can use the [meta.source](https://hl7.org/fhir/resou.html#meta) element to indicate where the current master source of the resource can be found.\n\nWhen this is a locally defined topic or derived from a topic defined in the FHIR spec or an IG, this uniquely identifies the topic and functionality. Ideally this URL resolves to documentation about the use cases.\n\nWhen this is a topic derived from another topic (e.g., it adds additional filters or functionality to a topic defined in an IG), then this URL should be different than the base and the `derivedFromCanonical` should be filled out with the unique uri as defined in the IG.\n\nWhen this is a direct implementation from another IG or registered topic (with no additional filters, etc., so not derived), then this url is the unique url for this topic as defined by the IG."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.version",
+      "display" : "version",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.version",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.version` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThere may be multiple different instances of a subscription topic that have the same identifier but different versions."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.versionAlgorithm[x]",
+      "display" : "versionAlgorithm[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.versionAlgorithm",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.versionAlgorithm[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf set as a string, this is a FHIRPath expression that has two additional context variables passed in - %version1 and %version2 and will return a negative number if version1 is newer, a positive number if version2 and a 0 if the version ordering can't be successfully be determined."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.name",
+      "display" : "name",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.name",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.name` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.name` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe name is not expected to be globally unique. The name should be a simple alphanumeric type name to ensure that it is machine-processing friendly."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.title",
+      "display" : "title",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.title",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.title` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis name does not need to be machine-processing friendly and may contain punctuation, white-space, etc."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.derivedFrom",
+      "display" : "derivedFrom",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.derivedFrom",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.derivedFrom` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.status",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.status` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA nominal state-transition diagram can be found in the [Definition pattern](https://hl7.org/fhir/definition.ht.html#statemachine) documentation\n\nUnknown does not represent \"other\" - one of the defined statuses must apply.  Unknown is used when the authoring system is not sure what the current status is.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.experimental",
+      "display" : "experimental",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.experimental",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.experimental` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.experimental` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows filtering of SubscriptionTopic that are appropriate for use vs. not."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.date",
+      "display" : "date",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.date",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.date` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.date` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.publisher",
+      "display" : "publisher",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.publisher",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.publisher` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.contact",
+      "display" : "contact",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.contact",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.contact` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nMay be a web site, an email address, a telephone number, etc.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.description",
+      "display" : "description",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.description",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis description can be used to capture details such as comments about misuse, instructions for clinical use and interpretation, literature references, examples from the paper world, etc. It is not a rendering of the module as conveyed in the text field of the resource itself. This item SHOULD be populated unless the information is available from context."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.useContext",
+      "display" : "useContext",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.useContext",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.useContext` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen multiple usageContexts are specified, there is no expectation for whether all or any of the contexts apply."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.jurisdiction",
+      "display" : "jurisdiction",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.jurisdiction",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.jurisdiction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nElement `SubscriptionTopic.jurisdiction` has been flagged as deprecated.\nDEPRECATION NOTE: For consistency, implementations are encouraged to migrate to using the new 'jurisdiction' code in the useContext element.  (I.e. useContext.code indicating http://terminology.hl7.org/CodeSystem/usage-context-type#jurisdiction and useContext.valueCodeableConcept indicating the jurisdiction.)"
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.purpose",
+      "display" : "purpose",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.purpose",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.purpose` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.purpose` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element does not describe the usage of the Topic.  Rather it is for traceability of ''why'' the resource is either needed or ''why'' it is defined as it is.  This may be used to point to source materials or specifications that drove the structure of this Topic."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.copyright",
+      "display" : "copyright",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.copyright",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.copyright` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.copyright` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\n..."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.copyrightLabel",
+      "display" : "copyrightLabel",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.copyrightLabel",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.copyrightLabel` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe (c) symbol should NOT be included in this string. It will be added by software when rendering the notation. Full details about licensing, restrictions, warrantees, etc. goes in the more general 'copyright' element."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.approvalDate",
+      "display" : "approvalDate",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.approvalDate",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.approvalDate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.approvalDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe date may be more recent than the approval date because of minor changes / editorial corrections."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.lastReviewDate",
+      "display" : "lastReviewDate",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.lastReviewDate",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.lastReviewDate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.lastReviewDate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf specified, this is usually after the approval date."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.effectivePeriod",
+      "display" : "effectivePeriod",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.effectivePeriod",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.effectivePeriod` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.effectivePeriod` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe effective period for a SubscriptionTopic  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 would be published in 2015."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger",
+      "display" : "resourceTrigger",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.description",
+      "display" : "description",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger:description",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.description` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nImplementation of particular subscription topics might not use a computable definition and instead base their design on the definition."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.resource",
+      "display" : "resource",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger:resource",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.resource` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.resource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.supportedInteraction",
+      "display" : "supportedInteraction",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger:supportedInteraction",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.supportedInteraction` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.supportedInteraction` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.supportedInteraction` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.queryCriteria",
+      "display" : "queryCriteria",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger:queryCriteria",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.queryCriteria` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.queryCriteria.previous",
+      "display" : "previous",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger.queryCriteria:previous",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.queryCriteria.previous` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger.queryCriteria` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.previous` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.previous` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe rules are search criteria (without the [base] part). Like Bundle.entry.request.url, it has no leading slash character (`/`)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate",
+      "display" : "resultForCreate",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger.queryCriteria:resultForCreate",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger.queryCriteria` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.resultForCreate` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.queryCriteria.current",
+      "display" : "current",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger.queryCriteria:current",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.queryCriteria.current` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger.queryCriteria` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.current` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.current` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe rules are search criteria (without the [base] part). Like Bundle.entry.request.url, it has no leading slash character (`/`)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete",
+      "display" : "resultForDelete",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger.queryCriteria:resultForDelete",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger.queryCriteria` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.resultForDelete` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth",
+      "display" : "requireBoth",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger.queryCriteria:requireBoth",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger.queryCriteria` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.queryCriteria.requireBoth` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nPlease note the interaction between this element and the `resultForCreate`/`resultForDelete` elements during `create` and `delete` interactions.  For example, if `resultForCreate` is set to `test-passes`, setting `requireBoth` to `false` means that every `create` will trigger a notification while setting `requireBoth` to `true` will result in notifications if the `current` test passes.  Similarly, if `resultForCreate` is set to `test-fails`, setting `requireBoth` to `true` means that no `create` will be able to generate a notification while setting `requireBoth` to `false` will result in notifications if the `current` test passes."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.resourceTrigger.fhirPathCriteria",
+      "display" : "fhirPathCriteria",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.resourceTrigger:fhirPathCriteria",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.resourceTrigger.fhirPathCriteria` is part of an existing definition because parent element `SubscriptionTopic.resourceTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.resourceTrigger.fhirPathCriteria` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.resourceTrigger.fhirPathCriteria` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nFHIRPath expression with %previous and %current vars."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.eventTrigger",
+      "display" : "eventTrigger",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.eventTrigger",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.eventTrigger` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.eventTrigger` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.eventTrigger.description",
+      "display" : "description",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.eventTrigger:description",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.eventTrigger.description` is part of an existing definition because parent element `SubscriptionTopic.eventTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.eventTrigger.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.eventTrigger.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nImplementation of particular subscription topics might not use a computable definition and instead base their design on the definition."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.eventTrigger.event",
+      "display" : "event",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.eventTrigger:event",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.eventTrigger.event` is part of an existing definition because parent element `SubscriptionTopic.eventTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.eventTrigger.event` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.eventTrigger.event` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.eventTrigger.resource",
+      "display" : "resource",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.eventTrigger:resource",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.eventTrigger.resource` is part of an existing definition because parent element `SubscriptionTopic.eventTrigger` requires a cross-version extension.\nElement `SubscriptionTopic.eventTrigger.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.eventTrigger.resource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy",
+      "display" : "canFilterBy",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy.description",
+      "display" : "description",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy:description",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy.description` is part of an existing definition because parent element `SubscriptionTopic.canFilterBy` requires a cross-version extension.\nElement `SubscriptionTopic.canFilterBy.description` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy.resource",
+      "display" : "resource",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy:resource",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy.resource` is part of an existing definition because parent element `SubscriptionTopic.canFilterBy` requires a cross-version extension.\nElement `SubscriptionTopic.canFilterBy.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy.resource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nURL of the Resource that is the type used in this filter. Relative URLs are relative to the StructureDefinition root of the implemented FHIR version (e.g., http://hl7.org/fhir/StructureDefinition). For example, \"Patient\" maps to http://hl7.org/fhir/StructureDefinition/Patient. For more information, see [ElementDefinition.type.code](https://hl7.org/fhir/elementdefinition-definition.html#ElementDefinition.type.code)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy.filterParameter",
+      "display" : "filterParameter",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy:filterParameter",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy.filterParameter` is part of an existing definition because parent element `SubscriptionTopic.canFilterBy` requires a cross-version extension.\nElement `SubscriptionTopic.canFilterBy.filterParameter` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy.filterParameter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nChained parameters are allowed (like \"patient.gender\") - but can not use colons or modifiers."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy.filterDefinition",
+      "display" : "filterDefinition",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy:filterDefinition",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy.filterDefinition` is part of an existing definition because parent element `SubscriptionTopic.canFilterBy` requires a cross-version extension.\nElement `SubscriptionTopic.canFilterBy.filterDefinition` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy.filterDefinition` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nChained parameters are allowed (like \"patient.gender\") - but can not use colons or modifiers."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy.comparator",
+      "display" : "comparator",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy:comparator",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy.comparator` is part of an existing definition because parent element `SubscriptionTopic.canFilterBy` requires a cross-version extension.\nElement `SubscriptionTopic.canFilterBy.comparator` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy.comparator` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf no comparators are listed, clients should not expect servers to support any comparators."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.canFilterBy.modifier",
+      "display" : "modifier",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.canFilterBy:modifier",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.canFilterBy.modifier` is part of an existing definition because parent element `SubscriptionTopic.canFilterBy` requires a cross-version extension.\nElement `SubscriptionTopic.canFilterBy.modifier` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.canFilterBy.modifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf no modifiers are listed, clients should not expect servers to support any modifiers."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.notificationShape",
+      "display" : "notificationShape",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.notificationShape",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.notificationShape` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.notificationShape` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.notificationShape.resource",
+      "display" : "resource",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.notificationShape:resource",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.notificationShape.resource` is part of an existing definition because parent element `SubscriptionTopic.notificationShape` requires a cross-version extension.\nElement `SubscriptionTopic.notificationShape.resource` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.notificationShape.resource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nURL of the Resource that is the type used in this shape. Relative URLs are relative to the StructureDefinition root of the implemented FHIR version (e.g., http://hl7.org/fhir/StructureDefinition). For example, 'Patient' maps to http://hl7.org/fhir/StructureDefinition/Patient. For more information, see [ElementDefinition.type.code](https://hl7.org/fhir/elementdefinition-definition.html#ElementDefinition.type.code)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.notificationShape.include",
+      "display" : "include",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.notificationShape:include",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.notificationShape.include` is part of an existing definition because parent element `SubscriptionTopic.notificationShape` requires a cross-version extension.\nElement `SubscriptionTopic.notificationShape.include` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.notificationShape.include` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "SubscriptionTopic.notificationShape.revInclude",
+      "display" : "revInclude",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubscriptionTopic.notificationShape:revInclude",
+        "equivalence" : "wider",
+        "comment" : "Element `SubscriptionTopic.notificationShape.revInclude` is part of an existing definition because parent element `SubscriptionTopic.notificationShape` requires a cross-version extension.\nElement `SubscriptionTopic.notificationShape.revInclude` is not mapped to FHIR R4, since FHIR R5 `SubscriptionTopic` is not mapped.\nElement `SubscriptionTopic.notificationShape.revInclude` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    }]
+  }]
+}
+
+```

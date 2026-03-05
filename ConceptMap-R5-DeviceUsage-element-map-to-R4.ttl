@@ -1,0 +1,404 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceUsage-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-DeviceUsage-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-DeviceUsage-element-map-to-R4</b></p><a name=\"R5-DeviceUsage-element-map-to-R4\"> </a><a name=\"hcR5-DeviceUsage-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceUsage|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/deviceusestatement.html\">DeviceUseStatementversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceUsage|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/DeviceUseStatement|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.meta</td><td style=\"border-left-width: 0px\">DeviceUseStatement.meta</td><td>Element `DeviceUsage.meta` is mapped to FHIR R4 element `DeviceUseStatement.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.implicitRules</td><td style=\"border-left-width: 0px\">DeviceUseStatement.implicitRules</td><td>Element `DeviceUsage.implicitRules` is mapped to FHIR R4 element `DeviceUseStatement.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.language</td><td style=\"border-left-width: 0px\">DeviceUseStatement.language</td><td>Element `DeviceUsage.language` is mapped to FHIR R4 element `DeviceUseStatement.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.text</td><td style=\"border-left-width: 0px\">DeviceUseStatement.text</td><td>Element `DeviceUsage.text` is mapped to FHIR R4 element `DeviceUseStatement.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.contained</td><td style=\"border-left-width: 0px\">DeviceUseStatement.contained</td><td>Element `DeviceUsage.contained` is mapped to FHIR R4 element `DeviceUseStatement.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.identifier</td><td style=\"border-left-width: 0px\">DeviceUseStatement.identifier</td><td>Element `DeviceUsage.identifier` is mapped to FHIR R4 element `DeviceUseStatement.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.basedOn</td><td style=\"border-left-width: 0px\">DeviceUseStatement.basedOn</td><td>Element `DeviceUsage.basedOn` is mapped to FHIR R4 element `DeviceUseStatement.basedOn` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.status</td><td style=\"border-left-width: 0px\">DeviceUseStatement.status</td><td>Element `DeviceUsage.status` is mapped to FHIR R4 element `DeviceUseStatement.status` as `SourceIsBroaderThanTarget`.\nThe target context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nDeviceUseStatment is a statement at a point in time.  The status is only representative at the point when it was asserted.  The value set for contains codes that assert the status of the use  by the patient (for example, stopped or on hold) as well as codes that assert the status of the resource itself (for example, entered in error).#xD;#xD;This element is labeled as a modifier because the status contains the codes that mark the statement as not currently valid.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.patient</td><td style=\"border-left-width: 0px\">patient</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.subject</td><td style=\"border-left-width: 0px\">DeviceUseStatement.subject</td><td>Element `DeviceUsage.patient` is mapped to FHIR R4 element `DeviceUseStatement.subject` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.derivedFrom</td><td style=\"border-left-width: 0px\">derivedFrom</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.derivedFrom</td><td style=\"border-left-width: 0px\">DeviceUseStatement.derivedFrom</td><td>Element `DeviceUsage.derivedFrom` is mapped to FHIR R4 element `DeviceUseStatement.derivedFrom` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DeviceUsage.derivedFrom` with unmapped reference targets: DocumentReference.\nThe most common use cases for deriving a DeviceUsage comes from creating it from a request or from an observation or a claim. it should be noted that the amount of information that is available varies from the type resource that you derive the DeviceUsage from.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.timing[x]</td><td style=\"border-left-width: 0px\">timing[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.timing[x]</td><td style=\"border-left-width: 0px\">DeviceUseStatement.timing[x]</td><td>Element `DeviceUsage.timing[x]` is mapped to FHIR R4 element `DeviceUseStatement.timing[x]` as `Equivalent`.\nThe target context `DeviceUseStatement.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceUseStatement`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.dateAsserted</td><td style=\"border-left-width: 0px\">dateAsserted</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.recordedOn</td><td style=\"border-left-width: 0px\">DeviceUseStatement.recordedOn</td><td>Element `DeviceUsage.dateAsserted` is mapped to FHIR R4 element `DeviceUseStatement.recordedOn` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.informationSource</td><td style=\"border-left-width: 0px\">informationSource</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.source</td><td style=\"border-left-width: 0px\">DeviceUseStatement.source</td><td>Element `DeviceUsage.informationSource` is mapped to FHIR R4 element `DeviceUseStatement.source` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DeviceUsage.informationSource` with unmapped reference targets: Organization.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.device</td><td style=\"border-left-width: 0px\">device</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.device</td><td style=\"border-left-width: 0px\">DeviceUseStatement.device</td><td>Element `DeviceUsage.device` is mapped to FHIR R4 element `DeviceUseStatement.device` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.device` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.device` do not cover the following types based on type expansion: concept.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">DeviceUsage.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.reasonCode</td><td style=\"border-left-width: 0px\">DeviceUseStatement.reasonCode</td><td>Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.reason` do not cover the following types: CodeableReference.\nWhen the status is not done, the reason code indicates why it was not done.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.reasonReference</td><td style=\"border-left-width: 0px\">DeviceUseStatement.reasonReference</td><td>Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.reason` do not cover the following types: CodeableReference.\nWhen the status is not done, the reason code indicates why it was not done.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.bodySite</td><td style=\"border-left-width: 0px\">bodySite</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.bodySite</td><td style=\"border-left-width: 0px\">DeviceUseStatement.bodySite</td><td>Element `DeviceUsage.bodySite` is mapped to FHIR R4 element `DeviceUseStatement.bodySite` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types based on type expansion: reference.</td></tr><tr><td style=\"border-right-width: 0px\">DeviceUsage.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">DeviceUseStatement.note</td><td style=\"border-left-width: 0px\">DeviceUseStatement.note</td><td>Element `DeviceUsage.note` is mapped to FHIR R4 element `DeviceUseStatement.note` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceUsage|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceUsage.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.status</td><td>Element `DeviceUsage.status` is mapped to FHIR R4 element `DeviceUseStatement.status` as `SourceIsBroaderThanTarget`.\nThe target context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nDeviceUseStatment is a statement at a point in time.  The status is only representative at the point when it was asserted.  The value set for contains codes that assert the status of the use  by the patient (for example, stopped or on hold) as well as codes that assert the status of the resource itself (for example, entered in error).#xD;#xD;This element is labeled as a modifier because the status contains the codes that mark the statement as not currently valid.</td></tr><tr><td>DeviceUsage.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.category</td><td>Element `DeviceUsage.category` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.context (context)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.context</td><td>Element `DeviceUsage.context` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.context` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.usageStatus (usageStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.usageStatus</td><td>Element `DeviceUsage.usageStatus` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.usageStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.usageReason (usageReason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.usageReason</td><td>Element `DeviceUsage.usageReason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.usageReason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.adherence (adherence)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.adherence</td><td>Element `DeviceUsage.adherence` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.adherence` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.adherence.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.adherence:code</td><td>Element `DeviceUsage.adherence.code` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.code` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.adherence.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.adherence.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.adherence:reason</td><td>Element `DeviceUsage.adherence.reason` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.reason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.adherence.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>DeviceUsage.device (device)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.device</td><td>Element `DeviceUsage.device` is mapped to FHIR R4 element `DeviceUseStatement.device` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.device` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.device` do not cover the following types based on type expansion: concept.</td></tr><tr><td>DeviceUsage.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.reason</td><td>Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.reason` do not cover the following types: CodeableReference.\nWhen the status is not done, the reason code indicates why it was not done.</td></tr><tr><td>DeviceUsage.bodySite (bodySite)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.bodySite</td><td>Element `DeviceUsage.bodySite` is mapped to FHIR R4 element `DeviceUseStatement.bodySite` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types based on type expansion: reference.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/DeviceUsage|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>DeviceUsage.derivedFrom (derivedFrom)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>DeviceUsage.informationSource (informationSource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceUsage-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-DeviceUsage-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5DeviceUsageElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 DeviceUsage to FHIR R4 DeviceUseStatement"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.9422806-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 DeviceUsage to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceUsage"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceUsage>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceUseStatement>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceUsage.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.meta" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.meta` is mapped to FHIR R4 element `DeviceUseStatement.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.implicitRules" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.implicitRules` is mapped to FHIR R4 element `DeviceUseStatement.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.language" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.language` is mapped to FHIR R4 element `DeviceUseStatement.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.text" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.text` is mapped to FHIR R4 element `DeviceUseStatement.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.contained" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.contained` is mapped to FHIR R4 element `DeviceUseStatement.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.identifier" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.identifier` is mapped to FHIR R4 element `DeviceUseStatement.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.basedOn" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.basedOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.basedOn` is mapped to FHIR R4 element `DeviceUseStatement.basedOn` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.status" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.status` is mapped to FHIR R4 element `DeviceUseStatement.status` as `SourceIsBroaderThanTarget`.\nThe target context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nDeviceUseStatment is a statement at a point in time.  The status is only representative at the point when it was asserted.  The value set for contains codes that assert the status of the use  by the patient (for example, stopped or on hold) as well as codes that assert the status of the resource itself (for example, entered in error).\r\rThis element is labeled as a modifier because the status contains the codes that mark the statement as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.subject" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.subject" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.patient` is mapped to FHIR R4 element `DeviceUseStatement.subject` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.derivedFrom" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.derivedFrom" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.derivedFrom` is mapped to FHIR R4 element `DeviceUseStatement.derivedFrom` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DeviceUsage.derivedFrom` with unmapped reference targets: DocumentReference.\nThe most common use cases for deriving a DeviceUsage comes from creating it from a request or from an observation or a claim. it should be noted that the amount of information that is available varies from the type resource that you derive the DeviceUsage from." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.timing[x]" ] ;
+       fhir:display [ fhir:v "timing[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.timing[x]" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.timing[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.timing[x]` is mapped to FHIR R4 element `DeviceUseStatement.timing[x]` as `Equivalent`.\nThe target context `DeviceUseStatement.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceUseStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.dateAsserted" ] ;
+       fhir:display [ fhir:v "dateAsserted" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.recordedOn" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.recordedOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.dateAsserted` is mapped to FHIR R4 element `DeviceUseStatement.recordedOn` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.informationSource" ] ;
+       fhir:display [ fhir:v "informationSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.source" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.source" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.informationSource` is mapped to FHIR R4 element `DeviceUseStatement.source` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `DeviceUsage.informationSource` with unmapped reference targets: Organization." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.device" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.device" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.device` is mapped to FHIR R4 element `DeviceUseStatement.device` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.device` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.device` do not cover the following types based on type expansion: concept." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.reasonCode" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.reason` do not cover the following types: CodeableReference.\nWhen the status is not done, the reason code indicates why it was not done." ]
+       ] [
+         fhir:code [ fhir:v "DeviceUseStatement.reasonReference" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.reason` do not cover the following types: CodeableReference.\nWhen the status is not done, the reason code indicates why it was not done." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.bodySite" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.bodySite" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.bodySite` is mapped to FHIR R4 element `DeviceUseStatement.bodySite` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types based on type expansion: reference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DeviceUseStatement.note" ] ;
+         fhir:display [ fhir:v "DeviceUseStatement.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.note` is mapped to FHIR R4 element `DeviceUseStatement.note` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceUsage"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceUsage>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceUsage.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.status` is mapped to FHIR R4 element `DeviceUseStatement.status` as `SourceIsBroaderThanTarget`.\nThe target context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nDeviceUseStatment is a statement at a point in time.  The status is only representative at the point when it was asserted.  The value set for contains codes that assert the status of the use  by the patient (for example, stopped or on hold) as well as codes that assert the status of the resource itself (for example, entered in error).\r\rThis element is labeled as a modifier because the status contains the codes that mark the statement as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.category" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.category` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.context" ] ;
+       fhir:display [ fhir:v "context" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.context" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.context` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.context` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.usageStatus" ] ;
+       fhir:display [ fhir:v "usageStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.usageStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.usageStatus` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.usageStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.usageReason" ] ;
+       fhir:display [ fhir:v "usageReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.usageReason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.usageReason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.usageReason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.adherence" ] ;
+       fhir:display [ fhir:v "adherence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.adherence" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.adherence` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.adherence` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.adherence.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.adherence:code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.adherence.code` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.code` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.adherence.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.adherence.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.adherence:reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.adherence.reason` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.reason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.\nElement `DeviceUsage.adherence.reason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.device" ] ;
+       fhir:display [ fhir:v "device" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.device" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.device` is mapped to FHIR R4 element `DeviceUseStatement.device` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.device` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.device` do not cover the following types based on type expansion: concept." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.reason` do not cover the following types: CodeableReference.\nWhen the status is not done, the reason code indicates why it was not done." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceUsage.bodySite" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `DeviceUsage.bodySite` is mapped to FHIR R4 element `DeviceUseStatement.bodySite` as `SourceIsBroaderThanTarget`.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types: CodeableReference.\nThe mappings for `DeviceUsage.bodySite` do not cover the following types based on type expansion: reference." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/DeviceUsage"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/DeviceUsage>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "DeviceUsage.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "DeviceUsage.informationSource" ] ;
+       fhir:display [ fhir:v "informationSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

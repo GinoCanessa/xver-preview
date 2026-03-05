@@ -1,0 +1,384 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-SupplyRequest-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-SupplyRequest-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-SupplyRequest-element-map-to-R4</b></p><a name=\"R5-SupplyRequest-element-map-to-R4\"> </a><a name=\"hcR5-SupplyRequest-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SupplyRequest|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/supplyrequest.html\">SupplyRequestversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/SupplyRequest|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/SupplyRequest|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.meta</td><td style=\"border-left-width: 0px\">SupplyRequest.meta</td><td>Element `SupplyRequest.meta` is mapped to FHIR R4 element `SupplyRequest.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.implicitRules</td><td style=\"border-left-width: 0px\">SupplyRequest.implicitRules</td><td>Element `SupplyRequest.implicitRules` is mapped to FHIR R4 element `SupplyRequest.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.language</td><td style=\"border-left-width: 0px\">SupplyRequest.language</td><td>Element `SupplyRequest.language` is mapped to FHIR R4 element `SupplyRequest.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.text</td><td style=\"border-left-width: 0px\">SupplyRequest.text</td><td>Element `SupplyRequest.text` is mapped to FHIR R4 element `SupplyRequest.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.contained</td><td style=\"border-left-width: 0px\">SupplyRequest.contained</td><td>Element `SupplyRequest.contained` is mapped to FHIR R4 element `SupplyRequest.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.identifier</td><td style=\"border-left-width: 0px\">SupplyRequest.identifier</td><td>Element `SupplyRequest.identifier` is mapped to FHIR R4 element `SupplyRequest.identifier` as `Equivalent`.\nThe identifier.type element is used to distinguish between the identifiers assigned by the requester/placer and the performer/filler.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.status</td><td style=\"border-left-width: 0px\">SupplyRequest.status</td><td>Element `SupplyRequest.status` is mapped to FHIR R4 element `SupplyRequest.status` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.category</td><td style=\"border-left-width: 0px\">SupplyRequest.category</td><td>Element `SupplyRequest.category` is mapped to FHIR R4 element `SupplyRequest.category` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.priority</td><td style=\"border-left-width: 0px\">priority</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.priority</td><td style=\"border-left-width: 0px\">SupplyRequest.priority</td><td>Element `SupplyRequest.priority` is mapped to FHIR R4 element `SupplyRequest.priority` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.item</td><td style=\"border-left-width: 0px\">item</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">SupplyRequest.item[x]</td><td style=\"border-left-width: 0px\">SupplyRequest.item[x]</td><td>Element `SupplyRequest.item` is mapped to FHIR R4 element `SupplyRequest.item[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.item` do not cover the following types: CodeableReference.\nThe target context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nNote that there's a difference between a prescription - an instruction to take a medication, along with a (sometimes) implicit supply, and an explicit request to supply, with no explicit instructions.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.quantity</td><td style=\"border-left-width: 0px\">quantity</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.quantity</td><td style=\"border-left-width: 0px\">SupplyRequest.quantity</td><td>Element `SupplyRequest.quantity` is mapped to FHIR R4 element `SupplyRequest.quantity` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.parameter</td><td style=\"border-left-width: 0px\">parameter</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">SupplyRequest.parameter</td><td style=\"border-left-width: 0px\">SupplyRequest.parameter</td><td>Element `SupplyRequest.parameter` is mapped to FHIR R4 element `SupplyRequest.parameter` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.parameter.code</td><td style=\"border-left-width: 0px\">code</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.parameter.code</td><td style=\"border-left-width: 0px\">SupplyRequest.parameter.code</td><td>Element `SupplyRequest.parameter.code` is mapped to FHIR R4 element `SupplyRequest.parameter.code` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.parameter.value[x]</td><td style=\"border-left-width: 0px\">value[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.parameter.value[x]</td><td style=\"border-left-width: 0px\">SupplyRequest.parameter.value[x]</td><td>Element `SupplyRequest.parameter.value[x]` is mapped to FHIR R4 element `SupplyRequest.parameter.value[x]` as `Equivalent`.\nThe target context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.\nRange means device should have a value that falls somewhere within the specified range.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.occurrence[x]</td><td style=\"border-left-width: 0px\">occurrence[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.occurrence[x]</td><td style=\"border-left-width: 0px\">SupplyRequest.occurrence[x]</td><td>Element `SupplyRequest.occurrence[x]` is mapped to FHIR R4 element `SupplyRequest.occurrence[x]` as `Equivalent`.\nThe target context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.authoredOn</td><td style=\"border-left-width: 0px\">authoredOn</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.authoredOn</td><td style=\"border-left-width: 0px\">SupplyRequest.authoredOn</td><td>Element `SupplyRequest.authoredOn` is mapped to FHIR R4 element `SupplyRequest.authoredOn` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.requester</td><td style=\"border-left-width: 0px\">requester</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">SupplyRequest.requester</td><td style=\"border-left-width: 0px\">SupplyRequest.requester</td><td>Element `SupplyRequest.requester` is mapped to FHIR R4 element `SupplyRequest.requester` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SupplyRequest.requester` with unmapped reference targets: CareTeam.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.supplier</td><td style=\"border-left-width: 0px\">supplier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.supplier</td><td style=\"border-left-width: 0px\">SupplyRequest.supplier</td><td>Element `SupplyRequest.supplier` is mapped to FHIR R4 element `SupplyRequest.supplier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">SupplyRequest.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.reasonCode</td><td style=\"border-left-width: 0px\">SupplyRequest.reasonCode</td><td>Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.reasonReference</td><td style=\"border-left-width: 0px\">SupplyRequest.reasonReference</td><td>Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.deliverFrom</td><td style=\"border-left-width: 0px\">deliverFrom</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">SupplyRequest.deliverFrom</td><td style=\"border-left-width: 0px\">SupplyRequest.deliverFrom</td><td>Element `SupplyRequest.deliverFrom` is mapped to FHIR R4 element `SupplyRequest.deliverFrom` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">SupplyRequest.deliverTo</td><td style=\"border-left-width: 0px\">deliverTo</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">SupplyRequest.deliverTo</td><td style=\"border-left-width: 0px\">SupplyRequest.deliverTo</td><td>Element `SupplyRequest.deliverTo` is mapped to FHIR R4 element `SupplyRequest.deliverTo` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SupplyRequest.deliverTo` with unmapped reference targets: RelatedPerson.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SupplyRequest|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SupplyRequest.basedOn (basedOn)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn</td><td>Element `SupplyRequest.basedOn` has a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`.\nElement `SupplyRequest.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SupplyRequest.deliverFor (deliverFor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor</td><td>Element `SupplyRequest.deliverFor` has a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`.\nElement `SupplyRequest.deliverFor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SupplyRequest.item (item)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.item</td><td>Element `SupplyRequest.item` is mapped to FHIR R4 element `SupplyRequest.item[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.item` do not cover the following types: CodeableReference.\nThe target context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nNote that there's a difference between a prescription - an instruction to take a medication, along with a (sometimes) implicit supply, and an explicit request to supply, with no explicit instructions.</td></tr><tr><td>SupplyRequest.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.reason</td><td>Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.reason` do not cover the following types: CodeableReference.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SupplyRequest|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SupplyRequest.requester (requester)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>SupplyRequest.deliverTo (deliverTo)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-SupplyRequest-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-SupplyRequest-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5SupplyRequestElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 SupplyRequest to FHIR R4 SupplyRequest"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:53.1599034-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 SupplyRequest to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SupplyRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SupplyRequest>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SupplyRequest.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.meta" ] ;
+         fhir:display [ fhir:v "SupplyRequest.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.meta` is mapped to FHIR R4 element `SupplyRequest.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.implicitRules" ] ;
+         fhir:display [ fhir:v "SupplyRequest.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.implicitRules` is mapped to FHIR R4 element `SupplyRequest.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.language" ] ;
+         fhir:display [ fhir:v "SupplyRequest.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.language` is mapped to FHIR R4 element `SupplyRequest.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.text" ] ;
+         fhir:display [ fhir:v "SupplyRequest.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.text` is mapped to FHIR R4 element `SupplyRequest.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.contained" ] ;
+         fhir:display [ fhir:v "SupplyRequest.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.contained` is mapped to FHIR R4 element `SupplyRequest.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.identifier" ] ;
+         fhir:display [ fhir:v "SupplyRequest.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.identifier` is mapped to FHIR R4 element `SupplyRequest.identifier` as `Equivalent`.\nThe identifier.type element is used to distinguish between the identifiers assigned by the requester/placer and the performer/filler." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.status" ] ;
+         fhir:display [ fhir:v "SupplyRequest.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.status` is mapped to FHIR R4 element `SupplyRequest.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.category" ] ;
+         fhir:display [ fhir:v "SupplyRequest.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.category` is mapped to FHIR R4 element `SupplyRequest.category` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.priority" ] ;
+         fhir:display [ fhir:v "SupplyRequest.priority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.priority` is mapped to FHIR R4 element `SupplyRequest.priority` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.item[x]" ] ;
+         fhir:display [ fhir:v "SupplyRequest.item[x]" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.item` is mapped to FHIR R4 element `SupplyRequest.item[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.item` do not cover the following types: CodeableReference.\nThe target context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nNote that there's a difference between a prescription - an instruction to take a medication, along with a (sometimes) implicit supply, and an explicit request to supply, with no explicit instructions." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.quantity" ] ;
+         fhir:display [ fhir:v "SupplyRequest.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.quantity` is mapped to FHIR R4 element `SupplyRequest.quantity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.parameter" ] ;
+       fhir:display [ fhir:v "parameter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.parameter" ] ;
+         fhir:display [ fhir:v "SupplyRequest.parameter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter` is mapped to FHIR R4 element `SupplyRequest.parameter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.parameter.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.parameter.code" ] ;
+         fhir:display [ fhir:v "SupplyRequest.parameter.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter.code` is mapped to FHIR R4 element `SupplyRequest.parameter.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.parameter.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.parameter.value[x]" ] ;
+         fhir:display [ fhir:v "SupplyRequest.parameter.value[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.parameter.value[x]` is mapped to FHIR R4 element `SupplyRequest.parameter.value[x]` as `Equivalent`.\nThe target context `SupplyRequest.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest.parameter`.\nRange means device should have a value that falls somewhere within the specified range." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.occurrence[x]" ] ;
+         fhir:display [ fhir:v "SupplyRequest.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.occurrence[x]` is mapped to FHIR R4 element `SupplyRequest.occurrence[x]` as `Equivalent`.\nThe target context `SupplyRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.authoredOn" ] ;
+       fhir:display [ fhir:v "authoredOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.authoredOn" ] ;
+         fhir:display [ fhir:v "SupplyRequest.authoredOn" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.authoredOn` is mapped to FHIR R4 element `SupplyRequest.authoredOn` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.requester" ] ;
+         fhir:display [ fhir:v "SupplyRequest.requester" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.requester` is mapped to FHIR R4 element `SupplyRequest.requester` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SupplyRequest.requester` with unmapped reference targets: CareTeam." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.supplier" ] ;
+       fhir:display [ fhir:v "supplier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.supplier" ] ;
+         fhir:display [ fhir:v "SupplyRequest.supplier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.supplier` is mapped to FHIR R4 element `SupplyRequest.supplier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.reasonCode" ] ;
+         fhir:display [ fhir:v "SupplyRequest.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.reason` do not cover the following types: CodeableReference." ]
+       ] [
+         fhir:code [ fhir:v "SupplyRequest.reasonReference" ] ;
+         fhir:display [ fhir:v "SupplyRequest.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverFrom" ] ;
+       fhir:display [ fhir:v "deliverFrom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.deliverFrom" ] ;
+         fhir:display [ fhir:v "SupplyRequest.deliverFrom" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverFrom` is mapped to FHIR R4 element `SupplyRequest.deliverFrom` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverTo" ] ;
+       fhir:display [ fhir:v "deliverTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SupplyRequest.deliverTo" ] ;
+         fhir:display [ fhir:v "SupplyRequest.deliverTo" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverTo` is mapped to FHIR R4 element `SupplyRequest.deliverTo` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SupplyRequest.deliverTo` with unmapped reference targets: RelatedPerson." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SupplyRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SupplyRequest.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.basedOn` has a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`.\nElement `SupplyRequest.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverFor" ] ;
+       fhir:display [ fhir:v "deliverFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.deliverFor` has a context of SupplyRequest based on following the parent source element upwards and mapping to `SupplyRequest`.\nElement `SupplyRequest.deliverFor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.item` is mapped to FHIR R4 element `SupplyRequest.item[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.item` do not cover the following types: CodeableReference.\nThe target context `SupplyRequest.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyRequest`.\nNote that there's a difference between a prescription - an instruction to take a medication, along with a (sometimes) implicit supply, and an explicit request to supply, with no explicit instructions." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `SupplyRequest.reason` is mapped to FHIR R4 element `SupplyRequest.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `SupplyRequest.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SupplyRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SupplyRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SupplyRequest.requester" ] ;
+       fhir:display [ fhir:v "requester" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SupplyRequest.deliverTo" ] ;
+       fhir:display [ fhir:v "deliverTo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

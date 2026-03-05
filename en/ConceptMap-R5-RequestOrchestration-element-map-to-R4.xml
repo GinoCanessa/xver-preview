@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-RequestOrchestration-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-RequestOrchestration-element-map-to-R4</b></p><a name="R5-RequestOrchestration-element-map-to-R4"> </a><a name="hcR5-RequestOrchestration-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/RequestOrchestration|5.0.0</code> to <a href="http://hl7.org/fhir/R4/requestgroup.html">RequestGroupversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/RequestOrchestration|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/RequestGroup|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">RequestOrchestration.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.meta</td><td style="border-left-width: 0px">RequestGroup.meta</td><td>Element `RequestOrchestration.meta` is mapped to FHIR R4 element `RequestGroup.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.implicitRules</td><td style="border-left-width: 0px">RequestGroup.implicitRules</td><td>Element `RequestOrchestration.implicitRules` is mapped to FHIR R4 element `RequestGroup.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.language</td><td style="border-left-width: 0px">RequestGroup.language</td><td>Element `RequestOrchestration.language` is mapped to FHIR R4 element `RequestGroup.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.text</td><td style="border-left-width: 0px">RequestGroup.text</td><td>Element `RequestOrchestration.text` is mapped to FHIR R4 element `RequestGroup.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.contained</td><td style="border-left-width: 0px">RequestGroup.contained</td><td>Element `RequestOrchestration.contained` is mapped to FHIR R4 element `RequestGroup.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.identifier</td><td style="border-left-width: 0px">identifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.identifier</td><td style="border-left-width: 0px">RequestGroup.identifier</td><td>Element `RequestOrchestration.identifier` is mapped to FHIR R4 element `RequestGroup.identifier` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.instantiatesCanonical</td><td style="border-left-width: 0px">instantiatesCanonical</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.instantiatesCanonical</td><td style="border-left-width: 0px">RequestGroup.instantiatesCanonical</td><td>Element `RequestOrchestration.instantiatesCanonical` is mapped to FHIR R4 element `RequestGroup.instantiatesCanonical` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.instantiatesUri</td><td style="border-left-width: 0px">instantiatesUri</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.instantiatesUri</td><td style="border-left-width: 0px">RequestGroup.instantiatesUri</td><td>Element `RequestOrchestration.instantiatesUri` is mapped to FHIR R4 element `RequestGroup.instantiatesUri` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.basedOn</td><td style="border-left-width: 0px">basedOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.basedOn</td><td style="border-left-width: 0px">RequestGroup.basedOn</td><td>Element `RequestOrchestration.basedOn` is mapped to FHIR R4 element `RequestGroup.basedOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.replaces</td><td style="border-left-width: 0px">replaces</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.replaces</td><td style="border-left-width: 0px">RequestGroup.replaces</td><td>Element `RequestOrchestration.replaces` is mapped to FHIR R4 element `RequestGroup.replaces` as `Equivalent`.
+The replacement could be because the initial request was immediately rejected (due to an issue) or because the previous request was completed, but the need for the action described by the request remains ongoing.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.groupIdentifier</td><td style="border-left-width: 0px">groupIdentifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.groupIdentifier</td><td style="border-left-width: 0px">RequestGroup.groupIdentifier</td><td>Element `RequestOrchestration.groupIdentifier` is mapped to FHIR R4 element `RequestGroup.groupIdentifier` as `Equivalent`.
+Requests are linked either by a &quot;basedOn&quot; relationship (i.e. one request is fulfilling another) or by having a common requisition.  Requests that are part of the same requisition are generally treated independently from the perspective of changing their state or maintaining them after initial creation.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.status</td><td style="border-left-width: 0px">RequestGroup.status</td><td>Element `RequestOrchestration.status` is mapped to FHIR R4 element `RequestGroup.status` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.intent</td><td style="border-left-width: 0px">intent</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.intent</td><td style="border-left-width: 0px">RequestGroup.intent</td><td>Element `RequestOrchestration.intent` is mapped to FHIR R4 element `RequestGroup.intent` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.priority</td><td style="border-left-width: 0px">priority</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.priority</td><td style="border-left-width: 0px">RequestGroup.priority</td><td>Element `RequestOrchestration.priority` is mapped to FHIR R4 element `RequestGroup.priority` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.code</td><td style="border-left-width: 0px">code</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.code</td><td style="border-left-width: 0px">RequestGroup.code</td><td>Element `RequestOrchestration.code` is mapped to FHIR R4 element `RequestGroup.code` as `Equivalent`.
+This element can be used to provide a code that captures the meaning of the request orchestration as a whole, as opposed to the code of the action element, which captures the meaning of the individual actions within the request orchestration.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.subject</td><td style="border-left-width: 0px">subject</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">RequestGroup.subject</td><td style="border-left-width: 0px">RequestGroup.subject</td><td>Element `RequestOrchestration.subject` is mapped to FHIR R4 element `RequestGroup.subject` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `RequestOrchestration.subject` with unmapped reference targets: CareTeam, Device, HealthcareService, Location, Organization, Practitioner, PractitionerRole, RelatedPerson.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.encounter</td><td style="border-left-width: 0px">encounter</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.encounter</td><td style="border-left-width: 0px">RequestGroup.encounter</td><td>Element `RequestOrchestration.encounter` is mapped to FHIR R4 element `RequestGroup.encounter` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.authoredOn</td><td style="border-left-width: 0px">authoredOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.authoredOn</td><td style="border-left-width: 0px">RequestGroup.authoredOn</td><td>Element `RequestOrchestration.authoredOn` is mapped to FHIR R4 element `RequestGroup.authoredOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.author</td><td style="border-left-width: 0px">author</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.author</td><td style="border-left-width: 0px">RequestGroup.author</td><td>Element `RequestOrchestration.author` is mapped to FHIR R4 element `RequestGroup.author` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">RequestOrchestration.reason</td><td style="border-left-width: 0px; border-bottom-style: none">reason</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">RequestGroup.reasonCode</td><td style="border-left-width: 0px">RequestGroup.reasonCode</td><td>Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `RequestOrchestration.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">RequestGroup.reasonReference</td><td style="border-left-width: 0px">RequestGroup.reasonReference</td><td>Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `RequestOrchestration.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.note</td><td style="border-left-width: 0px">RequestGroup.note</td><td>Element `RequestOrchestration.note` is mapped to FHIR R4 element `RequestGroup.note` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action</td><td style="border-left-width: 0px">action</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">RequestGroup.action</td><td style="border-left-width: 0px">RequestGroup.action</td><td>Element `RequestOrchestration.action` is mapped to FHIR R4 element `RequestGroup.action` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.prefix</td><td style="border-left-width: 0px">prefix</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.prefix</td><td style="border-left-width: 0px">RequestGroup.action.prefix</td><td>Element `RequestOrchestration.action.prefix` is mapped to FHIR R4 element `RequestGroup.action.prefix` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.title</td><td style="border-left-width: 0px">title</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.title</td><td style="border-left-width: 0px">RequestGroup.action.title</td><td>Element `RequestOrchestration.action.title` is mapped to FHIR R4 element `RequestGroup.action.title` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.description</td><td style="border-left-width: 0px">description</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.description</td><td style="border-left-width: 0px">RequestGroup.action.description</td><td>Element `RequestOrchestration.action.description` is mapped to FHIR R4 element `RequestGroup.action.description` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.textEquivalent</td><td style="border-left-width: 0px">textEquivalent</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.textEquivalent</td><td style="border-left-width: 0px">RequestGroup.action.textEquivalent</td><td>Element `RequestOrchestration.action.textEquivalent` is mapped to FHIR R4 element `RequestGroup.action.textEquivalent` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.priority</td><td style="border-left-width: 0px">priority</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.priority</td><td style="border-left-width: 0px">RequestGroup.action.priority</td><td>Element `RequestOrchestration.action.priority` is mapped to FHIR R4 element `RequestGroup.action.priority` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.code</td><td style="border-left-width: 0px">code</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.code</td><td style="border-left-width: 0px">RequestGroup.action.code</td><td>Element `RequestOrchestration.action.code` is mapped to FHIR R4 element `RequestGroup.action.code` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.documentation</td><td style="border-left-width: 0px">documentation</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.documentation</td><td style="border-left-width: 0px">RequestGroup.action.documentation</td><td>Element `RequestOrchestration.action.documentation` is mapped to FHIR R4 element `RequestGroup.action.documentation` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.condition</td><td style="border-left-width: 0px">condition</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">RequestGroup.action.condition</td><td style="border-left-width: 0px">RequestGroup.action.condition</td><td>Element `RequestOrchestration.action.condition` is mapped to FHIR R4 element `RequestGroup.action.condition` as `Equivalent`.
+When multiple conditions of the same kind are present, the effects are combined using AND semantics, so the overall condition is true only if all of the conditions are true.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.condition.kind</td><td style="border-left-width: 0px">kind</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.condition.kind</td><td style="border-left-width: 0px">RequestGroup.action.condition.kind</td><td>Element `RequestOrchestration.action.condition.kind` is mapped to FHIR R4 element `RequestGroup.action.condition.kind` as `Equivalent`.
+Applicability criteria are used to determine immediate applicability when a plan definition is applied to a given context. Start and stop criteria are carried through application and used to describe enter/exit criteria for an action.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.condition.expression</td><td style="border-left-width: 0px">expression</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.condition.expression</td><td style="border-left-width: 0px">RequestGroup.action.condition.expression</td><td>Element `RequestOrchestration.action.condition.expression` is mapped to FHIR R4 element `RequestGroup.action.condition.expression` as `Equivalent`.
+The expression may be inlined, or may be a reference to a named expression within a logic library referenced by the library element.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.relatedAction</td><td style="border-left-width: 0px">relatedAction</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">RequestGroup.action.relatedAction</td><td style="border-left-width: 0px">RequestGroup.action.relatedAction</td><td>Element `RequestOrchestration.action.relatedAction` is mapped to FHIR R4 element `RequestGroup.action.relatedAction` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.relatedAction.targetId</td><td style="border-left-width: 0px">targetId</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.relatedAction.actionId</td><td style="border-left-width: 0px">RequestGroup.action.relatedAction.actionId</td><td>Element `RequestOrchestration.action.relatedAction.targetId` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.actionId` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.relatedAction.relationship</td><td style="border-left-width: 0px">relationship</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.relatedAction.relationship</td><td style="border-left-width: 0px">RequestGroup.action.relatedAction.relationship</td><td>Element `RequestOrchestration.action.relatedAction.relationship` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.relationship` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.relatedAction.offset[x]</td><td style="border-left-width: 0px">offset[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.relatedAction.offset[x]</td><td style="border-left-width: 0px">RequestGroup.action.relatedAction.offset[x]</td><td>Element `RequestOrchestration.action.relatedAction.offset[x]` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.offset[x]` as `Equivalent`.
+The target context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.timing[x]</td><td style="border-left-width: 0px">timing[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.timing[x]</td><td style="border-left-width: 0px">RequestGroup.action.timing[x]</td><td>Element `RequestOrchestration.action.timing[x]` is mapped to FHIR R4 element `RequestGroup.action.timing[x]` as `Equivalent`.
+The target context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.
+The intent of the timing element is to provide timing for when the action should be performed. The timing may be absolute (specified as a dateTime or Period) or relative (specified as an Age, Duration, or Range), or it may be a more complex, potentially repeating timing specified using Timing.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.participant</td><td style="border-left-width: 0px">participant</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">RequestGroup.action.participant</td><td style="border-left-width: 0px">RequestGroup.action.participant</td><td>Element `RequestOrchestration.action.participant` is mapped to FHIR R4 element `RequestGroup.action.participant` as `Equivalent`.
+Because request orchestrations represent potential options for performing activities, some specific participants may still be unknown, so this element allows for both definitional participants (in the same way they are specified in ActivityDefinition and PlanDefinition resources) as well as identifying specific participants when they are known.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.type</td><td style="border-left-width: 0px">type</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.type</td><td style="border-left-width: 0px">RequestGroup.action.type</td><td>Element `RequestOrchestration.action.type` is mapped to FHIR R4 element `RequestGroup.action.type` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.groupingBehavior</td><td style="border-left-width: 0px">groupingBehavior</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.groupingBehavior</td><td style="border-left-width: 0px">RequestGroup.action.groupingBehavior</td><td>Element `RequestOrchestration.action.groupingBehavior` is mapped to FHIR R4 element `RequestGroup.action.groupingBehavior` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.selectionBehavior</td><td style="border-left-width: 0px">selectionBehavior</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.selectionBehavior</td><td style="border-left-width: 0px">RequestGroup.action.selectionBehavior</td><td>Element `RequestOrchestration.action.selectionBehavior` is mapped to FHIR R4 element `RequestGroup.action.selectionBehavior` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.requiredBehavior</td><td style="border-left-width: 0px">requiredBehavior</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.requiredBehavior</td><td style="border-left-width: 0px">RequestGroup.action.requiredBehavior</td><td>Element `RequestOrchestration.action.requiredBehavior` is mapped to FHIR R4 element `RequestGroup.action.requiredBehavior` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.precheckBehavior</td><td style="border-left-width: 0px">precheckBehavior</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.precheckBehavior</td><td style="border-left-width: 0px">RequestGroup.action.precheckBehavior</td><td>Element `RequestOrchestration.action.precheckBehavior` is mapped to FHIR R4 element `RequestGroup.action.precheckBehavior` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.cardinalityBehavior</td><td style="border-left-width: 0px">cardinalityBehavior</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.cardinalityBehavior</td><td style="border-left-width: 0px">RequestGroup.action.cardinalityBehavior</td><td>Element `RequestOrchestration.action.cardinalityBehavior` is mapped to FHIR R4 element `RequestGroup.action.cardinalityBehavior` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.resource</td><td style="border-left-width: 0px">resource</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.resource</td><td style="border-left-width: 0px">RequestGroup.action.resource</td><td>Element `RequestOrchestration.action.resource` is mapped to FHIR R4 element `RequestGroup.action.resource` as `Equivalent`.
+The target resource SHALL be a [Request](https://hl7.org/fhir/request.html) resource with a Request.intent set to &quot;option&quot;.</td></tr><tr><td style="border-right-width: 0px">RequestOrchestration.action.action</td><td style="border-left-width: 0px">action</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">RequestGroup.action.action</td><td style="border-left-width: 0px">RequestGroup.action.action</td><td>Element `RequestOrchestration.action.action` is mapped to FHIR R4 element `RequestGroup.action.action` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/RequestOrchestration|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>RequestOrchestration.subject (subject)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/RequestOrchestration|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>RequestOrchestration.reason (reason)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.reason</td><td>Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference` as `SourceIsBroaderThanTarget`.
+The mappings for `RequestOrchestration.reason` do not cover the following types: CodeableReference.</td></tr><tr><td>RequestOrchestration.goal (goal)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.goal</td><td>Element `RequestOrchestration.goal` has a context of RequestGroup based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.goal` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.linkId (linkId)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.linkId</td><td>Element `RequestOrchestration.action.linkId` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.goal (goal)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.goal</td><td>Element `RequestOrchestration.action.goal` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.goal` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.input (input)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input</td><td>Element `RequestOrchestration.action.input` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.input` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.input.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:title</td><td>Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.
+Element `RequestOrchestration.action.input.title` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.input.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.input.requirement (requirement)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:requirement</td><td>Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.
+Element `RequestOrchestration.action.input.requirement` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.input.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.input.relatedData (relatedData)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:relatedData</td><td>Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.
+Element `RequestOrchestration.action.input.relatedData` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.input.relatedData` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action</td></tr><tr><td>RequestOrchestration.action.output (output)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output</td><td>Element `RequestOrchestration.action.output` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.output` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.output.title (title)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:title</td><td>Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.
+Element `RequestOrchestration.action.output.title` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.output.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.output.requirement (requirement)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:requirement</td><td>Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.
+Element `RequestOrchestration.action.output.requirement` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.output.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.output.relatedData (relatedData)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:relatedData</td><td>Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.
+Element `RequestOrchestration.action.output.relatedData` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.output.relatedData` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action</td></tr><tr><td>RequestOrchestration.action.relatedAction.endRelationship (endRelationship)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.relatedAction.endRelationship</td><td>Element `RequestOrchestration.action.relatedAction.endRelationship` has a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.relatedAction.endRelationship` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.location (location)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.location</td><td>Element `RequestOrchestration.action.location` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+May reference a specific clinical location or may just identify a type of location.</td></tr><tr><td>RequestOrchestration.action.participant.type (type)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.type</td><td>Element `RequestOrchestration.action.participant.type` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.participant.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.participant.typeCanonical (typeCanonical)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.typeCanonical</td><td>Element `RequestOrchestration.action.participant.typeCanonical` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.participant.typeCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.participant.typeReference (typeReference)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.typeReference</td><td>Element `RequestOrchestration.action.participant.typeReference` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.participant.typeReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).</td></tr><tr><td>RequestOrchestration.action.participant.role (role)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.role</td><td>Element `RequestOrchestration.action.participant.role` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.participant.role` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.participant.function (function)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.function</td><td>Element `RequestOrchestration.action.participant.function` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.participant.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.participant.actor[x] (actor[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.actor</td><td>Element `RequestOrchestration.action.participant.actor[x]` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.participant.actor[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>RequestOrchestration.action.definition[x] (definition[x])</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.definition</td><td>Element `RequestOrchestration.action.definition[x]` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.definition[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically.</td></tr><tr><td>RequestOrchestration.action.transform (transform)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.transform</td><td>Element `RequestOrchestration.action.transform` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.transform` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.</td></tr><tr><td>RequestOrchestration.action.dynamicValue (dynamicValue)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue</td><td>Element `RequestOrchestration.action.dynamicValue` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.dynamicValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.</td></tr><tr><td>RequestOrchestration.action.dynamicValue.path (path)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue:path</td><td>Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.
+Element `RequestOrchestration.action.dynamicValue.path` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.dynamicValue.path` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.</td></tr><tr><td>RequestOrchestration.action.dynamicValue.expression (expression)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue:expression</td><td>Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.
+Element `RequestOrchestration.action.dynamicValue.expression` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.
+Element `RequestOrchestration.action.dynamicValue.expression` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-RequestOrchestration-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5RequestOrchestrationElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 RequestOrchestration to FHIR R4 RequestGroup"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:51.3453567-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 RequestOrchestration to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/RequestOrchestration"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/RequestGroup"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="RequestOrchestration.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="RequestGroup.meta"/>
+        <display value="RequestGroup.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.meta` is mapped to FHIR R4 element `RequestGroup.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="RequestGroup.implicitRules"/>
+        <display value="RequestGroup.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.implicitRules` is mapped to FHIR R4 element `RequestGroup.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.language"/>
+      <display value="language"/>
+      <target>
+        <code value="RequestGroup.language"/>
+        <display value="RequestGroup.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.language` is mapped to FHIR R4 element `RequestGroup.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.text"/>
+      <display value="text"/>
+      <target>
+        <code value="RequestGroup.text"/>
+        <display value="RequestGroup.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.text` is mapped to FHIR R4 element `RequestGroup.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="RequestGroup.contained"/>
+        <display value="RequestGroup.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.contained` is mapped to FHIR R4 element `RequestGroup.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="RequestGroup.identifier"/>
+        <display value="RequestGroup.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.identifier` is mapped to FHIR R4 element `RequestGroup.identifier` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.instantiatesCanonical"/>
+      <display value="instantiatesCanonical"/>
+      <target>
+        <code value="RequestGroup.instantiatesCanonical"/>
+        <display value="RequestGroup.instantiatesCanonical"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.instantiatesCanonical` is mapped to FHIR R4 element `RequestGroup.instantiatesCanonical` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.instantiatesUri"/>
+      <display value="instantiatesUri"/>
+      <target>
+        <code value="RequestGroup.instantiatesUri"/>
+        <display value="RequestGroup.instantiatesUri"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.instantiatesUri` is mapped to FHIR R4 element `RequestGroup.instantiatesUri` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="RequestGroup.basedOn"/>
+        <display value="RequestGroup.basedOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.basedOn` is mapped to FHIR R4 element `RequestGroup.basedOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.replaces"/>
+      <display value="replaces"/>
+      <target>
+        <code value="RequestGroup.replaces"/>
+        <display value="RequestGroup.replaces"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.replaces` is mapped to FHIR R4 element `RequestGroup.replaces` as `Equivalent`.&#xA;The replacement could be because the initial request was immediately rejected (due to an issue) or because the previous request was completed, but the need for the action described by the request remains ongoing."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.groupIdentifier"/>
+      <display value="groupIdentifier"/>
+      <target>
+        <code value="RequestGroup.groupIdentifier"/>
+        <display value="RequestGroup.groupIdentifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.groupIdentifier` is mapped to FHIR R4 element `RequestGroup.groupIdentifier` as `Equivalent`.&#xA;Requests are linked either by a &quot;basedOn&quot; relationship (i.e. one request is fulfilling another) or by having a common requisition.  Requests that are part of the same requisition are generally treated independently from the perspective of changing their state or maintaining them after initial creation."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.status"/>
+      <display value="status"/>
+      <target>
+        <code value="RequestGroup.status"/>
+        <display value="RequestGroup.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.status` is mapped to FHIR R4 element `RequestGroup.status` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.intent"/>
+      <display value="intent"/>
+      <target>
+        <code value="RequestGroup.intent"/>
+        <display value="RequestGroup.intent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.intent` is mapped to FHIR R4 element `RequestGroup.intent` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="RequestGroup.priority"/>
+        <display value="RequestGroup.priority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.priority` is mapped to FHIR R4 element `RequestGroup.priority` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.code"/>
+      <display value="code"/>
+      <target>
+        <code value="RequestGroup.code"/>
+        <display value="RequestGroup.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.code` is mapped to FHIR R4 element `RequestGroup.code` as `Equivalent`.&#xA;This element can be used to provide a code that captures the meaning of the request orchestration as a whole, as opposed to the code of the action element, which captures the meaning of the individual actions within the request orchestration."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="RequestGroup.subject"/>
+        <display value="RequestGroup.subject"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.subject` is mapped to FHIR R4 element `RequestGroup.subject` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `RequestOrchestration.subject` with unmapped reference targets: CareTeam, Device, HealthcareService, Location, Organization, Practitioner, PractitionerRole, RelatedPerson."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="RequestGroup.encounter"/>
+        <display value="RequestGroup.encounter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.encounter` is mapped to FHIR R4 element `RequestGroup.encounter` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.authoredOn"/>
+      <display value="authoredOn"/>
+      <target>
+        <code value="RequestGroup.authoredOn"/>
+        <display value="RequestGroup.authoredOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.authoredOn` is mapped to FHIR R4 element `RequestGroup.authoredOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.author"/>
+      <display value="author"/>
+      <target>
+        <code value="RequestGroup.author"/>
+        <display value="RequestGroup.author"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.author` is mapped to FHIR R4 element `RequestGroup.author` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="RequestGroup.reasonCode"/>
+        <display value="RequestGroup.reasonCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `RequestOrchestration.reason` do not cover the following types: CodeableReference."/>
+      </target>
+      <target>
+        <code value="RequestGroup.reasonReference"/>
+        <display value="RequestGroup.reasonReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `RequestOrchestration.reason` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.note"/>
+      <display value="note"/>
+      <target>
+        <code value="RequestGroup.note"/>
+        <display value="RequestGroup.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.note` is mapped to FHIR R4 element `RequestGroup.note` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action"/>
+      <display value="action"/>
+      <target>
+        <code value="RequestGroup.action"/>
+        <display value="RequestGroup.action"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action` is mapped to FHIR R4 element `RequestGroup.action` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.prefix"/>
+      <display value="prefix"/>
+      <target>
+        <code value="RequestGroup.action.prefix"/>
+        <display value="RequestGroup.action.prefix"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.prefix` is mapped to FHIR R4 element `RequestGroup.action.prefix` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.title"/>
+      <display value="title"/>
+      <target>
+        <code value="RequestGroup.action.title"/>
+        <display value="RequestGroup.action.title"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.title` is mapped to FHIR R4 element `RequestGroup.action.title` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.description"/>
+      <display value="description"/>
+      <target>
+        <code value="RequestGroup.action.description"/>
+        <display value="RequestGroup.action.description"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.description` is mapped to FHIR R4 element `RequestGroup.action.description` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.textEquivalent"/>
+      <display value="textEquivalent"/>
+      <target>
+        <code value="RequestGroup.action.textEquivalent"/>
+        <display value="RequestGroup.action.textEquivalent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.textEquivalent` is mapped to FHIR R4 element `RequestGroup.action.textEquivalent` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="RequestGroup.action.priority"/>
+        <display value="RequestGroup.action.priority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.priority` is mapped to FHIR R4 element `RequestGroup.action.priority` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.code"/>
+      <display value="code"/>
+      <target>
+        <code value="RequestGroup.action.code"/>
+        <display value="RequestGroup.action.code"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.code` is mapped to FHIR R4 element `RequestGroup.action.code` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.documentation"/>
+      <display value="documentation"/>
+      <target>
+        <code value="RequestGroup.action.documentation"/>
+        <display value="RequestGroup.action.documentation"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.documentation` is mapped to FHIR R4 element `RequestGroup.action.documentation` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.condition"/>
+      <display value="condition"/>
+      <target>
+        <code value="RequestGroup.action.condition"/>
+        <display value="RequestGroup.action.condition"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.condition` is mapped to FHIR R4 element `RequestGroup.action.condition` as `Equivalent`.&#xA;When multiple conditions of the same kind are present, the effects are combined using AND semantics, so the overall condition is true only if all of the conditions are true."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.condition.kind"/>
+      <display value="kind"/>
+      <target>
+        <code value="RequestGroup.action.condition.kind"/>
+        <display value="RequestGroup.action.condition.kind"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.condition.kind` is mapped to FHIR R4 element `RequestGroup.action.condition.kind` as `Equivalent`.&#xA;Applicability criteria are used to determine immediate applicability when a plan definition is applied to a given context. Start and stop criteria are carried through application and used to describe enter/exit criteria for an action."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.condition.expression"/>
+      <display value="expression"/>
+      <target>
+        <code value="RequestGroup.action.condition.expression"/>
+        <display value="RequestGroup.action.condition.expression"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.condition.expression` is mapped to FHIR R4 element `RequestGroup.action.condition.expression` as `Equivalent`.&#xA;The expression may be inlined, or may be a reference to a named expression within a logic library referenced by the library element."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.relatedAction"/>
+      <display value="relatedAction"/>
+      <target>
+        <code value="RequestGroup.action.relatedAction"/>
+        <display value="RequestGroup.action.relatedAction"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.relatedAction` is mapped to FHIR R4 element `RequestGroup.action.relatedAction` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.relatedAction.targetId"/>
+      <display value="targetId"/>
+      <target>
+        <code value="RequestGroup.action.relatedAction.actionId"/>
+        <display value="RequestGroup.action.relatedAction.actionId"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.relatedAction.targetId` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.actionId` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.relatedAction.relationship"/>
+      <display value="relationship"/>
+      <target>
+        <code value="RequestGroup.action.relatedAction.relationship"/>
+        <display value="RequestGroup.action.relatedAction.relationship"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.relatedAction.relationship` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.relationship` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.relatedAction.offset[x]"/>
+      <display value="offset[x]"/>
+      <target>
+        <code value="RequestGroup.action.relatedAction.offset[x]"/>
+        <display value="RequestGroup.action.relatedAction.offset[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.relatedAction.offset[x]` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.offset[x]` as `Equivalent`.&#xA;The target context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.timing[x]"/>
+      <display value="timing[x]"/>
+      <target>
+        <code value="RequestGroup.action.timing[x]"/>
+        <display value="RequestGroup.action.timing[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.timing[x]` is mapped to FHIR R4 element `RequestGroup.action.timing[x]` as `Equivalent`.&#xA;The target context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.&#xA;The intent of the timing element is to provide timing for when the action should be performed. The timing may be absolute (specified as a dateTime or Period) or relative (specified as an Age, Duration, or Range), or it may be a more complex, potentially repeating timing specified using Timing."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant"/>
+      <display value="participant"/>
+      <target>
+        <code value="RequestGroup.action.participant"/>
+        <display value="RequestGroup.action.participant"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant` is mapped to FHIR R4 element `RequestGroup.action.participant` as `Equivalent`.&#xA;Because request orchestrations represent potential options for performing activities, some specific participants may still be unknown, so this element allows for both definitional participants (in the same way they are specified in ActivityDefinition and PlanDefinition resources) as well as identifying specific participants when they are known."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.type"/>
+      <display value="type"/>
+      <target>
+        <code value="RequestGroup.action.type"/>
+        <display value="RequestGroup.action.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.type` is mapped to FHIR R4 element `RequestGroup.action.type` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.groupingBehavior"/>
+      <display value="groupingBehavior"/>
+      <target>
+        <code value="RequestGroup.action.groupingBehavior"/>
+        <display value="RequestGroup.action.groupingBehavior"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.groupingBehavior` is mapped to FHIR R4 element `RequestGroup.action.groupingBehavior` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.selectionBehavior"/>
+      <display value="selectionBehavior"/>
+      <target>
+        <code value="RequestGroup.action.selectionBehavior"/>
+        <display value="RequestGroup.action.selectionBehavior"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.selectionBehavior` is mapped to FHIR R4 element `RequestGroup.action.selectionBehavior` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.requiredBehavior"/>
+      <display value="requiredBehavior"/>
+      <target>
+        <code value="RequestGroup.action.requiredBehavior"/>
+        <display value="RequestGroup.action.requiredBehavior"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.requiredBehavior` is mapped to FHIR R4 element `RequestGroup.action.requiredBehavior` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.precheckBehavior"/>
+      <display value="precheckBehavior"/>
+      <target>
+        <code value="RequestGroup.action.precheckBehavior"/>
+        <display value="RequestGroup.action.precheckBehavior"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.precheckBehavior` is mapped to FHIR R4 element `RequestGroup.action.precheckBehavior` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.cardinalityBehavior"/>
+      <display value="cardinalityBehavior"/>
+      <target>
+        <code value="RequestGroup.action.cardinalityBehavior"/>
+        <display value="RequestGroup.action.cardinalityBehavior"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.cardinalityBehavior` is mapped to FHIR R4 element `RequestGroup.action.cardinalityBehavior` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.resource"/>
+      <display value="resource"/>
+      <target>
+        <code value="RequestGroup.action.resource"/>
+        <display value="RequestGroup.action.resource"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.resource` is mapped to FHIR R4 element `RequestGroup.action.resource` as `Equivalent`.&#xA;The target resource SHALL be a [Request](https://hl7.org/fhir/request.html) resource with a Request.intent set to &quot;option&quot;."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.action"/>
+      <display value="action"/>
+      <target>
+        <code value="RequestGroup.action.action"/>
+        <display value="RequestGroup.action.action"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `RequestOrchestration.action.action` is mapped to FHIR R4 element `RequestGroup.action.action` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/RequestOrchestration"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="RequestOrchestration.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/RequestOrchestration"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="RequestOrchestration.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.reason"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `RequestOrchestration.reason` is mapped to FHIR R4 element `RequestGroup.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `RequestOrchestration.reason` do not cover the following types: CodeableReference."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.goal"/>
+      <display value="goal"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.goal"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.goal` has a context of RequestGroup based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.goal` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.linkId"/>
+      <display value="linkId"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.linkId"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.linkId` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.linkId` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.goal"/>
+      <display value="goal"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.goal"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.goal` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.goal` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.input"/>
+      <display value="input"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.input` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.input` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.input.title"/>
+      <display value="title"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:title"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.title` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.input.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.input.requirement"/>
+      <display value="requirement"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:requirement"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.requirement` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.input.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.input.relatedData"/>
+      <display value="relatedData"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input:relatedData"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.input.relatedData` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.input.relatedData` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action"/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.output"/>
+      <display value="output"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.output` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.output` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.output.title"/>
+      <display value="title"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:title"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.output.title` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.output.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.output.requirement"/>
+      <display value="requirement"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:requirement"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.output.requirement` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.output.requirement` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.output.relatedData"/>
+      <display value="relatedData"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output:relatedData"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.output.relatedData` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.output.relatedData` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action"/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.relatedAction.endRelationship"/>
+      <display value="endRelationship"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.relatedAction.endRelationship"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.relatedAction.endRelationship` has a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.relatedAction.endRelationship` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.location"/>
+      <display value="location"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.location"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.location` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.location` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;May reference a specific clinical location or may just identify a type of location."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.type"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant.type` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.participant.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant.typeCanonical"/>
+      <display value="typeCanonical"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.typeCanonical"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant.typeCanonical` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.participant.typeCanonical` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant.typeReference"/>
+      <display value="typeReference"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.typeReference"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant.typeReference` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.participant.typeReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant.role"/>
+      <display value="role"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.role"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant.role` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.participant.role` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant.function"/>
+      <display value="function"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.function"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant.function` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.participant.function` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.participant.actor[x]"/>
+      <display value="actor[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.actor"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.participant.actor[x]` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.participant.actor[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.definition[x]"/>
+      <display value="definition[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.definition"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.definition[x]` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.definition[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.transform"/>
+      <display value="transform"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.transform"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.transform` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.transform` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.dynamicValue"/>
+      <display value="dynamicValue"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.dynamicValue` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.dynamicValue` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.dynamicValue.path"/>
+      <display value="path"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue:path"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.dynamicValue.path` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.dynamicValue.path` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation."/>
+      </target>
+    </element>
+    <element>
+      <code value="RequestOrchestration.action.dynamicValue.expression"/>
+      <display value="expression"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue:expression"/>
+        <equivalence value="wider"/>
+        <comment value="Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.&#xA;Element `RequestOrchestration.action.dynamicValue.expression` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.&#xA;Element `RequestOrchestration.action.dynamicValue.expression` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

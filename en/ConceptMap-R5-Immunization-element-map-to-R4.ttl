@@ -1,0 +1,571 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Immunization-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Immunization-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Immunization-element-map-to-R4</b></p><a name=\"R5-Immunization-element-map-to-R4\"> </a><a name=\"hcR5-Immunization-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/immunization.html\">Immunizationversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Immunization|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Immunization.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.meta</td><td style=\"border-left-width: 0px\">Immunization.meta</td><td>Element `Immunization.meta` is mapped to FHIR R4 element `Immunization.meta` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.implicitRules</td><td style=\"border-left-width: 0px\">Immunization.implicitRules</td><td>Element `Immunization.implicitRules` is mapped to FHIR R4 element `Immunization.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.language</td><td style=\"border-left-width: 0px\">Immunization.language</td><td>Element `Immunization.language` is mapped to FHIR R4 element `Immunization.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.text</td><td style=\"border-left-width: 0px\">Immunization.text</td><td>Element `Immunization.text` is mapped to FHIR R4 element `Immunization.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.contained</td><td style=\"border-left-width: 0px\">Immunization.contained</td><td>Element `Immunization.contained` is mapped to FHIR R4 element `Immunization.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.identifier</td><td style=\"border-left-width: 0px\">Immunization.identifier</td><td>Element `Immunization.identifier` is mapped to FHIR R4 element `Immunization.identifier` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.status</td><td style=\"border-left-width: 0px\">Immunization.status</td><td>Element `Immunization.status` is mapped to FHIR R4 element `Immunization.status` as `Equivalent`.\nWill generally be set to show that the immunization has been completed or not done.  This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.statusReason</td><td style=\"border-left-width: 0px\">statusReason</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.statusReason</td><td style=\"border-left-width: 0px\">Immunization.statusReason</td><td>Element `Immunization.statusReason` is mapped to FHIR R4 element `Immunization.statusReason` as `Equivalent`.\nThis is generally only used for the status of \"not-done\". The reason for performing the immunization event is captured in reasonCode, not here.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.vaccineCode</td><td style=\"border-left-width: 0px\">vaccineCode</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.vaccineCode</td><td style=\"border-left-width: 0px\">Immunization.vaccineCode</td><td>Element `Immunization.vaccineCode` is mapped to FHIR R4 element `Immunization.vaccineCode` as `Equivalent`.\nThe code for the administered vaccine may be reported at various levels of granularity from a very generic code for a general type of vaccine (e.g. the SNOMED or CVX code for the flu vaccine) to a very discrete code for a specific product including the form and packaging (e.g. an NDC code). Because vaccineCode uses the CodeableConcept data type, multiple codes at different levels of granularity may be reported for a single immunization event provided that all codes are appropriate for the same vaccine. For example, both NDC and CVX codes may be provided for a given immunization event by repeating the coding element within vaccineCode.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Immunization.manufacturer</td><td style=\"border-left-width: 0px\">Immunization.manufacturer</td><td>Element `Immunization.manufacturer` is mapped to FHIR R4 element `Immunization.manufacturer` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.manufacturer` do not cover the following types: CodeableReference.\nThe mappings for `Immunization.manufacturer` do not cover the following types based on type expansion: concept.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.lotNumber</td><td style=\"border-left-width: 0px\">lotNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.lotNumber</td><td style=\"border-left-width: 0px\">Immunization.lotNumber</td><td>Element `Immunization.lotNumber` is mapped to FHIR R4 element `Immunization.lotNumber` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.expirationDate</td><td style=\"border-left-width: 0px\">expirationDate</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.expirationDate</td><td style=\"border-left-width: 0px\">Immunization.expirationDate</td><td>Element `Immunization.expirationDate` is mapped to FHIR R4 element `Immunization.expirationDate` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.patient</td><td style=\"border-left-width: 0px\">patient</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.patient</td><td style=\"border-left-width: 0px\">Immunization.patient</td><td>Element `Immunization.patient` is mapped to FHIR R4 element `Immunization.patient` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.encounter</td><td style=\"border-left-width: 0px\">Immunization.encounter</td><td>Element `Immunization.encounter` is mapped to FHIR R4 element `Immunization.encounter` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.occurrence[x]</td><td style=\"border-left-width: 0px\">occurrence[x]</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.occurrence[x]</td><td style=\"border-left-width: 0px\">Immunization.occurrence[x]</td><td>Element `Immunization.occurrence[x]` is mapped to FHIR R4 element `Immunization.occurrence[x]` as `Equivalent`.\nThe target context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.\nWhen immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given. An exact date is always preferable, but the use of the String data type is acceptable when an exact date is not known. A small number of vaccines (e.g. live oral typhoid vaccine) are given as a series of patient self-administered dose over a span of time. In cases like this, often, only the first dose (typically a provider supervised dose) is recorded with the occurrence indicating the date/time of the first dose.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.primarySource</td><td style=\"border-left-width: 0px\">primarySource</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.primarySource</td><td style=\"border-left-width: 0px\">Immunization.primarySource</td><td>Element `Immunization.primarySource` is mapped to FHIR R4 element `Immunization.primarySource` as `Equivalent`.\nReflects the “reliability” of the content.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.location</td><td style=\"border-left-width: 0px\">Immunization.location</td><td>Element `Immunization.location` is mapped to FHIR R4 element `Immunization.location` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.site</td><td style=\"border-left-width: 0px\">site</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.site</td><td style=\"border-left-width: 0px\">Immunization.site</td><td>Element `Immunization.site` is mapped to FHIR R4 element `Immunization.site` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.route</td><td style=\"border-left-width: 0px\">route</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.route</td><td style=\"border-left-width: 0px\">Immunization.route</td><td>Element `Immunization.route` is mapped to FHIR R4 element `Immunization.route` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.doseQuantity</td><td style=\"border-left-width: 0px\">doseQuantity</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.doseQuantity</td><td style=\"border-left-width: 0px\">Immunization.doseQuantity</td><td>Element `Immunization.doseQuantity` is mapped to FHIR R4 element `Immunization.doseQuantity` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.performer</td><td style=\"border-left-width: 0px\">performer</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Immunization.performer</td><td style=\"border-left-width: 0px\">Immunization.performer</td><td>Element `Immunization.performer` is mapped to FHIR R4 element `Immunization.performer` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.performer.function</td><td style=\"border-left-width: 0px\">function</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.performer.function</td><td style=\"border-left-width: 0px\">Immunization.performer.function</td><td>Element `Immunization.performer.function` is mapped to FHIR R4 element `Immunization.performer.function` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.performer.actor</td><td style=\"border-left-width: 0px\">actor</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Immunization.performer.actor</td><td style=\"border-left-width: 0px\">Immunization.performer.actor</td><td>Element `Immunization.performer.actor` is mapped to FHIR R4 element `Immunization.performer.actor` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Immunization.performer.actor` with unmapped reference targets: Patient, RelatedPerson.\nWhen the individual practitioner who performed the action is known, it is best to send.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.note</td><td style=\"border-left-width: 0px\">Immunization.note</td><td>Element `Immunization.note` is mapped to FHIR R4 element `Immunization.note` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Immunization.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Immunization.reasonCode</td><td style=\"border-left-width: 0px\">Immunization.reasonCode</td><td>Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"CodeSystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\">Immunization.reasonReference</td><td style=\"border-left-width: 0px\">Immunization.reasonReference</td><td>Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.reason` do not cover the following types: CodeableReference.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.isSubpotent</td><td style=\"border-left-width: 0px\">isSubpotent</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.isSubpotent</td><td style=\"border-left-width: 0px\">Immunization.isSubpotent</td><td>Element `Immunization.isSubpotent` is mapped to FHIR R4 element `Immunization.isSubpotent` as `Equivalent`.\nTypically, the recognition of the dose being sub-potent is retrospective, after the administration (ex. notification of a manufacturer recall after administration). However, in the case of a partial administration (the patient moves unexpectedly and only some of the dose is actually administered), subpotency may be recognized immediately, but it is still important to record the event.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.subpotentReason</td><td style=\"border-left-width: 0px\">subpotentReason</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.subpotentReason</td><td style=\"border-left-width: 0px\">Immunization.subpotentReason</td><td>Element `Immunization.subpotentReason` is mapped to FHIR R4 element `Immunization.subpotentReason` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.programEligibility</td><td style=\"border-left-width: 0px\">programEligibility</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Immunization.programEligibility</td><td style=\"border-left-width: 0px\">Immunization.programEligibility</td><td>Element `Immunization.programEligibility` is mapped to FHIR R4 element `Immunization.programEligibility` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.fundingSource</td><td style=\"border-left-width: 0px\">fundingSource</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.fundingSource</td><td style=\"border-left-width: 0px\">Immunization.fundingSource</td><td>Element `Immunization.fundingSource` is mapped to FHIR R4 element `Immunization.fundingSource` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction</td><td style=\"border-left-width: 0px\">reaction</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Immunization.reaction</td><td style=\"border-left-width: 0px\">Immunization.reaction</td><td>Element `Immunization.reaction` is mapped to FHIR R4 element `Immunization.reaction` as `Equivalent`.\nA reaction may be an indication of an allergy or intolerance and, if this is determined to be the case, it should be recorded as a new AllergyIntolerance resource instance as most systems will not query against past Immunization.reaction elements.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction.date</td><td style=\"border-left-width: 0px\">date</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.reaction.date</td><td style=\"border-left-width: 0px\">Immunization.reaction.date</td><td>Element `Immunization.reaction.date` is mapped to FHIR R4 element `Immunization.reaction.date` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction.manifestation</td><td style=\"border-left-width: 0px\">manifestation</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.reaction.detail</td><td style=\"border-left-width: 0px\">Immunization.reaction.detail</td><td>Element `Immunization.reaction.manifestation` is mapped to FHIR R4 element `Immunization.reaction.detail` as `SourceIsBroaderThanTarget`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction.reported</td><td style=\"border-left-width: 0px\">reported</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.reaction.reported</td><td style=\"border-left-width: 0px\">Immunization.reaction.reported</td><td>Element `Immunization.reaction.reported` is mapped to FHIR R4 element `Immunization.reaction.reported` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied</td><td style=\"border-left-width: 0px\">protocolApplied</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">Immunization.protocolApplied</td><td style=\"border-left-width: 0px\">Immunization.protocolApplied</td><td>Element `Immunization.protocolApplied` is mapped to FHIR R4 element `Immunization.protocolApplied` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.series</td><td style=\"border-left-width: 0px\">series</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.protocolApplied.series</td><td style=\"border-left-width: 0px\">Immunization.protocolApplied.series</td><td>Element `Immunization.protocolApplied.series` is mapped to FHIR R4 element `Immunization.protocolApplied.series` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.authority</td><td style=\"border-left-width: 0px\">authority</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.protocolApplied.authority</td><td style=\"border-left-width: 0px\">Immunization.protocolApplied.authority</td><td>Element `Immunization.protocolApplied.authority` is mapped to FHIR R4 element `Immunization.protocolApplied.authority` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.targetDisease</td><td style=\"border-left-width: 0px\">targetDisease</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.protocolApplied.targetDisease</td><td style=\"border-left-width: 0px\">Immunization.protocolApplied.targetDisease</td><td>Element `Immunization.protocolApplied.targetDisease` is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease` as `Equivalent`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.doseNumber</td><td style=\"border-left-width: 0px\">doseNumber</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.protocolApplied.doseNumber[x]</td><td style=\"border-left-width: 0px\">Immunization.protocolApplied.doseNumber[x]</td><td>Element `Immunization.protocolApplied.doseNumber` is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]` as `Equivalent`.\nThe target context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nThe use of an integer is preferred if known. Text should only be used in cases where an integer is not available (such as when documenting a recurring booster dose).</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.seriesDoses</td><td style=\"border-left-width: 0px\">seriesDoses</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">Immunization.protocolApplied.seriesDoses[x]</td><td style=\"border-left-width: 0px\">Immunization.protocolApplied.seriesDoses[x]</td><td>Element `Immunization.protocolApplied.seriesDoses` is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]` as `Equivalent`.\nThe target context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nThe use of an integer is preferred if known.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Immunization.basedOn (basedOn)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn</td><td>Element `Immunization.basedOn` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows tracing of an authorization for the Immunization.</td></tr><tr><td>Immunization.administeredProduct (administeredProduct)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.administeredProduct</td><td>Element `Immunization.administeredProduct` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.administeredProduct` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Immunization.manufacturer (manufacturer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.manufacturer</td><td>Element `Immunization.manufacturer` is mapped to FHIR R4 element `Immunization.manufacturer` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.manufacturer` do not cover the following types: CodeableReference.\nThe mappings for `Immunization.manufacturer` do not cover the following types based on type expansion: concept.</td></tr><tr><td>Immunization.supportingInformation (supportingInformation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.supportingInformation</td><td>Element `Immunization.supportingInformation` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.supportingInformation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Immunization.informationSource (informationSource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.informationSource</td><td>Element `Immunization.informationSource` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.informationSource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nTypically will not be populated if primarySource = True, not required even if primarySource = False.</td></tr><tr><td>Immunization.reason (reason)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reason</td><td>Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.reason` do not cover the following types: CodeableReference.</td></tr><tr><td>Immunization.programEligibility.program (program)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.program</td><td>Element `Immunization.programEligibility.program` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.programEligibility.program` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Immunization.programEligibility.programStatus (programStatus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.programStatus</td><td>Element `Immunization.programEligibility.programStatus` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.programEligibility.programStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Immunization.performer.actor (actor)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Immunization-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Immunization-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ImmunizationElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Immunization to FHIR R4 Immunization"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:49.1161909-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Immunization to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Immunization.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.meta" ] ;
+         fhir:display [ fhir:v "Immunization.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.meta` is mapped to FHIR R4 element `Immunization.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.implicitRules" ] ;
+         fhir:display [ fhir:v "Immunization.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.implicitRules` is mapped to FHIR R4 element `Immunization.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.language" ] ;
+         fhir:display [ fhir:v "Immunization.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.language` is mapped to FHIR R4 element `Immunization.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.text" ] ;
+         fhir:display [ fhir:v "Immunization.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.text` is mapped to FHIR R4 element `Immunization.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.contained" ] ;
+         fhir:display [ fhir:v "Immunization.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.contained` is mapped to FHIR R4 element `Immunization.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.identifier" ] ;
+         fhir:display [ fhir:v "Immunization.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.identifier` is mapped to FHIR R4 element `Immunization.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.status" ] ;
+         fhir:display [ fhir:v "Immunization.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.status` is mapped to FHIR R4 element `Immunization.status` as `Equivalent`.\nWill generally be set to show that the immunization has been completed or not done.  This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.statusReason" ] ;
+         fhir:display [ fhir:v "Immunization.statusReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.statusReason` is mapped to FHIR R4 element `Immunization.statusReason` as `Equivalent`.\nThis is generally only used for the status of \"not-done\". The reason for performing the immunization event is captured in reasonCode, not here." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.vaccineCode" ] ;
+       fhir:display [ fhir:v "vaccineCode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.vaccineCode" ] ;
+         fhir:display [ fhir:v "Immunization.vaccineCode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.vaccineCode` is mapped to FHIR R4 element `Immunization.vaccineCode` as `Equivalent`.\nThe code for the administered vaccine may be reported at various levels of granularity from a very generic code for a general type of vaccine (e.g. the SNOMED or CVX code for the flu vaccine) to a very discrete code for a specific product including the form and packaging (e.g. an NDC code). Because vaccineCode uses the CodeableConcept data type, multiple codes at different levels of granularity may be reported for a single immunization event provided that all codes are appropriate for the same vaccine. For example, both NDC and CVX codes may be provided for a given immunization event by repeating the coding element within vaccineCode." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.manufacturer" ] ;
+         fhir:display [ fhir:v "Immunization.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.manufacturer` is mapped to FHIR R4 element `Immunization.manufacturer` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.manufacturer` do not cover the following types: CodeableReference.\nThe mappings for `Immunization.manufacturer` do not cover the following types based on type expansion: concept." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.lotNumber" ] ;
+       fhir:display [ fhir:v "lotNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.lotNumber" ] ;
+         fhir:display [ fhir:v "Immunization.lotNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.lotNumber` is mapped to FHIR R4 element `Immunization.lotNumber` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.expirationDate" ] ;
+       fhir:display [ fhir:v "expirationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.expirationDate" ] ;
+         fhir:display [ fhir:v "Immunization.expirationDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.expirationDate` is mapped to FHIR R4 element `Immunization.expirationDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.patient" ] ;
+         fhir:display [ fhir:v "Immunization.patient" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.patient` is mapped to FHIR R4 element `Immunization.patient` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.encounter" ] ;
+         fhir:display [ fhir:v "Immunization.encounter" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.encounter` is mapped to FHIR R4 element `Immunization.encounter` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.occurrence[x]" ] ;
+         fhir:display [ fhir:v "Immunization.occurrence[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.occurrence[x]` is mapped to FHIR R4 element `Immunization.occurrence[x]` as `Equivalent`.\nThe target context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.\nWhen immunizations are given a specific date and time should always be known.   When immunizations are patient reported, a specific date might not be known.  Although partial dates are allowed, an adult patient might not be able to recall the year a childhood immunization was given. An exact date is always preferable, but the use of the String data type is acceptable when an exact date is not known. A small number of vaccines (e.g. live oral typhoid vaccine) are given as a series of patient self-administered dose over a span of time. In cases like this, often, only the first dose (typically a provider supervised dose) is recorded with the occurrence indicating the date/time of the first dose." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.primarySource" ] ;
+       fhir:display [ fhir:v "primarySource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.primarySource" ] ;
+         fhir:display [ fhir:v "Immunization.primarySource" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.primarySource` is mapped to FHIR R4 element `Immunization.primarySource` as `Equivalent`.\nReflects the “reliability” of the content." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.location" ] ;
+         fhir:display [ fhir:v "Immunization.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.location` is mapped to FHIR R4 element `Immunization.location` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.site" ] ;
+       fhir:display [ fhir:v "site" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.site" ] ;
+         fhir:display [ fhir:v "Immunization.site" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.site` is mapped to FHIR R4 element `Immunization.site` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.route" ] ;
+       fhir:display [ fhir:v "route" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.route" ] ;
+         fhir:display [ fhir:v "Immunization.route" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.route` is mapped to FHIR R4 element `Immunization.route` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.doseQuantity" ] ;
+       fhir:display [ fhir:v "doseQuantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.doseQuantity" ] ;
+         fhir:display [ fhir:v "Immunization.doseQuantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.doseQuantity` is mapped to FHIR R4 element `Immunization.doseQuantity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.performer" ] ;
+         fhir:display [ fhir:v "Immunization.performer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer` is mapped to FHIR R4 element `Immunization.performer` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.performer.function" ] ;
+         fhir:display [ fhir:v "Immunization.performer.function" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer.function` is mapped to FHIR R4 element `Immunization.performer.function` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.performer.actor" ] ;
+         fhir:display [ fhir:v "Immunization.performer.actor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer.actor` is mapped to FHIR R4 element `Immunization.performer.actor` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Immunization.performer.actor` with unmapped reference targets: Patient, RelatedPerson.\nWhen the individual practitioner who performed the action is known, it is best to send." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.note" ] ;
+         fhir:display [ fhir:v "Immunization.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.note` is mapped to FHIR R4 element `Immunization.note` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.reasonCode" ] ;
+         fhir:display [ fhir:v "Immunization.reasonCode" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.reason` do not cover the following types: CodeableReference." ]
+       ] [
+         fhir:code [ fhir:v "Immunization.reasonReference" ] ;
+         fhir:display [ fhir:v "Immunization.reasonReference" ] ;
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.isSubpotent" ] ;
+       fhir:display [ fhir:v "isSubpotent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.isSubpotent" ] ;
+         fhir:display [ fhir:v "Immunization.isSubpotent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.isSubpotent` is mapped to FHIR R4 element `Immunization.isSubpotent` as `Equivalent`.\nTypically, the recognition of the dose being sub-potent is retrospective, after the administration (ex. notification of a manufacturer recall after administration). However, in the case of a partial administration (the patient moves unexpectedly and only some of the dose is actually administered), subpotency may be recognized immediately, but it is still important to record the event." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.subpotentReason" ] ;
+       fhir:display [ fhir:v "subpotentReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.subpotentReason" ] ;
+         fhir:display [ fhir:v "Immunization.subpotentReason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.subpotentReason` is mapped to FHIR R4 element `Immunization.subpotentReason` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility" ] ;
+       fhir:display [ fhir:v "programEligibility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.programEligibility" ] ;
+         fhir:display [ fhir:v "Immunization.programEligibility" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility` is mapped to FHIR R4 element `Immunization.programEligibility` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.fundingSource" ] ;
+       fhir:display [ fhir:v "fundingSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.fundingSource" ] ;
+         fhir:display [ fhir:v "Immunization.fundingSource" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.fundingSource` is mapped to FHIR R4 element `Immunization.fundingSource` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction" ] ;
+       fhir:display [ fhir:v "reaction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.reaction" ] ;
+         fhir:display [ fhir:v "Immunization.reaction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction` is mapped to FHIR R4 element `Immunization.reaction` as `Equivalent`.\nA reaction may be an indication of an allergy or intolerance and, if this is determined to be the case, it should be recorded as a new AllergyIntolerance resource instance as most systems will not query against past Immunization.reaction elements." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.reaction.date" ] ;
+         fhir:display [ fhir:v "Immunization.reaction.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.date` is mapped to FHIR R4 element `Immunization.reaction.date` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.manifestation" ] ;
+       fhir:display [ fhir:v "manifestation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.reaction.detail" ] ;
+         fhir:display [ fhir:v "Immunization.reaction.detail" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.manifestation` is mapped to FHIR R4 element `Immunization.reaction.detail` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.reported" ] ;
+       fhir:display [ fhir:v "reported" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.reaction.reported" ] ;
+         fhir:display [ fhir:v "Immunization.reaction.reported" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.reported` is mapped to FHIR R4 element `Immunization.reaction.reported` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied" ] ;
+       fhir:display [ fhir:v "protocolApplied" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.protocolApplied" ] ;
+         fhir:display [ fhir:v "Immunization.protocolApplied" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied` is mapped to FHIR R4 element `Immunization.protocolApplied` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.series" ] ;
+       fhir:display [ fhir:v "series" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.protocolApplied.series" ] ;
+         fhir:display [ fhir:v "Immunization.protocolApplied.series" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.series` is mapped to FHIR R4 element `Immunization.protocolApplied.series` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.authority" ] ;
+       fhir:display [ fhir:v "authority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.protocolApplied.authority" ] ;
+         fhir:display [ fhir:v "Immunization.protocolApplied.authority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.authority` is mapped to FHIR R4 element `Immunization.protocolApplied.authority` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.targetDisease" ] ;
+       fhir:display [ fhir:v "targetDisease" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.protocolApplied.targetDisease" ] ;
+         fhir:display [ fhir:v "Immunization.protocolApplied.targetDisease" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.targetDisease` is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.doseNumber" ] ;
+       fhir:display [ fhir:v "doseNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.protocolApplied.doseNumber[x]" ] ;
+         fhir:display [ fhir:v "Immunization.protocolApplied.doseNumber[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.doseNumber` is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]` as `Equivalent`.\nThe target context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nThe use of an integer is preferred if known. Text should only be used in cases where an integer is not available (such as when documenting a recurring booster dose)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.seriesDoses" ] ;
+       fhir:display [ fhir:v "seriesDoses" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Immunization.protocolApplied.seriesDoses[x]" ] ;
+         fhir:display [ fhir:v "Immunization.protocolApplied.seriesDoses[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.seriesDoses` is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]` as `Equivalent`.\nThe target context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nThe use of an integer is preferred if known." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Immunization.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.basedOn" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.basedOn` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows tracing of an authorization for the Immunization." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.administeredProduct" ] ;
+       fhir:display [ fhir:v "administeredProduct" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.administeredProduct" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.administeredProduct` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.administeredProduct` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.manufacturer` is mapped to FHIR R4 element `Immunization.manufacturer` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.manufacturer` do not cover the following types: CodeableReference.\nThe mappings for `Immunization.manufacturer` do not cover the following types based on type expansion: concept." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.supportingInformation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.supportingInformation` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.supportingInformation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.informationSource" ] ;
+       fhir:display [ fhir:v "informationSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.informationSource" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.informationSource` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.informationSource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nTypically will not be populated if primarySource = True, not required even if primarySource = False." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode` as `SourceIsBroaderThanTarget`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference` as `SourceIsBroaderThanTarget`.\nThe mappings for `Immunization.reason` do not cover the following types: CodeableReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility.program" ] ;
+       fhir:display [ fhir:v "program" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.program" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility.program` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.programEligibility.program` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility.programStatus" ] ;
+       fhir:display [ fhir:v "programStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.programStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility.programStatus` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.\nElement `Immunization.programEligibility.programStatus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Immunization.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,584 @@
+# R5AuditEventElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5AuditEventElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 AuditEvent to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-AuditEvent-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-AuditEvent-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5AuditEventElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 AuditEvent to FHIR R4 AuditEvent",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:46.3893255-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 AuditEvent to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/AuditEvent",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/AuditEvent",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "AuditEvent.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "AuditEvent.meta",
+        "display" : "AuditEvent.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.meta` is mapped to FHIR R4 element `AuditEvent.meta` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "AuditEvent.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "AuditEvent.implicitRules",
+        "display" : "AuditEvent.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.implicitRules` is mapped to FHIR R4 element `AuditEvent.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "AuditEvent.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "AuditEvent.language",
+        "display" : "AuditEvent.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.language` is mapped to FHIR R4 element `AuditEvent.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "AuditEvent.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "AuditEvent.text",
+        "display" : "AuditEvent.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.text` is mapped to FHIR R4 element `AuditEvent.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "AuditEvent.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "AuditEvent.contained",
+        "display" : "AuditEvent.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.contained` is mapped to FHIR R4 element `AuditEvent.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "AuditEvent.category",
+      "display" : "category",
+      "target" : [{
+        "code" : "AuditEvent.type",
+        "display" : "AuditEvent.type",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.category` is mapped to FHIR R4 element `AuditEvent.type` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.category` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.category` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "AuditEvent.subtype",
+        "display" : "AuditEvent.subtype",
+        "equivalence" : "relatedto",
+        "comment" : "Element `AuditEvent.code` is mapped to FHIR R4 element `AuditEvent.subtype` as `RelatedTo`.\nThe mappings for `AuditEvent.code` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.code` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.action",
+      "display" : "action",
+      "target" : [{
+        "code" : "AuditEvent.action",
+        "display" : "AuditEvent.action",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.action` is mapped to FHIR R4 element `AuditEvent.action` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "AuditEvent.occurred[x]",
+      "display" : "occurred[x]",
+      "target" : [{
+        "code" : "AuditEvent.period",
+        "display" : "AuditEvent.period",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.occurred[x]` is mapped to FHIR R4 element `AuditEvent.period` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.occurred[x]` do not cover the following types: dateTime.\nThe mappings for `AuditEvent.occurred[x]` do not cover the following types based on type expansion: value.\nThe time or period can be a little arbitrary; where possible, the time should correspond to human assessment of the activity time."
+      }]
+    },
+    {
+      "code" : "AuditEvent.recorded",
+      "display" : "recorded",
+      "target" : [{
+        "code" : "AuditEvent.recorded",
+        "display" : "AuditEvent.recorded",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.recorded` is mapped to FHIR R4 element `AuditEvent.recorded` as `Equivalent`.\nIn a distributed system, some sort of common time base (e.g. an NTP [RFC1305] server) is a good implementation tactic."
+      }]
+    },
+    {
+      "code" : "AuditEvent.outcome",
+      "display" : "outcome",
+      "target" : [{
+        "code" : "AuditEvent.outcome",
+        "display" : "AuditEvent.outcome",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.outcome` is mapped to FHIR R4 element `AuditEvent.outcome` as `Equivalent`.\nIn some cases a \"success\" may be partial, for example, an incomplete or interrupted transfer of a radiological study. For the purpose of establishing accountability, these distinctions are not relevant."
+      }]
+    },
+    {
+      "code" : "AuditEvent.authorization",
+      "display" : "authorization",
+      "target" : [{
+        "code" : "AuditEvent.purposeOfEvent",
+        "display" : "AuditEvent.purposeOfEvent",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.authorization` is mapped to FHIR R4 element `AuditEvent.purposeOfEvent` as `Equivalent`.\nUse AuditEvent.agent.authorization when you know that it is specific to the agent, otherwise use AuditEvent.authorization. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent",
+      "display" : "agent",
+      "target" : [{
+        "code" : "AuditEvent.agent",
+        "display" : "AuditEvent.agent",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.agent` is mapped to FHIR R4 element `AuditEvent.agent` as `Equivalent`.\nSeveral agents may be associated (i.e. have some responsibility for an activity) with an event or activity.\n\nFor example, an activity may be initiated by one user for other users or involve more than one user. However, only one user may be the initiator/requestor for the activity. \n\nWhen a network are used in an event being recorded, there should be distinct agent elements for the known actors using the network. The agent with a network detail would be the responsible agent for use of that network."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "AuditEvent.agent.type",
+        "display" : "AuditEvent.agent.type",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.type` is mapped to FHIR R4 element `AuditEvent.agent.type` as `Equivalent`.\nFor example: assembler, author, prescriber, signer, investigator, etc."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.role",
+      "display" : "role",
+      "target" : [{
+        "code" : "AuditEvent.agent.role",
+        "display" : "AuditEvent.agent.role",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.role` is mapped to FHIR R4 element `AuditEvent.agent.role` as `Equivalent`.\nFor example: Chief-of-Radiology, Nurse, Physician, Medical-Student, etc."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.who",
+      "display" : "who",
+      "target" : [{
+        "code" : "AuditEvent.agent.who",
+        "display" : "AuditEvent.agent.who",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `AuditEvent.agent.who` with unmapped reference targets: CareTeam.\nWhere a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.requestor",
+      "display" : "requestor",
+      "target" : [{
+        "code" : "AuditEvent.agent.requestor",
+        "display" : "AuditEvent.agent.requestor",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.requestor` is mapped to FHIR R4 element `AuditEvent.agent.requestor` as `Equivalent`.\nThere can only be one initiator. If the initiator is not clear, then do not choose any one agent as the initiator."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.location",
+      "display" : "location",
+      "target" : [{
+        "code" : "AuditEvent.agent.location",
+        "display" : "AuditEvent.agent.location",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.location` is mapped to FHIR R4 element `AuditEvent.agent.location` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.policy",
+      "display" : "policy",
+      "target" : [{
+        "code" : "AuditEvent.agent.policy",
+        "display" : "AuditEvent.agent.policy",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.policy` is mapped to FHIR R4 element `AuditEvent.agent.policy` as `Equivalent`.\nFor example: Where an OAuth token authorizes, the unique identifier from the OAuth token is placed into the policy element Where a policy engine (e.g. XACML) holds policy logic, the unique policy identifier is placed into the policy element."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.network[x]",
+      "display" : "network[x]",
+      "target" : [{
+        "code" : "AuditEvent.agent.network",
+        "display" : "AuditEvent.agent.network",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.network[x]` is mapped to FHIR R4 element `AuditEvent.agent.network` as `Equivalent`.\nWhen remote network endpoint is known, another agent representing the remote agent would indicate the remote network endpoint used. Convention is to indicate data flowing from Source to Destination. The convention for Search, given data flows both ways (query parameters vs results), is to have the Source as the initiator of the Search Transaction, and the Destination the responder to the Search transaction."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent.authorization",
+      "display" : "authorization",
+      "target" : [{
+        "code" : "AuditEvent.agent.purposeOfUse",
+        "display" : "AuditEvent.agent.purposeOfUse",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent.authorization` is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse` as `Equivalent`.\nUse AuditEvent.agent.authorization when you know that is specific to the agent, otherwise use AuditEvent.authorization. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why."
+      }]
+    },
+    {
+      "code" : "AuditEvent.source",
+      "display" : "source",
+      "target" : [{
+        "code" : "AuditEvent.source",
+        "display" : "AuditEvent.source",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.source` is mapped to FHIR R4 element `AuditEvent.source` as `Equivalent`.\nEvents are reported by the actor that detected them. This may be one of the participating actors, but may also be different. The actor may be a human such as a medical-records clerk disclosing data manually, that clerk would be the source for the record of disclosure."
+      }]
+    },
+    {
+      "code" : "AuditEvent.source.site",
+      "display" : "site",
+      "target" : [{
+        "code" : "AuditEvent.source.site",
+        "display" : "AuditEvent.source.site",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.source.site` is mapped to FHIR R4 element `AuditEvent.source.site` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.source.site` do not cover the following types: Reference.\nThe mappings for `AuditEvent.source.site` do not cover the following types based on type expansion: identifier."
+      }]
+    },
+    {
+      "code" : "AuditEvent.source.observer",
+      "display" : "observer",
+      "target" : [{
+        "code" : "AuditEvent.source.observer",
+        "display" : "AuditEvent.source.observer",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.source.observer` is mapped to FHIR R4 element `AuditEvent.source.observer` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `AuditEvent.source.observer` with unmapped reference targets: CareTeam."
+      }]
+    },
+    {
+      "code" : "AuditEvent.source.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "AuditEvent.source.type",
+        "display" : "AuditEvent.source.type",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.source.type` is mapped to FHIR R4 element `AuditEvent.source.type` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.source.type` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.source.type` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity",
+      "display" : "entity",
+      "target" : [{
+        "code" : "AuditEvent.entity",
+        "display" : "AuditEvent.entity",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity` is mapped to FHIR R4 element `AuditEvent.entity` as `Equivalent`.\nRequired unless the values for event identification, agent identification, and audit source identification are sufficient to document the entire auditable event. Because events may have more than one entity, this group can be a repeating set of values."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.what",
+      "display" : "what",
+      "target" : [{
+        "code" : "AuditEvent.entity.what",
+        "display" : "AuditEvent.entity.what",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.entity.what` is mapped to FHIR R4 element `AuditEvent.entity.what` as `Equivalent`.\nUse .what.display when all you have is a string (e.g. ParticipantObjectName)."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.role",
+      "display" : "role",
+      "target" : [{
+        "code" : "AuditEvent.entity.role",
+        "display" : "AuditEvent.entity.role",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity.role` is mapped to FHIR R4 element `AuditEvent.entity.role` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.role` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.entity.role` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.securityLabel",
+      "display" : "securityLabel",
+      "target" : [{
+        "code" : "AuditEvent.entity.securityLabel",
+        "display" : "AuditEvent.entity.securityLabel",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity.securityLabel` is mapped to FHIR R4 element `AuditEvent.entity.securityLabel` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.securityLabel` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.entity.securityLabel` do not cover the following types based on type expansion: text.\nCopied from entity meta security tags."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.query",
+      "display" : "query",
+      "target" : [{
+        "code" : "AuditEvent.entity.query",
+        "display" : "AuditEvent.entity.query",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.entity.query` is mapped to FHIR R4 element `AuditEvent.entity.query` as `Equivalent`.\nThe meaning and secondary-encoding of the content of base64 encoded blob is specific to the AuditEvent.type, AuditEvent.subtype, and AuditEvent.entity.role.  The base64 is a general-use and safe container for event specific data blobs regardless of the encoding used by the transaction being recorded.  An AuditEvent consuming application must understand the event it is consuming and the formats used by the event. For example, if auditing an Oracle network database access, the Oracle formats must be understood as they will be simply encoded in the base64binary blob.\n\nThe DICOM AuditMessage schema does not support both .name and .query being populated."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.detail",
+      "display" : "detail",
+      "target" : [{
+        "code" : "AuditEvent.entity.detail",
+        "display" : "AuditEvent.entity.detail",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity.detail` is mapped to FHIR R4 element `AuditEvent.entity.detail` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.detail.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "AuditEvent.entity.detail.type",
+        "display" : "AuditEvent.entity.detail.type",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity.detail.type` is mapped to FHIR R4 element `AuditEvent.entity.detail.type` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.detail.type` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.entity.detail.type` do not cover the following types based on type expansion: coding."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.detail.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "AuditEvent.entity.detail.value[x]",
+        "display" : "AuditEvent.entity.detail.value[x]",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity.detail.value[x]` is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.detail.value[x]` do not cover the following types: boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, time.\nThe target context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/AuditEvent",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "AuditEvent.category",
+      "display" : "category",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.category",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.category` is mapped to FHIR R4 element `AuditEvent.type` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.category` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.category` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.code",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.code` is mapped to FHIR R4 element `AuditEvent.subtype` as `RelatedTo`.\nThe mappings for `AuditEvent.code` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.code` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.severity",
+      "display" : "severity",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.severity",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.severity` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.severity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nATNA will map this to the SYSLOG PRI element."
+      }]
+    },
+    {
+      "code" : "AuditEvent.occurred[x]",
+      "display" : "occurred[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.occurred",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.occurred[x]` is mapped to FHIR R4 element `AuditEvent.period` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.occurred[x]` do not cover the following types: dateTime.\nThe mappings for `AuditEvent.occurred[x]` do not cover the following types based on type expansion: value.\nThe time or period can be a little arbitrary; where possible, the time should correspond to human assessment of the activity time."
+      }]
+    },
+    {
+      "code" : "AuditEvent.outcome.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.code",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.outcome.code` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.outcome.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIn some cases a \"success\" may be partial, for example, an incomplete or interrupted transfer of a radiological study. For the purpose of establishing accountability, these distinctions are not relevant."
+      }]
+    },
+    {
+      "code" : "AuditEvent.outcome.detail",
+      "display" : "detail",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.detail",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.outcome.detail` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.outcome.detail` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA human readable description of the error issue SHOULD be placed in details.text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.basedOn",
+      "display" : "basedOn",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.basedOn",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.basedOn` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "AuditEvent.patient",
+      "display" : "patient",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.patient",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.patient` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.patient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "AuditEvent.encounter",
+      "display" : "encounter",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.encounter",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.encounter` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "AuditEvent.agent",
+      "display" : "agent",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.agent` is mapped to FHIR R4 element `AuditEvent.agent` as `Equivalent`.\nSeveral agents may be associated (i.e. have some responsibility for an activity) with an event or activity.\n\nFor example, an activity may be initiated by one user for other users or involve more than one user. However, only one user may be the initiator/requestor for the activity. \n\nWhen a network are used in an event being recorded, there should be distinct agent elements for the known actors using the network. The agent with a network detail would be the responsible agent for use of that network."
+      }]
+    },
+    {
+      "code" : "AuditEvent.source.site",
+      "display" : "site",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.site",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.source.site` is mapped to FHIR R4 element `AuditEvent.source.site` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.source.site` do not cover the following types: Reference.\nThe mappings for `AuditEvent.source.site` do not cover the following types based on type expansion: identifier."
+      }]
+    },
+    {
+      "code" : "AuditEvent.source.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.type",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.source.type` is mapped to FHIR R4 element `AuditEvent.source.type` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.source.type` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.source.type` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.role",
+      "display" : "role",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.role",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.entity.role` is mapped to FHIR R4 element `AuditEvent.entity.role` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.role` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.entity.role` do not cover the following types based on type expansion: text."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.securityLabel",
+      "display" : "securityLabel",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.securityLabel",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.entity.securityLabel` is mapped to FHIR R4 element `AuditEvent.entity.securityLabel` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.securityLabel` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.entity.securityLabel` do not cover the following types based on type expansion: text.\nCopied from entity meta security tags."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.detail.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail.type",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.entity.detail.type` is mapped to FHIR R4 element `AuditEvent.entity.detail.type` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.detail.type` do not cover the following types: CodeableConcept.\nThe mappings for `AuditEvent.entity.detail.type` do not cover the following types based on type expansion: coding."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.detail.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail.value",
+        "equivalence" : "equivalent",
+        "comment" : "Element `AuditEvent.entity.detail.value[x]` is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]` as `SourceIsBroaderThanTarget`.\nThe mappings for `AuditEvent.entity.detail.value[x]` do not cover the following types: boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, time.\nThe target context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`."
+      }]
+    },
+    {
+      "code" : "AuditEvent.entity.agent",
+      "display" : "agent",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent",
+        "equivalence" : "wider",
+        "comment" : "Element `AuditEvent.entity.agent` has a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`.\nElement `AuditEvent.entity.agent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA usecase where one AuditEvent.entity.agent is used where the Entity that was used in the creation/updating of a target resource, is not in the context of the same custodianship as the target resource, and thus the meaning of AuditEvent.entity.agent is to say that the entity referenced is managed elsewhere and that this Agent provided access to it.  This would be similar to where the Entity being referenced is managed outside FHIR, such as through HL7 V2, v3, or XDS. This might be where the Entity being referenced is managed in another FHIR resource server. Thus it explains the provenance of that Entity's use in the context of this AuditEvent activity."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/AuditEvent",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "targetVersion" : "5.2.0",
+    "element" : [{
+      "code" : "AuditEvent.agent.who",
+      "display" : "who",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "equivalent",
+        "comment" : "R5: additional references"
+      }]
+    },
+    {
+      "code" : "AuditEvent.source.observer",
+      "display" : "observer",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
+        "equivalence" : "equivalent",
+        "comment" : "R5: additional references"
+      }]
+    }]
+  }]
+}
+
+```

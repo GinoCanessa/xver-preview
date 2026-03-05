@@ -1,0 +1,279 @@
+# R5PractitionerRoleElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5PractitionerRoleElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 PractitionerRole to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-PractitionerRole-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-PractitionerRole-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5PractitionerRoleElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 PractitionerRole to FHIR R4 PractitionerRole",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:51.140248-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 PractitionerRole to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "PractitionerRole.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "PractitionerRole.meta",
+        "display" : "PractitionerRole.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.meta` is mapped to FHIR R4 element `PractitionerRole.meta` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "PractitionerRole.implicitRules",
+        "display" : "PractitionerRole.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.implicitRules` is mapped to FHIR R4 element `PractitionerRole.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "PractitionerRole.language",
+        "display" : "PractitionerRole.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.language` is mapped to FHIR R4 element `PractitionerRole.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "PractitionerRole.text",
+        "display" : "PractitionerRole.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.text` is mapped to FHIR R4 element `PractitionerRole.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "PractitionerRole.contained",
+        "display" : "PractitionerRole.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.contained` is mapped to FHIR R4 element `PractitionerRole.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "PractitionerRole.identifier",
+        "display" : "PractitionerRole.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.identifier` is mapped to FHIR R4 element `PractitionerRole.identifier` as `Equivalent`.\nA specific identifier value (e.g. Minnesota Registration ID) may appear on multiple PractitionerRole instances which could be for different periods, or different Roles (or other reasons).  A specific identifier may be included multiple times in the same PractitionerRole instance with different identifier validity periods."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.active",
+      "display" : "active",
+      "target" : [{
+        "code" : "PractitionerRole.active",
+        "display" : "PractitionerRole.active",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.active` is mapped to FHIR R4 element `PractitionerRole.active` as `Equivalent`.\nIf this value is false, you may refer to the period to see when the role was in active use. If there is no period specified, no inference can be made about when it was active."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.period",
+      "display" : "period",
+      "target" : [{
+        "code" : "PractitionerRole.period",
+        "display" : "PractitionerRole.period",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.period` is mapped to FHIR R4 element `PractitionerRole.period` as `Equivalent`.\nIf a practitioner is performing a role within an organization over multiple, non-adjacent periods, there should be a distinct PractitionerRole instance for each period.  For example, if a nurse is employed at a hospital, leaves the organization for a period of time due to pandemic related stress, but returns post-pandemic to the same job role, there would be two PractitionerRole instances for the different periods of employment."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.practitioner",
+      "display" : "practitioner",
+      "target" : [{
+        "code" : "PractitionerRole.practitioner",
+        "display" : "PractitionerRole.practitioner",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.practitioner` is mapped to FHIR R4 element `PractitionerRole.practitioner` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.organization",
+      "display" : "organization",
+      "target" : [{
+        "code" : "PractitionerRole.organization",
+        "display" : "PractitionerRole.organization",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.organization` is mapped to FHIR R4 element `PractitionerRole.organization` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "PractitionerRole.code",
+        "display" : "PractitionerRole.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.code` is mapped to FHIR R4 element `PractitionerRole.code` as `Equivalent`.\nA person may have more than one role."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.specialty",
+      "display" : "specialty",
+      "target" : [{
+        "code" : "PractitionerRole.specialty",
+        "display" : "PractitionerRole.specialty",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.specialty` is mapped to FHIR R4 element `PractitionerRole.specialty` as `Equivalent`.\nThe specialty represents the functional role a practitioner is playing within an organization/location. This role may require the individual have certain qualifications, which would be represented in the Practitioner.qualifications property.  Note that qualifications may or might not relate to or be required by the practicing specialty."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.location",
+      "display" : "location",
+      "target" : [{
+        "code" : "PractitionerRole.location",
+        "display" : "PractitionerRole.location",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.location` is mapped to FHIR R4 element `PractitionerRole.location` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.healthcareService",
+      "display" : "healthcareService",
+      "target" : [{
+        "code" : "PractitionerRole.healthcareService",
+        "display" : "PractitionerRole.healthcareService",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.healthcareService` is mapped to FHIR R4 element `PractitionerRole.healthcareService` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.availability",
+      "display" : "availability",
+      "target" : [{
+        "code" : "PractitionerRole.availableTime",
+        "display" : "PractitionerRole.availableTime",
+        "equivalence" : "relatedto",
+        "comment" : "Element `PractitionerRole.availability` is mapped to FHIR R4 element `PractitionerRole.availableTime` as `SourceIsBroaderThanTarget`.\nElement `PractitionerRole.availability` is mapped to FHIR R4 element `PractitionerRole.notAvailable` as `SourceIsBroaderThanTarget`.\nThe mappings for `PractitionerRole.availability` do not cover the following types: Availability.\nThe mappings for `PractitionerRole.availability` do not cover the following types based on type expansion: allDay, availableEndTime, availableStartTime, availableTime, daysOfWeek, description, during, notAvailableTime.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".\r\rThe NotAvailableTime(s) included indicate the general days/periods where the practitioner is not available (for things such as vacation time, or public holidays)."
+      },
+      {
+        "code" : "PractitionerRole.notAvailable",
+        "display" : "PractitionerRole.notAvailable",
+        "equivalence" : "relatedto",
+        "comment" : "Element `PractitionerRole.availability` is mapped to FHIR R4 element `PractitionerRole.availableTime` as `SourceIsBroaderThanTarget`.\nElement `PractitionerRole.availability` is mapped to FHIR R4 element `PractitionerRole.notAvailable` as `SourceIsBroaderThanTarget`.\nThe mappings for `PractitionerRole.availability` do not cover the following types: Availability.\nThe mappings for `PractitionerRole.availability` do not cover the following types based on type expansion: allDay, availableEndTime, availableStartTime, availableTime, daysOfWeek, description, during, notAvailableTime.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".\r\rThe NotAvailableTime(s) included indicate the general days/periods where the practitioner is not available (for things such as vacation time, or public holidays)."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.endpoint",
+      "display" : "endpoint",
+      "target" : [{
+        "code" : "PractitionerRole.endpoint",
+        "display" : "PractitionerRole.endpoint",
+        "equivalence" : "equivalent",
+        "comment" : "Element `PractitionerRole.endpoint` is mapped to FHIR R4 element `PractitionerRole.endpoint` as `Equivalent`."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "PractitionerRole.contact",
+      "display" : "contact",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.contact",
+        "equivalence" : "wider",
+        "comment" : "Element `PractitionerRole.contact` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.\nElement `PractitionerRole.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.characteristic",
+      "display" : "characteristic",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.characteristic",
+        "equivalence" : "wider",
+        "comment" : "Element `PractitionerRole.characteristic` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.\nElement `PractitionerRole.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThese could be such things as is the service mode used by this role."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.communication",
+      "display" : "communication",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.communication",
+        "equivalence" : "wider",
+        "comment" : "Element `PractitionerRole.communication` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`.\nElement `PractitionerRole.communication` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.\r\rNote that for non-patient oriented communication, see Practitioner.communication.  Note that all 'person' type resources (Person, RelatedPerson, Patient, Practitioner) have a communication structure that includes preferences.  Role or service oriented resources such as HealthcareService and PractitionerRole only include languages that are available for interacting with patients."
+      }]
+    },
+    {
+      "code" : "PractitionerRole.availability",
+      "display" : "availability",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.availability",
+        "equivalence" : "wider",
+        "comment" : "Element `PractitionerRole.availability` is mapped to FHIR R4 element `PractitionerRole.availableTime` as `SourceIsBroaderThanTarget`.\nElement `PractitionerRole.availability` is mapped to FHIR R4 element `PractitionerRole.notAvailable` as `SourceIsBroaderThanTarget`.\nThe mappings for `PractitionerRole.availability` do not cover the following types: Availability.\nThe mappings for `PractitionerRole.availability` do not cover the following types based on type expansion: allDay, availableEndTime, availableStartTime, availableTime, daysOfWeek, description, during, notAvailableTime.\nMore detailed availability information may be provided in associated Schedule/Slot resources.\n\nSystems may choose to render availability differently than it is exchanged on the interface. For example, rather than \"Mon, Tue, Wed, Thur, Fri from 9am-12am; Mon, Tue, Wed, Thur, Fri from 1pm-5pm\" as would be implied by two availableTime repetitions, an application could render this information as \"Mon-Fri 9-12am and 1-5pm\".\r\rThe NotAvailableTime(s) included indicate the general days/periods where the practitioner is not available (for things such as vacation time, or public holidays)."
+      }]
+    }]
+  }]
+}
+
+```

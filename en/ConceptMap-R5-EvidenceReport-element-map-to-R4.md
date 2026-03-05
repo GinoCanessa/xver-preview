@@ -1,0 +1,506 @@
+# R5EvidenceReportElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5EvidenceReportElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 EvidenceReport to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-EvidenceReport-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-EvidenceReport-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5EvidenceReportElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 EvidenceReport to FHIR R4 Basic",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:48.0068652-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 EvidenceReport to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/EvidenceReport",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Basic",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "EvidenceReport.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "Basic.meta",
+        "display" : "Basic.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.meta` (`Resource.meta`), use that element instead.\nElement `EvidenceReport.meta` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.meta` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "Basic.implicitRules",
+        "display" : "Basic.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.implicitRules` (`Resource.implicitRules`), use that element instead.\nElement `EvidenceReport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.implicitRules` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "Basic.language",
+        "display" : "Basic.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.language` (`Resource.language`), use that element instead.\nElement `EvidenceReport.language` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.language` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "Basic.text",
+        "display" : "Basic.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.text` (`DomainResource.text`), use that element instead.\nElement `EvidenceReport.text` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "Basic.contained",
+        "display" : "Basic.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.contained` (`DomainResource.contained`), use that element instead.\nElement `EvidenceReport.contained` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.contained` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "Basic.identifier",
+        "display" : "Basic.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element matches Basic element path `Basic.identifier` (`Basic.identifier`), use that element instead.\nElement `EvidenceReport.identifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element will contain unique identifiers that support de-duplication of EvidenceReports. This identifier can be valid for only one EvidenceReport resource."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/EvidenceReport",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "EvidenceReport.url",
+      "display" : "url",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.url",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.url` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nCan be a urn:uuid: or a urn:oid: but real http: addresses are preferred. Multiple instances may share the same URL if they have a distinct version."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.status",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.status` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.status` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nAllows filtering of summaries that are appropriate for use versus not.\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.useContext",
+      "display" : "useContext",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.useContext",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.useContext` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.useContext` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhen multiple useContexts are specified, there is no expectation that all or any of the contexts apply."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatedIdentifier",
+      "display" : "relatedIdentifier",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatedIdentifier",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatedIdentifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatedIdentifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nMay include trial registry identifiers, e.g. NCT04372602 from clinicaltrials.gov. This identifier can be valid for multiple EvidenceReport resources."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.citeAs[x]",
+      "display" : "citeAs[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.citeAs",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.citeAs[x]` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.citeAs[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nused for reports for which external citation is expected, such as use in support of scholarly publications."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.type",
+      "display" : "type",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.type",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.type` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.note",
+      "display" : "note",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.note",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.note` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatedArtifact",
+      "display" : "relatedArtifact",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatedArtifact",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatedArtifact` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatedArtifact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject",
+      "display" : "subject",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhile the source element matches Basic element path `` (``), the definitions are not compatible (source: `BackboneElement`:1..1 -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Resource)`:0..1).\nMay be used as an expression for search queries and search results"
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject.characteristic",
+      "display" : "characteristic",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:characteristic",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject.characteristic` is part of an existing definition because parent element `EvidenceReport.subject` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject.characteristic` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject.characteristic.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:code",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject.characteristic.code` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.code` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject.characteristic.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExample 1 is a Citation. Example 2 is a type of outcome. Example 3 is a specific outcome."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject.characteristic.value[x]",
+      "display" : "value[x]",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:value",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject.characteristic.value[x]` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.value[x]` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject.characteristic.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExample 1 is Citation #37. Example 2 is selecting clinical outcomes. Example 3 is 1-year mortality."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject.characteristic.exclude",
+      "display" : "exclude",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:exclude",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject.characteristic.exclude` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.exclude` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject.characteristic.exclude` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject.characteristic.period",
+      "display" : "period",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject.characteristic:period",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject.characteristic.period` is part of an existing definition because parent element `EvidenceReport.subject.characteristic` requires a cross-version extension.\nElement `EvidenceReport.subject.characteristic.period` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject.characteristic.period` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.subject.note",
+      "display" : "note",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.subject:note",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.subject.note` is part of an existing definition because parent element `EvidenceReport.subject` requires a cross-version extension.\nElement `EvidenceReport.subject.note` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.subject.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.publisher",
+      "display" : "publisher",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.publisher",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.publisher` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.publisher` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nUsually an organization but may be an individual. The publisher (or steward) of the evidence report is the organization or individual primarily responsible for the maintenance and upkeep of the evidence report. This is not necessarily the same individual or organization that developed and initially authored the content. The publisher is the primary point of contact for questions or issues with the evidence report. This item SHOULD be populated unless the information is available from context."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.contact",
+      "display" : "contact",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.contact",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.contact` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.contact` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExtensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.author",
+      "display" : "author",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.author",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.author` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nWhile the source element matches Basic element path `` (``), the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nExtensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html))."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.editor",
+      "display" : "editor",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.editor",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.editor` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.editor` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExtensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html))."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.reviewer",
+      "display" : "reviewer",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.reviewer",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.reviewer` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.reviewer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExtensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.endorser",
+      "display" : "endorser",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.endorser",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.endorser` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.endorser` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExtensions to ContactDetail include: contactReference, contactAddress, and contributionTime (see [Clinical Reasoning Module](https://hl7.org/fhir/clinicalreasoning-module.html)).\n\nSee guidance around (not) making local changes to elements [here](https://hl7.org/fhir/canonicalreso.html#localization)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo",
+      "display" : "relatesTo",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nA document is a version specific composition."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:code",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo.code` is part of an existing definition because parent element `EvidenceReport.relatesTo` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.code` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo.code` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf this document appends another document, then the document cannot be fully understood without also accessing the referenced document."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo.target",
+      "display" : "target",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo:target",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo.target` is part of an existing definition because parent element `EvidenceReport.relatesTo` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo.target` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo.target.url",
+      "display" : "url",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:url",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo.target.url` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.url` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo.target.url` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo.target.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:identifier",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo.target.identifier` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.identifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo.target.identifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo.target.display",
+      "display" : "display",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:display",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo.target.display` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.display` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo.target.display` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.relatesTo.target.resource",
+      "display" : "resource",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.relatesTo.target:resource",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.relatesTo.target.resource` is part of an existing definition because parent element `EvidenceReport.relatesTo.target` requires a cross-version extension.\nElement `EvidenceReport.relatesTo.target.resource` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.relatesTo.target.resource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section",
+      "display" : "section",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.title",
+      "display" : "title",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:title",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.title` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.title` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.title` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe title identifies the section for a human reader. The title must be consistent with the narrative of the resource that is the target of the section.content reference. Generally, sections SHOULD have titles, but in some documents, it is unnecessary or inappropriate. Typically, this is where a section has subsections that have their own adequately distinguishing title,  or documents that only have a single section."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.focus",
+      "display" : "focus",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:focus",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.focus` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.focus` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.focus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe code identifies the section for an automated processor of the document. This is particularly relevant when using profiles to control the structure of the document.   \n\nIf the section has content (instead of sub-sections), the section.code does not change the meaning or interpretation of the resource that is the content of the section in the comments for the section.code."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.focusReference",
+      "display" : "focusReference",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:focusReference",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.focusReference` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.focusReference` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.focusReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.author",
+      "display" : "author",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:author",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.author` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.author` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.author` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:text",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.text` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.text` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.text` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nDocument profiles may define what content should be represented in the narrative."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.mode",
+      "display" : "mode",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:mode",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.mode` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.mode` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.mode` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThis element is labeled as a modifier because a change list must not be misunderstood as a complete list."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.orderedBy",
+      "display" : "orderedBy",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:orderedBy",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.orderedBy` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.orderedBy` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.orderedBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nApplications SHOULD render ordered lists in the order provided, but MAY allow users to re-order based on their own preferences as well. If there is no order specified, the order is unknown, though there may still be some order."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.entryClassifier",
+      "display" : "entryClassifier",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:entryClassifier",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.entryClassifier` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryClassifier` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.entryClassifier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.entryReference",
+      "display" : "entryReference",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:entryReference",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.entryReference` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryReference` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.entryReference` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nIf there are no entries in the list, an emptyReason SHOULD be provided."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.entryQuantity",
+      "display" : "entryQuantity",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:entryQuantity",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.entryQuantity` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.entryQuantity` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.entryQuantity` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.emptyReason",
+      "display" : "emptyReason",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:emptyReason",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.emptyReason` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.emptyReason` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.emptyReason` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nThe various reasons for an empty section make a significant interpretation to its interpretation. Note that this code is for use when the entire section content has been suppressed, and not for when individual items are omitted - implementers may consider using a text note or a flag on an entry in these cases."
+      }]
+    },
+    {
+      "code" : "EvidenceReport.section.section",
+      "display" : "section",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceReport.section:section",
+        "equivalence" : "wider",
+        "comment" : "Element `EvidenceReport.section.section` is part of an existing definition because parent element `EvidenceReport.section` requires a cross-version extension.\nElement `EvidenceReport.section.section` is not mapped to FHIR R4, since FHIR R5 `EvidenceReport` is not mapped.\nElement `EvidenceReport.section.section` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nNested sections are primarily used to help human readers navigate to particular portions of the document."
+      }]
+    }]
+  }]
+}
+
+```

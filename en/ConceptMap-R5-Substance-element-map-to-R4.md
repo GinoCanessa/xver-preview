@@ -1,0 +1,246 @@
+# R5SubstanceElementMapToR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## ConceptMap: R5SubstanceElementMapToR4 
+
+ 
+This ConceptMap represents cross-version mappings for elements from a FHIR R5 Substance to FHIR R4. 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ConceptMap",
+  "id" : "R5-Substance-element-map-to-R4",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "fhir"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 0,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "trial-use",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"
+      }]
+    }
+  }],
+  "url" : "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Substance-element-map-to-R4",
+  "version" : "0.1.0",
+  "name" : "R5SubstanceElementMapToR4",
+  "title" : "Cross-version mapping for FHIR R5 Substance to FHIR R4 Substance",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2026-03-04T17:07:52.097318-06:00",
+  "contact" : [{
+    "name" : "FHIR Infrastructure",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
+    }]
+  }],
+  "description" : "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Substance to FHIR R4.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+      "code" : "001",
+      "display" : "World"
+    }]
+  }],
+  "sourceCanonical" : "http://hl7.org/fhir/5.0",
+  "targetUri" : "http://hl7.org/fhir/4.0",
+  "group" : [{
+    "source" : "http://hl7.org/fhir/StructureDefinition/Substance",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/StructureDefinition/Substance",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "Substance.meta",
+      "display" : "meta",
+      "target" : [{
+        "code" : "Substance.meta",
+        "display" : "Substance.meta",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.meta` is mapped to FHIR R4 element `Substance.meta` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.implicitRules",
+      "display" : "implicitRules",
+      "target" : [{
+        "code" : "Substance.implicitRules",
+        "display" : "Substance.implicitRules",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.implicitRules` is mapped to FHIR R4 element `Substance.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."
+      }]
+    },
+    {
+      "code" : "Substance.language",
+      "display" : "language",
+      "target" : [{
+        "code" : "Substance.language",
+        "display" : "Substance.language",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.language` is mapped to FHIR R4 element `Substance.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."
+      }]
+    },
+    {
+      "code" : "Substance.text",
+      "display" : "text",
+      "target" : [{
+        "code" : "Substance.text",
+        "display" : "Substance.text",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.text` is mapped to FHIR R4 element `Substance.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later."
+      }]
+    },
+    {
+      "code" : "Substance.contained",
+      "display" : "contained",
+      "target" : [{
+        "code" : "Substance.contained",
+        "display" : "Substance.contained",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.contained` is mapped to FHIR R4 element `Substance.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."
+      }]
+    },
+    {
+      "code" : "Substance.identifier",
+      "display" : "identifier",
+      "target" : [{
+        "code" : "Substance.identifier",
+        "display" : "Substance.identifier",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.identifier` is mapped to FHIR R4 element `Substance.identifier` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.instance",
+      "display" : "instance",
+      "target" : [{
+        "code" : "Substance.instance",
+        "display" : "Substance.instance",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.instance` is mapped to FHIR R4 element `Substance.instance` as `SourceIsNarrowerThanTarget`."
+      }]
+    },
+    {
+      "code" : "Substance.status",
+      "display" : "status",
+      "target" : [{
+        "code" : "Substance.status",
+        "display" : "Substance.status",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.status` is mapped to FHIR R4 element `Substance.status` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.category",
+      "display" : "category",
+      "target" : [{
+        "code" : "Substance.category",
+        "display" : "Substance.category",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.category` is mapped to FHIR R4 element `Substance.category` as `Equivalent`.\nThe level of granularity is defined by the category concepts in the value set.   More fine-grained filtering can be performed using the metadata and/or terminology hierarchy in Substance.code."
+      }]
+    },
+    {
+      "code" : "Substance.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "Substance.code",
+        "display" : "Substance.code",
+        "equivalence" : "wider",
+        "comment" : "Element `Substance.code` is mapped to FHIR R4 element `Substance.code` as `SourceIsBroaderThanTarget`.\nThe mappings for `Substance.code` do not cover the following types: CodeableReference.\nThe mappings for `Substance.code` do not cover the following types based on type expansion: reference.\nThis could be a reference to an externally defined code.  It could also be a locally assigned code (e.g. a formulary),  optionally with translations to the standard drug codes."
+      }]
+    },
+    {
+      "code" : "Substance.description",
+      "display" : "description",
+      "target" : [{
+        "code" : "Substance.description",
+        "display" : "Substance.description",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.description` is mapped to FHIR R4 element `Substance.description` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.expiry",
+      "display" : "expiry",
+      "target" : [{
+        "code" : "Substance.instance.expiry",
+        "display" : "Substance.instance.expiry",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.expiry` is mapped to FHIR R4 element `Substance.instance.expiry` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.quantity",
+      "display" : "quantity",
+      "target" : [{
+        "code" : "Substance.instance.quantity",
+        "display" : "Substance.instance.quantity",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.quantity` is mapped to FHIR R4 element `Substance.instance.quantity` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.ingredient",
+      "display" : "ingredient",
+      "target" : [{
+        "code" : "Substance.ingredient",
+        "display" : "Substance.ingredient",
+        "equivalence" : "wider",
+        "comment" : "Element `Substance.ingredient` is mapped to FHIR R4 element `Substance.ingredient` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.ingredient.quantity",
+      "display" : "quantity",
+      "target" : [{
+        "code" : "Substance.ingredient.quantity",
+        "display" : "Substance.ingredient.quantity",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.ingredient.quantity` is mapped to FHIR R4 element `Substance.ingredient.quantity` as `Equivalent`."
+      }]
+    },
+    {
+      "code" : "Substance.ingredient.substance[x]",
+      "display" : "substance[x]",
+      "target" : [{
+        "code" : "Substance.ingredient.substance[x]",
+        "display" : "Substance.ingredient.substance[x]",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.ingredient.substance[x]` is mapped to FHIR R4 element `Substance.ingredient.substance[x]` as `Equivalent`.\nThe target context `Substance.ingredient.substance[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Substance.ingredient`."
+      }]
+    }]
+  },
+  {
+    "source" : "http://hl7.org/fhir/StructureDefinition/Substance",
+    "sourceVersion" : "5.0.0",
+    "target" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
+    "element" : [{
+      "code" : "Substance.code",
+      "display" : "code",
+      "target" : [{
+        "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Substance.code",
+        "equivalence" : "equivalent",
+        "comment" : "Element `Substance.code` is mapped to FHIR R4 element `Substance.code` as `SourceIsBroaderThanTarget`.\nThe mappings for `Substance.code` do not cover the following types: CodeableReference.\nThe mappings for `Substance.code` do not cover the following types based on type expansion: reference.\nThis could be a reference to an externally defined code.  It could also be a locally assigned code (e.g. a formulary),  optionally with translations to the standard drug codes."
+      }]
+    }]
+  }]
+}
+
+```

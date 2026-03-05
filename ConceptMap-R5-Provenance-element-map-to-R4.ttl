@@ -1,0 +1,396 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Provenance-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Provenance-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Provenance-element-map-to-R4</b></p><a name=\"R5-Provenance-element-map-to-R4\"> </a><a name=\"hcR5-Provenance-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Provenance|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/provenance.html\">Provenanceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Provenance.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.meta</td><td>Element `Provenance.meta` is mapped to FHIR R4 element `Provenance.meta` as `Equivalent`.</td></tr><tr><td>Provenance.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.implicitRules</td><td>Element `Provenance.implicitRules` is mapped to FHIR R4 element `Provenance.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Provenance.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.language</td><td>Element `Provenance.language` is mapped to FHIR R4 element `Provenance.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Provenance.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.text</td><td>Element `Provenance.text` is mapped to FHIR R4 element `Provenance.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Provenance.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.contained</td><td>Element `Provenance.contained` is mapped to FHIR R4 element `Provenance.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Provenance.target (target)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.target</td><td>Element `Provenance.target` is mapped to FHIR R4 element `Provenance.target` as `Equivalent`.\nTarget references are usually version specific, but might not be, if a version has not been assigned or if the provenance information is part of the set of resources being maintained (i.e. a document). When using the RESTful API, the identity of the resource might not be known (especially not the version specific one); the client may either submit the resource first, and then the provenance, or it may submit both using a single transaction. See the notes on transaction for further discussion.</td></tr><tr><td>Provenance.occurred[x] (occurred[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.occurred[x]</td><td>Element `Provenance.occurred[x]` is mapped to FHIR R4 element `Provenance.occurred[x]` as `Equivalent`.\nThe target context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`.\nThe period can be a little arbitrary; where possible, the time should correspond to human assessment of the activity time.</td></tr><tr><td>Provenance.recorded (recorded)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.recorded</td><td>Element `Provenance.recorded` is mapped to FHIR R4 element `Provenance.recorded` as `Equivalent`.\nThis can be a little different from the time stamp on the resource if there is a delay between recording the event and updating the provenance and target resource.</td></tr><tr><td>Provenance.policy (policy)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.policy</td><td>Element `Provenance.policy` is mapped to FHIR R4 element `Provenance.policy` as `Equivalent`.\nFor example: Where an OAuth token authorizes, the unique identifier from the OAuth token is placed into the policy element Where a policy engine (e.g. XACML) holds policy logic, the unique policy identifier is placed into the policy element.</td></tr><tr><td>Provenance.location (location)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.location</td><td>Element `Provenance.location` is mapped to FHIR R4 element `Provenance.location` as `Equivalent`.</td></tr><tr><td>Provenance.authorization (authorization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Provenance.reason</td><td>Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Provenance.authorization` do not cover the following types: CodeableReference.\nThe mappings for `Provenance.authorization` do not cover the following types based on type expansion: reference.</td></tr><tr><td>Provenance.activity (activity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.activity</td><td>Element `Provenance.activity` is mapped to FHIR R4 element `Provenance.activity` as `Equivalent`.</td></tr><tr><td>Provenance.agent (agent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Provenance.agent</td><td>Element `Provenance.agent` is mapped to FHIR R4 element `Provenance.agent` as `Equivalent`.\nSeveral agents may be associated (i.e. has some responsibility for an activity) with an activity and vice-versa.</td></tr><tr><td>Provenance.agent.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.agent.type</td><td>Element `Provenance.agent.type` is mapped to FHIR R4 element `Provenance.agent.type` as `Equivalent`.\nFor example: assembler, author, prescriber, signer, investigator, etc.</td></tr><tr><td>Provenance.agent.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.agent.role</td><td>Element `Provenance.agent.role` is mapped to FHIR R4 element `Provenance.agent.role` as `Equivalent`.\nFor example: Chief-of-Radiology, Nurse, Physician, Medical-Student, etc.</td></tr><tr><td>Provenance.agent.who (who)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Provenance.agent.who</td><td>Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Provenance.agent.who` with unmapped reference targets: CareTeam.</td></tr><tr><td>Provenance.agent.onBehalfOf (onBehalfOf)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Provenance.agent.onBehalfOf</td><td>Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with unmapped reference targets: CareTeam.</td></tr><tr><td>Provenance.entity (entity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Provenance.entity</td><td>Element `Provenance.entity` is mapped to FHIR R4 element `Provenance.entity` as `Equivalent`.</td></tr><tr><td>Provenance.entity.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Provenance.entity.role</td><td>Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>Provenance.entity.what (what)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.entity.what</td><td>Element `Provenance.entity.what` is mapped to FHIR R4 element `Provenance.entity.what` as `Equivalent`.\nwhatIdentity should be used for entities that are not a Resource type.</td></tr><tr><td>Provenance.entity.agent (agent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.entity.agent</td><td>Element `Provenance.entity.agent` is mapped to FHIR R4 element `Provenance.entity.agent` as `Equivalent`.\nA usecase where one Provenance.entity.agent is used where the Entity that was used in the creation/updating of the Target, is not in the context of the same custodianship as the Target, and thus the meaning of Provenance.entity.agent is to say that the entity referenced is managed elsewhere and that this Agent provided access to it.  This would be similar to where the Entity being referenced is managed outside FHIR, such as through HL7 V2, v3, or XDS. This might be where the Entity being referenced is managed in another FHIR resource server. Thus it explains the Provenance of that Entity's use in the context of this Provenance activity.</td></tr><tr><td>Provenance.signature (signature)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Provenance.signature</td><td>Element `Provenance.signature` is mapped to FHIR R4 element `Provenance.signature` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Provenance|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Provenance.authorization (authorization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization</td><td>Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Provenance.authorization` do not cover the following types: CodeableReference.\nThe mappings for `Provenance.authorization` do not cover the following types based on type expansion: reference.</td></tr><tr><td>Provenance.basedOn (basedOn)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.basedOn</td><td>Element `Provenance.basedOn` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.\nElement `Provenance.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Provenance.patient (patient)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.patient</td><td>Element `Provenance.patient` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.\nElement `Provenance.patient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Provenance.encounter (encounter)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.encounter</td><td>Element `Provenance.encounter` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.\nElement `Provenance.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Provenance.entity.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role</td><td>Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Provenance|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Provenance.agent.who (who)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>Provenance.agent.onBehalfOf (onBehalfOf)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Provenance-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Provenance-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5ProvenanceElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Provenance to FHIR R4 Provenance"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:51.1476762-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Provenance to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Provenance"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Provenance>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Provenance"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Provenance>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Provenance.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.meta" ] ;
+         fhir:display [ fhir:v "Provenance.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.meta` is mapped to FHIR R4 element `Provenance.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.implicitRules" ] ;
+         fhir:display [ fhir:v "Provenance.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.implicitRules` is mapped to FHIR R4 element `Provenance.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.language" ] ;
+         fhir:display [ fhir:v "Provenance.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.language` is mapped to FHIR R4 element `Provenance.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.text" ] ;
+         fhir:display [ fhir:v "Provenance.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.text` is mapped to FHIR R4 element `Provenance.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.contained" ] ;
+         fhir:display [ fhir:v "Provenance.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.contained` is mapped to FHIR R4 element `Provenance.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.target" ] ;
+         fhir:display [ fhir:v "Provenance.target" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.target` is mapped to FHIR R4 element `Provenance.target` as `Equivalent`.\nTarget references are usually version specific, but might not be, if a version has not been assigned or if the provenance information is part of the set of resources being maintained (i.e. a document). When using the RESTful API, the identity of the resource might not be known (especially not the version specific one); the client may either submit the resource first, and then the provenance, or it may submit both using a single transaction. See the notes on transaction for further discussion." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.occurred[x]" ] ;
+       fhir:display [ fhir:v "occurred[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.occurred[x]" ] ;
+         fhir:display [ fhir:v "Provenance.occurred[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.occurred[x]` is mapped to FHIR R4 element `Provenance.occurred[x]` as `Equivalent`.\nThe target context `Provenance.occurred[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Provenance`.\nThe period can be a little arbitrary; where possible, the time should correspond to human assessment of the activity time." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.recorded" ] ;
+       fhir:display [ fhir:v "recorded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.recorded" ] ;
+         fhir:display [ fhir:v "Provenance.recorded" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.recorded` is mapped to FHIR R4 element `Provenance.recorded` as `Equivalent`.\nThis can be a little different from the time stamp on the resource if there is a delay between recording the event and updating the provenance and target resource." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.policy" ] ;
+       fhir:display [ fhir:v "policy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.policy" ] ;
+         fhir:display [ fhir:v "Provenance.policy" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.policy` is mapped to FHIR R4 element `Provenance.policy` as `Equivalent`.\nFor example: Where an OAuth token authorizes, the unique identifier from the OAuth token is placed into the policy element Where a policy engine (e.g. XACML) holds policy logic, the unique policy identifier is placed into the policy element." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.location" ] ;
+         fhir:display [ fhir:v "Provenance.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.location` is mapped to FHIR R4 element `Provenance.location` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.authorization" ] ;
+       fhir:display [ fhir:v "authorization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.reason" ] ;
+         fhir:display [ fhir:v "Provenance.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Provenance.authorization` do not cover the following types: CodeableReference.\nThe mappings for `Provenance.authorization` do not cover the following types based on type expansion: reference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.activity" ] ;
+       fhir:display [ fhir:v "activity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.activity" ] ;
+         fhir:display [ fhir:v "Provenance.activity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.activity` is mapped to FHIR R4 element `Provenance.activity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.agent" ] ;
+       fhir:display [ fhir:v "agent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.agent" ] ;
+         fhir:display [ fhir:v "Provenance.agent" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.agent` is mapped to FHIR R4 element `Provenance.agent` as `Equivalent`.\nSeveral agents may be associated (i.e. has some responsibility for an activity) with an activity and vice-versa." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.agent.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.agent.type" ] ;
+         fhir:display [ fhir:v "Provenance.agent.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.agent.type` is mapped to FHIR R4 element `Provenance.agent.type` as `Equivalent`.\nFor example: assembler, author, prescriber, signer, investigator, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.agent.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.agent.role" ] ;
+         fhir:display [ fhir:v "Provenance.agent.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.agent.role` is mapped to FHIR R4 element `Provenance.agent.role` as `Equivalent`.\nFor example: Chief-of-Radiology, Nurse, Physician, Medical-Student, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.agent.who" ] ;
+       fhir:display [ fhir:v "who" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.agent.who" ] ;
+         fhir:display [ fhir:v "Provenance.agent.who" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Provenance.agent.who` with unmapped reference targets: CareTeam." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.agent.onBehalfOf" ] ;
+       fhir:display [ fhir:v "onBehalfOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.agent.onBehalfOf" ] ;
+         fhir:display [ fhir:v "Provenance.agent.onBehalfOf" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf` as `SourceIsBroaderThanTarget`.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with unmapped reference targets: CareTeam." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.entity" ] ;
+       fhir:display [ fhir:v "entity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.entity" ] ;
+         fhir:display [ fhir:v "Provenance.entity" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.entity` is mapped to FHIR R4 element `Provenance.entity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.entity.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.entity.role" ] ;
+         fhir:display [ fhir:v "Provenance.entity.role" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.entity.what" ] ;
+       fhir:display [ fhir:v "what" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.entity.what" ] ;
+         fhir:display [ fhir:v "Provenance.entity.what" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.entity.what` is mapped to FHIR R4 element `Provenance.entity.what` as `Equivalent`.\nwhatIdentity should be used for entities that are not a Resource type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.entity.agent" ] ;
+       fhir:display [ fhir:v "agent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.entity.agent" ] ;
+         fhir:display [ fhir:v "Provenance.entity.agent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.entity.agent` is mapped to FHIR R4 element `Provenance.entity.agent` as `Equivalent`.\nA usecase where one Provenance.entity.agent is used where the Entity that was used in the creation/updating of the Target, is not in the context of the same custodianship as the Target, and thus the meaning of Provenance.entity.agent is to say that the entity referenced is managed elsewhere and that this Agent provided access to it.  This would be similar to where the Entity being referenced is managed outside FHIR, such as through HL7 V2, v3, or XDS. This might be where the Entity being referenced is managed in another FHIR resource server. Thus it explains the Provenance of that Entity's use in the context of this Provenance activity." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.signature" ] ;
+       fhir:display [ fhir:v "signature" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Provenance.signature" ] ;
+         fhir:display [ fhir:v "Provenance.signature" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.signature` is mapped to FHIR R4 element `Provenance.signature` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Provenance"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Provenance>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Provenance.authorization" ] ;
+       fhir:display [ fhir:v "authorization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason` as `SourceIsBroaderThanTarget`.\nThe mappings for `Provenance.authorization` do not cover the following types: CodeableReference.\nThe mappings for `Provenance.authorization` do not cover the following types based on type expansion: reference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.basedOn" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.basedOn` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.\nElement `Provenance.basedOn` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.patient" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.patient` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.\nElement `Provenance.patient` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.encounter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.encounter` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.\nElement `Provenance.encounter` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.entity.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Provenance"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Provenance>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Provenance.agent.who" ] ;
+       fhir:display [ fhir:v "who" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Provenance.agent.onBehalfOf" ] ;
+       fhir:display [ fhir:v "onBehalfOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

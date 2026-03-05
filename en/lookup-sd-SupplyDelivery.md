@@ -1,0 +1,34 @@
+# Lookup for Profile_R5_SupplyDelivery_R4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.1.0
+
+## Lookup for Profile_R5_SupplyDelivery_R4
+
+### Lookup for FHIR R5 SupplyDelivery for use in FHIR R4
+
+The FHIR R5 resource is represented in FHIR R4 via the SupplyDelivery resource.
+
+Note that there is a profile defined to simplify use of this cross-version resource representation:[Profile: SupplyDelivery](StructureDefinition-profile-SupplyDelivery.md)
+
+A computable version of the following element information is available in: [R5SupplyDeliveryElementMapToR4](ConceptMap-R5-SupplyDelivery-element-map-to-R4.md)
+
+| | | |
+| :--- | :--- | :--- |
+| [`SupplyDelivery`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) |   |   |
+| [`SupplyDelivery.meta`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.meta](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.meta`is mapped to FHIR R4 element`SupplyDelivery.meta`as`Equivalent`. |
+| [`SupplyDelivery.implicitRules`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.implicitRules](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.implicitRules`is mapped to FHIR R4 element`SupplyDelivery.implicitRules`as`Equivalent`. |
+| [`SupplyDelivery.language`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.language](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.language`is mapped to FHIR R4 element`SupplyDelivery.language`as`Equivalent`. |
+| [`SupplyDelivery.text`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.text](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.text`is mapped to FHIR R4 element`SupplyDelivery.text`as`Equivalent`. |
+| [`SupplyDelivery.contained`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.contained](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.contained`is mapped to FHIR R4 element`SupplyDelivery.contained`as`Equivalent`. |
+| [`SupplyDelivery.identifier`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.identifier](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.identifier`is mapped to FHIR R4 element`SupplyDelivery.identifier`as`Equivalent`. |
+| [`SupplyDelivery.basedOn`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.basedOn](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.basedOn`is mapped to FHIR R4 element`SupplyDelivery.basedOn`as`Equivalent`. |
+| [`SupplyDelivery.partOf`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.partOf](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.partOf`is mapped to FHIR R4 element`SupplyDelivery.partOf`as`Equivalent`. |
+| [`SupplyDelivery.status`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.status](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.status`is mapped to FHIR R4 element`SupplyDelivery.status`as`Equivalent`. |
+| [`SupplyDelivery.patient`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.patient](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.patient`is mapped to FHIR R4 element`SupplyDelivery.patient`as`Equivalent`. |
+| [`SupplyDelivery.type`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.type](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Extension: ExtensionSupplyDelivery_Type](StructureDefinition-ext-R5-SupplyDelivery.type.md) | Element`SupplyDelivery.type`is mapped to FHIR R4 element`SupplyDelivery.type`as`SourceIsBroaderThanTarget`. |
+| [`SupplyDelivery.suppliedItem`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.suppliedItem`is mapped to FHIR R4 element`SupplyDelivery.suppliedItem`as`SourceIsBroaderThanTarget`. |
+| [`SupplyDelivery.suppliedItem.quantity`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem.quantity](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.suppliedItem.quantity`is mapped to FHIR R4 element`SupplyDelivery.suppliedItem.quantity`as`Equivalent`. |
+| [`SupplyDelivery.suppliedItem.item[x]`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem.item[x]](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Standard Extension: alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) | Element`SupplyDelivery.suppliedItem.item[x]`is mapped to FHIR R4 element`SupplyDelivery.suppliedItem.item[x]`as`SourceIsBroaderThanTarget`.The standard extension`alternate-reference`has been mapped as the representation of FHIR R5 element`SupplyDelivery.suppliedItem.item[x]`with unmapped reference targets: BiologicallyDerivedProduct, InventoryItem, NutritionProduct.Source element`SupplyDelivery.suppliedItem.item[x]`has unmapped reference types. While the target element`SupplyDelivery.suppliedItem.item[x]`is a choice type and does not allow extensions, the`alternate-reference`extension can be applied to Reference values within it. |
+| [`SupplyDelivery.occurrence[x]`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.occurrence[x]](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.occurrence[x]`is mapped to FHIR R4 element`SupplyDelivery.occurrence[x]`as`Equivalent`.The target context`SupplyDelivery.occurrence[x]`is a choice-type element and cannot directly hold extensions. The context is moved up to parent element`SupplyDelivery`. |
+| [`SupplyDelivery.supplier`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.supplier](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.supplier`is mapped to FHIR R4 element`SupplyDelivery.supplier`as`Equivalent`. |
+| [`SupplyDelivery.destination`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.destination](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) | Element`SupplyDelivery.destination`is mapped to FHIR R4 element`SupplyDelivery.destination`as`Equivalent`. |
+| [`SupplyDelivery.receiver`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.receiver](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Standard Extension: alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) | Element`SupplyDelivery.receiver`is mapped to FHIR R4 element`SupplyDelivery.receiver`as`SourceIsBroaderThanTarget`.The standard extension`alternate-reference`has been mapped as the representation of FHIR R5 element`SupplyDelivery.receiver`with unmapped reference targets: Organization. |
+

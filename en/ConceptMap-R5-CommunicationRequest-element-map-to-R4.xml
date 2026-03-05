@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-CommunicationRequest-element-map-to-R4"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-CommunicationRequest-element-map-to-R4</b></p><a name="R5-CommunicationRequest-element-map-to-R4"> </a><a name="hcR5-CommunicationRequest-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CommunicationRequest|5.0.0</code> to <a href="http://hl7.org/fhir/R4/communicationrequest.html">CommunicationRequestversion: 4.0.1)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="2"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CommunicationRequest|5.0.0</td><td/><td colspan="2"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CommunicationRequest|4.0.1</td><td/></tr><tr><td style="border-right-width: 0px">CommunicationRequest.meta</td><td style="border-left-width: 0px">meta</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.meta</td><td style="border-left-width: 0px">CommunicationRequest.meta</td><td>Element `CommunicationRequest.meta` is mapped to FHIR R4 element `CommunicationRequest.meta` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.implicitRules</td><td style="border-left-width: 0px">implicitRules</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.implicitRules</td><td style="border-left-width: 0px">CommunicationRequest.implicitRules</td><td>Element `CommunicationRequest.implicitRules` is mapped to FHIR R4 element `CommunicationRequest.implicitRules` as `Equivalent`.
+Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.language</td><td style="border-left-width: 0px">language</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.language</td><td style="border-left-width: 0px">CommunicationRequest.language</td><td>Element `CommunicationRequest.language` is mapped to FHIR R4 element `CommunicationRequest.language` as `Equivalent`.
+Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.text</td><td style="border-left-width: 0px">text</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.text</td><td style="border-left-width: 0px">CommunicationRequest.text</td><td>Element `CommunicationRequest.text` is mapped to FHIR R4 element `CommunicationRequest.text` as `Equivalent`.
+Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.contained</td><td style="border-left-width: 0px">contained</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.contained</td><td style="border-left-width: 0px">CommunicationRequest.contained</td><td>Element `CommunicationRequest.contained` is mapped to FHIR R4 element `CommunicationRequest.contained` as `Equivalent`.
+This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.identifier</td><td style="border-left-width: 0px">identifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.identifier</td><td style="border-left-width: 0px">CommunicationRequest.identifier</td><td>Element `CommunicationRequest.identifier` is mapped to FHIR R4 element `CommunicationRequest.identifier` as `Equivalent`.
+This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.basedOn</td><td style="border-left-width: 0px">basedOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.basedOn</td><td style="border-left-width: 0px">CommunicationRequest.basedOn</td><td>Element `CommunicationRequest.basedOn` is mapped to FHIR R4 element `CommunicationRequest.basedOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.replaces</td><td style="border-left-width: 0px">replaces</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.replaces</td><td style="border-left-width: 0px">CommunicationRequest.replaces</td><td>Element `CommunicationRequest.replaces` is mapped to FHIR R4 element `CommunicationRequest.replaces` as `Equivalent`.
+The replacement could be because the initial request was immediately rejected (due to an issue) or because the previous request was completed, but the need for the action described by the request remains ongoing.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.groupIdentifier</td><td style="border-left-width: 0px">groupIdentifier</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.groupIdentifier</td><td style="border-left-width: 0px">CommunicationRequest.groupIdentifier</td><td>Element `CommunicationRequest.groupIdentifier` is mapped to FHIR R4 element `CommunicationRequest.groupIdentifier` as `Equivalent`.
+Requests are linked either by a &quot;basedOn&quot; relationship (i.e. one request is fulfilling another) or by having a common requisition.  Requests that are part of the same requisition are generally treated independently from the perspective of changing their state or maintaining them after initial creation.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.status</td><td style="border-left-width: 0px">status</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.status</td><td style="border-left-width: 0px">CommunicationRequest.status</td><td>Element `CommunicationRequest.status` is mapped to FHIR R4 element `CommunicationRequest.status` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.statusReason</td><td style="border-left-width: 0px">statusReason</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.statusReason</td><td style="border-left-width: 0px">CommunicationRequest.statusReason</td><td>Element `CommunicationRequest.statusReason` is mapped to FHIR R4 element `CommunicationRequest.statusReason` as `Equivalent`.
+This is generally only used for &quot;exception&quot; statuses such as &quot;on-hold&quot; or &quot;revoked&quot;.  The reason why the CommunicationRequest was created at all is captured in reasonCode, not here.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.category</td><td style="border-left-width: 0px">category</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.category</td><td style="border-left-width: 0px">CommunicationRequest.category</td><td>Element `CommunicationRequest.category` is mapped to FHIR R4 element `CommunicationRequest.category` as `Equivalent`.
+There may be multiple axes of categorization and one communication request may serve multiple purposes.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.priority</td><td style="border-left-width: 0px">priority</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.priority</td><td style="border-left-width: 0px">CommunicationRequest.priority</td><td>Element `CommunicationRequest.priority` is mapped to FHIR R4 element `CommunicationRequest.priority` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.doNotPerform</td><td style="border-left-width: 0px">doNotPerform</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.doNotPerform</td><td style="border-left-width: 0px">CommunicationRequest.doNotPerform</td><td>Element `CommunicationRequest.doNotPerform` is mapped to FHIR R4 element `CommunicationRequest.doNotPerform` as `Equivalent`.
+The attributes provided with the request qualify what is not to be done.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.medium</td><td style="border-left-width: 0px">medium</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.medium</td><td style="border-left-width: 0px">CommunicationRequest.medium</td><td>Element `CommunicationRequest.medium` is mapped to FHIR R4 element `CommunicationRequest.medium` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.subject</td><td style="border-left-width: 0px">subject</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.subject</td><td style="border-left-width: 0px">CommunicationRequest.subject</td><td>Element `CommunicationRequest.subject` is mapped to FHIR R4 element `CommunicationRequest.subject` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.about</td><td style="border-left-width: 0px">about</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.about</td><td style="border-left-width: 0px">CommunicationRequest.about</td><td>Element `CommunicationRequest.about` is mapped to FHIR R4 element `CommunicationRequest.about` as `Equivalent`.
+Don't use CommunicationRequest.about element when a more specific element exists, such as basedOn, reasonReference, or replaces.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.encounter</td><td style="border-left-width: 0px">encounter</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.encounter</td><td style="border-left-width: 0px">CommunicationRequest.encounter</td><td>Element `CommunicationRequest.encounter` is mapped to FHIR R4 element `CommunicationRequest.encounter` as `Equivalent`.
+This will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.payload</td><td style="border-left-width: 0px">payload</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">CommunicationRequest.payload</td><td style="border-left-width: 0px">CommunicationRequest.payload</td><td>Element `CommunicationRequest.payload` is mapped to FHIR R4 element `CommunicationRequest.payload` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.payload.content[x]</td><td style="border-left-width: 0px">content[x]</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">CommunicationRequest.payload.content[x]</td><td style="border-left-width: 0px">CommunicationRequest.payload.content[x]</td><td>Element `CommunicationRequest.payload.content[x]` is mapped to FHIR R4 element `CommunicationRequest.payload.content[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `CommunicationRequest.payload.content[x]` do not cover the following types: CodeableConcept.
+The target context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.
+The content can be codified or textual.  As an example of codified content, when working with machine generated communications, the payload may be drawn from a finite, terminology defined set of communications, especially for short, status update kinds of communications where more of a natural language approach isn't appropriate.
+
+If the content isn't codified, contentCodeableConcept.text can be used.  
+
+When using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.occurrence[x]</td><td style="border-left-width: 0px">occurrence[x]</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.occurrence[x]</td><td style="border-left-width: 0px">CommunicationRequest.occurrence[x]</td><td>Element `CommunicationRequest.occurrence[x]` is mapped to FHIR R4 element `CommunicationRequest.occurrence[x]` as `Equivalent`.
+The target context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.authoredOn</td><td style="border-left-width: 0px">authoredOn</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.authoredOn</td><td style="border-left-width: 0px">CommunicationRequest.authoredOn</td><td>Element `CommunicationRequest.authoredOn` is mapped to FHIR R4 element `CommunicationRequest.authoredOn` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.requester</td><td style="border-left-width: 0px">requester</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.requester</td><td style="border-left-width: 0px">CommunicationRequest.requester</td><td>Element `CommunicationRequest.requester` is mapped to FHIR R4 element `CommunicationRequest.requester` as `Equivalent`.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.recipient</td><td style="border-left-width: 0px">recipient</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">CommunicationRequest.recipient</td><td style="border-left-width: 0px">CommunicationRequest.recipient</td><td>Element `CommunicationRequest.recipient` is mapped to FHIR R4 element `CommunicationRequest.recipient` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `CommunicationRequest.recipient` with unmapped reference targets: Endpoint.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.informationProvider</td><td style="border-left-width: 0px">informationProvider</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">CommunicationRequest.sender</td><td style="border-left-width: 0px">CommunicationRequest.sender</td><td>Element `CommunicationRequest.informationProvider` is mapped to FHIR R4 element `CommunicationRequest.sender` as `SourceIsBroaderThanTarget`.
+The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with unmapped reference targets: Endpoint.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">CommunicationRequest.reason</td><td style="border-left-width: 0px; border-bottom-style: none">reason</td><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">CommunicationRequest.reasonCode</td><td style="border-left-width: 0px">CommunicationRequest.reasonCode</td><td>Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonReference` as `SourceIsBroaderThanTarget`.
+Textual reasons can be captured using reasonCode.text.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="CodeSystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td style="border-right-width: 0px">CommunicationRequest.reasonReference</td><td style="border-left-width: 0px">CommunicationRequest.reasonReference</td><td>Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonCode` as `SourceIsBroaderThanTarget`.
+Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonReference` as `SourceIsBroaderThanTarget`.
+Textual reasons can be captured using reasonCode.text.</td></tr><tr><td style="border-right-width: 0px">CommunicationRequest.note</td><td style="border-left-width: 0px">note</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">CommunicationRequest.note</td><td style="border-left-width: 0px">CommunicationRequest.note</td><td>Element `CommunicationRequest.note` is mapped to FHIR R4 element `CommunicationRequest.note` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CommunicationRequest|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CommunicationRequest.intent (intent)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.intent</td><td>Element `CommunicationRequest.intent` has a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`.
+Element `CommunicationRequest.intent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).
+This element is expected to be immutable.  E.g. A &quot;proposal&quot; instance should never change to be a &quot;plan&quot; instance or &quot;order&quot; instance.  Instead, a new instance 'basedOn' the prior instance should be created with the new 'intent' value.
+
+One exception to this is that the granularity of CommunicationRequest.intent is allowed to change.  For example, a Request identified as an &quot;order&quot; might later be clarified to be a &quot;filler-order&quot;.  Or, in rarer cases (to meet recipient constraints), the reverse might also occur.</td></tr><tr><td>CommunicationRequest.payload.content[x] (content[x])</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.payload.content</td><td>Element `CommunicationRequest.payload.content[x]` is mapped to FHIR R4 element `CommunicationRequest.payload.content[x]` as `SourceIsBroaderThanTarget`.
+The mappings for `CommunicationRequest.payload.content[x]` do not cover the following types: CodeableConcept.
+The target context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.
+The content can be codified or textual.  As an example of codified content, when working with machine generated communications, the payload may be drawn from a finite, terminology defined set of communications, especially for short, status update kinds of communications where more of a natural language approach isn't appropriate.
+
+If the content isn't codified, contentCodeableConcept.text can be used.  
+
+When using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CommunicationRequest|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Packversion: 5.2.0)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CommunicationRequest.recipient (recipient)</td><td><a href="CodeSystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>CommunicationRequest.informationProvider (informationProvider)</td><td><a href="CodeSystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-CommunicationRequest-element-map-to-R4"/>
+  <version value="0.1.0"/>
+  <name value="R5CommunicationRequestElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 CommunicationRequest to FHIR R4 CommunicationRequest"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-03-04T17:07:47.3892648-06:00"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 CommunicationRequest to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="CommunicationRequest.meta"/>
+      <display value="meta"/>
+      <target>
+        <code value="CommunicationRequest.meta"/>
+        <display value="CommunicationRequest.meta"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.meta` is mapped to FHIR R4 element `CommunicationRequest.meta` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <code value="CommunicationRequest.implicitRules"/>
+        <display value="CommunicationRequest.implicitRules"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.implicitRules` is mapped to FHIR R4 element `CommunicationRequest.implicitRules` as `Equivalent`.&#xA;Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.language"/>
+      <display value="language"/>
+      <target>
+        <code value="CommunicationRequest.language"/>
+        <display value="CommunicationRequest.language"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.language` is mapped to FHIR R4 element `CommunicationRequest.language` as `Equivalent`.&#xA;Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.text"/>
+      <display value="text"/>
+      <target>
+        <code value="CommunicationRequest.text"/>
+        <display value="CommunicationRequest.text"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.text` is mapped to FHIR R4 element `CommunicationRequest.text` as `Equivalent`.&#xA;Contained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a &quot;text blob&quot; or where text is additionally entered raw or narrated and encoded information is added later."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.contained"/>
+      <display value="contained"/>
+      <target>
+        <code value="CommunicationRequest.contained"/>
+        <display value="CommunicationRequest.contained"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.contained` is mapped to FHIR R4 element `CommunicationRequest.contained` as `Equivalent`.&#xA;This should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.identifier"/>
+      <display value="identifier"/>
+      <target>
+        <code value="CommunicationRequest.identifier"/>
+        <display value="CommunicationRequest.identifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.identifier` is mapped to FHIR R4 element `CommunicationRequest.identifier` as `Equivalent`.&#xA;This is a business identifier, not a resource identifier (see [discussion](https://hl7.org/fhir/resource.htm#identifiers)).  It is best practice for the identifier to only appear on a single resource instance, however business practices may occasionally dictate that multiple resource instances with the same identifier can exist - possibly even with different resource types.  For example, multiple Patient and a Person resource instance might share the same social insurance number."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="CommunicationRequest.basedOn"/>
+        <display value="CommunicationRequest.basedOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.basedOn` is mapped to FHIR R4 element `CommunicationRequest.basedOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.replaces"/>
+      <display value="replaces"/>
+      <target>
+        <code value="CommunicationRequest.replaces"/>
+        <display value="CommunicationRequest.replaces"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.replaces` is mapped to FHIR R4 element `CommunicationRequest.replaces` as `Equivalent`.&#xA;The replacement could be because the initial request was immediately rejected (due to an issue) or because the previous request was completed, but the need for the action described by the request remains ongoing."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.groupIdentifier"/>
+      <display value="groupIdentifier"/>
+      <target>
+        <code value="CommunicationRequest.groupIdentifier"/>
+        <display value="CommunicationRequest.groupIdentifier"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.groupIdentifier` is mapped to FHIR R4 element `CommunicationRequest.groupIdentifier` as `Equivalent`.&#xA;Requests are linked either by a &quot;basedOn&quot; relationship (i.e. one request is fulfilling another) or by having a common requisition.  Requests that are part of the same requisition are generally treated independently from the perspective of changing their state or maintaining them after initial creation."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.status"/>
+      <display value="status"/>
+      <target>
+        <code value="CommunicationRequest.status"/>
+        <display value="CommunicationRequest.status"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.status` is mapped to FHIR R4 element `CommunicationRequest.status` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.statusReason"/>
+      <display value="statusReason"/>
+      <target>
+        <code value="CommunicationRequest.statusReason"/>
+        <display value="CommunicationRequest.statusReason"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.statusReason` is mapped to FHIR R4 element `CommunicationRequest.statusReason` as `Equivalent`.&#xA;This is generally only used for &quot;exception&quot; statuses such as &quot;on-hold&quot; or &quot;revoked&quot;.  The reason why the CommunicationRequest was created at all is captured in reasonCode, not here."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.category"/>
+      <display value="category"/>
+      <target>
+        <code value="CommunicationRequest.category"/>
+        <display value="CommunicationRequest.category"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.category` is mapped to FHIR R4 element `CommunicationRequest.category` as `Equivalent`.&#xA;There may be multiple axes of categorization and one communication request may serve multiple purposes."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.priority"/>
+      <display value="priority"/>
+      <target>
+        <code value="CommunicationRequest.priority"/>
+        <display value="CommunicationRequest.priority"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.priority` is mapped to FHIR R4 element `CommunicationRequest.priority` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.doNotPerform"/>
+      <display value="doNotPerform"/>
+      <target>
+        <code value="CommunicationRequest.doNotPerform"/>
+        <display value="CommunicationRequest.doNotPerform"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.doNotPerform` is mapped to FHIR R4 element `CommunicationRequest.doNotPerform` as `Equivalent`.&#xA;The attributes provided with the request qualify what is not to be done."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.medium"/>
+      <display value="medium"/>
+      <target>
+        <code value="CommunicationRequest.medium"/>
+        <display value="CommunicationRequest.medium"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.medium` is mapped to FHIR R4 element `CommunicationRequest.medium` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.subject"/>
+      <display value="subject"/>
+      <target>
+        <code value="CommunicationRequest.subject"/>
+        <display value="CommunicationRequest.subject"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.subject` is mapped to FHIR R4 element `CommunicationRequest.subject` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.about"/>
+      <display value="about"/>
+      <target>
+        <code value="CommunicationRequest.about"/>
+        <display value="CommunicationRequest.about"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.about` is mapped to FHIR R4 element `CommunicationRequest.about` as `Equivalent`.&#xA;Don't use CommunicationRequest.about element when a more specific element exists, such as basedOn, reasonReference, or replaces."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="CommunicationRequest.encounter"/>
+        <display value="CommunicationRequest.encounter"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.encounter` is mapped to FHIR R4 element `CommunicationRequest.encounter` as `Equivalent`.&#xA;This will typically be the encounter the event occurred within, but some activities may be initiated prior to or after the official completion of an encounter but still be tied to the context of the encounter."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.payload"/>
+      <display value="payload"/>
+      <target>
+        <code value="CommunicationRequest.payload"/>
+        <display value="CommunicationRequest.payload"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CommunicationRequest.payload` is mapped to FHIR R4 element `CommunicationRequest.payload` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.payload.content[x]"/>
+      <display value="content[x]"/>
+      <target>
+        <code value="CommunicationRequest.payload.content[x]"/>
+        <display value="CommunicationRequest.payload.content[x]"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CommunicationRequest.payload.content[x]` is mapped to FHIR R4 element `CommunicationRequest.payload.content[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `CommunicationRequest.payload.content[x]` do not cover the following types: CodeableConcept.&#xA;The target context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.&#xA;The content can be codified or textual.  As an example of codified content, when working with machine generated communications, the payload may be drawn from a finite, terminology defined set of communications, especially for short, status update kinds of communications where more of a natural language approach isn't appropriate.&#xA;&#xA;If the content isn't codified, contentCodeableConcept.text can be used.  &#xA;&#xA;When using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.occurrence[x]"/>
+      <display value="occurrence[x]"/>
+      <target>
+        <code value="CommunicationRequest.occurrence[x]"/>
+        <display value="CommunicationRequest.occurrence[x]"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.occurrence[x]` is mapped to FHIR R4 element `CommunicationRequest.occurrence[x]` as `Equivalent`.&#xA;The target context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.authoredOn"/>
+      <display value="authoredOn"/>
+      <target>
+        <code value="CommunicationRequest.authoredOn"/>
+        <display value="CommunicationRequest.authoredOn"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.authoredOn` is mapped to FHIR R4 element `CommunicationRequest.authoredOn` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.requester"/>
+      <display value="requester"/>
+      <target>
+        <code value="CommunicationRequest.requester"/>
+        <display value="CommunicationRequest.requester"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.requester` is mapped to FHIR R4 element `CommunicationRequest.requester` as `Equivalent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.recipient"/>
+      <display value="recipient"/>
+      <target>
+        <code value="CommunicationRequest.recipient"/>
+        <display value="CommunicationRequest.recipient"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CommunicationRequest.recipient` is mapped to FHIR R4 element `CommunicationRequest.recipient` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `CommunicationRequest.recipient` with unmapped reference targets: Endpoint."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.informationProvider"/>
+      <display value="informationProvider"/>
+      <target>
+        <code value="CommunicationRequest.sender"/>
+        <display value="CommunicationRequest.sender"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CommunicationRequest.informationProvider` is mapped to FHIR R4 element `CommunicationRequest.sender` as `SourceIsBroaderThanTarget`.&#xA;The standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with unmapped reference targets: Endpoint."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.reason"/>
+      <display value="reason"/>
+      <target>
+        <code value="CommunicationRequest.reasonCode"/>
+        <display value="CommunicationRequest.reasonCode"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;Textual reasons can be captured using reasonCode.text."/>
+      </target>
+      <target>
+        <code value="CommunicationRequest.reasonReference"/>
+        <display value="CommunicationRequest.reasonReference"/>
+        <equivalence value="relatedto"/>
+        <comment value="Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonCode` as `SourceIsBroaderThanTarget`.&#xA;Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonReference` as `SourceIsBroaderThanTarget`.&#xA;Textual reasons can be captured using reasonCode.text."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.note"/>
+      <display value="note"/>
+      <target>
+        <code value="CommunicationRequest.note"/>
+        <display value="CommunicationRequest.note"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.note` is mapped to FHIR R4 element `CommunicationRequest.note` as `Equivalent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="CommunicationRequest.intent"/>
+      <display value="intent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.intent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `CommunicationRequest.intent` has a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`.&#xA;Element `CommunicationRequest.intent` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).&#xA;This element is expected to be immutable.  E.g. A &quot;proposal&quot; instance should never change to be a &quot;plan&quot; instance or &quot;order&quot; instance.  Instead, a new instance 'basedOn' the prior instance should be created with the new 'intent' value.&#xA;&#xA;One exception to this is that the granularity of CommunicationRequest.intent is allowed to change.  For example, a Request identified as an &quot;order&quot; might later be clarified to be a &quot;filler-order&quot;.  Or, in rarer cases (to meet recipient constraints), the reverse might also occur."/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.payload.content[x]"/>
+      <display value="content[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-CommunicationRequest.payload.content"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `CommunicationRequest.payload.content[x]` is mapped to FHIR R4 element `CommunicationRequest.payload.content[x]` as `SourceIsBroaderThanTarget`.&#xA;The mappings for `CommunicationRequest.payload.content[x]` do not cover the following types: CodeableConcept.&#xA;The target context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.&#xA;The content can be codified or textual.  As an example of codified content, when working with machine generated communications, the payload may be drawn from a finite, terminology defined set of communications, especially for short, status update kinds of communications where more of a natural language approach isn't appropriate.&#xA;&#xA;If the content isn't codified, contentCodeableConcept.text can be used.  &#xA;&#xA;When using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/CommunicationRequest"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <targetVersion value="5.2.0"/>
+    <element>
+      <code value="CommunicationRequest.recipient"/>
+      <display value="recipient"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+    <element>
+      <code value="CommunicationRequest.informationProvider"/>
+      <display value="informationProvider"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="R5: additional references"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

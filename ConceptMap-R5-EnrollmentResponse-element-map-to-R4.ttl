@@ -1,0 +1,236 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-EnrollmentResponse-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-EnrollmentResponse-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-EnrollmentResponse-element-map-to-R4</b></p><a name=\"R5-EnrollmentResponse-element-map-to-R4\"> </a><a name=\"hcR5-EnrollmentResponse-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EnrollmentResponse|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/enrollmentresponse.html\">EnrollmentResponseversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>EnrollmentResponse.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.meta</td><td>Element `EnrollmentResponse.meta` is mapped to FHIR R4 element `EnrollmentResponse.meta` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.implicitRules</td><td>Element `EnrollmentResponse.implicitRules` is mapped to FHIR R4 element `EnrollmentResponse.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>EnrollmentResponse.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.language</td><td>Element `EnrollmentResponse.language` is mapped to FHIR R4 element `EnrollmentResponse.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>EnrollmentResponse.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.text</td><td>Element `EnrollmentResponse.text` is mapped to FHIR R4 element `EnrollmentResponse.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>EnrollmentResponse.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.contained</td><td>Element `EnrollmentResponse.contained` is mapped to FHIR R4 element `EnrollmentResponse.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>EnrollmentResponse.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.identifier</td><td>Element `EnrollmentResponse.identifier` is mapped to FHIR R4 element `EnrollmentResponse.identifier` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.status</td><td>Element `EnrollmentResponse.status` is mapped to FHIR R4 element `EnrollmentResponse.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the response as not currently valid.</td></tr><tr><td>EnrollmentResponse.request (request)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.request</td><td>Element `EnrollmentResponse.request` is mapped to FHIR R4 element `EnrollmentResponse.request` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.outcome (outcome)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.outcome</td><td>Element `EnrollmentResponse.outcome` is mapped to FHIR R4 element `EnrollmentResponse.outcome` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.disposition (disposition)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.disposition</td><td>Element `EnrollmentResponse.disposition` is mapped to FHIR R4 element `EnrollmentResponse.disposition` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.created (created)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.created</td><td>Element `EnrollmentResponse.created` is mapped to FHIR R4 element `EnrollmentResponse.created` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.organization (organization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.organization</td><td>Element `EnrollmentResponse.organization` is mapped to FHIR R4 element `EnrollmentResponse.organization` as `Equivalent`.</td></tr><tr><td>EnrollmentResponse.requestProvider (requestProvider)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>EnrollmentResponse.requestProvider</td><td>Element `EnrollmentResponse.requestProvider` is mapped to FHIR R4 element `EnrollmentResponse.requestProvider` as `Equivalent`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-EnrollmentResponse-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-EnrollmentResponse-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5EnrollmentResponseElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 EnrollmentResponse to FHIR R4 EnrollmentResponse"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.974132-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 EnrollmentResponse to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EnrollmentResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/EnrollmentResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/EnrollmentResponse>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "EnrollmentResponse.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.meta" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.meta` is mapped to FHIR R4 element `EnrollmentResponse.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.implicitRules" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.implicitRules` is mapped to FHIR R4 element `EnrollmentResponse.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.language" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.language` is mapped to FHIR R4 element `EnrollmentResponse.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.text" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.text` is mapped to FHIR R4 element `EnrollmentResponse.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.contained" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.contained` is mapped to FHIR R4 element `EnrollmentResponse.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.identifier" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.identifier` is mapped to FHIR R4 element `EnrollmentResponse.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.status" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.status` is mapped to FHIR R4 element `EnrollmentResponse.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains codes that mark the response as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.request" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.request" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.request` is mapped to FHIR R4 element `EnrollmentResponse.request` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.outcome" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.outcome" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.outcome` is mapped to FHIR R4 element `EnrollmentResponse.outcome` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.disposition" ] ;
+       fhir:display [ fhir:v "disposition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.disposition" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.disposition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.disposition` is mapped to FHIR R4 element `EnrollmentResponse.disposition` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.created" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.created" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.created` is mapped to FHIR R4 element `EnrollmentResponse.created` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.organization" ] ;
+       fhir:display [ fhir:v "organization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.organization" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.organization" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.organization` is mapped to FHIR R4 element `EnrollmentResponse.organization` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "EnrollmentResponse.requestProvider" ] ;
+       fhir:display [ fhir:v "requestProvider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "EnrollmentResponse.requestProvider" ] ;
+         fhir:display [ fhir:v "EnrollmentResponse.requestProvider" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `EnrollmentResponse.requestProvider` is mapped to FHIR R4 element `EnrollmentResponse.requestProvider` as `Equivalent`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

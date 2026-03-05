@@ -1,0 +1,489 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Coverage-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Coverage-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Coverage-element-map-to-R4</b></p><a name=\"R5-Coverage-element-map-to-R4\"> </a><a name=\"hcR5-Coverage-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Coverage|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/coverage.html\">Coverageversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Coverage.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.meta</td><td>Element `Coverage.meta` is mapped to FHIR R4 element `Coverage.meta` as `Equivalent`.</td></tr><tr><td>Coverage.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.implicitRules</td><td>Element `Coverage.implicitRules` is mapped to FHIR R4 element `Coverage.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>Coverage.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.language</td><td>Element `Coverage.language` is mapped to FHIR R4 element `Coverage.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>Coverage.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.text</td><td>Element `Coverage.text` is mapped to FHIR R4 element `Coverage.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>Coverage.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.contained</td><td>Element `Coverage.contained` is mapped to FHIR R4 element `Coverage.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>Coverage.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.identifier</td><td>Element `Coverage.identifier` is mapped to FHIR R4 element `Coverage.identifier` as `Equivalent`.\nThe main (and possibly only) identifier for the coverage - often referred to as a Member Id, Certificate number, Personal Health Number or Case ID. May be constructed as the concatenation of the Coverage.SubscriberID and the Coverage.dependant. Note that not all insurers issue unique member IDs therefore searches may result in multiple responses.</td></tr><tr><td>Coverage.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.status</td><td>Element `Coverage.status` is mapped to FHIR R4 element `Coverage.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the coverage as not currently valid.</td></tr><tr><td>Coverage.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.type</td><td>Element `Coverage.type` is mapped to FHIR R4 element `Coverage.type` as `Equivalent`.</td></tr><tr><td>Coverage.policyHolder (policyHolder)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.policyHolder</td><td>Element `Coverage.policyHolder` is mapped to FHIR R4 element `Coverage.policyHolder` as `Equivalent`.\nFor example: may be an individual, corporation or the subscriber's employer.</td></tr><tr><td>Coverage.subscriber (subscriber)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.subscriber</td><td>Element `Coverage.subscriber` is mapped to FHIR R4 element `Coverage.subscriber` as `Equivalent`.\nMay be self or a parent in the case of dependants. A subscriber is only required on certain types of policies not all policies and that it is appropriate to have just a policyholder and a beneficiary when not other party can join that policy instance.</td></tr><tr><td>Coverage.subscriberId (subscriberId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Coverage.subscriberId</td><td>Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.subscriberId` do not cover the following types: Identifier.\nThe mappings for `Coverage.subscriberId` do not cover the following types based on type expansion: assigner, period, type.</td></tr><tr><td>Coverage.beneficiary (beneficiary)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.beneficiary</td><td>Element `Coverage.beneficiary` is mapped to FHIR R4 element `Coverage.beneficiary` as `Equivalent`.</td></tr><tr><td>Coverage.dependent (dependent)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.dependent</td><td>Element `Coverage.dependent` is mapped to FHIR R4 element `Coverage.dependent` as `Equivalent`.\nSometimes the member number is constructed from the subscriberId and the dependant number.</td></tr><tr><td>Coverage.relationship (relationship)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.relationship</td><td>Element `Coverage.relationship` is mapped to FHIR R4 element `Coverage.relationship` as `Equivalent`.\nTypically, an individual uses policies which are theirs (relationship='self') before policies owned by others.</td></tr><tr><td>Coverage.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.period</td><td>Element `Coverage.period` is mapped to FHIR R4 element `Coverage.period` as `Equivalent`.</td></tr><tr><td>Coverage.insurer (insurer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#narrower\" title=\"narrower\">narrower</a></td><td>Coverage.payor</td><td>Element `Coverage.insurer` is mapped to FHIR R4 element `Coverage.payor` as `SourceIsNarrowerThanTarget`.\nMay provide multiple identifiers such as insurance company identifier or business identifier (BIN number).</td></tr><tr><td>Coverage.class (class)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Coverage.class</td><td>Element `Coverage.class` is mapped to FHIR R4 element `Coverage.class` as `Equivalent`.\nFor example, class may be used to identify a class of coverage or employer group, policy, or plan.</td></tr><tr><td>Coverage.class.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.class.type</td><td>Element `Coverage.class.type` is mapped to FHIR R4 element `Coverage.class.type` as `Equivalent`.</td></tr><tr><td>Coverage.class.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Coverage.class.value</td><td>Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.class.value` do not cover the following types: Identifier.\nThe mappings for `Coverage.class.value` do not cover the following types based on type expansion: assigner, period, type.\nFor example, the Group or Plan number.</td></tr><tr><td>Coverage.class.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.class.name</td><td>Element `Coverage.class.name` is mapped to FHIR R4 element `Coverage.class.name` as `Equivalent`.</td></tr><tr><td>Coverage.order (order)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.order</td><td>Element `Coverage.order` is mapped to FHIR R4 element `Coverage.order` as `Equivalent`.</td></tr><tr><td>Coverage.network (network)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.network</td><td>Element `Coverage.network` is mapped to FHIR R4 element `Coverage.network` as `Equivalent`.</td></tr><tr><td>Coverage.costToBeneficiary (costToBeneficiary)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Coverage.costToBeneficiary</td><td>Element `Coverage.costToBeneficiary` is mapped to FHIR R4 element `Coverage.costToBeneficiary` as `Equivalent`.\nFor example by knowing the patient visit co-pay, the provider can collect the amount prior to undertaking treatment.</td></tr><tr><td>Coverage.costToBeneficiary.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.costToBeneficiary.type</td><td>Element `Coverage.costToBeneficiary.type` is mapped to FHIR R4 element `Coverage.costToBeneficiary.type` as `Equivalent`.\nFor example visit, specialist visits, emergency, inpatient care, etc.</td></tr><tr><td>Coverage.costToBeneficiary.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.costToBeneficiary.value[x]</td><td>Element `Coverage.costToBeneficiary.value[x]` is mapped to FHIR R4 element `Coverage.costToBeneficiary.value[x]` as `Equivalent`.\nThe target context `Coverage.costToBeneficiary.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Coverage.costToBeneficiary`.\nAmount may be expressed as a percentage of the service/product cost or a fixed amount of currency.</td></tr><tr><td>Coverage.costToBeneficiary.exception (exception)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>Coverage.costToBeneficiary.exception</td><td>Element `Coverage.costToBeneficiary.exception` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception` as `Equivalent`.</td></tr><tr><td>Coverage.costToBeneficiary.exception.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.costToBeneficiary.exception.type</td><td>Element `Coverage.costToBeneficiary.exception.type` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception.type` as `Equivalent`.</td></tr><tr><td>Coverage.costToBeneficiary.exception.period (period)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.costToBeneficiary.exception.period</td><td>Element `Coverage.costToBeneficiary.exception.period` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception.period` as `Equivalent`.</td></tr><tr><td>Coverage.subrogation (subrogation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.subrogation</td><td>Element `Coverage.subrogation` is mapped to FHIR R4 element `Coverage.subrogation` as `Equivalent`.\nTypically, automotive and worker's compensation policies would be flagged with 'subrogation=true' to enable healthcare payors to collect against accident claims.</td></tr><tr><td>Coverage.contract (contract)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Coverage.contract</td><td>Element `Coverage.contract` is mapped to FHIR R4 element `Coverage.contract` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Coverage|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Coverage.kind (kind)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind</td><td>Element `Coverage.kind` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.kind` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.paymentBy (paymentBy)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy</td><td>Element `Coverage.paymentBy` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.paymentBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.paymentBy.party (party)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy:party</td><td>Element `Coverage.paymentBy.party` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.party` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.paymentBy.party` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.paymentBy.responsibility (responsibility)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy:responsibility</td><td>Element `Coverage.paymentBy.responsibility` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.responsibility` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.paymentBy.responsibility` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.subscriberId (subscriberId)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.subscriberId</td><td>Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.subscriberId` do not cover the following types: Identifier.\nThe mappings for `Coverage.subscriberId` do not cover the following types based on type expansion: assigner, period, type.</td></tr><tr><td>Coverage.class.value (value)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class.value</td><td>Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.class.value` do not cover the following types: Identifier.\nThe mappings for `Coverage.class.value` do not cover the following types based on type expansion: assigner, period, type.\nFor example, the Group or Plan number.</td></tr><tr><td>Coverage.costToBeneficiary.category (category)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category</td><td>Element `Coverage.costToBeneficiary.category` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage.</td></tr><tr><td>Coverage.costToBeneficiary.network (network)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network</td><td>Element `Coverage.costToBeneficiary.network` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.network` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.costToBeneficiary.unit (unit)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit</td><td>Element `Coverage.costToBeneficiary.unit` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.unit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.costToBeneficiary.term (term)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term</td><td>Element `Coverage.costToBeneficiary.term` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.term` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>Coverage.insurancePlan (insurancePlan)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.insurancePlan</td><td>Element `Coverage.insurancePlan` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.insurancePlan` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Coverage-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Coverage-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5CoverageElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Coverage to FHIR R4 Coverage"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:47.7023444-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Coverage to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Coverage"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Coverage>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Coverage"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Coverage>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Coverage.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.meta" ] ;
+         fhir:display [ fhir:v "Coverage.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.meta` is mapped to FHIR R4 element `Coverage.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.implicitRules" ] ;
+         fhir:display [ fhir:v "Coverage.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.implicitRules` is mapped to FHIR R4 element `Coverage.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.language" ] ;
+         fhir:display [ fhir:v "Coverage.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.language` is mapped to FHIR R4 element `Coverage.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.text" ] ;
+         fhir:display [ fhir:v "Coverage.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.text` is mapped to FHIR R4 element `Coverage.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.contained" ] ;
+         fhir:display [ fhir:v "Coverage.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.contained` is mapped to FHIR R4 element `Coverage.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.identifier" ] ;
+         fhir:display [ fhir:v "Coverage.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.identifier` is mapped to FHIR R4 element `Coverage.identifier` as `Equivalent`.\nThe main (and possibly only) identifier for the coverage - often referred to as a Member Id, Certificate number, Personal Health Number or Case ID. May be constructed as the concatenation of the Coverage.SubscriberID and the Coverage.dependant. Note that not all insurers issue unique member IDs therefore searches may result in multiple responses." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.status" ] ;
+         fhir:display [ fhir:v "Coverage.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.status` is mapped to FHIR R4 element `Coverage.status` as `Equivalent`.\nThis element is labeled as a modifier because the status contains the code entered-in-error that marks the coverage as not currently valid." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.type" ] ;
+         fhir:display [ fhir:v "Coverage.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.type` is mapped to FHIR R4 element `Coverage.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.policyHolder" ] ;
+       fhir:display [ fhir:v "policyHolder" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.policyHolder" ] ;
+         fhir:display [ fhir:v "Coverage.policyHolder" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.policyHolder` is mapped to FHIR R4 element `Coverage.policyHolder` as `Equivalent`.\nFor example: may be an individual, corporation or the subscriber's employer." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.subscriber" ] ;
+       fhir:display [ fhir:v "subscriber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.subscriber" ] ;
+         fhir:display [ fhir:v "Coverage.subscriber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.subscriber` is mapped to FHIR R4 element `Coverage.subscriber` as `Equivalent`.\nMay be self or a parent in the case of dependants. A subscriber is only required on certain types of policies not all policies and that it is appropriate to have just a policyholder and a beneficiary when not other party can join that policy instance." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.subscriberId" ] ;
+       fhir:display [ fhir:v "subscriberId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.subscriberId" ] ;
+         fhir:display [ fhir:v "Coverage.subscriberId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.subscriberId` do not cover the following types: Identifier.\nThe mappings for `Coverage.subscriberId` do not cover the following types based on type expansion: assigner, period, type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.beneficiary" ] ;
+       fhir:display [ fhir:v "beneficiary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.beneficiary" ] ;
+         fhir:display [ fhir:v "Coverage.beneficiary" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.beneficiary` is mapped to FHIR R4 element `Coverage.beneficiary` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.dependent" ] ;
+       fhir:display [ fhir:v "dependent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.dependent" ] ;
+         fhir:display [ fhir:v "Coverage.dependent" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.dependent` is mapped to FHIR R4 element `Coverage.dependent` as `Equivalent`.\nSometimes the member number is constructed from the subscriberId and the dependant number." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.relationship" ] ;
+         fhir:display [ fhir:v "Coverage.relationship" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.relationship` is mapped to FHIR R4 element `Coverage.relationship` as `Equivalent`.\nTypically, an individual uses policies which are theirs (relationship='self') before policies owned by others." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.period" ] ;
+         fhir:display [ fhir:v "Coverage.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.period` is mapped to FHIR R4 element `Coverage.period` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.insurer" ] ;
+       fhir:display [ fhir:v "insurer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.payor" ] ;
+         fhir:display [ fhir:v "Coverage.payor" ] ;
+         fhir:equivalence [ fhir:v "narrower" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.insurer` is mapped to FHIR R4 element `Coverage.payor` as `SourceIsNarrowerThanTarget`.\nMay provide multiple identifiers such as insurance company identifier or business identifier (BIN number)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.class" ] ;
+         fhir:display [ fhir:v "Coverage.class" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.class` is mapped to FHIR R4 element `Coverage.class` as `Equivalent`.\nFor example, class may be used to identify a class of coverage or employer group, policy, or plan." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.class.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.class.type" ] ;
+         fhir:display [ fhir:v "Coverage.class.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.class.type` is mapped to FHIR R4 element `Coverage.class.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.class.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.class.value" ] ;
+         fhir:display [ fhir:v "Coverage.class.value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.class.value` do not cover the following types: Identifier.\nThe mappings for `Coverage.class.value` do not cover the following types based on type expansion: assigner, period, type.\nFor example, the Group or Plan number." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.class.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.class.name" ] ;
+         fhir:display [ fhir:v "Coverage.class.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.class.name` is mapped to FHIR R4 element `Coverage.class.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.order" ] ;
+       fhir:display [ fhir:v "order" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.order" ] ;
+         fhir:display [ fhir:v "Coverage.order" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.order` is mapped to FHIR R4 element `Coverage.order` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.network" ] ;
+       fhir:display [ fhir:v "network" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.network" ] ;
+         fhir:display [ fhir:v "Coverage.network" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.network` is mapped to FHIR R4 element `Coverage.network` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary" ] ;
+       fhir:display [ fhir:v "costToBeneficiary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.costToBeneficiary" ] ;
+         fhir:display [ fhir:v "Coverage.costToBeneficiary" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary` is mapped to FHIR R4 element `Coverage.costToBeneficiary` as `Equivalent`.\nFor example by knowing the patient visit co-pay, the provider can collect the amount prior to undertaking treatment." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.costToBeneficiary.type" ] ;
+         fhir:display [ fhir:v "Coverage.costToBeneficiary.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.type` is mapped to FHIR R4 element `Coverage.costToBeneficiary.type` as `Equivalent`.\nFor example visit, specialist visits, emergency, inpatient care, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.costToBeneficiary.value[x]" ] ;
+         fhir:display [ fhir:v "Coverage.costToBeneficiary.value[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.value[x]` is mapped to FHIR R4 element `Coverage.costToBeneficiary.value[x]` as `Equivalent`.\nThe target context `Coverage.costToBeneficiary.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Coverage.costToBeneficiary`.\nAmount may be expressed as a percentage of the service/product cost or a fixed amount of currency." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.exception" ] ;
+       fhir:display [ fhir:v "exception" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.costToBeneficiary.exception" ] ;
+         fhir:display [ fhir:v "Coverage.costToBeneficiary.exception" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.exception` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.exception.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.costToBeneficiary.exception.type" ] ;
+         fhir:display [ fhir:v "Coverage.costToBeneficiary.exception.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.exception.type` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.exception.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.costToBeneficiary.exception.period" ] ;
+         fhir:display [ fhir:v "Coverage.costToBeneficiary.exception.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.exception.period` is mapped to FHIR R4 element `Coverage.costToBeneficiary.exception.period` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.subrogation" ] ;
+       fhir:display [ fhir:v "subrogation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.subrogation" ] ;
+         fhir:display [ fhir:v "Coverage.subrogation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.subrogation` is mapped to FHIR R4 element `Coverage.subrogation` as `Equivalent`.\nTypically, automotive and worker's compensation policies would be flagged with 'subrogation=true' to enable healthcare payors to collect against accident claims." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.contract" ] ;
+       fhir:display [ fhir:v "contract" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Coverage.contract" ] ;
+         fhir:display [ fhir:v "Coverage.contract" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.contract` is mapped to FHIR R4 element `Coverage.contract` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Coverage"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Coverage>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Coverage.kind" ] ;
+       fhir:display [ fhir:v "kind" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.kind" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.kind` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.kind` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.paymentBy" ] ;
+       fhir:display [ fhir:v "paymentBy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.paymentBy` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.paymentBy` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.paymentBy.party" ] ;
+       fhir:display [ fhir:v "party" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy:party" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.paymentBy.party` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.party` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.paymentBy.party` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.paymentBy.responsibility" ] ;
+       fhir:display [ fhir:v "responsibility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy:responsibility" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.paymentBy.responsibility` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.responsibility` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.paymentBy.responsibility` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.subscriberId" ] ;
+       fhir:display [ fhir:v "subscriberId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.subscriberId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.subscriberId` is mapped to FHIR R4 element `Coverage.subscriberId` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.subscriberId` do not cover the following types: Identifier.\nThe mappings for `Coverage.subscriberId` do not cover the following types based on type expansion: assigner, period, type." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.class.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.class.value` is mapped to FHIR R4 element `Coverage.class.value` as `SourceIsBroaderThanTarget`.\nThe mappings for `Coverage.class.value` do not cover the following types: Identifier.\nThe mappings for `Coverage.class.value` do not cover the following types based on type expansion: assigner, period, type.\nFor example, the Group or Plan number." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.category` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.category` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).\nExamples include Medical Care, Periodontics, Renal Dialysis, Vision Coverage." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.network" ] ;
+       fhir:display [ fhir:v "network" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.network` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.network` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.unit" ] ;
+       fhir:display [ fhir:v "unit" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.unit` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.unit` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.costToBeneficiary.term" ] ;
+       fhir:display [ fhir:v "term" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.costToBeneficiary.term` has a context of Coverage.costToBeneficiary based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.costToBeneficiary.term` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Coverage.insurancePlan" ] ;
+       fhir:display [ fhir:v "insurancePlan" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.insurancePlan" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Coverage.insurancePlan` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.\nElement `Coverage.insurancePlan` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

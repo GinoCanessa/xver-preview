@@ -1,0 +1,940 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubstanceDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-SubstanceDefinition-element-map-to-R4"] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-SubstanceDefinition-element-map-to-R4</b></p><a name=\"R5-SubstanceDefinition-element-map-to-R4\"> </a><a name=\"hcR5-SubstanceDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SubstanceDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/substancespecification.html\">SubstanceSpecificationversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubstanceDefinition.meta (meta)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.meta</td><td>Element `SubstanceDefinition.meta` is mapped to FHIR R4 element `SubstanceSpecification.meta` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.implicitRules (implicitRules)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.implicitRules</td><td>Element `SubstanceDefinition.implicitRules` is mapped to FHIR R4 element `SubstanceSpecification.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.</td></tr><tr><td>SubstanceDefinition.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.language</td><td>Element `SubstanceDefinition.language` is mapped to FHIR R4 element `SubstanceSpecification.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).</td></tr><tr><td>SubstanceDefinition.text (text)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.text</td><td>Element `SubstanceDefinition.text` is mapped to FHIR R4 element `SubstanceSpecification.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later.</td></tr><tr><td>SubstanceDefinition.contained (contained)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.contained</td><td>Element `SubstanceDefinition.contained` is mapped to FHIR R4 element `SubstanceSpecification.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels.</td></tr><tr><td>SubstanceDefinition.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.identifier</td><td>Element `SubstanceDefinition.identifier` is mapped to FHIR R4 element `SubstanceSpecification.identifier` as `SourceIsBroaderThanTarget`.</td></tr><tr><td>SubstanceDefinition.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.status</td><td>Element `SubstanceDefinition.status` is mapped to FHIR R4 element `SubstanceSpecification.status` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.domain (domain)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.domain</td><td>Element `SubstanceDefinition.domain` is mapped to FHIR R4 element `SubstanceSpecification.domain` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.description</td><td>Element `SubstanceDefinition.description` is mapped to FHIR R4 element `SubstanceSpecification.description` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety (moiety)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.moiety</td><td>Element `SubstanceDefinition.moiety` is mapped to FHIR R4 element `SubstanceSpecification.moiety` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.role (role)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.role</td><td>Element `SubstanceDefinition.moiety.role` is mapped to FHIR R4 element `SubstanceSpecification.moiety.role` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.identifier (identifier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.identifier</td><td>Element `SubstanceDefinition.moiety.identifier` is mapped to FHIR R4 element `SubstanceSpecification.moiety.identifier` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.name</td><td>Element `SubstanceDefinition.moiety.name` is mapped to FHIR R4 element `SubstanceSpecification.moiety.name` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.stereochemistry (stereochemistry)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.stereochemistry</td><td>Element `SubstanceDefinition.moiety.stereochemistry` is mapped to FHIR R4 element `SubstanceSpecification.moiety.stereochemistry` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.opticalActivity (opticalActivity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.opticalActivity</td><td>Element `SubstanceDefinition.moiety.opticalActivity` is mapped to FHIR R4 element `SubstanceSpecification.moiety.opticalActivity` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.molecularFormula (molecularFormula)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.molecularFormula</td><td>Element `SubstanceDefinition.moiety.molecularFormula` is mapped to FHIR R4 element `SubstanceSpecification.moiety.molecularFormula` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.moiety.amount[x] (amount[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.moiety.amount[x]</td><td>Element `SubstanceDefinition.moiety.amount[x]` is mapped to FHIR R4 element `SubstanceSpecification.moiety.amount[x]` as `Equivalent`.\nThe target context `SubstanceSpecification.moiety.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.moiety`.</td></tr><tr><td>SubstanceDefinition.property (property)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.property</td><td>Element `SubstanceDefinition.property` is mapped to FHIR R4 element `SubstanceSpecification.property` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.molecularWeight (molecularWeight)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.molecularWeight</td><td>Element `SubstanceDefinition.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure (structure)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.structure</td><td>Element `SubstanceDefinition.structure` is mapped to FHIR R4 element `SubstanceSpecification.structure` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.stereochemistry (stereochemistry)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.stereochemistry</td><td>Element `SubstanceDefinition.structure.stereochemistry` is mapped to FHIR R4 element `SubstanceSpecification.structure.stereochemistry` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.opticalActivity (opticalActivity)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.opticalActivity</td><td>Element `SubstanceDefinition.structure.opticalActivity` is mapped to FHIR R4 element `SubstanceSpecification.structure.opticalActivity` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.molecularFormula (molecularFormula)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.molecularFormula</td><td>Element `SubstanceDefinition.structure.molecularFormula` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormula` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.molecularFormulaByMoiety (molecularFormulaByMoiety)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.molecularFormulaByMoiety</td><td>Element `SubstanceDefinition.structure.molecularFormulaByMoiety` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormulaByMoiety` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.molecularWeight (molecularWeight)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.molecularWeight</td><td>Element `SubstanceDefinition.structure.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.representation (representation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.structure.representation</td><td>Element `SubstanceDefinition.structure.representation` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.representation.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.representation.type</td><td>Element `SubstanceDefinition.structure.representation.type` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.type` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.structure.representation.representation (representation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.structure.representation.representation</td><td>Element `SubstanceDefinition.structure.representation.representation` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.representation` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.code</td><td>Element `SubstanceDefinition.code` is mapped to FHIR R4 element `SubstanceSpecification.code` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.code.code (code)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.code.code</td><td>Element `SubstanceDefinition.code.code` is mapped to FHIR R4 element `SubstanceSpecification.code.code` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.code.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.code.status</td><td>Element `SubstanceDefinition.code.status` is mapped to FHIR R4 element `SubstanceSpecification.code.status` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.code.statusDate (statusDate)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.code.statusDate</td><td>Element `SubstanceDefinition.code.statusDate` is mapped to FHIR R4 element `SubstanceSpecification.code.statusDate` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.code.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.code.source</td><td>Element `SubstanceDefinition.code.source` is mapped to FHIR R4 element `SubstanceSpecification.code.source` as `SourceIsBroaderThanTarget`.\nThe mappings for `SubstanceDefinition.code.source` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SubstanceDefinition.code.source` with unmapped reference targets: DocumentReference.</td></tr><tr><td>SubstanceDefinition.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.name</td><td>Element `SubstanceDefinition.name` is mapped to FHIR R4 element `SubstanceSpecification.name` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.name (name)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.name</td><td>Element `SubstanceDefinition.name.name` is mapped to FHIR R4 element `SubstanceSpecification.name.name` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.type</td><td>Element `SubstanceDefinition.name.type` is mapped to FHIR R4 element `SubstanceSpecification.name.type` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.status</td><td>Element `SubstanceDefinition.name.status` is mapped to FHIR R4 element `SubstanceSpecification.name.status` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.preferred (preferred)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.preferred</td><td>Element `SubstanceDefinition.name.preferred` is mapped to FHIR R4 element `SubstanceSpecification.name.preferred` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.name.language</td><td>Element `SubstanceDefinition.name.language` is mapped to FHIR R4 element `SubstanceSpecification.name.language` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.domain (domain)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.domain</td><td>Element `SubstanceDefinition.name.domain` is mapped to FHIR R4 element `SubstanceSpecification.name.domain` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.jurisdiction (jurisdiction)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.jurisdiction</td><td>Element `SubstanceDefinition.name.jurisdiction` is mapped to FHIR R4 element `SubstanceSpecification.name.jurisdiction` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.synonym (synonym)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.synonym</td><td>Element `SubstanceDefinition.name.synonym` is mapped to FHIR R4 element `SubstanceSpecification.name.synonym` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.translation (translation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.translation</td><td>Element `SubstanceDefinition.name.translation` is mapped to FHIR R4 element `SubstanceSpecification.name.translation` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.official (official)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.name.official</td><td>Element `SubstanceDefinition.name.official` is mapped to FHIR R4 element `SubstanceSpecification.name.official` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.official.authority (authority)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.official.authority</td><td>Element `SubstanceDefinition.name.official.authority` is mapped to FHIR R4 element `SubstanceSpecification.name.official.authority` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.official.status (status)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.official.status</td><td>Element `SubstanceDefinition.name.official.status` is mapped to FHIR R4 element `SubstanceSpecification.name.official.status` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.official.date (date)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.name.official.date</td><td>Element `SubstanceDefinition.name.official.date` is mapped to FHIR R4 element `SubstanceSpecification.name.official.date` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.name.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.name.source</td><td>Element `SubstanceDefinition.name.source` is mapped to FHIR R4 element `SubstanceSpecification.name.source` as `SourceIsBroaderThanTarget`.\nThe mappings for `SubstanceDefinition.name.source` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SubstanceDefinition.name.source` with unmapped reference targets: DocumentReference.</td></tr><tr><td>SubstanceDefinition.relationship (relationship)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.relationship</td><td>Element `SubstanceDefinition.relationship` is mapped to FHIR R4 element `SubstanceSpecification.relationship` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.relationship.isDefining (isDefining)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.relationship.isDefining</td><td>Element `SubstanceDefinition.relationship.isDefining` is mapped to FHIR R4 element `SubstanceSpecification.relationship.isDefining` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.relationship.amount[x] (amount[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>SubstanceSpecification.relationship.amount[x]</td><td>Element `SubstanceDefinition.relationship.amount[x]` is mapped to FHIR R4 element `SubstanceSpecification.relationship.amount[x]` as `Equivalent`.\nThe target context `SubstanceSpecification.relationship.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.relationship`.</td></tr><tr><td>SubstanceDefinition.relationship.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.relationship.source</td><td>Element `SubstanceDefinition.relationship.source` is mapped to FHIR R4 element `SubstanceSpecification.relationship.source` as `SourceIsBroaderThanTarget`.\nThe mappings for `SubstanceDefinition.relationship.source` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SubstanceDefinition.relationship.source` with unmapped reference targets: DocumentReference.</td></tr><tr><td>SubstanceDefinition.sourceMaterial (sourceMaterial)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>SubstanceSpecification.sourceMaterial</td><td>Element `SubstanceDefinition.sourceMaterial` is mapped to FHIR R4 element `SubstanceSpecification.sourceMaterial` as `Equivalent`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SubstanceDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubstanceDefinition.version (version)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.version</td><td>Element `SubstanceDefinition.version` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.classification (classification)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.classification</td><td>Element `SubstanceDefinition.classification` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.classification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.grade (grade)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.grade</td><td>Element `SubstanceDefinition.grade` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.grade` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.informationSource (informationSource)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.informationSource</td><td>Element `SubstanceDefinition.informationSource` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.informationSource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.note</td><td>Element `SubstanceDefinition.note` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.manufacturer (manufacturer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.manufacturer</td><td>Element `SubstanceDefinition.manufacturer` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.manufacturer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.supplier (supplier)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.supplier</td><td>Element `SubstanceDefinition.supplier` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.supplier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.moiety.measurementType (measurementType)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.moiety.measurementType</td><td>Element `SubstanceDefinition.moiety.measurementType` has a context of SubstanceSpecification.moiety based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.moiety.measurementType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.characterization (characterization)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization</td><td>Element `SubstanceDefinition.characterization` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.characterization.technique (technique)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:technique</td><td>Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.technique` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.characterization.form (form)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:form</td><td>Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.form` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.characterization.description (description)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:description</td><td>Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.characterization.file (file)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:file</td><td>Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.file` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.property.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.property.type</td><td>Element `SubstanceDefinition.property.type` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.property.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.property.value[x] (value[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.property.value</td><td>Element `SubstanceDefinition.property.value[x]` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.referenceInformation (referenceInformation)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.referenceInformation</td><td>Element `SubstanceDefinition.referenceInformation` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.referenceInformation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.molecularWeight.method (method)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.method</td><td>Element `SubstanceDefinition.molecularWeight.method` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.molecularWeight.method` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.molecularWeight.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.type</td><td>Element `SubstanceDefinition.molecularWeight.type` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.molecularWeight.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.molecularWeight.amount (amount)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.amount</td><td>Element `SubstanceDefinition.molecularWeight.amount` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.molecularWeight.amount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.structure.technique (technique)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.technique</td><td>Element `SubstanceDefinition.structure.technique` has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.technique` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.structure.sourceDocument (sourceDocument)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.sourceDocument</td><td>Element `SubstanceDefinition.structure.sourceDocument` has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.sourceDocument` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.structure.representation.format (format)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.representation.format</td><td>Element `SubstanceDefinition.structure.representation.format` has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.representation.format` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.structure.representation.document (document)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.representation.document</td><td>Element `SubstanceDefinition.structure.representation.document` has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.representation.document` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.code.note (note)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.code.note</td><td>Element `SubstanceDefinition.code.note` has a context of SubstanceSpecification.code based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.code.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.name.language (language)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.name.language</td><td>Element `SubstanceDefinition.name.language` is mapped to FHIR R4 element `SubstanceSpecification.name.language` as `Equivalent`.</td></tr><tr><td>SubstanceDefinition.relationship.substanceDefinition[x] (substanceDefinition[x])</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.substanceDefinition</td><td>Element `SubstanceDefinition.relationship.substanceDefinition[x]` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.substanceDefinition[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.relationship.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.type</td><td>Element `SubstanceDefinition.relationship.type` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.relationship.ratioHighLimitAmount (ratioHighLimitAmount)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.ratioHighLimitAmount</td><td>Element `SubstanceDefinition.relationship.ratioHighLimitAmount` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.ratioHighLimitAmount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.relationship.comparator (comparator)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.comparator</td><td>Element `SubstanceDefinition.relationship.comparator` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.comparator` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.nucleicAcid (nucleicAcid)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.nucleicAcid</td><td>Element `SubstanceDefinition.nucleicAcid` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.nucleicAcid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.polymer (polymer)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.polymer</td><td>Element `SubstanceDefinition.polymer` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.polymer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.protein (protein)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.protein</td><td>Element `SubstanceDefinition.protein` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.protein` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.sourceMaterial.type (type)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.type</td><td>Element `SubstanceDefinition.sourceMaterial.type` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.sourceMaterial.genus (genus)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.genus</td><td>Element `SubstanceDefinition.sourceMaterial.genus` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.genus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.sourceMaterial.species (species)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.species</td><td>Element `SubstanceDefinition.sourceMaterial.species` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.species` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.sourceMaterial.part (part)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.part</td><td>Element `SubstanceDefinition.sourceMaterial.part` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.part` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr><tr><td>SubstanceDefinition.sourceMaterial.countryOfOrigin (countryOfOrigin)</td><td><a href=\"CodeSystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.countryOfOrigin</td><td>Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.countryOfOrigin` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element).</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SubstanceDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Packversion: 5.2.0)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubstanceDefinition.code.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>SubstanceDefinition.name.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr><tr><td>SubstanceDefinition.relationship.source (source)</td><td><a href=\"CodeSystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>R5: additional references</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubstanceDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubstanceDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "R5SubstanceDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 SubstanceDefinition to FHIR R4 SubstanceSpecification"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-04T17:07:52.0996285-06:00"^^xsd:dateTime] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 SubstanceDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubstanceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubstanceSpecification>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubstanceDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.meta" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.meta` is mapped to FHIR R4 element `SubstanceSpecification.meta` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.implicitRules" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.implicitRules` is mapped to FHIR R4 element `SubstanceSpecification.implicitRules` as `Equivalent`.\nAsserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.language" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.language` is mapped to FHIR R4 element `SubstanceSpecification.language` as `Equivalent`.\nLanguage is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.text" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.text` is mapped to FHIR R4 element `SubstanceSpecification.text` as `Equivalent`.\nContained resources do not have a narrative. Resources that are not contained SHOULD have a narrative. In some cases, a resource may only have text with little or no additional discrete data (as long as all minOccurs=1 elements are satisfied).  This may be necessary for data from legacy systems where information is captured as a \"text blob\" or where text is additionally entered raw or narrated and encoded information is added later." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.contained" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.contained` is mapped to FHIR R4 element `SubstanceSpecification.contained` as `Equivalent`.\nThis should never be done when the content can be identified properly, as once identification is lost, it is extremely difficult (and context dependent) to restore it again. Contained resources may have profiles and tags in their meta elements, but SHALL NOT have security labels." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.identifier" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.identifier` is mapped to FHIR R4 element `SubstanceSpecification.identifier` as `SourceIsBroaderThanTarget`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.status" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.status` is mapped to FHIR R4 element `SubstanceSpecification.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.domain" ] ;
+       fhir:display [ fhir:v "domain" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.domain" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.domain" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.domain` is mapped to FHIR R4 element `SubstanceSpecification.domain` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.description" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.description` is mapped to FHIR R4 element `SubstanceSpecification.description` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety" ] ;
+       fhir:display [ fhir:v "moiety" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety` is mapped to FHIR R4 element `SubstanceSpecification.moiety` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.role" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.role` is mapped to FHIR R4 element `SubstanceSpecification.moiety.role` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.identifier" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.identifier` is mapped to FHIR R4 element `SubstanceSpecification.moiety.identifier` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.name" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.name` is mapped to FHIR R4 element `SubstanceSpecification.moiety.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.stereochemistry" ] ;
+       fhir:display [ fhir:v "stereochemistry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.stereochemistry" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.stereochemistry" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.stereochemistry` is mapped to FHIR R4 element `SubstanceSpecification.moiety.stereochemistry` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.opticalActivity" ] ;
+       fhir:display [ fhir:v "opticalActivity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.opticalActivity" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.opticalActivity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.opticalActivity` is mapped to FHIR R4 element `SubstanceSpecification.moiety.opticalActivity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.molecularFormula" ] ;
+       fhir:display [ fhir:v "molecularFormula" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.molecularFormula" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.molecularFormula" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.molecularFormula` is mapped to FHIR R4 element `SubstanceSpecification.moiety.molecularFormula` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.amount[x]" ] ;
+       fhir:display [ fhir:v "amount[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.moiety.amount[x]" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.moiety.amount[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.amount[x]` is mapped to FHIR R4 element `SubstanceSpecification.moiety.amount[x]` as `Equivalent`.\nThe target context `SubstanceSpecification.moiety.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.moiety`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.property" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.property` is mapped to FHIR R4 element `SubstanceSpecification.property` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.molecularWeight" ] ;
+       fhir:display [ fhir:v "molecularWeight" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.molecularWeight" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.molecularWeight" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure" ] ;
+       fhir:display [ fhir:v "structure" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure` is mapped to FHIR R4 element `SubstanceSpecification.structure` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.stereochemistry" ] ;
+       fhir:display [ fhir:v "stereochemistry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.stereochemistry" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.stereochemistry" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.stereochemistry` is mapped to FHIR R4 element `SubstanceSpecification.structure.stereochemistry` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.opticalActivity" ] ;
+       fhir:display [ fhir:v "opticalActivity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.opticalActivity" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.opticalActivity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.opticalActivity` is mapped to FHIR R4 element `SubstanceSpecification.structure.opticalActivity` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.molecularFormula" ] ;
+       fhir:display [ fhir:v "molecularFormula" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.molecularFormula" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.molecularFormula" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.molecularFormula` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormula` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.molecularFormulaByMoiety" ] ;
+       fhir:display [ fhir:v "molecularFormulaByMoiety" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.molecularFormulaByMoiety" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.molecularFormulaByMoiety" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.molecularFormulaByMoiety` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormulaByMoiety` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.molecularWeight" ] ;
+       fhir:display [ fhir:v "molecularWeight" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.molecularWeight" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.molecularWeight" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.representation" ] ;
+       fhir:display [ fhir:v "representation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.representation" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.representation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.representation` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.representation.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.representation.type" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.representation.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.representation.type` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.representation.representation" ] ;
+       fhir:display [ fhir:v "representation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.structure.representation.representation" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.structure.representation.representation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.representation.representation` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.representation` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.code" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.code` is mapped to FHIR R4 element `SubstanceSpecification.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.code.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.code.code" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.code.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.code.code` is mapped to FHIR R4 element `SubstanceSpecification.code.code` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.code.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.code.status" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.code.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.code.status` is mapped to FHIR R4 element `SubstanceSpecification.code.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.code.statusDate" ] ;
+       fhir:display [ fhir:v "statusDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.code.statusDate" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.code.statusDate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.code.statusDate` is mapped to FHIR R4 element `SubstanceSpecification.code.statusDate` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.code.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.code.source" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.code.source" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.code.source` is mapped to FHIR R4 element `SubstanceSpecification.code.source` as `SourceIsBroaderThanTarget`.\nThe mappings for `SubstanceDefinition.code.source` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SubstanceDefinition.code.source` with unmapped reference targets: DocumentReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name` is mapped to FHIR R4 element `SubstanceSpecification.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.name" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.name` is mapped to FHIR R4 element `SubstanceSpecification.name.name` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.type" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.type` is mapped to FHIR R4 element `SubstanceSpecification.name.type` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.status" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.status` is mapped to FHIR R4 element `SubstanceSpecification.name.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.preferred" ] ;
+       fhir:display [ fhir:v "preferred" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.preferred" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.preferred" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.preferred` is mapped to FHIR R4 element `SubstanceSpecification.name.preferred` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.language" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.language" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.language` is mapped to FHIR R4 element `SubstanceSpecification.name.language` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.domain" ] ;
+       fhir:display [ fhir:v "domain" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.domain" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.domain" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.domain` is mapped to FHIR R4 element `SubstanceSpecification.name.domain` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.jurisdiction" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.jurisdiction` is mapped to FHIR R4 element `SubstanceSpecification.name.jurisdiction` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.synonym" ] ;
+       fhir:display [ fhir:v "synonym" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.synonym" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.synonym" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.synonym` is mapped to FHIR R4 element `SubstanceSpecification.name.synonym` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.translation" ] ;
+       fhir:display [ fhir:v "translation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.translation" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.translation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.translation` is mapped to FHIR R4 element `SubstanceSpecification.name.translation` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.official" ] ;
+       fhir:display [ fhir:v "official" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.official" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.official" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.official` is mapped to FHIR R4 element `SubstanceSpecification.name.official` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.official.authority" ] ;
+       fhir:display [ fhir:v "authority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.official.authority" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.official.authority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.official.authority` is mapped to FHIR R4 element `SubstanceSpecification.name.official.authority` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.official.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.official.status" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.official.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.official.status` is mapped to FHIR R4 element `SubstanceSpecification.name.official.status` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.official.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.official.date" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.official.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.official.date` is mapped to FHIR R4 element `SubstanceSpecification.name.official.date` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.name.source" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.name.source" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.source` is mapped to FHIR R4 element `SubstanceSpecification.name.source` as `SourceIsBroaderThanTarget`.\nThe mappings for `SubstanceDefinition.name.source` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SubstanceDefinition.name.source` with unmapped reference targets: DocumentReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship" ] ;
+       fhir:display [ fhir:v "relationship" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.relationship" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.relationship" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship` is mapped to FHIR R4 element `SubstanceSpecification.relationship` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.isDefining" ] ;
+       fhir:display [ fhir:v "isDefining" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.relationship.isDefining" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.relationship.isDefining" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.isDefining` is mapped to FHIR R4 element `SubstanceSpecification.relationship.isDefining` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.amount[x]" ] ;
+       fhir:display [ fhir:v "amount[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.relationship.amount[x]" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.relationship.amount[x]" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.amount[x]` is mapped to FHIR R4 element `SubstanceSpecification.relationship.amount[x]` as `Equivalent`.\nThe target context `SubstanceSpecification.relationship.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.relationship`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.relationship.source" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.relationship.source" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.source` is mapped to FHIR R4 element `SubstanceSpecification.relationship.source` as `SourceIsBroaderThanTarget`.\nThe mappings for `SubstanceDefinition.relationship.source` do not cover the following types based on type expansion: display, identifier, reference, type.\nThe standard extension `alternate-reference` has been mapped as the representation of FHIR R5 element `SubstanceDefinition.relationship.source` with unmapped reference targets: DocumentReference." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.sourceMaterial" ] ;
+       fhir:display [ fhir:v "sourceMaterial" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "SubstanceSpecification.sourceMaterial" ] ;
+         fhir:display [ fhir:v "SubstanceSpecification.sourceMaterial" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.sourceMaterial` is mapped to FHIR R4 element `SubstanceSpecification.sourceMaterial` as `Equivalent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubstanceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubstanceDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.version` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.version` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.classification" ] ;
+       fhir:display [ fhir:v "classification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.classification" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.classification` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.classification` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.grade" ] ;
+       fhir:display [ fhir:v "grade" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.grade" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.grade` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.grade` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.informationSource" ] ;
+       fhir:display [ fhir:v "informationSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.informationSource" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.informationSource` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.informationSource` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.note` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.manufacturer` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.manufacturer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.supplier" ] ;
+       fhir:display [ fhir:v "supplier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.supplier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.supplier` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.supplier` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.moiety.measurementType" ] ;
+       fhir:display [ fhir:v "measurementType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.moiety.measurementType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.moiety.measurementType` has a context of SubstanceSpecification.moiety based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.moiety.measurementType` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.characterization" ] ;
+       fhir:display [ fhir:v "characterization" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.characterization` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.characterization.technique" ] ;
+       fhir:display [ fhir:v "technique" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:technique" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.technique` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.characterization.form" ] ;
+       fhir:display [ fhir:v "form" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:form" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.form` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.characterization.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.description` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.characterization.file" ] ;
+       fhir:display [ fhir:v "file" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization:file" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.characterization.file` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.property.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.property.type` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.property.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.property.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.property.value[x]` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.property.value[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.referenceInformation" ] ;
+       fhir:display [ fhir:v "referenceInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.referenceInformation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.referenceInformation` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.referenceInformation` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.molecularWeight.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.method" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.molecularWeight.method` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.molecularWeight.method` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.molecularWeight.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.molecularWeight.type` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.molecularWeight.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.molecularWeight.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.amount" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.molecularWeight.amount` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.molecularWeight.amount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.technique" ] ;
+       fhir:display [ fhir:v "technique" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.technique" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.technique` has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.technique` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.sourceDocument" ] ;
+       fhir:display [ fhir:v "sourceDocument" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.sourceDocument" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.sourceDocument` has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.sourceDocument` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.representation.format" ] ;
+       fhir:display [ fhir:v "format" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.representation.format" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.representation.format` has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.representation.format` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.structure.representation.document" ] ;
+       fhir:display [ fhir:v "document" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.representation.document" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.structure.representation.document` has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.structure.representation.document` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.code.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.code.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.code.note` has a context of SubstanceSpecification.code based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.code.note` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.name.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.name.language` is mapped to FHIR R4 element `SubstanceSpecification.name.language` as `Equivalent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.substanceDefinition[x]" ] ;
+       fhir:display [ fhir:v "substanceDefinition[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.substanceDefinition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.substanceDefinition[x]` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.substanceDefinition[x]` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.type` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.ratioHighLimitAmount" ] ;
+       fhir:display [ fhir:v "ratioHighLimitAmount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.ratioHighLimitAmount" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.ratioHighLimitAmount` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.ratioHighLimitAmount` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.comparator" ] ;
+       fhir:display [ fhir:v "comparator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.comparator" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.relationship.comparator` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.relationship.comparator` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.nucleicAcid" ] ;
+       fhir:display [ fhir:v "nucleicAcid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.nucleicAcid" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.nucleicAcid` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.nucleicAcid` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.polymer" ] ;
+       fhir:display [ fhir:v "polymer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.polymer" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.polymer` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.polymer` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.protein" ] ;
+       fhir:display [ fhir:v "protein" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.protein" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.protein` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.protein` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.sourceMaterial.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.sourceMaterial.type` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.type` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.sourceMaterial.genus" ] ;
+       fhir:display [ fhir:v "genus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.genus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.sourceMaterial.genus` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.genus` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.sourceMaterial.species" ] ;
+       fhir:display [ fhir:v "species" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.species" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.sourceMaterial.species` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.species` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.sourceMaterial.part" ] ;
+       fhir:display [ fhir:v "part" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.part" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.sourceMaterial.part` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.part` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.sourceMaterial.countryOfOrigin" ] ;
+       fhir:display [ fhir:v "countryOfOrigin" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.countryOfOrigin" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.\nElement `SubstanceDefinition.sourceMaterial.countryOfOrigin` has no mapping targets in FHIR R4. Typically, this is because the element has been added (is a new element)." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubstanceDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:targetVersion [ fhir:v "5.2.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubstanceDefinition.code.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.name.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceDefinition.relationship.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "R5: additional references" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
